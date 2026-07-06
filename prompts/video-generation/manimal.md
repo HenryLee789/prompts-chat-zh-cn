@@ -1,41 +1,23 @@
----
-id: "cmmklx1sm0009jv04egfm5kys"
-slug: "manimal"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/manimal"
-category: "video-generation"
-category_name: "Video Generation"
-category_zh: "视频生成"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b6d9444c3f8e7b8e9a6d49298be38eff4dd1de93aec0ebc70533b4fa4a47becb"
-upstream_updated_at: "2026-03-10T17:03:08.364Z"
----
 # 动物
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[manimal](https://prompts.chat/prompts/manimal)  
-> 分类：视频生成（Video Generation / `video-generation`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于视频生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「动物」执行视频生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 使用场景
 
-- 用于视频生成相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
+* 生成可用于视频模型的镜头和动作提示
+* 描述画面、节奏、镜头、光线和叙事
+* 把创意概念转化为可执行的视频生成指令
+* 适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 适用人群
 
-- 视频创作者
-- 导演或编导
-- AI 视频用户
+* 视频创作者
+* 导演或编导
+* AI 视频用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ### 风格
@@ -119,14 +101,8 @@ A peaceful autumn morning on a wooden porch is interrupted when a large black be
 The sharp sound of a door or window being struck, the aggressive hiss of the cat, the heavy thud of the bear's paws on the wood, and the frantic, high-pitched screaming of a woman. Ambient wind and distant outdoor sounds provide a low-level hum.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [manimal](https://prompts.chat/prompts/manimal) |
-| Category | Video Generation (`video-generation`) |
-| Type | `VIDEO` |
-| Tags | None |
-| Contributors | pryannimal |
-| Updated At | 2026-03-10T17:03:08.364Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

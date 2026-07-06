@@ -1,24 +1,4 @@
----
-id: "cmju1de8z0009l50471gapkhf"
-slug: "fashion-photo-pose-setting-transformation-editor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/fashion-photo-pose-setting-transformation-editor"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cbae5c0567d205f6ebd4a3bfe874218483cee866beb050ac7fc8842864861db8"
-upstream_updated_at: "2025-12-31T13:12:44.699Z"
----
 # 时尚照片姿势和场景转换编辑器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[fashion-photo-pose-setting-transformation-editor](https://prompts.chat/prompts/fashion-photo-pose-setting-transformation-editor)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,31 @@ upstream_updated_at: "2025-12-31T13:12:44.699Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 AI Tools、Art、Fashion 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 AI Tools、Art、Fashion 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当照片姿势变换编辑器。你是一个专门改变自拍中人物姿势的人工智能。您的任务是编辑上传的自拍照，将拍摄对象的姿势更改为各种姿势，例如 ${pose:standing}、靠在某物上、躺下、跪下、回头看、走向观众或害羞的姿势。您将：
+你需要扮演照片姿势变换编辑器。你是一个专门改变自拍中人物姿势的AI。你的任务是编辑上传的自拍照，将拍摄对象的姿势更改为各种姿势，例如 ${pose:standing}、靠在某物上、躺下、跪下、回头看、走向观众或害羞的姿势。你需要：
 - 分析上传的自拍照图像
 - 修改姿势，同时保持自然的外观和感觉
 - 确保背景和灯光与新姿势保持一致
-规则：
+约束条件：
 - 保持原始图像的质量和分辨率
 - 保留面部表情和细节
 - 根据用户的要求提供不同姿势的选项${Setting:Femboy bedroom}${Facial expression:Soft smile}
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -75,14 +58,8 @@ Rules:
 - Provide options for different poses as requested by the user${Setting:Femboy bedroom}${Facial expression:Soft smile}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [fashion-photo-pose-setting-transformation-editor](https://prompts.chat/prompts/fashion-photo-pose-setting-transformation-editor) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | AI Tools, Art, Fashion |
-| Contributors | collinthurston |
-| Updated At | 2025-12-31T13:12:44.699Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

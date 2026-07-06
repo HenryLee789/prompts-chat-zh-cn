@@ -1,24 +1,4 @@
----
-id: "cmmxur2dd000hjs04zn6fdjqr"
-slug: "high-stakes-decision-support-system"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/high-stakes-decision-support-system"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9de4325412dd654267aa738f7a248ed7831341633c17b51cda471e3dd59d1ab3"
-upstream_updated_at: "2026-03-19T19:17:36.577Z"
----
 # 高风险决策支持系统
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[high-stakes-decision-support-system](https://prompts.chat/prompts/high-stakes-decision-support-system)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,25 @@ upstream_updated_at: "2026-03-19T19:17:36.577Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-建立一个名为“Pivot”的高风险决策支持系统——一种用于重大生活和商业决策的结构化思维工具。
-这与简单的优缺点列表不同。该值存在于结构化分析过程中，而不是输出文档中。
-核心特点：
+建立一个名为“Pivot”的高风险决策支持系统——一种用于重大生活和商业决策的结构化思维工具。这与简单的优缺点列表不同。该值存在于结构化分析过程中，而不是输出文档中。核心特点：
 - 决策摄入：用户描述决策（他们正在选择什么）、他们的限制（时间、金钱、关系、义务）、他们声明的价值观（前 3 个）、他们当前的倾向和他们的截止日期
 - 强制性澄清问题：[LLM API] 生成 5 个问题，旨在揭示用户具体决策中隐藏的假设和未说明的权衡。用户必须回答全部 5 个问题才能继续。这些问题的质量就是产品的质量
 - 六个分析框架（每个分析框架作为单独的 API 调用运行，显示在选项卡中）：
-  (1) 期望值 — 每个选项下的概率加权结果 (2) 遗憾最小化 — 哪个选项是您在 80 岁时最不可能后悔的 (3) 价值观一致性 — 哪个选项与既定价值观最一致，并有具体证据 (4) 可逆性指数 — 每个选项错误时撤销的容易程度 (5) 二阶效应 — 每个选项在 6 个月和 3 年内会产生什么结果 (6) 给朋友的建议 — 如果值得信赖的朋友描述了这一点具体情况，你会告诉他们什么？
+  (1) 期望值 — 每个选项下的概率加权结果 (2) 遗憾最小化 — 哪个选项是你在 80 岁时最不可能后悔的 (3) 价值观一致性 — 哪个选项与既定价值观最一致，并有具体证据 (4) 可逆性指数 — 每个选项bug时撤销的容易程度 (5) 二阶效应 — 每个选项在 6 个月和 3 年内会产生什么结果 (6) 给朋友的建议 — 如果值得信赖的朋友描述了这一点具体情况，你会告诉他们什么？
 - 魔鬼代言人简介：单独的分析尽可能强烈地反对用户当前的倾向 - 在 6 帧之后显示
 - 决策记录：存储所有分析和做出的最终决策。用户更新 90 天和 1 年的实际结果
 
@@ -80,14 +60,8 @@ Stack: React, [LLM API] with one carefully crafted prompt per analytical frame, 
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [high-stakes-decision-support-system](https://prompts.chat/prompts/high-stakes-decision-support-system) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:17:36.577Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

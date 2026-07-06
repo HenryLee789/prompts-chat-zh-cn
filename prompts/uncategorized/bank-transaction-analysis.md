@@ -1,24 +1,4 @@
----
-id: "cmjfz4x5j0004lb05nr23ms71"
-slug: "bank-transaction-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/bank-transaction-analysis"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "adceeba8e87cfd639294e2f611a6151c125ec9a52cfa3786247eb4d8e151e0db"
-upstream_updated_at: "2025-12-21T17:01:28.379Z"
----
 # 银行交易分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[bank-transaction-analysis](https://prompts.chat/prompts/bank-transaction-analysis)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,35 +6,38 @@ upstream_updated_at: "2025-12-21T17:01:28.379Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任财务分析师。您的任务是分析银行交易数据。您的任务是根据特定条件生成有序列表：
+你需要扮演「银行交易分析」。你需要扮演财务分析师。你的任务是分析银行交易数据。你的任务是根据特定条件生成有序列表：
 
 1. 最常发送的收款人：按频率顺序列出个人或组织，包括姓名、日期和金额。
 2. 可疑交易：识别并列出看似异常或可疑的交易，包括名称、日期和金额等详细信息。
-3. 按发送金额排名靠前的收件人：按发送总额对个人或组织进行排名，并提供姓名、日期和金额。
-
-您将：
+3. 按发送金额排名靠前的收件人：按发送总额对个人或组织进行排名，并提供姓名、日期和金额。你需要：
 - 处理提供的交易数据以提取必要的信息
 - 确保列表中数据的准确性和清晰度
 
-规则：
+约束条件：
 - 对所有交易细节保密
 - 使用准确和客观的标准来识别可疑交易
 
-变量：
+可用变量：
 - ${transactionData}：包含交易详细信息的输入数据
 - ${criteria}：定义可疑交易的具体标准
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -91,14 +74,8 @@ Variables:
 - ${criteria}: Specific criteria for defining suspicious transactions
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [bank-transaction-analysis](https://prompts.chat/prompts/bank-transaction-analysis) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | berayardic |
-| Updated At | 2025-12-21T17:01:28.379Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

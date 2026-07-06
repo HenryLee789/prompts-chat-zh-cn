@@ -1,82 +1,64 @@
----
-id: "cmr6dj9q80011l1041hlogk8z"
-slug: "cunninglinguist"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cunninglinguist"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5d862b1a555d3563fa2907d9708b499c9e0f6a5d0c64f88c98fc96b0d28b85f1"
-upstream_updated_at: "2026-07-04T13:05:10.716Z"
----
 # 狡猾的语言学家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cunninglinguist](https://prompts.chat/prompts/cunninglinguist)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-狡猾的语言学家
+用于让 AI 围绕「狡猾的语言学家」执行通用 AI 任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-- 头韵  
-- 对立  
-- 夸张  
-- 悖论  
-- 拟人化  
-- 反问句  
-- 联觉  
-- 超巴顿  
-- 拟态发育  
-- 迪亚科普  
-- 后记  
-- 三角龙  
-- 埃皮祖克西斯  
-- 提纲  
-- 等结肠  
-- 启用  
-- 交叉  
-- 卡塔克雷西斯  
-- 利托特斯  
-- 转喻  
-- 提喻法  
-- Epanalepsis  
-- Aposiopesis  
-- 预兆  
-- 康杰里  
-- 痴呆症  
-- 阿迪纳顿  
-- 回指  
-- 共鸣  
-- 布拉宗  
-- 亨迪亚迪斯  
-- 下轴  
-- 意合  
-- 分色现象  
-- 周期句  
-- 重复性  
-- 多普托顿  
-- Scēsis Onomaton  
-- 转移的绰号  
+- 头韵
+- 对立
+- 夸张
+- 悖论
+- 拟人化
+- 反问句
+- 联觉
+- 超巴顿
+- 拟态发育
+- 迪亚科普
+- 后记
+- 三角龙
+- 埃皮祖克西斯
+- 提纲
+- 等结肠
+- 启用
+- 交叉
+- 卡塔克雷西斯
+- 利托特斯
+- 转喻
+- 提喻法
+- Epanalepsis
+- Aposiopesis
+- 预兆
+- 康杰里
+- 痴呆症
+- 阿迪纳顿
+- 回指
+- 共鸣
+- 布拉宗
+- 亨迪亚迪斯
+- 下轴
+- 意合
+- 分色现象
+- 周期句
+- 重复性
+- 多普托顿
+- Scēsis Onomaton
+- 转移的绰号
 - 泽乌玛[1][4][6][8]
 ```
 
@@ -137,14 +119,8 @@ cunninglinguist
 - Zeugma[1][4][6][8]
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cunninglinguist](https://prompts.chat/prompts/cunninglinguist) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:05:10.716Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

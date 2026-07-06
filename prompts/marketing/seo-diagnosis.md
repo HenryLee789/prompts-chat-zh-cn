@@ -1,24 +1,4 @@
----
-id: "cmmkkkc1y000cld04hoq5q89y"
-slug: "seo-diagnosis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/seo-diagnosis"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d2dd98032881aa3ec699d872062280a08514732a38ecae0a54bd7e5a254d0986"
-upstream_updated_at: "2026-03-10T12:12:43.635Z"
----
 # SEO诊断
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[seo-diagnosis](https://prompts.chat/prompts/seo-diagnosis)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-03-10T12:12:43.635Z"
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ${instruction}
@@ -49,7 +31,7 @@ ${instruction}
 - 突出显示源代码中可见的最多 3 个高影响问题（例如，缺少视口、空元描述、隐藏在 HTML 注释中的内容、非响应式布局）。
 - 对于每一项，简要说明对海外自然流量或转化的业务影响。
 
-✅ 输出格式：
+✅ 输出格式要求：
 • 1 句话承认自己的优势（如果有的话）
 • 3 个要点：${issue} → [对全球 SEO/UX 的影响]
 • 1 条低压结束语（例如，“如果有帮助，很乐意分享完整的审核。”）
@@ -91,14 +73,8 @@ Based on the homepage HTML source code I provide, perform a quick diagnostic for
 Tone: Professional, constructive, no sales pressure. Assume the client is a Chinese manufacturer expanding globally.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [seo-diagnosis](https://prompts.chat/prompts/seo-diagnosis) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | bornduck |
-| Updated At | 2026-03-10T12:12:43.635Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

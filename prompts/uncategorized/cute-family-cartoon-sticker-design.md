@@ -1,46 +1,27 @@
----
-id: "cmnr89ox40009i904nh6rlxk7"
-slug: "cute-family-cartoon-sticker-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cute-family-cartoon-sticker-design"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0a3866d0b705adeaf55dcf73b1fa4117a3dadf626d2f2591c787649d7742ba77"
-upstream_updated_at: "2026-04-10T09:10:00.369Z"
----
 # 可爱的家庭卡通贴纸设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cute-family-cartoon-sticker-design](https://prompts.chat/prompts/cute-family-cartoon-sticker-design)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「可爱的家庭卡通贴纸设计」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将以所提供的照片中的人物为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。创建一个可爱、幽默的卡通贴纸设计，将爸爸描绘成专注的程序员，宝宝兴高采烈地扰乱他的工作，妈妈在附近快乐地阅读，观察有趣的混乱。强调柔和、圆润的线条、鲜艳的色彩以及适合笔记本电脑贴纸的夸张、迷人的表情。",
+  "prompt": "你将以所提供的照片中的人物为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。创建一个可爱、幽默的卡通贴纸设计，将爸爸描绘成专注的程序员，宝宝兴高采烈地扰乱他的工作，妈妈在附近快乐地阅读，观察有趣的混乱。强调柔和、圆润的线条、鲜艳的色彩以及适合笔记本电脑贴纸的夸张、迷人的表情。",
   “详细信息”：{
     "year": "当代（当前日期）",
     "genre": "卡通/异想天开/家庭幽默/可爱的贴纸艺术",
@@ -53,9 +34,12 @@ upstream_updated_at: "2026-04-10T09:10:00.369Z"
     "atmosphere": "温暖、有爱、又有趣、混乱。捕捉小孩子家庭生活的日常幽默，强调欢乐和轻微的干扰。",
     "subject_expression": "爸爸：一根眉毛愤怒地扬起，或者是一个轻微的、喜剧性的鬼脸，眼睛睁得大大的，但仍然盯着屏幕，嘴巴微微张开，露出一种柔和的“哦不”的表情。宝宝：睁大、天真、快乐的眼睛，张开大嘴咯咯地笑，或者快乐地胡言乱语。妈妈：温柔、会心的微笑，在观察场景时，眼角皱起，也许带着甜蜜、有趣的表情从书本上抬起头来。",
     "subject_action": "爸爸坐着，弯腰坐在笔记本电脑上，手指放在键盘上。宝宝坐在他的腿上或肩膀上，顽皮地伸手去拿键盘，或者轻轻地拉着他的头发/眼镜。妈妈舒适地坐在附近，手中打开一本书，抬头看着爸爸和宝宝，眼神温暖而幸福。",
-    "environmental_elements": "风格化、简单的元素：笔记本电脑屏幕上发光的‘错误’信息或抽象代码。放在桌子上稍微够不着的、看起来天真无邪的小婴儿玩具（例如拨浪鼓或积木）。妈妈的书里发出欢快的‘Zzzzz’声，或者她周围的小心/星星表示她平静的状态。整个设计有一个干净、大胆的轮廓，非常适合作为贴纸。”
+    "environmental_elements": "风格化、简单的元素：笔记本电脑屏幕上发光的‘bug’信息或抽象代码。放在桌子上稍微够不着的、看起来天真无邪的小婴儿玩具（例如拨浪鼓或积木）。妈妈的书里发出欢快的‘Zzzzz’声，或者她周围的小心/星星表示她平静的状态。整个设计有一个干净、大胆的轮廓，非常适合作为贴纸。”
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -92,14 +76,8 @@ Cute Family Cartoon Sticker Design
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cute-family-cartoon-sticker-design](https://prompts.chat/prompts/cute-family-cartoon-sticker-design) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | asonuc |
-| Updated At | 2026-04-10T09:10:00.369Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

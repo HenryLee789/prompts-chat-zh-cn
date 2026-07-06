@@ -1,24 +1,4 @@
----
-id: "cmj5j2uqr0001sd0r6nacr5d2"
-slug: "clean-clinic-portrait"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/clean-clinic-portrait"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "777b7e06edb82b41c583351b635e454a78df979142f6a87cd6f7f00b51e14229"
-upstream_updated_at: "2025-12-16T11:13:08.523Z"
----
 # 清洁诊所肖像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[clean-clinic-portrait](https://prompts.chat/prompts/clean-clinic-portrait)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2025-12-16T11:13:08.523Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-使用上传的人物照片作为主要拍摄对象。保持面部、头发和身份相同。
+使用上传的人物照片作为主要拍摄对象。保持面部、头发和身份相同。将患者稍微倾斜地坐在现代牙医椅子上，在干净、明亮的牙科诊所内，并配有柔和的白色灯光。在患者的胸部添加一个浅蓝色的一次性牙医围兜/围裙，夹在脖子上。周围有微妙的牙科细节：头顶检查灯、带有牙科工具的小边桌，以及背景中模糊的架子或橱柜。保留上传照片的原始相机角度和大致取景。不改变人的面部特征或表情，仅调整身体姿势、服装细节和环境以匹配真实的牙医就诊场景。
 
-将患者稍微倾斜地坐在现代牙医椅子上，在干净、明亮的牙科诊所内，并配有柔和的白色灯光。在患者的胸部添加一个浅蓝色的一次性牙医围兜/围裙，夹在脖子上。周围有微妙的牙科细节：头顶检查灯、带有牙科工具的小边桌，以及背景中模糊的架子或橱柜。
-
-保留上传照片的原始相机角度和大致取景。不改变人的面部特征或表情，仅调整身体姿势、服装细节和环境以匹配真实的牙医就诊场景。
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -68,14 +48,8 @@ Place the person sitting slightly reclined in a modern dentist chair, in a clean
 Keep the original camera angle and approximate framing from the uploaded photo. Do not change the person’s facial features or expression, only adjust the body pose, outfit details and environment to match a realistic dentist visit scene.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [clean-clinic-portrait](https://prompts.chat/prompts/clean-clinic-portrait) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | semihkislar |
-| Updated At | 2025-12-16T11:13:08.523Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

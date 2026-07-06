@@ -1,41 +1,23 @@
----
-id: "cmj4qx4hr0007wd0rjguh8l7b"
-slug: "legebdary-exploded-view-prompt-for-nanobanana"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/legebdary-exploded-view-prompt-for-nanobanana"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e18587df9295e30e4fd94473c43512a339ae4c9531b5fb9d72e061e5c1432ff4"
-upstream_updated_at: "2026-01-24T14:36:35.986Z"
----
-# 传说中的纳米香蕉爆炸视图提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[legebdary-exploded-view-prompt-for-nanobanana](https://prompts.chat/prompts/legebdary-exploded-view-prompt-for-nanobanana)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 传说中的纳米香蕉爆炸视图提示词
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「传说中的纳米香蕉爆炸视图提示词」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -43,7 +25,7 @@ upstream_updated_at: "2026-01-24T14:36:35.986Z"
   “步骤”：[]
 }{
   “提示详细信息”：{
-    "description": "{OBJECT_NAME} 的超详细分解技术信息图，以 3/4 正面等距视图显示。该对象部分透明且打开，其关键的内部和外部组件分开并以干净的分解图布局漂浮在主体周围。显示 {OBJECT_NAME} 的所有典型主要部件：外壳/面板、结构框架、主要电子设备/板、电源系统/电池或 PSU、端口/连接器、显示器或界面元素（如果存在）、输入控件/按钮、机械模块（电机/齿轮/风扇/铰链）（如果适用）、扬声器/麦克风（如果适用）、电缆/柔性带、螺钉/支架以及 EMI/热屏蔽。使用简约的无衬线字体的细白色标注引线和编号标签。 照明：柔和、均匀、具有微妙反射的高端产品渲染照明。渲染、工业设计演示、高对比度、锐利、8K、构图干净、无杂乱。",
+    "description": "{OBJECT_NAME} 的超详细分解技术信息图，以 3/4 正面等距视图显示。该对象部分透明且打开，其关键的内部和外部组件分开并以干净的分解图布局漂浮在主体周围。显示 {OBJECT_NAME} 的所有典型主要部件：外壳/面板、结构框架、主要电子设备/板、电源系统/电池或 PSU、端口/连接器、显示器或界面元素（如果存在）、输入控件/按钮、机械模块（电机/齿轮/风扇/铰链）（如果适用）、扬声器/麦克风（如果适用）、电缆/柔性带、螺钉/支架以及 EMI/热屏蔽。使用简约的无衬线字体的细白色标注引线和编号标签。照明：柔和、均匀、具有微妙反射的高端产品渲染照明。渲染、工业设计演示、高对比度、锐利、8K、构图干净、无杂乱。",
     “样式标签”：[
       “分解图”，
       “技术信息图”，
@@ -114,14 +96,8 @@ Legebdary Exploded View Prompt For nanobanana
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [legebdary-exploded-view-prompt-for-nanobanana](https://prompts.chat/prompts/legebdary-exploded-view-prompt-for-nanobanana) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | stiva1979 |
-| Updated At | 2026-01-24T14:36:35.986Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

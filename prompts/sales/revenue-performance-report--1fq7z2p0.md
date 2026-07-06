@@ -1,24 +1,4 @@
----
-id: "cmj7789uu0004v20r1fq7z2p0"
-slug: "revenue-performance-report"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/revenue-performance-report"
-category: "sales"
-category_name: "Sales"
-category_zh: "销售"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1b317ace0ed2bdf7b460ecfaf31e0cd3cbe4e2aec6d3c83bdf279d1530ad036c"
-upstream_updated_at: "2025-12-16T11:14:05.889Z"
----
 # 收入表现报告
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[revenue-performance-report](https://prompts.chat/prompts/revenue-performance-report)  
-> 分类：销售（Sales / `sales`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-16T11:14:05.889Z"
 
 ## 使用场景
 
-- 用于销售相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成销售话术、跟进邮件和成交策略
+* 分析客户需求、异议和价值主张
+* 优化销售漏斗、客户分层和转化路径
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 销售人员
-- 业务负责人
-- 创业者
+* 销售人员
+* 业务负责人
+* 创业者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 生成每月收入绩效报告，显示过去 6 个月的 MRR、活跃订阅数量和流失订阅数量（按月分组）。
@@ -61,14 +43,8 @@ Generate a monthly revenue performance report showing MRR, number of active subs
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [revenue-performance-report](https://prompts.chat/prompts/revenue-performance-report) |
-| Category | Sales (`sales`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mergisi |
-| Updated At | 2025-12-16T11:14:05.889Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

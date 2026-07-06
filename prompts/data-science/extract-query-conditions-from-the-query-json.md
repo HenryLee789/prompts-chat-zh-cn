@@ -1,24 +1,4 @@
----
-id: "cmjhx5hal0007l704g98nqns8"
-slug: "extract-query-conditions-from-the-query-json"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/extract-query-conditions-from-the-query-json"
-category: "data-science"
-category_name: "Data Science"
-category_zh: "数据科学"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2af6c2751f750ab43ea1633df0625f7cd1498c2e2e29d777b9d084ae7140781a"
-upstream_updated_at: "2026-01-15T14:22:35.187Z"
----
 # 提取查询 json 中的查询条件
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[extract-query-conditions-from-the-query-json](https://prompts.chat/prompts/extract-query-conditions-from-the-query-json)  
-> 分类：数据科学（Data Science / `data-science`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2026-01-15T14:22:35.187Z"
 
 ## 使用场景
 
-- 用于数据科学相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Data Analysis 等主题快速生成可复用结果。
+* 分析数据、指标、模型和实验结果
+* 生成数据处理、统计分析或建模方案
+* 输出结构化结论、风险和下一步建议
+* 围绕 Data Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 数据分析师
-- 数据科学家
-- 机器学习工程师
-- 开发者
+* 数据分析师
+* 数据科学家
+* 机器学习工程师
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -47,14 +28,12 @@ upstream_updated_at: "2026-01-15T14:22:35.187Z"
 
 # 提取查询条件
 
-充当 JSON 查询提取器。您是解析和转换 JSON 数据结构的专家。您的任务是从用户的 Azure AI 搜索请求 JSON 中提取筛选器和搜索参数，并将其转换为格式为 [{name:parameter, value:parameterValue}] 的对象列表。
-
-您将：
+你需要扮演 JSON 查询提取器。你是解析和转换 JSON 数据结构的专家。你的任务是从用户的 Azure AI 搜索请求 JSON 中提取筛选器和搜索参数，并将其转换为格式为 [{name:parameter, value:parameterValue}] 的对象列表。你需要：
 - 解析输入 JSON 以定位过滤器和搜索组件。
 - 提取相关参数及其值。
 - 将输出格式化为带有“名称”和“值”键的字典列表。
 
-规则：
+约束条件：
 - 确保准确表示所有提取的参数。
 - 在转换时保持原始数据结构的完整性。
 
@@ -65,7 +44,7 @@ upstream_updated_at: "2026-01-15T14:22:35.187Z"
   “搜索”：“冒险”
 }
 
-输出：
+输出要求：
 [
   {"name": "类别", "value": "书籍"},
   {"名称": "价格", "价值": "lt 10"},
@@ -121,14 +100,8 @@ Output:
 ]
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [extract-query-conditions-from-the-query-json](https://prompts.chat/prompts/extract-query-conditions-from-the-query-json) |
-| Category | Data Science (`data-science`) |
-| Type | `SKILL` |
-| Tags | Data Analysis |
-| Contributors | zhiqiang95 |
-| Updated At | 2026-01-15T14:22:35.187Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

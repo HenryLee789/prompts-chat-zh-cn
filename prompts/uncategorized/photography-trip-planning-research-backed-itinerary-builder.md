@@ -1,41 +1,23 @@
----
-id: "cmr2g3yw90001l7048veoh3xd"
-slug: "photography-trip-planning-research-backed-itinerary-builder"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/photography-trip-planning-research-backed-itinerary-builder"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f99c4405942748a5203ccb6be710d62cf08464f553572997f9e7c114e0cd6712"
-upstream_updated_at: "2026-07-01T19:10:19.666Z"
----
 # 摄影旅行规划 — 研究支持的行程构建器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[photography-trip-planning-research-backed-itinerary-builder](https://prompts.chat/prompts/photography-trip-planning-research-backed-itinerary-builder)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-针对旅行摄影师的研究支持的旅行计划提示。涵盖摄影风格分析、位置研究标准、Atlas Obscura 过滤、光照计时计算和可选的生产交付成果（PowerPoint、Excel、Google 地图 CSV）。在轻量级模式（仅文本计划）或完整生产模式（需要 Node.js 和 Python）下工作。与 Claude、ChatGPT、Gemini 或任何现代法学硕士兼容。
+针对旅行摄影师的研究支持的旅行计划提示。涵盖摄影风格分析、位置研究标准、Atlas Obscura 过滤、光照计时计算和可选的生产交付成果（PowerPoint、Excel、Google 地图 CSV）。在轻量级模式（仅文本计划）或完整生产模式（需要 Node.js 和 Python）下工作。与 Claude、ChatGPT、Gemini 或任何现代LLM兼容。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 摄影旅行计划提示
@@ -46,11 +28,11 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 > **使用此模板的两种方法：**
 >
-> **轻量级模式** — 跳过所有标记为 `${optional}` 的部分以及整个技术说明部分。填写您的风格简介和旅行详细信息，然后向克劳德询问基于文本的研究简介和日常时间表。无需编写脚本。
+> **轻量级模式** — 跳过所有标记为 `${optional}` 的部分以及整个技术说明部分。填写你的风格简介和旅行详细信息，然后向克劳德询问基于文本的研究简介和日常时间表。无需编写脚本。
 >
 > **完整生产模式** — 使用每个部分。 Claude 将制作一个 PowerPoint 幻灯片（通过 Node.js + pptxgenjs）、一个 Excel 工作簿（通过 Python + openpyxl）和 Google 地图 CSV — 所有这些都采用颜色编码并经过质量检查。需要从命令行轻松运行脚本。
 >
-> 在两种模式下：填写标记为 `${fill_in}` 的每个部分。标记为 `${example}` 的部分显示了完整条目的外观 - 将其替换为您自己的详细信息。如果与您的工作流程不相关，则可以删除标记为 `${optional}` 的部分。
+> 在两种模式下：填写标记为 `${fill_in}` 的每个部分。标记为 `${example}` 的部分显示了完整条目的外观 - 将其替换为你自己的详细信息。如果与你的工作流程不相关，则可以删除标记为 `${optional}` 的部分。
 
 ---
 
@@ -64,11 +46,11 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 这是最重要的部分。在建议任何地点之前请仔细阅读。
 
-**The core subject:** [FILL IN — Describe the through-line of your work.你拍摄什么以及为什么？是什么吸引您关注某个主题？]
+**The core subject:** [FILL IN — Describe the through-line of your work.你拍摄什么以及为什么？是什么吸引你关注某个主题？]
 
 > ${example}：我拍摄那些经久不衰的事物——结构、风景和存在于时间之外的时刻。我作品的主线是建造或居住的事物，这些事物现在已经超出了它们最初的目的，但仍然存在。
 
-**技术签名：** [填写 - 列出您一致的成分和技术选择。]
+**技术签名：** [填写 - 列出你一致的成分和技术选择。]
 
 > ${example}：
 > - Symmetrical or near-symmetrical composition with a strong central vanishing point
@@ -79,7 +61,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 > - 强烈的色调对比 - 我打印深色
 > - 事物的底面、内部骨架和结构骨骼比正面更让我感兴趣
 
-**重复主题类别：** [填写 - 列出您经常寻找的地点和主题的类型。]
+**重复主题类别：** [填写 - 列出你经常寻找的地点和主题的类型。]
 
 > ${example}：
 > - 腐烂和遗弃——那些已经失去其用途的东西
@@ -90,7 +72,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 > - 安静而空旷的街道 - 我在人群到来之前拍摄
 > - Atlas Obscura 类型的地点 — 不寻常的、隐藏的、被遗忘的
 
-**我一贯避免的：** [填写 - 列出您不希望推荐的内容。]
+**我一贯避免的：** [填写 - 列出你不希望推荐的内容。]
 
 > ${example}：
 > - 著名景点明信片装框
@@ -103,7 +85,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 ## 旅行伴侣 ${optional}
 
-**${fill_in_or_delete_this_section}** — 如果您与同伴一起旅行，请在此处描述他们的兴趣，以便 Claude 制定适合你们俩的计划，而不是与同行的摄影师的行程。
+**${fill_in_or_delete_this_section}** — 如果你与同伴一起旅行，请在此处描述他们的兴趣，以便 Claude 制定适合你们俩的计划，而不是与同行的摄影师的行程。
 
 > ${example}：我的妻子和我一起旅行。她喜欢精品店购物（不是连锁店或百货商店）、开胃酒文化、在感觉当地的地方漫步，以及不寻常的文化体验，包括骨库和地下墓穴。她热衷于人迹罕至的地方。将共同的经历融入到计划中——她不是一个需要管理的单独行程。
 
@@ -125,9 +107,9 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 ### 1. PowerPoint 幻灯片 [可选 — 需要 Node.js 和 pptxgenjs]
 
-> 此交付成果旨在让用户能够轻松运行 Node.js 脚本。如果您想要更简单的输出，请将此部分替换为对格式化文档或 PDF 的请求。
+> 此交付成果旨在让用户能够轻松运行 Node.js 脚本。如果你想要更简单的输出，请将此部分替换为对格式化文档或 PDF 的请求。
 
-**格式：** LAYOUT_WIDE（13.3 x 7.5 英寸），使用 Node.js 中的 pptxgenjs 构建。 Dark header bar on content slides with accent color labels.部分分隔幻灯片是全深色背景。封面上的版本号和文件名。
+**格式要求：** LAYOUT_WIDE（13.3 x 7.5 英寸），使用 Node.js 中的 pptxgenjs 构建。 Dark header bar on content slides with accent color labels.部分分隔幻灯片是全深色背景。封面上的版本号和文件名。
 
 **幻灯片标题中的徽章：**
 - 红色徽章：“★ 需要提前预订”——适用于需要预购门票的地点
@@ -148,7 +130,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
   - Optional day trips slide (card layout, flag Atlas Obscura picks)
 - Tickets and booking slide (3 columns: book in advance / pay on day / free)
 - 齿轮列表幻灯片
-- 开胃酒/美食吧幻灯片 — 按城市列出的特定地点，仅限本地精选，附有地址和说明 [可选 — 如果与您的目的地不相关，则删除]
+- 开胃酒/美食吧幻灯片 — 按城市列出的特定地点，仅限本地精选，附有地址和说明 [可选 — 如果与你的目的地不相关，则删除]
 - Shared activities slide (one column per city) ${optional}
 
 **计划颜色编码：**
@@ -166,9 +148,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 > 该交付成果旨在帮助用户轻松运行 Python 脚本。
 
-5 个选项卡：MASTER（按时间顺序排列的完整行程，包括旅行天数）、每个城市一个选项卡、LEGEND。
-列：日期、日、城市、时间、活动、类别、持续时间、注释。
-与时间表幻灯片相同的颜色编码。将窗格冻结在 A2、隐藏网格线、自动过滤标题。
+5 个选项卡：MASTER（按时间顺序排列的完整行程，包括旅行天数）、每个城市一个选项卡、LEGEND。列：日期、日、城市、时间、活动、类别、持续时间、注释。与时间表幻灯片相同的颜色编码。将窗格冻结在 A2、隐藏网格线、自动过滤标题。
 
 ---
 
@@ -176,9 +156,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 列：名称、描述、类别、最佳时间、纬度、经度、地址。
 
-**关键：** 使用带有 utf-8 编码的 Python csv.writer。没有特殊字符 — 仅纯 ASCII。在包含之前验证坐标。
-
-类别：拍摄地点、共享活动、基地、高视角、交通、可选一日游、关闭 - 请勿使用、Atlas Obscura 可选。
+**关键：** 使用带有 utf-8 编码的 Python csv.writer。没有特殊字符 — 仅纯 ASCII。在包含之前验证坐标。类别：拍摄地点、共享活动、基地、高视角、交通、可选一日游、关闭 - 不要使用、Atlas Obscura 可选。
 
 **文件命名约定：** ${destination}-trip-${year}-v[N].pptx / .xlsx / city-locations.csv。每次重建时增加版本号。
 
@@ -201,7 +179,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 - 当地特定的餐饮场所：仅限当地精选，不面向游客，包含名称、地址以及值得一去的原因
 
 ### 研究和验证要求：
-- **在包含之前验证所有位置是否存在** - 网络搜索您不确定的任何位置
+- **在包含之前验证所有位置是否存在** - 网络搜索你不确定的任何位置
 - **确认当前访问状态** — 在推荐任何景点或景点之前搜索关闭情况
 - **一周中的天数：**始终使用实际旅行年份的 Python 日期时间进行计算。永远不要猜测。
 - **光照计时：** 始终使用 Python 星体库使用精确的城市坐标和旅行日期进行计算。永远不要估计。
@@ -212,7 +190,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 ## ATLAS OBSCURA APPROACH
 
-过滤器 Atlas Obscura 会严格根据您的上述风格进行挑选。使用这些作为通常有效和无效的指南：
+过滤器 Atlas Obscura 会严格根据你的上述风格进行挑选。使用这些作为通常有效和无效的指南：
 
 **非常适合不寻常/隐藏的位置：**
 - 地下或地下空间（地窖、隧道、古代地层）
@@ -275,7 +253,7 @@ upstream_updated_at: "2026-07-01T19:10:19.666Z"
 
 ## 风格偏好
 
-[填写——描述您的总体规划理念。下面的例子。]
+[填写——描述你的总体规划理念。下面的例子。]
 
 > ${example}:
 > - 质量重于数量——更少、更丰富的地点胜过全面的列表
@@ -560,14 +538,8 @@ Follow this order:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [photography-trip-planning-research-backed-itinerary-builder](https://prompts.chat/prompts/photography-trip-planning-research-backed-itinerary-builder) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | elpicoso |
-| Updated At | 2026-07-01T19:10:19.666Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmm63sh4c0007i804wis3eo5g"
-slug: "notebooklm-lecture-notes"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/notebooklm-lecture-notes"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "manual-repair"
-source_hash: "a1068cbc6126ff5243e17720d18727107ad9c73471d72244b444f21bbeb568d3"
-upstream_updated_at: "2026-02-28T09:13:08.601Z"
----
 # NotebookLM 讲义笔记
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[notebooklm-lecture-notes](https://prompts.chat/prompts/notebooklm-lecture-notes)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-02-28T09:13:08.601Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 创建一个总结每个部分内容的甲板；强调重点；目标受众是专业人士。使用没有任何网格的纯白色背景。
@@ -59,14 +41,8 @@ notebooklm_lecture_notes
 Create a deck summarizing the content of each section; emphasize the key points; The target audience is professionals. Use a pure white background without any grid.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [notebooklm-lecture-notes](https://prompts.chat/prompts/notebooklm-lecture-notes) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | zzfmvp |
-| Updated At | 2026-02-28T09:13:08.601Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmj77ja7x0004v20rarqq3dch"
-slug: "harry-potter-marauders-map"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/harry-potter-marauders-map"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a43758db1e98a785c98eb235e47a00906f882fee5e3d254b79fcf8c760186da7"
-upstream_updated_at: "2025-12-16T11:14:16.844Z"
----
 # 哈利·波特/活点地图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[harry-potter-marauders-map](https://prompts.chat/prompts/harry-potter-marauders-map)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,41 +6,21 @@ upstream_updated_at: "2025-12-16T11:14:16.844Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 DALL-E、Nano Banana、Midjourney 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 DALL-E、Nano Banana、Midjourney 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-将 ${city_name} 城市渲染为隐藏的魔法魔法世界地图，其灵感来自哈利波特宇宙，采用掠夺者地图的风格。
-
-保留 ${city_name} 的真实地理布局、道路、地区、海岸线、河流和地标，但将它们重新解释为隐藏在麻瓜世界之外的秘密魔法王国中的迷人地点。
-
-政府区以魔法事务部的形式出现，拥有魔法塔、漂浮的符文和防护区。
-大学和学校变成了巫师学院、咒语图书馆、天文台和奥术塔。
-历史悠久的老城区变成了古代巫师宿舍、秘密小巷、被诅咒的废墟、隐藏的房间和被遗忘的通道。
-工业区被描绘为药水啤酒厂、魔法工坊、魔法铸造厂和炼金工厂。
-公园、森林、山丘和山谷成为禁林、草药园、神圣树林和神奇生物栖息地。
-商业区表现为对角巷式的魔法市场、巫师商店、旅馆、酒馆和贸易走廊。
-体育场和大型竞技场被改造成魁地奇球场。
-机场、港口和主要交通枢纽成为门钥匙车站、飞路网络大门、空中码头和龙抵达塔。
-
-包括活生生的魔法地图元素：移动的脚印、发光的墨水符文、低声注释、秘密通道指示器、咒语圈、魔法病房、移动路径、隐藏房间、生物巢穴、危险警告、魔法符号和动画标记，让人感觉生动而神秘。
-
-艺术风格：手绘水墨插图、陈旧的羊皮纸纹理、温暖的棕褐色色调、粗略而异想天开的线条、微妙的魔法光芒、略显不完美的手绘外观。
-排版：手写的神奇书法，不均匀的墨迹，古老的巫师字体。
-装饰元素：华丽的羊皮纸边框、魔法印章、蜡印、穿越小路的魔法脚印、经典的魔法罗盘玫瑰。
-
-没有现代元素，没有科幻，没有当代排版。
-长宽比：${aspect_ratio}。
-这张地图应该感觉像是一件活生生的魔法神器——一张由古代男女巫师创造的秘密巫师地图。
+将 ${city_name} 城市渲染为隐藏的魔法魔法世界地图，其灵感来自哈利波特宇宙，采用掠夺者地图的风格。保留 ${city_name} 的真实地理布局、道路、地区、海岸线、河流和地标，但将它们重新解释为隐藏在麻瓜世界之外的秘密魔法王国中的迷人地点。政府区以魔法事务部的形式出现，拥有魔法塔、漂浮的符文和防护区。大学和学校变成了巫师学院、咒语图书馆、天文台和奥术塔。历史悠久的老城区变成了古代巫师宿舍、秘密小巷、被诅咒的废墟、隐藏的房间和被遗忘的通道。工业区被描绘为药水啤酒厂、魔法工坊、魔法铸造厂和炼金工厂。公园、森林、山丘和山谷成为禁林、草药园、神圣树林和神奇生物栖息地。商业区表现为对角巷式的魔法市场、巫师商店、旅馆、酒馆和贸易走廊。体育场和大型竞技场被改造成魁地奇球场。机场、港口和主要交通枢纽成为门钥匙车站、飞路网络大门、空中码头和龙抵达塔。包括活生生的魔法地图元素：移动的脚印、发光的墨水符文、低声注释、秘密通道指示器、咒语圈、魔法病房、移动路径、隐藏房间、生物巢穴、危险警告、魔法符号和动画标记，让人感觉生动而神秘。艺术风格：手绘水墨插图、陈旧的羊皮纸纹理、温暖的棕褐色色调、粗略而异想天开的线条、微妙的魔法光芒、略显不完美的手绘外观。排版：手写的神奇书法，不均匀的墨迹，古老的巫师字体。装饰元素：华丽的羊皮纸边框、魔法印章、蜡印、穿越小路的魔法脚印、经典的魔法罗盘玫瑰。没有现代元素，没有科幻，没有当代排版。长宽比：${aspect_ratio}。这张地图应该感觉像是一件活生生的魔法神器——一张由古代男女巫师创造的秘密巫师地图。
 ```
 
 ---
@@ -102,14 +62,8 @@ Aspect ratio: ${aspect_ratio}.
 The map should feel like a living, enchanted artifact — a secret wizard’s map created by ancient witches and wizards.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [harry-potter-marauders-map](https://prompts.chat/prompts/harry-potter-marauders-map) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | DALL-E, Nano Banana, Midjourney |
-| Contributors | iamcanturk |
-| Updated At | 2025-12-16T11:14:16.844Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

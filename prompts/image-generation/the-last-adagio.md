@@ -1,24 +1,4 @@
----
-id: "cmklqagc20009i904jyixq4wo"
-slug: "the-last-adagio"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-last-adagio"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "38737637378af2a24213004380ea05696bfaea4fdbec88e469b80c417a99a885"
-upstream_updated_at: "2026-01-19T22:20:14.816Z"
----
 # 最后的柔板
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-last-adagio](https://prompts.chat/prompts/the-last-adagio)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-19T22:20:14.816Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "最后的慢板",
   "description": "一位孤独的芭蕾舞演员在被洪水淹没、废弃的大图书馆里表演的令人难以忘怀的美丽场景。",
-  "prompt": "您将使用提供的主题进行图像编辑。将对象 1（女性）转变为后世界末日世界的幸存者。她身处一个巨大、腐烂的图书馆，地板上充满了水。光线从倒塌的天花板溢出，照亮尘埃微粒和水的倒影。图像必须逼真，利用电影灯光、高度详细的纹理，在 Arri Alexa 上拍摄，浅景深以聚焦于主题，同时背景陷入柔和的散景中。",
+  "prompt": "你将使用提供的主题进行图像编辑。将对象 1（女性）转变为后世界末日世界的幸存者。她身处一个巨大、腐烂的图书馆，地板上充满了水。光线从倒塌的天花板溢出，照亮尘埃微粒和水的倒影。图像必须逼真，利用电影灯光、高度详细的纹理，在 Arri Alexa 上拍摄，浅景深以聚焦于主题，同时背景陷入柔和的散景中。",
   “详细信息”：{
     "year": "后崩溃时代",
     "genre": "电影照片写实主义",
@@ -183,14 +163,8 @@ A hauntingly beautiful scene of a solitary ballerina performing in a flooded, ab
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-last-adagio](https://prompts.chat/prompts/the-last-adagio) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-19T22:20:14.816Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmr34uotk000ck104ec6g3d6i"
-slug: "high-precision-research-and-performance-architecture-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/high-precision-research-and-performance-architecture-engine"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1a3e7565a689a2c7d3082a4b8b9aff780aace9c3828601a9680019787001d1a9"
-upstream_updated_at: "2026-07-02T06:38:37.768Z"
----
 # 高精度研究与性能架构引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[high-precision-research-and-performance-architecture-engine](https://prompts.chat/prompts/high-precision-research-and-performance-architecture-engine)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,31 +6,32 @@ upstream_updated_at: "2026-07-02T06:38:37.768Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、Research、Performance、architecture 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 Agent、Research、Performance 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 任务：深度研究&系统优化
 
-**目标：** 成为高级研究方法专家。您的任务是调查、验证和总结专为所提供的 PC 硬件设置定制的高级性能调整、BIOS 设置和系统级配置。
+**目标：** 成为高级研究方法专家。你的任务是调查、验证和总结专为所提供的 PC 硬件设置定制的高级性能调整、BIOS 设置和系统级配置。
 
 ### 硬件规格
 
-- **CPU：** 
-- **GPU：** 
-- **内存：** 
-- **主板：** 
-- **固态硬盘：** 
-- **冷却/外壳：** 
+- **CPU：**
+- **GPU：**
+- **内存：**
+- **主板：**
+- **固态硬盘：**
+- **冷却/外壳：**
 
 ### 准则和限制
 
@@ -63,7 +44,7 @@ upstream_updated_at: "2026-07-02T06:38:37.768Z"
 ### 所需的输出格式
 
 - **经过验证的调整：** 列出具有可衡量的技术支持的更改。
-- **社区轶事：** 包括小众错误、已知解决方法或特定于此硬件组合的重复出现问题。
+- **社区轶事：** 包括小众bug、已知解决方法或特定于此硬件组合的重复出现问题。
 - **风险/警告：** 突出显示对系统稳定性或保修的任何潜在影响。
 ```
 
@@ -110,14 +91,8 @@ High-precision research and performance architecture engine. Designed to provide
 - **Risks/Caveats:** Highlight any potential impacts on system stability or warranty.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [high-precision-research-and-performance-architecture-engine](https://prompts.chat/prompts/high-precision-research-and-performance-architecture-engine) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | Agent, Research, Performance, architecture |
-| Contributors | emx0x |
-| Updated At | 2026-07-02T06:38:37.768Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmmxuw0zx0007l504ou4ia8ed"
-slug: "strategic-business-blueprint-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/strategic-business-blueprint-generator"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "569a4951abe788dbb91cb6eb9ccf4de269cef9564abb36a5a4deec9e5a305dd3"
-upstream_updated_at: "2026-03-19T19:23:10.692Z"
----
 # 战略业务蓝图生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[strategic-business-blueprint-generator](https://prompts.chat/prompts/strategic-business-blueprint-generator)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,21 @@ upstream_updated_at: "2026-03-19T19:23:10.692Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business、Business Strategy、Consulting 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business、Business Strategy、Consulting 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-你是一名高级战略顾问（麦肯锡风格，假设驱动）。
-
-您的任务是将原始的商业想法转化为可供决策的商业蓝图。
-
-自上而下地工作。结构清晰、简洁且具有分析性。避免笼统的建议。
+你是一名高级战略顾问（麦肯锡风格，假设驱动）。你的任务是将原始的商业想法转化为可供决策的商业蓝图。自上而下地工作。结构清晰、简洁且具有分析性。避免笼统的建议。
 
 ---
 
@@ -104,12 +81,12 @@ upstream_updated_at: "2026-03-19T19:23:10.692Z"
 
 ---
 
-### 输出格式：
+### 输出格式要求：
 
-**执行摘要（最多 5 行）**  
-**核心假设**  
-**结构化分析（上述部分）**  
-**关键假设**  
+**执行摘要（最多 5 行）**
+**核心假设**
+**结构化分析（上述部分）**
+**关键假设**
 **需要做出的前 3 项战略决策**
 ```
 
@@ -202,14 +179,8 @@ State 1–2 core hypotheses explaining why this business will succeed.
 **Top 3 Strategic Decisions Required**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [strategic-business-blueprint-generator](https://prompts.chat/prompts/strategic-business-blueprint-generator) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business, Business Strategy, Consulting |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:23:10.692Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjt5z7ce0001jm04utmlyx5f"
-slug: "cinematic-thriller-silhouette"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-thriller-silhouette"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0cf5ad251d64404a0258c832514796984c6d53346755398948173b19a12b6ebf"
-upstream_updated_at: "2025-12-30T22:33:55.452Z"
----
 # 电影惊悚片剪影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-thriller-silhouette](https://prompts.chat/prompts/cinematic-thriller-silhouette)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-30T22:33:55.452Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Creative Writing、DALL-E、Movies 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Creative Writing、DALL-E 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -94,14 +75,8 @@ The prompt generates an image with a cinematic thriller atmosphere, featuring a 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-thriller-silhouette](https://prompts.chat/prompts/cinematic-thriller-silhouette) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Creative Writing, DALL-E, Movies, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-30T22:33:55.452Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

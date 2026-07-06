@@ -1,24 +1,4 @@
----
-id: "cmjok4x6t0013ie04myw4u6zf"
-slug: "balcony-coffee-morning-haze-plant-vibe"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/balcony-coffee-morning-haze-plant-vibe"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "16f29904dea4fbab47ab24f374ca762a368a86eccabe201847b2644c7b324d11"
-upstream_updated_at: "2025-12-27T18:49:26.700Z"
----
 # 阳台咖啡（晨雾，植物氛围）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[balcony-coffee-morning-haze-plant-vibe](https://prompts.chat/prompts/balcony-coffee-morning-haze-plant-vibe)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T18:49:26.700Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -128,6 +110,9 @@ upstream_updated_at: "2025-12-27T18:49:26.700Z"
     “可读文本”、“徽标”、“水印”
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -237,14 +222,8 @@ This structured JSON prompt is designed to create a realistic and relatable life
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [balcony-coffee-morning-haze-plant-vibe](https://prompts.chat/prompts/balcony-coffee-morning-haze-plant-vibe) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T18:49:26.700Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

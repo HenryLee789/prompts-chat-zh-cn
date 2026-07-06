@@ -1,42 +1,23 @@
----
-id: "cmjflolfg0004l404jh82pa0d"
-slug: "surreal-cgi-photography-hybrid-portrait"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/surreal-cgi-photography-hybrid-portrait"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "371c1f63d27ad0b17a2b169b7bf61c5cd62f78de25a1a8ada075d2f17c14275b"
-upstream_updated_at: "2025-12-21T11:50:59.684Z"
----
 # 超现实 CGI 摄影混合肖像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[surreal-cgi-photography-hybrid-portrait](https://prompts.chat/prompts/surreal-cgi-photography-hybrid-portrait)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「超现实 CGI 摄影混合肖像」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 ChatGPT、API 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 ChatGPT、API 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -108,14 +89,8 @@ Surreal CGI-Photography Hybrid Portrait
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [surreal-cgi-photography-hybrid-portrait](https://prompts.chat/prompts/surreal-cgi-photography-hybrid-portrait) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | ChatGPT, API |
-| Contributors | akykaan |
-| Updated At | 2025-12-21T11:50:59.684Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

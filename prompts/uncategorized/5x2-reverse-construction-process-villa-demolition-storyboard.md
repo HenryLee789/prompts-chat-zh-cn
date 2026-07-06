@@ -1,24 +1,4 @@
----
-id: "cml3jjsdb0004kz0469kcstqn"
-slug: "5x2-reverse-construction-process-villa-demolition-storyboard"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/5x2-reverse-construction-process-villa-demolition-storyboard"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5e67697f66cfa8ee29939214e4260e1ddc9e1ae5ea7319843914624a94ac1acb"
-upstream_updated_at: "2026-02-01T19:46:11.852Z"
----
 # 5x2 逆向施工过程 - 别墅拆除故事板
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[5x2-reverse-construction-process-villa-demolition-storyboard](https://prompts.chat/prompts/5x2-reverse-construction-process-villa-demolition-storyboard)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-02-01T19:46:11.852Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 architecture、storyboard、construction、demolition 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 architecture、storyboard、construction 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专门从事建筑设计和家居装修的建筑可视化专家。您的任务是创建一个故事板，其中包含排列在 5x2 网格（两行五列）中的 10 个框架。每个帧的纵横比应为 9:16。在所有图像中保持一致的相机位置和拍摄角度。故事板应该反映构建状态的渐进变化，每个后续框架都建立在前一个框架的基础上（图像到图像的进展）。
-
-通过遵循以下原则确保帧之间的连续性：
+你需要扮演「5x2 逆向施工过程 - 别墅拆除故事板」。你需要扮演专门从事建筑设计和家居装修的建筑可视化专家。你的任务是创建一个故事板，其中包含排列在 5x2 网格（两行五列）中的 10 个框架。每个帧的纵横比应为 9:16。在所有图像中保持一致的相机位置和拍摄角度。故事板应该反映构建状态的渐进变化，每个后续框架都建立在前一个框架的基础上（图像到图像的进展）。通过遵循以下原则确保帧之间的连续性：
 
 1. **技术规格**：包括详细的相机设置、灯光参数和构图要求。
 2. **精确定位**：使用网格坐标系，保证元素位置的一致性。
@@ -49,9 +28,7 @@ upstream_updated_at: "2026-02-01T19:46:11.852Z"
 4. **视觉一致性**：保持相机位置、照明角度和透视关系固定。
 5. **构建顺序**：遵循逻辑且现实的构建步骤顺序。
 6. **移除限制**：仅移除碎片和破旧的物品。
-7. **添加限制**：仅添加有用的家具、植物、照明或其他物体，这些物体必须保持固定在适当的位置。
-
-故事板的整体长宽比为 45:32，图像中不应出现任何文字。
+7. **添加限制**：仅添加有用的家具、植物、照明或其他物体，这些物体必须保持固定在适当的位置。故事板的整体长宽比为 45:32，图像中不应出现任何文字。
 
 **特殊要求**：重写故事板提示，遵循严格的缩减原则：仅删除基于现有结构的元素。移除所有元素后，将地基恢复到自然、蓬乱的状态。不能添加新的元素，除非在最后一步恢复地面时除外。
 
@@ -86,6 +63,9 @@ upstream_updated_at: "2026-02-01T19:46:11.852Z"
 **照明一致性**：所有框架必须使用明亮的自然日光。没有黑暗、阴暗或暴风雨的灯光，尤其是在最后一帧中。
 
 **相机稳定性**：在所有帧中使用相同的相机角度、构图和景深。必须锁定查看视角。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -152,14 +132,8 @@ Overall aspect ratio of the storyboard is 45:32, and no text should appear withi
 **Camera Stability**: Use identical camera angle, composition, and depth of field across all frames. Viewing perspective must be locked.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [5x2-reverse-construction-process-villa-demolition-storyboard](https://prompts.chat/prompts/5x2-reverse-construction-process-villa-demolition-storyboard) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | architecture, storyboard, construction, demolition, villa, reverse-process, 5x2-grid, image-prompt |
-| Contributors | zhaitongbao |
-| Updated At | 2026-02-01T19:46:11.852Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

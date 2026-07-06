@@ -1,24 +1,4 @@
----
-id: "cmjmzjenh0001ii04wu4lu1ao"
-slug: "banking-sector-creation-of-a-simple-marketing-text"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/banking-sector-creation-of-a-simple-marketing-text"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "943dd78bff63b4f24a72945c5de674529b109e0643d36af029f61a61c714d7f9"
-upstream_updated_at: "2025-12-26T14:47:03.716Z"
----
 # 银行业 - 创建简单的营销文本
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[banking-sector-creation-of-a-simple-marketing-text](https://prompts.chat/prompts/banking-sector-creation-of-a-simple-marketing-text)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,21 @@ upstream_updated_at: "2025-12-26T14:47:03.716Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-撰写清晰、专业和道德的营销文字来宣传 ${nom_du_produit_financier}。
-
-限制条件：
+撰写清晰、专业和道德的营销文字来宣传 ${nom_du_produit_financier}。限制条件：
 – 最多 100 至 130 个字
 – 风格：可信、制度化、以客户利益为导向
 – 避免使用过多的最高级或带有无法证实的承诺的术语
@@ -83,14 +63,8 @@ Mets en avant :
 Termine par une phrase d’appel à l’action appropriée (ex. invitation à contacter un conseiller).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [banking-sector-creation-of-a-simple-marketing-text](https://prompts.chat/prompts/banking-sector-creation-of-a-simple-marketing-text) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | elmehdibenyoussef |
-| Updated At | 2025-12-26T14:47:03.716Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

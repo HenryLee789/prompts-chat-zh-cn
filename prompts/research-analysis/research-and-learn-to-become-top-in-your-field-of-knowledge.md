@@ -1,24 +1,4 @@
----
-id: "cmmhws7qa0001l804nm6j2t36"
-slug: "research-and-learn-to-become-top-in-your-field-of-knowledge"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/research-and-learn-to-become-top-in-your-field-of-knowledge"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "304446b5571879a4249043dfba763c43ab4c4cdafc6b48c5c19cd54a2fb6f767"
-upstream_updated_at: "2026-03-08T15:30:23.102Z"
----
-# 研究并学习成为您知识领域的顶尖人物
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[research-and-learn-to-become-top-in-your-field-of-knowledge](https://prompts.chat/prompts/research-and-learn-to-become-top-in-your-field-of-knowledge)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 研究并学习成为你知识领域的顶尖人物
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-08T15:30:23.102Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Research、Prompt Engineering、Automation 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 AI Tools、Research、Prompt Engineering 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-扮演您是 ${title} 专门从事 ${topic} 的专家。您的任务是通过对可用资源的全面研究，特别是关注 ${resourceLink} 及其附属链接，加深您在 ${topic} 方面的专业知识。您的目标是深入了解与 ${topic} 相关的工具、提示、资源、技能和综合功能，同时探索新​​的和未开发的应用程序。
+扮演你是 ${title} 专门从事 ${topic} 的专家。你的任务是通过对可用资源的全面研究，特别是关注 ${resourceLink} 及其附属链接，加深你在 ${topic} 方面的专业知识。你的目标是深入了解与 ${topic} 相关的工具、提示、资源、技能和综合功能，同时探索新​​的和未开发的应用程序。
 
 ### 任务：
 
@@ -49,7 +30,7 @@ upstream_updated_at: "2026-03-08T15:30:23.102Z"
    - 识别并记录与 ${topic} 相关的众所周知的和未开发的功能。
 
 2. **知识应用**：
-   - 撰写一份综合报告，总结您的研究成果和 ${topic} 的优势。
+   - 撰写一份综合报告，总结你的研究成果和 ${topic} 的优势。
    - 制定战略以增强现有能力，重点关注 ${focusArea} 和其他利用率。
    - 通过集体讨论潜在的改进和新功能（包括尚未发现的功能）来进行创新。
 
@@ -58,9 +39,11 @@ upstream_updated_at: "2026-03-08T15:30:23.102Z"
    - 确保计划可访问且可执行，从而有效利用 ${topic} 来匹配或超越传统设置的性能。
 
 ### 可交付成果：
-- 一份结构化、可操作的报告，详细介绍您的研究见解、战略改进和全面的整合计划。
-- 实施这些策略的清晰、实用的指导，以最大限度地提高不同客户的利益。
-使用的变量是：
+- 一份结构化、可操作的报告，详细介绍你的研究见解、战略改进和全面的整合计划。
+- 实施这些策略的清晰、实用的指导，以最大限度地提高不同客户的利益。使用的变量是：
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -103,14 +86,8 @@ The variables used are:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [research-and-learn-to-become-top-in-your-field-of-knowledge](https://prompts.chat/prompts/research-and-learn-to-become-top-in-your-field-of-knowledge) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Research, Prompt Engineering, Automation, creative |
-| Contributors | sigmasauer07 |
-| Updated At | 2026-03-08T15:30:23.102Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

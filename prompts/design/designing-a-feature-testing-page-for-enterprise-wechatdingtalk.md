@@ -1,24 +1,4 @@
----
-id: "cmobbg6a50007jv042pfx03v8"
-slug: "designing-a-feature-testing-page-for-enterprise-wechatdingtalk"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/designing-a-feature-testing-page-for-enterprise-wechatdingtalk"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "261470508e732e86b9b09bc39888e6d2dffc2721c1b4b7e60654793ae379dae3"
-upstream_updated_at: "2026-04-23T10:05:52.947Z"
----
 # 企业微信/钉钉功能测试页面设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[designing-a-feature-testing-page-for-enterprise-wechatdingtalk](https://prompts.chat/prompts/designing-a-feature-testing-page-for-enterprise-wechatdingtalk)  
-> 分类：设计（Design / `design`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-04-23T10:05:52.947Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 ui-ux、design、Enterprise 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 ui-ux、design、Enterprise 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -84,14 +65,8 @@ Describe what this skill does and how the agent should use it.
 - Step 2: ...
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [designing-a-feature-testing-page-for-enterprise-wechatdingtalk](https://prompts.chat/prompts/designing-a-feature-testing-page-for-enterprise-wechatdingtalk) |
-| Category | Design (`design`) |
-| Type | `SKILL` |
-| Tags | ui-ux, design, Enterprise |
-| Contributors | Leo |
-| Updated At | 2026-04-23T10:05:52.947Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

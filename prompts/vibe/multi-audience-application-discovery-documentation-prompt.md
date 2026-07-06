@@ -1,46 +1,28 @@
----
-id: "cmk2mr7am0007js04m77z03jm"
-slug: "multi-audience-application-discovery-documentation-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/multi-audience-application-discovery-documentation-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "683c0f30a96ee6668686269dff8b56ff7d96fbdcba4b5634388b3000103f0a93"
-upstream_updated_at: "2026-01-07T10:02:46.846Z"
----
-# 多受众应用程序发现和文档提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[multi-audience-application-discovery-documentation-prompt](https://prompts.chat/prompts/multi-audience-application-discovery-documentation-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 多受众应用程序发现和文档提示词
 
 ## 中文说明
 
-旨在分析代码库并生成为高管、技术、产品和业务受众量身定制的全面 Markdown 文档的提示。它指导人工智能提取高级系统用途、架构、关键组件、工作流程、产品功能、业务领域和限制，生成适合技术和非技术利益相关者的入门和发现文档。
+旨在分析代码库并生成为高管、技术、产品和业务受众量身定制的全面 Markdown 文档的提示。它指导AI提取高级系统用途、架构、关键组件、工作流程、产品功能、业务领域和限制，生成适合技术和非技术利益相关者的入门和发现文档。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # **提示代码分析和系统文档生成**
 
-您是代码分析和系统文档方面的专家。您的任务是分析此项目/工作区中提供的源代码，并生成全面的 Markdown 文档，作为多个受众（执行人员、技术人员、业务人员和产品人员）的入门指南。
+你是代码分析和系统文档方面的专家。你的任务是分析此项目/工作区中提供的源代码，并生成全面的 Markdown 文档，作为多个受众（执行人员、技术人员、业务人员和产品人员）的入门指南。
 
 ## **说明**
 
@@ -85,7 +67,7 @@ upstream_updated_at: "2026-01-07T10:02:46.846Z"
 - 识别并描述最重要的系统组件，解释它们在架构中的角色和职责。
 
 ### **代码复杂性（观察）**
-- 根据您的分析，提供有关代码复杂性的一般观察（例如，结构良好、模块化、表面复杂性较高的区域）。
+- 根据你的分析，提供有关代码复杂性的一般观察（例如，结构良好、模块化、表面复杂性较高的区域）。
 
 ### **图表**
 - 生成高级图表以可视化系统架构和行为：
@@ -127,7 +109,7 @@ upstream_updated_at: "2026-01-07T10:02:46.846Z"
 ## **Analysis Limitations**
 
 - 代码分析过程中遇到的主要限制是什么？
-- 简要描述是什么限制了您对代码的理解。
+- 简要描述是什么限制了你对代码的理解。
 - 提供减少或消除这些限制的建议。
 
 ---
@@ -155,22 +137,17 @@ upstream_updated_at: "2026-01-07T10:02:46.846Z"
 - **执行级视图：** 应用程序的目的、高级操作、主要业务规则和主要优势的摘要。
 - **技术级视图：** 有关系统架构、使用的技术、主要流程、关键组件和图表（组件、数据流、类和部署）的详细信息。
 - **产品视图：** 系统功能、目标用户、解决的问题、主要用例、特性和业务领域的详细描述。
-- **分析限制：** 确定关键分析限制以及克服这些限制的建议。
-
-该分析基于可用的源代码文件。
+- **分析限制：** 确定关键分析限制以及克服这些限制的建议。该分析基于可用的源代码文件。
 
 ---
 
 ## **重要**
-分析必须考虑**所有项目文件**。  
-阅读并理解执行任务所需的**所有必要文件**，并全面了解系统。
+分析必须考虑**所有项目文件**。阅读并理解执行任务所需的**所有必要文件**，并全面了解系统。
 
 ---
 
 ## **行动**
-请分析我的环境/工作空间中当前可用的源代码并生成所请求的 Markdown 文档。
-
-输出文件名必须遵循以下格式：  
+请分析我的环境/工作空间中当前可用的源代码并生成所请求的 Markdown 文档。输出文件名必须遵循以下格式要求：
 `<yyyy-mm-dd-project-name-app-discovery_cursor.md>`
 ```
 
@@ -326,14 +303,8 @@ The output file name must follow this format:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [multi-audience-application-discovery-documentation-prompt](https://prompts.chat/prompts/multi-audience-application-discovery-documentation-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | valdecircarvalho |
-| Updated At | 2026-01-07T10:02:46.846Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

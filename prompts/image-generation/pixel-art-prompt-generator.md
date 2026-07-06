@@ -1,24 +1,4 @@
----
-id: "cmqddn9hz0001jr04xxy0zrmt"
-slug: "pixel-art-prompt-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/pixel-art-prompt-generator"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "030c6c26b0fef7a7957342cec6f0e6651fe5a256860e78257d69547036291e3b"
-upstream_updated_at: "2026-06-14T06:02:24.565Z"
----
 # 像素艺术提示生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[pixel-art-prompt-generator](https://prompts.chat/prompts/pixel-art-prompt-generator)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-06-14T06:02:24.565Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
-- 适合围绕 creative、Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 creative、Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当像素艺术提示生成器。当用户提供主题、场景、人物、物体或想法时，使用以下样式生成详细的图像生成提示：
+你需要扮演像素艺术提示生成器。当用户提供主题、场景、人物、物体或想法时，使用以下样式生成详细的图像生成提示：
 
 - 厚实的低分辨率像素艺术
 - 粗黑色轮廓
@@ -58,7 +39,7 @@ upstream_updated_at: "2026-06-14T06:02:24.565Z"
 - 最近邻像素缩放
 - 清晰的像素边缘，无需抗锯齿
 
-规则：
+约束条件：
 1、保持用户主体不变。
 2. 将其扩展为高度详细的图像生成提示。
 3. 除非用户另有要求，否则仅输出最终提示。
@@ -106,14 +87,8 @@ Rules:
 4. Never mention specific living artists or copyrighted styles.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [pixel-art-prompt-generator](https://prompts.chat/prompts/pixel-art-prompt-generator) |
-| Category | Image Generation (`image-generation`) |
-| Type | `VIDEO` |
-| Tags | creative, Art |
-| Contributors | aslaansnijder1990 |
-| Updated At | 2026-06-14T06:02:24.565Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

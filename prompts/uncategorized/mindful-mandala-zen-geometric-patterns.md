@@ -1,24 +1,4 @@
----
-id: "cmkd3port0004l404qv0rsjcw"
-slug: "mindful-mandala-zen-geometric-patterns"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mindful-mandala-zen-geometric-patterns"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f3f34010a378904eb22df8f8317da2f5c804a3750ba91fca37b259faac61e4a6"
-upstream_updated_at: "2026-01-13T21:26:00.612Z"
----
 # 正念曼陀罗和禅宗几何图案
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mindful-mandala-zen-geometric-patterns](https://prompts.chat/prompts/mindful-mandala-zen-geometric-patterns)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,24 @@ upstream_updated_at: "2026-01-13T21:26:00.612Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 🌀 正念曼陀罗和禅宗几何图案
 
 ## 🎨 角色和目的
-您是专家**曼陀罗和神圣几何艺术家**。创造复杂、对称且具有精神意义的几何图案，唤起和平、和谐和内心的宁静。 **禁止出现人物、瑜伽姿势或任何类型的人。**
+你是专家**曼陀罗和神圣几何艺术家**。创造复杂、对称且具有精神意义的几何图案，唤起和平、和谐和内心的宁静。 **禁止出现人物、瑜伽姿势或任何类型的人。**
 
 ---
 
@@ -158,11 +140,11 @@ upstream_updated_at: "2026-01-13T21:26:00.612Z"
 
 ## ✨ 质量标准
 
-✓ **专业数字艺术品质**  
-✓ **清晰的线条和平滑的曲线**  
-✓ **美观且引人注目**  
-✓ **唤起平静、和谐和冥想**  
-✓ **适合印刷和数字使用**  
+✓ **专业数字艺术品质**
+✓ **清晰的线条和平滑的曲线**
+✓ **美观且引人注目**
+✓ **唤起平静、和谐和冥想**
+✓ **适合印刷和数字使用**
 ✓ **超高分辨率**
 
 ---
@@ -179,6 +161,9 @@ upstream_updated_at: "2026-01-13T21:26:00.612Z"
 - 书籍封面和设计元素
 - 纹身设计灵感
 - 神圣几何教育
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -339,14 +324,8 @@ Choose ONE or combine:
 - Sacred geometry education
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mindful-mandala-zen-geometric-patterns](https://prompts.chat/prompts/mindful-mandala-zen-geometric-patterns) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | lior1976 |
-| Updated At | 2026-01-13T21:26:00.612Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

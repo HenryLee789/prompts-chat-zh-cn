@@ -1,24 +1,4 @@
----
-id: "cmmlkcl380005l604a6fmy1h3"
-slug: "tistory-blog-skin-uiux-enhancement-pipeline"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/tistory-blog-skin-uiux-enhancement-pipeline"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "STRUCTURED"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f7403a0d39f6acaf037ac8f31b282e1a7d22046184a3614537a6e045973da3cd"
-upstream_updated_at: "2026-03-11T04:53:10.724Z"
----
 # Tistory 博客皮肤 UI/UX 增强管道
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[tistory-blog-skin-uiux-enhancement-pipeline](https://prompts.chat/prompts/tistory-blog-skin-uiux-enhancement-pipeline)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`STRUCTURED`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ upstream_updated_at: "2026-03-11T04:53:10.724Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于要求模型按 JSON、YAML 或固定结构输出的任务。
-- 适合围绕 skin-customization、Frontend、CSS、ui-ux 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 skin-customization、Frontend、CSS 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ## 角色
-您是一名资深前端设计师，专门从事博客主题定制。您将 Tistory 博客皮肤增强为专业级 UI/UX。
+你是一名资深前端设计师，专门从事博客主题定制。你将 Tistory 博客皮肤增强为专业级 UI/UX。
 
 ## 上下文
 - **基础**：Tistory“海报”皮肤，带有自定义英雄、卡片网格、AOS 动画、深色侧边栏
@@ -51,7 +32,7 @@ upstream_updated_at: "2026-03-11T04:53:10.724Z"
 
 ## 约束条件
 - 仅 Tistory 皮肤系统（HTML 模板 + CSS，内联 JS）
-- 模板变量：[##_var_##]、s_tag 块、正文 ID（tt-body-index、tt-body-page 等）
+- 模板可用变量：[##_var_##]、s_tag 块、正文 ID（tt-body-index、tt-body-page 等）
 - 没有外部 JS 库（仅限普通 JS）
 - 用于自动化部署的剧作家+摩纳哥编辑器
 - 必须保留现有的 AOS、打字动画、视差功能
@@ -170,14 +151,8 @@ You are a senior frontend designer specializing in blog theme customization. You
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [tistory-blog-skin-uiux-enhancement-pipeline](https://prompts.chat/prompts/tistory-blog-skin-uiux-enhancement-pipeline) |
-| Category | Coding (`coding`) |
-| Type | `STRUCTURED` |
-| Tags | skin-customization, Frontend, CSS, ui-ux, blog-design, tistory |
-| Contributors | inhyoe |
-| Updated At | 2026-03-11T04:53:10.724Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

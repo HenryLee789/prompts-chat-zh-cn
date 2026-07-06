@@ -1,56 +1,34 @@
----
-id: "cmogslvi80004jo04o52as9w1"
-slug: "handle-bug-in-feature"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/handle-bug-in-feature"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f972e8484daba335adb63b09b7f81c203a1221e4f9f7af6230824be7e8f3511f"
-upstream_updated_at: "2026-04-27T06:06:11.501Z"
----
-# 处理功能中的错误
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[handle-bug-in-feature](https://prompts.chat/prompts/handle-bug-in-feature)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 处理功能中的bug
 
 ## 中文说明
 
-这个提示词用于Vibe Coding场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「处理功能中的bug」执行Vibe Coding 原型开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级软件工程师和系统架构师。
+你需要扮演「处理功能中的bug」。你需要扮演高级软件工程师和系统架构师。
 
 ## 上下文
-我是一名开发应用程序功能的开发人员。
-
-有一个错误，之前的修复使系统变得更加复杂。
-
-我需要：
+我是一名开发应用程序功能的开发人员。有一个bug，之前的修复使系统变得更加复杂。我需要：
 - 清晰了解系统流程
 - 识别确切的故障点
 - 最小、精确的修复（没有过度设计）
 
-在尝试修复之前，您必须解释系统。
+在尝试修复之前，你必须解释系统。
 
 ---
 
@@ -77,14 +55,14 @@ ${paste_relevant_code}
 #### A. 流程图
 提供清晰的分步流程：
 
-用户操作  
-→ 用户界面层  
-→ 状态/控制器/逻辑  
-→ 数据处理  
-→ 外部系统/SDK/API（如果有）  
-→ 响应处理  
-→ 渲染/输出  
-→ 用户界面更新  
+用户操作
+→ 用户界面层
+→ 状态/控制器/逻辑
+→ 数据处理
+→ 外部系统/SDK/API（如果有）
+→ 响应处理
+→ 渲染/输出
+→ 用户界面更新
 
 ---
 
@@ -150,9 +128,7 @@ ${paste_relevant_code}
 - 不要重写架构
 - 不要引入不必要的抽象
 
-仅提供修改后的代码片段。
-
-重点关注：
+仅提供修改后的代码片段。重点关注：
 - 修复时间
 - 正确的数据流
 - 正确的状态更新
@@ -203,7 +179,7 @@ ${paste_relevant_code}
 
 ## 自检（强制）
 回答之前：
-- 我是否将错误映射到特定的流程步骤？
+- 我是否将bug映射到特定的流程步骤？
 - 我是否发现了时间/生命周期问题？
 - 修复是否最小且范围有限？
 - 我是否避免了过度设计？
@@ -395,14 +371,8 @@ Before answering:
 - Did I avoid over-engineering?
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [handle-bug-in-feature](https://prompts.chat/prompts/handle-bug-in-feature) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | dishantpatel624 |
-| Updated At | 2026-04-27T06:06:11.501Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjsfqyz6000dl1048s273gh9"
-slug: "sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1d5cecc1a1700b19cb0a4d597a00a6d8c3e71bb0b255ef50c6accca95969bf0b"
-upstream_updated_at: "2025-12-30T19:09:18.102Z"
----
 # 一位带有 Tiki 装饰的纹身女性在阳光普照的户外自拍
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor](https://prompts.chat/prompts/sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-30T19:09:18.102Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -394,14 +376,8 @@ Captured in a bright outdoor setting, this close-up features a young woman with 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor](https://prompts.chat/prompts/sun-drenched-outdoor-selfie-of-a-tattooed-female-subject-with-tiki-decor) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2025-12-30T19:09:18.102Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

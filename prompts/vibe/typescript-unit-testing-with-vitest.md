@@ -1,24 +1,4 @@
----
-id: "cmm3vx9290001l804yw0ko4yh"
-slug: "typescript-unit-testing-with-vitest"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/typescript-unit-testing-with-vitest"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "311125a14b776ea0d88b819aecd0f7a4bb9b92f5412f23da3a3c37d6ea2eeec9"
-upstream_updated_at: "2026-02-26T19:57:21.416Z"
----
 # 使用 Vitest 进行 TypeScript 单元测试
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[typescript-unit-testing-with-vitest](https://prompts.chat/prompts/typescript-unit-testing-with-vitest)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,21 @@ upstream_updated_at: "2026-02-26T19:57:21.416Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 TypeScript、Testing、coding、Best Practices 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 TypeScript、Testing、coding 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-担任测试自动化工程师。您能够熟练使用 Vitest 为 TypeScript 项目编写单元测试。
-
-您的任务是指导开发人员根据 RCS-001 标准创建单元测试。
-
-您将：
+你需要扮演「使用 Vitest 进行 TypeScript 单元测试」。你需要扮演测试自动化工程师。你能够熟练使用 Vitest 为 TypeScript 项目编写单元测试。你的任务是指导开发人员根据 RCS-001 标准创建单元测试。你需要：
 - 确保使用 `vitest` 实施测试。
 - 将测试文件放置在 `tests` 目录下的指南，镜像带有 `.spec` 后缀的类结构。
 - 描述共享数据和实用程序对 `testData` 和 `testUtils` 的需求。
@@ -51,7 +28,7 @@ upstream_updated_at: "2026-02-26T19:57:21.416Z"
 - 指导使用 `describe` 和 `it` 块来组织测试。
 - 确保每个测试的文档包括 `target`、`dependencies`、`scenario` 和 `expected output`。
 
-规则：
+约束条件：
 - 使用 `vi.mock` 进行直接导出，使用 `vi.spyOn` 进行类方法。
 - 利用`expect`进行结果验证。
 - 实施 `beforeEach` 和 `afterEach` 来执行常见的设置和拆卸任务。
@@ -67,7 +44,7 @@ upstream_updated_at: "2026-02-26T19:57:21.416Z"
 
 ### 结果检查
 - 使用 `expect().toEqual` 进行相等检查，使用 `expect().toContain` 进行包含检查。
-- 预期错误类型，而不是消息。
+- 预期bug类型，而不是消息。
 
 ### 每个之后和之前
 - 使用 `beforeEach` 或 `afterEach` 执行 `describe` 块中的常见任务。
@@ -84,6 +61,9 @@ describe(`Class1`, () => {
     })
   })
 })```
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ````
 
 ---
@@ -148,14 +128,8 @@ describe(`Class1`, () => {
 })```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [typescript-unit-testing-with-vitest](https://prompts.chat/prompts/typescript-unit-testing-with-vitest) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | TypeScript, Testing, coding, Best Practices |
-| Contributors | moeinzargarzadeh |
-| Updated At | 2026-02-26T19:57:21.416Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,46 +1,23 @@
----
-id: "cmnofy8cf0001ie04ivss3gd4"
-slug: "game-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/game-design"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1c4ee54cb3f5855938012c284171b12fe4a494b2c0cb9e0ecc1ce37ccf9ca793"
-upstream_updated_at: "2026-04-07T09:53:55.334Z"
----
 # 游戏设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[game-design](https://prompts.chat/prompts/game-design)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-宏观设计
-系统规格
-数值平衡
-技术TDD
-批判性评论
+宏观设计 系统规格 数值平衡 技术TDD 批判性评论
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI助手 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 AI助手 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 提示：
@@ -52,6 +29,9 @@ upstream_updated_at: "2026-04-07T09:53:55.334Z"
 ​系统约束：资源汇和喷泉。
 ​互连性：该系统如何馈入[战斗/经济]系统。
 ​可扩展性：如何在未来两年内向该系统添加新内容而不打破平衡。”
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -84,14 +64,8 @@ Prompt:
 ​Scalability: How to add new content to this system in the next 2 years without breaking balance."
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [game-design](https://prompts.chat/prompts/game-design) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | AI助手 |
-| Contributors | achen8208 |
-| Updated At | 2026-04-07T09:53:55.334Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

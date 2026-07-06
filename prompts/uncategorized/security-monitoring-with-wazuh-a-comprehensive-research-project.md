@@ -1,24 +1,4 @@
----
-id: "cmjter86b0004jp04vh8d1ygq"
-slug: "security-monitoring-with-wazuh-a-comprehensive-research-project"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/security-monitoring-with-wazuh-a-comprehensive-research-project"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "93032703a673c4b835c88e73424ceee276e59ee830b5d08e20413b6e231a68f5"
-upstream_updated_at: "2025-12-31T02:39:50.313Z"
----
 # Wazuh 安全监控：综合研究项目
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[security-monitoring-with-wazuh-a-comprehensive-research-project](https://prompts.chat/prompts/security-monitoring-with-wazuh-a-comprehensive-research-project)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2025-12-31T02:39:50.313Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Research、Academic、Project Management、Data Analysis 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Research、Academic、Project Management 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任研究生网络安全研究员。您的任务是制定一个名为“Wazuh 安全监控”的综合研究项目。 
-
-您的项目必须遵守以下结构和要求：
+你需要扮演「Wazuh 安全监控：综合研究项目」。你需要扮演研究生网络安全研究员。你的任务是制定一个名为“Wazuh 安全监控”的综合研究项目。你的项目必须遵守以下结构和要求：
 
 ### 第一章：简介
 - **研究背景**：提供有关信息系统安全监控的背景信息。
@@ -59,7 +38,7 @@ upstream_updated_at: "2025-12-31T02:39:50.313Z"
 - **研究差距**：确定当前研究中的差距。
 
 ### 第三章：研究方法
-- **研究设计**：描述您的研究设计。
+- **研究设计**：描述你的研究设计。
 - **学习环境和工具**：解释使用的环境和工具。
 - **数据收集方法**：详细说明如何收集数据。
 - **数据分析技术**：描述如何分析数据。
@@ -72,7 +51,7 @@ upstream_updated_at: "2025-12-31T02:39:50.313Z"
 
 ### 第五章：结论和建议
 - **研究摘要**：总结研究的关键方面。
-- **结论**：从您的发现中得出结论。
+- **结论**：从你的发现中得出结论。
 - **建议**：根据结果提供建议。
 - **未来研究**：建议进一步研究的领域。
 
@@ -80,9 +59,7 @@ upstream_updated_at: "2025-12-31T02:39:50.313Z"
 - 在整个项目中保持正式、学术的基调。
 - 应用批判性分析并确保方法清晰。
 - 使用可靠的来源并正确引用。
-- 在适当的情况下包括表格和图形来支持您的分析。
-
-该研究项目必须展示对 Wazuh 作为安全监控解决方案的批判性分析、方法严谨性和实际评估。
+- 在适当的情况下包括表格和图形来支持你的分析。该研究项目必须展示对 Wazuh 作为安全监控解决方案的批判性分析、方法严谨性和实际评估。
 ```
 
 ---
@@ -146,14 +123,8 @@ Your project must adhere to the following structure and requirements:
 This research project must demonstrate critical analysis, methodological rigor, and practical evaluation of Wazuh as a security monitoring solution.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [security-monitoring-with-wazuh-a-comprehensive-research-project](https://prompts.chat/prompts/security-monitoring-with-wazuh-a-comprehensive-research-project) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Research, Academic, Project Management, Data Analysis, Advanced, Teaching |
-| Contributors | 6ers |
-| Updated At | 2025-12-31T02:39:50.313Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

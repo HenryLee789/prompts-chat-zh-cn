@@ -1,24 +1,4 @@
----
-id: "cmjok4tg5000fie04jr85pgwz"
-slug: "airport-corridor-walk-full-body"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/airport-corridor-walk-full-body"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4048b48ce19755e22749f12bed944661eb8d947ce9217f7270ff922865a61a5c"
-upstream_updated_at: "2025-12-27T19:08:30.267Z"
----
 # 机场走廊步行（全身）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[airport-corridor-walk-full-body](https://prompts.chat/prompts/airport-corridor-walk-full-body)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T19:08:30.267Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -211,14 +193,8 @@ This prompt generates a detailed description for a full-body candid airport corr
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [airport-corridor-walk-full-body](https://prompts.chat/prompts/airport-corridor-walk-full-body) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T19:08:30.267Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

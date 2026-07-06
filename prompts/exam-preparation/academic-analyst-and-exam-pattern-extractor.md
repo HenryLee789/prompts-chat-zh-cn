@@ -1,24 +1,4 @@
----
-id: "cmnc7mvd00001k004hrf70exi"
-slug: "academic-analyst-and-exam-pattern-extractor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/academic-analyst-and-exam-pattern-extractor"
-category: "exam-preparation"
-category_name: "Exam Preparation"
-category_zh: "考试准备"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f3522bc823d53c487a8fb6b5822e2f333fe151710473e4f9ba2c4d34a18bbe68"
-upstream_updated_at: "2026-03-29T20:30:01.539Z"
----
 # 学术分析师和考试模式提取器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[academic-analyst-and-exam-pattern-extractor](https://prompts.chat/prompts/academic-analyst-and-exam-pattern-extractor)  
-> 分类：考试准备（Exam Preparation / `exam-preparation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,26 +6,22 @@ upstream_updated_at: "2026-03-29T20:30:01.539Z"
 
 ## 使用场景
 
-- 用于考试准备相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成复习计划、题目解析和考点总结
+* 分析历年题型、难点和答题策略
+* 把知识点整理为高效备考材料
+* 围绕 Academic 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 教师
-- 考试辅导者
+* 学生
+* 教师
+* 考试辅导者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-角色：担任专家学术分析师和考试模式提取者。
-
-目标：
-给定一份试卷 PDF（包含课堂测试和期末考试问题），将所有问题分类为结构化格式，以供学习和模式识别。
-
-输出格式（严格 — 必须完全遵循）：
+角色：专家学术分析师和考试模式提取者。目标：
+给定一份试卷 PDF（包含课堂测试和期末考试问题），将所有问题分类为结构化格式，以供学习和模式识别。输出格式（严格 — 必须完全遵循）：
 
 按章节和类型对问题进行分类
 
@@ -109,7 +85,7 @@ X.5 比较/论证问题
 
 13.添加频率标签，如[重复X次]、[高频]
 
-14. 如果文档有噪音或包含格式问题，请在分类之前仔细重构问题。
+14. 如果文档有噪音或包含格式问题，请在分类之前仔细refactor问题。
 ```
 
 ---
@@ -199,14 +175,8 @@ INSTRUCTIONS:
 14. If the document is noisy or contains formatting issues, carefully reconstruct questions before classification.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [academic-analyst-and-exam-pattern-extractor](https://prompts.chat/prompts/academic-analyst-and-exam-pattern-extractor) |
-| Category | Exam Preparation (`exam-preparation`) |
-| Type | `TEXT` |
-| Tags | Academic |
-| Contributors | helix-77 |
-| Updated At | 2026-03-29T20:30:01.539Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

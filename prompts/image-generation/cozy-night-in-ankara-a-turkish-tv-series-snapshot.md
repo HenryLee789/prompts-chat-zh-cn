@@ -1,24 +1,4 @@
----
-id: "cmjr252ho0001i8044a7z09ag"
-slug: "cozy-night-in-ankara-a-turkish-tv-series-snapshot"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cozy-night-in-ankara-a-turkish-tv-series-snapshot"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0a8729fd957fa6287cfdb2f2ed01ccf897bcc009a24a5c8376e5d4171496ad8d"
-upstream_updated_at: "2025-12-29T11:11:16.477Z"
----
 # 安卡拉的舒适之夜：土耳其电视剧快照
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cozy-night-in-ankara-a-turkish-tv-series-snapshot](https://prompts.chat/prompts/cozy-night-in-ankara-a-turkish-tv-series-snapshot)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,24 @@ upstream_updated_at: "2025-12-29T11:11:16.477Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-超现实、略显喜剧的土耳其电视剧剧照，垂直取景就像手机快照。夜间安卡拉一间朴素客厅的内部。来自单个天花板固定装置和旧灯的温暖黄光，没有工作室光泽。中间是一位 27 岁的土耳其女性，身材曲线优美，金发，身材柔软，胖乎乎的，穿着一件超大的廉价卡通 T 恤当睡衣（与飞天小女警的衬衫风格类似）和蓬松的家居拖鞋。她半躺着，半坐在一张旧图案的沙发上，腿上盖着毯子，一只手拿着手机，拇指悬停着，准备发布一条“iyi geceler”推文。
+超现实、略显喜剧的土耳其电视剧剧照，垂直取景就像手机快照。夜间安卡拉一间朴素客厅的内部。来自单个天花板固定装置和旧灯的温暖黄光，没有工作室光泽。中间是一位 27 岁的土耳其女性，身材曲线优美，金发，身材柔软，胖乎乎的，穿着一件超大的廉价卡通 T 恤当睡衣（与飞天小女警的衬衫风格类似）和蓬松的家居拖鞋。她半躺着，半坐在一张旧图案的沙发上，腿上盖着毯子，一只手拿着手机，拇指悬停着，准备发布一条“iyi geceler”推文。在她周围的同一张沙发和附近的椅子上，几位年长的土耳其亲戚和邻居阿姨叔叔正在一台略显过时的平板电视上观看肥皂剧。电视上，一个戏剧性的场景在哭声中被定格。一位阿姨全神贯注地看着电视，另一位亲戚已经张着嘴打瞌睡了。矮桌上放着一个吵闹的茶炊或 çaydanlık，周围摆着许多小土耳其茶杯、方糖、葵花籽壳，以及一个装有 Ülker 和 Eti 零食包装纸的碗。客厅的装饰毫无疑问是土耳其中下层阶级的风格：地板上有图案的地毯，窗户上有蕾丝窗帘，挂着一张清真寺照片的挂历，一幅镶框的宗教书法作品，也许还有一幅廉价的山水画。窗外，你可以看到模糊的安卡拉公寓楼和远处微弱的米格罗斯标志。架子上有一个 Turkcell 品牌的调制解调器，带有闪烁的灯光和一堆随机的遥控器。气氛很舒适，但有点凌乱：电缆清晰可见，坐垫排列不完美，咖啡桌上有一个盘子，里面有剩下的 börek。这位女士的表情略带讽刺，就像她在房子里还很吵闹的时候在时间轴上发推文“iyi geceler”一样。拍摄角度很低，而且有点歪，就像有人站在门口快速拍摄的一样。一位阿姨指着电视时有轻微的运动模糊，每个人都有自然的皮肤纹理和小瑕疵，没有进行任何美容修饰。颜色温暖而自然，较暗的角落有明显的数字噪点，以保持手机照片的感觉。
 
-在她周围的同一张沙发和附近的椅子上，几位年长的土耳其亲戚和邻居阿姨叔叔正在一台略显过时的平板电视上观看肥皂剧。电视上，一个戏剧性的场景在哭声中被定格。一位阿姨全神贯注地看着电视，另一位亲戚已经张着嘴打瞌睡了。矮桌上放着一个吵闹的茶炊或 çaydanlık，周围摆着许多小土耳其茶杯、方糖、葵花籽壳，以及一个装有 Ülker 和 Eti 零食包装纸的碗。
-
-客厅的装饰毫无疑问是土耳其中下层阶级的风格：地板上有图案的地毯，窗户上有蕾丝窗帘，挂着一张清真寺照片的挂历，一幅镶框的宗教书法作品，也许还有一幅廉价的山水画。窗外，你可以看到模糊的安卡拉公寓楼和远处微弱的米格罗斯标志。架子上有一个 Turkcell 品牌的调制解调器，带有闪烁的灯光和一堆随机的遥控器。
-
-气氛很舒适，但有点凌乱：电缆清晰可见，坐垫排列不完美，咖啡桌上有一个盘子，里面有剩下的 börek。这位女士的表情略带讽刺，就像她在房子里还很吵闹的时候在时间轴上发推文“iyi geceler”一样。拍摄角度很低，而且有点歪，就像有人站在门口快速拍摄的一样。一位阿姨指着电视时有轻微的运动模糊，每个人都有自然的皮肤纹理和小瑕疵，没有进行任何美容修饰。颜色温暖而自然，较暗的角落有明显的数字噪点，以保持手机照片的感觉。
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -71,14 +50,8 @@ The living room decor is unmistakably Turkish lower-middle-class: patterned carp
 The mood is cozy and a bit messy: cables visible, cushions not perfectly arranged, a plate with leftover börek on the coffee table. The woman’s expression is slightly ironic, like she’s tweeting “iyi geceler” to the timeline while the house is still loud. The camera angle is low and a bit crooked, as if someone took it quickly while standing in the doorway. Slight motion blur on one auntie gesturing toward the TV, natural skin texture and small imperfections on everyone, no beauty retouching. Colors are warm and natural, with visible digital noise in the darker corners to keep the phone-photo feeling.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cozy-night-in-ankara-a-turkish-tv-series-snapshot](https://prompts.chat/prompts/cozy-night-in-ankara-a-turkish-tv-series-snapshot) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:11:16.477Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

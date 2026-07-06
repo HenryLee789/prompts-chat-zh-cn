@@ -1,24 +1,4 @@
----
-id: "cmmkqhi6v60ecimdg0ze37"
-slug: "idea-generation-step-5-final-review"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/idea-generation-step-5-final-review"
-category: "workflows"
-category_name: "Workflows"
-category_zh: "工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7f5e1fe97776ac5de39a4e375138b4890a0041f1083a91a96a329d3762326ecb"
-upstream_updated_at: "2026-01-23T06:16:55.336Z"
----
 # 第 5 步：最终审核
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[idea-generation-step-5-final-review](https://prompts.chat/prompts/idea-generation-step-5-final-review)  
-> 分类：工作流（Workflows / `workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,21 @@ upstream_updated_at: "2026-01-23T06:16:55.336Z"
 
 ## 使用场景
 
-- 用于工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 拆解多阶段任务和执行顺序
+* 定义输入、步骤、检查点和输出结果
+* 把复杂工作转化为可复用流程
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 项目经理
-- 自动化工程师
-- 团队负责人
+* 项目经理
+* 自动化工程师
+* 团队负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-合并所有工作流程，进行全面的最终审查。
-
-审查清单：
+合并所有工作流程，进行全面的最终审查。审查清单：
 - 技术可行性得到确认
 - 创意愿景一致
 - 满足所有要求
@@ -79,14 +59,8 @@ Review checklist:
 Provide a final assessment with any last recommendations.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [idea-generation-step-5-final-review](https://prompts.chat/prompts/idea-generation-step-5-final-review) |
-| Category | Workflows (`workflows`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | f |
-| Updated At | 2026-01-23T06:16:55.336Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

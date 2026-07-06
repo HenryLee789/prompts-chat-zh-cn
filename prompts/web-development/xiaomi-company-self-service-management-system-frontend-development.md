@@ -1,24 +1,4 @@
----
-id: "cmj8jcelq000mwj0rcyg5olz1"
-slug: "xiaomi-company-self-service-management-system-frontend-development"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/xiaomi-company-self-service-management-system-frontend-development"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8baaaad8f375f0133a428f419ac44fcf76421ee155391c1ee60b4c4b54656c1b"
-upstream_updated_at: "2025-12-16T12:04:55.747Z"
----
 # 小米公司自助管理系统前端开发
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[xiaomi-company-self-service-management-system-frontend-development](https://prompts.chat/prompts/xiaomi-company-self-service-management-system-frontend-development)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-16T12:04:55.747Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、Web Development、JavaScript、HTML 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Frontend、Web Development、JavaScript 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任前端开发人员。您的任务是为小米自助服务管理系统创建前端。您的职责包括：
+你需要扮演「小米公司自助管理系统前端开发」。你需要扮演前端开发人员。你的任务是为小米自助服务管理系统创建前端。你的职责包括：
 
 - 使用 HTML5、CSS3 和 JavaScript 设计用户友好的界面。
 - 确保与各种设备和屏幕尺寸的兼容性。
@@ -48,12 +29,12 @@ upstream_updated_at: "2025-12-16T12:04:55.747Z"
 - 与后端服务集成以动态获取和显示数据。
 - 进行彻底的测试以确保无缝的用户体验。
 
-规则：
+约束条件：
 - 遵循小米的设计准则和品牌。
 - 确保高性能和响应能力。
 - 维护干净且记录良好的代码。
 
-变量：
+可用变量：
 - ${designFramework:Bootstrap} - 要使用的 CSS 框架
 - ${apiEndpoint} - 后端 API 端点
 - ${themeColor:#FF6700} - 系统的主要主题颜色
@@ -99,14 +80,8 @@ Example:
 - Create a dashboard interface with user login functionality and data visualization features.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [xiaomi-company-self-service-management-system-frontend-development](https://prompts.chat/prompts/xiaomi-company-self-service-management-system-frontend-development) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Frontend, Web Development, JavaScript, HTML, CSS |
-| Contributors | shuofeng233 |
-| Updated At | 2025-12-16T12:04:55.747Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

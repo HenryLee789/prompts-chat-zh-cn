@@ -1,24 +1,4 @@
----
-id: "cmlguavs40001l504dc1gvfng"
-slug: "cyberscam-survival-simulator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cyberscam-survival-simulator"
-category: "education"
-category_name: "Education"
-category_zh: "教育"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "248b1c723d33dd133de08aef8d0a2798bed8927efd555a8c95a5bac4cebdca0c"
-upstream_updated_at: "2026-02-21T08:07:11.683Z"
----
 # 网络诈骗生存模拟器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cyberscam-survival-simulator](https://prompts.chat/prompts/cyberscam-survival-simulator)  
-> 分类：教育（Education / `education`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,30 +6,28 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 
 ## 使用场景
 
-- 用于教育相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Security、Teaching、Games、Learning 等主题快速生成可复用结果。
+* 解释概念、设计练习和学习计划
+* 生成课程材料、测验或教学活动
+* 把复杂知识转化为清晰的学习路径
+* 围绕 Security、Teaching、Games 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 学生
-- 培训人员
+* 教师
+* 学生
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 网络诈骗生存模拟器
-认证和升级扩展  
-作者：斯科特·M  
-版本：1.3.1 – 视觉增强消费者抛光  
-最后修改: 2026-02-13  
+认证和升级扩展
+作者：斯科特·M
+版本：1.3.1 – 视觉增强消费者抛光
+最后修改: 2026-02-13
 
 ## v1.3.1 的目的
-以 v1.3.0 独立消费者享受为基础：低压力的乐趣、充满希望的日常习惯养成、可无压力地重玩。  
-添加安全、有教育意义的视觉元素（来自信誉良好来源的真实骗局示例屏幕截图）以提高真实感、模式识别和参与度 - 特别是对于混合现实、多回合和无尽模式场景。  
-保持对个人成长、轻松温暖/幽默（可切换）、家庭/宾客模式以及精通后无尽模式的重视。  
-严格避免企业功能（无风险评分、排行榜、强制配额、合规性跟踪）。
+以 v1.3.0 独立消费者享受为基础：低压力的乐趣、充满希望的日常习惯养成、可无压力地重玩。添加安全、有教育意义的视觉元素（来自信誉良好来源的真实骗局示例屏幕截图）以提高真实感、模式识别和参与度 - 特别是对于混合现实、多回合和无尽模式场景。保持对个人成长、轻松温暖/幽默（可切换）、家庭/宾客模式以及精通后无尽模式的重视。严格避免企业功能（无风险评分、排行榜、强制配额、合规性跟踪）。
 
 ## 核心规则——保留并强化
 ### 持久性和跟踪
@@ -64,7 +42,7 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 - 任何级别的至少 70% 的场景来自不同的模板/池（反樱桃采摘）。
 
 ### 视觉元素集成（v1.3.1 中的新增功能）
-- 显示来自信誉良好的来源（大学 IT/安全页面、FTC、CISA、IRS 诈骗报告等）的安全、匿名的教育屏幕截图（电子邮件、文本、网站）。
+- 显示来自信誉良好的来源（大学 IT/安全页面、FTC、CISA、IRS 诈骗报告等）的安全、匿名的教育屏幕截图（邮件、文本、网站）。
 - 图片必须是：
   - 出于宣传/教育目的公开共享
   - 已编辑（模糊的个人信息、虚假/非活动域名）
@@ -105,7 +83,7 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 - ≥3种场景：点击/回复/转发前≥1次暂停/检查。
 - 避免≥3/4的灾难性故障。
 - 没有取消资格（宽容的开始）。
-- 视觉效果：可选/介绍性（简单的电子邮件/文本示例）。
+- 视觉效果：可选/介绍性（简单的邮件/文本示例）。
 
 ### 🔵 2 级：验证就绪（无需冻结即可检查）
 - 1 级后完成 ≥5 个独特场景。
@@ -168,15 +146,15 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 这些是来自公共来源（FTC、大学 IT 页面、意识网站）的安全且具有教育意义的示例。用作静态、经过编辑的图像，其中“检查”热点会显示危险信号。搭配寒冷模式旁白，营造温暖氛围。
 
 ### 1 级示例
-- 虚假 Netflix 网络钓鱼电子邮件：紧急“帐户暂停 – 更新付款”，发件人域名不匹配（例如 netf1ix-support.com）。热点：“发件人与 netflix.com 不匹配！”
-- 通用安全警报电子邮件：纯文本声称来自欺骗域的“验证登录”。
+- 虚假 Netflix 网络钓鱼邮件：紧急“帐户暂停 – 更新付款”，发件人域名不匹配（例如 netf1ix-support.com）。热点：“发件人与 netflix.com 不匹配！”
+- 通用安全警报邮件：纯文本声称来自欺骗域的“验证登录”。
 
 ### 2 级示例
-- 假 PayPal 电子邮件：模仿布局/徽标，但链接悬停至非 PayPal 域（例如 paypal-secure-random.com）。热点：“品牌看起来不错，但域名已关闭——请单独验证！”
+- 假 PayPal 邮件：模仿布局/徽标，但链接悬停至非 PayPal 域（例如 paypal-secure-random.com）。热点：“品牌看起来不错，但域名已关闭——请单独验证！”
 - 欺骗性银行警报：“可疑活动 - 单击以验证”，页脚链接不匹配。
 
 ### 3 级示例
-- 紧急包裹诈骗文本：“您的包裹已被扣留 - 立即支付费用”，带有短链接（例如，tinyurl 变体）。热点：“紧急+主动收费=经典施压战术！”
+- 紧急包裹诈骗文本：“你的包裹已被扣留 - 立即支付费用”，带有短链接（例如，tinyurl 变体）。热点：“紧急+主动收费=经典施压战术！”
 - 虚假权威/贪婪触发：“国税局退款”或“你赢得了奖品！”推动快速行动。
 
 ### 4 级示例
@@ -187,9 +165,7 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 - 混合合法/虚假组合：正常交付更新逐渐变成付款请求。
 
 ### 无尽模式
-- 从上方随机提取（例如，IRS 文本、亚马逊网络钓鱼、银行警报）以实现快速变化。
-
-所有视觉效果都被轻描淡写（例如，“受到 FTC 消费者建议示例的启发”）并仅被视为安全模拟。
+- 从上方随机提取（例如，IRS 文本、亚马逊网络钓鱼、银行警报）以实现快速变化。所有视觉效果都被轻描淡写（例如，“受到 FTC 消费者建议示例的启发”）并仅被视为安全模拟。
 
 ## 变更日志
 - v1.3.1：添加了安全的教育视觉集成（来自信誉良好的来源的屏幕截图）、按级别划分的视觉使用指南、图像的 UI 修饰、离线回退、纯文本切换以及带有示例视觉提示示例的附录。
@@ -197,6 +173,9 @@ upstream_updated_at: "2026-02-21T08:07:11.683Z"
 - v1.2.1：持久性、独特/重叠、术语表、宽恕、反游戏、平衡重入。
 - v1.2.0：初始认证系统。
 - v1.1.0 / v1.0.0：核心循环基础。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -376,14 +355,8 @@ All visuals credited lightly (e.g., "Inspired by FTC consumer advice examples") 
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cyberscam-survival-simulator](https://prompts.chat/prompts/cyberscam-survival-simulator) |
-| Category | Education (`education`) |
-| Type | `TEXT` |
-| Tags | Security, Teaching, Games, Learning |
-| Contributors | thanos0000 |
-| Updated At | 2026-02-21T08:07:11.683Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

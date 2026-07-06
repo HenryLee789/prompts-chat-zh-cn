@@ -30,7 +30,8 @@
     "book:pdf:print:all": "npx tsx scripts/generate-book-pdf.ts --all --print && npx tsx scripts/html-to-pdf.ts --all --print",
     "sync:zh": "node scripts/sync.js --provider=google --concurrency=4",
     "sync:zh:generate": "node scripts/sync.js --generate-only --provider=none",
-    "sync:zh:retry": "node scripts/sync.js --retry-failed --provider=google --concurrency=2"
+    "sync:zh:retry": "node scripts/sync.js --retry-failed --provider=google --concurrency=2",
+    "localize:zh": "node scripts/localize-prompts.js"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",

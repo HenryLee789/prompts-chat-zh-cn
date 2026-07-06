@@ -1,48 +1,29 @@
----
-id: "cmm7aph8m0001le04izoojs6t"
-slug: "landing-page-copy-architect-conversion-framework-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/landing-page-copy-architect-conversion-framework-prompt"
-category: "copywriting"
-category_name: "Copywriting"
-category_zh: "文案写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "eca44bd585b447ce17701fed3a0cce038cfb7e0d9e73a4b8c7f1d23e718eb223"
-upstream_updated_at: "2026-03-01T05:14:45.872Z"
----
-# 登陆页面复制架构师 – 转换框架提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[landing-page-copy-architect-conversion-framework-prompt](https://prompts.chat/prompts/landing-page-copy-architect-conversion-framework-prompt)  
-> 分类：文案写作（Copywriting / `copywriting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 登陆页面复制架构师 – 转换框架提示词
 
 ## 中文说明
 
-为特定优惠设计高转化率的登陆页面复制框架。此提示将指导您创建可重用的蓝图，其他 AI 工具可使用该蓝图生成完整的登陆页面副本。
+为特定优惠设计高conversion rate的登陆页面复制框架。此提示将指导你创建可重用的蓝图，其他 AI 工具可使用该蓝图生成完整的登陆页面副本。
 
 ## 使用场景
 
-- 用于文案写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Copywriting、Content Creation、Marketing、SEO 等主题快速生成可复用结果。
+* 撰写广告语、标题、卖点和转化文案
+* 优化语气、节奏和受众匹配度
+* 生成适合中文语境的可发布文案
+* 围绕 Copywriting、Content Creation、Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 文案策划
-- 内容创作者
-- 营销人员
+* 文案策划
+* 内容创作者
+* 营销人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 登陆页面复制架构师 – 转换框架提示
 
 **角色和目标**
-您是一名资深转化文案和CRO策略师。为特定优惠设计**一个高转化率的着陆页文案框架**（非最终文案）。输出必须是可重用的蓝图，其他 AI（Claude、bolt.new、Lovable、ChatGPT 等）可以使用该蓝图生成完整的登陆页面副本。
+你是一名资深转化文案和CRO策略师。为特定优惠设计**一个高conversion rate的着陆页文案框架**（非最终文案）。输出必须是可重用的蓝图，其他 AI（Claude、bolt.new、Lovable、ChatGPT 等）可以使用该蓝图生成完整的登陆页面副本。
 
 ---
 
@@ -104,18 +85,16 @@ upstream_updated_at: "2026-03-01T05:14:45.872Z"
 
 ---
 
-### 5. 逐节人工智能提示
+### 5. 逐节AI提示
 
-对于页面结构中的**每个部分**，创建一个 Claude/bolt.new/Lovable 兼容的提示，另一个 AI 可以粘贴该提示以生成副本。
-
-对于每个部分提示：
+对于页面结构中的**每个部分**，创建一个 Claude/bolt.new/Lovable 兼容的提示，另一个 AI 可以粘贴该提示以生成副本。对于每个部分提示：
 
 * 从标签开始：
   `SECTION PROMPT: [SECTION NAME]`
 * 包括：
 
   * 本节目的
-  * 所需的音调和长度
+  * 所需的语气和长度
   * 报价、受众、流量温度快速提醒，独特机制
   * 生成该部分的 **2-3 个变体**的说明
 * 将每个提示保留在**一个可复制粘贴块**中。
@@ -143,7 +122,7 @@ upstream_updated_at: "2026-03-01T05:14:45.872Z"
 * 对于每项反对意见，请注明：
 
 * **页面上的**位置来解决这个问题（例如，英雄副标题、定价区域、常见问题解答、CTA 附近、推荐块）。
-  * **采用什么格式：** 缩微副本、常见问题解答项目、保证块、推荐、比较表等。
+  * **采用什么格式要求：** 缩微副本、常见问题解答项目、保证块、推荐、比较表等。
 * 提供 **3 个简短的即插即用模板** 用于异议处理，占位符全部大写，例如：
 
   * `Worried about [OBJECTION]? Here’s how [UNIQUE_MECHANISM] removes [RISK].`
@@ -193,9 +172,7 @@ upstream_updated_at: "2026-03-01T05:14:45.872Z"
   * 表格/列表
   * 随时可用的提示
 * 使用**全部大写**的占位符（例如，[受众]、[结果]、[时间范围]、[异议]）。
-* 力争将完整回复控制在 **~1,800–2,200 字**。
-
-以这一行结束，定制：
+* 力争将完整回复控制在 **~1,800–2,200 字**。以这一行结束，定制：
 
 > **如果访问者只记得此着陆页中的一件事，则应该是：“[一个核心承诺]。”**
 
@@ -381,14 +358,8 @@ End with this line, customized:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [landing-page-copy-architect-conversion-framework-prompt](https://prompts.chat/prompts/landing-page-copy-architect-conversion-framework-prompt) |
-| Category | Copywriting (`copywriting`) |
-| Type | `TEXT` |
-| Tags | Copywriting, Content Creation, Marketing, SEO, Business Strategy |
-| Contributors | Debashis |
-| Updated At | 2026-03-01T05:14:45.872Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

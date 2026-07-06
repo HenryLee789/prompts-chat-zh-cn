@@ -1,24 +1,4 @@
----
-id: "cmmopznp10009le041evkm0nx"
-slug: "design-handoff-notes-ai-first-human-readable"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/design-handoff-notes-ai-first-human-readable"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8517d6ab1fb16deddd16b62ef56b94838afd55697b3789f203c0357008907cab"
-upstream_updated_at: "2026-03-13T09:54:26.784Z"
----
-# 设计交接笔记 - 人工智能优先，人类可读
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[design-handoff-notes-ai-first-human-readable](https://prompts.chat/prompts/design-handoff-notes-ai-first-human-readable)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 设计交接笔记 - AI优先，人类可读
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-13T09:54:26.784Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux、Frontend 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 设计交接笔记 — AI 优先、人类可读
@@ -47,16 +28,16 @@ upstream_updated_at: "2026-03-13T09:54:26.784Z"
 
 ## 关于此提示
 
-**描述：** 生成设计移交文档，作为 AI 编码代理的直接实施指令。与描述设计“应该如何感觉”的传统交接注释不同，本文档提供了机器可解析的零歧义规范。每个值都是明确的，每个状态都是定义的，每个边缘情况都有一个规则。该文档的结构使得人工智能代理可以从上到下阅读它并实施，而无需提出澄清问题 - 而人类开发人员也可以自然地阅读它。
+**描述：** 生成设计移交文档，作为 AI 编码代理的直接实施指令。与描述设计“应该如何感觉”的传统交接注释不同，本文档提供了机器可解析的零歧义规范。每个值都是明确的，每个状态都是定义的，每个边缘情况都有一个规则。该文档的结构使得AI 代理可以从上到下阅读它并实施，而无需提出澄清问题 - 而人类开发人员也可以自然地阅读它。
 
-**核心理念：** 如果人工智能阅读了这份文件并且必须猜测任何内容，那么该文件就失败了。
+**核心理念：** 如果AI阅读了这份文件并且必须猜测任何内容，那么该文件就失败了。
 
 **何时使用：** 设计完成后、实施开始前。这取代了 Figma 交接、设计规范 PDF 和“让它看起来像模型”对话。
 
 **谁读过这篇文章：**
 - 主要：AI编码代理（Claude Code、Cursor、Copilot等）
-- 次要：人类开发人员检查或调试人工智能的输出
-- 第三级：您（设计者）在检查实施是否符合意图时
+- 次要：人类开发人员检查或debugAI的输出
+- 第三级：你（设计者）在检查实施是否符合意图时
 
 **与 CLAUDE.md 的关系：** 本文档假设项目根目录中已存在 CLAUDE.md 设计系统文件。 Handoff Notes 引用 CLAUDE.md 中的标记，但不重新定义它们。如果不存在 CLAUDE.md，请首先运行设计系统提取提示。
 
@@ -169,9 +150,10 @@ For each breakpoint, state:
   无：持续时间-0
 }
 
-规则：每个交互元素都使用 `default`，除非
+约束条件：每个交互元素都使用 `default`，除非
       本文件另有规定。
-规则：过渡适用于：背景颜色、颜色、边框颜色、
+
+约束条件：过渡适用于：背景颜色、颜色、边框颜色、
       不透明度、变换、盒子阴影。永远不要：宽度、高度、填充、
       边距（这些会导致布局重新计算）。
 ```
@@ -188,7 +170,7 @@ Z 索引 {
   工具提示：60
 }
 
-规则：z-index 值不在此范围之外。曾经。
+约束条件：z-index 值不在此范围之外。曾经。
 ```
 
 #### 2.4 Focus Style
@@ -287,7 +269,7 @@ For each component, provide a complete implementation contract.
 **Purpose:** [one sentence — what this component does]
 
 ##### Props Interface
-```打字稿
+```TypeScript
 接口 ${componentname}Props {
   变体：“主要” | '次要' | 'ghost' // 视觉风格
   尺寸: 'sm' | 'md' | 'lg' // 尺寸
@@ -413,20 +395,20 @@ For each user flow, provide step-by-step implementation:
 第 2 步：用户填写表格
              字段：${list_exact_fields_with_validation_rules}
              验证：关于模糊（不是关于变化 - 减少噪音）
-             
-             字段：电子邮件{
-               类型： 电子邮件
+
+             字段：邮件{
+               类型： 邮件
                必填：真实
                验证：正则表达式模式+“必须包含@和域”
-               错误：“这看起来不像电子邮件——检查是否有拼写错误”
+               bug：“这看起来不像邮件——检查是否有拼写错误”
                成功：出现绿色复选标记图标（淡入，持续时间-150）
              }
-             
+
              字段：密码{
                类型：密码（带显示/隐藏切换）
                必填：真实
                验证：最少 8 个字符、1 个大写字母、1 个数字
-               错误：显示要求清单，突出显示未满足的要求
+               bug：显示要求清单，突出显示未满足的要求
                强度：显示强度条（弱/中/强）
              }
 
@@ -437,25 +419,25 @@ For each user flow, provide step-by-step implementation:
 
 步骤 4a：成功
              模态：内容转换为成功消息（交叉淡入淡出，持续时间-200）
-             消息：“帐户已创建！检查您的电子邮件进行验证。”
+             消息：“帐户已创建！检查你的邮件进行验证。”
              操作：“知道了”按钮关闭模式
              重定向：关闭后，重定向到/dashboard
              toast：无（模式是确认）
 
-步骤 4b：错误 — 电子邮件存在
-             字段：电子邮件输入显示错误状态
-             消息：“此电子邮件已经有一个帐户 - 想要登录吗？”
+步骤 4b：bug — 邮件存在
+             字段：邮件输入显示bug状态
+             消息：“此邮件已经有一个帐户 - 想要登录吗？”
              操作：“登录”链接将模式切换为登录表单
              按钮：返回默认状态（未加载）
 
-步骤 4c：错误 — 网络故障
-             显示：模式顶部的错误横幅（不是吐司）
+步骤 4c：bug — 网络故障
+             显示：模式顶部的bug横幅（不是吐司）
              消息：“我们这边出了点问题。再试一次吗？”
              操作：“重试”按钮重新提交
              按钮：返回默认状态
 
-步骤 4d：错误 — 速率受限
-             显示：错误横幅
+步骤 4d：bug — 速率受限
+             显示：bug横幅
              消息：“尝试次数过多。请等待 60 秒，然后重试。”
              按钮：禁用 60 秒，倒计时可见
 ```
@@ -467,7 +449,7 @@ For each user flow, provide step-by-step implementation:
 Don't describe what changes — specify the exact rules:
 
 ```
-响应规则：
+响应约束条件：
 
 规则 1：导航
   ≥1024px：水平导航，所有项目可见
@@ -528,12 +510,12 @@ This section prevents the "but what happens when..." problems:
     - 标题：“${exact_text}”
     - 正文：“${exact_text}”
     - CTA：“${exact_text}”→ ${action}
-  
+
   用户头像缺失：在彩色背景上显示姓名缩写
     - 背景：从用户名哈希生成（确定性）
     - 首字母缩写：名字的首字母 + 姓氏，大写
     - 字体：text-sm font-medium text-white
-  
+
   图像加载失败：显示带有图像图标的灰色占位符
     - 背景：bg-gray-100
     - 图标：来自 lucide-react 的 ImageOff，text-gray-400，24px
@@ -544,15 +526,15 @@ This section prevents the "but what happens when..." problems:
   组件负载：与最终尺寸匹配的组件级骨架
   按钮操作：按钮中的内联微调器（请参阅按钮规范）
   无限列表：获取下一页时底部的骨架行 × 3
-  
+
   骨架样式：bg-gray-200 圆形 animate-pulse
-  骨架规则：骨架形状必须与最终内容形状匹配
+  骨架约束条件：骨架形状必须与最终内容形状匹配
                   （文本为矩形，头像为圆形，卡片为圆形）
 }
 
-错误状态{
-  API 错误 (500)：显示带有重试按钮的内联错误横幅
-  网络错误：顶部显示“您似乎离线”横幅（重新连接时自动关闭）
+bug状态{
+  API bug (500)：显示带有重试按钮的内联bug横幅
+  网络bug：顶部显示“你似乎离线”横幅（重新连接时自动关闭）
   404内容：显示自定义404组件（不是Next.js默认）
   权限被拒绝：使用返回 URL 参数重定向到 /login
   表单验证：内联每个字段（参见流程规范），从不alert()
@@ -592,7 +574,7 @@ After implementation, the AI agent (or human developer) should verify:
 □ 任何断点处都没有水平滚动
 □ 所有图像均使用具有正确尺寸属性的下一个/图像
 □ Z-index 值仅使用定义的比例
-□ 错误状态显示正确（使用网络节流阀进行测试）
+□ bug状态显示正确（使用网络节流阀进行测试）
 □ 空状态显示正确（用空数据测试）
 □ 文本截断适用于边界长度
 □ 深色模式令牌（如果适用）均已映射
@@ -606,20 +588,19 @@ Include this instruction at the top of the generated handoff document
 so the implementing AI knows how to work with it:
 
 ```
-人工智能实施代理说明：
+AI实施代理说明：
 
 1. 在编写任何代码之前，请仔细阅读本文档。
 2. 按照第 1 节（实施图）中指定的顺序实施。
 3. 参考 CLAUDE.md 了解代币值。如果此处引用了令牌
    不在 CLAUDE.md 中，标记它并使用提供的后备值。
-4. 本文档中的每个值都是故意的。请勿替代
+4. 本文档中的每个值都是故意的。不要替代
    具有“足够接近”的值。 `gap-6` 表示 `gap-6`，而不是 `gap-5`。
 5.每个状态都必须执行。如果未指定状态
    一个组件，这是规范中的一个空白 - 标记它，不要猜测。
 6. 实现每个组件后，运行其状态矩阵
    并在移动到下一个组件之前验证所有状态是否有效。
-7. 当遇到歧义时，更喜欢更明确的解释。
-   如果仍然不明确，请添加 TODO 注释：“// HANDOFF-AMBIGUITY: [description]”
+7. 当遇到歧义时，更喜欢更明确的解释。如果仍然不明确，请添加 TODO 注释：“// HANDOFF-AMBIGUITY: [description]”
 ```
 ```
 
@@ -627,9 +608,9 @@ so the implementing AI knows how to work with it:
 
 ## 定制注意事项
 
-**如果您不使用 Tailwind：** 将提示中的所有 Tailwind 类引用替换为系统的等效项。结构保持不变——只是值格式发生了变化。告诉 Claude：“使用 CSS 自定义属性作为主要属性，使用 px 值作为注释。”
+**如果你不使用 Tailwind：** 将提示中的所有 Tailwind 类引用替换为系统的等效项。结构保持不变——只是值格式发生了变化。告诉 Claude：“使用 CSS 自定义属性作为主要属性，使用 px 值作为注释。”
 
-**如果您要移交给特定的 AI 工具：** 添加特定于工具的注释。例如，对于 Cursor：“生成实现为对现有文件的逐步编辑，而不是完整文件重写。”对于 Claude Code：“将每个组件创建为一个完整的文件，对其进行测试，然后移至下一个。”
+**如果你要移交给特定的 AI 工具：** 添加特定于工具的注释。例如，对于 Cursor：“生成实现为对现有文件的逐步编辑，而不是完整文件重写。”对于 Claude Code：“将每个组件创建为一个完整的文件，对其进行测试，然后移至下一个。”
 
 **如果尚不存在 CLAUDE.md：** 告诉提示在移交文档顶部生成一个最小令牌部分，仅覆盖此特定移交所需的令牌。它不会是一个完整的设计系统，但它可以防止硬编码值。
 
@@ -1249,14 +1230,8 @@ INSTRUCTIONS FOR AI IMPLEMENTATION AGENT:
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [design-handoff-notes-ai-first-human-readable](https://prompts.chat/prompts/design-handoff-notes-ai-first-human-readable) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux, Frontend |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T09:54:26.784Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

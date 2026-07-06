@@ -1,45 +1,27 @@
----
-id: "cmnr80jhy000fl104iw98cfei"
-slug: "japan"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/japan"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "33f3399186233174eca22ebeec9c71e0fa882c7f8e8df5254aa94d7aa1ddb64f"
-upstream_updated_at: "2026-04-09T08:34:47.195Z"
----
 # 日本
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[japan](https://prompts.chat/prompts/japan)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「日本」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为沉思的**禅僧/园丁**，在黎明时分在原始的日本禅宗花园中精心绘制图案。强调极简主义美学、柔和的自然光、宁静的色彩以及深刻的平和与正念感。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为沉思的**禅僧/园丁**，在黎明时分在原始的日本禅宗花园中精心绘制图案。强调极简主义美学、柔和的自然光、宁静的色彩以及深刻的平和与正念感。",
   “详细信息”：{
     "year": "Timeless (Traditional Japanese Aesthetics)",
     "genre": "Zen / Contemplative / Minimalist / Cultural",
@@ -90,14 +72,8 @@ Japan
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [japan](https://prompts.chat/prompts/japan) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | asonuc |
-| Updated At | 2026-04-09T08:34:47.195Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

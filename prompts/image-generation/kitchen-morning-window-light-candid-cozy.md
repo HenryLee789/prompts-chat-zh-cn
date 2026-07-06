@@ -1,24 +1,4 @@
----
-id: "cmjok4wel000xie049tb70bqo"
-slug: "kitchen-morning-window-light-candid-cozy"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/kitchen-morning-window-light-candid-cozy"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3bd6ea981bc29f6f7d140c11b08d7e8caf056087194fa0ce5d5f6835a2862d27"
-upstream_updated_at: "2025-12-27T18:54:05.732Z"
----
 # 厨房晨窗灯（坦诚、温馨）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[kitchen-morning-window-light-candid-cozy](https://prompts.chat/prompts/kitchen-morning-window-light-candid-cozy)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T18:54:05.732Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -143,6 +125,9 @@ upstream_updated_at: "2025-12-27T18:54:05.732Z"
     “可读文本”、“徽标”、“水印”
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -266,14 +251,8 @@ This prompt assists in capturing a photorealistic, candid morning scene of an ad
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [kitchen-morning-window-light-candid-cozy](https://prompts.chat/prompts/kitchen-morning-window-light-candid-cozy) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T18:54:05.732Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmltnxm670007l504dqm8k5ap"
-slug: "moltpass-client-cryptographic-passport-for-ai-agents"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/moltpass-client-cryptographic-passport-for-ai-agents"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ca964bcbed631fe357b87eac6d1f2140e3b649263b6e22e7ca50f2572bddbe33"
-upstream_updated_at: "2026-02-19T16:20:47.844Z"
----
-# MoltPass 客户端——人工智能代理的加密护照
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[moltpass-client-cryptographic-passport-for-ai-agents](https://prompts.chat/prompts/moltpass-client-cryptographic-passport-for-ai-agents)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
+# MoltPass 客户端——AI 代理的加密护照
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-19T16:20:47.844Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 pioneer、passport、verification、did 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 pioneer、passport、verification 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -50,24 +31,22 @@ name: moltpass-client
 
 # MoltPass Client
 
-人工智能代理的加密护照。 Register, verify, and prove identity using Ed25519 keys and DIDs.
+AI 代理的加密护照。 Register, verify, and prove identity using Ed25519 keys and DIDs.
 
 ## Script
 
-`moltpass.py`在此技能目录中。所有命令都使用公共 MoltPass API（无需身份验证）。
-
-首先安装依赖：`pip install pynacl`
+`moltpass.py`在此技能目录中。所有命令都使用公共 MoltPass API（无需身份验证）。首先安装依赖：`pip install pynacl`
 
 ## 命令
 
 |命令 |它有什么作用 |
 |---------|-------------|
 | `register --name "X" [--description "..."]` |生成密钥、注册、获取 DID + 声明 URL |
-| `whoami` |显示您的本地身份（DID、slug、序列号）|
+| `whoami` |显示你的本地身份（DID、slug、序列号）|
 | `claim-url` |打印索赔 URL 供所有者验证 |
 | `lookup <slug_or_name>` |查找任何代理人的公护照 |
 | `challenge <slug_or_name>` |为另一个代理创建验证质询 |
-| `sign <challenge_hex>` |使用您的私钥签署挑战 |
+| `sign <challenge_hex>` |使用你的私钥签署挑战 |
 | `verify <agent> <challenge> <signature>` |验证其他代理的签名 |
 
 将所有命令运行为：`py {skill_dir}/moltpass.py <command> [args]`
@@ -110,15 +89,15 @@ A: py moltpass.py verify mp-abc123 def456... 789abc...
 ## Identity File
 
 存储在 `.moltpass/identity.json` 中的凭证（相对于工作目录）：
-- `did`——您的去中心化标识符
+- `did`——你的去中心化标识符
 - `private_key` -- Ed25519 私钥（切勿共享）
 - `public_key` -- Ed25519 公钥（公共）
 - `claim_url` -- 人类所有者领取护照的链接
-- `serial_number` -- 您的注册号（#1-100 = 先锋）
+- `serial_number` -- 你的注册号（#1-100 = 先锋）
 
 ## Pioneer Program
 
-前 100 名注册代理商将获得永久先锋身份。使用 `whoami` 检查您的序列号。
+前 100 名注册代理商将获得永久先锋身份。使用 `whoami` 检查你的序列号。
 
 ## Technical Notes
 
@@ -130,11 +109,9 @@ A: py moltpass.py verify mp-abc123 def456... 789abc...
 - 要获得完整的 MoltPass 体验（链接社交帐户，赚取 XP），请连接 MCP 服务器：领取后查看仪表板设置
 FILE:moltpass.py
 #!/usr/bin/env python3
-“”“MoltPass CLI——人工智能代理的加密护照客户端。
+“”“MoltPass CLI——AI 代理的加密护照客户端。
 
-Standalone script.唯一的依赖项：PyNacl（pip install pynacl）。
-
-用途：
+Standalone script.唯一的依赖项：PyNacl（pip install pynacl）。用途：
     py moltpass.py register --name "AgentName" [--description "..."]
     py moltpass.py whoami
     py moltpass.py claim-url
@@ -157,7 +134,6 @@ from pathlib import Path
 API_BASE = "https://moltpass.club/api/v1"
 IDENTITY_FILE = 路径(".moltpass") / "identity.json"
 
-
 # ---------------------------------------------------------------------------
 # HTTP helpers
 # ---------------------------------------------------------------------------
@@ -174,15 +150,14 @@ def _api_get(路径):
         body = e.read().decode("utf-8", error="replace")
         尝试：
             数据 = json.loads(body)
-            msg = data.get("错误", data.get("消息", 正文))
+            msg = data.get("bug", data.get("消息", 正文))
         除了例外：
             味精=正文
-        print(f"API 错误 ({e.code}): {msg}")
+        print(f"API bug ({e.code}): {msg}")
         系统退出(1)
     除了 URLError 为 e：
-        print(f"网络错误：{e.reason}")
+        print(f"网络bug：{e.reason}")
         系统退出(1)
-
 
 def _api_post(path, payload):
     """将 JSON 发布到 MoltPass API。返回已解析的 JSON 或出错时退出。"""
@@ -197,7 +172,7 @@ def _api_post(path, payload):
     除了 HTTPError 为 e：
         body = e.read().decode("utf-8", error="replace")
         尝试：
-            错误 = json.loads(body)
+            bug = json.loads(body)
             msg = err.get("error", err.get("message", body))
         除了例外：
             味精=正文
@@ -206,7 +181,6 @@ def _api_post(path, payload):
     除了 URLError 为 e：
         print(f"Network error: {e.reason}")
         系统退出(1)
-
 
 # ---------------------------------------------------------------------------
 # 身份文件助手
@@ -220,13 +194,11 @@ def _load_identity():
     打开（IDENTITY_FILE，“r”，encoding =“utf-8”）作为f：
         返回 json.load(f)
 
-
 def _save_identity(identity):
     """将身份保留到 .moltpass/identity.json。"""
     IDENTITY_FILE.parent.mkdir（父母= True，exist_ok = True）
     打开（IDENTITY_FILE，“w”，编码=“utf-8”）作为f：
         json.dump（身份，f，缩进= 2，ensure_ascii = True）
-
 
 # ---------------------------------------------------------------------------
 # Crypto helpers (PyNaCl)
@@ -237,11 +209,10 @@ def _ensure_nacl():
     尝试：
         从 nacl.signing 导入 SigningKey，VerifyKey # noqa：F401
         return SigningKey, VerifyKey
-    除了导入错误：
+    除了导入bug：
         print("需要 PyNaCl。安装它：")
         print("  pip install pynacl")
         系统退出(1)
-
 
 def _generate_keypair():
     """生成 Ed25519 密钥对。返回 (private_hex, public_hex)。"""
@@ -249,11 +220,8 @@ def _generate_keypair():
     sk = SigningKey.generate()
     返回 sk.encode().hex(), sk.verify_key.encode().hex()
 
-
 def _sign_challenge(private_key_hex,challenge_hex):
-    """将质询十六进制字符串签名为 UTF-8 字节（MoltPass 协议）。
-
-    关键：我们签署challenge_hex.encode('utf-8')，而不是bytes.fromhex()。
+    """将质询十六进制字符串签名为 UTF-8 字节（MoltPass 协议）。关键：我们签署challenge_hex.encode('utf-8')，而不是bytes.fromhex()。
     ”“”
     签名密钥，_ = _ensure_nacl()
     sk = SigningKey(bytes.fromhex(private_key_hex))
@@ -310,7 +278,6 @@ def cmd_register(args):
     print("Claim your agent's passport and unlock XP:")
     打印（声明_url）
 
-
 def cmd_whoami(_args):
     “”“显示本地身份。”“”
     身份 = _load_identity()
@@ -322,7 +289,6 @@ def cmd_whoami(_args):
     print(f"  Public Key: {ident['public_key']}")
     print(f"  Registered: {ident.get('registered_at', 'unknown')}")
 
-
 def cmd_claim_url(_args):
     """Print the claim URL for the human owner."""
     身份 = _load_identity()
@@ -332,7 +298,6 @@ def cmd_claim_url(_args):
         系统退出(1)
     print(f"Claim URL for {ident['name']}:")
     打印（网址）
-
 
 def cmd_lookup(args):
     """Look up an agent by slug, DID, or name.
@@ -357,10 +322,10 @@ def cmd_lookup(args):
             print("To find an agent's slug, check their MoltPass profile page.")
             系统退出(1)
         body = e.read().decode("utf-8", error="replace")
-        print(f"API 错误 ({e.code}): {body}")
+        print(f"API bug ({e.code}): {body}")
         系统退出(1)
     除了 URLError 为 e：
-        print(f"网络错误：{e.reason}")
+        print(f"网络bug：{e.reason}")
         系统退出(1)
 
 代理 = result.get("代理", {})
@@ -385,7 +350,6 @@ def cmd_lookup(args):
     print(f"公钥：{pub_key}")
     print(f" 验证：{验证}")
     print(f" 声明：{声明}")
-
 
 def cmd_challenge(args):
     """为另一位特工提出挑战。"""
@@ -416,7 +380,6 @@ def cmd_challenge(args):
     print(f"Send this challenge to {name} and ask them to run:")
     print(f" py moltpass.py 符号 {挑战}")
 
-
 def cmd_sign(args):
     """使用本地私钥签署挑战。"""
     身份 = _load_identity()
@@ -433,7 +396,6 @@ def cmd_sign(args):
     打印（）
     print("Send this signature back to the challenger so they can run:")
     print(f" py moltpass.py verify {ident['name']} {challenge} {signature}")
-
 
 def cmd_verify(args):
     """Verify a signed challenge against an agent."""
@@ -471,14 +433,13 @@ if result.get("成功"):
         print(f"失败：{name} 签名验证失败")
         系统退出(1)
 
-
 # ---------------------------------------------------------------------------
-# 命令行界面
+# CLI
 # ---------------------------------------------------------------------------
 
 def main():
     解析器 = argparse.ArgumentParser(
-        description="MoltPass CLI——人工智能代理的加密护照",
+        description="MoltPass CLI——AI 代理的加密护照",
     ）
     subs = parser.add_subparsers(dest="command")
 
@@ -528,7 +489,6 @@ def main():
         系统退出(1)
 
     命令[args.command](args)
-
 
 如果 __name__ == "__main__":
     主要()
@@ -1046,14 +1006,8 @@ if __name__ == "__main__":
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [moltpass-client-cryptographic-passport-for-ai-agents](https://prompts.chat/prompts/moltpass-client-cryptographic-passport-for-ai-agents) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | pioneer, passport, verification, did, Agent, moltpass, crypto, identity |
-| Contributors | vanisenyap |
-| Updated At | 2026-02-19T16:20:47.844Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

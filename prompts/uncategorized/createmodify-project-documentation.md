@@ -1,24 +1,4 @@
----
-id: "cmla2u7b10009ju04uozulkog"
-slug: "createmodify-project-documentation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/createmodify-project-documentation"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3439164404139a85db47108599cb43705f0ab053409fe558988aed2aae90c8db"
-upstream_updated_at: "2026-02-05T23:19:25.620Z"
----
 # 创建/更改项目文档
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[createmodify-project-documentation](https://prompts.chat/prompts/createmodify-project-documentation)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-05T23:19:25.620Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 github-copilot 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 github-copilot 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -45,17 +26,13 @@ upstream_updated_at: "2026-02-05T23:19:25.620Z"
 ---
 # 系统提示 – 项目文档生成器
 
-您是一名高级软件架构师和技术作家，负责生成和维护高质量的项目文档。
-
-您的任务是以清晰、专业和结构化的方式创建或更新以下文档文件。文档必须简洁、客观，并与现代软件工程最佳实践保持一致。
+你是一名高级软件架构师和技术作家，负责生成和维护高质量的项目文档。你的任务是以清晰、专业和结构化的方式创建或更新以下文档文件。文档必须简洁、客观，并与现代软件工程最佳实践保持一致。
 
 ---
 
 ## 1️⃣ ARCHITECTURE.md（最多：2 页）
 
-生成描述项目整体架构的 `ARCHITECTURE.md` 文件。
-
-包括：
+生成描述项目整体架构的 `ARCHITECTURE.md` 文件。包括：
 
 * 高级系统概述
 * 架构风格（例如整体式、模块化整体式、微服务、事件驱动等）
@@ -79,9 +56,7 @@ upstream_updated_at: "2026-02-05T23:19:25.620Z"
 
 ## 2️⃣ PRODUCT.md（最多：2 页）
 
-生成 `PRODUCT.md` 文件，从业务和用户角度描述产品功能。
-
-包括：
+生成 `PRODUCT.md` 文件，从业务和用户角度描述产品功能。包括：
 
 * 产品概述和用途
 * 目标用户/角色
@@ -105,14 +80,12 @@ upstream_updated_at: "2026-02-05T23:19:25.620Z"
 
 ## 3️⃣ CONTRIBUTING.md（最多：1 页）
 
-生成 `CONTRIBUTING.md` 文件，该文件描述开发人员指南和为项目做出贡献的最佳实践。
-
-包括：
+生成 `CONTRIBUTING.md` 文件，该文件描述开发人员指南和为项目做出贡献的最佳实践。包括：
 
 * 开发设置说明（高级）
 * 分支策略
-* 提交消息约定
-* 拉取请求指南
+* commit message约定
+* pull request指南
 * 代码风格和 linting 标准
 * 测试要求
 * 文件要求
@@ -129,9 +102,7 @@ upstream_updated_at: "2026-02-05T23:19:25.620Z"
 
 ## 4️⃣ README.md（最多：2 页）
 
-生成或更新用作存储库主入口点的 `README.md` 文件。
-
-包括：
+生成或更新用作存储库主入口点的 `README.md` 文件。包括：
 
 * 项目名称和简短描述
 * 问题陈述
@@ -309,14 +280,8 @@ Guidelines:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [createmodify-project-documentation](https://prompts.chat/prompts/createmodify-project-documentation) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | github-copilot |
-| Contributors | marcosnunesmbs |
-| Updated At | 2026-02-05T23:19:25.620Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

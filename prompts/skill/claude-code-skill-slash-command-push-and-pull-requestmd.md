@@ -1,24 +1,4 @@
----
-id: "cmmg9v7t90001lb04voyizbgr"
-slug: "claude-code-skill-slash-command-push-and-pull-requestmd"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/claude-code-skill-slash-command-push-and-pull-requestmd"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "820236563eefad3824406c668391af826739321f82c14ccf14354e636d6f2246"
-upstream_updated_at: "2026-03-07T12:01:03.816Z"
----
 # 克劳德代码技能（斜线命令）：push-and-pull-request.md
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[claude-code-skill-slash-command-push-and-pull-requestmd](https://prompts.chat/prompts/claude-code-skill-slash-command-push-and-pull-requestmd)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-03-07T12:01:03.816Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -52,7 +34,7 @@ upstream_updated_at: "2026-03-07T12:01:03.816Z"
 
 ## 你的任务
 
-1. 检查现有更改，然后按照常规提交格式创建 git 提交。如果您认为有多个不同的更改，您可以创建多个提交。如果没有未完成的更改，请继续执行 2。
+1. 检查现有更改，然后按照常规提交格式创建 git 提交。如果你认为有多个不同的更改，你可以创建多个提交。如果没有未完成的更改，请继续执行 2。
 2. 推送所有提交。
 3. 按照常规格式向 main 打开 PR。
 ```
@@ -91,14 +73,8 @@ description: Commit and push everything then open a PR request to main
 3. Open a PR to main following the conventional formats.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [claude-code-skill-slash-command-push-and-pull-requestmd](https://prompts.chat/prompts/claude-code-skill-slash-command-push-and-pull-requestmd) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | d |
-| Updated At | 2026-03-07T12:01:03.816Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

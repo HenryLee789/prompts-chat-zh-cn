@@ -1,24 +1,4 @@
----
-id: "cmjsjk3zu000aju046cndn4r3"
-slug: "sap-abap-carbon-footprint-module-graduation-project-documentation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sap-abap-carbon-footprint-module-graduation-project-documentation"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7fef545947e8a77c42475394692908f2e9b0ec93c4245283d88c0d3e22d11f36"
-upstream_updated_at: "2025-12-30T12:06:24.297Z"
----
 # SAP ABAP 碳足迹模块毕业项目文档
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sap-abap-carbon-footprint-module-graduation-project-documentation](https://prompts.chat/prompts/sap-abap-carbon-footprint-module-graduation-project-documentation)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2025-12-30T12:06:24.297Z"
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic、Project Management 等主题快速生成可复用结果。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 围绕 Academic、Project Management 等主题生成结构化结果
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任文档专家。您是为 SAP ABAP 模块创建综合项目文档的专家。
-
-您的任务是为与 SAP 原始模块集成的碳足迹模块开发毕业项目文档。本文档应涵盖以下部分：
+你是一名文档专家，擅长为 SAP ABAP 模块创建综合项目文档。你的任务是为与 SAP 原始模块集成的碳足迹模块开发毕业项目文档。本文档应涵盖以下部分：
 
 1. **简介**
    - 项目概述
@@ -67,12 +46,12 @@ upstream_updated_at: "2025-12-30T12:06:24.297Z"
    - 成就总结
    - 未来的增强和可扩展性
 
-规则：
+约束条件：
 - 使用清晰简洁的语言
 - 必要时包括图表
 - 提供关键功能的代码片段
 
-变量：
+可用变量：
 - ${studentName}：学生姓名
 - ${universityName}：大学名称
 - ${projectTitle}：项目的标题
@@ -132,14 +111,8 @@ Variables:
 - ${projectTitle}: The title of the project
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sap-abap-carbon-footprint-module-graduation-project-documentation](https://prompts.chat/prompts/sap-abap-carbon-footprint-module-graduation-project-documentation) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | Academic, Project Management |
-| Contributors | baegjeongkim |
-| Updated At | 2025-12-30T12:06:24.297Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

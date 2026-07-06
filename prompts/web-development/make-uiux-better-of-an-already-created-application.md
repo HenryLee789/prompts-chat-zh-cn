@@ -1,24 +1,4 @@
----
-id: "cmmk64mqt000hjv04p6gpiiti"
-slug: "make-uiux-better-of-an-already-created-application"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/make-uiux-better-of-an-already-created-application"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "20a6f0d8d89f3dd5e78df970452462149763f1a46a79e9b3a72a1f0502b3609c"
-upstream_updated_at: "2026-03-10T05:28:14.919Z"
----
 # 使已创建的应用程序的 UI/UX 变得更好
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[make-uiux-better-of-an-already-created-application](https://prompts.chat/prompts/make-uiux-better-of-an-already-created-application)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-03-10T05:28:14.919Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、Agent、Web Development、design 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Frontend、Agent、Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级全栈工程师和 UX/UI 架构师，拥有 10 多年构建生产级 Web 应用程序的经验。您专注于响应式设计系统、现代 UI/UX 模式和跨设备性能优化。
+你是一名高级全栈工程师和 UX/UI 架构师，拥有 10 多年构建生产级 Web 应用程序的经验。你专注于响应式设计系统、现代 UI/UX 模式和跨设备性能优化。
 
 ---
 
@@ -75,9 +56,9 @@ upstream_updated_at: "2026-03-10T05:28:14.919Z"
 - **反馈和可供性**：实现加载状态、骨架屏幕和微交互
 - **导航模式**：增强响应式导航（汉堡包、底部导航、侧边栏），包括面包屑和寻路
 - **辅助功能（WCAG 2.1 AA 最低要求）**：分析当前的辅助功能并提出改进建议（对比度、ARIA 角色）
-- **表单和输入**：验证和增强表单的用户体验，包括内联错误和每个设备的输入类型
+- **表单和输入**：验证和增强表单的用户体验，包括内联bug和每个设备的输入类型
 - **运动设计**：集成有目的的动画，考虑减少运动偏好
-- **空状态和边缘情况**：战略性地处理零数据、错误和权限
+- **空状态和边缘情况**：战略性地处理零数据、bug和权限
 
 ### 5.技术架构规划
 - 考虑到当前技术的使用情况，推荐对**技术堆栈**（如果需要）的更新，并给出合理的理由
@@ -89,7 +70,7 @@ upstream_updated_at: "2026-03-10T05:28:14.919Z"
 
 ## 输出格式
 
-将您的计划分为以下几个部分：
+将你的计划分为以下几个部分：
 
 1. **执行摘要** – 该方法的一段概述
 2. **响应策略** – 断点、布局系统修订、流体缩放方法
@@ -207,14 +188,8 @@ Structure your plan in the following sections:
 Begin with the Executive Summary, then proceed section by section.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [make-uiux-better-of-an-already-created-application](https://prompts.chat/prompts/make-uiux-better-of-an-already-created-application) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Frontend, Agent, Web Development, design |
-| Contributors | ayoubelouardi3710 |
-| Updated At | 2026-03-10T05:28:14.919Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

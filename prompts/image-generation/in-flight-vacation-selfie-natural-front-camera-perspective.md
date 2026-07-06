@@ -1,43 +1,23 @@
----
-id: "cmkpzjp0b0001i604qdbj5114"
-slug: "in-flight-vacation-selfie-natural-front-camera-perspective"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/in-flight-vacation-selfie-natural-front-camera-perspective"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6c6ef508543c0a4a43b7b6115d55ec298eebd603060452a58ffa28c20126bcd1"
-upstream_updated_at: "2026-01-22T21:50:29.987Z"
----
 # 飞行中度假自拍——自然的前置摄像头视角
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[in-flight-vacation-selfie-natural-front-camera-perspective](https://prompts.chat/prompts/in-flight-vacation-selfie-natural-front-camera-perspective)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-飞行期间在商用飞机机舱内拍摄的自然前置摄像头自拍照。
-拍摄对象舒适地坐在飞机座位上，用一只手握住相机，略高于眼睛水平，创造出真实、随意的自拍角度，而手机不会出现在画面中。
+飞行期间在商用飞机机舱内拍摄的自然前置摄像头自拍照。拍摄对象舒适地坐在飞机座位上，用一只手握住相机，略高于眼睛水平，创造出真实、随意的自拍角度，而手机不会出现在画面中。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana、Entertainment 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana、Entertainment 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -71,6 +51,9 @@ upstream_updated_at: "2026-01-22T21:50:29.987Z"
     “质量”：“均匀、自然的光线，柔和的高光和逼真的阴影。”
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -122,14 +105,8 @@ The subject is seated comfortably in her airplane seat, holding the camera with 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [in-flight-vacation-selfie-natural-front-camera-perspective](https://prompts.chat/prompts/in-flight-vacation-selfie-natural-front-camera-perspective) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana, Entertainment |
-| Contributors | krebetem |
-| Updated At | 2026-01-22T21:50:29.987Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

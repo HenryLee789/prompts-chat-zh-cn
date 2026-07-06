@@ -1,47 +1,28 @@
----
-id: "cmlb8cqbo0001l504wxxjlh2l"
-slug: "prompt-engineering-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prompt-engineering-expert"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "c39cb4fd5767f62527cc7d49d571d94ff20a7f34d536c86a960636a475ed8930"
-upstream_updated_at: "2026-02-06T18:40:48.751Z"
----
 # 及时的工程专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prompt-engineering-expert](https://prompts.chat/prompts/prompt-engineering-expert)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这项技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。它为制定有效的人工智能提示、设计代理指令以及迭代改进提示性能提供了全面的指导。
+这项技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。它为制定有效的AI提示、设计代理指令以及迭代改进提示性能提供了全面的指导。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Prompt Engineering、System Prompt、Skill 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Prompt Engineering、System Prompt、Skill 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：提示工程专家
-描述：这项技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。它为制定有效的人工智能提示、设计代理指令以及迭代改进提示性能提供了全面的指导。
+描述：这项技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。它为制定有效的AI提示、设计代理指令以及迭代改进提示性能提供了全面的指导。
 ---
 
 ## 核心专业领域
@@ -63,7 +44,7 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 
 ### 3.自定义指令和系统提示
 - **系统提示设计**：为专业领域创建有效的系统提示
-- **自定义指令**：为人工智能代理和技能设计指令
+- **自定义指令**：为AI 代理和技能设计指令
 - **行为准则**：设置适当的约束和准则
 - **个性和声音**：定义一致的语气和沟通风格
 - **范围定义**：明确定义代理应该做什么和不应该做什么
@@ -75,7 +56,7 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 - **一致性增强**：提高可靠性并减少变异性
 - **令牌优化**：在保持质量的同时减少不必要的令牌
 
-### 5.反模式和常见错误
+### 5.反模式和常见bug
 - **模糊性**：识别并修复不明确的指令
 - **矛盾**：检测冲突的需求
 - **过度规范**：识别提示是否过于严格
@@ -104,7 +85,7 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 - **提示细化**：根据性能迭代改进提示
 - **自定义指令设计**：为代理和技能创建专门的指令
 - **最佳实践指导**：提供有关及时工程原理的专家建议
-- **反模式识别**：识别并纠正常见错误
+- **反模式识别**：识别并纠正常见bug
 - **测试策略**：开发及时验证的评估框架
 - **文档**：创建清晰的文档以便及时使用和维护
 
@@ -112,10 +93,10 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 
 - 细化模糊或无效的提示
 - 为特定领域创建专门的系统提示
-- 为人工智能代理和技能设计自定义指令
+- 为AI 代理和技能设计自定义指令
 - 优化提示的一致性和可靠性
 - 教授提示工程最佳实践
-- 调试提示性能问题
+- debug提示性能问题
 - 为可重复使用的工作流程创建提示模板
 - 提高提示效率和代币使用
 - 开发快速测试的评估框架
@@ -164,7 +145,7 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 |------|---------|------|
 | **技能.md** |技能元数据和概述 | 〜1 KB |
 | **克劳德.md** |主要技能说明 | ~3 KB |
-| **自述文件.md** |用户指南和入门 | ~4 KB |
+| **README.md** |用户指南和入门 | ~4 KB |
 | **GETTING_STARTED.md** |如何上传及使用 | ~3 KB |
 
 ### 文档（3 个文件）
@@ -172,7 +153,7 @@ upstream_updated_at: "2026-02-06T18:40:48.751Z"
 |------|---------|----------|
 | **文档/BEST_PRACTICES.md** |全面的最佳实践|核心原理、先进技术、评估、反模式 |
 | **文档/技术.md** |进阶技巧指南 | 8 个主要技术及示例 |
-| **文档/故障排除.md** |解决问题| 8个常见问题+调试流程|
+| **文档/故障排除.md** |解决问题| 8个常见问题+debug流程|
 
 ### 示例和导航（3 个文件）
 |文件|目的|内容 |
@@ -253,7 +234,7 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
 
 ### 故障排除.md (~6 KB)
 - 8 个常见问题及其解决方案
-- 调试工作流程
+- debug工作流程
 - 快速参考表
 - 测试清单
 
@@ -328,7 +309,7 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
 ### 5. 教学最佳实践
 学习及时的工程原理和技术。
 
-### 6.调试提示问题
+### 6.debug提示问题
 识别并修复现有提示的问题。
 
 ### 7. 构建评估框架
@@ -351,7 +332,7 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
 - ✅ 渐进式披露学习
 - ✅ 多个导航指南
 - ✅ 实用、可操作的指导
-- ✅ 故障排除和调试帮助
+- ✅ 故障排除和debug帮助
 - ✅ 最佳实践和反模式
 - ✅ 准备上传和使用
 
@@ -429,10 +410,10 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
    - 回顾例子
    - 学习先进技术
 
-5. **与您的团队分享**
+5. **与你的团队分享**
    - 协作进行即时工程
    - 一起构建更好的提示
-   - 改善人工智能交互
+   - 改善AI交互
 
 ---
 
@@ -452,21 +433,18 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
 
 ---
 
-## 🎉 一切就绪！
-
-您的**快速工程专家技能**已完成并可以使用！
+## 🎉 一切就绪！你的**快速工程专家技能**已完成并可以使用！
 
 ### 快速入门
 1、打开`~/Documents/prompt-engineering-expert/`
 2. 阅读`GETTING_STARTED.md`上传说明
 3.上传至Claude.com
-4. 开始改进你的提示！
-文件：自述文件.md
-# 自述文件 - 提示工程专家技能
+4. 开始改进你的提示！文件：README.md
+# README - 提示工程专家技能
 
 ## 概述
 
-**即时工程专家**技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。这项综合技能为制定有效的人工智能提示、设计代理指令以及迭代改进提示性能提供了指导。
+**即时工程专家**技能使克劳德在即时工程、定制指令设计和即时优化方面拥有深厚的专业知识。这项综合技能为制定有效的AI提示、设计代理指令以及迭代改进提示性能提供了指导。
 
 ## 该技能提供什么
 
@@ -476,7 +454,7 @@ Go to Claude.com → Click "+" → Upload Skill → Select folder
 - **自定义指令**：系统提示和座席指令设计
 - **优化**：分析和完善现有提示
 - **评估**：测试框架和成功标准
-- **反模式**：识别并纠正常见错误
+- **反模式**：识别并纠正常见bug
 - **多模式**：视觉、嵌入和基于文件的提示
 
 ### 关键功能
@@ -588,7 +566,7 @@ prompt-engineering-expert/
 - 足够的背景
 - 边缘情况处理
 - 成功标准
-- 错误处理
+- bug 处理
 
 ## 常见用例
 
@@ -604,7 +582,7 @@ prompt-engineering-expert/
 ### 4. 优化一致性
 提高可靠性并减少变异性。
 
-### 5.调试提示问题
+### 5.debug提示问题
 识别并修复现有提示的问题。
 
 ### 6. 教学最佳实践
@@ -636,7 +614,7 @@ prompt-engineering-expert/
 - 过度指定约束
 - 使用行话而不解释
 - 硬编码值
-- 忽略错误处理
+- 忽略bug 处理
 
 ## 高级主题
 
@@ -681,7 +659,7 @@ prompt-engineering-expert/
 ## 开始使用
 
 ### 快速入门
-1. 分享您的提示或描述您的需求
+1. 分享你的提示或描述你的需求
 2. 接收分析和建议
 3. 实施建议的改进
 4. 测试和验证
@@ -758,8 +736,7 @@ prompt-engineering-expert/
 
 ---
 
-**准备好改进您的提示了吗？** 首先分享您当前的提示或描述您需要帮助的内容！
-文件：摘要.md
+**准备好改进你的提示了吗？** 首先分享你当前的提示或描述你需要帮助的内容！文件：摘要.md
 # 快速工程专家技能 - 总结
 
 ## 创建了什么
@@ -842,12 +819,12 @@ prompt-engineering-expert/
   1. 输出不一致
   2. 幻觉
   3. 模糊的回应
-  4.长度错误
-  5.格式错误
+  4.长度bug
+  5.格式bug
   6. 拒绝回应
   7.提示时间过长
   8. 不一概而论
-- 调试工作流程
+- debug工作流程
 - 快速参考表
 - 测试清单
 
@@ -895,7 +872,7 @@ prompt-engineering-expert/
    - 一致性增强
    - 代币优化
 
-5. **反模式和常见错误**
+5. **反模式和常见bug**
    - 模糊性
    - 矛盾之处
    - 超规格
@@ -924,7 +901,7 @@ prompt-engineering-expert/
 3. **提示细化** - 迭代改进提示
 4. **自定义指令设计** - 创建专门的指令
 5. **最佳实践指南** - 教授即时工程原理
-6. **反模式识别** - 识别并纠正错误
+6. **反模式识别** - 识别并纠正bug
 7. **测试策略** - 制定评估框架
 8. **文档** - 创建清晰的使用文档
 
@@ -981,7 +958,7 @@ How can I fix it?"
 - 过度指定约束
 - 使用行话而不解释
 - 硬编码值
-- 忽略错误处理
+- 忽略bug 处理
 
 ## 文档质量
 
@@ -1038,7 +1015,7 @@ How can I fix it?"
 2. 先进的快速工程技术
 3. 自定义指令及系统提示
 4. 及时优化完善
-5. 反模式和常见错误
+5. 反模式和常见bug
 6. 评估与测试
 7. 多模式和高级提示
 
@@ -1058,7 +1035,7 @@ How can I fix it?"
 3. 为代理设计定制指令
 4. 优化一致性和可靠性
 5. 教授提示工程最佳实践
-6.调试提示性能问题
+6.debug提示性能问题
 7. 为工作流程创建提示模板
 8. 提高效率和代币使用
 9. 制定评估框架
@@ -1134,7 +1111,7 @@ How can I fix it?"
 
 ### TROUBLESHOOTING.md（问题解决）
 - 8 个常见问题及其解决方案
-- 调试工作流程
+- debug工作流程
 - 快速参考表
 - 测试清单
 
@@ -1166,7 +1143,7 @@ How can I fix it?"
 - 过度指定约束
 - 使用行话而不解释
 - 硬编码值
-- 忽略错误处理
+- 忽略bug 处理
 
 ---
 
@@ -1182,7 +1159,7 @@ How can I fix it?"
 检查 **examples/EXAMPLES.md** 了解实际用例。
 
 ### 第 4 步：尝试一下
-分享您的提示或描述您的开始需求。
+分享你的提示或描述你的开始需求。
 
 ### 第 5 步：排除故障
 如果遇到问题，请使用 **docs/TROUBLESHOOTING.md**。
@@ -1297,7 +1274,7 @@ prompt-engineering-expert/
 - 足够的背景
 - 边缘情况处理
 - 成功标准
-- 错误处理
+- bug 处理
 
 ---
 
@@ -1329,7 +1306,7 @@ prompt-engineering-expert/
 提高可靠性并减少变异性。
 → 请参阅：BEST_PRACTICES.md，技能结构部分
 
-### 5.调试提示问题
+### 5.debug提示问题
 识别并修复现有提示的问题。
 → 请参阅：故障排除.md
 
@@ -1368,7 +1345,7 @@ prompt-engineering-expert/
 
 1. **探索文档** - 从 README.md 开始
 2. **查看示例** - 检查示例/EXAMPLES.md
-3. **尝试一下** - 分享您的提示或描述您的需求
+3. **尝试一下** - 分享你的提示或描述你的需求
 4. **迭代** - 使用反馈来改进
 5. **分享** - 帮助其他人完成提示
 文件：最佳实践.md
@@ -1379,7 +1356,7 @@ prompt-engineering-expert/
 ## 快速工程的核心原则
 
 ### 1. 清晰和直接
-- **明确**：准确说明您希望克劳德做什么
+- **明确**：准确说明你希望克劳德做什么
 - **避免歧义**：使用精确的语言，不留任何误解的余地
 - **使用具体例子**：展示，而不仅仅是讲述
 - **逻辑结构**：分层组织信息
@@ -1510,7 +1487,7 @@ skill-name/
 ### 测试用例开发
 - **快乐之路**：正常，预期使用
 - **边缘情况**：边界条件
-- **错误情况**：输入无效
+- **bug情况**：输入无效
 - **压力测试**：复杂场景
 
 ### 故障分析
@@ -1520,7 +1497,7 @@ skill-name/
 
 ## 要避免的反模式
 
-### 常见错误
+### 常见bug
 - **含糊**：“帮我完成这项任务”（太含糊）
 - **矛盾**：相互冲突的要求
 - **超规格**：限制太多
@@ -1577,7 +1554,7 @@ skill-name/
 - 指定接受的文件类型
 - 描述预期的结构
 - 提供解析指令
-- 优雅地处理错误
+- 优雅地处理bug
 
 ### 延伸思考
 - 用于复杂推理
@@ -1643,11 +1620,11 @@ description: Clear, concise description (max 1024 chars)
 - [ ] 创建测试用例
 - [ ] 定义成功标准
 - [ ] 已测试边缘情况
-- [ ] 错误处理已验证
+- [ ] bug 处理已验证
 - [ ] 多个型号经过测试
 
 ### 文档
-- [ ] 自述文件或概述
+- [ ] README或概述
 - [ ] 使用示例
 - [ ] API/集成说明
 - [ ] 故障排除部分
@@ -1689,7 +1666,7 @@ Therefore: [Conclusion]
 
 ### 示例
 ```
-Problem: A store sells apples for $2 each and oranges for $3 each. 
+Problem: A store sells apples for $2 each and oranges for $3 each.
 If I buy 5 apples and 3 oranges, how much do I spend?
 
 Let's think through this step by step:
@@ -1708,7 +1685,7 @@ Therefore: You spend $19 total.
 
 ### 好处
 - 更准确的推理
-- 更容易识别错误
+- 更容易识别bug
 - 更适合复杂问题
 - 逻辑更透明
 
@@ -1822,7 +1799,7 @@ Your task: [Specific task]
 
 #### 专家顾问
 ```
-You are a senior management consultant with 20 years of experience 
+You are a senior management consultant with 20 years of experience
 in business strategy and organizational transformation.
 
 Your task: Analyze this company's challenges and recommend solutions.
@@ -1837,7 +1814,7 @@ Your task: Design a system architecture for [requirements].
 
 ####创意总监
 ```
-You are a creative director with expertise in brand storytelling and 
+You are a creative director with expertise in brand storytelling and
 visual communication.
 
 Your task: Develop a brand narrative for [product/company].
@@ -2072,35 +2049,35 @@ Explain the relationships.
   <role>
     You are a senior data analyst with expertise in business intelligence.
   </role>
-  
+
   <task>
     Analyze this sales data and provide insights.
   </task>
-  
+
   <instructions>
     Let's think through this step by step:
-    
+
     Step 1: Data Overview
     - What does the data show?
     - What time period does it cover?
     - What are the key metrics?
-    
+
     Step 2: Trend Analysis
     - What patterns emerge?
     - Are there seasonal trends?
     - What's the growth trajectory?
-    
+
     Step 3: Comparative Analysis
     - How does this compare to benchmarks?
     - Which segments perform best?
     - Where are the opportunities?
-    
+
     Step 4: Recommendations
     - What actions should we take?
     - What are the priorities?
     - What's the expected impact?
   </instructions>
-  
+
   <format>
     <executive_summary>2-3 sentences</executive_summary>
     <key_findings>Bullet points</key_findings>
@@ -2132,7 +2109,7 @@ Step 4: Recommend prioritized actions"
 
 ### ✅ 明确角色
 ```
-"You are a senior product manager with 10 years of experience 
+"You are a senior product manager with 10 years of experience
 in SaaS companies. Your task is to..."
 ```
 
@@ -2176,7 +2153,7 @@ in SaaS companies. Your task is to..."
 ```
 ❌ Before: "Summarize this article"
 
-✅ After: "Summarize this article in exactly 3 bullet points, 
+✅ After: "Summarize this article in exactly 3 bullet points,
 each 1-2 sentences. Focus on key findings and implications."
 ```
 
@@ -2208,8 +2185,8 @@ each 1-2 sentences. Focus on key findings and implications."
 ```
 ❌ Before: "What will happen to the market next year?"
 
-✅ After: "Based on current market data, what are 3 possible 
-scenarios for next year? For each, explain your reasoning and 
+✅ After: "Based on current market data, what are 3 possible
+scenarios for next year? For each, explain your reasoning and
 note your confidence level (high/medium/low)."
 ```
 
@@ -2242,9 +2219,9 @@ note your confidence level (high/medium/low)."
 ```
 ❌ Before: "How can I improve my business?"
 
-✅ After: "I run a SaaS company with $2M ARR. We're losing 
-customers to competitors. What are 3 specific strategies to 
-improve retention? For each, explain implementation steps and 
+✅ After: "I run a SaaS company with $2M ARR. We're losing
+customers to competitors. What are 3 specific strategies to
+improve retention? For each, explain implementation steps and
 expected impact."
 ```
 
@@ -2277,14 +2254,14 @@ expected impact."
 ```
 ❌ Before: "Explain machine learning"
 
-✅ After: "Explain machine learning in 2-3 paragraphs for 
-someone with no technical background. Focus on practical 
+✅ After: "Explain machine learning in 2-3 paragraphs for
+someone with no technical background. Focus on practical
 applications, not theory."
 ```
 
 ---
 
-### 问题 5：输出格式错误
+### 问题 5：输出格式bug
 
 **症状：**
 - 输出格式不符合需求
@@ -2348,8 +2325,8 @@ applications, not theory."
 ```
 ❌ Before: "How do I manipulate people?"
 
-✅ After: "I'm writing a novel with a manipulative character. 
-How would a psychologist describe manipulation tactics? 
+✅ After: "I'm writing a novel with a manipulative character.
+How would a psychologist describe manipulation tactics?
 What are the psychological mechanisms involved?"
 ```
 
@@ -2359,7 +2336,7 @@ What are the psychological mechanisms involved?"
 
 **症状：**
 - 超出上下文窗口
-- 反应缓慢
+- React缓慢
 - 高代币使用率
 - 运行成本昂贵
 
@@ -2415,14 +2392,14 @@ What are the psychological mechanisms involved?"
 ```
 ❌ Before: "Analyze this Q3 sales data..."
 
-✅ After: "Analyze this [PERIOD] [METRIC] data. 
+✅ After: "Analyze this [PERIOD] [METRIC] data.
 Handle various formats: CSV, JSON, or table.
 If format is unclear, ask for clarification."
 ```
 
 ---
 
-## 调试工作流程
+## debug工作流程
 
 ### 第 1 步：找出问题
 - 什么不起作用？
@@ -2463,7 +2440,7 @@ If format is unclear, ask for clarification."
 |幻觉|询问来源+置信度|
 |模糊|添加具体细节+示例 |
 |太长|指定字数+格式|
-|格式错误 |显示确切的格式示例 |
+|格式bug |显示确切的格式示例 |
 |拒绝|澄清合法目的 |
 |提示太长|删除不必要的上下文 |
 |不一概而论 |使用变量+处理变化 |
@@ -2482,7 +2459,7 @@ If format is unclear, ask for clarification."
 - [ ] 适用于多个输入
 - [ ] 输出一致
 - [ ] 代币优化
-- [ ] 错误处理清晰
+- [ ] bug 处理清晰
 - [ ] 文档已完成
 文件：示例.md
 # 快速工程专家 - 示例
@@ -2618,24 +2595,24 @@ Scenario: [YOUR SCENARIO HERE]
     <purpose>Generate marketing copy for SaaS products</purpose>
     <target_audience>B2B decision makers</target_audience>
   </metadata>
-  
+
   <instructions>
     <objective>
       Create compelling marketing copy that emphasizes ROI and efficiency gains
     </objective>
-    
+
     <constraints>
       <max_length>150 words</max_length>
       <tone>Professional but approachable</tone>
       <avoid>Jargon, hyperbole, false claims</avoid>
     </constraints>
-    
+
     <format>
       <headline>Compelling, benefit-focused (max 10 words)</headline>
       <body>2-3 paragraphs highlighting key benefits</body>
       <cta>Clear call-to-action</cta>
     </format>
-    
+
     <examples>
       <example>
         <product>Project management tool</product>
@@ -5578,14 +5555,8 @@ This skill provides expert guidance on analyzing financial statements...
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prompt-engineering-expert](https://prompts.chat/prompts/prompt-engineering-expert) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Prompt Engineering, System Prompt, Skill |
-| Contributors | tomstools11 |
-| Updated At | 2026-02-06T18:40:48.751Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

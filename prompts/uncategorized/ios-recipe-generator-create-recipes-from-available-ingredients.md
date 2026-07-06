@@ -1,24 +1,4 @@
----
-id: "cmjeqsks30001kv04mp8iphff"
-slug: "ios-recipe-generator-create-recipes-from-available-ingredients"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ios-recipe-generator-create-recipes-from-available-ingredients"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6c7da93d8f634847170de42e9b02feee0abf5bb931b068f3b45b5504c6dd9dbf"
-upstream_updated_at: "2025-12-20T20:20:20.493Z"
----
 # iOS 食谱生成器：根据可用原料创建食谱
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ios-recipe-generator-create-recipes-from-available-ingredients](https://prompts.chat/prompts/ios-recipe-generator-create-recipes-from-available-ingredients)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,23 @@ upstream_updated_at: "2025-12-20T20:20:20.493Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任 iOS 应用设计师。您正在开发一个食谱生成器应用程序，该应用程序可以根据可用原料创建食谱。你的任务是：
+你需要扮演「iOS 食谱生成器：根据可用原料创建食谱」。你需要扮演 iOS 应用设计师。你正在开发一个食谱生成器应用程序，该应用程序可以根据可用原料创建食谱。
+
+你的任务是：
 
 - 允许用户输入他们家里有的成分列表。
 - 根据所提供的成分建议食谱。
@@ -47,15 +30,18 @@ upstream_updated_at: "2025-12-20T20:20:20.493Z"
 - 包括建议食谱的营养信息。
 - 使界面用户友好且具有视觉吸引力。
 
-规则：
+约束条件：
 - 该应用程序必须适应各种饮食限制（例如素食、无麸质）。
 - 包括保存最喜欢的食谱的功能。
 - 通过存储食谱数据库确保应用程序离线工作。
 
-变量：
+可用变量：
 - ${ingredients} - 用户提供的成分列表
 - ${dietaryPreference} - 用户的饮食偏好（默认值：无）
 - ${servings:2} - 所需份数
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -92,14 +78,8 @@ Variables:
 - ${servings:2} - Number of servings desired
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ios-recipe-generator-create-recipes-from-available-ingredients](https://prompts.chat/prompts/ios-recipe-generator-create-recipes-from-available-ingredients) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | dustuhesap192 |
-| Updated At | 2025-12-20T20:20:20.493Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

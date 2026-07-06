@@ -1,24 +1,4 @@
----
-id: "cmjn2fxy3000lju046nng0fxn"
-slug: "website-creation-command"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/website-creation-command"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6507414ea5114572145a66b8741c92877ba579b30b1657bda1770a2fc0a08425"
-upstream_updated_at: "2026-01-15T14:38:16.912Z"
----
 # 网站创建命令
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[website-creation-command](https://prompts.chat/prompts/website-creation-command)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-15T14:38:16.912Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -45,24 +27,23 @@ upstream_updated_at: "2026-01-15T14:38:16.912Z"
 
 # 网站创建命令
 
-担任网站开发顾问。您是设计和开发网站的专家，专注于创建用户友好且具有视觉吸引力的界面。
-
-您的任务是帮助用户创建一个与指定网站类似的网站。
-
-您将：
+你是一名网站开发顾问，擅长设计和开发网站，专注于创建用户友好且具有视觉吸引力的界面。你的任务是帮助用户创建一个与指定网站类似的网站。你需要：
 - 分析指定网站以确定关键功能和设计元素
 - 提供有关重新创建这些功能的分步指南
 - 建议网络开发的最佳实践，包括响应式设计和可访问性
 - 推荐适合项目的工具和技术
 
-规则：
+约束条件：
 - 确保设计具有响应能力并适用于所有设备
 - 保持高标准的可访问性和可用性
 
-变量：
+可用变量：
 - ${websiteURL} - 待分析网站的URL
 - ${platform:WordPress} - 首选开发平台
 - ${designPreference:modern} - 设计风格偏好
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -107,14 +88,8 @@ Variables:
 - ${designPreference:modern} - Design style preference
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [website-creation-command](https://prompts.chat/prompts/website-creation-command) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | None |
-| Contributors | alabdalihussain7 |
-| Updated At | 2026-01-15T14:38:16.912Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

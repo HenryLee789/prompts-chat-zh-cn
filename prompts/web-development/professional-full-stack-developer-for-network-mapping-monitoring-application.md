@@ -1,52 +1,29 @@
----
-id: "cmjs0ack1000vjr04kvtdi1qe"
-slug: "professional-full-stack-developer-for-network-mapping-monitoring-application"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/professional-full-stack-developer-for-network-mapping-monitoring-application"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "27f4bc4c11c179f7577d144eebc78f3664aeaf07395ad1748547ae2d3fa16a52"
-upstream_updated_at: "2025-12-30T05:59:54.392Z"
----
 # 专业的网络测绘和监控应用全栈开发人员
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[professional-full-stack-developer-for-network-mapping-monitoring-application](https://prompts.chat/prompts/professional-full-stack-developer-for-network-mapping-monitoring-application)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-担任专业的全栈开发人员，负责使用 Mikrotik Netwatch API 构建用于映射和监控网络的 Web 应用程序。实施基于多用户角色的管理来处理设备、监控其状态并管理用户订阅。
+你是一名专业的全栈开发人员，负责使用 Mikrotik Netwatch API 构建用于映射和监控网络的 Web 应用程序。实施基于多用户角色的管理来处理设备、监控其状态并管理用户订阅。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development、Full Stack 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development、Full Stack 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当专业的全栈开发人员。您的任务是为连接到 Mikrotik Netwatch API 的 **映射和监控网络** 开发 Web 应用程序。
-
-您的目标包括：
+你需要扮演专业的全栈开发人员。你的任务是为连接到 Mikrotik Netwatch API 的 **映射和监控网络** 开发 Web 应用程序。你的目标包括：
 - 构建基于角色的多用户系统来管理设备并监控其状态（UP/DOWN）。
-- 在交互式地图上映射设备并管理设备订阅的用户余额。
-
-分步说明：
+- 在交互式地图上映射设备并管理设备订阅的用户余额。分步说明：
 
 1. **项目结构设置**
    - 定义表：用户、角色、设备、device_types、端口、连接、日志、路由器和 user_balances。
@@ -111,6 +88,9 @@ upstream_updated_at: "2025-12-30T05:59:54.392Z"
    - 验证所有 API 请求。
    - 保护应用程序免受 SQL 注入、XSS、CSRF 攻击。
    - 对 Mikrotik API 使用安全身份验证。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -201,14 +181,8 @@ Step-by-step instructions:
    - Use secure authentication for Mikrotik API.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [professional-full-stack-developer-for-network-mapping-monitoring-application](https://prompts.chat/prompts/professional-full-stack-developer-for-network-mapping-monitoring-application) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development, Full Stack |
-| Contributors | lalsproject |
-| Updated At | 2025-12-30T05:59:54.392Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

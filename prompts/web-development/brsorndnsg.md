@@ -1,43 +1,24 @@
----
-id: "cmj9e16lv000avx0rflem94mb"
-slug: "brsorndnsg"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/brsorndnsg"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ab86250e15ba1730a24cad4f15ca7df363b74defe318250c03cfad5a3d8310db"
-upstream_updated_at: "2025-12-17T02:24:00.510Z"
----
 # 布森恩斯格
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[brsorndnsg](https://prompts.chat/prompts/brsorndnsg)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于Web 开发场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「布森恩斯格」执行Web 开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -123,14 +104,8 @@ brsorndnsg
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [brsorndnsg](https://prompts.chat/prompts/brsorndnsg) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Art |
-| Contributors | cipeberre |
-| Updated At | 2025-12-17T02:24:00.510Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

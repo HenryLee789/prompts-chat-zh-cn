@@ -1,24 +1,4 @@
----
-id: "cmj76srqx000jqh0r4vvwebf9"
-slug: "ultra-detailed-vintage-photo-restoration-and-colorization"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-detailed-vintage-photo-restoration-and-colorization"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1bf3c49660d02db8b838a9a2999c4e3258edccfff341923bb7383e0d783431e1"
-upstream_updated_at: "2025-12-16T11:14:01.330Z"
----
 # 超详细的复古照片修复和着色
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-detailed-vintage-photo-restoration-and-colorization](https://prompts.chat/prompts/ultra-detailed-vintage-photo-restoration-and-colorization)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2025-12-16T11:14:01.330Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-复古照片的超细节修复和清晰度增强。恢复精细细节并提高清晰度，尤其是面部。清除所有划痕、灰尘、污渍、泪痕。保留天然胶片颗粒。正确的几何形状和色调范围。 
-然后，将其着色，使其看起来像历史彩色照片：自然、柔和、历史准确的颜色。避免塑料皮肤、过饱和、数字绘画外观和过度锐化伪影。博物馆品质的现实主义。
+复古照片的超细节修复和清晰度增强。恢复精细细节并提高清晰度，尤其是面部。清除所有划痕、灰尘、污渍、泪痕。保留天然胶片颗粒。正确的几何形状和色调范围。然后，将其着色，使其看起来像历史彩色照片：自然、柔和、历史准确的颜色。避免塑料皮肤、过饱和、数字绘画外观和过度锐化伪影。博物馆品质的现实主义。
 ```
 
 ---
@@ -61,14 +42,8 @@ Ultra-detailed restoration and sharpness enhancement of a vintage photo. Recover
 Then, colorize it to look like a historical color photograph: natural, muted, historically accurate colors. Avoid plastic skin, oversaturation, digital painting look, and oversharpening artifacts. Museum-quality realism.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-detailed-vintage-photo-restoration-and-colorization](https://prompts.chat/prompts/ultra-detailed-vintage-photo-restoration-and-colorization) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | dnn321123 |
-| Updated At | 2025-12-16T11:14:01.330Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

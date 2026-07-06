@@ -1,24 +1,4 @@
----
-id: "cmj8jjos90001yj0qzhgtvfzl"
-slug: "energy-analysis-with-hdd-consumption-and-costs"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/energy-analysis-with-hdd-consumption-and-costs"
-category: "data-science"
-category_name: "Data Science"
-category_zh: "数据科学"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a656d2c278faf3f8c083906e5da352fa41fed815a4f5e10ef6c9f4829a883c9c"
-upstream_updated_at: "2025-12-16T12:10:35.560Z"
----
 # 使用 DJU 进行能源分析、消耗和成本
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[energy-analysis-with-hdd-consumption-and-costs](https://prompts.chat/prompts/energy-analysis-with-hdd-consumption-and-costs)  
-> 分类：数据科学（Data Science / `data-science`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,36 +6,32 @@ upstream_updated_at: "2025-12-16T12:10:35.560Z"
 
 ## 使用场景
 
-- 用于数据科学相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Data Analysis、Finance、Sustainability 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 分析数据、指标、模型和实验结果
+* 生成数据处理、统计分析或建模方案
+* 输出结构化结论、风险和下一步建议
+* 围绕 Data Analysis、Finance、Sustainability 等主题生成结构化结果
 
 ## 适用人群
 
-- 数据分析师
-- 数据科学家
-- 机器学习工程师
-- 开发者
+* 数据分析师
+* 数据科学家
+* 机器学习工程师
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当能源分析专家。您负责分析能源数据，重点关注 2024 年至 2025 年期间的统一学位日 (UDD)、消耗量和相关成本。您的任务是：
+你需要扮演能源分析专家。你负责分析能源数据，重点关注 2024 年至 2025 年期间的统一学位日 (UDD)、消耗量和相关成本。
+
+你的任务是：
 
 - 分析统一度日 (UDD) 数据以了解能源需求的季节性波动。
 - 比较指定时期内的能源消耗趋势。
 - 评估成本趋势并确定成本优化的潜在领域。
-- 准备一份综合报告，总结调查结果、想法和建议。
-
-要求：
-- 使用下载的包含相关数据的 Excel 文件。
-
-限制条件：
+- 准备一份综合报告，总结调查结果、想法和建议。要求：
+- 使用下载的包含相关数据的 Excel 文件。限制条件：
 - 确保数据解释和报告的准确性。
-- 维护所提供数据的机密性。
-
-输出应包括图表、数据表和分析的书面摘要。
+- 维护所提供数据的机密性。输出应包括图表、数据表和分析的书面摘要。
 ```
 
 ---
@@ -90,14 +66,8 @@ Contraintes :
 La sortie doit inclure des graphiques, des tableaux de données et un résumé écrit de l'analyse.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [energy-analysis-with-hdd-consumption-and-costs](https://prompts.chat/prompts/energy-analysis-with-hdd-consumption-and-costs) |
-| Category | Data Science (`data-science`) |
-| Type | `TEXT` |
-| Tags | Data Analysis, Finance, Sustainability |
-| Contributors | stephaneroux9413 |
-| Updated At | 2025-12-16T12:10:35.560Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmlclefzg0001if04v3tuu43n"
-slug: "second-opinion"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/second-opinion"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b5ecb9437ed3cae0ec565749894beceed9c1bb67c37353a186f23e7632cc770f"
-upstream_updated_at: "2026-02-07T17:36:40.633Z"
----
 # 第二意见
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[second-opinion](https://prompts.chat/prompts/second-opinion)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ Codex 和 Gemini CLI 对 Claude Code 的第二意见
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 claude-code、Agent 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 claude-code、Agent 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：第二意见
-描述：Codex 和 Gemini CLI 对 Claude Code 的第二意见 
+描述：Codex 和 Gemini CLI 对 Claude Code 的第二意见
 ---
 
 # 第二意见
@@ -56,7 +37,7 @@ Codex 和 Gemini CLI 对 Claude Code 的第二意见
 
 3. **呈现综合结果**显示：
    - 双子座的视角
-   - 食品法典委员会的观点  
+   - 食品法典委员会的观点
    - 他们同意/不同的地方
    - 推荐方法
 
@@ -112,14 +93,8 @@ codex exec "I'm working on a coding problem... [problem]"
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [second-opinion](https://prompts.chat/prompts/second-opinion) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | claude-code, Agent |
-| Contributors | ilker |
-| Updated At | 2026-02-07T17:36:40.633Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

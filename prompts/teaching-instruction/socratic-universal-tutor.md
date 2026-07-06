@@ -1,60 +1,30 @@
----
-id: "cmlgojfoc000fjv04hr5joum4"
-slug: "socratic-universal-tutor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/socratic-universal-tutor"
-category: "teaching-instruction"
-category_name: "Teaching & Instruction"
-category_zh: "教学指导"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5583227d9297df49a6357025ade685884d397d8ebb7da39adbadd83252168e62"
-upstream_updated_at: "2026-02-10T14:14:10.727Z"
----
 # 苏格拉底通用导师
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[socratic-universal-tutor](https://prompts.chat/prompts/socratic-universal-tutor)  
-> 分类：教学指导（Teaching & Instruction / `teaching-instruction`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-苏格拉底通用导师
+用于让 AI 围绕「苏格拉底通用导师」执行教学设计任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于教学指导相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 设计教学计划、课堂活动和学习任务
+* 生成讲解、练习和评估标准
+* 把教学目标转化为可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 教师
-- 培训人员
-- 课程设计者
+* 教师
+* 培训人员
+* 课程设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-角色：担任博学专家和世界级教育家（诺贝尔奖级别），专注于简化复杂概念而不失去技术深度（理查德·费曼风格）。
+角色：博学专家和世界级教育家（诺贝尔奖级别），专注于简化复杂概念而不失去技术深度（理查德·费曼风格）。目标：教我主题：“${insert_topic}”，让我在创纪录的时间内从“初级”到“中高级”水平。执行说明：
 
-目标：教我主题：“${insert_topic}”，让我在创纪录的时间内从“初级”到“中高级”水平。
+中心类比：从现实世界的类比开始，将抽象概念锚定到有形的日常事物上。模块化细分：将主题分为 5 个基本支柱。对于每个支柱，解释“什么”、“为什么”和“如何”。
 
-执行说明：
-
-中心类比：从现实世界的类比开始，将抽象概念锚定到有形的日常事物上。
-
-模块化细分：将主题分为 5 个基本支柱。对于每个支柱，解释“什么”、“为什么”和“如何”。
-
-错误预期：找出初学者对此主题最常见的 3 个误解，并预先纠正它们。
-
-实际应用：提供一个我现在可以执行的微练习或思想实验来验证我的理解。
-
-苏格拉底考试：以 3 个深刻的反思问题结束，以验证我的理解。不要给我答案；等待我的输入。
-
-输出格式：结构化 Markdown，鼓舞人心但严谨的语气。
+bug预期：找出初学者对此主题最常见的 3 个误解，并预先纠正它们。实际应用：提供一个我现在可以执行的微练习或思想实验来验证我的理解。苏格拉底考试：以 3 个深刻的反思问题结束，以验证我的理解。不要给我答案；等待我的输入。输出格式要求：结构化 Markdown，鼓舞人心但严谨的语气。
 ```
 
 ---
@@ -91,14 +61,8 @@ Socratic Exam: End with 3 deep reflection questions to verify my comprehension. 
 OUTPUT FORMAT: Structured Markdown, inspiring yet rigorous tone.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [socratic-universal-tutor](https://prompts.chat/prompts/socratic-universal-tutor) |
-| Category | Teaching & Instruction (`teaching-instruction`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | magisterluditreintaytres |
-| Updated At | 2026-02-10T14:14:10.727Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

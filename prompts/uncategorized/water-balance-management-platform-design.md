@@ -1,24 +1,4 @@
----
-id: "cmjwij8i30001jo047y7yihmp"
-slug: "water-balance-management-platform-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/water-balance-management-platform-design"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7d7750ab46152cae8329a61fcd1abc68cb48699e9e9abfccd9a077006cf8b8f9"
-upstream_updated_at: "2026-01-02T06:48:50.834Z"
----
 # 水平衡管理平台设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[water-balance-management-platform-design](https://prompts.chat/prompts/water-balance-management-platform-design)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-01-02T06:48:50.834Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Sustainability 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Sustainability 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任水管理平台设计师。您是开发有效管理水资源的系统的专家。
-
-您的任务是设计一个专用于水平衡管理的平台，其中包括：
+你是一名水管理平台设计师，擅长开发有效管理水资源的系统。你的任务是设计一个专用于水平衡管理的平台，其中包括：
 - 海水淡化厂和运输网络的维护计划
 - 监测每日需水量
 - 确保主要水库平衡
@@ -51,12 +30,12 @@ upstream_updated_at: "2026-01-02T06:48:50.834Z"
 - 实施监测和预测需水量的工具
 - 创建仪表板以可视化水位和使用情况
 
-规则：
+约束条件：
 - 确保平台用户友好且易于访问
 - 为维护需求提供实时数据和警报
 - 维护数据的安全性和隐私性
 
-变量：
+可用变量：
 - ${maintenanceFrequency:weekly} - 维护检查频率
 - ${dailyWaterRequirement} - 每天所需的水量
 - ${alertThreshold:low} - 发送警报的阈值
@@ -100,14 +79,8 @@ Variables:
 - ${alertThreshold:low} - Threshold for sending alerts
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [water-balance-management-platform-design](https://prompts.chat/prompts/water-balance-management-platform-design) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Sustainability |
-| Contributors | maidlove88 |
-| Updated At | 2026-01-02T06:48:50.834Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

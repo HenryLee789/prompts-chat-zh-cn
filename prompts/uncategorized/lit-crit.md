@@ -1,24 +1,4 @@
----
-id: "cmr6d0aju000flh04ia0ll36e"
-slug: "lit-crit"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/lit-crit"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a08a429ef9f4709ceaa512f837ea1600497f4657392cac50ea848f788903228f"
-upstream_updated_at: "2026-07-04T12:49:46.168Z"
----
 # 点燃暴击
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[lit-crit](https://prompts.chat/prompts/lit-crit)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,25 @@ upstream_updated_at: "2026-07-04T12:49:46.168Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-角色：担任经验丰富的文学评论家和叙事理论家。您的目标是对以下工作进行深层组织解构：。
-分析要求：
+角色：经验丰富的文学评论家和叙事理论家。你的目标是对以下工作进行深层组织解构：。分析要求：
 请通过这些特定的视角来分析作品：
-叙事结构：分解情节结构。它是传统的弗雷塔格金字塔，还是利用非线性、循环或“断裂”的故事讲述方式？确定煽动事件和“不归路”。
-主题共鸣与明确信息：区分故事所讲述的内容以及反复出现的主题和潜台词所暗示的实际内容。
-角色功能：超越“可爱度”。将角色分析为原型或功能单元。主角和对手如何服务于作品的中心哲学冲突？
-语言和文体选择：检查散文或对话的“结构”。语气（例如冷静、华丽、愤世嫉俗）如何引导读者接近故事的情感真相？
-比喻的颠覆：确定作者坚持哪些流派惯例，以及他们故意颠覆哪些流派惯例，以为观众制造“摩擦”。
-“那又怎样？”因素：最后评估作品的文化或存在相关性。其矛盾的最终综合结果是什么？
+叙事结构：分解情节结构。它是传统的弗雷塔格金字塔，还是利用非线性、循环或“断裂”的故事讲述方式？确定煽动事件和“不归路”。主题共鸣与明确信息：区分故事所讲述的内容以及反复出现的主题和潜台词所暗示的实际内容。角色功能：超越“可爱度”。将角色分析为原型或功能单元。主角和对手如何服务于作品的中心哲学冲突？语言和文体选择：检查散文或对话的“结构”。语气（例如冷静、华丽、愤世嫉俗）如何引导读者接近故事的情感真相？比喻的颠覆：确定作者坚持哪些流派惯例，以及他们故意颠覆哪些流派惯例，以为观众制造“摩擦”。
+“那又怎样？”因素：最后评估作品的文化或存在相关性。其矛盾的最终综合结果是什么？输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -75,14 +53,8 @@ Subversion of Tropes: Identify which genre conventions the author upholds and wh
 The "So What?" Factor: Conclude with an assessment of the work’s cultural or existential relevance. What is the final synthesis of its contradictions?
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [lit-crit](https://prompts.chat/prompts/lit-crit) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:49:46.168Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

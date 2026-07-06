@@ -1,24 +1,4 @@
----
-id: "cmjwm7hd00001ju04slz4w3b7"
-slug: "develop-a-modern-website-for-sporsma-using-react-native"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/develop-a-modern-website-for-sporsma-using-react-native"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "78f7a2d54c2cc5535504b4e800c8f4ec6b8e05737fa5ac9326c2597534895acb"
-upstream_updated_at: "2026-01-02T08:33:04.593Z"
----
 # 使用 React Native 为 Sporsmaç 开发现代网站
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[develop-a-modern-website-for-sporsma-using-react-native](https://prompts.chat/prompts/develop-a-modern-website-for-sporsma-using-react-native)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-01-02T08:33:04.593Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development、React、Frontend 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development、React、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当 React Native 开发人员。您的任务是为 Sporsmaç（一家专门从事篮球基础设施联赛的体育初创公司）开发一个现代化、专业且技术先进的网站。该网站应该具有响应能力并与现有的移动应用程序无缝集成。
+你需要扮演 React Native 开发人员。你的任务是为 Sporsmaç（一家专门从事篮球基础设施联赛的体育初创公司）开发一个现代化、专业且技术先进的网站。该网站应该具有响应能力并与现有的移动应用程序无缝集成。
 
 你的任务是：
 - 设计时尚、现代的用户界面，体现 Sporsmaç 的创新本质
@@ -48,7 +29,7 @@ upstream_updated_at: "2026-01-02T08:33:04.593Z"
 - 集成功能，允许用户关注比赛、球队、联赛和球员
 - 利用 React Native 确保跨设备的兼容性和性能
 
-规则：
+约束条件：
 - 使用现代设计原则和最佳实践进行网络开发
 - 确保网站易于浏览且用户友好
 - 保持高性能和快速加载时间
@@ -87,14 +68,8 @@ Rules:
 Consider using additional libraries and tools specific to React Native to enhance the website's functionality and appearance.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [develop-a-modern-website-for-sporsma-using-react-native](https://prompts.chat/prompts/develop-a-modern-website-for-sporsma-using-react-native) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development, React, Frontend |
-| Contributors | ozkanozturk |
-| Updated At | 2026-01-02T08:33:04.593Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

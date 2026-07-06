@@ -1,24 +1,4 @@
----
-id: "cmjfyhe8j000bjp046ez0753o"
-slug: "gopro-action"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gopro-action"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cc7aa240fea57283ae3dfbfa5f5d979398059cacae801f2eef0f2d498c9b3867"
-upstream_updated_at: "2025-12-21T17:06:24.196Z"
----
 # GoPro 行动
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gopro-action](https://prompts.chat/prompts/gopro-action)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-21T17:06:24.196Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（男性）转变为一座巨大摩天大楼顶上的肾上腺素上瘾的城市探险家。该图像是拍摄对象 1 拍摄的一张高能量、广角 POV 自拍照，捕捉到两个人都危险地栖息在屋顶壁架的边缘，以令人眼花缭乱的垂直下降到城市街道严格遵守电影 1:1 的宽高比。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（男性）转变为一座巨大摩天大楼顶上的肾上腺素上瘾的城市探险家。该图像是拍摄对象 1 拍摄的一张高能量、广角 POV 自拍照，捕捉到两个人都危险地栖息在屋顶壁架的边缘，以令人眼花缭乱的垂直下降到城市街道严格遵守电影 1:1 的宽高比。",
   “详细信息”：{
     "year": "今天",
     “流派”：“GoPro”，
@@ -190,14 +171,8 @@ This prompt requests a cinematic, vertiginous GoPro-style selfie of two adrenali
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gopro-action](https://prompts.chat/prompts/gopro-action) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-21T17:06:24.196Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

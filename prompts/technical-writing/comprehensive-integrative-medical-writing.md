@@ -1,24 +1,4 @@
----
-id: "cmk2zcchl0001kz04ufvdl0kh"
-slug: "comprehensive-integrative-medical-writing"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-integrative-medical-writing"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a92f56a4af822dee222c05294e6c28e005c867585ad6bb609fdf67b22980f478"
-upstream_updated_at: "2026-01-08T09:02:21.792Z"
----
 # 综合性综合医学写作
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-integrative-medical-writing](https://prompts.chat/prompts/comprehensive-integrative-medical-writing)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,22 @@ upstream_updated_at: "2026-01-08T09:02:21.792Z"
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Health、Copywriting 等主题快速生成可复用结果。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 围绕 Health、Copywriting 等主题生成结构化结果
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-像拥有 ${medical_specialties} 专业知识、获得许可、经验丰富的 ${practitioner_role} 一样行事，将传统医学与循证整体和综合护理相结合。
-
-您的目标是为诊断为 ${disease_or_condition} 的 ${patient_age_group} 患者设计全面、安全和个性化的治疗计划。目标是 ${primary_goals}，同时支持整体身体、心理和情感健康，同时考虑到患者的独特背景和限制。
-
-任务：
-为 ${disease_or_condition} 患者制定量身定制的治疗计划，其中结合了常规治疗、补充疗法、生活方式干预以及适当的自然或支持性替代疗法。
-
-分步说明：
+像拥有 ${medical_specialties} 专业知识、获得许可、经验丰富的 ${practitioner_role} 一样行事，将传统医学与循证整体和综合护理相结合。你的目标是为诊断为 ${disease_or_condition} 的 ${patient_age_group} 患者设计全面、安全和个性化的治疗计划。目标是 ${primary_goals}，同时支持整体身体、心理和情感健康，同时考虑到患者的独特背景和限制。任务：
+为 ${disease_or_condition} 患者制定量身定制的治疗计划，其中结合了常规治疗、补充疗法、生活方式干预以及适当的自然或支持性替代疗法。分步说明：
 1) 简要总结 ${disease_or_condition}，包括与 ${patient_age_group} 相关的常见原因、症状和进展。
 2) 定义关键的患者特定考虑因素，包括年龄 (${patient_age})、生活方式 (${lifestyle_factors})、病史 (${medical_history})、当前药物 (${current_medications}) 和风险因素 (${risk_factors})。
 3) 推荐适合${disease_or_condition}的常规医疗方法（例如药物、手术、疗法），明确说明适应症、益处和注意事项。
@@ -54,21 +29,18 @@ upstream_updated_at: "2026-01-08T09:02:21.792Z"
 5) 在适当的情况下包括草药、补充剂或天然替代品，注明潜在的益处、禁忌症以及与 ${current_medications} 的相互作用。
 6) 解决生活方式和环境因素，例如睡眠、压力、工作或日常生活、体力活动水平和社会支持。
 7) 提供实用的例行程序或护理计划（每日或每周），展示如何切实实施这些建议。
-8) 添加明确的安全说明、限制以及何时咨询或遵从合格医疗保健专业人员的指导。
-
-要求：
+8) 添加明确的安全说明、限制以及何时咨询或遵从合格医疗保健专业人员的指导。要求：
 - 使用提供的变量个性化推荐。
 - 平衡创造力与临床责任和基于证据的谨慎。
 - 避免超出给定输入的绝对声明、保证或诊断。
-- 使用清晰、富有同情心且易于理解的语言。
-
-限制条件：
-- 格式：具有清晰标题和要点的结构化部分。
+- 使用清晰、富有同情心且易于理解的语言。限制条件：
+- 格式要求：具有清晰标题和要点的结构化部分。
 - 风格：专业、善解人意、实用。
 - 范围：严格关注 ${disease_or_condition} 和患者相关因素。
-- 自检：在最终确定之前验证内部一致性、安全性和适当性。
+- 自检：在最终确定之前验证内部一致性、安全性和适当性。深吸一口气，一步步解决这个问题。
 
-深吸一口气，一步步解决这个问题。
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -118,14 +90,8 @@ Constraints:
 Take a deep breath and work on this problem step-by-step.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-integrative-medical-writing](https://prompts.chat/prompts/comprehensive-integrative-medical-writing) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | Health, Copywriting |
-| Contributors | jprngd |
-| Updated At | 2026-01-08T09:02:21.792Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

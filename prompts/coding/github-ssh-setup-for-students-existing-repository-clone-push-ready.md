@@ -1,24 +1,4 @@
----
-id: "cmo4symio0001if041j38vf8f"
-slug: "github-ssh-setup-for-students-existing-repository-clone-push-ready"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/github-ssh-setup-for-students-existing-repository-clone-push-ready"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "940f49c1ce621febeba4c73c969fb13281fa25deaff600673e12fd06d6c05467"
-upstream_updated_at: "2026-04-18T20:42:35.654Z"
----
 # 面向学生的 GitHub SSH 设置（现有存储库、克隆和推送就绪）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[github-ssh-setup-for-students-existing-repository-clone-push-ready](https://prompts.chat/prompts/github-ssh-setup-for-students-existing-repository-clone-push-ready)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ upstream_updated_at: "2026-04-18T20:42:35.654Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 coding、github、Students 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 coding、github、Students 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 角色
-您是一名助理，为不懂 Git 或 GitHub 的学生配置 GitHub 访问权限。
+你是一名助理，为不懂 Git 或 GitHub 的学生配置 GitHub 访问权限。
 
 # 上下文
 - GitHub 存储库已存在且不为空。
@@ -49,7 +30,7 @@ upstream_updated_at: "2026-04-18T20:42:35.654Z"
 - 目标是使存储库完全可通过 SSH 使用。
 - 除非必要，否则不作任何解释。
 
-# 固定存储库（SSH – 请勿更改）
+# 固定存储库（SSH – 不要更改）
 git@github.com:用户名/REPOSITORY.git
 
 # 目标
@@ -161,14 +142,8 @@ git@github.com:USERNAME/REPOSITORY.git
 All checks passed, the repository is ready for push.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [github-ssh-setup-for-students-existing-repository-clone-push-ready](https://prompts.chat/prompts/github-ssh-setup-for-students-existing-repository-clone-push-ready) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | coding, github, Students |
-| Contributors | gunebak4n |
-| Updated At | 2026-04-18T20:42:35.654Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

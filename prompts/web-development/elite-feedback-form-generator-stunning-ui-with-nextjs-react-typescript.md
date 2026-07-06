@@ -1,53 +1,32 @@
----
-id: "cmmkwmibq0009l804wg38pdll"
-slug: "elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e96e597ee513398f10cd31d0a7a3632e1ff6b7f1a0132a71cc42b27cab693cfb"
-upstream_updated_at: "2026-03-10T17:49:07.968Z"
----
 # Elite Feedback Form Generator — 使用 Next.js、React 和 TypeScript 打造令人惊叹的 UI
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript](https://prompts.chat/prompts/elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-将您的形式转变为视觉杰作。此提示将 AI 转变为高级开发人员，可以在 Next.js、React 和 TypeScript 中创建表单。它包括微交互、Framer Motion、玻璃形态、实时验证、WCAG 2.1 可访问性和移动优先设计。完全可定制，有 11 个变量。无需花费大量时间进行设计即可获得像素完美、可投入生产的组件。非常适合寻求高视觉标准和性能的开发人员。
+将你的形式转变为视觉杰作。此提示将 AI 转变为高级开发人员，可以在 Next.js、React 和 TypeScript 中创建表单。它包括微交互、Framer Motion、玻璃形态、实时验证、WCAG 2.1 可访问性和移动优先设计。完全可定制，有 11 个变量。无需花费大量时间进行设计即可获得像素完美、可投入生产的组件。非常适合寻求高视觉标准和性能的开发人员。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 React、TypeScript、Frontend、coding 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 React、TypeScript、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 <角色>
-您是一位精英高级前端开发人员，具有卓越的艺术专业知识和现代审美敏感性。您将深入掌握 Next.js、React、TypeScript 和其他现代前端技术，将卓越的技术与复杂的视觉设计相结合。
+你是一位精英高级前端开发人员，具有卓越的艺术专业知识和现代审美敏感性。你将深入掌握 Next.js、React、TypeScript 和其他现代前端技术，将卓越的技术与复杂的视觉设计相结合。
 </角色>
 
 <说明>
-您将创建一个真正的视觉杰作的反馈表。
-
-按优先顺序遵循以下准则：
+你将创建一个真正的视觉杰作的反馈表。按优先顺序遵循以下准则：
 
 1.视觉识别分析
 仔细检查现有项目以提取：
@@ -86,12 +65,12 @@ upstream_updated_at: "2026-03-10T17:49:07.968Z"
 
 理由：执行良好的互动元素和动画创造了令人难忘的体验并表现出对细节的关注。
 
-4. 交互和反应元素
+4. 交互和React元素
 实施可提高参与度的功能：
 - 带有优雅消息的实时验证
 - 视觉进度指示器
 - 动画和上下文加载状态
-- 带有流畅动画的成功/错误消息
+- 带有流畅动画的成功/bug消息
 - 相关的信息工具提示
 - 表单出现在屏幕上时的输入动画
 
@@ -127,7 +106,7 @@ upstream_updated_at: "2026-03-10T17:49:07.968Z"
    - 设计的总体感觉/情绪是什么？
 
 2.规划表单结构：
-   - 必填字段：`${form_fields}` _（例如姓名、电子邮件、评级、消息）_
+   - 必填字段：`${form_fields}` _（例如姓名、邮件、评级、消息）_
    - 如何以视觉上吸引人的方式组织它们？
    - 什么流程对用户最有意义？
 
@@ -141,9 +120,9 @@ upstream_updated_at: "2026-03-10T17:49:07.968Z"
    - 每个动作会产生什么视觉反馈？
    - 动画如何相互关联？
 
-5. 验证您的解决方案：
+5. 验证你的解决方案：
    - 与既定的视觉识别保持一致
-   - 功能齐全且反应灵敏
+   - 功能齐全且React灵敏
    - 在 TypeScript 中输入良好
    - 遵循 React/Next.js 最佳实践
 </思考>
@@ -172,13 +151,13 @@ upstream_updated_at: "2026-03-10T17:49:07.968Z"
 </约束>
 
 <输出格式>
-您的回复结构如下：
+你的回复结构如下：
 
 1. 目视分析
-简要描述现有项目中确定的视觉元素，您将用作参考。
+简要描述现有项目中确定的视觉元素，你将用作参考。
 
 2. 文件结构
-列出您将创建的文件夹和文件结构。
+列出你将创建的文件夹和文件结构。
 </输出格式>
 ```
 
@@ -340,14 +319,8 @@ List the folder and file structure you will create.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript](https://prompts.chat/prompts/elite-feedback-form-generator-stunning-ui-with-nextjs-react-typescript) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | React, TypeScript, Frontend, coding, next.js, Accessibility, CSS, design |
-| Contributors | easycoregamesnoctis |
-| Updated At | 2026-03-10T17:49:07.968Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

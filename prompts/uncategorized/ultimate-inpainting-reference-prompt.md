@@ -1,68 +1,37 @@
----
-id: "cmkg1crz50001jo04okziebaq"
-slug: "ultimate-inpainting-reference-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultimate-inpainting-reference-prompt"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "af89cbe86856e4027082f44b516e95a635e4f39ef64b35e6b859db65ab4e4f19"
-upstream_updated_at: "2026-01-15T22:45:29.513Z"
----
-# 终极修复/参考提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultimate-inpainting-reference-prompt](https://prompts.chat/prompts/ultimate-inpainting-reference-prompt)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
+# 终极修复/参考提示词
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「终极修复/参考提示词」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-基于所提供的参考图像的豪华温暖的室内场景。保持精确的构图、比例和拍摄角度。
-
-厨房吧台：
+基于所提供的参考图像的豪华温暖的室内场景。保持精确的构图、比例和拍摄角度。厨房吧台：
 	• 台面必须严格使用提供的大理石参考图像。
 	• 匹配与条相关的精确颜色、图案、纹理和真实比例。
-	• 请勿对大理石进行风格化、改变或重新诠释。
-	• 大理石应与条形边缘、反射和环境照明自然地融为一体。
-
-吧台底座：温暖的天然木材。
-
-重点墙：浅灰色垂直条形覆层，全圆形圆柱形轮廓（圆形，非方形，无锋利边缘）。
-
-墙体划分：
+	• 不要对大理石进行风格化、改变或重新诠释。
+	• 大理石应与条形边缘、反射和环境照明自然地融为一体。吧台底座：温暖的天然木材。重点墙：浅灰色垂直条形覆层，全圆形圆柱形轮廓（圆形，非方形，无锋利边缘）。墙体划分：
 	• 垂直：
 	• 上部：墙高的顶部 2/3，条带直径 0.5 厘米
 	• 下部：底部 1/3 墙高，条带直径 1 厘米
 	• 水平（沿墙宽）：
 	• 上部部分跨越墙宽的前三分之二
 	• 下半部分跨越剩余三分之一
-	• 平滑过渡、精确间距、建筑精度。
-
-地板：抛光白色卡拉拉大理石。
-温馨的氛围灯光，柔和的间接隐藏式照明，舒适又奢华的意式高端内饰。超现实的建筑可视化。
-
-对AI的严格指示：精确的材料匹配，准确遵循参考图像，保持比例，不重新解释或创建新的图案，大理石必须在比例上显得自然和真实。
+	• 平滑过渡、精确间距、建筑精度。地板：抛光白色卡拉拉大理石。温馨的氛围灯光，柔和的间接隐藏式照明，舒适又奢华的意式高端内饰。超现实的建筑可视化。对AI的严格指示：精确的材料匹配，准确遵循参考图像，保持比例，不重新解释或创建新的图案，大理石必须在比例上显得自然和真实。
 
 ⸻
 
@@ -120,14 +89,8 @@ Midjourney / Inpainting Parameters:
 --v 6 --style raw --ar 3:4 --quality 2 --iw 2 --no artistic interpretation
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultimate-inpainting-reference-prompt](https://prompts.chat/prompts/ultimate-inpainting-reference-prompt) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `VIDEO` |
-| Tags | None |
-| Contributors | rehamhabibrh |
-| Updated At | 2026-01-15T22:45:29.513Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

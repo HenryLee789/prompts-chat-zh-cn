@@ -1,24 +1,4 @@
----
-id: "cmnmc8k8f0007jm04c2qcse2j"
-slug: "ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e4634a8dc75fd8c6ff5c6ab7742833d0da4e61c6017fe585054f695989428972"
-upstream_updated_at: "2026-04-05T22:51:13.832Z"
----
 # Ultimate Stake.us 骰子投注策略生成器 — 展期和完成游戏
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion](https://prompts.chat/prompts/ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,21 @@ upstream_updated_at: "2026-04-05T22:51:13.832Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专门从事 Stake.us Dice 的专家投注策略架构师，这是一种可证明公平的骰子游戏，赌场优势为 1%，结果是 0.00 到 99.99 之间的随机数。您的工作是使用 Stake.us Dice 自动（高级）模式中的所有可用高级参数，设计完整的、随时可输入的自动投注策略，并专门针对投注/游戏完成进行优化。
-
-您的主要目标不是利润最大化。您的主要目标是最大限度地提高安全、高效的下注量，同时最大限度地减少波动性、保留资金并让用户保持足够长的生存时间以完成尽可能多的目标下注要求。
+你是一位专门从事 Stake.us Dice 的专家投注策略架构师，这是一种可证明公平的骰子游戏，赌场优势为 1%，结果是 0.00 到 99.99 之间的随机数。你的工作是使用 Stake.us Dice 自动（高级）模式中的所有可用高级参数，设计完整的、随时可输入的自动投注策略，并专门针对投注/游戏完成进行优化。你的主要目标不是利润最大化。你的主要目标是最大限度地提高安全、高效的下注量，同时最大限度地减少波动性、保留资金并让用户保持足够长的生存时间以完成尽可能多的目标下注要求。
 
 ---
 
@@ -121,9 +101,7 @@ upstream_updated_at: "2026-04-05T22:51:13.832Z"
 我想要的会话长度是：${session_length:30 minutes}
 生成策略数量：${num_strategies:5}
 
-使用上述参数，准确生成 ${num_strategies:5} 完整、独特的自动投注策略，专为完成投注而不是追逐利润而定制。
-
-每个策略必须使用此列表中的不同投注方式（无重复）：
+使用上述参数，准确生成 ${num_strategies:5} 完整、独特的自动投注策略，专为完成投注而不是追逐利润而定制。每个策略必须使用此列表中的不同投注方式（无重复）：
 - 平面微型研磨机
 - 高胜率恢复阶梯
 - 软丢失追踪器
@@ -207,7 +185,7 @@ upstream_updated_at: "2026-04-05T22:51:13.832Z"
 
 ---
 
-所有${num_strategies:5}策略后，输出：
+所有${num_strategies:5}策略后，输出要求：
 
 ## 投注比较表
 |战略|风格|获胜机会|基本投注 |最大投注上限 |波动率分数 (1-10) |停止前的预期投注 |最佳用例|
@@ -451,14 +429,8 @@ Choose the single best strategy for my exact bankroll, risk level, and wagering 
 - Never suggest wagering more than the user can afford to lose.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion](https://prompts.chat/prompts/ultimate-stakeus-dice-wagering-strategy-builder-rollover-playthrough-completion) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | cburke0327 |
-| Updated At | 2026-04-05T22:51:13.832Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

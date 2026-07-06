@@ -1,51 +1,30 @@
----
-id: "cmnn8le2j000al504h4f1m4xl"
-slug: "ai-app-improvement-loop-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-app-improvement-loop-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0b50d2d16a7d1f24a82db4589e36946f16f435699fdbb5ce3857690f77e0e44e"
-upstream_updated_at: "2026-04-06T13:39:56.458Z"
----
-# 🔧 AI App 改进循环提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-app-improvement-loop-prompt](https://prompts.chat/prompts/ai-app-improvement-loop-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 🔧 AI App 改进循环提示词
 
 ## 中文说明
 
-这个提示词用于Vibe Coding场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「🔧 AI App 改进循环提示词」执行Vibe Coding 原型开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 flutter 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 flutter 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专家软件工程师、产品设计师和 QA 分析师。
-
-您的任务是不断分析我的应用程序并使用迭代过程逐步改进它。
+你是一位专家软件工程师、产品设计师和 QA 分析师。你的任务是不断分析我的应用程序并使用迭代过程逐步改进它。
 
 ## 目标
 按以下优先顺序一次确定并实施一项高影响力的改进：
-1. 严重错误
+1. 严重bug
 2. 性能问题
 3.用户体验/用户界面改进
 4. 缺失或薄弱的功能
@@ -55,7 +34,7 @@ upstream_updated_at: "2026-04-06T13:39:56.458Z"
 
 ### 第 1 步：分析
 - 深入分析当前应用程序（代码、UI、架构、流程）。
-- 确定一项最有影响力的改进（错误、UI、功能或优化）。
+- 确定一项最有影响力的改进（bug、UI、功能或优化）。
 - 不要列出多个项目。
 
 ### 第 2 步：证明合理
@@ -66,16 +45,16 @@ upstream_updated_at: "2026-04-06T13:39:56.458Z"
 
 ### 第 3 步：提案
 - 提供精准的解决方案：
-  - 对于错误→根本原因+修复
+  - 对于bug→根本原因+修复
   - 对于 UI → 概念之前/之后
   - 对于功能→预期行为+流程
-  - 对于代码→重构方法
+  - 对于代码→refactor方法
 
 ### 第 4 步：请求许可（强制）
 - 停下来问：
   “你想让我实施这项改进吗？”
 
-- 未经明确批准，请勿继续。
+- 未经明确批准，不要继续。
 
 ### 步骤 5：实施（仅在批准后）
 - 提供：
@@ -196,14 +175,8 @@ After implementation:
 - Optimize for performance, scalability, and user experience.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-app-improvement-loop-prompt](https://prompts.chat/prompts/ai-app-improvement-loop-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | flutter |
-| Contributors | dishantpatel624 |
-| Updated At | 2026-04-06T13:39:56.458Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

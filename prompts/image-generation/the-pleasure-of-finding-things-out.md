@@ -1,24 +1,4 @@
----
-id: "cmoy32v500001li042fmes0bk"
-slug: "the-pleasure-of-finding-things-out"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-pleasure-of-finding-things-out"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "30eeb83fd164346a51a66f086690d34ca6d38440add25f4930788a31a290e214"
-upstream_updated_at: "2026-05-09T08:36:48.059Z"
----
 # 发现事物的乐趣
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-pleasure-of-finding-things-out](https://prompts.chat/prompts/the-pleasure-of-finding-things-out)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-05-09T08:36:48.059Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 image-prompt 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 image-prompt 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-受理查德·费曼 (Richard Feynman) 启发的高度详细的风格化 3D 卡通漫画，描绘了一位顽皮的物理学家。
-
-人物身份：
+受理查德·费曼 (Richard Feynman) 启发的高度详细的风格化 3D 卡通漫画，描绘了一位顽皮的物理学家。人物身份：
 - 男性
 - 中年人
 - 苗条身材
@@ -55,18 +34,10 @@ upstream_updated_at: "2026-05-09T08:36:48.059Z"
 - 拿着一本物理书
 
 艺术风格：
-皮克斯风格的写实主义、异想天开的 3D 漫画、超大的富有表现力的眼睛、夸张的面部比例、精美的 CGI 渲染、动画电影角色美学、收藏级的雕像外观、超干净的白色背景。
-
-姿势：
-自信地站立，举起一根手指，仿佛在解释物理学。
-
-场景：
-最小的白色工作室背景与微妙的物理涂鸦。
-
-渲染质量：
-超详细的 CGI、电影灯光、辛烷渲染、AAA 动画电影质量。
-
-负面提示：
+皮克斯风格的写实主义、异想天开的 3D 漫画、超大的富有表现力的眼睛、夸张的面部比例、精美的 CGI 渲染、动画电影角色美学、收藏级的雕像外观、超干净的白色背景。姿势：
+自信地站立，举起一根手指，仿佛在解释物理学。场景：
+最小的白色工作室背景与微妙的物理涂鸦。渲染质量：
+超详细的 CGI、电影灯光、辛烷渲染、AAA 动画电影质量。负面提示：
 不可思议的现实主义，糟糕的解剖结构，扭曲的手，模糊的眼睛，重复的四肢，多余的手指，凌乱的纹理。
 ```
 
@@ -116,14 +87,8 @@ Negative prompt:
 uncanny realism, bad anatomy, distorted hands, blurry eyes, duplicate limbs, extra fingers, messy textures.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-pleasure-of-finding-things-out](https://prompts.chat/prompts/the-pleasure-of-finding-things-out) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | image-prompt |
-| Contributors | bc238dev |
-| Updated At | 2026-05-09T08:36:48.059Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

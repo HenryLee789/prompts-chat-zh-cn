@@ -1,41 +1,23 @@
----
-id: "cml8dgp3e0001l804i9teek0o"
-slug: "abandoned-wife"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/abandoned-wife"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0db21578363d4b4ee24a2bc59d4b5ec05410a05a9e1a32b5250336925946b0a0"
-upstream_updated_at: "2026-02-04T18:39:54.828Z"
----
 # 被遗弃的妻子
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[abandoned-wife](https://prompts.chat/prompts/abandoned-wife)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「被遗弃的妻子」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -70,6 +52,9 @@ upstream_updated_at: "2026-02-04T18:39:54.828Z"
   },
   "artistic_intent"：“捕捉一次重要邂逅后私人时刻的无声叙述。重点是情感景观：脆弱、转瞬即逝的美丽、安静的力量以及亲密后深刻的自我意识的混合。这是内心转折点的肖像。”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -121,14 +106,8 @@ Abandoned Wife
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [abandoned-wife](https://prompts.chat/prompts/abandoned-wife) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | mellowdrastic |
-| Updated At | 2026-02-04T18:39:54.828Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

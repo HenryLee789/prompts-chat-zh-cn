@@ -1,55 +1,36 @@
----
-id: "cmmi6mngb0001ky040byafx2r"
-slug: "comprehensive-go-codebase-review-forensic-level-analysis-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-go-codebase-review-forensic-level-analysis-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d530e9a2c196ab5433a4f43ba42bba1213dd9cf793d32ca006603e2a1e66b6b7"
-upstream_updated_at: "2026-03-08T20:06:16.401Z"
----
-# 全面的 Go 代码库审查 - 取证级分析提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-go-codebase-review-forensic-level-analysis-prompt](https://prompts.chat/prompts/comprehensive-go-codebase-review-forensic-level-analysis-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 全面的 Go 代码库审查 - 取证级分析提示词
 
 ## 中文说明
 
-专家级 Go 代码审查提示，包含 400 多个清单项目，涵盖类型安全、零/零值处理、错误模式、goroutine 和通道管理、竞争条件、上下文传播、延迟/资源清理、安全漏洞、CGO 注意事项、性能优化、HTTP/DB 最佳实践、依赖性分析和测试差距。包括静态分析工具命令（go vet、govulncheck、gosec、golangci-lint、gocyclo、escapeanalysis）和基于严重性的优先级矩阵。
+专家级 Go 代码审查提示，包含 400 多个清单项目，涵盖类型安全、零/零值处理、bug模式、goroutine 和通道管理、竞争条件、上下文传播、延迟/资源清理、安全漏洞、CGO 注意事项、性能优化、HTTP/DB 最佳实践、依赖性分析和测试差距。包括静态分析工具命令（go vet、govulncheck、gosec、golangci-lint、gocyclo、escapeanalysis）和基于严重性的优先级矩阵。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Go 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Go 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 全面的 Go 代码库审查
 
-您是一名专业的 Go 代码审查员，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。您的任务是对提供的 Go 代码库执行详尽的取证级分析。
+你是一名专业的 Go 代码审查员，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。你的任务是对提供的 Go 代码库执行详尽的取证级分析。
 
 ## 回顾哲学
 - 假设没有什么是正确的，除非另有证明
-- 每行代码都是潜在的错误来源
+- 每行代码都是潜在的bug来源
 - 每个依赖项都是潜在的安全风险
 - 每个功能都是潜在的性能瓶颈
 - 每个 goroutine 都有潜在的死锁或竞争条件
-- 每个错误返回都可能被错误处理
+- 每个bug返回都可能被bug 处理
 
 ---
 
@@ -73,8 +54,8 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 检测接受具体类型而不是接口的接口
 - [ ] 检查是否缺少需要清理的 `io.Closer` 接口实现
 - [ ] 查找嵌入了太多其他接口的接口
-- [ ] 识别调试/日志类型缺失的 `Stringer` (`String() string`) 实现
-- [ ] 检查正确的 `error` 接口实现（自定义错误类型）
+- [ ] 识别debug/日志类型缺失的 `Stringer` (`String() string`) 实现
+- [ ] 检查正确的 `error` 接口实现（自定义bug类型）
 - [ ] 查找应导出以实现可扩展性的未导出接口
 - [ ] 使用接受/返回具体类型而不是接口的方法来检测接口
 - [ ] 识别缺失的 `MarshalJSON`/`UnmarshalJSON` 以满足自定义序列化需求的类型
@@ -128,38 +109,38 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 
 ---
 
-## 3. 错误处理分析
+## 3. bug 处理分析
 
-### 3.1 错误处理模式
-- [ ] 查找所有忽略错误的地方（空白标识符 `_` 或不检查）
+### 3.1 bug 处理模式
+- [ ] 查找所有忽略bug的地方（空白标识符 `_` 或不检查）
 - [ ] 识别 `if err != nil` 块，该块只是 `return err` 而不包装上下文
-- [ ] 检测没有 `%w` 动词的错误包装（破坏 `errors.Is`/`errors.As`）
-- [ ] 查找以大写字母开头或以标点符号结尾的错误字符串（Go 约定）
-- [ ] 识别未实现 `Unwrap()` 方法的自定义错误类型
+- [ ] 检测没有 `%w` 动词的bug包装（破坏 `errors.Is`/`errors.As`）
+- [ ] 查找以大写字母开头或以标点符号结尾的bug字符串（Go 约定）
+- [ ] 识别未实现 `Unwrap()` 方法的自定义bug类型
 - [ ] 检查 `errors.Is()` / `errors.As()` 而不是 `==` 比较
-- [ ] 查找应该是包级变量的哨兵错误 (`var ErrNotFound = ...`)
-- [ ] 检测延迟函数中隐藏外部错误的错误处理
-- [ ] 识别错误位置或完全丢失的紧急恢复 (`recover()`)
-- [ ] 检查正确的错误类型层次结构和分类
+- [ ] 查找应该是包级变量的哨兵bug (`var ErrNotFound = ...`)
+- [ ] 检测延迟函数中隐藏外部bug的bug 处理
+- [ ] 识别bug位置或完全丢失的紧急恢复 (`recover()`)
+- [ ] 检查正确的bug类型层次结构和分类
 
 ### 3.2 恐慌与恢复
-- [ ] 在库代码中查找 `panic()` 调用（应该返回错误）
+- [ ] 在库代码中查找 `panic()` 调用（应该返回bug）
 - [ ] 识别 goroutine 中缺失的 `recover()` （未恢复的恐慌会杀死进程）
 - [ ] 检测库代码中的 `log.Fatal()` / `os.Exit()`（仅在 `main` 中可接受）
 - [ ] 查找索引超出范围的可能性，无需进行边界检查
 - [ ] 在没有明确文档的情况下识别 `init()` 函数中的 `panic`
 - [ ] 检查 HTTP 处理程序/中间件中是否有正确的紧急恢复
 - [ ] 查找没有明确命名约定的 `must` 模式函数
-- [ ] 检测可返回错误的热路径中的恐慌
+- [ ] 检测可返回bug的热路径中的恐慌
 
-### 3.3 错误包装和上下文
-- [ ] 查找不包含上下文信息（哪个操作、哪个输入）的错误消息
-- [ ] 识别创建过深链的错误包装
-- [ ] 检测代码库中不一致的错误包装样式
+### 3.3 bug包装和上下文
+- [ ] 查找不包含上下文信息（哪个操作、哪个输入）的bug消息
+- [ ] 识别创建过深链的bug包装
+- [ ] 检测代码库中不一致的bug包装样式
 - [ ] 检查 `fmt.Errorf("...: %w", err)` 是否有正确的动词用法
-- [ ] 查找结构化错误（错误类型）应替换字符串错误的位置
-- [ ] 识别关键错误路径中丢失的堆栈跟踪信息
-- [ ] 检查是否存在泄露敏感信息（密码、令牌、PII）的错误消息
+- [ ] 查找结构化bug（bug类型）应替换字符串bug的位置
+- [ ] 识别关键bug路径中丢失的堆栈跟踪信息
+- [ ] 检查是否存在泄露敏感信息（密码、令牌、PII）的bug消息
 
 ---
 
@@ -169,13 +150,13 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找 goroutine 泄漏（goroutine 已启动但从未终止）
 - [ ] 识别没有适当关闭机制的 goroutine（上下文取消）
 - [ ] 检测在循环中启动的 goroutine，而不控制并发
-- [ ] 查找即发即弃的 goroutine，不会报告错误
+- [ ] 查找即发即弃的 goroutine，不会报告bug
 - [ ] 识别比创建它们的函数寿命更长的 goroutine
 - [ ] 检查 `go func()` 捕获循环变量（Go <1.22 问题）
 - [ ] 寻找无限增长的 goroutine 池
 - [ ] 检测没有 `recover()` 的 goroutine 以确保恐慌安全
 - [ ] 识别缺失的 `sync.WaitGroup` 以进行 goroutine 完成跟踪
-- [ ] 检查 `errgroup.Group` 是否正确用于错误传播 goroutine 组
+- [ ] 检查 `errgroup.Group` 是否正确用于bug传播 goroutine 组
 
 ### 4.2 渠道问题
 - [ ] 查找可能导致死锁的无缓冲通道
@@ -195,7 +176,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 检测可能导致死锁的锁排序问题
 - [ ] 查找 `sync.Mutex` 对于读取繁重的工作负载应该是 `sync.RWMutex`
 - [ ] 识别应该用于简单计数器而不是互斥的原子操作
-- [ ] 检查 `sync.Once` 是否正确使用（特别是有错误时）
+- [ ] 检查 `sync.Once` 是否正确使用（特别是有bug时）
 - [ ] 在多个 goroutine 的结构体字段访问中查找数据竞争
 - [ ] 检测检查时间到使用时间 (TOCTOU) 漏洞
 - [ ] 识别 I/O 操作期间持有的锁（锁下阻塞）
@@ -222,7 +203,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 使用捕获的循环变量识别 `defer`
 - [ ] 检测丢失的 `defer` 以进行资源清理（文件句柄、连接、锁）
 - [ ] 查找 `defer` 顺序问题（未考虑后进先出行为）
-- [ ] 识别可能静默失败的方法上的 `defer`（`defer f.Close()` — 错误被忽略）
+- [ ] 识别可能静默失败的方法上的 `defer`（`defer f.Close()` — bug被忽略）
 - [ ] 检查 `defer` 与命名返回值交互（后期绑定）
 - [ ] 查找已打开但从未关闭的资源（文件描述符、HTTP 响应体）
 - [ ] 检测`http.Response.Body`读取后未关闭
@@ -305,7 +286,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找日志中的敏感数据（密码、令牌、PII）
 - [ ] 识别未静态加密存储的 PII
 - [ ] 检测URL查询参数中的敏感数据
-- [ ] 查找返回给客户端的错误消息中的敏感数据
+- [ ] 查找返回给客户端的bug消息中的敏感数据
 - [ ] 识别缺失的 `Secure`、`HttpOnly`、`SameSite` cookie 标志
 - [ ] 检查启动时记录的环境变量中的敏感数据
 - [ ] 查找泄露内部实现细节的 API 响应
@@ -382,7 +363,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 识别具有微小变化的复制粘贴代码块
 - [ ] 检测可以抽象为共享函数的相似逻辑
 - [ ] 查找重复的结构定义
-- [ ] 识别可能是中间件的重复错误处理样板
+- [ ] 识别可能是中间件的重复bug 处理样板
 - [ ] 检查重复的验证逻辑
 - [ ] 查找可以通用的类似 HTTP 处理程序模式
 - [ ] 检测跨包的重复常量
@@ -400,7 +381,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找推测的普遍性（未使用的抽象/接口）
 
 ### 8.4 Go 习惯用法和风格
-- [ ] 查找非惯用错误处理（不遵循 `if err != nil` 模式）
+- [ ] 查找非惯用bug 处理（不遵循 `if err != nil` 模式）
 - [ ] 识别带有 `Get` 前缀的吸气剂（Go 约定：`Name()` 而不是 `GetName()`）
 - [ ] 检测导出函数返回的未导出类型
 - [ ] 查找口吃的包名称 (`http.HTTPClient` → `http.Client`)
@@ -450,7 +431,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找直接执行业务逻辑的 HTTP 处理程序（应委托给服务层）
 - [ ] 识别缺失的请求/响应验证中间件
 - [ ] 检测端点之间不一致的 REST API 约定
-- [ ] 查找没有正确错误代码的 gRPC 服务定义
+- [ ] 查找没有正确bug代码的 gRPC 服务定义
 - [ ] 识别缺失的 API 版本控制策略
 - [ ] 检查 HTTP 状态代码的使用是否正确
 - [ ] 查找缺失的健康检查/就绪端点
@@ -487,7 +468,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找没有适当内存管理的 CGO 代码
 - [ ] 识别热路径中的 CGO 调用（Go→C 边界交叉的开销）
 - [ ] 检查破坏交叉编译的 CGO 依赖项
-- [ ] 查找不能正确处理 C 错误的 CGO 代码
+- [ ] 查找不能正确处理 C bug的 CGO 代码
 - [ ] 检测跨 CGO 边界的潜在内存泄漏
 
 ---
@@ -496,7 +477,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 
 ### 11.1 覆盖率分析
 - [ ] 运行 `go test -coverprofile` — 识别未经测试的包和函数
-- [ ] 查找未经测试的错误路径（尤其是错误返回）
+- [ ] 查找未经测试的bug路径（尤其是bug返回）
 - [ ] 检测条件中未经测试的边缘情况
 - [ ] 检查是否缺少边界值测试
 - [ ] 识别未经测试的并发场景
@@ -507,7 +488,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 ### 11.2 测试质量
 - [ ] 查找不使用 `t.Helper()` 进行测试辅助函数的测试
 - [ ] 识别应该存在但不存在的表驱动测试
-- [ ] 检测隐藏真实错误的过度模拟的测试
+- [ ] 检测隐藏真实bug的过度模拟的测试
 - [ ] 查找测试实现而不是行为的测试
 - [ ] 识别具有共享可变状态的测试（依赖于运行顺序）
 - [ ] 检查 `t.Parallel()` 的安全使用情况
@@ -573,7 +554,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找丢失的请求 ID/相关 ID 传播
 - [ ] 检测缺少的访问日志记录中间件
 - [ ] 识别丢失的恐慌恢复中间件
-- [ ] 检查正确的处理程序错误响应一致性
+- [ ] 检查正确的处理程序bug响应一致性
 
 ### 13.2 HTTP 客户端问题
 - [ ] 查找`http.DefaultClient`使用情况（无超时）
@@ -589,7 +570,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找未正确使用连接池的 `database/sql` 连接
 - [ ] 识别缺失的 `SetMaxOpenConns`、`SetMaxIdleConns`、`SetConnMaxLifetime`
 - [ ] 通过字符串连接检测 SQL 注入
-- [ ] 查找丢失的事务回滚错误 (`defer tx.Rollback()`)
+- [ ] 查找丢失的事务回滚bug (`defer tx.Rollback()`)
 - [ ] 识别 `db.Query()` 之后缺失的 `rows.Close()`
 - [ ] 迭代后检查 `rows.Err()` 检查
 - [ ] 查找丢失的预准备语句缓存
@@ -608,10 +589,10 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 查找需要处理的 TODO/FIXME/HACK/XXX 注释
 - [ ] 识别没有命名常量的幻数
 - [ ] 检查 godoc 中是否缺少示例（`Example*` 函数）
-- [ ] 查找缺失的错误文档（可以返回哪些错误）
+- [ ] 查找缺失的bug文档（可以返回哪些bug）
 
 ### 14.2 项目文档
-- [ ] 查找缺少的自述文件，包括使用、安装、API 文档
+- [ ] 查找缺少的README，包括使用、安装、API 文档
 - [ ] 识别缺失的变更日志
 - [ ] 检测缺失的贡献指南
 - [ ] 检查是否缺少架构决策记录 (ADR)
@@ -621,7 +602,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 
 ---
 
-## 15. 边缘案例清单
+## 15. 边界情况清单
 
 ### 15.1 输入边缘情况
 - [ ] 空字符串、切片、映射
@@ -632,7 +613,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 字符串处理中的 Unicode 字符和表情符号
 - [ ] 非常大的输入（>1GB 文件，数百万条记录）
 - [ ] 深度嵌套的 JSON 结构
-- [ ] 格式错误的输入数据（截断的 JSON、损坏的 UTF-8）
+- [ ] 格式bug的输入数据（截断的 JSON、损坏的 UTF-8）
 - [ ] 多个goroutine并发访问
 
 ### 15.2 时序边缘情况
@@ -644,7 +625,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 - [ ] 比较中的纳秒精度问题
 - select 语句中的 [ ] `time.After()` （每次迭代创建新通道 - 泄漏）
 
-### 15.3 平台边缘案例
+### 15.3 平台边界情况
 - [ ] 跨操作系统的文件路径处理（`filepath.Join` 与 `path.Join`）
 - [ ] 行结尾差异（`\n` 与 `\r\n`）
 - [ ] 文件系统区分大小写的差异
@@ -691,7 +672,7 @@ upstream_updated_at: "2026-03-08T20:06:16.401Z"
 
 2. **高**（修复此 Sprint）：
    - 零指针取消引用
-   - 忽略关键路径中的错误
+   - 忽略关键路径中的bug
    - 缺少上下文取消
    - 资源泄漏（连接、文件句柄）
 
@@ -1510,14 +1491,8 @@ After completing the review, provide:
    - Test coverage percentage
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-go-codebase-review-forensic-level-analysis-prompt](https://prompts.chat/prompts/comprehensive-go-codebase-review-forensic-level-analysis-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Go |
-| Contributors | ersinkoc |
-| Updated At | 2026-03-08T20:06:16.401Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

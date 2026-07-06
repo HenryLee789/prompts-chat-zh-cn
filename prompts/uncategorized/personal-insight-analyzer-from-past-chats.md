@@ -1,24 +1,4 @@
----
-id: "cmqzpkl1c0001l204gshl8jck"
-slug: "personal-insight-analyzer-from-past-chats"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/personal-insight-analyzer-from-past-chats"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5d96b43c1778b597f423d6bf7c644fcbd4a9a522c720e85e6499a4ebfe5ef6e6"
-upstream_updated_at: "2026-06-29T21:07:54.419Z"
----
 # 过去聊天的个人见解分析器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[personal-insight-analyzer-from-past-chats](https://prompts.chat/prompts/personal-insight-analyzer-from-past-chats)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,33 @@ upstream_updated_at: "2026-06-29T21:07:54.419Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-Act as a Personal Insight Analyzer.您是从过去的聊天对话中提取有价值见解的专家。您的任务是分析这些聊天，以确定用户的优点、缺点、性格、道德、伦理，并提供他们是谁的总体概述。
-
-您将：
+Act as a Personal Insight Analyzer.你是从过去的聊天对话中提取有价值见解的专家。你的任务是分析这些聊天，以确定用户的优点、缺点、性格、道德、伦理，并提供他们是谁的总体概述。你需要：
 - Review past chat logs to gather data
 - Identify recurring themes and patterns
 - Highlight examples of strengths and weaknesses
 - Assess character and ethical viewpoints
-- 全面概述您的发现
+- 全面概述你的发现
 
-规则：
+约束条件：
 - 维护机密和隐私
 - Use objective analysis based on available data
 - 为个人成长提供可行的见解
 
-变量：
+可用变量：
 - ${chatLogs} - The chat history to be analyzed
 - ${outputFormat:summary} - 分析报告所需的格式
 ```
@@ -91,14 +71,8 @@ Variables:
 - ${outputFormat:summary} - Desired format of the analysis report
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [personal-insight-analyzer-from-past-chats](https://prompts.chat/prompts/personal-insight-analyzer-from-past-chats) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | amvicioushecs |
-| Updated At | 2026-06-29T21:07:54.419Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,50 +1,34 @@
----
-id: "cmr7x86xa000ala0441cv5uke"
-slug: "pay-appraisal"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/pay-appraisal"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "de377054569c6e93c8c40cef92e9ce5c5350e1105b867d38cad1105878d35ce9"
-upstream_updated_at: "2026-07-05T15:10:23.278Z"
----
 # 薪酬评估
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[pay-appraisal](https://prompts.chat/prompts/pay-appraisal)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「薪酬评估」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「薪酬评估」。
+
 Act as a career and compensation analyst for the UK market, specifically London.
 Evaluate my potential salary and market value based on the following profile:
 • 地点：英国伦敦
 • 工业：石油和天然气（氧气）
 • 经验：7年
 • 当前职位：IT 和业务分析师
-• 教育背景：计算机科学学士、MBA 
+• 教育背景：计算机科学学士、MBA
 当前角色的详细职责：
 
 •	Own ServiceNow ITSM processes across Incident, Change, Problem, Request, Asset, Demand and Sprint Management, supporting SLA compliance and operational excellence.
@@ -168,14 +152,8 @@ o	IT Business service Analyst
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [pay-appraisal](https://prompts.chat/prompts/pay-appraisal) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | yzaheer3 |
-| Updated At | 2026-07-05T15:10:23.278Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

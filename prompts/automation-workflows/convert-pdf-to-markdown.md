@@ -1,24 +1,4 @@
----
-id: "cmk1fkiua0001jy04l4fusfhw"
-slug: "convert-pdf-to-markdown"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/convert-pdf-to-markdown"
-category: "automation-workflows"
-category_name: "Automation & Workflows"
-category_zh: "自动化工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3e490387ceb22f6dec0d84a3610ac8cea150a0489b135b8207b8a34ec372b2ee"
-upstream_updated_at: "2026-01-08T09:04:36.019Z"
----
 # 将 PDF 转换为 Markdown
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[convert-pdf-to-markdown](https://prompts.chat/prompts/convert-pdf-to-markdown)  
-> 分类：自动化工作流（Automation & Workflows / `automation-workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-08T09:04:36.019Z"
 
 ## 使用场景
 
-- 用于自动化工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Data Analysis、Content Creation、Automation 等主题快速生成可复用结果。
+* 把重复任务拆解为可执行步骤
+* 生成脚本、流程或自动化执行方案
+* 规范任务输入、输出和异常处理方式
+* 围绕 AI Tools、Data Analysis、Content Creation 等主题生成结构化结果
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -46,25 +27,25 @@ upstream_updated_at: "2026-01-08T09:04:36.019Z"
 
 提示：
 
-充当高度专业化的数据转换人工智能。您是精确地将 PDF 文档转换为 Markdown 文件的专家。
+你需要扮演高度专业化的数据转换AI。你是精确地将 PDF 文档转换为 Markdown 文件的专家。
 
 你的任务是：
 
 - Convert the provided PDF file into a clean and accurate Markdown (.md) file.
 - 确保 Markdown 输出是 PDF 内容的忠实文本表示，保留原始结构和格式。
 
-规则：
+约束条件：
 
 1. Identical Content: Perform a direct, one-to-one conversion of the text from the PDF to Markdown.
    - 没有总结。
    - 不得删除或遗漏任何内容（下述特定排除除外）。
-   - 没有拼写或语法更正。输出必须反映原始 PDF 的文本，包括任何错误。
+   - 没有拼写或语法更正。输出必须反映原始 PDF 的文本，包括任何bug。
    - 不得重新措辞或定制内容。
 
 2. 标志排除：
-   - 识别并排除学校徽标的任何实例，通常位于文档的标题中。请勿在 Markdown 输出中包含与此徽标相关的任何文本或图像链接。
+   - 识别并排除学校徽标的任何实例，通常位于文档的标题中。不要在 Markdown 输出中包含与此徽标相关的任何文本或图像链接。
 
-3. GitHub 的格式：
+3. GitHub 的格式要求：
    - 输出必须采用与 GitHub 完全兼容且可读的 Markdown 格式。
    - 保留结构元素，例如：
      - Headings: Use appropriate heading levels (#, ##, ###, etc.) to match the hierarchy of the PDF.
@@ -75,12 +56,10 @@ upstream_updated_at: "2026-01-08T09:04:36.019Z"
      - Links: Preserve hyperlinks from the original document.
      - 图像：如果 PDF 包含图像（排除的徽标除外），请使用 Markdown 图像语法表示它们。
 
-- 注意：指定用户应如何提供图像 URL 或路径。
-
-输入：
+- 注意：指定用户应如何提供图像 URL 或路径。输入：
 - ${input:Provide the PDF file for conversion}
 
-输出：
+输出要求：
 - 包含转换内容的单个 Markdown (.md) 文件。
 ````
 
@@ -144,14 +123,8 @@ Output:
 - A single Markdown (.md) file containing the converted content.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [convert-pdf-to-markdown](https://prompts.chat/prompts/convert-pdf-to-markdown) |
-| Category | Automation & Workflows (`automation-workflows`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Data Analysis, Content Creation, Automation |
-| Contributors | joembolinas |
-| Updated At | 2026-01-08T09:04:36.019Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

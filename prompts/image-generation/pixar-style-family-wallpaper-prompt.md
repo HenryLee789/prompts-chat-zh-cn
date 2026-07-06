@@ -1,24 +1,4 @@
----
-id: "cmnc7zl6q000dk004t50hxaqm"
-slug: "pixar-style-family-wallpaper-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/pixar-style-family-wallpaper-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a32400d10e4bd1c6387769202194889d5fb39760da5c0396c11da4582226471d"
-upstream_updated_at: "2026-03-30T08:53:48.062Z"
----
-# 皮克斯风格的家庭壁纸提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[pixar-style-family-wallpaper-prompt](https://prompts.chat/prompts/pixar-style-family-wallpaper-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 皮克斯风格的家庭壁纸提示词
 
 ## 中文说明
 
@@ -26,43 +6,23 @@ upstream_updated_at: "2026-03-30T08:53:48.062Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 image-prompt、image-generation 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 image-prompt、image-generation 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-皮克斯风格，迪士尼风格，高品质3D渲染，辛烷渲染，全局照明，次表面散射，超细致，柔和的电影灯光，可爱温馨的心情。
+皮克斯风格，迪士尼风格，高品质3D渲染，辛烷渲染，全局照明，次表面散射，超细致，柔和的电影灯光，可爱温馨的心情。一个幸福的三口之家（父亲、母亲和他们的小女儿）被重新想象成皮克斯风格的 3D 角色，从左侧的墙后顽皮地窥视。父亲有一头中等长度的微卷棕色头发，留着短胡子，笑容温暖友善。母亲有一头棕色长直发，笑容灿烂，五官柔和，容貌优雅。小女孩大约2-3岁，浅棕色/金色微卷发，圆圆的脸颊，大大的眼睛富有表情，表情欢乐俏皮。使用参考图像保留面部特征、比例、头发颜色、发型和自然表情。与真人保持高度相似，同时变身为风格化的皮克斯角色。构图：父亲稍高，母亲居中，孩子在前面，嬉戏地向前倾。服装灵感来自舒适的冬季/圣诞节主题，带有红色色调和柔和的图案（微妙，不分散注意力）。在底部添加一只可爱的虎斑猫，用闪亮的大眼睛向上看。色调：温暖的米色、桃色、奶油色，柔和的渐变，温馨的氛围。最小的背景，左侧有纹理的墙壁，人物从后面出现。
 
-一个幸福的三口之家（父亲、母亲和他们的小女儿）被重新想象成皮克斯风格的 3D 角色，从左侧的墙后顽皮地窥视。
-
-父亲有一头中等长度的微卷棕色头发，留着短胡子，笑容温暖友善。  
-母亲有一头棕色长直发，笑容灿烂，五官柔和，容貌优雅。  
-小女孩大约2-3岁，浅棕色/金色微卷发，圆圆的脸颊，大大的眼睛富有表情，表情欢乐俏皮。
-
-使用参考图像保留面部特征、比例、头发颜色、发型和自然表情。与真人保持高度相似，同时变身为风格化的皮克斯角色。
-
-构图：父亲稍高，母亲居中，孩子在前面，嬉戏地向前倾。
-
-服装灵感来自舒适的冬季/圣诞节主题，带有红色色调和柔和的图案（微妙，不分散注意力）。
-
-在底部添加一只可爱的虎斑猫，用闪亮的大眼睛向上看。
-
-色调：温暖的米色、桃色、奶油色，柔和的渐变，温馨的氛围。
-
-最小的背景，左侧有纹理的墙壁，人物从后面出现。
-
-iPhone锁屏壁纸构图，垂直取景，顶部大片干净空间用于时钟，超美，景深，4K分辨率。
-
-同一身份、同一人，与参考照片保持完全相同
+iPhone锁屏壁纸构图，垂直取景，顶部大片干净空间用于时钟，超美，景深，4K分辨率。同一身份、同一人，与参考照片保持完全相同
 ```
 
 ---
@@ -105,14 +65,8 @@ iPhone lockscreen wallpaper composition, vertical framing, large clean space at 
 same identity, same person, keep exact likeness from reference photo
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [pixar-style-family-wallpaper-prompt](https://prompts.chat/prompts/pixar-style-family-wallpaper-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | image-prompt, image-generation |
-| Contributors | umutcanyildiz |
-| Updated At | 2026-03-30T08:53:48.062Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

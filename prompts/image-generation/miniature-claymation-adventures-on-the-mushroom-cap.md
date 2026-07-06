@@ -1,24 +1,4 @@
----
-id: "cmjguxw2v000dl804d09biqdn"
-slug: "miniature-claymation-adventures-on-the-mushroom-cap"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/miniature-claymation-adventures-on-the-mushroom-cap"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d7d05a19d20df61a905c5ae170fe1f0f01bbb34d7d34728bd94e3c9a48db2102"
-upstream_updated_at: "2025-12-22T07:51:46.854Z"
----
 # 蘑菇帽上的迷你粘土动画冒险
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[miniature-claymation-adventures-on-the-mushroom-cap](https://prompts.chat/prompts/miniature-claymation-adventures-on-the-mushroom-cap)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,22 @@ upstream_updated_at: "2025-12-22T07:51:46.854Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性，但将它们渲染为迷人的手工粘土模型。将受试者 1（男性）和受试者 2（女性）转变为坐在巨大红色蘑菇帽子上的微型冒险家。该场景应该看起来像高预算定格电影中的定格画面，在粘土表面上有可见的指纹和不均匀的雕刻纹理。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性，但将它们渲染为迷人的手工粘土模型。将受试者 1（男性）和受试者 2（女性）转变为坐在巨大红色蘑菇帽子上的微型冒险家。该场景应该看起来像高预算定格电影中的定格画面，在粘土表面上有可见的指纹和不均匀的雕刻纹理。",
   “详细信息”：{
     “year”：“永恒的奇思妙想”，
     "genre": "粘土动画",
@@ -195,14 +175,8 @@ A stop-motion style prompt transforming two subjects into miniature, handcrafted
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [miniature-claymation-adventures-on-the-mushroom-cap](https://prompts.chat/prompts/miniature-claymation-adventures-on-the-mushroom-cap) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-22T07:51:46.854Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,43 +1,23 @@
----
-id: "cmkpyy2tk000alb04lmwgwrsm"
-slug: "modern-plaza-office-selfie-corporate-aesthetic-in-istanbul"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/modern-plaza-office-selfie-corporate-aesthetic-in-istanbul"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "21b8fde57c64f9032e51f18f3950831b6e97e276aab8cd5f355d144c05e84b16"
-upstream_updated_at: "2026-01-22T21:33:46.231Z"
----
 # 现代广场办公室自拍——伊斯坦布尔的企业美学
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[modern-plaza-office-selfie-corporate-aesthetic-in-istanbul](https://prompts.chat/prompts/modern-plaza-office-selfie-corporate-aesthetic-in-istanbul)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-在伊斯坦布尔一座现代化的高层广场办公室内拍摄的一张办公桌水平特写自拍照。
-这一场景将企业极简主义与大胆的个人表达融为一体：一位自信的年轻女性，身上有明显的纹身，坐在现代办公桌前，周围是落地玻璃窗，俯瞰着城市天际线。
+在伊斯坦布尔一座现代化的高层广场办公室内拍摄的一张办公桌水平特写自拍照。这一场景将企业极简主义与大胆的个人表达融为一体：一位自信的年轻女性，身上有明显的纹身，坐在现代办公桌前，周围是落地玻璃窗，俯瞰着城市天际线。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana、Entertainment 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana、Entertainment 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -70,6 +50,9 @@ upstream_updated_at: "2026-01-22T21:33:46.231Z"
     “质量”：“柔和、平衡的日光，柔和的高光和逼真的室内阴影。”
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -122,14 +105,8 @@ The scene blends corporate minimalism with bold personal expression: a confident
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [modern-plaza-office-selfie-corporate-aesthetic-in-istanbul](https://prompts.chat/prompts/modern-plaza-office-selfie-corporate-aesthetic-in-istanbul) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana, Entertainment |
-| Contributors | krebetem |
-| Updated At | 2026-01-22T21:33:46.231Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmlhw8e8p0004lb04pifve9ts"
-slug: "whiteboard-diagrams"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/whiteboard-diagrams"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6722a5862eb8c17b1c01570e56aad7182707dce4696e1469ae65a75ee89143b6"
-upstream_updated_at: "2026-02-11T19:46:27.887Z"
----
 # 白板图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[whiteboard-diagrams](https://prompts.chat/prompts/whiteboard-diagrams)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-02-11T19:46:27.887Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Accessibility、Business Strategy、Business、Learning 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 Accessibility、Business Strategy、Business 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-通过制造人们想要的东西来建立人工智能初创公司的步骤：
+通过制造人们想要的东西来建立AI初创公司的步骤：
 
 {
   “风格”：{
@@ -395,14 +376,8 @@ Steps to build an AI startup by making something people want:
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [whiteboard-diagrams](https://prompts.chat/prompts/whiteboard-diagrams) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `IMAGE` |
-| Tags | Accessibility, Business Strategy, Business, Learning, Tutoring, Marketing |
-| Contributors | semih |
-| Updated At | 2026-02-11T19:46:27.887Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,23 @@
----
-id: "cmm3d8z4p0001l204px3flk39"
-slug: "logo-designer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/logo-designer"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8ab033e3d1aa61ec572d999b299694326274ec117d7ad99c73e6d4b4340ebbd6"
-upstream_updated_at: "2026-02-26T11:16:06.926Z"
----
 # 标志设计师
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[logo-designer](https://prompts.chat/prompts/logo-designer)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「标志设计师」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 image-generation、image-prompt 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 image-generation、image-prompt 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -44,7 +25,7 @@ upstream_updated_at: "2026-02-26T11:16:06.926Z"
   “品牌变量”：{
     “名称”：“${COMPANY_NAME}”，
     “行业”：“${INDUSTRY}”，
-    "core_aesthetic": "${AESTHETIC_STYLE}", 
+    "core_aesthetic": "${AESTHETIC_STYLE}",
     "primary_color": "${BRAND_COLOR_HEX_OR_NAME}",
     “隐喻”：“${VISUAL_SYMBOL_DESCRIPTION}”
   },
@@ -66,6 +47,9 @@ upstream_updated_at: "2026-02-26T11:16:06.926Z"
   },
   "output_format": "居中、单一徽标版本、无模型、白色背景。"
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -112,14 +96,8 @@ logo designer
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [logo-designer](https://prompts.chat/prompts/logo-designer) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | image-generation, image-prompt |
-| Contributors | yigitdemiralp06 |
-| Updated At | 2026-02-26T11:16:06.926Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,47 +1,27 @@
----
-id: "cmoe7q12i0001l704xq8efsee"
-slug: "create-app-screenshots"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-app-screenshots"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "996eb89019b9fd4de1ed14b4e78501da67851dbe3dba60b67b7f4557e2f71c5d"
-upstream_updated_at: "2026-04-25T10:46:53.802Z"
----
 # 创建应用程序屏幕截图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-app-screenshots](https://prompts.chat/prompts/create-app-screenshots)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「创建应用程序屏幕截图」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级移动应用增长策略师+Play商店ASO专家+营销设计师。
-
-目标：
-仅使用以下内容创建完整的、高转化率的 Google Play 商店屏幕截图系统：
+你需要扮演「创建应用程序屏幕截图」。你需要扮演高级移动应用增长策略师+Play商店ASO专家+营销设计师。目标：
+仅使用以下内容创建完整的、高conversion rate的 Google Play 商店屏幕截图系统：
 1. Play 商店网址
 2. 应用界面截图
 
@@ -86,7 +66,7 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 
 第 1 步：应用程序分析（仅执行一次）
 
-输出：
+输出要求：
 - 核心问题
 - 主要价值
 - 目标受众
@@ -123,16 +103,14 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 
 ---
 
-最终AI图像提示格式：
+最终AI图像提示格式要求：
 
-您是一名高级移动应用营销设计师。
-
-使用以下命令创建 Play 商店屏幕截图：
+你是一名高级移动应用营销设计师。使用以下命令创建 Play 商店屏幕截图：
 - 应用程序用户界面：CURRENT_SCREENSHOT_IMAGE
 - 标题：GENERATED_HEADLINE
 - 潜台词：GENERATED_SUBTEXT
 
-设计规则：
+设计约束条件：
 - 1242x2208 纵向（必须缩放至 1080x1920）
 - 前 25% → 文字
 - 中 55% → UI
@@ -163,7 +141,7 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 - 不要扭曲用户界面
 - 没有假元素
 
-输出：
+输出要求：
 仅返回最终图像。
 
 ---
@@ -177,7 +155,7 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 
 ---
 
-转换规则：
+转换约束条件：
 
 - 每一张截图 = 一个想法
 - 必须在 2 秒内理解
@@ -186,7 +164,7 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 
 ---
 
-失败规则：
+失败约束条件：
 
 - 不要幻想 Play 商店中没有的功能
 - 如果信息缺失→从类别中仔细推断
@@ -201,11 +179,7 @@ upstream_updated_at: "2026-04-25T10:46:53.802Z"
 - 截图策略
 - 屏幕截图 1（完整输出）
 
-然后停止。
-
-等待用户。
-
-如果用户输入：
+然后停止。等待用户。如果用户输入：
 “下一个”
 
 → 输出截图2
@@ -421,14 +395,8 @@ IMPORTANT:
 - Continue from previous state on each "next"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-app-screenshots](https://prompts.chat/prompts/create-app-screenshots) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | dishantpatel624 |
-| Updated At | 2026-04-25T10:46:53.802Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

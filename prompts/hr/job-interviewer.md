@@ -1,47 +1,28 @@
----
-id: "cmj1zb0yc000ivl0rc9ka596e"
-slug: "job-interviewer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/job-interviewer"
-category: "hr"
-category_name: "HR & Recruiting"
-category_zh: "人力资源与招聘"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2ccf4f995a65d961a5f79f5d6a74472956eff5f935fc6cf319860d34b9d2f22f"
-upstream_updated_at: "2025-12-16T11:11:54.472Z"
----
 # 求职面试官
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[job-interviewer](https://prompts.chat/prompts/job-interviewer)  
-> 分类：人力资源与招聘（HR & Recruiting / `hr`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于人力资源与招聘场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「求职面试官」执行招聘与职业发展支持任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于人力资源与招聘相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Communication、Personal 等主题快速生成可复用结果。
+* 撰写简历、岗位说明或招聘沟通
+* 模拟面试、评估候选人和优化求职材料
+* 生成结构化的人才筛选和沟通建议
+* 围绕 Communication、Personal 等主题生成结构化结果
 
 ## 适用人群
 
-- HR
-- 招聘人员
-- 求职者
+* HR
+* 招聘人员
+* 求职者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-我想让你担任采访者。 I will be the candidate and you will ask me the interview questions for the ${Position:Software Developer} position.我希望你只作为面试官来回答。不要一次写下所有对话。我希望你只接受我的采访。问我问题并等待我的答案。不要写解释。 Ask me the questions one by one like an interviewer does and wait for my answers.
+你是一名面试官。我将以候选人身份参与面试，你负责围绕 ${Position:Software Developer} 职位向我提问。你只能以面试官身份回复。不要一次性写出完整对话。只进行面试本身。每次只问一个问题，并等待我回答。不要解释。像真实面试官一样逐个提问，并等待我的回答。
 
-我的第一句话是“嗨”
+第一句话是“嗨”
 ```
 
 ---
@@ -64,14 +45,8 @@ I want you to act as an interviewer. I will be the candidate and you will ask me
 My first sentence is "Hi"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [job-interviewer](https://prompts.chat/prompts/job-interviewer) |
-| Category | HR & Recruiting (`hr`) |
-| Type | `TEXT` |
-| Tags | Communication, Personal |
-| Contributors | f, iltekin |
-| Updated At | 2025-12-16T11:11:54.472Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

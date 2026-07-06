@@ -1,41 +1,23 @@
----
-id: "cmjr2mo7s0009l504h8lciyzg"
-slug: "ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b6f59b8595668bc2e3ce20b7cbc4e9ecc5d94523f1be797e3e8d6b43dfa9488c"
-upstream_updated_at: "2025-12-29T11:24:46.541Z"
----
 # 伊斯坦布尔咖啡馆中一名土耳其妇女的超逼真偷拍照片
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf](https://prompts.chat/prompts/ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「伊斯坦布尔咖啡馆中一名土耳其妇女的超逼真偷拍照片」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 超现实的偷拍照片，一位 26 岁的土耳其女性坐在伊斯坦布尔卡德柯伊的一张小咖啡桌旁，柔软而圆润、曲线优美的身体，通过合身的高腰妈妈牛仔裤可以看到粗壮的大腿和圆润的臀部，穿着低矮但端庄的米色汤匙领上衣和前面敞开的浅色牛仔夹克，精致的项链，松散的黑发披在肩上
@@ -49,6 +31,9 @@ upstream_updated_at: "2025-12-29T11:24:46.541Z"
 背景展示了典型的 Kadıköy 咖啡馆内部：木椅、不匹配的桌子、背景中的人物稍微模糊、带有土耳其文字的黑板菜单、架子上的小植物、照明不均匀、某些区域较暗且嘈杂
 
 照片看起来显然像普通的业余 iPhone 照片：较暗区域有轻微的数字噪点，走在她身后的人有一点运动模糊，边缘不完全锐利，没有专业的散景，未经编辑的颜色，真实的土耳其日常环境中的休闲性感氛围
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -79,14 +64,8 @@ background shows a typical Kadıköy café interior: wooden chairs, mismatched t
 photo looks clearly like a normal amateur iPhone picture: slight digital noise in darker areas, a little motion blur on someone walking behind her, edges not perfectly sharp, no professional bokeh, unedited colors, casual sexy vibe in a real everyday Turkish environment
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf](https://prompts.chat/prompts/ultra-realistic-candid-photo-of-a-turkish-woman-in-istanbul-caf) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:24:46.541Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

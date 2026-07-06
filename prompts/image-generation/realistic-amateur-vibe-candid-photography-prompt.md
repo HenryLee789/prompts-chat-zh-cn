@@ -1,24 +1,4 @@
----
-id: "cmjr30i5y000ui804m7utgkk1"
-slug: "realistic-amateur-vibe-candid-photography-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/realistic-amateur-vibe-candid-photography-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a3f488371cb011527f06f74cf11ba39e1b0c75fe888f008114b33d1afa569a34"
-upstream_updated_at: "2025-12-29T11:35:24.178Z"
----
-# 逼真的业余氛围坦率摄影提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[realistic-amateur-vibe-candid-photography-prompt](https://prompts.chat/prompts/realistic-amateur-vibe-candid-photography-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 逼真的业余氛围坦率摄影提示词
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-29T11:35:24.178Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -107,14 +89,8 @@ This prompt generates a realistic amateur vibe candid photograph with specific t
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [realistic-amateur-vibe-candid-photography-prompt](https://prompts.chat/prompts/realistic-amateur-vibe-candid-photography-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:35:24.178Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

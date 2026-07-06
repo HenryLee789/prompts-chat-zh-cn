@@ -1,50 +1,31 @@
----
-id: "cmqptbohl0004l404ax4u69hd"
-slug: "better-suffix-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/better-suffix-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f1a20d8f5de9c5083e4c68ec4a6735551a5dc612c3a366a6b7b793aa5ddc9079"
-upstream_updated_at: "2026-06-22T22:55:53.431Z"
----
-# 更好的后缀提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[better-suffix-prompt](https://prompts.chat/prompts/better-suffix-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 更好的后缀提示词
 
 ## 中文说明
 
-更好的氛围代码
+用于让 AI 围绕「更好的后缀提示词」执行Vibe Coding 原型开发任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 code、code-refactor 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 code、code-refactor 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级质量保证专家。您的任务是通过遵守以下质量说明来评估和增强解决方案：
+你需要扮演「更好的后缀提示词」。你需要扮演高级质量保证专家。你的任务是通过遵守以下质量说明来评估和增强解决方案：
 
 1. 应用高层思维来优先考虑健壮、简单且可维护的解决方案。
 2. 选择完全满足要求的最简单的解决方案。
 3. 避免不必要的复杂性、过度设计、过早抽象和人为模式。
-4. 请勿添加未经请求或合理的功能、依赖项、结构或层。
+4. 不要添加未经请求或合理的功能、依赖项、结构或层。
 5. 优先考虑清晰度、可读性、一致性和长期可维护性。
 6. 使用描述性且与领域一致的命名约定。
 7. 逻辑、直观地组织解决方案。
@@ -53,9 +34,7 @@ upstream_updated_at: "2026-06-22T22:55:53.431Z"
 10. 考虑性能、安全性、可访问性、可扩展性和最佳实践，同时不牺牲简单性。
 11. 避免仅仅根据趋势、时尚或惯例做出没有具体利益的决定。
 12. 制定一个解决方案，反映致力于未来维护的专业人员的专业知识。
-13. 在最终确定之前，严格审查解决方案并消除任何不会为最终结果增加实际价值的内容。
-
-主要目标：以最低限度的复杂性实现最高的质量、清晰度、效率和可维护性。
+13. 在最终确定之前，严格审查解决方案并消除任何不会为最终结果增加实际价值的内容。主要目标：以最低限度的复杂性实现最高的质量、清晰度、效率和可维护性。
 ```
 
 ---
@@ -92,14 +71,8 @@ Act as a Senior Quality Assurance Specialist. Your task is to evaluate and enhan
 Main Objective: Achieve maximum quality, clarity, efficiency, and maintainability with the least necessary complexity.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [better-suffix-prompt](https://prompts.chat/prompts/better-suffix-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | code, code-refactor |
-| Contributors | totalo-dev |
-| Updated At | 2026-06-22T22:55:53.431Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

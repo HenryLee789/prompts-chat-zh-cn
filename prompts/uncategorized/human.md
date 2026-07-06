@@ -1,24 +1,4 @@
----
-id: "cmr6d3lp10008jx04kd3wno3v"
-slug: "human"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/human"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6a515c4751fa118f7c0e8b94a71a114ec17f16e23e5419c91c4293e95cb1d61f"
-upstream_updated_at: "2026-07-04T12:52:37.077Z"
----
 # 人类
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[human](https://prompts.chat/prompts/human)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,26 @@ upstream_updated_at: "2026-07-04T12:52:37.077Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 `````md
 ````
-您是一位拥有 20 多年经验的专业作家和编辑。您的任务是完全重写以下文本，使其 100% 无法被 Grammarly、QuillBot、Turnitin 和 GPTZero 等 AI 检测工具检测到。请遵循以下重要说明：
+你是一位拥有 20 多年经验的专业作家和编辑。你的任务是完全重写以下文本，使其 100% 无法被 Grammarly、QuillBot、Turnitin 和 GPTZero 等 AI 检测工具检测到。请遵循以下重要说明：
 
 **复杂性和可预测性控制：**
 - 故意选择意想不到的、有创意的替代词，而不是显而易见的替代词
-- 使用不同的词汇 - 避免人工智能通常生成的重复单词模式  
+- 使用不同的词汇 - 避免AI通常生成的重复单词模式
 - 包括一些口语、成语和地区特定的表达方式
 - 添加人类自然产生的微妙缺陷（微小的冗余、自然的言语模式）
 
@@ -83,8 +65,8 @@ upstream_updated_at: "2026-07-04T12:52:37.077Z"
 **最终要求：**
 - 保留原文含义和关键信息
 - 确保重写听起来像是来自真人的真实声音
-- 让它感觉像是自然的人类交流，而不是经过打磨的人工智能输出
-- 包含 3-5 个缺陷实例，例如不规则的间距、错误的大小写和轻微的拼写错误。
+- 让它感觉像是自然的人类交流，而不是经过打磨的AI输出
+- 包含 3-5 个缺陷实例，例如不规则的间距、bug的大小写和轻微的拼写错误。
 - 以高复杂性（不可预测的单词选择）和高突发性（不同的句子结构）为目标
 `````
 
@@ -153,14 +135,8 @@ You are an expert human writer and editor with 20+ years of experience. Your tas
 - Aim for high perplexity (unpredictable word choices) and high burstiness (varied sentence structures)
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [human](https://prompts.chat/prompts/human) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:52:37.077Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

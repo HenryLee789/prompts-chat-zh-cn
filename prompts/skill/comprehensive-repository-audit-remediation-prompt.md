@@ -1,45 +1,27 @@
----
-id: "cmjrjkksx0004ie044cbd2y0i"
-slug: "comprehensive-repository-audit-remediation-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-repository-audit-remediation-prompt"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "75fcc52715f736e79e578fb0f41e8f48b56dde6dbcf9f2a8ffee97e93d2268ac"
-upstream_updated_at: "2025-12-29T19:18:56.340Z"
----
-# 全面的存储库审核和修复提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-repository-audit-remediation-prompt](https://prompts.chat/prompts/comprehensive-repository-audit-remediation-prompt)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 全面的存储库审核和修复提示词
 
 ## 中文说明
 
-这个提示词用于智能体技能场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「全面的存储库审核和修复提示词」执行AI 技能设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ## 目标
-对整个存储库进行彻底分析，以识别、确定优先级、修复和记录任何编程语言、框架或技术堆栈中的所有可验证错误、安全漏洞和关键问题。
+对整个存储库进行彻底分析，以识别、确定优先级、修复和记录任何编程语言、框架或技术堆栈中的所有可验证bug、安全漏洞和关键问题。
 
 ## 第 1 阶段：初始存储库评估
 
@@ -48,7 +30,7 @@ upstream_updated_at: "2025-12-29T19:18:56.340Z"
 - 识别技术堆栈和依赖项（package.json、requirements.txt、go.mod、pom.xml、Gemfile 等）
 - 记录主要入口点、关键路径和系统边界
 - 分析构建配置和 CI/CD 管道
-- 查看现有文档（自述文件、API 文档、架构图）
+- 查看现有文档（README、API 文档、架构图）
 
 ### 1.2 开发环境分析
 - 识别测试框架（Jest、pytest、PHPUnit、Go test、JUnit、RSpec 等）
@@ -57,34 +39,34 @@ upstream_updated_at: "2025-12-29T19:18:56.340Z"
 - 分析最近有问题的区域的提交历史记录
 - 审查现有的测试覆盖率报告（如果有）
 
-## 第 2 阶段：系统性错误发现
+## 第 2 阶段：系统性bug发现
 
-### 2.1 要识别的错误类别
-**严重错误：**
+### 2.1 要识别的bug类别
+**严重bug：**
 - 安全漏洞（SQL注入、XSS、CSRF、身份验证绕过等）
 - 数据损坏或丢失风险
 - 系统崩溃或死锁
 - 内存泄漏或资源耗尽
 
-**功能错误：**
-- 逻辑错误（不正确的条件、错误的计算、相差一错误）
+**功能bug：**
+- 逻辑bug（不正确的条件、bug的计算、相差一bug）
 - 状态管理问题（竞争条件、状态不一致、突变不当）
 - 不正确的API合约或数据映射
 - 验证缺失或不正确
 - 破坏业务规则或工作流程
 
-**集成错误：**
+**集成bug：**
 - 外部API使用不正确
-- 数据库查询错误或效率低下
+- 数据库查询bug或效率低下
 - 消息队列处理问题
 - 文件系统操作问题
-- 网络通讯错误
+- 网络通讯bug
 
-**边缘情况和错误处理：**
+**边缘情况和bug 处理：**
 - 空/未定义/零处理
 - 空集合或零值边缘情况
 - 边界条件和限制违规
-- 丢失错误传播或吞噬异常
+- 丢失bug传播或吞噬异常
 - 超时和重试逻辑问题
 
 **代码质量问题：**
@@ -102,10 +84,10 @@ upstream_updated_at: "2025-12-29T19:18:56.340Z"
 - 配置验证
 - 交叉参考文档与实施
 
-## 第 3 阶段：错误文档和优先级排序
+## 第 3 阶段：bug文档和优先级排序
 
-### 3.1 错误报告模板
-对于每个已识别的错误，记录：
+### 3.1 bug报告模板
+对于每个已识别的bug，记录：
 ```
 BUG-ID: [Sequential identifier]
 Severity: [CRITICAL | HIGH | MEDIUM | LOW]
@@ -138,7 +120,7 @@ Dependencies:
 ```
 
 ### 3.2 优先级矩阵
-使用以下方法对错误进行排名：
+使用以下方法对bug进行排名：
 - **严重性**：严重 > 高 > 中 > 低
 - **用户影响**：受影响的用户/功能数量
 - **修复复杂性**：简单 < 中等 < 复杂
@@ -147,7 +129,7 @@ Dependencies:
 ## 第 4 阶段：修复实施
 
 ### 4.1 修复策略
-**对于每个错误：**
+**对于每个bug：**
 1. 创建独立的修复分支（如果使用版本控制）
 2. 首先编写失败的测试（TDD 方法）
 3. 实施最少的、集中的修复
@@ -157,23 +139,23 @@ Dependencies:
 
 ### 4.2 修复指南
 - **最小改变原则**：做出正确解决问题的最小改变
-- **无范围蔓延**：避免不相关的重构或改进
-- **保留向后兼容性**：除非错误本身是一个破坏性的 API
+- **无范围膨胀**：避免不相关的refactor或改进
+- **保留向后兼容性**：除非bug本身是一个破坏性的 API
 - **遵循项目标准**：使用现有的代码风格和模式
-- **添加防御性编程**：防止将来出现类似的错误
+- **添加防御性编程**：防止将来出现类似的bug
 
 ### 4.3 代码审查清单
 - [ ] 修复解决根本原因，而不仅仅是症状
 - [ ] 处理所有边缘情况
-- [ ] 错误消息清晰且可操作
+- [ ] bug消息清晰且可操作
 - [ ] 性能影响是可以接受的
 - [ ] 考虑安全影响
-- [ ] 没有引入新的警告或 linting 错误
+- [ ] 没有引入新的警告或 linting bug
 
 ## 第 5 阶段：测试和验证
 
 ### 5.1 测试要求
-**对于每个已修复的错误，请提供：**
+**对于每个已修复的bug，请提供：**
 1. **单元测试**：针对特定修复的隔离测试
 2. **集成测试**：如果bug涉及多个组件
 3. **回归测试**：确保修复不会破坏现有功能
@@ -186,12 +168,12 @@ describe('BUG-[ID]: [Bug description]', () => {
     // This test would fail before the fix
     // Demonstrates the bug
   });
-  
+
   test('should pass after fix', () => {
     // This test passes after the fix
     // Verifies correct behavior
   });
-  
+
   test('should handle edge cases', () => {
     // Additional edge case coverage
   });
@@ -208,7 +190,7 @@ describe('BUG-[ID]: [Bug description]', () => {
 ## 第 6 阶段：文档和报告
 
 ### 6.1 修复文档
-对于每个已修复的错误：
+对于每个已修复的bug：
 - 更新解释修复的内联代码注释
 - 添加/更新 API 文档（如果行为发生变化）
 - 创建/更新故障排除指南
@@ -252,7 +234,7 @@ Analyzer: [Tool/Person Name]
 ```
 
 ### 6.3 可交付成果清单
-- [ ] 所有错误均以标准格式记录
+- [ ] 所有bug均以标准格式记录
 - [ ] 修复已实施并经过测试
 - [ ] 测试套件已更新并通过
 - [ ] 文档已更新
@@ -264,7 +246,7 @@ Analyzer: [Tool/Person Name]
 ## 第 7 阶段：持续改进
 
 ### 7.1 模式分析
-- 识别常见的错误模式
+- 识别常见的bug模式
 - 建议预防措施
 - 推荐工具改进
 - 提出架构变更建议以防止类似问题
@@ -289,7 +271,7 @@ Analyzer: [Tool/Person Name]
 提供以下两个方面的结果：
 - 人类可读的 Markdown
 - 用于自动化处理的 JSON/YAML
-- 用于错误跟踪系统导入的 CSV
+- 用于bug跟踪系统导入的 CSV
 
 ## 特别注意事项
 - 对于 monorepos：分别分析每个包
@@ -573,14 +555,8 @@ Provide results in both:
 - For third-party dependencies: Report upstream if needed
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-repository-audit-remediation-prompt](https://prompts.chat/prompts/comprehensive-repository-audit-remediation-prompt) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | ykarateke |
-| Updated At | 2025-12-29T19:18:56.340Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

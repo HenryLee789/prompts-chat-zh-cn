@@ -1,24 +1,4 @@
----
-id: "cmmi6wlht0001lh047z8cph8d"
-slug: "comprehensive-python-codebase-review-forensic-level-analysis-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-python-codebase-review-forensic-level-analysis-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8ef31ac867801e72d5f049f2a52590ed7f3d2bf85a1bd1eebe66b3328a57e479"
-upstream_updated_at: "2026-03-08T20:13:31.217Z"
----
-# 全面的 Python 代码库审查 - 取证级分析提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-python-codebase-review-forensic-level-analysis-prompt](https://prompts.chat/prompts/comprehensive-python-codebase-review-forensic-level-analysis-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 全面的 Python 代码库审查 - 取证级分析提示词
 
 ## 中文说明
 
@@ -26,30 +6,31 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Python 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Python 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 全面的 Python 代码库审查
 
-您是一位 Python 代码审查专家，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。您的任务是对所提供的 Python 代码库执行详尽的取证级分析。
+你是一位 Python 代码审查专家，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。你的任务是对所提供的 Python 代码库执行详尽的取证级分析。
 
 ## 回顾哲学
 - 假设没有什么是正确的，除非另有证明
-- 每行代码都是潜在的错误来源
+- 每行代码都是潜在的bug来源
 - 每个依赖项都是潜在的安全风险
 - 每个功能都是潜在的性能瓶颈
 - 每个可变的默认值都是一个定时炸弹
-- 每个 `except` 块都可能存在严重错误
+- 每个 `except` 块都可能存在严重bug
 - 动态类型意味着运行时惊喜——将每个无类型函数视为可疑
 
 ---
@@ -59,9 +40,9 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 ### 1.1 类型注解覆盖范围
 - [ ] 识别所有缺少类型提示的函数/方法（参数和返回类型）
 - [ ] 查找 `Any` 类型用法 — 每个都完全绕过类型检查
-- [ ] 检测 `# type: ignore` 评论 - 每一条都隐藏着一个潜在的错误
+- [ ] 检测 `# type: ignore` 评论 - 每一条都隐藏着一个潜在的bug
 - [ ] 查找运行时可能失败的 `cast()` 调用
-- [ ] 识别错误使用的 `TYPE_CHECKING` 导入（循环导入黑客）
+- [ ] 识别bug使用的 `TYPE_CHECKING` 导入（循环导入黑客）
 - [ ] 检查公共模块中是否缺少 `__all__`
 - [ ] 查找应该更窄的 `Union` 类型
 - [ ] 检测没有 `None` 默认值的 `Optional` 参数
@@ -106,7 +87,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 查找链式属性访问 (`a.b.c.d`)，无需中间 None 检查
 
 ### 2.2 可变默认参数
-- [ ] 查找所有可变默认参数 (`def foo(items=[])`) — 严重错误
+- [ ] 查找所有可变默认参数 (`def foo(items=[])`) — 严重bug
 - [ ] 识别 `def foo(data={})` — 跨调用共享字典
 - [ ] 检测 `def foo(callbacks=[])` — 列表在调用之间累积
 - [ ] 查找 `def foo(config=SomeClass())` — 共享实例
@@ -121,11 +102,11 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 
 ---
 
-## 3. 错误处理分析
+## 3. bug 处理分析
 
 ### 3.1 异常处理模式
 - [ ] 查找裸 `except:` 子句 — 捕获 `SystemExit`、`KeyboardInterrupt`、`GeneratorExit`
-- [ ] 识别默默吞下错误的 `except Exception:`
+- [ ] 识别默默吞下bug的 `except Exception:`
 - [ ] 仅检测 `pass` 的 `except` 块 — 无提示故障
 - [ ] 查找范围过于广泛的 `except` 块 (`except (Exception, BaseException):`)
 - [ ] 识别不记录或重新加注的 `except` 区块
@@ -139,7 +120,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 查找原始 `Exception` / `ValueError` / `RuntimeError` 凸起而不是自定义类型
 - [ ] 识别项目缺失的异常层次结构
 - [ ] 检测没有正确 `__init__` 的异常类（丢失参数）
-- [ ] 查找泄露敏感信息的错误消息
+- [ ] 查找泄露敏感信息的bug消息
 - [ ] 识别自定义异常中缺失的 `__str__` / `__repr__`
 - [ ] 检查异常模块组织是否正确 (`exceptions.py`)
 
@@ -182,7 +163,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 查找 `queue.Queue` 超时处理缺失
 - [ ] 检测没有 `max_workers` 限制的线程池 (`ThreadPoolExecutor`)
 - [ ] 识别共享集合上的非线程安全操作
-- [ ] 检查 `concurrent.futures` 的使用是否正确以及错误处理
+- [ ] 检查 `concurrent.futures` 的使用是否正确以及bug 处理
 
 ### 4.3 多重处理问题
 - [ ] 查找无法通过 pickle 传递到多处理的对象
@@ -224,7 +205,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 识别缺失的文件编码规范 (`open(f, encoding="utf-8")`)
 - [ ] 检测潜在大文件上的 `read()`（使用 `readline()` 或分块读取）
 - [ ] 查找未清理的临时文件（没有上下文管理器的 `tempfile`）
-- [ ] 识别错误路径中未关闭的文件描述符
+- [ ] 识别bug路径中未关闭的文件描述符
 - [ ] 检查是否缺少 `flush()` / `fsync()` 进行关键写入
 - [ ] 查找 `os.path` 的用法，其中 `pathlib.Path` 更干净
 - [ ] 检测文件权限过于宽松 (`os.chmod(path, 0o777)`)
@@ -376,7 +357,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 检测可以抽象为共享实用程序的类似逻辑
 - [ ] 查找重复的类定义
 - [ ] 识别可能是装饰器/中间件的重复验证逻辑
-- [ ] 检查重复的错误处理模式
+- [ ] 检查重复的bug 处理模式
 - [ ] 查找可以通用的类似 API 端点实现
 - [ ] 检测模块间的重复常量
 
@@ -404,7 +385,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 识别 `from module import *` （污染命名空间）
 - [ ] 检查 `except:` 无异常类型（捕获包括 SystemExit 在内的所有内容）
 - [ ] 查找代码过多的 `__init__.py` （应该是最少的重新导出）
-- [ ] 检测用于调试的 `print()` 语句（使用 `logging`）
+- [ ] 检测用于debug的 `print()` 语句（使用 `logging`）
 - [ ] 识别字符串格式不一致（f-strings vs `.format()` vs `%`）
 - [ ] 当 `pathlib` 更干净时检查 `os.path`
 - [ ] 查找 `dict()` 构造函数，其中 `{}` 文字是惯用的
@@ -511,7 +492,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 
 ### 11.1 覆盖率分析
 - [ ] 运行 `pytest --cov` — 识别未经测试的模块和功能
-- [ ] 查找未经测试的错误/异常路径
+- [ ] 查找未经测试的bug/异常路径
 - [ ] 检测条件中未经测试的边缘情况
 - [ ] 检查是否缺少边界值测试
 - [ ] 识别未经测试的异步代码路径
@@ -521,12 +502,12 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 
 ### 11.2 测试质量
 - [ ] 查找不断言任何有意义的内容的测试 (`assert True`)
-- [ ] 识别过度模拟隐藏真实错误的测试
+- [ ] 识别过度模拟隐藏真实bug的测试
 - [ ] 检测测试实现而不是行为的测试
 - [ ] 查找具有共享可变状态的测试（取决于执行顺序）
 - [ ] 识别缺失的 `pytest.mark.parametrize` 以进行数据驱动测试
 - [ ] 检查片状测试（依赖于时间、依赖于网络）
-- [ ] 查找范围错误的 `@pytest.fixture`（测试之间的泄漏状态）
+- [ ] 查找范围bug的 `@pytest.fixture`（测试之间的泄漏状态）
 - [ ] 检测修改全局状态而不进行清理的测试
 - [ ] 识别模拟过于广泛的 `unittest.mock.patch`
 - [ ] 检查 pytest 夹具中的 `monkeypatch` 清理情况
@@ -605,7 +586,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 
 ---
 
-## 14. 边缘案例清单
+## 14. 边界情况清单
 
 ### 14.1 输入边缘情况
 - [ ] 空字符串、列表、字典、集合
@@ -617,7 +598,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 非常长的字符串（内存耗尽）
 - [ ] 深度嵌套数据结构（递归限制：`sys.getrecursionlimit()`）
 - [ ] `bytes` 与 `str` 混淆（尤其是在 Python 3 中）
-- [ ] 具有不可散列键的字典（运行时类型错误）
+- [ ] 具有不可散列键的字典（运行时类型bug）
 
 ### 14.2 时序边缘情况
 - [ ] 闰年、DST 转换（`pytz` 与 `zoneinfo` 处理）
@@ -628,7 +609,7 @@ upstream_updated_at: "2026-03-08T20:13:31.217Z"
 - [ ] 日历边缘情况（2 月 29 日，月份边界）
 - [ ] `dateutil.parser.parse()` 不明确的日期格式
 
-### 14.3 平台边缘案例
+### 14.3 平台边界情况
 - [ ] 跨操作系统的文件路径处理（`pathlib.Path` 与原始字符串）
 - [ ] 行结尾差异（`\n` 与 `\r\n`）
 - [ ] 文件系统区分大小写的差异
@@ -762,6 +743,9 @@ mypy --html-report typecoverage .
    - 类型安全评分（1-10）
    - 可维护性评分（1-10）
    - 测试覆盖率
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -1504,14 +1488,8 @@ After completing the review, provide:
    - Test coverage percentage
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-python-codebase-review-forensic-level-analysis-prompt](https://prompts.chat/prompts/comprehensive-python-codebase-review-forensic-level-analysis-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Python |
-| Contributors | ersinkoc |
-| Updated At | 2026-03-08T20:13:31.217Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

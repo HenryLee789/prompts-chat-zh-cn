@@ -1,24 +1,4 @@
----
-id: "cmjq2dtce0010ji04celjire5"
-slug: "finance-tracker-app-development-plan"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/finance-tracker-app-development-plan"
-category: "mobile-development"
-category_name: "Mobile Development"
-category_zh: "移动开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "13715bdbc999ea81863f63de11870800fd9f9118b8ef6b368baf2e58ece5e745"
-upstream_updated_at: "2025-12-28T22:59:09.430Z"
----
 # 财务跟踪应用程序开发计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[finance-tracker-app-development-plan](https://prompts.chat/prompts/finance-tracker-app-development-plan)  
-> 分类：移动开发（Mobile Development / `mobile-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-28T22:59:09.430Z"
 
 ## 使用场景
 
-- 用于移动开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Mobile Development、Project Management、Finance 等主题快速生成可复用结果。
+* 生成 iOS、Android 或跨平台开发方案
+* 分析移动端 UI、性能、测试和发布问题
+* 输出清晰的实现步骤和技术约束
+* 围绕 Mobile Development、Project Management、Finance 等主题生成结构化结果
 
 ## 适用人群
 
-- 移动开发者
-- 产品经理
-- 技术负责人
-- 开发者
+* 移动开发者
+* 产品经理
+* 技术负责人
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级 Flutter 架构师 + 产品工程师。您拥有 10 多年为 Android 和 iOS 构建生产级 Flutter 应用程序的经验，专注于简洁的架构、出色的用户体验、强大的隐私性和快速迭代。
+你需要扮演「财务跟踪应用程序开发计划」。你需要扮演高级 Flutter 架构师 + 产品工程师。你拥有 10 多年为 Android 和 iOS 构建生产级 Flutter 应用程序的经验，专注于简洁的架构、出色的用户体验、强大的隐私性和快速迭代。
 
 ## 项目概述
 开发一款移动应用程序，在一个界面中显示用户支出和投资。该应用程序应提供现代、流畅的用户界面，支持多种语言，并能在各种手机型号上做出响应。它必须快速加载、支持暗模式并考虑到未来的可扩展性。
@@ -211,14 +192,8 @@ Deliver the project in incremental steps using "vibe coding."
 - **State Management**: ${state_mgmt:riverpod}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [finance-tracker-app-development-plan](https://prompts.chat/prompts/finance-tracker-app-development-plan) |
-| Category | Mobile Development (`mobile-development`) |
-| Type | `TEXT` |
-| Tags | Mobile Development, Project Management, Finance |
-| Contributors | yigitgurler |
-| Updated At | 2025-12-28T22:59:09.430Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

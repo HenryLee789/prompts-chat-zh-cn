@@ -1,47 +1,27 @@
----
-id: "cmoc2mkbm0001jr04k3z0vxrc"
-slug: "cyber-pulse-3d-neon-particle-swarm"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cyber-pulse-3d-neon-particle-swarm"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6b05aa6724d85e1dccf4d9cc3e691e082a07c0d50d853a52b3798627c26212d9"
-upstream_updated_at: "2026-04-23T22:46:34.445Z"
----
 # Cyber​​-Pulse：3D 霓虹粒子群
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cyber-pulse-3d-neon-particle-swarm](https://prompts.chat/prompts/cyber-pulse-3d-neon-particle-swarm)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-快节奏的街机“躲避游戏”，设置在数字空间中。玩家控制核心能量火花，穿过由 10,000 多个蓝色和紫色粒子组成的流体状星云，这些粒子会对玩家的存在做出反应。
+快节奏的街机“躲避游戏”，设置在数字空间中。玩家控制核心能量火花，穿过由 10,000 多个蓝色和紫色粒子组成的流体状星云，这些粒子会对玩家的存在做出React。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 OpenAI 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 OpenAI 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-游戏概念：以数字空间为背景的快节奏街机“躲避游戏”。玩家控制核心能量火花，穿过由 10,000 多个蓝色和紫色粒子组成的流体状星云，这些粒子会对玩家的存在做出反应。
-技术提示：
+游戏概念：以数字空间为背景的快节奏街机“躲避游戏”。玩家控制核心能量火花，穿过由 10,000 多个蓝色和紫色粒子组成的流体状星云，这些粒子会对玩家的存在做出React。技术提示：
 创建一个具有包含 15,000 个粒子的点系统的 Three.js 场景。使用自定义 ShaderMaterial 实现发光效果。实现粒子飞离鼠标光标的斥力逻辑。
 
 JavaScript
@@ -83,14 +63,8 @@ if (dist < 5) {
 Include a BloomPass for post-processing and ensure 60FPS performance via
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cyber-pulse-3d-neon-particle-swarm](https://prompts.chat/prompts/cyber-pulse-3d-neon-particle-swarm) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | OpenAI |
-| Contributors | loshu2000 |
-| Updated At | 2026-04-23T22:46:34.445Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

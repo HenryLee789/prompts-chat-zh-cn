@@ -1,43 +1,23 @@
----
-id: "cmjj5cho30005ky044fvot5dc"
-slug: "hyper-realistic-marvel-comic-fusion-image-generation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/hyper-realistic-marvel-comic-fusion-image-generation"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "162d7daf9389b60dffe050368490836634fb7aa74c2d8146583f8e1fc3b93733"
-upstream_updated_at: "2025-12-24T07:23:38.855Z"
----
 # 超现实漫威漫画融合图像生成
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[hyper-realistic-marvel-comic-fusion-image-generation](https://prompts.chat/prompts/hyper-realistic-marvel-comic-fusion-image-generation)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「超现实漫威漫画融合图像生成」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 AI Tools、Creative Writing、Midjourney、DALL-E 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 AI Tools、Creative Writing、Midjourney 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -268,14 +248,8 @@ Hyper-Realistic Marvel Comic Fusion Image Generation
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [hyper-realistic-marvel-comic-fusion-image-generation](https://prompts.chat/prompts/hyper-realistic-marvel-comic-fusion-image-generation) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | AI Tools, Creative Writing, Midjourney, DALL-E |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-24T07:23:38.855Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

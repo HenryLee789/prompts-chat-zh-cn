@@ -1,24 +1,4 @@
----
-id: "cmjomj2wr0005l204c93do66q"
-slug: "cinematic-neo-noir-triptych-in-digital-art"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-neo-noir-triptych-in-digital-art"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e9c8e608005138c43f579fff63be70841a381f218a1d8d47f3b8e0c638e55dfe"
-upstream_updated_at: "2025-12-27T18:47:37.111Z"
----
 # 数字艺术中的电影新黑色三联画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-neo-noir-triptych-in-digital-art](https://prompts.chat/prompts/cinematic-neo-noir-triptych-in-digital-art)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-27T18:47:37.111Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Storytelling 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -120,7 +101,7 @@ upstream_updated_at: "2025-12-27T18:47:37.111Z"
     “湿反射”，
     “散景”
   ],
-  "use_case": "用于在电影叙事、情绪生成和新黑色风格复制方面训练人工智能的数据集。",
+  "use_case": "用于在电影叙事、情绪生成和新黑色风格复制方面训练AI的数据集。",
   “uuid”：“7c21100c-8de4-4687-8952-5de3ac5e42b3”
 }
 ```
@@ -226,14 +207,8 @@ This prompt describes the creation of a cinematic neo-noir triptych in digital a
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-neo-noir-triptych-in-digital-art](https://prompts.chat/prompts/cinematic-neo-noir-triptych-in-digital-art) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-27T18:47:37.111Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

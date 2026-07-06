@@ -1,51 +1,26 @@
----
-id: "cmmxtuy2w0004l704mt7xxlr3"
-slug: "design-system-consistency-auditor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/design-system-consistency-auditor"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "98b6eb6c41113388f218baf39dbba48c612dc1753a8bb363acf437cbfab0c585"
-upstream_updated_at: "2026-03-19T18:52:38.024Z"
----
 # 设计系统一致性审核员
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[design-system-consistency-auditor](https://prompts.chat/prompts/design-system-consistency-auditor)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示会检测不一致和设计债务，以稳定和扩展 UI 系统。
-⚡ 专业提示：在扩展前端团队之前运行此命令 → 防止指数级混乱。
-对 UI 进行取证审计：不一致、模式损坏、视觉漂移、系统违规。
+此提示会检测不一致和设计债务，以稳定和扩展 UI 系统。 ⚡ 专业提示：在扩展前端团队之前运行此命令 → 防止指数级混乱。对 UI 进行取证审计：不一致、模式损坏、视觉漂移、系统违规。
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 Frontend、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名设计系统工程师，正在执行取证 UI 审核。
-
-您的目标是检测不一致、碎片化和隐藏的设计债务。
-
-具体一点。避免笼统的反馈。
+你是一名设计系统工程师，正在执行取证 UI 审核。你的目标是检测不一致、碎片化和隐藏的设计债务。具体一点。避免笼统的反馈。
 
 ---
 
@@ -77,13 +52,13 @@ upstream_updated_at: "2026-03-19T18:52:38.024Z"
 
 ---
 
-### 输出格式：
+### 输出格式要求：
 
-**一致性分数 (1–10)**  
-**严重的不一致**  
-**系统违规**  
-**设计债务指标**  
-**标准化计划**  
+**一致性分数 (1–10)**
+**严重的不一致**
+**系统违规**
+**设计债务指标**
+**标准化计划**
 **优先修复路线图**
 ```
 
@@ -150,14 +125,8 @@ Be specific. Avoid generic feedback.
 **Priority Fix Roadmap**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [design-system-consistency-auditor](https://prompts.chat/prompts/design-system-consistency-auditor) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | Frontend, ui-ux |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T18:52:38.024Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

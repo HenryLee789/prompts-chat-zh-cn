@@ -1,24 +1,4 @@
----
-id: "cmjj8666a0001l404dnku6x9r"
-slug: "shadows-of-the-cold-war-the-1962-exchange"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/shadows-of-the-cold-war-the-1962-exchange"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "29a20957a55d4426fcd93e4225a12f73935a9d02bd9e7560824403fbdf0f0dc7"
-upstream_updated_at: "2025-12-24T07:22:15.574Z"
----
 # 冷战的阴影：1962 年的交换
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[shadows-of-the-cold-war-the-1962-exchange](https://prompts.chat/prompts/shadows-of-the-cold-war-the-1962-exchange)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,22 @@ upstream_updated_at: "2025-12-24T07:22:15.574Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留他们的核心相似性。创建一个超真实、电影品质的场景，将对象 1（男性）和对象 2（女性）描绘成冷战期间在雾蒙蒙的铁桥上会面的秘密间谍。该图像必须看起来像在 Arri Alexa 上拍摄的高预算大片电影中的帧。使用电影照明来创建深阴影和高光。场景细节丰富，景深较浅。拍摄对象 1 正在将秘密包裹交给拍摄对象 2。构图遵循电影般的 1:1 宽高比。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留他们的核心相似性。创建一个超真实、电影品质的场景，将对象 1（男性）和对象 2（女性）描绘成冷战期间在雾蒙蒙的铁桥上会面的秘密间谍。该图像必须看起来像在 Arri Alexa 上拍摄的高预算大片电影中的帧。使用电影照明来创建深阴影和高光。场景细节丰富，景深较浅。拍摄对象 1 正在将秘密包裹交给拍摄对象 2。构图遵循电影般的 1:1 宽高比。",
   “详细信息”：{
     “年份”：“1962年”，
     "genre": "电影照片写实主义",
@@ -199,14 +179,8 @@ A tense, clandestine meeting shrouded in thick river fog on an iron bridge. This
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [shadows-of-the-cold-war-the-1962-exchange](https://prompts.chat/prompts/shadows-of-the-cold-war-the-1962-exchange) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-24T07:22:15.574Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

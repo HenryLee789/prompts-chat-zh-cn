@@ -1,48 +1,26 @@
----
-id: "cmr45e6wy0001ii04mbf4ewr5"
-slug: "ai-generated-video"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-generated-video"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f6d1d47ccccdeb9309df6ca6f7a4da4169545f064eb3eabce0919665335d85e3"
-upstream_updated_at: "2026-07-02T23:43:01.374Z"
----
-# 通过人工智能生成视频
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-generated-video](https://prompts.chat/prompts/ai-generated-video)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 通过AI生成视频
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「通过AI生成视频」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-为“媒体风采卓越营”启动制作10秒超电影宣传片。
-
-视频以黑色背景和戏剧性的灯光打开。一只真实的人手拿着专业麦克风进入画面。每一秒，该物体都会平稳地转变为另一种高级媒体工具：广播麦克风、专业数码单反相机、电影摄影机、相机镜头、无线麦克风和电视广播摄像机。
-
-使用无缝变形过渡、动态特写镜头、慢动作细节和电影灯光。添加微妙的光条纹和现代视觉效果，以强调创新、专业和媒体卓越性。
+为“媒体风采卓越营”启动制作10秒超电影宣传片。视频以黑色背景和戏剧性的灯光打开。一只真实的人手拿着专业麦克风进入画面。每一秒，该物体都会平稳地转变为另一种高级媒体工具：广播麦克风、专业数码单反相机、电影摄影机、相机镜头、无线麦克风和电视广播摄像机。使用无缝变形过渡、动态特写镜头、慢动作细节和电影灯光。添加微妙的光条纹和现代视觉效果，以强调创新、专业和媒体卓越性。
 ```
 
 ---
@@ -68,14 +46,8 @@ Use seamless morph transitions, dynamic close-up shots, slow-motion details, and
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-generated-video](https://prompts.chat/prompts/ai-generated-video) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | ddosa300-arch |
-| Updated At | 2026-07-02T23:43:01.374Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

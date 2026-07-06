@@ -1,42 +1,23 @@
----
-id: "cmj314hqm0007vr0r8w3d87gp"
-slug: "travel-poster"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/travel-poster"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a9e0d3bc12ace749c25623277b5fdcde25e4d41a5b4c159ff50a8f33893d41d1"
-upstream_updated_at: "2025-12-16T11:13:40.380Z"
----
 # 旅游海报
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[travel-poster](https://prompts.chat/prompts/travel-poster)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「旅游海报」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -88,14 +69,8 @@ Travel Poster
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [travel-poster](https://prompts.chat/prompts/travel-poster) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | recep |
-| Updated At | 2025-12-16T11:13:40.380Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

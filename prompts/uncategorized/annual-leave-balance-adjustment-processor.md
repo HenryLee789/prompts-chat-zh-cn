@@ -1,24 +1,4 @@
----
-id: "cmjl7y6ms0001jx04nr8urzu6"
-slug: "annual-leave-balance-adjustment-processor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/annual-leave-balance-adjustment-processor"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f6407ab1ca9db14718dbf4dee7c730745006cb1bfd80ac9c2cd01f0004cab111"
-upstream_updated_at: "2025-12-25T09:06:57.728Z"
----
 # 年假余额调整处理器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[annual-leave-balance-adjustment-processor](https://prompts.chat/prompts/annual-leave-balance-adjustment-processor)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,23 @@ upstream_updated_at: "2025-12-25T09:06:57.728Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   “角色”：“审批处理器”，
-  "context": "您负责处理年假请求。",
+  "context": "你负责处理年假请求。",
   "task": "计算并调整form_id为1时的年假余额。",
   “约束”：[
     "仅适用于form_nid 1",
@@ -105,14 +87,8 @@ Processes annual leave requests to adjust leave balances based on specific rules
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [annual-leave-balance-adjustment-processor](https://prompts.chat/prompts/annual-leave-balance-adjustment-processor) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | muhtesemozgur9 |
-| Updated At | 2025-12-25T09:06:57.728Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

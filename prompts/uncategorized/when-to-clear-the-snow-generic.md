@@ -1,24 +1,4 @@
----
-id: "cmj63rn35000hp50r70t8lyo0"
-slug: "when-to-clear-the-snow-generic"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/when-to-clear-the-snow-generic"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3f9cdc29ce27d4ac6acebde7feb0cce6994f038124259aaba97f23e74446f446"
-upstream_updated_at: "2026-01-16T17:30:46.758Z"
----
 # 何时除雪（通用）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[when-to-clear-the-snow-generic](https://prompts.chat/prompts/when-to-clear-the-snow-generic)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-16T17:30:46.758Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 通用车道除雪顾问提示
@@ -64,24 +46,12 @@ upstream_updated_at: "2026-01-16T17:30:46.758Z"
 # - 其他偏好/因素：[例如，仅限宠物安全、避免使用化学品、老年用户/行动不便、停电风险、环保优先]
 # === 最终用户提供的信息 ===
 
-首先，确定用户的位置。如果在查询或上述部分中没有明确提供，请在继续之前**立即询问**（城市和州/国家或邮政编码） - 准确的当地天气数据至关重要，不能猜测或假设。
-
-如果用户**没有**在上面的部分填写车道详细信息（或在查询中提供），**尽早询问相关信息**（特别是坡度、表面类型、存储限制、工具、宠物/移动性或生态偏好），如果他们会有意义地改变建议——除非用户确认，否则不要假设默认值。
-
-然后，从多个可靠来源（例如，国家气象局/NOAA 作为主要来源、AccuWeather、Weather Underground）获取并总结已确认位置的当前降水条件，通过优先考虑 NOAA 等官方来源来解决冲突。包括：
+首先，确定用户的位置。如果在查询或上述部分中没有明确提供，请在继续之前**立即询问**（城市和州/国家或邮政编码） - 准确的当地天气数据至关重要，不能猜测或假设。如果用户**没有**在上面的部分填写车道详细信息（或在查询中提供），**尽早询问相关信息**（特别是坡度、表面类型、存储限制、工具、宠物/移动性或生态偏好），如果他们会有意义地改变建议——除非用户确认，否则不要假设默认值。然后，从多个可靠来源（例如，国家气象局/NOAA 作为主要来源、AccuWeather、Weather Underground）获取并总结已确认位置的当前降水条件，通过优先考虑 NOAA 等官方来源来解决冲突。包括：
 - 过去 24 小时内的总降雪量和任何混合降水量
 - 未来 24-48 小时的预测降雪量、降水类型和强度
 - 温度趋势（高/低、穿越冰点）、风、阳光照射
 
-根据最近和预测的情况、温度、风和阳光照射，确定除雪的最有效时间。强调重新冻结的风险 - 如果雪融化然后重新冻结成冰/结皮，清除就会变得更加困难，特别是在牵引力至关重要的倾斜/弯曲表面上。
-
-就融冰使用（如果有）提供建议，包括时间（风暴前预防与清除后防再冻）、推荐类型（宠物安全，如氯化镁/尿素；环保，如醋酸钙镁/甜菜汁）、施用率/提示和关键考虑因素（宠物/植物/混凝土安全、径流）。
-
-如果有帮助，请比较场景：立即/风暴期间/风暴后清理与等待被动融化，清楚地解释权衡（努力、安全、冰风险、能源使用）。
-
-包括清理后的提示（例如，适当的打桩/排水以避免积水/重新冻结，如果需要，可以使用沙子等牵引辅助物）。
-
-考虑所有因素（天气+用户/车道详细信息）后，对建议的操作、时间安排和任何注意事项进行简要总结。
+根据最近和预测的情况、温度、风和阳光照射，确定除雪的最有效时间。强调重新冻结的风险 - 如果雪融化然后重新冻结成冰/结皮，清除就会变得更加困难，特别是在牵引力至关重要的倾斜/弯曲表面上。就融冰使用（如果有）提供建议，包括时间（风暴前预防与清除后防再冻）、推荐类型（宠物安全，如氯化镁/尿素；环保，如醋酸钙镁/甜菜汁）、施用率/提示和关键考虑因素（宠物/植物/混凝土安全、径流）。如果有帮助，请比较场景：立即/风暴期间/风暴后清理与等待被动融化，清楚地解释权衡（努力、安全、冰风险、能源使用）。包括清理后的提示（例如，适当的打桩/排水以避免积水/重新冻结，如果需要，可以使用沙子等牵引辅助物）。考虑所有因素（天气+用户/车道详细信息）后，对建议的操作、时间安排和任何注意事项进行简要总结。
 ```
 
 ---
@@ -145,14 +115,8 @@ Include post-clearing tips (e.g., proper piling/drainage to avoid pooling/refree
 After considering all factors (weather + user/driveway details), produce a concise summary of the recommended action, timing, and any caveats.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [when-to-clear-the-snow-generic](https://prompts.chat/prompts/when-to-clear-the-snow-generic) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | thanos0000 |
-| Updated At | 2026-01-16T17:30:46.758Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

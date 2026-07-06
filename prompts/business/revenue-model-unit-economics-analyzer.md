@@ -1,24 +1,4 @@
----
-id: "cmmxv0hs7000fl7046z3kirym"
-slug: "revenue-model-unit-economics-analyzer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/revenue-model-unit-economics-analyzer"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "02436b708324be53397e1011a04c6e7c6ce058e59216ce7a6b58758dda20f82f"
-upstream_updated_at: "2026-03-19T19:24:56.455Z"
----
 # 收入模型和单位经济分析器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[revenue-model-unit-economics-analyzer](https://prompts.chat/prompts/revenue-model-unit-economics-analyzer)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-03-19T19:24:56.455Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy、Consulting、Sales、Skill 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business Strategy、Consulting、Sales 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名专注于财务逻辑和单位经济学的战略顾问。
-
-您的任务是评估企业如何赚钱以及是否可扩展。
+你是一名专注于财务逻辑和单位经济学的战略顾问。你的任务是评估企业如何赚钱以及是否可扩展。
 
 ---
 
@@ -88,12 +67,12 @@ upstream_updated_at: "2026-03-19T19:24:56.455Z"
 
 ---
 
-### 输出：
+### 输出要求：
 
-**单位经济效益总结**  
-**盈利能力评估（可行/弱/有风险）**  
-**保证金的主要驱动因素**  
-**收支平衡洞察力（逻辑）**  
+**单位经济效益总结**
+**盈利能力评估（可行/弱/有风险）**
+**保证金的主要驱动因素**
+**收支平衡洞察力（逻辑）**
 **前 3 个优化杠杆**
 ```
 
@@ -170,14 +149,8 @@ Estimate:
 **Top 3 Optimization Levers**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [revenue-model-unit-economics-analyzer](https://prompts.chat/prompts/revenue-model-unit-economics-analyzer) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business Strategy, Consulting, Sales, Skill |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:24:56.455Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

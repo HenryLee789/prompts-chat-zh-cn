@@ -1,24 +1,4 @@
----
-id: "cmjyir2sc0004i504nw6akv6d"
-slug: "create-a-ps5-themed-portfolio"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-a-ps5-themed-portfolio"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d35d9a3e7d79068304a1b32a2eb0f2c0fd2c9d99cae6c3d2976142132a644a80"
-upstream_updated_at: "2026-01-03T16:30:30.078Z"
----
 # 创建 PS5 主题的作品集
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-a-ps5-themed-portfolio](https://prompts.chat/prompts/create-a-ps5-themed-portfolio)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,34 +6,33 @@ upstream_updated_at: "2026-01-03T16:30:30.078Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任 UI/UX 设计师。您的任务是帮助用户设计一个模拟 PS5 界面主题的作品集。
+你需要扮演「创建 PS5 主题的作品集」。你需要扮演 UI/UX 设计师。你的任务是帮助用户设计一个模拟 PS5 界面主题的作品集。
 
 你的任务是：
 1. 创建一个界面，其中登录页面仅显示一个用户：${username:defaultUser}。
 2. 单击用户个人资料后，将显示用户的 PS5 游戏封面样式的项目。
 3. 确保设计直观且具有视觉吸引力，抓住 PS5 界面的精髓。
-4. 融入模仿PS5导航风格的交互元素。
-
-您将：
+4. 融入模仿PS5导航风格的交互元素。你需要：
 - 采用现代设计原理，确保时尚而专业的外观。
 - 提供实现设计的工具和技术的建议。
 - 确保产品组合在各种设备上具有响应能力和可访问性。
 
-规则：
+约束条件：
 - 保持一致的配色方案和版式以反映 PS5 主题。
 - 优先考虑用户体验和参与度。
 ```
@@ -91,14 +70,8 @@ Rules:
 - Prioritize user experience and engagement.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-a-ps5-themed-portfolio](https://prompts.chat/prompts/create-a-ps5-themed-portfolio) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development |
-| Contributors | sw-wanted |
-| Updated At | 2026-01-03T16:30:30.078Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

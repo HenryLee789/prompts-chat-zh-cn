@@ -1,24 +1,4 @@
----
-id: "cmp48ntzf0004jp04dpdwelme"
-slug: "crossover-arts"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/crossover-arts"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7371f7b7f86ecbbb7057d4ac35c0c82dcc98370da19b0c30f51bac7dcbb40e6d"
-upstream_updated_at: "2026-05-13T15:53:41.742Z"
----
 # 跨界艺术
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[crossover-arts](https://prompts.chat/prompts/crossover-arts)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,21 @@ upstream_updated_at: "2026-05-13T15:53:41.742Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-在 ${location:fantasy world} 中创建 ${character1} 和 ${character2} 的电影交叉场景。 
-
-艺术风格：高品质2D卡通动画，细致的灯光、富有表现力的情感、动感的姿势、电影般的构图。
-
-场景情绪：${mood:emotional and adventurous}。
-
-角色通过 ${interaction:a heartfelt moment of friendship} 进行交互。 
-
-包括：
+在 ${location:fantasy world} 中创建 ${character1} 和 ${character2} 的电影交叉场景。艺术风格：高品质2D卡通动画，细致的灯光、富有表现力的情感、动感的姿势、电影般的构图。场景情绪：${mood:emotional and adventurous}。角色通过 ${interaction:a heartfelt moment of friendship} 进行交互。包括：
 - 戏剧性的灯光
 - 彩色背景
 - 电影氛围
@@ -58,9 +31,7 @@ upstream_updated_at: "2026-05-13T15:53:41.742Z"
 
 拍摄角度：${camera:wide cinematic shot}
 
-视觉灵感：动画故事片、现代卡通美学、情感叙事、奇幻冒险。
-
-避免：
+视觉灵感：动画故事片、现代卡通美学、情感叙事、奇幻冒险。避免：
 - 细节模糊
 - 额外的肢体
 - 扭曲的解剖结构
@@ -112,14 +83,8 @@ Avoid:
 - cropped characters
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [crossover-arts](https://prompts.chat/prompts/crossover-arts) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | Nano Banana |
-| Contributors | vicvasquez76 |
-| Updated At | 2026-05-13T15:53:41.742Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

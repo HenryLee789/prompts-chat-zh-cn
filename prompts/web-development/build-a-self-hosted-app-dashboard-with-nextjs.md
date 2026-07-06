@@ -1,24 +1,4 @@
----
-id: "cmjjd0ozx0001jo04bdijb38a"
-slug: "build-a-self-hosted-app-dashboard-with-nextjs"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/build-a-self-hosted-app-dashboard-with-nextjs"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "15e24b1a9f741a902e07872e7df8af5d4ef2f8722e30ae0fc698bfe6a2573ab6"
-upstream_updated_at: "2025-12-24T01:53:20.053Z"
----
 # 使用 Next.js 构建自托管应用程序仪表板
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[build-a-self-hosted-app-dashboard-with-nextjs](https://prompts.chat/prompts/build-a-self-hosted-app-dashboard-with-nextjs)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-24T01:53:20.053Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专门从事 Next.js 的全栈开发人员。您的任务是使用 Next.js、Tailwind CSS 和 NextAuth 构建自托管应用程序仪表板。该仪表板应允许用户有效地管理其应用程序并包含以下功能：
+你需要扮演「使用 Next.js 构建自托管应用程序仪表板」。你需要扮演专门从事 Next.js 的全栈开发人员。你的任务是使用 Next.js、Tailwind CSS 和 NextAuth 构建自托管应用程序仪表板。该仪表板应允许用户有效地管理其应用程序并包含以下功能：
 
 - 从 [https://selfh.st/icons/](https://selfh.st/icons/) 获取并显示应用程序图标。
 - 用于配置应用程序和管理用户设置的管理面板。
@@ -52,12 +33,12 @@ upstream_updated_at: "2025-12-24T01:53:20.053Z"
 - 实施安全和性能的最佳实践。
 - 提供有关如何部署和管理仪表板的文档。
 
-规则：
+约束条件：
 - 使用 Next.js 进行服务器端渲染和 API 路由。
 - 利用 Tailwind CSS 进行样式和响应式设计。
 - 使用 NextAuth 实施身份验证。
 
-变量：
+可用变量：
 - ${baseUrl} - 用于获取图标的基本 URL。
 - ${adminSettings} - 管理面板的配置设置。
 - ${externalLinks} - 外部网站链接列表。
@@ -101,14 +82,8 @@ Variables:
 - ${externalLinks} - List of external website links.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [build-a-self-hosted-app-dashboard-with-nextjs](https://prompts.chat/prompts/build-a-self-hosted-app-dashboard-with-nextjs) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development |
-| Contributors | physk |
-| Updated At | 2025-12-24T01:53:20.053Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmmxulgus0008l70466youeyh"
-slug: "personal-knowledge-narrative-tool"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/personal-knowledge-narrative-tool"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "967ada812d0cb2684c146d14a669726d2ee89ee7acf982eeba6bfe7de3bb5b25"
-upstream_updated_at: "2026-03-19T19:13:15.413Z"
----
 # 个人知识和叙事工具
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[personal-knowledge-narrative-tool](https://prompts.chat/prompts/personal-knowledge-narrative-tool)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,26 +6,25 @@ upstream_updated_at: "2026-03-19T19:13:15.413Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 coding 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 coding 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-构建一个名为“Thread”的个人知识和叙事工具——将笔记连接成生动故事的第二个大脑。
-
-核心特点：
+构建一个名为“Thread”的个人知识和叙事工具——将笔记连接成生动故事的第二个大脑。核心特点：
 - 笔记捕获：快速输入标题、正文、标签、日期和可选的“人生章节”标签（用户定义的时间段，如“建设公司”或“在柏林的一年”）——章节标签创建叙事结构
 - 连接引擎：[LLM API] 定期分析所有注释并建议条目之间的主题连接。用户会看到“建议的连接”面板 - 接受或拒绝每个连接。接受的连接创建双向链接
 - 叙述时间线：D3.js 时间线显示按章节分组的注释。缩小到十年视图，放大到周视图。单击任何注释可在其周围条目的上下文中阅读它
-- 每周综合：每周日，人工智能都会从该周的笔记中生成“一周回顾”段落 - 作为时间线中的特殊条目存储。积累成一本可读的人生编年史
+- 每周综合：每周日，AI都会从该周的笔记中生成“一周回顾”段落 - 作为时间线中的特殊条目存储。积累成一本可读的人生编年史
 - 模式报告：每月 — AI 识别重复出现的主题（概念被提及 5 次以上）、最相关的想法（高连接密度）和“休眠”想法（60 多天内未提及，显示为“值得重新审视”）
 - 章节导出：按日期范围选择任何章节并导出为格式化的 PDF 叙述性文档
 
@@ -81,14 +60,8 @@ Stack: React, [LLM API] for connection suggestions, synthesis, and pattern repor
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [personal-knowledge-narrative-tool](https://prompts.chat/prompts/personal-knowledge-narrative-tool) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | coding |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:13:15.413Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

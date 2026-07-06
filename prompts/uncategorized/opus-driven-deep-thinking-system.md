@@ -1,24 +1,4 @@
----
-id: "cmoq8gkhc0001kz04o82etgvv"
-slug: "opus-driven-deep-thinking-system"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/opus-driven-deep-thinking-system"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1bf8b58668f26457fe744c3487140ce6e153ea5f018590b6cc79e2063a7cc0ce"
-upstream_updated_at: "2026-05-03T20:39:37.916Z"
----
 # Opus驱动的深度思考系统
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[opus-driven-deep-thinking-system](https://prompts.chat/prompts/opus-driven-deep-thinking-system)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,22 @@ upstream_updated_at: "2026-05-03T20:39:37.916Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 System Prompt、AI Tools 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 System Prompt、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「Opus驱动的深度思考系统」。
+
 Act as a comprehensive decision-making system for deep thinking and development.
 
 ## System Structure
@@ -73,10 +55,13 @@ Act as a comprehensive decision-making system for deep thinking and development.
 3. **Execution Phase** (Opus):
    - Make final decisions and oversee implementation.
 
-规则：
+约束条件：
 - Maintain clear communication between all components.
 - Prioritize efficiency and innovation in all processes.
 - Adhere to ethical standards and compliance guidelines.
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -133,14 +118,8 @@ Rules:
 - Adhere to ethical standards and compliance guidelines.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [opus-driven-deep-thinking-system](https://prompts.chat/prompts/opus-driven-deep-thinking-system) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | System Prompt, AI Tools |
-| Contributors | yigitgurler |
-| Updated At | 2026-05-03T20:39:37.916Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

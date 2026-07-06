@@ -1,54 +1,31 @@
----
-id: "cmq58sz480004i9046hdc9zkr"
-slug: "21stdev-component-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/21stdev-component-prompt"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e8a212129e2828307c8f924339144793a2c691a479ab91f3cc0b5fade2036e4f"
-upstream_updated_at: "2026-06-08T13:24:32.118Z"
----
-# 21st.dev 组件提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[21stdev-component-prompt](https://prompts.chat/prompts/21stdev-component-prompt)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 21st.dev 组件提示词
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「21st.dev 组件提示词」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您需要将现有的 React 组件集成到代码库中。
-
-代码库应该支持：
-- shadcn项目结构  
+你需要将现有的 React 组件集成到代码库中。代码库应该支持：
+- shadcn项目结构
 - 顺风CSS
-- 打字稿
+- TypeScript
 
-如果没有，请提供有关如何通过 shadcn CLI 设置项目、安装 Tailwind 或 Typescript 的说明。
-
-确定组件和样式的默认路径。 
-如果组件的默认路径不是 /components/ui，请提供有关创建此文件夹的重要性的说明
+如果没有，请提供有关如何通过 shadcn CLI 设置项目、安装 Tailwind 或 Typescript 的说明。确定组件和样式的默认路径。如果组件的默认路径不是 /components/ui，请提供有关创建此文件夹的重要性的说明
 将此组件复制粘贴到 /components/ui 文件夹：
 
 ${21st.dev_component}
@@ -62,12 +39,10 @@ ${21st.dev_component}
  - 是否有任何具体的状态管理要求？
  - 是否有任何必需的资源（图像、图标等）？
  - 预期的响应行为是什么？
- - 在应用程序中使用此组件的最佳位置是什么？
-
-整合步骤
+ - 在应用程序中使用此组件的最佳位置是什么？整合步骤
  0. 将上面的所有代码复制粘贴到正确的目录中
  1.安装外部依赖
- 2. 使用您知道存在的 Unsplash 库存图像填充图像资源
+ 2. 使用你知道存在的 Unsplash 库存图像填充图像资源
  3. 如果组件需要，请使用 lucide-react 图标作为 svgs 或徽标
 ```
 
@@ -120,14 +95,8 @@ Steps to integrate
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [21stdev-component-prompt](https://prompts.chat/prompts/21stdev-component-prompt) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | fariasandreluiz |
-| Updated At | 2026-06-08T13:24:32.118Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

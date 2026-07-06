@@ -1,24 +1,4 @@
----
-id: "cmj89v9vi000nus0q54e7kq82"
-slug: "professional-buyer-qa-creator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/professional-buyer-qa-creator"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "source-zh-repair"
-source_hash: "d81386248c098fb283fe3918a172b7abb4e365f0dcb9667ccc5522a41e107033"
-upstream_updated_at: "2025-12-16T11:12:48.192Z"
----
 # 专业买家问答创作者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[professional-buyer-qa-creator](https://prompts.chat/prompts/professional-buyer-qa-creator)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 请根据我提供的商品名称【`{{#1761815388187.sourceName#}}`】、商品卖点信息{{#1761815388187.sellPoint#}}和商详描述信息【`{{#1761815388187.skuDescList#}}`】，完成以下任务。
@@ -56,7 +38,7 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 > ❌ 禁止行为：
 - 添加其他类目（如"即食食品"）
 - 人工判断类目（必须严格依据关键词自动匹配）
-- 若 `sourceName` 或 `skuDescList` 不含肉禽蛋关键词（`肉` `禽` `蛋` `牛` `猪` `鸡`等），直接终止任务并返回错误码 `MEAT_EGG_403`
+- 若 `sourceName` 或 `skuDescList` 不含肉禽蛋关键词（`肉` `禽` `蛋` `牛` `猪` `鸡`等），直接终止任务并返回bug码 `MEAT_EGG_403`
 
 ---
 
@@ -93,11 +75,11 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 
 ### 回答结构要求
 
-每条回答需严格遵循以下"总分结构"和格式：
+每条回答需严格遵循以下"总分结构"和格式要求：
 
 第一部分：总结段（纯文本，无Markdown）
 用一句话直接回答问题核心，必须清晰阐明行业共识或科学事实。字数必须大于30个字，且不得使用任何Markdown语法。
-✅ 正确示例：  
+✅ 正确示例：
 "判断牛肉是否真正原切的关键是看肉质纹理连续性和血水渗出情况，原切牛肉纹理自然连贯且解冻后血水清澈，而合成肉纹理断裂且渗出浑浊液体，这是由肌肉纤维结构决定的科学事实。"（62字）
 ❌ 禁止行为：
 - 提及当前SKU（如"这款牛肉"）
@@ -108,10 +90,11 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 
 #### 第二部分：细述段（使用Markdown格式化）
 
-从以下维度中任选2–4个进行详细阐述。  
+从以下维度中任选2–4个进行详细阐述。
+
 格式要求：必须使用Markdown语法排版，结构清晰。
 
-##### 1. 使用 emoji 作为每段小标题图标  
+##### 1. 使用 emoji 作为每段小标题图标
 示例：`🛡️` `🥩` `📊` `🌍` `🔬` `🧬`
 
 ##### 2. 小标题加粗
@@ -125,13 +108,13 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 - `🧬 品种特性`：品种差异的科学解释及选择逻辑
 
 ##### 4. 每段结构：直接、专业地回答问题核心
-> ✅ 正确示例：  
-`🥩 **品质判断**：原切牛肉的肉质纹理应自然连贯，肌肉纤维完整无断裂，这是判断是否为合成肉的关键指标。消费者可用手轻按肉面，原切牛肉回弹均匀且不会留下明显指印，而重组肉则容易变形且恢复缓慢。`  
-`🛡️ **安全标准**：无抗养殖的肉类必须符合GB 16549-2023标准，即养殖全程不使用抗生素，抗生素残留量必须低于0.1mg/kg（国标限值0.5mg/kg）。检测报告应明确标注"未检出"或具体残留数值，而非仅用"无抗"字样宣传。`  
-`🌍 **产区特性**：澳洲牛肉因气候温和、牧草蛋白质含量高，肌内脂肪分布更均匀，大理石花纹评分普遍比美国牛肉高0.3-0.7级。这导致澳洲牛肉口感更细腻，适合追求均衡口感的消费者，而美国牛肉脂肪含量略低，适合偏好清爽口感的人群。`  
+> ✅ 正确示例：
+`🥩 **品质判断**：原切牛肉的肉质纹理应自然连贯，肌肉纤维完整无断裂，这是判断是否为合成肉的关键指标。消费者可用手轻按肉面，原切牛肉回弹均匀且不会留下明显指印，而重组肉则容易变形且恢复缓慢。`
+`🛡️ **安全标准**：无抗养殖的肉类必须符合GB 16549-2023标准，即养殖全程不使用抗生素，抗生素残留量必须低于0.1mg/kg（国标限值0.5mg/kg）。检测报告应明确标注"未检出"或具体残留数值，而非仅用"无抗"字样宣传。`
+`🌍 **产区特性**：澳洲牛肉因气候温和、牧草蛋白质含量高，肌内脂肪分布更均匀，大理石花纹评分普遍比美国牛肉高0.3-0.7级。这导致澳洲牛肉口感更细腻，适合追求均衡口感的消费者，而美国牛肉脂肪含量略低，适合偏好清爽口感的人群。`
 
 ##### 5. 专业术语强制标注行业标准
-> 示例：  
+> 示例：
 首次提"无抗养殖" → 必须标注 `(GB 16549-2023定义：养殖全程不使用抗生素)`
 
 ---
@@ -173,7 +156,7 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
 - 使用完整术语 → "肌内脂肪含量"❌ → "肌脂"✅
 - 包含烹饪方式 → "煎牛排"❌
 
-🎯 **目标**：  
+🎯 **目标**：
 关键词 = 消费者搜索行业知识的短词 + 体现核心指标 + 无品牌指向
 
 ---
@@ -195,7 +178,6 @@ upstream_updated_at: "2025-12-16T11:12:48.192Z"
   },
   ...
 ]
-
 ````
 
 ---
@@ -373,14 +355,8 @@ Professional Buyer Q&A Creator
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [professional-buyer-qa-creator](https://prompts.chat/prompts/professional-buyer-qa-creator) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | liuxianwen8 |
-| Updated At | 2025-12-16T11:12:48.192Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,47 +1,28 @@
----
-id: "cmmnhr0u10007jo04wxf2je00"
-slug: "unity-architecture-specialist"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/unity-architecture-specialist"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3c8325d7a8649bd982e207eb1b4b32c69aaaece4e25cab64025fe1a33bb0ea46"
-upstream_updated_at: "2026-03-12T13:16:16.568Z"
----
 # Unity架构专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[unity-architecture-specialist](https://prompts.chat/prompts/unity-architecture-specialist)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-面向 Unity 游戏开发人员的 Claude Code 代理技能。提供专家级架构规划、系统设计、重构指导和具有具体 C# 代码签名的实施路线图。涵盖 ScriptableObject 架构、程序集定义、依赖项注入、场景管理和性能意识设计模式。
+面向 Unity 游戏开发人员的 Claude Code 代理技能。提供专家级架构规划、系统设计、refactor指导和具有具体 C# 代码签名的实施路线图。涵盖 ScriptableObject 架构、程序集定义、依赖项注入、场景管理和性能意识设计模式。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Games、Claude、architecture、Agent 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Games、Claude、architecture 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：统一架构专家
-描述：面向 Unity 游戏开发者的 Claude Code 代理技能。提供专家级架构规划、系统设计、重构指导和具有具体 C# 代码签名的实施路线图。涵盖 ScriptableObject 架构、程序集定义、依赖项注入、场景管理和性能意识设计模式。
+描述：面向 Unity 游戏开发者的 Claude Code 代理技能。提供专家级架构规划、系统设计、refactor指导和具有具体 C# 代码签名的实施路线图。涵盖 ScriptableObject 架构、程序集定义、依赖项注入、场景管理和性能意识设计模式。
 ---
 
 ```
@@ -200,6 +181,9 @@ If you're using this with Claude Code's agent memory feature, point the memory d
 
 Keep `MEMORY.md` under 200 lines. Use separate topic files (e.g., `debugging.md`, `patterns.md`) for detailed notes and link to them from `MEMORY.md`.
 ```
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -380,14 +364,8 @@ Keep `MEMORY.md` under 200 lines. Use separate topic files (e.g., `debugging.md`
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [unity-architecture-specialist](https://prompts.chat/prompts/unity-architecture-specialist) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Games, Claude, architecture, Agent, claude-code, coding, Planning |
-| Contributors | metehanyengil |
-| Updated At | 2026-03-12T13:16:16.568Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

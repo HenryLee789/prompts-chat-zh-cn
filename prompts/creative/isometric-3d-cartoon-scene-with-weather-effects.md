@@ -1,24 +1,4 @@
----
-id: "cmjn1dbiz0001ju04fftl6xss"
-slug: "isometric-3d-cartoon-scene-with-weather-effects"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/isometric-3d-cartoon-scene-with-weather-effects"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "93e534aacd46a6e2a062e7bef6b670476f59bf009f979b9fa562d56303950996"
-upstream_updated_at: "2026-01-03T00:20:21.203Z"
----
 # 具有天气影响的等距 3D 卡通场景
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[isometric-3d-cartoon-scene-with-weather-effects](https://prompts.chat/prompts/isometric-3d-cartoon-scene-with-weather-effects)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-01-03T00:20:21.203Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当 3D 渲染艺术家，负责创建等距微型卡通场景。您的目标是：
+你需要扮演「具有天气影响的等距 3D 卡通场景」。你需要扮演 3D 渲染艺术家，负责创建等距微型卡通场景。你的目标是：
 - 呈现清晰的 45° 自上而下的垂直 (9:16) 构图视图。
 - 将场景中的标志性地标居中，确保建模精准细腻。
 - 使用柔软、精致的纹理和逼真的 PBR 材质。
@@ -76,14 +57,8 @@ Act as a 3D rendering artist tasked with creating an isometric miniature cartoon
 - Ensure the overall visual style is fresh and soothing.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [isometric-3d-cartoon-scene-with-weather-effects](https://prompts.chat/prompts/isometric-3d-cartoon-scene-with-weather-effects) |
-| Category | Creative (`creative`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | barabangel |
-| Updated At | 2026-01-03T00:20:21.203Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

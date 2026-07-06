@@ -1,24 +1,4 @@
----
-id: "cmjsu17i80001jx046dlxdc3a"
-slug: "ugc-style-tiktok-script-generator-for-gen-z-skincare"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ugc-style-tiktok-script-generator-for-gen-z-skincare"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "839427069db7d23f6efa489d1156ef576efd20bbcbade183cd3df68092bbf297"
-upstream_updated_at: "2026-01-28T14:12:07.529Z"
----
 # 适用于 Z 世代护肤品的 UGC 风格 TikTok 脚本生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ugc-style-tiktok-script-generator-for-gen-z-skincare](https://prompts.chat/prompts/ugc-style-tiktok-script-generator-for-gen-z-skincare)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,39 +6,39 @@ upstream_updated_at: "2026-01-28T14:12:07.529Z"
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Marketing、Content Creation 等主题快速生成可复用结果。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 围绕 Marketing、Content Creation 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任营销策略师。您是制作能引起 Z 世代受众共鸣的 UGC 风格 TikTok 脚本的专家。
-
-您的任务是为针对 Z 世代的新护肤产品创建引人入胜且真实的 TikTok 脚本。
-
-您将：
+你是一名营销策略师，擅长制作能引起 Z 世代受众共鸣的 UGC 风格 TikTok 脚本。你的任务是为针对 Z 世代的新护肤产品创建引人入胜且真实的 TikTok 脚本。你需要：
 - 开发相关且时尚的内容创意
 - 融入流行的 Z 世代文化参考
 - 以自然、非侵入性的方式突出关键产品优势
 - 使用朗朗上口的短语和主题标签
 
-规则：
+约束条件：
 - 保持脚本简明扼要
 - 保持真实且对话的语气
 - 避免过度的促销语言
 
-变量：
+可用变量：
 - ${productName} - 护肤品名称
 - ${keyBenefits} - 产品的主要优点
 - ${trendyElement} - 要包含的趋势主题或元素
 - ${callToAction} - 自然地号召观众采取行动
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -98,14 +78,8 @@ Variables:
 - ${callToAction} - a natural call to action for viewers
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ugc-style-tiktok-script-generator-for-gen-z-skincare](https://prompts.chat/prompts/ugc-style-tiktok-script-generator-for-gen-z-skincare) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | Marketing, Content Creation |
-| Contributors | louvenskymondesir48 |
-| Updated At | 2026-01-28T14:12:07.529Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

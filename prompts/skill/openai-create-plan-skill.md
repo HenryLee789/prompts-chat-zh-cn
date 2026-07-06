@@ -1,24 +1,4 @@
----
-id: "cmjrlg1r1000ajp04094h3k05"
-slug: "openai-create-plan-skill"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/openai-create-plan-skill"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4237fe3b3ba3bee3c6a4184fbad518fda483a9239a9f30f41a994f930c2d67c3"
-upstream_updated_at: "2025-12-29T20:11:40.171Z"
----
 # OpenAI 创建计划技能
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[openai-create-plan-skill](https://prompts.chat/prompts/openai-create-plan-skill)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,23 @@ OpenAI的实验技能Codex AI Coding Assistant。来源：https://github.com/ope
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Skill、Planning 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、Planning 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：创建计划
-描述：创建一个简洁的计划。当用户明确要求提供与编码任务相关的计划时使用。
-元数据：
+描述：创建一个简洁的计划。当用户明确要求提供与编码任务相关的计划时使用。元数据：
   简短描述：制定计划
 ---
 
@@ -72,7 +52,7 @@ OpenAI的实验技能Codex AI Coding Assistant。来源：https://github.com/ope
    - 然后提供一份行动项目的**小清单**（默认 6-10 项）。
       - 每个清单项目都应该是一个具体的行动，如果有帮助，请提及文件/命令。
       - **使项目原子化和有序**：发现→更改→测试→推出。
-      - **动词优先**：“添加...”、“重构...”、“验证...”、“发送...”。
+      - **动词优先**：“添加...”、“refactor...”、“验证...”、“发送...”。
    - 至少包括一项用于**测试/验证**的项目和一项用于**边缘情况/风险**的项目（如果适用）。
    - 如果存在未知问题，请添加一个很小的 ​​*开放问题** 部分（最多 3 个）。
 
@@ -206,14 +186,8 @@ Avoid:
 - Writing code snippets (keep the plan implementation-agnostic)
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [openai-create-plan-skill](https://prompts.chat/prompts/openai-create-plan-skill) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | Skill, Planning |
-| Contributors | beratcmn |
-| Updated At | 2025-12-29T20:11:40.171Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

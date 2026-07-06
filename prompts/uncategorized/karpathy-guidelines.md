@@ -1,53 +1,33 @@
----
-id: "cmny4rpjq0003jy08nopcvben"
-slug: "karpathy-guidelines"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/karpathy-guidelines"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "89236aa4a73bf12fb59157e8c3a96b5f1cd21521192ad8843ce8360a89dbf0c3"
-upstream_updated_at: "2026-04-14T07:45:32.559Z"
----
 # karpathy-指南
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[karpathy-guidelines](https://prompts.chat/prompts/karpathy-guidelines)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-减少常见 LLM 编码错误的行为指南。在编写、审查或重构代码时使用，以避免过度复杂化，进行外科手术更改，提出假设并定义可验证的成功标准。
+减少常见 LLM 编码bug的行为指南。在编写、审查或refactor代码时使用，以避免过度复杂化，进行外科手术更改，提出假设并定义可验证的成功标准。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 refactoring、Best Practices、LLM、guidelines 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 refactoring、Best Practices、LLM 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
 名称：karpathy指南
-描述：减少常见 LLM 编码错误的行为指南。在编写、审查或重构代码时使用，以避免过度复杂化，进行外科手术更改，提出假设并定义可验证的成功标准。
-许可证：麻省理工学院
+描述：减少常见 LLM 编码bug的行为指南。在编写、审查或refactor代码时使用，以避免过度复杂化，进行外科手术更改，提出假设并定义可验证的成功标准。许可证：麻省理工学院
 ---
 
 # 卡帕蒂指南
 
-减少常见 LLM 编码错误的行为指南，源自 [Andrej Karpathy 对 LLM 编码陷阱的观察](https://x.com/karpathy/status/2015883857489522876)。
+减少常见 LLM 编码bug的行为指南，源自 [Andrej Karpathy 对 LLM 编码陷阱的观察](https://x.com/karpathy/status/2015883857489522876)。
 
 **权衡：** 这些指南偏重于谨慎而非速度。对于琐碎的任务，请运用判断力。
 
@@ -68,26 +48,20 @@ upstream_updated_at: "2026-04-14T07:45:32.559Z"
 - 没有超出要求的功能。
 - 没有一次性代码的抽象。
 - 没有未要求的“灵活性”或“可配置性”。
-- 对于不可能的情况没有错误处理。
-- 如果你写了 200 行，而实际可能是 50 行，那就重写它。
-
-问问自己：“高级工程师会说这过于复杂吗？”如果是，请简化。
+- 对于不可能的情况没有bug 处理。
+- 如果你写了 200 行，而实际可能是 50 行，那就重写它。问问自己：“高级工程师会说这过于复杂吗？”如果是，请简化。
 
 ## 3. 手术改变
 
-**仅触摸您必须触摸的内容。只清理你自己的烂摊子。**
+**仅触摸你必须触摸的内容。只清理你自己的烂摊子。**
 
 编辑现有代码时：
 - 不要“改进”相邻的代码、注释或格式。
-- 不要重构未损坏的东西。
-- 匹配现有风格，即使您会采取不同的做法。
-- 如果您发现不相关的死代码，请提及它 - 不要删除它。
-
-当您的更改产生孤儿时：
-- 删除您的更改未使用的导入/变量/函数。
-- 除非有要求，否则不要删除预先存在的死代码。
-
-测试：每条更改的行都应该直接跟踪到用户的请求。
+- 不要refactor未损坏的东西。
+- 匹配现有风格，即使你会采取不同的做法。
+- 如果你发现不相关的死代码，请提及它 - 不要删除它。当你的更改产生孤儿时：
+- 删除你的更改未使用的导入/变量/函数。
+- 除非有要求，否则不要删除预先存在的死代码。测试：每条更改的行都应该直接跟踪到用户的请求。
 
 ## 4. 目标驱动执行
 
@@ -95,12 +69,12 @@ upstream_updated_at: "2026-04-14T07:45:32.559Z"
 
 将任务转化为可验证的目标：
 -“添加验证”->“为无效输入编写测试，然后使它们通过”
--“修复错误”->“编写一个重现该错误的测试，然后使其通过”
--“重构X”->“确保测试前后通过”
+-“修复bug”->“编写一个重现该bug的测试，然后使其通过”
+-“refactorX”->“确保测试前后通过”
 
 对于多步骤任务，请陈述一个简要计划：
 \
-强大的成功标准让您可以独立循环。薄弱的标准（“使其发挥作用”）需要不断澄清。
+强大的成功标准让你可以独立循环。薄弱的标准（“使其发挥作用”）需要不断澄清。
 ```
 
 ---
@@ -182,14 +156,8 @@ For multi-step tasks, state a brief plan:
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [karpathy-guidelines](https://prompts.chat/prompts/karpathy-guidelines) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | refactoring, Best Practices, LLM, guidelines, coding |
-| Contributors | yazz4444 |
-| Updated At | 2026-04-14T07:45:32.559Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

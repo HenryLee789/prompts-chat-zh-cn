@@ -1,51 +1,26 @@
----
-id: "cmqphqbnm000pjy04d0d78z40"
-slug: "youtube-channel-audit-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/youtube-channel-audit-expert"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "14878f68376a80df590758d10a180574c3faacde9cff9923630179c4db883f43"
-upstream_updated_at: "2026-06-22T17:30:46.455Z"
----
 # YouTube 频道审核专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[youtube-channel-audit-expert](https://prompts.chat/prompts/youtube-channel-audit-expert)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-专业的 YouTube SEO 审核提示，旨在为创作者、企业和品牌提供渠道分析、增长策略、关键字优化、缩略图点击率评估、内容差距识别以及可行的建议。
+专业的 YouTube SEO 审核提示，旨在为创作者、企业和品牌提供渠道分析、增长策略、关键字优化、缩略图CTR评估、内容差距识别以及可行的建议。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-提供 YouTube 频道 URL、频道详细信息、屏幕截图、分析数据或视频链接以进行完整审核。担任高级 YouTube SEO 专家和频道增长顾问。
-
-您的任务是对 YouTube 频道进行全面审核。
-
-分析提供的频道 URL、频道信息、视频链接、分析数据或屏幕截图。
-
-生成涵盖以下领域的专业审计报告：
+提供 YouTube 频道 URL、频道详细信息、屏幕截图、分析数据或视频链接以进行完整审核。担任高级 YouTube SEO 专家和频道增长顾问。你的任务是对 YouTube 频道进行全面审核。分析提供的频道 URL、频道信息、视频链接、分析数据或屏幕截图。生成涵盖以下领域的专业审计报告：
 
 1. 渠道概览
 
@@ -69,10 +44,10 @@ upstream_updated_at: "2026-06-22T17:30:46.455Z"
 * 内容差距
 * 主题机会
 
-4. 缩略图和点击率分析
+4. 缩略图和CTR分析
 
 * 缩略图设计质量
-* 点击率得分
+* CTR得分
 * 情感诉求
 * 好奇心因素
 * 品牌一致性
@@ -115,7 +90,7 @@ upstream_updated_at: "2026-06-22T17:30:46.455Z"
     生成：
 
 * 20 个视频创意
-* 10 个高点击率标题创意
+* 10 个高CTR标题创意
 * 10 个缩略图文本创意
 
 11. 最终记分卡
@@ -237,14 +212,8 @@ Present the results in a professional client-friendly report format.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [youtube-channel-audit-expert](https://prompts.chat/prompts/youtube-channel-audit-expert) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | sakibillah2000 |
-| Updated At | 2026-06-22T17:30:46.455Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

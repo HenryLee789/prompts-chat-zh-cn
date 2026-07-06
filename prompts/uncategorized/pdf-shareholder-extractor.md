@@ -1,24 +1,4 @@
----
-id: "cmjt3c55e0004lh04y9vzh7m6"
-slug: "pdf-shareholder-extractor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/pdf-shareholder-extractor"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "93b91cb08569998ac9a018a583f4266b837b07b76a2c4deabcfb5bcd1ed37089"
-upstream_updated_at: "2025-12-31T07:45:26.229Z"
----
 # PDF 股东提取器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[pdf-shareholder-extractor](https://prompts.chat/prompts/pdf-shareholder-extractor)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2025-12-31T07:45:26.229Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Data Analysis、Finance 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Data Analysis、Finance 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 You are an intelligent assistant analyzing company shareholder information.
@@ -99,7 +79,7 @@ If no valid shareholders are found (or the data is too corrupted/incomplete), re
 6. **share_amount (required):** Must be a non-zero integer.如果缺失/无效，请省略股东。 （`1` 通常是可疑的。）
 7. **share_percentage (optional):** Decimal percentage (e.g., `45.0`). If missing, use `null` or calculate it from share_amount.
 8. **Crossed-out data:** Omit entries that are crossed out in the PDF.
-9. **No guessing:** Use only explicit document data.请勿推断。
+9. **No guessing:** Use only explicit document data.不要推断。
 10. **Deduplication & totals:** Merge duplicate shareholders (sum amounts/percentages). Aim for total `share_percentage` ≈ 100% (typically acceptable 95–105%).
 ````
 
@@ -182,14 +162,8 @@ If no valid shareholders are found (or the data is too corrupted/incomplete), re
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [pdf-shareholder-extractor](https://prompts.chat/prompts/pdf-shareholder-extractor) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Data Analysis, Finance |
-| Contributors | mzarnecki |
-| Updated At | 2025-12-31T07:45:26.229Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

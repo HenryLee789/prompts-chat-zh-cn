@@ -1,47 +1,28 @@
----
-id: "cmj9z33mi0001xt0qp39jin1b"
-slug: "comprehensive-repository-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-repository-analysis"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "69f28e6b2eab4c1f9f8111f8924fda2ea4a5f560dfbe5e384b593ca07b5c36ac"
-upstream_updated_at: "2026-01-08T19:51:10.448Z"
----
 # 全面的存储库分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-repository-analysis](https://prompts.chat/prompts/comprehensive-repository-analysis)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于Vibe Coding场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「全面的存储库分析」执行Vibe Coding 原型开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、Debugging、Code Review 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Agent、Debugging、Code Review 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   “任务”：“综合存储库分析”，
-  “目标”：“对整个代码库进行详尽的分析，以识别、确定优先级、修复和记录所有技术堆栈中的所有可验证的错误、安全漏洞和关键问题”，
+  “目标”：“对整个代码库进行详尽的分析，以识别、确定优先级、修复和记录所有技术堆栈中的所有可验证的bug、安全漏洞和关键问题”，
   “分析阶段”：[
     {
       “阶段”：1，
@@ -57,7 +38,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
             “文档入口点、主要执行路径和模块边界”，
             “分析构建系统（Webpack、Gradle、Maven、Make、CMake）”，
             “查看 CI/CD 配置（GitHub Actions、GitLab CI、Jenkins、CircleCI）”，
-            “检查现有文档（自述文件、贡献、API 规范、架构图）”
+            “检查现有文档（README、贡献、API 规范、架构图）”
           ]
         },
         {
@@ -76,8 +57,8 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
     },
     {
       “阶段”：2，
-      "name": "系统性错误发现",
-      “错误类别”：[
+      "name": "系统性bug发现",
+      “bug类别”：[
         {
           “类别”：“关键”，
           “严重性”：“P0”，
@@ -98,14 +79,14 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           “类别”：“功能性”，
           “严重性”：“P1-P2”，
           “类型”：[
-            “逻辑错误（不正确的条件、错误的计算、相差一的错误）”，
+            “逻辑bug（不正确的条件、bug的计算、相差一的bug）”，
             “状态管理问题（竞争条件、陈旧状态、不当突变）”，
             “API 合约或请求/响应映射不正确”，
             “输入验证缺失或不足”，
             “破坏业务逻辑或违反工作流程”，
             “数据转换或序列化不正确”，
             “类型不匹配或不安全的类型强制”，
-            “不正确的异常处理或错误传播”
+            “不正确的异常处理或bug传播”
           ]
         },
         {
@@ -113,10 +94,10 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           “严重性”：“P2”，
           “类型”：[
             “外部 API 使用不正确或端点过时”，
-            “数据库查询错误、SQL语法问题或N+1问题”，
+            “数据库查询bug、SQL语法问题或N+1问题”，
             “消息队列处理失败（RabbitMQ、Kafka、SQS）”，
 
-"文件系统操作错误（权限、路径遍历）",
+"文件系统操作bug（权限、路径遍历）",
             “网络通信问题（超时、重试、连接池）”，
             “缓存不一致或失效问题”，
             “第三方库误用或版本不兼容”
@@ -130,7 +111,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
             “空数组/列表/集合处理”，
             “零或负值边缘情况”，
             “边界条件（最大/最小整数，字符串长度限制）”，
-            “缺少错误处理或吞噬异常”，
+            “缺少bug 处理或吞噬异常”，
             “超时和重试逻辑失败”，
             “没有适当锁定的并发访问问题”，
             “数值运算中的上溢/下溢”
@@ -145,7 +126,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
             “循环依赖”，
             “性能瓶颈（低效算法、冗余操作）”，
             “类型注释缺失或不正确”，
-            “不一致的错误处理模式”，
+            “不一致的bug 处理模式”，
             “资源泄漏（文件句柄、数据库连接、网络套接字）”，
             “记录不当（敏感数据暴露、上下文不足）”
           ]
@@ -164,7 +145,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
     },
     {
       “阶段”：3，
-      "name": "错误文档和优先级",
+      "name": "bug文档和优先级",
       “bug_report_schema”：{
         "bug_id": "顺序标识符（BUG-001、BUG-002 等）",
         “严重性”：{
@@ -175,7 +156,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
             “中”，
             “低”
           ],
-          "description": "错误严重级别"
+          "description": "bug严重级别"
         },
         “类别”：{
           “类型”：“枚举”，
@@ -196,7 +177,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           "function": "具体函数或方法名称"
         },
         “描述”：{
-          "current_behavior": "出了什么问题或错误",
+          "current_behavior": "出了什么问题或bug",
           "expected_behavior": "应该发生什么",
           "root_cause": "损坏原因的技术解释"
         },
@@ -215,16 +196,16 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           "expected_result": "应该发生什么"
         },
         “验证”：{
-          "code_snippet": "显示错误的演示代码",
-          "test_case": "由于此错误而失败的测试",
+          "code_snippet": "显示bug的演示代码",
+          "test_case": "由于此bug而失败的测试",
           "logs_or_metrics": "来自日志或监控的证据"
         },
         “依赖项”：{
-          “相关错误”：[
+          “相关bug”：[
             “相关 BUG-ID 数组”
           ],
           “阻塞问题”：[
-            “必须首先修复的一系列错误”
+            “必须首先修复的一系列bug”
           ],
           “被阻止”：[
             “阻碍修复的外部因素”
@@ -300,21 +281,21 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
       ],
       “修复原则”：[
         “MINIMAL_CHANGE：进行正确解决问题的最小更改”，
-        “NO_SCOPE_CREEP：避免不相关的重构或功能添加”，
+        “NO_SCOPE_CREEP：避免不相关的refactor或功能添加”，
         “BACKWARDS_COMPATIBLE：保留现有的 API 合约，除非 bug 本身正在破坏”，
         “FOLLOW_CONVENTIONS：遵守项目现有的代码风格和模式”，
-        “DEFENSIVE_PROGRAMMING：添加防护以防止将来出现类似错误”，
+        “DEFENSIVE_PROGRAMMING：添加防护以防止将来出现类似bug”，
         "EXPLICIT_OVER_IMPLICIT: 通过代码结构和注释使意图清晰",
-        “FAIL_FAST：尽早验证输入并失败并显示明确的错误消息”
+        “FAIL_FAST：尽早验证输入并失败并显示明确的bug消息”
       ],
       “代码审查清单”：[
         “修复解决根本原因，而不仅仅是症状”，
         “所有边缘情况都得到妥善处理”，
-        “错误消息清晰、可操作，并且不会泄露敏感信息”，
+        “bug消息清晰、可操作，并且不会泄露敏感信息”，
 
 “性能影响是可以接受的（O(n) 就足够了，但没有 O(n²)）”，
         “彻底考虑安全影响”，
-        “没有新的编译器警告或 linting 错误”，
+        “没有新的编译器警告或 linting bug”，
         “测试涵盖了更改”，
         “文档已更新且准确”，
         “重大变更已明确标记且合理”，
@@ -328,7 +309,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
         “mandatory_tests_per_fix”：[
           {
             “类型”：“单元测试”，
-            "description": "针对特定错误修复的隔离测试",
+            "description": "针对特定bug修复的隔离测试",
             "coverage": "必须覆盖损坏的确切代码路径"
           },
           {
@@ -344,7 +325,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           {
             “类型”：“edge_case_tests”，
             "description": "涵盖边界条件和极端情况",
-            "coverage": "空值、空输入、限制、错误条件"
+            "coverage": "空值、空输入、限制、bug条件"
           }
         ]
       },
@@ -352,8 +333,8 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
         "description": "与语言无关的测试结构",
         “模板”：[
           "描述('BUG-{ID}: {描述}', () => {",
-          " test('重现原始错误', () => {",
-          “ // 该测试证明了该错误的存在”,
+          " test('重现原始bug', () => {",
+          “ // 该测试证明了该bug的存在”,
           " // 应该在修复之前失败，之后通过",
           “}）；”，
           "",
@@ -421,14 +402,14 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
       “修复文档要求”：[
         “更新内联代码注释，解释修复及其必要性”，
         “如果行为发生变化，请修改 API 文档”，
-        “使用错误修复条目更新 CHANGELOG.md”，
+        “使用bug修复条目更新 CHANGELOG.md”，
         “创建或更新故障排除指南”，
 
 “记录延迟/未解决问题的任何解决方法”，
         “如果修复需要用户操作，请添加迁移注释”
       ],
       “执行摘要模板”：{
-        "title": "错误修复报告 - {repository_name}",
+        "title": "bug修复报告 - {repository_name}",
         “元数据”：{
           "date": "ISO 8601 日期",
           "analyzer": "工具/人名",
@@ -446,7 +427,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           "lines_of_code": "整数"
         },
         “关键调查结果”：[
-          “发现的前 3-5 个最严重的错误及其修复”
+          “发现的前 3-5 个最严重的bug及其修复”
         ],
         “按类别修复摘要”：{
           “安全”：“计数”，
@@ -491,7 +472,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
         }
       },
       “可交付成果清单”：[
-        “所有错误均以标准化格式记录”，
+        “所有bug均以标准化格式记录”，
         “以最小范围实施修复”，
         “测试套件已更新并通过”，
         “文档已更新（代码、API、用户指南）”，
@@ -508,25 +489,25 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
       "name": "持续改进",
       “模式分析”：{
         “目标”：[
-          “识别代码库中重复出现的错误模式”，
-          “检测导致错误的架构问题”，
+          “识别代码库中重复出现的bug模式”，
+          “检测导致bug的架构问题”，
           “寻找测试策略中的差距”，
           “突出显示存在技术债务的领域”
         ],
         “输出”：[
-          “常见错误模式报告”，
+          “常见bug模式报告”，
           “预防措施建议”，
           “工装改进建议”，
-          《架构重构建议》
+          《架构refactor建议》
         ]
       },
       “监控建议”：{
         “metrics_to_track”：[
-          “随着时间的推移，错误发现率”，
+          “随着时间的推移，bug发现率”，
           “按严重程度解决问题的时间”，
-          “回归率（重新引入错误）”，
+          “回归率（重新引入bug）”，
           “测试覆盖率”，
-          “容易出现错误的区域中的代码搅动”，
+          “容易出现bug的区域中的代码搅动”，
           “依赖漏洞计数”
         ],
         “警报规则”：[
@@ -540,7 +521,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
           “在缺少的地方添加结构化日志记录”，
           “包括用于请求跟踪的相关 ID”，
           “记录与安全相关的事件”，
-          “确保错误日志包括堆栈跟踪和上下文”
+          “确保bug日志包括堆栈跟踪和上下文”
         ]
       }
     }
@@ -559,7 +540,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
   ],
   “输出格式”：[
     {
-      “格式”：“降价”，
+      “格式”：“Markdown”，
       “目的”：“人类可读的文档和报告”，
       "filename_pattern": "bug_report_{日期}.md"
     },
@@ -571,7 +552,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
     },
     {
       “格式”：“csv”，
-      "目的": "导入错误跟踪系统（Jira、GitHub 问题）",
+      "目的": "导入bug跟踪系统（Jira、GitHub 问题）",
       "filename_pattern": "bugs_{日期}.csv",
       “列”：[
         “BUG-ID”，
@@ -600,7 +581,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
   },
   “成功标准”：{
     “定量”：[
-      “所有严重和高严重性错误均已解决”，
+      “所有严重和高严重性bug均已解决”，
       “测试覆盖率至少提高了 X%”，
       “依赖项零安全漏洞”，
       “所有测试均通过”，
@@ -610,7 +591,7 @@ upstream_updated_at: "2026-01-08T19:51:10.448Z"
       “代码库更易于维护”，
       “文档清晰且全面”，
       “团队可以自信地部署修复”，
-      “未来的错误预防机制已到位”，
+      “未来的bug预防机制已到位”，
       “开发速度提高”
     ]
   }
@@ -1205,14 +1186,8 @@ Comprehensive repository analysis
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-repository-analysis](https://prompts.chat/prompts/comprehensive-repository-analysis) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Agent, Debugging, Code Review |
-| Contributors | hocestnonsatis, ersinkoc |
-| Updated At | 2026-01-08T19:51:10.448Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjx3x8yv0007ju04obkqz4b3"
-slug: "the-aether-workshop"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-aether-workshop"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2b9017bf4e71f9cb0819bc8ee0cfa9570a334682c518c61e81cbd06929a83200"
-upstream_updated_at: "2026-01-02T16:47:40.718Z"
----
 # 以太坊
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-aether-workshop](https://prompts.chat/prompts/the-aether-workshop)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-02T16:47:40.718Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "以太工作室",
   "description": "两位发明家在阳光普照的蒸汽朋克工作室中合作创作发条杰作的充满活力、怀旧的快照。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留他们的核心相似性。以老式柯达彩色胶片的独特风格渲染场景，其特点是高对比度、丰富的饱和度和档案胶片颗粒。受试者 1（男性）是一名专注的蒸汽朋克机械师，正在摆弄黄铜自动机的齿轮。受试者 2（女性）是一名大胆的飞艇飞行员，靠在工作台上，检查一个复杂的装置。他们周围是一个混乱的、阳光明媚的车间，里面堆满了滴答作响的小玩意、蒸汽管道和散落的工具。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留他们的核心相似性。以老式柯达彩色胶片的独特风格渲染场景，其特点是高对比度、丰富的饱和度和档案胶片颗粒。受试者 1（男性）是一名专注的蒸汽朋克机械师，正在摆弄黄铜自动机的齿轮。受试者 2（女性）是一名大胆的飞艇飞行员，靠在工作台上，检查一个复杂的装置。他们周围是一个混乱的、阳光明媚的车间，里面堆满了滴答作响的小玩意、蒸汽管道和散落的工具。",
   “详细信息”：{
     "year": "另一个 1890 年代",
     “流派”：“柯达彩色”，
@@ -199,14 +179,8 @@ A vibrant, nostalgic snapshot of two inventors collaborating on a clockwork mast
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-aether-workshop](https://prompts.chat/prompts/the-aether-workshop) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-02T16:47:40.718Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

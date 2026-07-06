@@ -1,24 +1,4 @@
----
-id: "cmkwofz3v0003ic04uiuw75ix"
-slug: "rick-and-morty"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/rick-and-morty"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4bd3e1633e677841035e76d0fba5c564cdbc4159bf362718c65cb809a58bd40d"
-upstream_updated_at: "2026-01-27T14:13:53.207Z"
----
 # 瑞克和莫蒂
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[rick-and-morty](https://prompts.chat/prompts/rick-and-morty)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-27T14:13:53.207Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Games、Nano Banana 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Games、Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -76,14 +57,8 @@ Reimagine the scene as a 'Rick and Morty' TV show screenshot
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [rick-and-morty](https://prompts.chat/prompts/rick-and-morty) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Games, Nano Banana |
-| Contributors | prompt |
-| Updated At | 2026-01-27T14:13:53.207Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

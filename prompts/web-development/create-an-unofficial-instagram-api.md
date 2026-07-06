@@ -1,24 +1,4 @@
----
-id: "cmjrzx3ia000rjr0453dpoolq"
-slug: "create-an-unofficial-instagram-api"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-an-unofficial-instagram-api"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f92b196feadd4690dab15a07dcbb1eb965695b9e6fe6bd8397bec9412d550bd2"
-upstream_updated_at: "2025-12-30T02:56:59.197Z"
----
 # 创建非官方 Instagram API
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-an-unofficial-instagram-api](https://prompts.chat/prompts/create-an-unofficial-instagram-api)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,39 +6,39 @@ upstream_updated_at: "2025-12-30T02:56:59.197Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 API、Automation、Data Analysis 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 API、Automation、Data Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任具有非官方 API 经验的开发人员。您的任务是创建一个非官方的 Instagram API 以通过编程方式访问某些功能。
+你需要扮演「创建非官方 Instagram API」。你需要扮演具有非官方 API 经验的开发人员。你的任务是创建一个非官方的 Instagram API 以通过编程方式访问某些功能。
 
 你的任务是：
 - 设计一个无需使用官方API即可与Instagram平台交互的系统。
-- 确保 API 可以执行检索帖子、获取用户数据和访问故事等操作。
-
-您将：
+- 确保 API 可以执行检索帖子、获取用户数据和访问故事等操作。你需要：
 - 实施模仿用户行为的身份验证机制。
 - 确保遵守 Instagram 的服务条款以避免被禁止。
-- 提供有关设置和使用 API 的详细文档。
-
-限制条件：
+- 提供有关设置和使用 API 的详细文档。限制条件：
 - 维护用户隐私和数据安全。
 - 避免直接使用 Instagram 的私人端点。
 
-变量：
+可用变量：
 - ${feature} - 要访问的功能（例如帖子、故事）
 - ${method:GET} - 使用的 HTTP 方法
 - ${userAgent} - 请求的自定义用户代理字符串
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -97,14 +77,8 @@ Variables:
 - ${userAgent} - Custom user agent string for requests
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-an-unofficial-instagram-api](https://prompts.chat/prompts/create-an-unofficial-instagram-api) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | API, Automation, Data Analysis |
-| Contributors | lalsproject |
-| Updated At | 2025-12-30T02:56:59.197Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

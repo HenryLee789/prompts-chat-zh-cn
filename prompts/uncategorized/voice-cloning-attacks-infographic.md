@@ -1,62 +1,33 @@
----
-id: "cmm7a0fov0001l1048arusf59"
-slug: "voice-cloning-attacks-infographic"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/voice-cloning-attacks-infographic"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "302209c0acd2ad944eb6c1e2fa0a145879b4093d85333891be809ba18c362745"
-upstream_updated_at: "2026-03-01T04:55:12.817Z"
----
 # 语音克隆攻击信息图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[voice-cloning-attacks-infographic](https://prompts.chat/prompts/voice-cloning-attacks-infographic)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建一个清晰的、适合社交媒体的信息图，解释语音克隆攻击——它们是什么，
-他们通常如何在高层次上工作、常见的现实世界诈骗场景、警告信号以及
-实际的预防措施（例如，通过第二个渠道进行验证、使用家庭安全词、限制
-公共语音样本，启用帐户安全）。
-
-如何使用 1：在用户任务中：[将标题放入此] 2：然后照常继续提示的其余部分（样式、布局、颜色、内容和约束）。
+创建一个清晰的、适合社交媒体的信息图，解释语音克隆攻击——它们是什么， 他们通常如何在高层次上工作、常见的现实世界诈骗场景、警告信号以及 实际的预防措施（例如，通过第二个渠道进行验证、使用家庭安全词、限制 公共语音样本，启用帐户安全）。如何使用 1：在用户任务中：[将标题放入此] 2：然后照常继续提示的其余部分（样式、布局、颜色、内容和约束）。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 系统：
-您是LLM提示执行者。
-
-用户任务：
-为 TikTok 创建一个垂直的 9:16 信息图。
-
-标题（只有一个标题 — 将其显示在顶部）：
+你是LLM提示执行者。用户任务：
+为 TikTok 创建一个垂直的 9:16 信息图。标题（只有一个标题 — 将其显示在顶部）：
 [欺诈手册：语音克隆攻击 (2026)]
 
 布局（选择一项）：
 【1-10盒】
-准确选择一个。带圆圈数字的数字框。自上而下流动。
-
-内容规则：
+准确选择一个。带圆圈数字的数字框。自上而下流动。内容约束条件：
 每个盒子必须包含：
 - 1 个短副标题
 - 2–4 个要点（简单的英语，手机可读）
@@ -70,13 +41,9 @@ upstream_updated_at: "2026-03-01T04:55:12.817Z"
 - 特异性：每个盒子至少包含 1 个具体细节。
 - 无填充物：避免含糊的警告。
 - 证据纪律：将不确定的主张标记为“不清楚/有争议”。
-- 不重复。阅读清晰且快速。
-
-文字质量要求：
+- 不重复。阅读清晰且快速。文字质量要求：
 - 项目符号最多 10-12 个单词。
-- 优选 1-6 个框以获得最佳可读性。
-
-页脚信用（底部小/微妙）：
+- 优选 1-6 个框以获得最佳可读性。页脚信用（底部小/微妙）：
 作者：加密爵士
 
 输出要求：
@@ -86,9 +53,9 @@ upstream_updated_at: "2026-03-01T04:55:12.817Z"
 ...
 页脚（小）：作者：SirCrypto
 
-然后严格遵循下面的样式规范（请勿更改）：
+然后严格遵循下面的样式规范（不要更改）：
 
---- 样式规范（请勿更改）---
+--- 样式规范（不要更改）---
 {
   “布局选项”：{
     "box_variants": ["1-2 框", "1-4 框", "1-6 框", "1-8 框", "1-10 框"],
@@ -351,14 +318,8 @@ Then follow the STYLE SPEC below exactly (DO NOT CHANGE it):
 make picture based on these
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [voice-cloning-attacks-infographic](https://prompts.chat/prompts/voice-cloning-attacks-infographic) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | SirCrypto |
-| Updated At | 2026-03-01T04:55:12.817Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

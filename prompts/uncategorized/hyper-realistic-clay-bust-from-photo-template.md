@@ -1,24 +1,4 @@
----
-id: "cmj5ktagw0002vq0rfjspihzv"
-slug: "hyper-realistic-clay-bust-from-photo-template"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/hyper-realistic-clay-bust-from-photo-template"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4822de607700a1266c73454d552705a3e9f3dbe2fc33da1f582c4dc2cb215045"
-upstream_updated_at: "2025-12-16T11:12:10.407Z"
----
 # 照片模板中的超现实粘土半身像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[hyper-realistic-clay-bust-from-photo-template](https://prompts.chat/prompts/hyper-realistic-clay-bust-from-photo-template)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,29 +6,25 @@ upstream_updated_at: "2025-12-16T11:12:10.407Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-Use the uploaded photo as the only identity reference.将人物转变成超现实的手工粘土（橡皮泥）半身雕塑。
-
-主题
+Use the uploaded photo as the only identity reference.将人物转变成超现实的手工粘土（橡皮泥）半身雕塑。主题
 - Create a bust only: head + neck + upper shoulders (no full body).
 - Keep the person clearly recognizable: same facial proportions, eyes, nose, lips, jawline, hairstyle.
 - 保留上传照片的原始面部表情和大致头部角度。
-- 不美化，不改变年龄。
-
-真正的粘土材料（必须看起来是实体的）
+- 不美化，不改变年龄。真正的粘土材料（必须看起来是实体的）
 - Must look like real modeling clay, not CGI, not porcelain, not wax.
 - Show subtle hand-made realism: faint fingerprints, tiny tool marks, soft smudges, gentle dents, slight seam lines where clay pieces meet.
 - 添加逼真的粘土表面行为：哑光蜡质光泽、微观纹理、微小的灰尘斑点、轻微的不均匀厚度。
@@ -62,9 +38,7 @@ SCULPTING DETAILS
 COLOR & FINISH
 - 适合皮肤和嘴唇的天然粘土调色板；粘土般的头发（不是真正的头发）。
 - 如果涂漆，它必须看起来是手绘的：轻微的颜料变化、温和的刷子纹理、微小的瑕疵。
-- 除非上传的照片中明确存在，否则不得有额外配件。
-
-摄影风格（使其看起来像真实的产品照片）
+- 除非上传的照片中明确存在，否则不得有额外配件。摄影风格（使其看起来像真实的产品照片）
 - Studio product photo of a physical sculpture: realistic 85mm lens look, natural depth of field.
 - 来自左前方的柔和漫射主光+微妙的边缘光，干净柔和的阴影。
 - 中性无缝背景：纯灰白色或浅灰色。
@@ -78,6 +52,9 @@ NEGATIVE CONSTRAINTS
 - 无卡通/动漫风格。
 - 没有 3D 渲染外观、没有塑料玩具外观、没有瓷器、没有蜡像馆皮肤。
 - 无文字、无徽标、无水印。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -136,14 +113,8 @@ NEGATIVE CONSTRAINTS
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [hyper-realistic-clay-bust-from-photo-template](https://prompts.chat/prompts/hyper-realistic-clay-bust-from-photo-template) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | semihkislar |
-| Updated At | 2025-12-16T11:12:10.407Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjwwbsc80008l30434u6s77i"
-slug: "serene-mirror-selfie-portrait-in-sunlit-bedroom"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/serene-mirror-selfie-portrait-in-sunlit-bedroom"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e61f164c8db94cb733d6cc45764221c8e008b615381194929e5fa7e69f421f75"
-upstream_updated_at: "2026-01-02T13:14:53.319Z"
----
 # 阳光明媚的卧室里宁静的镜子自拍肖像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[serene-mirror-selfie-portrait-in-sunlit-bedroom](https://prompts.chat/prompts/serene-mirror-selfie-portrait-in-sunlit-bedroom)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-02T13:14:53.319Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -118,6 +100,9 @@ upstream_updated_at: "2026-01-02T13:14:53.319Z"
     "artifacts": "没有视觉伪影，没有绘画效果，没有 CGI 外观，也没有合成塑料皮肤"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -216,14 +201,8 @@ Create a detailed indoor lifestyle portrait with a mirror-selfie aesthetic, capt
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [serene-mirror-selfie-portrait-in-sunlit-bedroom](https://prompts.chat/prompts/serene-mirror-selfie-portrait-in-sunlit-bedroom) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2026-01-02T13:14:53.319Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,56 +1,36 @@
----
-id: "cmk2mp6ra0001l704179q5un7"
-slug: "technical-codebase-discovery-onboarding-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/technical-codebase-discovery-onboarding-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b5edd4f77f250dc315cd6e6ab07db80da716ba1ee6316f6b00f125f7e52830af"
-upstream_updated_at: "2026-01-06T13:34:34.562Z"
----
-# 技术代码库发现和入门提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[technical-codebase-discovery-onboarding-prompt](https://prompts.chat/prompts/technical-codebase-discovery-onboarding-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 技术代码库发现和入门提示词
 
 ## 中文说明
 
-旨在指导对代码存储库进行深入技术分析以加速开发人员入门的提示。它指导人工智能分析整个代码库并生成结构化的 Markdown 文档，涵盖架构、技术堆栈、关键组件、执行和数据流、集成、测试、安全性和构建/部署，作为技术参考指南。
+旨在指导对代码存储库进行深入技术分析以加速开发人员入门的提示。它指导AI分析整个代码库并生成结构化的 Markdown 文档，涵盖架构、技术堆栈、关键组件、执行和数据流、集成、测试、安全性和构建/部署，作为技术参考指南。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-**上下文：**  
-我是一名刚刚加入该项目的开发人员，我正在使用你这个人工智能编码助手来深入了解现有的代码库。我的目标是尽快提高生产力，并根据对当前系统的深入了解做出明智的技术决策。
+**上下文：**
+我是一名刚刚加入该项目的开发人员，我正在使用你这个AI编码助手来深入了解现有的代码库。我的目标是尽快提高生产力，并根据对当前系统的深入了解做出明智的技术决策。
 
-**主要目标：**  
-分析该项目/工作区中提供的源代码，并生成**详细、清晰且结构良好的 Markdown 文档**，解释系统的架构、功能、主要流程、关键组件和技术堆栈。  
-本文档应作为**技术入门指南**。  
-只要有可能，通过提供**相关文件、类和函数的直接链接**以及有助于阐明概念的代码示例来提高导航性。
+**主要目标：**
+分析该项目/工作区中提供的源代码，并生成**详细、清晰且结构良好的 Markdown 文档**，解释系统的架构、功能、主要流程、关键组件和技术堆栈。本文档应作为**技术入门指南**。只要有可能，通过提供**相关文件、类和函数的直接链接**以及有助于阐明概念的代码示例来提高导航性。
 
 ---
 
 ## **详细说明 - 请解决以下几点：**
 
-### 1. **自述文件/说明文件摘要**
+### 1. **README/说明文件摘要**
 - 查找 `README.md`、`LEIAME.md`、`CONTRIBUTING.md` 等文件或类似文档。
 - 为新开发人员提供最相关部分的客观而详细的摘要，包括：
   - 项目概况
@@ -85,17 +65,17 @@ upstream_updated_at: "2026-01-06T13:34:34.562Z"
 ---
 
 ### 4. **项目结构和阅读建议**
-- **入口点：**  
-  我应该从哪里开始探索代码？确定主要入口点（例如，`main.go`、`index.js`、`Program.cs`、`app.py`、`Application.java`）。  
+- **入口点：**
+  我应该从哪里开始探索代码？确定主要入口点（例如，`main.go`、`index.js`、`Program.cs`、`app.py`、`Application.java`）。
   **提供这些文件的直接链接。**
-- **总组织：**  
-  解释总体文件夹和文件结构。突出显示重要的约定。  
+- **总组织：**
+  解释总体文件夹和文件结构。突出显示重要的约定。
   **使用真实的文件夹和文件名示例。**
-- **配置：**  
-  有主要的配置文件吗？ （例如，`config.yaml`、`.env`、`appsettings.json`）  
-  哪些配置是关键的？  
+- **配置：**
+  有主要的配置文件吗？ （例如，`config.yaml`、`.env`、`appsettings.json`）
+  哪些配置是关键的？
   **提供链接。**
-- **阅读推荐：**  
+- **阅读推荐：**
   建议首先阅读的顺序或一组关键文件/模块，以快速掌握项目的核心概念。
 
 ---
@@ -127,13 +107,11 @@ upstream_updated_at: "2026-01-06T13:34:34.562Z"
 ---
 
 ### 7. **依赖关系和集成**
-- **依赖关系：**  
-  列出使用的主要外部库、框架和 SDK。  
-  简单解释一下每一项的作用。  
+- **依赖关系：**
+  列出使用的主要外部库、框架和 SDK。简单解释一下每一项的作用。
   **提供它们的配置位置或最常用位置的链接。**
-- **集成：**  
-  识别并解释与外部服务、附加数据库、第三方 API、消息代理等的集成。  
-  沟通是如何发生的？  
+- **集成：**
+  识别并解释与外部服务、附加数据库、第三方 API、消息代理等的集成。沟通是如何发生的？
   **指向负责的模块/类并包含链接。**
 
 #### 7.1 **API 文档（如果适用）**
@@ -168,8 +146,8 @@ upstream_updated_at: "2026-01-06T13:34:34.562Z"
 
 ---
 
-### 10. **错误处理和日志记录**
-- 应用程序通常如何处理错误？
+### 10. **bug 处理和日志记录**
+- 应用程序通常如何处理bug？
   - 是否有标准模式（例如，全局中间件、自定义异常）？
 - 使用哪个日志库？
 - 是否有标准的日志格式？
@@ -220,15 +198,12 @@ upstream_updated_at: "2026-01-06T13:34:34.562Z"
 ---
 
 ### **重要**
-分析必须考虑**项目中的所有文件**。  
-阅读并理解完全执行此任务所需的**所有必要文件**并完全了解系统。
+分析必须考虑**项目中的所有文件**。阅读并理解完全执行此任务所需的**所有必要文件**并完全了解系统。
 
 ---
 
 ### **行动**
-请分析我的环境/工作空间中当前可用的源代码并根据要求生成 Markdown 文档。
-
-输出文件名必须遵循以下格式：  
+请分析我的环境/工作空间中当前可用的源代码并根据要求生成 Markdown 文档。输出文件名必须遵循以下格式要求：
 `<yyyy-mm-dd-project-name-app-dev-discovery_cursor.md>`
 ```
 
@@ -442,14 +417,8 @@ The output file name must follow this format:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [technical-codebase-discovery-onboarding-prompt](https://prompts.chat/prompts/technical-codebase-discovery-onboarding-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | valdecircarvalho |
-| Updated At | 2026-01-06T13:34:34.562Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

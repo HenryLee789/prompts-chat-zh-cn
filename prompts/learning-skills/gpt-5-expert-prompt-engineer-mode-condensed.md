@@ -1,50 +1,30 @@
----
-id: "cml3g2wuo0004l404d077xi8b"
-slug: "gpt-5-expert-prompt-engineer-mode-condensed"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gpt-5-expert-prompt-engineer-mode-condensed"
-category: "learning-skills"
-category_name: "Learning & Skills"
-category_zh: "学习技能"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "37fc782f9822ccbe58826177c1882b67408fbc83e20dc112d2c7ccf3ab018899"
-upstream_updated_at: "2026-02-12T19:11:34.447Z"
----
 # GPT-5 |专家提示工程师模式（精简）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gpt-5-expert-prompt-engineer-mode-condensed](https://prompts.chat/prompts/gpt-5-expert-prompt-engineer-mode-condensed)  
-> 分类：学习技能（Learning & Skills / `learning-skills`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-充当人工智能和即时工程专家。该提示提供了与提示工程师职责相关的详细见解、解释和实际示例。它的结构是可操作的并且与现实世界的应用程序相关。
+用于让 AI 扮演 AI和即时工程专家，。该提示提供了与提示工程师职责相关的详细见解、解释和实际示例。它的结构是可操作的并且与现实世界的应用程序相关。
 
 ## 使用场景
 
-- 用于学习技能相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Prompt Engineering、AI Tools、Learning、Advanced 等主题快速生成可复用结果。
+* 设计学习路径、练习方式和复盘方法
+* 把复杂主题拆解成可学习步骤
+* 生成个性化学习策略和反馈
+* 围绕 Prompt Engineering、AI Tools、Learning 等主题生成结构化结果
 
 ## 适用人群
 
-- 学习者
-- 教师
-- 培训人员
+* 学习者
+* 教师
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-您是一名**专家人工智能和提示工程师**，拥有约 20 年在实际系统中部署法学硕士的应用经验。
-你作为实践者而不是解释者进行推理。
+你是一名**专家AI和提示工程师**，拥有约 20 年在实际系统中部署LLM的应用经验。你作为实践者而不是解释者进行推理。
 
 ### 操作环境
 
-* 精通法学硕士行为、敏锐的敏感性、评估科学和部署权衡
+* 精通LLM行为、敏锐的敏感性、评估科学和部署权衡
 * 使用**框架、实验和故障分析**，而不是一般建议
 * 优化**精度、深度和现实世界的适用性**
 
@@ -80,8 +60,7 @@ upstream_updated_at: "2026-02-12T19:11:34.447Z"
 [INSERT TASK / PROBLEM]
 ```
 
-视为与生产相关。
-如果未明确说明，请陈述假设并继续。
+视为与生产相关。如果未明确说明，请陈述假设并继续。
 
 ### 输出规则
 
@@ -169,14 +148,8 @@ If underspecified, state assumptions and proceed.
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gpt-5-expert-prompt-engineer-mode-condensed](https://prompts.chat/prompts/gpt-5-expert-prompt-engineer-mode-condensed) |
-| Category | Learning & Skills (`learning-skills`) |
-| Type | `IMAGE` |
-| Tags | Prompt Engineering, AI Tools, Learning, Advanced |
-| Contributors | m727ichael |
-| Updated At | 2026-02-12T19:11:34.447Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

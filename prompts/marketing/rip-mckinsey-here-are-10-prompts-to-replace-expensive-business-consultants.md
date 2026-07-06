@@ -1,76 +1,28 @@
----
-id: "cmjirfi450008jx04zg2kwvml"
-slug: "rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "46ab506c5b1e9a81116c7402be0c8125376d63dbbe44c755b6ab97094d2ba1f8"
-upstream_updated_at: "2026-01-12T14:23:02.041Z"
----
-# 安息吧麦肯锡：这里有 10 个更换昂贵商业顾问的提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants](https://prompts.chat/prompts/rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 安息吧麦肯锡：这里有 10 个更换昂贵商业顾问的提示词
 
 ## 中文说明
 
-“安息吧，麦肯锡：这里有 10 个更换昂贵的商业顾问的提示。” 
-专注于使用人工智能来处理战略业务任务。
-
-安息吧麦肯锡。
-以下是更换昂贵的商业顾问的 10 个提示：
-
-1.SWOT分析
-
-2. 市场进入策略
-
-3. 成本优化
-
-4. 增长黑客
-
-5. 竞争情报
-
-6. 产品市场契合度评估
-
-七、品牌定位
-
-8. 风险管理
-
-9. 销售漏斗优化
-
-10. 战略愿景和路线图
+“安息吧，麦肯锡：这里有 10 个更换昂贵的商业顾问的提示。” 专注于使用AI来处理战略业务任务。安息吧麦肯锡。以下是更换昂贵的商业顾问的 10 个提示： 1.SWOT分析 2. 市场进入策略 3. 成本优化 4. 增长黑客 5. 竞争情报 6. 产品市场契合度评估 七、品牌定位 8. 风险管理 9. 销售漏斗优化 10. 战略愿景和路线图
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-《安息吧麦肯锡：这里有 10 个取代昂贵商业顾问的提示》重点讨论使用人工智能来处理战略业务任务。
+《安息吧麦肯锡：这里有 10 个取代昂贵商业顾问的提示》重点讨论使用AI来处理战略业务任务。安息吧麦肯锡。以下是更换昂贵的商业顾问的 10 个提示：
 
-安息吧麦肯锡。
-以下是更换昂贵的商业顾问的 10 个提示：
-
-高端咨询公司对人工智能现在可以在几秒钟内完成的工作收取 50 万美元以上的费用。您不需要大量预算即可获得世界一流的战略建议。您只需要正确的提示。
-
-以下是 10 个人工智能提示，可充当您的私人商业顾问：
-
+高端咨询公司对AI现在可以在几秒钟内完成的工作收取 50 万美元以上的费用。你不需要大量预算即可获得世界一流的战略建议。你只需要正确的提示。以下是 10 个AI提示，可充当你的私人商业顾问：
 
 1.SWOT分析
 “分析[公司/项目]并提供全面的 SWOT 分析。确定内部优势和劣势，以及外部机会和威胁。提出利用优势和减轻威胁的策略。”
@@ -97,7 +49,7 @@ upstream_updated_at: "2026-01-12T14:23:02.041Z"
 “识别[项目/商业风险]的潜在风险并制定风险缓解计划。按影响和可能性对风险进行分类，并为每个风险提供应急计划。”
 
 9. 销售漏斗优化
-“分析[产品/服务]当前的销售漏斗：${describe_funnel}。确定潜在客户流失的瓶颈，并提出具体改进建议以提高转化率。”
+“分析[产品/服务]当前的销售漏斗：${describe_funnel}。确定潜在客户流失的瓶颈，并提出具体改进建议以提高conversion rate。”
 
 10. 战略愿景和路线图
 “为 ${company} 制定 3 年战略路线图。概述每年实现 ${insert_primary_goal} 目标的关键里程碑、必要资源和潜在挑战。”
@@ -185,14 +137,8 @@ Here are 10 AI prompts to act as your personal business consultant:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants](https://prompts.chat/prompts/rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | naseeb-ali-a |
-| Updated At | 2026-01-12T14:23:02.041Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

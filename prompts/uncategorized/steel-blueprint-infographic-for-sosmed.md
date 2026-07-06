@@ -1,70 +1,35 @@
----
-id: "cmm768nr10001l2046tnuhif4"
-slug: "steel-blueprint-infographic-for-sosmed"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/steel-blueprint-infographic-for-sosmed"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "59e081460341c661445772214d9ca0cd690a9ae2b4203e41a9aab6e25b7604ef"
-upstream_updated_at: "2026-03-01T03:43:56.176Z"
----
 # SosMed 的钢铁蓝图信息图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[steel-blueprint-infographic-for-sosmed](https://prompts.chat/prompts/steel-blueprint-infographic-for-sosmed)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建专为社交媒体（“SosMed”）设计的钢铁/工业蓝图风格的信息图表。
-最终结果应该像一个技术蓝图：干净的网格、精确的线条、带标签的标注、
-测量间距和现代工业外观。
-
-如何使用
-1：在用户任务中：[将您的标题放入此]
-2：然后照常继续提示的其余部分（样式、布局、颜色、内容和约束）。
+创建专为社交媒体（“SosMed”）设计的钢铁/工业蓝图风格的信息图表。最终结果应该像一个技术蓝图：干净的网格、精确的线条、带标签的标注、 测量间距和现代工业外观。如何使用 1：在用户任务中：[将你的标题放入此] 2：然后照常继续提示的其余部分（样式、布局、颜色、内容和约束）。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 系统：
-您是LLM提示执行者。
-
-用户任务：
-为 TikTok 创建一个垂直的 9:16 信息图，内容为：AI Deepfakes 和诈骗 (2026)。
-
-布局（选择一项）：
+你是LLM提示执行者。用户任务：
+为 TikTok 创建一个垂直的 9:16 信息图，内容为：AI Deepfakes 和诈骗 (2026)。布局（选择一项）：
 使用量：1-6盒
-带圆圈数字的数字框。从上到下、从左到右流动。
-
-内容规则：
+带圆圈数字的数字框。从上到下、从左到右流动。内容约束条件：
 每个盒子必须包含：
 - 1 个短副标题
 - 2–4 个要点（简单的英语，手机可读）
-至少包含 1 个示例。
-以 1 个可操作的要点/清单框结束。
-
-风格规则：
-严格遵循下面的风格规范。不要添加任何边框/框架。保持全出血。每个元素都保持相同的手绘风格。
-
-文字质量要求：
+至少包含 1 个示例。以 1 个可操作的要点/清单框结束。风格约束条件：
+严格遵循下面的风格规范。不要添加任何边框/框架。保持全出血。每个元素都保持相同的手绘风格。文字质量要求：
 - 所有文本必须是干净、可读的英文（没有乱码，没有随机字符）。
 - 仅使用短子弹；每个项目符号不要超过 10-12 个单词。
 - 如果布局为 1-8 或 1-10 框，请进一步减少文本或切换到 1-6 框以获得最大可读性。
@@ -79,7 +44,7 @@ upstream_updated_at: "2026-03-01T03:43:56.176Z"
 
 然后应用下面的样式规范。
 
---- 样式规范（请勿更改）---
+--- 样式规范（不要更改）---
 {
   “标题”：“”，
   “布局选项”：{
@@ -486,14 +451,8 @@ Then apply the style spec below.
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [steel-blueprint-infographic-for-sosmed](https://prompts.chat/prompts/steel-blueprint-infographic-for-sosmed) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | SirCrypto |
-| Updated At | 2026-03-01T03:43:56.176Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

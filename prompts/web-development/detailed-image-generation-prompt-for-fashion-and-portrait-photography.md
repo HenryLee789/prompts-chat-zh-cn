@@ -1,24 +1,4 @@
----
-id: "cmja83rif000cvd0rabzv0c2k"
-slug: "detailed-image-generation-prompt-for-fashion-and-portrait-photography"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/detailed-image-generation-prompt-for-fashion-and-portrait-photography"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "fd565218cd635c3fd7c7fe407f5eff780664d41304f4d593acc00242aa972553"
-upstream_updated_at: "2025-12-17T18:00:55.824Z"
----
-# 时尚和人像摄影的详细图像生成提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[detailed-image-generation-prompt-for-fashion-and-portrait-photography](https://prompts.chat/prompts/detailed-image-generation-prompt-for-fashion-and-portrait-photography)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 时尚和人像摄影的详细图像生成提示词
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2025-12-17T18:00:55.824Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -201,14 +182,8 @@ A comprehensive guide for generating detailed fashion and portrait photography i
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [detailed-image-generation-prompt-for-fashion-and-portrait-photography](https://prompts.chat/prompts/detailed-image-generation-prompt-for-fashion-and-portrait-photography) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Art |
-| Contributors | cipeberre |
-| Updated At | 2025-12-17T18:00:55.824Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

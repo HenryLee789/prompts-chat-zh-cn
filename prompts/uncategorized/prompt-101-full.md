@@ -1,46 +1,28 @@
----
-id: "cmox574yw0001i404zoaioajv"
-slug: "prompt-101-full"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prompt-101-full"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cbcec096d5db4e45d40cd9e63455cd4280167cf3ab8c657b66bd44f3772d4916"
-upstream_updated_at: "2026-05-08T16:51:05.242Z"
----
 # 提示101（已满）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prompt-101-full](https://prompts.chat/prompts/prompt-101-full)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「提示101（已满）」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 任务上下文
 
-您将扮演 ${role}。上下文是 ${context}。你的目标是${goal}，实现${sucess_criteria}。
+你将扮演 ${role}。上下文是 ${context}。你的目标是${goal}，实现${sucess_criteria}。
 
 # 语气语境
 
@@ -53,7 +35,7 @@ upstream_updated_at: "2026-05-08T16:51:05.242Z"
 
 # 详细的任务描述和规则
 
-以下是该任务的一些重要规则：
+以下是该任务的一些重要约束条件：
 - ${task_rule_1}
 - ${task_rule_2}
 -${task_rule_3}
@@ -70,7 +52,7 @@ ${example}
 
 # 对话历史记录
 
-以下是提问之前的对话历史记录（用户和您之间）：
+以下是提问之前的对话历史记录（用户和你之间）：
 <历史记录>${history}</历史记录>
 
 # 即时任务描述或请求
@@ -83,12 +65,11 @@ ${example}
 
 # 计划并深呼吸
 
-在做出回应之前，请先明智地考虑您的答案，并且先不要开始执行任务。相反，请向我提出澄清问题（如果可用，请使用“AskUserQuestion”工具），以便可以逐步完善该方法。然后给我您的执行计划（最多 5-10 个步骤），这样我们只有在一致后才开始工作。
-
+在做出回应之前，请先明智地考虑你的答案，并且先不要开始执行任务。相反，请向我提出澄清问题（如果可用，请使用“AskUserQuestion”工具），以便可以逐步完善该方法。然后给我你的执行计划（最多 5-10 个步骤），这样我们只有在一致后才开始工作。
 
 # 输出格式
 
-将您的回复放入 <response></response> 标签中。
+将你的回复放入 <response></response> 标签中。
 
 # 预填充响应（如果有）
 
@@ -167,14 +148,8 @@ Put your responde in <response></response> tags.
 ${response_tag}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prompt-101-full](https://prompts.chat/prompts/prompt-101-full) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | fariasandreluiz |
-| Updated At | 2026-05-08T16:51:05.242Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

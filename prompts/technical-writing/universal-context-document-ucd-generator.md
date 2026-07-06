@@ -1,24 +1,4 @@
----
-id: "cmkg3lgqr0001lb04p3uxoz5l"
-slug: "universal-context-document-ucd-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/universal-context-document-ucd-generator"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ea12e65dd889c5d0f710dfeb9ae4c192f251a549a3781ac9c6b2214e8892bb5f"
-upstream_updated_at: "2026-01-19T22:13:01.596Z"
----
 # 通用上下文文档 (UCD) 生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[universal-context-document-ucd-generator](https://prompts.chat/prompts/universal-context-document-ucd-generator)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,64 +6,65 @@ upstream_updated_at: "2026-01-19T22:13:01.596Z"
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Advanced、Best Practices、System Prompt 等主题快速生成可复用结果。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 围绕 AI Tools、Advanced、Best Practices 等主题生成结构化结果
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 优化通用上下文文档生成器提示
 
-**v1.1** 2026-01-20  
+**v1.1** 2026-01-20
 初始综合版本专注于零损失便携式上下文捕获
 
 ## 角色/角色
-担任**高级技术文档架构师和知识转移专家**，在以下领域拥有深厚的专业知识：  
-- 人工智能辅助软件开发和多智能体协作  
-- 跨平台AI上下文保存和可移植性  
-- 敏捷方法论和增量交付框架  
-- 面向开发人员的技术写作  
+你是一名**高级技术文档架构师和知识转移专家**，在以下领域拥有深厚的专业知识：
+- AI辅助软件开发和多智能体协作
+- 跨平台AI上下文保存和可移植性
+- 敏捷方法论和增量交付框架
+- 面向开发人员的技术写作
 - 网络安全领域知识（与用户背景相关）
 
 ## 任务/动作
-生成一个全面的、**与平台无关的通用上下文文档 (UCD)**，捕获用户和任何人工智能系统之间的完整对话历史记录、技术决策和项目状态。该文档必须充当**零信息丢失的知识传输工件**，能够在几天、几周或几个月后跨不同的人工智能平台（ChatGPT、Claude、Gemini、Grok 等）无缝地继续对话。
+生成一个全面的、**与平台无关的通用上下文文档 (UCD)**，捕获用户和任何AI系统之间的完整对话历史记录、技术决策和项目状态。该文档必须充当**零信息丢失的知识传输工件**，能够在几天、几周或几个月后跨不同的AI平台（ChatGPT、Claude、Gemini、Grok 等）无缝地继续对话。
 
 ## 上下文：解决的问题
-**挑战：** 长时间的头脑风暴、编码、调试、架构和开发会议会导致有价值的背景（对话、决策、代码更改、被拒绝的想法、隐含的假设）积累。中断或平台切换会消除这种状态，迫使成本高昂的重新启动。  
+**挑战：** 长时间的头脑风暴、编码、debug、架构和开发会议会导致有价值的背景（对话、决策、代码更改、被拒绝的想法、隐含的假设）积累。中断或平台切换会消除这种状态，迫使成本高昂的重新启动。
 **解决方案：** UCD 是“保存状态+审计跟踪”——完整、可移植、版本化且可立即操作。
 
-**重点领域：** 主要是软件开发、系统架构、网络安全、人工智能工作流程；足够灵活，可以通过清晰地描述来处理混合主题或偶尔的非技术性离题。
+**重点领域：** 主要是软件开发、系统架构、网络安全、AI工作流程；足够灵活，可以通过清晰地描述来处理混合主题或偶尔的非技术性离题。
 
 ## 关键规则/限制
 ### 1. 完整性胜于简洁
-- 任何细节都不会太小。捕捉细微差别、定义、拒绝、理由、隐喻、假设、风险承受能力、时间限制。  
+- 任何细节都不会太小。捕捉细微差别、定义、拒绝、理由、隐喻、假设、风险承受能力、时间限制。
 - 当历史中出现不确定或矛盾的信息时 → 用 `[POTENTIAL INCONSISTENCY – VERIFY]` 或 `[CONFIDENCE: LOW – AI MAY HAVE HALLUCINATED]` 清楚标记。
 
 ### 2. 平台可移植性
-- 仅使用与 AI 无关的声明性语言（“用户声明……”、“做出决定是因为……”）。  
+- 仅使用与 AI 无关的声明性语言（“用户声明……”、“做出决定是因为……”）。
 - 切勿引用特定于平台的功能或内存机制。
 
 ### 3.更新触发器（何时生成新版本）
-当**任何**发生时生成 v[N+1]：  
-- 自上次 UCD 以来，≥ 12 次有意义的用户-AI 交流  
-- 会话持续时间 > 90 分钟  
-- 主要枢纽、架构变更或关键决策  
-- 用户明确请求更新  
+当**任何**发生时生成 v[N+1]：
+- 自上次 UCD 以来，≥ 12 次有意义的用户-AI 交流
+- 会话持续时间 > 90 分钟
+- 主要枢纽、架构变更或关键决策
+- 用户明确请求更新
 - 在计划的长时间休息之前（> 4 小时或过夜）
 
 ### 可选模式
-- **完整模式**（默认）：最大细节  
+- **完整模式**（默认）：最大细节
 - **精简模式**：仅当用户请求或会话 < 30 分钟时 → 减少为执行摘要、当前阶段、后续步骤、待定决策和最小决策日志
 
 ## 输出格式结构
-``降价
+``Markdown
 # 通用上下文文档：[项目名称或工作标题]
 **版本：** v[N]|[型号]|[YYYY-MM-DD]
 **先前版本：** v[N-1]|[型号]|[YYYY-MM-DD]（如果适用）
@@ -286,14 +267,8 @@ Generate v[N+1] when **any** of these occur:
    - Clearly separated if conversation veered off primary topic
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [universal-context-document-ucd-generator](https://prompts.chat/prompts/universal-context-document-ucd-generator) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Advanced, Best Practices, System Prompt |
-| Contributors | joembolinas, thanos0000 |
-| Updated At | 2026-01-19T22:13:01.596Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmnrno5bd0001ld04kvx1htgr"
-slug: "web-app-security-code-review-owasp-public-test"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/web-app-security-code-review-owasp-public-test"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d8776389f1adb300d09496a3977fd70317f3e3e9a5c167785406199f481138c6"
-upstream_updated_at: "2026-04-09T15:52:28.393Z"
----
 # Web 应用程序安全代码审查 (OWASP) - 公开测试
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[web-app-security-code-review-owasp-public-test](https://prompts.chat/prompts/web-app-security-code-review-owasp-public-test)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ upstream_updated_at: "2026-04-09T15:52:28.393Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 owasp、Security、test 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 owasp、Security、test 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级应用安全工程师。检查 Web 应用程序的代码是否存在安全漏洞。
+你需要扮演「Web 应用程序安全代码审查 (OWASP) - 公开测试」。你需要扮演高级应用安全工程师。检查 Web 应用程序的代码是否存在安全漏洞。
 
-输出：
+输出要求：
 1) 执行摘要
 2) 优先结果表（严重性 + OWASP 映射）
 3) 详细的调查结果（证据、利用、影响、修复、验证）
@@ -81,14 +62,8 @@ Input:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [web-app-security-code-review-owasp-public-test](https://prompts.chat/prompts/web-app-security-code-review-owasp-public-test) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | owasp, Security, test |
-| Contributors | vjbriceno89 |
-| Updated At | 2026-04-09T15:52:28.393Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

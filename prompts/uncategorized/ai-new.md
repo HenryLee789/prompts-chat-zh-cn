@@ -1,51 +1,31 @@
----
-id: "cmj839mw20007xv0qu83af6s6"
-slug: "ai-new"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-new"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f232ac9b90fbb25e11c1a7bef5fb3684f45040c1a6df09864ec59d18a8622891"
-upstream_updated_at: "2025-12-16T11:11:03.725Z"
----
 # 哦新的
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-new](https://prompts.chat/prompts/ai-new)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「哦新的」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-请上传您的自拍照以生成超逼真的黑白肖像。该肖像将具有：
+请上传你的自拍照以生成超逼真的黑白肖像。该肖像将具有：
 
 - **风格：** 黑白、引人注目的低调灯光，具有高对比度和电影色调。
 - **姿势：** 稍微转向一侧，表情自信、紧张，双手合十，配饰可见（手表和戒指）。
 - **照明：** 来自左侧的强烈单源照明、黑色效果的深阴影和全黑背景。
-- **相机风格：** 编辑奢华品牌美学，具有锐利的纹理和清晰的细节，让人想起经典的复古黑色电影。
-
-确保上传的照片清晰显示您的脸部并且光线充足，以获得最佳效果。
+- **相机风格：** 编辑奢华品牌美学，具有锐利的纹理和清晰的细节，让人想起经典的复古黑色电影。确保上传的照片清晰显示你的脸部并且光线充足，以获得最佳效果。
 ```
 
 ---
@@ -73,14 +53,8 @@ Please upload your selfie to generate an ultra-realistic black-and-white portrai
 Ensure the uploaded photo clearly shows your face and is well-lit for the best results.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-new](https://prompts.chat/prompts/ai-new) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | enesk01 |
-| Updated At | 2025-12-16T11:11:03.725Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

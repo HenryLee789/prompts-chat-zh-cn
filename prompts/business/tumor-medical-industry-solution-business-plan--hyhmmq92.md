@@ -1,24 +1,4 @@
----
-id: "cmj9upf1f0001yz0shyhmmq92"
-slug: "tumor-medical-industry-solution-business-plan"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/tumor-medical-industry-solution-business-plan"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0cd18ad62e6d696c8d2e079b388b85928d1989b4b2f0e09e5956b0b6d3a2f853"
-upstream_updated_at: "2025-12-17T10:10:44.761Z"
----
 # 肿瘤医疗行业解决方案商业计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[tumor-medical-industry-solution-business-plan](https://prompts.chat/prompts/tumor-medical-industry-solution-business-plan)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-17T10:10:44.761Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -97,14 +79,8 @@ Develop a comprehensive business plan for a tumor medical industry solution star
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [tumor-medical-industry-solution-business-plan](https://prompts.chat/prompts/tumor-medical-industry-solution-business-plan) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | robertma7988 |
-| Updated At | 2025-12-17T10:10:44.761Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

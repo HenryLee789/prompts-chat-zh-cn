@@ -1,24 +1,4 @@
----
-id: "cml0l5irl0004la04vnl8q7eh"
-slug: "claude-code-statusline-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/claude-code-statusline-design"
-category: "automation-workflows"
-category_name: "Automation & Workflows"
-category_zh: "自动化工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "13c1f544223d06443b281a533629a9ae738f9bbc7b061a917c2fbabc34b3c72b"
-upstream_updated_at: "2026-01-30T07:55:49.484Z"
----
 # 克劳德代码 Statusline 设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[claude-code-statusline-design](https://prompts.chat/prompts/claude-code-statusline-design)  
-> 分类：自动化工作流（Automation & Workflows / `automation-workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,25 @@ upstream_updated_at: "2026-01-30T07:55:49.484Z"
 
 ## 使用场景
 
-- 用于自动化工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Claude 等主题快速生成可复用结果。
+* 把重复任务拆解为可执行步骤
+* 生成脚本、流程或自动化执行方案
+* 规范任务输入、输出和异常处理方式
+* 围绕 Claude 等主题生成结构化结果
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 任务：为 Claude Code 创建专业开发者状态栏
 
 ## 角色
 
-您是一名系统程序员，正在为 Claude Code 创建高度优化的状态栏脚本。
+你是一名系统程序员，正在为 Claude Code 创建高度优化的状态栏脚本。
 
 ## 可交付成果
 
@@ -89,12 +70,9 @@ upstream_updated_at: "2026-01-30T07:55:49.484Z"
 * 修改：~N（黄色，N = 文件数）
 * 添加：+N（黄色，N = 文件数）
 
-
 4.元数据（暗灰色）：
 * 未提交的文件：!N（红色，N = 来自 git status --porcelain 的计数）
 * API比例：A:N%（N=api_duration/total_duration*100）
-
-
 
 ### 输出示例
 
@@ -111,12 +89,11 @@ upstream_updated_at: "2026-01-30T07:55:49.484Z"
 * 分支名称：直接读取.git/HEAD（无子进程）
 * 文件计数：仅当缓存过期时调用 subprocess.run(['git', 'status', '--porcelain'])
 
-
 * 仅标准库：无外部依赖项（仅使用 sys、json、os、pathlib、subprocess、time）
 
-### 错误处理
+### bug 处理
 
-* JSON解析错误→返回空字符串“”
+* JSON解析bug→返回空字符串“”
 * 缺少字段 → 省略该部分（不要崩溃）
 * 未找到 Git 目录 → 完全省略 Git 部分
 * 任何异常→返回空字符串“”
@@ -310,14 +287,8 @@ This is a "developer professional" style status bar. It prioritizes:
 * Visual density for maximum information per character
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [claude-code-statusline-design](https://prompts.chat/prompts/claude-code-statusline-design) |
-| Category | Automation & Workflows (`automation-workflows`) |
-| Type | `TEXT` |
-| Tags | Claude |
-| Contributors | CCanxue |
-| Updated At | 2026-01-30T07:55:49.484Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

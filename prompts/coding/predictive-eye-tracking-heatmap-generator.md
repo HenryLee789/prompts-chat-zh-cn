@@ -1,24 +1,4 @@
----
-id: "cmj45oc1f0001t50qev8kwhqw"
-slug: "predictive-eye-tracking-heatmap-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/predictive-eye-tracking-heatmap-generator"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "015f4b401f3b8da7f429df44779fa064813beb6d2854f8ea5575449430275cac"
-upstream_updated_at: "2025-12-16T11:12:27.134Z"
----
 # 预测眼动追踪热图生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[predictive-eye-tracking-heatmap-generator](https://prompts.chat/prompts/predictive-eye-tracking-heatmap-generator)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2025-12-16T11:12:27.134Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -144,14 +125,8 @@ Analyze UI screenshots with cognitive science rules. Simulate user eye movements
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [predictive-eye-tracking-heatmap-generator](https://prompts.chat/prompts/predictive-eye-tracking-heatmap-generator) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | ilker |
-| Updated At | 2025-12-16T11:12:27.134Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

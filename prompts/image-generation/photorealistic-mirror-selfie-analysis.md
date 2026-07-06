@@ -1,24 +1,4 @@
----
-id: "cmjr224uc0001l804er7yv6jz"
-slug: "photorealistic-mirror-selfie-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/photorealistic-mirror-selfie-analysis"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7b49252822125d57f94fb28a0997c95c5fb3aa50bcaa950514b7ee88295e5068"
-upstream_updated_at: "2025-12-29T11:08:51.844Z"
----
 # 逼真的镜子自拍分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[photorealistic-mirror-selfie-analysis](https://prompts.chat/prompts/photorealistic-mirror-selfie-analysis)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-29T11:08:51.844Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -372,14 +354,8 @@ This structured JSON prompt analyzes a photorealistic mirror selfie with a moody
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [photorealistic-mirror-selfie-analysis](https://prompts.chat/prompts/photorealistic-mirror-selfie-analysis) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2025-12-29T11:08:51.844Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

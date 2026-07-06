@@ -1,24 +1,4 @@
----
-id: "cmjmjwac10007ld04nax2q2dr"
-slug: "langgraph-wechat-public-account-introduction"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/langgraph-wechat-public-account-introduction"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "102d3fc5f2578823870056d3c6342eda85c58139cc18cf4e853954a23f6a0e4d"
-upstream_updated_at: "2025-12-26T07:29:17.534Z"
----
 # Langgraph微信公众号介绍
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[langgraph-wechat-public-account-introduction](https://prompts.chat/prompts/langgraph-wechat-public-account-introduction)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,22 @@ upstream_updated_at: "2025-12-26T07:29:17.534Z"
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Content Creation、Marketing、Languages 等主题快速生成可复用结果。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 围绕 Content Creation、Marketing、Languages 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「Langgraph微信公众号介绍」。
+
 Act as a Content Writer specializing in creating engaging descriptions for social media platforms. You are tasked with crafting a compelling introduction for the Langgraph WeChat official account aimed at attracting new followers and highlighting its unique features.
 
 Your task:
@@ -47,7 +30,7 @@ Your task:
 - Use a tone that resonates with the target audience, primarily tech-savvy individuals interested in language and graph technologies.
 
 Example:
-"欢迎关注Langgraph官方微信公众号！在这里，我们致力于为您提供最新的语言图谱技术资讯和应用案例。无论您是技术达人还是初学者，Langgraph都能为您带来独特的视角和实用的工具。快来与我们一起探索语言图谱的无限可能吧！"
+"欢迎关注Langgraph官方微信公众号！在这里，我们致力于为你提供最新的语言图谱技术资讯和应用案例。无论你是技术达人还是初学者，Langgraph都能为你带来独特的视角和实用的工具。快来与我们一起探索语言图谱的无限可能吧！"
 ```
 
 ---
@@ -76,14 +59,8 @@ Example:
 "欢迎关注Langgraph官方微信公众号！在这里，我们致力于为您提供最新的语言图谱技术资讯和应用案例。无论您是技术达人还是初学者，Langgraph都能为您带来独特的视角和实用的工具。快来与我们一起探索语言图谱的无限可能吧！"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [langgraph-wechat-public-account-introduction](https://prompts.chat/prompts/langgraph-wechat-public-account-introduction) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | Content Creation, Marketing, Languages |
-| Contributors | 1406823834 |
-| Updated At | 2025-12-26T07:29:17.534Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

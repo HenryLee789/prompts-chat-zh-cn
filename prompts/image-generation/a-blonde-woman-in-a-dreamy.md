@@ -1,42 +1,23 @@
----
-id: "cmjt8dqjc000ejl04ra5xhunj"
-slug: "a-blonde-woman-in-a-dreamy"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/a-blonde-woman-in-a-dreamy"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "404c81dd9f8e58784551e24079f6e4bb34a28534e85b48cbb71a978e19a8b467"
-upstream_updated_at: "2025-12-30T23:41:21.085Z"
----
 # 一个金发碧眼的女人在梦幻中
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[a-blonde-woman-in-a-dreamy](https://prompts.chat/prompts/a-blonde-woman-in-a-dreamy)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「一个金发碧眼的女人在梦幻中」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Grok 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Grok 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 一位金发女郎处于梦幻、空灵的摄影场景中，具有灯光效果和超现实元素。
@@ -60,14 +41,8 @@ A blonde woman in a dreamy
 A blonde woman in a dreamy, ethereal photographic scene with light effects and surreal elements.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [a-blonde-woman-in-a-dreamy](https://prompts.chat/prompts/a-blonde-woman-in-a-dreamy) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Grok |
-| Contributors | akykaan |
-| Updated At | 2025-12-30T23:41:21.085Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

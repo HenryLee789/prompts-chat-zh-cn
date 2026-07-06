@@ -1,42 +1,23 @@
----
-id: "cmjyohh2b0005jj04y69ofib3"
-slug: "minimalist-editorial-beauty-analysis-with-turkish-model"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/minimalist-editorial-beauty-analysis-with-turkish-model"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d1d173b6da3d5901802c536ccac32e0314003fd1592c4437f6ea72105e3a3a04"
-upstream_updated_at: "2026-01-03T19:10:53.572Z"
----
 # 土耳其模特的极简主义编辑美容分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[minimalist-editorial-beauty-analysis-with-turkish-model](https://prompts.chat/prompts/minimalist-editorial-beauty-analysis-with-turkish-model)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示将指导您创建以土耳其女模特为特色的简约编辑美容分析。它侧重于自然而微妙的地中海-安纳托利亚面部特征，使用部分进行具有高真实感和干净的工作室照明的详细美容摄影。版面包括素颜肖像和化妆肖像、详细的面部特征描述以及当代伊斯坦布尔时尚造型，所有这些都以杂志社论格式和现代排版进行设置。
+此提示将指导你创建以土耳其女模特为特色的简约编辑美容分析。它侧重于自然而微妙的地中海-安纳托利亚面部特征，使用部分进行具有高真实感和干净的工作室照明的详细美容摄影。版面包括素颜肖像和化妆肖像、详细的面部特征描述以及当代伊斯坦布尔时尚造型，所有这些都以杂志社论格式和现代排版进行设置。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Fashion 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Art、Fashion 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -75,14 +56,8 @@ This prompt guides you to create a minimalist editorial beauty analysis featurin
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [minimalist-editorial-beauty-analysis-with-turkish-model](https://prompts.chat/prompts/minimalist-editorial-beauty-analysis-with-turkish-model) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Art, Fashion |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-03T19:10:53.572Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

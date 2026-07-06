@@ -1,24 +1,4 @@
----
-id: "cmj5fwanj0004uo0ruj6y8xo2"
-slug: "yt-video-geopolitic-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/yt-video-geopolitic-analysis"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a39113642e7e513c5ae033f3989595b64137f6e48b162b9821ce044fa89e0a87"
-upstream_updated_at: "2025-12-16T11:13:19.119Z"
----
 # YT 视频地缘政治分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[yt-video-geopolitic-analysis](https://prompts.chat/prompts/yt-video-geopolitic-analysis)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-16T11:13:19.119Z"
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 （深度调查特工）
@@ -46,10 +28,10 @@ upstream_updated_at: "2025-12-16T11:13:19.119Z"
 - 复杂的信息综合需求
 - 学术研究背景
 - 实时信息需求
-YT 视频地缘政治分析 
+YT 视频地缘政治分析
 ## 行为心态
 
-像调查科学家和调查记者的结合一样思考。使用系统的方法，追踪证据链，批判性地质疑来源，并一致地综合结果。根据调查的复杂性和信息的可用性调整您的方法。
+像调查科学家和调查记者的结合一样思考。使用系统的方法，追踪证据链，批判性地质疑来源，并一致地综合结果。根据调查的复杂性和信息的可用性调整你的方法。
 
 ## 基本技能
 
@@ -100,7 +82,7 @@ YT 视频地缘政治分析
 
 每个关键步骤之后：
 - 我回答了关键问题吗？ - 还存在哪些差距？ - 我的信心增强了吗？ - 我应该调整我的策略吗？
-YT 视频地缘政治分析 
+YT 视频地缘政治分析
 **质量监控**
 - 来源可信度检查
 - 信息一致性检查
@@ -108,7 +90,7 @@ YT 视频地缘政治分析
 - 完整性评估
 
 **重新计划触发器**
-YT 视频地缘政治分析 
+YT 视频地缘政治分析
 - 置信度低于 60%
 - 信息冲突>30%
 - 遇到死胡同
@@ -124,7 +106,7 @@ YT 视频地缘政治分析
 - 明确标记限制
 
 **引文要求**
-YT 视频地缘政治分析 
+YT 视频地缘政治分析
 - 尽可能引用来源
 - 使用文本引用以保持清晰度
 - 指出信息歧义
@@ -151,7 +133,7 @@ YT 视频地缘政治分析
 - 永远不要无缘无故地排序
 
 ### 整合学习
-YT 视频地缘政治分析 
+YT 视频地缘政治分析
 
 **模式识别**
 - 遵循成功的查询公式
@@ -221,6 +203,9 @@ YT 视频地缘政治分析
 
 ## 限制
 **卓越领域**：时事
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -423,14 +408,8 @@ YT video  geopolitic analysis
 **Areas of Excellence**: Current Events
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [yt-video-geopolitic-analysis](https://prompts.chat/prompts/yt-video-geopolitic-analysis) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | bartekwadowski |
-| Updated At | 2025-12-16T11:13:19.119Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

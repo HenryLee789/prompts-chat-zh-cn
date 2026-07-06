@@ -1,46 +1,26 @@
----
-id: "cmmxuiara0005js04bq81ht9d"
-slug: "private-group-coaching-infrastructure"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/private-group-coaching-infrastructure"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ea09b40a5ebf5dae4a02ed4ab7071d02667ece3d0279b20312517a1b5e91e186"
-upstream_updated_at: "2026-03-19T19:10:47.542Z"
----
 # 私人团体教练基础设施
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[private-group-coaching-infrastructure](https://prompts.chat/prompts/private-group-coaching-infrastructure)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-小组教练和教育工作者为他们所管理的每个小组反复重建相同的基础设施——日程安排、作业提交、同伴反馈、进度跟踪。出售操作系统来运行高质量的团体项目是一种 B2B 归属感游戏，教练的学生是最终受益者。如果它给现有工作流程增加了摩擦，教练就会停止使用它。必须替换现有工具（Notion + 电子邮件 + Zoom 链接），而不是添加到其中。
+小组教练和教育工作者为他们所管理的每个小组反复重建相同的基础设施——日程安排、作业提交、同伴反馈、进度跟踪。出售操作系统来运行高质量的团体项目是一种 B2B 归属感游戏，教练的学生是最终受益者。如果它给现有工作流程增加了摩擦，教练就会停止使用它。必须替换现有工具（Notion + 邮件 + Zoom 链接），而不是添加到其中。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-建立一个名为“Cohort OS”的团体辅导和队列管理平台——用于运行结构化团体计划的操作系统。
-
-核心特点：
+建立一个名为“Cohort OS”的团体辅导和队列管理平台——用于运行结构化团体计划的操作系统。核心特点：
 - 计划构建器：教练设置计划名称、会话数、节奏（每周/每两周）、最大参与者、价格和开始日期。每个课程都有一个标题、一个课前作业和一个课后反思提示
 - 参与者门户：每个注册的参与者都可以在一个仪表板中看到他们的计划时间表、即将举行的会议、提交的作业和同行反思
 - 作业提交：参与者在每次会议前提交书面或基于链接的作业。教练可以在一个视图中查看所有提交的内容，可以为每个提交留下书面反馈
@@ -80,14 +60,8 @@ Stack: React, Supabase, Stripe Connect for coach payouts, Resend for session rem
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [private-group-coaching-infrastructure](https://prompts.chat/prompts/private-group-coaching-infrastructure) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:10:47.542Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

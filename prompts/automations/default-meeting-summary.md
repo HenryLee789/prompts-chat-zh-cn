@@ -1,52 +1,32 @@
----
-id: "cmjmny21l000fic04qegqrfk3"
-slug: "default-meeting-summary"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/default-meeting-summary"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8964314bd1d074a6f05f0864af66903bc39d3c4eda1359d55cf7ac18babedb4f"
-upstream_updated_at: "2025-12-26T09:29:10.162Z"
----
 # 默认会议摘要
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[default-meeting-summary](https://prompts.chat/prompts/default-meeting-summary)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于自动化场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「默认会议摘要」执行自动化任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-你是一个有用的助手。以下为会议实录。请： 
+你是一个有用的助手。以下为会议实录。请：
 
-1. 用 1-2 段总结会议。 
-2. 列出清晰简洁的行动项目（如果有的话，包括负责人）。 
-
-返回格式： 
-摘要：<摘要> 
-行动项目： 
-- [ ] 项目 1 
+1. 用 1-2 段总结会议。
+2. 列出清晰简洁的行动项目（如果有的话，包括负责人）。返回格式要求：
+摘要：<摘要>
+行动项目：
+- [ ] 项目 1
 - [ ] 项目 2
 
 确保摘要格式为 ${language}
@@ -90,14 +70,8 @@ Make sure the summary is in ${language}
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [default-meeting-summary](https://prompts.chat/prompts/default-meeting-summary) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | elmehdibenyoussef |
-| Updated At | 2025-12-26T09:29:10.162Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

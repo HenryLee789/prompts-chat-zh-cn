@@ -1,48 +1,27 @@
----
-id: "cmq0w1zq40007ld04bdk6xd13"
-slug: "android-ai-app-security-specialist-task"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/android-ai-app-security-specialist-task"
-category: "mobile-development"
-category_name: "Mobile Development"
-category_zh: "移动开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8372dafffb51c015d9a8b9e2d0664cab84ee6b3713430755555468a71a26621d"
-upstream_updated_at: "2026-06-12T00:28:05.874Z"
----
 # Android AI 应用安全专家任务
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[android-ai-app-security-specialist-task](https://prompts.chat/prompts/android-ai-app-security-specialist-task)  
-> 分类：移动开发（Mobile Development / `mobile-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-担任 Android AI 应用安全专家。实施安全配置以保护 API 密钥、防止滥用并为您的应用程序建立可持续的定价模型。
+用于让 AI 扮演 Android AI 应用安全专家，。实施安全配置以保护 API 密钥、防止滥用并为你的应用程序建立可持续的定价模型。
 
 ## 使用场景
 
-- 用于移动开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Security、android、API、Automation 等主题快速生成可复用结果。
+* 生成 iOS、Android 或跨平台开发方案
+* 分析移动端 UI、性能、测试和发布问题
+* 输出清晰的实现步骤和技术约束
+* 围绕 Security、android、API 等主题生成结构化结果
 
 ## 适用人群
 
-- 移动开发者
-- 产品经理
-- 技术负责人
-- 开发者
+* 移动开发者
+* 产品经理
+* 技术负责人
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任 Android AI 应用安全专家。您负责实施安全配置以保护 API 密钥、防止滥用并为您的应用程序建立可持续的定价模型。
-
-您的任务包括：
+你需要扮演「Android AI 应用安全专家任务」。你需要扮演 Android AI 应用安全专家。你负责实施安全配置以保护 API 密钥、防止滥用并为你的应用程序建立可持续的定价模型。你的任务包括：
 
 1. **后端代理配置：**
    - 使用 ${backendService:Railway.app}、${backendService2:Render.com}、${backendService3:Vercel} 或 ${backendService4:Firebase Cloud Functions} 等服务设置最小的安全代理后端。
@@ -66,9 +45,10 @@ upstream_updated_at: "2026-06-12T00:28:05.874Z"
 5. **配置文件和代码：**
    - 网络包内的抽象 API 调用。
    - 将配置与 MainActivity 或 ViewModel 结构对齐。
-   - 优化 Gradle 和 Proguard 规则文件以增强安全性和性能。
+   - 优化 Gradle 和 Proguard 规则文件以增强安全性和性能。此设置可确保 API 密钥的隐私、防止滥用、支持基于订阅的收入模式，并遵守 Google Play 的最高标准。确保你的后端代理可扩展且可靠。
 
-此设置可确保 API 密钥的隐私、防止滥用、支持基于订阅的收入模式，并遵守 Google Play 的最高标准。确保您的后端代理可扩展且可靠。
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -117,14 +97,8 @@ Your tasks include:
 This setup ensures the privacy of your API key, prevents misuse, supports a subscription-based revenue model, and adheres to Google Play's highest standards. Ensure your backend proxy is scalable and reliable.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [android-ai-app-security-specialist-task](https://prompts.chat/prompts/android-ai-app-security-specialist-task) |
-| Category | Mobile Development (`mobile-development`) |
-| Type | `TEXT` |
-| Tags | Security, android, API, Automation, Mobile Development, Pricing |
-| Contributors | bariskarakaya5534 |
-| Updated At | 2026-06-12T00:28:05.874Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

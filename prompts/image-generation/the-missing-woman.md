@@ -1,42 +1,23 @@
----
-id: "cmjndr4620001l504hzfb1ab2"
-slug: "the-missing-woman"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-missing-woman"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4aaaa55e2c204971a95a0dafddbe43ce290cc5396ccbffc96ab2de9743747fb7"
-upstream_updated_at: "2025-12-27T08:38:27.728Z"
----
 # 失踪的女人
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-missing-woman](https://prompts.chat/prompts/the-missing-woman)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「失踪的女人」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana、Advanced 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana、Advanced 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 图像生成：
@@ -118,14 +99,8 @@ image-generation:
     - "Cloudy"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-missing-woman](https://prompts.chat/prompts/the-missing-woman) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana, Advanced |
-| Contributors | hamitabis |
-| Updated At | 2025-12-27T08:38:27.728Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

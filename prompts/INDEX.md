@@ -1,6 +1,6 @@
-# prompts.chat 中文增强 Prompt 索引
+# prompts.chat 中文 Prompt 语义本地化索引
 
-共收录 2006 条 prompt，按上游分类生成目录。每条 prompt 均保留英文原文，并增加中文说明、使用场景和适用人群。
+共收录 2006 条 prompt，按上游分类生成目录。每条 prompt 均保留完整英文原文，并提供可直接复制给 AI 使用的中文 Prompt 专用语义本地化版本。
 
 | 分类 | Slug | 数量 |
 | --- | --- | ---: |

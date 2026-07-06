@@ -1,24 +1,4 @@
----
-id: "cmk90q7lq0001jj04cj5r2rlx"
-slug: "present"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/present"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e5550fa94ac95bf0534a38e88ee70a9922ca2641cd1e9ec5c277b0147ebf8962"
-upstream_updated_at: "2026-01-11T00:51:40.361Z"
----
 # 展示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[present](https://prompts.chat/prompts/present)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-11T00:51:40.361Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ### 上下文
@@ -45,34 +27,30 @@ upstream_updated_at: "2026-01-11T00:51:40.361Z"
 [What is the desired behavior ?]
 
 ### 说明
-解释你对要求的理解。
-列出 5 个您希望我验证的假设。
-制定实施 ${desired_behavior} 的计划
+解释你对要求的理解。列出 5 个你希望我验证的假设。制定实施 ${desired_behavior} 的计划
 
 ### 符号和动作
 ➕ Add ：代表创建一个新文件
 ✏️编辑：代表现有文件的版本
 ❌Delete ：代表删除已有文件
 
-
 ### 需要修改的文件
-* 文件列表列出了您请求添加、修改或删除的文件
+* 文件列表列出了你请求添加、修改或删除的文件
 * 使用${symbol_and_action}代表操作
 * 在文件名前显示${symbol_and_action}
 * 符号和动作必须始终一起显示。
-** 例如，您显示“➕添加：GameModePuzzle.tsx”
-** 您不显示“➕ GameModePuzzle.tsx”
+** 例如，你显示“➕添加：GameModePuzzle.tsx”
+** 你不显示“➕ GameModePuzzle.tsx”
 * Display only the file name
 ** 例如，显示“➕添加：GameModePuzzle.tsx”
 * DO NOT display the path of the file.
 ** 例如，不要显示“➕添加：components/game/GameModePuzzle.tsx”
 
-
 ### 计划
 * Identify the name of the plan as a title.
 * The title must be in bold.
-* 请勿在计划名称前添加“名称：”
-* 以编号列表的形式呈现您的计划。
+* 不要在计划名称前添加“名称：”
+* 以编号列表的形式呈现你的计划。
 * 每个步骤标题必须为粗体。
 * 关注用户使用应用程序的功能行为
 * 始终使用简单的英语而不是技术术语。
@@ -84,7 +62,6 @@ upstream_updated_at: "2026-01-11T00:51:40.361Z"
 * Confidence level (0 to 100%).
 * 风险评估（破坏现有功能的可能性）。
 * 受影响的文件（参见 ${files_to_be_modified}）
-
 
 ### 约束
 * DO NOT GENERATE CODE YET.
@@ -161,14 +138,8 @@ Create a plan to implement the ${desired_behavior}
 * Designate this plan as the “Current plan”
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [present](https://prompts.chat/prompts/present) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | msseyer |
-| Updated At | 2026-01-11T00:51:40.361Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

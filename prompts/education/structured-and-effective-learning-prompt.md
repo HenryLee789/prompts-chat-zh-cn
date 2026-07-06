@@ -1,42 +1,23 @@
----
-id: "cmm55ath70007k104tngijuee"
-slug: "structured-and-effective-learning-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/structured-and-effective-learning-prompt"
-category: "education"
-category_name: "Education"
-category_zh: "教育"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "90177d8353d7b82f8bcf2f207daa671925bb32653c64e6128d2876af0085b38c"
-upstream_updated_at: "2026-02-27T17:13:44.317Z"
----
-# 结构化且有效的学习提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[structured-and-effective-learning-prompt](https://prompts.chat/prompts/structured-and-effective-learning-prompt)  
-> 分类：教育（Education / `education`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 结构化且有效的学习提示词
 
 ## 中文说明
 
-一种根据您当前现有知识学习新科目的结构化引导方式。
+一种根据你当前现有知识学习新科目的结构化引导方式。
 
 ## 使用场景
 
-- 用于教育相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Learning、self-learning、Self Improvement 等主题快速生成可复用结果。
+* 解释概念、设计练习和学习计划
+* 生成课程材料、测验或教学活动
+* 把复杂知识转化为清晰的学习路径
+* 围绕 Learning、self-learning、Self Improvement 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 学生
-- 培训人员
+* 教师
+* 学生
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ${subject}=
@@ -158,14 +139,8 @@ Output progress tracking template and benchmarks
 Output detailed study schedule aligned with ${time_available}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [structured-and-effective-learning-prompt](https://prompts.chat/prompts/structured-and-effective-learning-prompt) |
-| Category | Education (`education`) |
-| Type | `TEXT` |
-| Tags | Learning, self-learning, Self Improvement |
-| Contributors | themikimano |
-| Updated At | 2026-02-27T17:13:44.317Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

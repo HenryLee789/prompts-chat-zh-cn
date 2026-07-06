@@ -1,24 +1,4 @@
----
-id: "cmnypenba0001l504i107vz2e"
-slug: "prd-and-technical-documentation-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prd-and-technical-documentation-generator"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3d0ed8502761304bbb8100bd9103c38bd121a8d93729a2970cf3ed2fa97e4d78"
-upstream_updated_at: "2026-04-14T14:15:28.066Z"
----
 # PRD 和技术文档生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prd-and-technical-documentation-generator](https://prompts.chat/prompts/prd-and-technical-documentation-generator)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-04-14T14:15:28.066Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Product Management、documentation 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Product Management、documentation 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -73,9 +54,7 @@ upstream_updated_at: "2026-04-14T14:15:28.066Z"
 ## 变量
 
 - ${productFeature} - 具体产品功能或计划。
-- ${documentType:PRD} - 要生成的文档类型（PRD 或技术）。
-
-利用此技能有效地生成支持项目目标和利益相关者需求的综合文档。
+- ${documentType:PRD} - 要生成的文档类型（PRD 或技术）。利用此技能有效地生成支持项目目标和利益相关者需求的综合文档。
 ```
 
 ---
@@ -132,14 +111,8 @@ This skill is designed to assist in the creation of detailed Product Requirement
 Utilize this skill to efficiently produce comprehensive documentation that supports project objectives and stakeholder needs.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prd-and-technical-documentation-generator](https://prompts.chat/prompts/prd-and-technical-documentation-generator) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Product Management, documentation |
-| Contributors | tcyjg |
-| Updated At | 2026-04-14T14:15:28.066Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

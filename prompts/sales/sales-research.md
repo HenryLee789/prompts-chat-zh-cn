@@ -1,24 +1,4 @@
----
-id: "cmlb8lcmu0005l5048bnrh1g3"
-slug: "sales-research"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sales-research"
-category: "sales"
-category_name: "Sales"
-category_zh: "销售"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "96b1e52088659b3ae5b0ab05a8e304c4ba9cce39a936ae1b0b677ca0f34b5ab1"
-upstream_updated_at: "2026-02-06T18:46:46.484Z"
----
 # 销售研究
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sales-research](https://prompts.chat/prompts/sales-research)  
-> 分类：销售（Sales / `sales`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-06T18:46:46.484Z"
 
 ## 使用场景
 
-- 用于销售相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Sales、Research 等主题快速生成可复用结果。
+* 生成销售话术、跟进邮件和成交策略
+* 分析客户需求、异议和价值主张
+* 优化销售漏斗、客户分层和转化路径
+* 围绕 Sales、Research 等主题生成结构化结果
 
 ## 适用人群
 
-- 销售人员
-- 业务负责人
-- 创业者
+* 销售人员
+* 业务负责人
+* 创业者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -120,7 +101,7 @@ company-enricher.py - 聚合来自多个来源的公司数据
   - 公司名称：字符串
   - 域：字符串（可选）
 
-输出：
+输出要求：
   - 简介：
       名称：字符串
       所属行业： 线绳
@@ -140,7 +121,6 @@ company-enricher.py - 聚合来自多个来源的公司数据
 从数据类导入数据类，asdict
 从日期时间导入日期时间
 
-
 @数据类
 类新闻项目：
     标题：str
@@ -148,7 +128,6 @@ company-enricher.py - 聚合来自多个来源的公司数据
     来源：str
     网址：str
     摘要：str
-
 
 @数据类
 类公司简介：
@@ -164,11 +143,9 @@ company-enricher.py - 聚合来自多个来源的公司数据
     竞争对手：列表[str]
     描述：str
 
-
 def search_company_info(company_name: str, 域: str = None) -> dict:
     ”“”
-    搜索公司基本信息。
-    在生产中，这将调用 Clearbit、Crunchbase 等 API。
+    搜索公司基本信息。在生产中，这将调用 Clearbit、Crunchbase 等 API。
     ”“”
     # TODO：实现实际的 API 调用
     # 占位符返回结构
@@ -184,8 +161,7 @@ def search_company_info(company_name: str, 域: str = None) -> dict:
 
 def search_funding_info(company_name: str) -> dict:
     ”“”
-    搜索资金信息。
-    在生产中，会调用 Crunchbase、PitchBook 等。
+    搜索资金信息。在生产中，会调用 Crunchbase、PitchBook 等。
     ”“”
     # TODO：实现实际的 API 调用
     返回{
@@ -195,33 +171,26 @@ def search_funding_info(company_name: str) -> dict:
         “投资者”：[]
     }
 
-
 def search_tech_stack（域：str）->列表[str]：
     ”“”
-    检测技术栈。
-    在生产中，会调用BuiltWith、Wappalyzer等。
+    检测技术栈。在生产中，会调用BuiltWith、Wappalyzer等。
     ”“”
     # TODO：实现实际的 API 调用
     返回[]
-
 
 def search_recent_news(company_name: str, days: int = 90) -> list[dict]:
     ”“”
-    搜索有关该公司的最新新闻。
-    在生产中，将调用新闻 API。
+    搜索有关该公司的最新新闻。在生产中，将调用新闻 API。
     ”“”
     # TODO：实现实际的 API 调用
     返回[]
-
 
 定义主要（
     公司名称：str，
     域：str = 无
 ) -> 字典[str, 任意]:
     ”“”
-    汇总来自多个来源的公司数据。
-
-    参数：
+    汇总来自多个来源的公司数据。参数：
         company_name：要研究的公司名称
         域名：公司域名（可选，将被推断）
 
@@ -263,7 +232,6 @@ def search_recent_news(company_name: str, days: int = 90) -> list[dict]:
         "sources_checked": ["company_info", "funding", "tech_stack", "news"]
     }
 
-
 如果 __name__ == "__main__":
     导入系统
 
@@ -282,7 +250,7 @@ linkedin-parser.py - 构建 LinkedIn 个人资料数据
   - profile_url：字符串
   - 或名称 + 公司：字符串
 
-输出：
+输出要求：
   - 联系方式：
       名称：字符串
       标题：字符串
@@ -302,7 +270,6 @@ linkedin-parser.py - 构建 LinkedIn 个人资料数据
 从数据类导入数据类，asdict
 从日期时间导入日期时间
 
-
 @数据类
 类上一个角色：
     标题：str
@@ -310,14 +277,12 @@ linkedin-parser.py - 构建 LinkedIn 个人资料数据
     持续时间：str
     描述：str
 
-
 @数据类
 最近的帖子类：
     日期：str
     内容预览：str
     参与度：整数
     主题：str
-
 
 @数据类
 联系资料类：
@@ -335,14 +300,13 @@ linkedin-parser.py - 构建 LinkedIn 个人资料数据
 
 def search_linkedin_profile（名称：str = None，公司：str = None，profile_url：str = None）-> dict：
     ”“”
-    搜索 LinkedIn 个人资料信息。
-    在生产中，将使用 LinkedIn API 或 Sales Navigator。
+    搜索 LinkedIn 个人资料信息。在生产中，将使用 LinkedIn API 或 Sales Navigator。
     ”“”
     # TODO：实施实际的 LinkedIn API 集成
     # 注意：LinkedIn 的 API 有严格的服务条款
 
     返回{
-        “发现”：错误，
+        “发现”：bug，
         “name”：名称或“未知”，
         "title": "未知",
         “公司”：公司或“未知”，
@@ -352,14 +316,12 @@ def search_linkedin_profile（名称：str = None，公司：str = None，profil
         “profile_url”：profile_url 或“”
     }
 
-
 def get_career_history(profile_data: dict) -> list[dict]:
     ”“”
     从个人资料中提取职业历史。
     ”“”
     # TODO：实施职业提取
     返回[]
-
 
 def get_mutual_connections(profile_data: dict, user_network: list = None) -> list[str]:
     ”“”
@@ -368,7 +330,6 @@ def get_mutual_connections(profile_data: dict, user_network: list = None) -> lis
     # TODO: 实现相互连接检测
     返回[]
 
-
 def get_recent_activity(profile_data: dict, days: int = 30) -> list[dict]:
     ”“”
     获取最近的帖子和活动。
@@ -376,16 +337,13 @@ def get_recent_activity(profile_data: dict, days: int = 30) -> list[dict]:
     # TODO：实施活动提取
     返回[]
 
-
 定义主要（
     名称：str = 无，
     公司：str = 无，
     profile_url: str = 无
 ) -> 字典[str, 任意]:
     ”“”
-    构建 LinkedIn 个人资料数据以进行销售准备。
-
-    参数：
+    构建 LinkedIn 个人资料数据以进行销售准备。参数：
         姓名：人的姓名
         公司：他们工作的公司
         profile_url：直接 LinkedIn 个人资料 URL
@@ -405,7 +363,7 @@ def get_recent_activity(profile_data: dict, days: int = 30) -> list[dict]:
 
     如果不是 profile_data.get("found"):
         返回{
-            “发现”：错误，
+            “发现”：bug，
             “name”：名称或“未知”，
             “公司”：公司或“未知”，
             "message": "个人资料未找到或访问受限",
@@ -464,7 +422,6 @@ defcalculate_completeness(contact:ContactProfile) -> dict:
         “百分比”：int((complete_count / len(fields)) * 100)
     }
 
-
 如果 __name__ == "__main__":
     导入系统
 
@@ -483,7 +440,7 @@ priority-scorer.py - 计算潜在客户优先级并对其进行排名
   - 前景：[前景带有信号的对象]
   - 权重：{交易规模、时机、热情、信号}
 
-输出：
+输出要求：
   - 排名：[有分数和推理的前景]
 
 依赖项：
@@ -493,7 +450,6 @@ priority-scorer.py - 计算潜在客户优先级并对其进行排名
 导入 json
 从输入导入任何
 从数据类导入数据类
-
 
 # 默认评分权重
 DEFAULT_WEIGHTS = {
@@ -528,7 +484,6 @@ DEFAULT_WEIGHTS = {
     “competitor_selected”：-7，
 }
 
-
 @数据类
 类 ScoredProspect:
     公司：str
@@ -540,7 +495,6 @@ DEFAULT_WEIGHTS = {
     分数细分：字典
     推理：str
     is_followup: 布尔
-
 
 def Score_deal_size(prospect: dict) -> tuple[float, str]:
     """根据估计交易规模进行评分。"""
@@ -558,7 +512,6 @@ def Score_deal_size(prospect: dict) -> tuple[float, str]:
         返回5.0，“中小企业机会”
     其他：
         返回3.0，“小型企业”
-
 
 def Score_timing(prospect: dict) -> tuple[float, str]:
     “”“基于计时信号的分数。”“”
@@ -607,7 +560,6 @@ def Score_warmth(prospect: dict) -> 元组[float, str]:
 
     返回4.0，“冷外展”
 
-
 def Score_signals(prospect: dict) -> 元组[float, str]:
     """根据检测到的购买信号进行评分。"""
     信号 = prospect.get("信号", [])
@@ -626,7 +578,6 @@ def Score_signals(prospect: dict) -> 元组[float, str]:
 
     Reason = f"信号：{', '.join(signal_reasons)}" if signal_reasons else "没有强信号"
     返回标准化，原因
-
 
 def 计算优先级分数(
     前景：字典，
@@ -677,15 +628,12 @@ def 计算优先级分数(
         is_followup=prospect.get("关系", {}).get("is_followup", False)
     ）
 
-
 定义主要（
     前景：列表[dict]，
     权重：字典=无
 ) -> 字典[str, 任意]:
     ”“”
-    计算潜在客户的优先级并对其进行排序。
-
-    参数：
+    计算潜在客户的优先级并对其进行排序。参数：
         前景：带有信号的前景对象列表
         权重：用于评分组件的可选自定义权重
 
@@ -723,7 +671,6 @@ def 计算优先级分数(
         “weights_used”：权重，
         “total_prospects”：len（前景）
     }
-
 
 如果 __name__ == "__main__":
     导入系统
@@ -838,7 +785,7 @@ def 计算优先级分数(
 - [ ] 以前的机会
 - [ ] 公司相关联系人
 - [ ] 同事的笔记
-- [ ] 电子邮件参与历史记录
+- [ ] 邮件参与历史记录
 
 ## 基于时间的研究深度
 
@@ -855,7 +802,7 @@ def 计算优先级分数(
 
 ### 职位发布
 - **发布 3 个以上相关角色** = 积极主动，分配预算
-- **您所在领域的高级人才** = 战略优先事项
+- **你所在领域的高级人才** = 战略优先事项
 - **紧急语言（“尽快”、“立即”）** = 疼痛剧烈
 - **提到的特定工具** = 竞争对手或类别认知度
 
@@ -866,7 +813,7 @@ def 计算优先级分数(
 - **收入里程碑公关** = 可用预算
 
 ### 领导层变动
-- **您所在域中的新 CXO** = 90 天优先级设置
+- **你所在域中的新 CXO** = 90 天优先级设置
 - **新的 CRO/CMO** = 可能进行技术堆栈评估
 - **创始人转型为首席执行官** = 专业化运营
 
@@ -885,7 +832,7 @@ def 计算优先级分数(
 - **遗留系统投诉** = 现代化需求
 
 ### 内容信号
-- **关于您的主题的博客文章** = 自我教育
+- **关于你的主题的博客文章** = 自我教育
 - **出席网络研讨会** = 已确认兴趣
 - **白皮书下载** = 问题意识
 - **会议发言** = 思想领导力、知名度
@@ -1802,14 +1749,8 @@ if __name__ == "__main__":
 | No signals | 0 | Discovery focus |
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sales-research](https://prompts.chat/prompts/sales-research) |
-| Category | Sales (`sales`) |
-| Type | `SKILL` |
-| Tags | Sales, Research |
-| Contributors | tomstools11 |
-| Updated At | 2026-02-06T18:46:46.484Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

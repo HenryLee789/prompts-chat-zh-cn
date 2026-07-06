@@ -1,24 +1,4 @@
----
-id: "cmjwk3kax0004js04wio5vwij"
-slug: "hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7b747731e85421922affe8ddc1f57e4ec7f0be8de0f98108247ac906f6bffb31"
-upstream_updated_at: "2026-01-02T07:35:39.305Z"
----
 # 古代麦加的超现实电影黎明前场景
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca](https://prompts.chat/prompts/hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-02T07:35:39.305Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 Create a hyper-realistic cinematic pre-dawn scene in ancient Mecca, viewed from a high overhead camera angle above the roof of the Kaaba, looking diagonally downward toward its lower corner and the wide open ground surrounding it.场景包括：
@@ -78,14 +59,8 @@ Create a hyper-realistic cinematic pre-dawn scene in ancient Mecca, viewed from 
 The atmosphere should be majestic and sacred, with ultra-realistic rendering, dramatic cinematic lighting, strong volumetric light rays, and highly detailed textures. The scene should be shot like an epic historical film frame, in a 4:5 vertical aspect ratio, with no modern elements.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca](https://prompts.chat/prompts/hyper-realistic-cinematic-pre-dawn-scene-in-ancient-mecca) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Art |
-| Contributors | acmilaniraqi |
-| Updated At | 2026-01-02T07:35:39.305Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

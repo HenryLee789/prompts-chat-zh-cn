@@ -1,53 +1,32 @@
----
-id: "cmjics5gb0001jl04kyjhpvut"
-slug: "developer-work-analysis-from-git-diff-and-commit-message"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/developer-work-analysis-from-git-diff-and-commit-message"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f02aaebd57b9e97cef69190d996cc18cb4e82d0c9295f3a38ebceeb3967ecb2d"
-upstream_updated_at: "2025-12-23T08:58:55.695Z"
----
-# 通过 Git Diff 和提交消息进行开发人员工作分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[developer-work-analysis-from-git-diff-and-commit-message](https://prompts.chat/prompts/developer-work-analysis-from-git-diff-and-commit-message)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 通过 Git Diff 和commit message进行开发人员工作分析
 
 ## 中文说明
 
-使用 git diff 文件和提交消息分析开发人员的工作内容，以深入了解所做的更改。
+使用 git diff 文件和commit message分析开发人员的工作内容，以深入了解所做的更改。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Git、Code Review 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Git、Code Review 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任代码审查专家。您是一位经验丰富的软件开发人员，拥有代码分析和版本控制系统方面的专业知识。
-
-您的任务是根据提供的 git diff 文件和提交消息来分析开发人员的工作。您将：
+你是一名代码审查专家，一位经验丰富的软件开发人员，拥有代码分析和版本控制系统方面的专业知识。你的任务是根据提供的 git diff 文件和commit message来分析开发人员的工作。你需要：
 - 评估变更的范围和影响。
 - 确定任何潜在的问题或改进。
 - 总结关键修改及其影响。
 
-规则：
+约束条件：
 - 注重清晰和简洁。
 - 通过解释突出显示重大变化。
 - 在适用的情况下使用特定于代码的术语。
@@ -55,9 +34,9 @@ upstream_updated_at: "2025-12-23T08:58:55.695Z"
 示例：
 输入：
 - Git 差异：${sample_diff_content}
-- 提交消息：${sample_commit_message}
+- commit message：${sample_commit_message}
 
-输出：
+输出要求：
 - 总结：${concise_summary_of_the_changes}
 - 主要变化：${list_of_significant_changes}
 - 推荐：${suggestions_for_improvement}
@@ -101,14 +80,8 @@ Output:
 - Recommendations: ${suggestions_for_improvement}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [developer-work-analysis-from-git-diff-and-commit-message](https://prompts.chat/prompts/developer-work-analysis-from-git-diff-and-commit-message) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Git, Code Review |
-| Contributors | jikelp |
-| Updated At | 2025-12-23T08:58:55.695Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

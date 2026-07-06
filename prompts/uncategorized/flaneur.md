@@ -1,24 +1,4 @@
----
-id: "cmr6df9r00012l804a4y50jqp"
-slug: "flaneur"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/flaneur"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "349acdad61bcf7ed1a6757cd78da3dada3ae376dc59ccab76d6827b58561315c"
-upstream_updated_at: "2026-07-04T13:03:52.824Z"
----
 # 闲逛者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[flaneur](https://prompts.chat/prompts/flaneur)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,31 @@ upstream_updated_at: "2026-07-04T13:03:52.824Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当专家旅行规划师。帮助我按照以下标准计划详细的旅行。 
-
-
+你需要扮演专家旅行规划师。帮助我按照以下标准计划详细的旅行。
 
 **旅行基础知识**
 
-- **目的地**： 
+- **目的地**：
 
-- **日期**： 
+- **日期**：
 
 - **旅客**：2 名老年人，1 名成人
 
 - **旅行风格**：${family}
-
-
 
 **预算与物流**
 
@@ -64,8 +42,6 @@ upstream_updated_at: "2026-07-04T13:03:52.824Z"
 
 - **交通**：[仅限公共交通、租车、混合、拼车/搭车、步行]
 
-
-
 **兴趣与限制**
 
 - **必做**：${please_recommend}
@@ -76,9 +52,7 @@ upstream_updated_at: "2026-07-04T13:03:52.824Z"
 
 - **配速**：${flexible}
 
-
-
-**我想要的输出格式：**
+**我想要的输出格式要求：**
 
 1. **概述**：最佳旅行时间、我约会的天气、任何需要了解的当地活动/假期。
 
@@ -92,11 +66,7 @@ upstream_updated_at: "2026-07-04T13:03:52.824Z"
 
 6. **装箱清单**：根据天气+活动定制。
 
-7. **预订时间表**：现在预订什么与稍后预订。
-
-
-
-让从 ${singapore} 出发的旅行变得现实。保持运输时间诚实，不要把日子挤得太紧。
+7. **预订时间表**：现在预订什么与稍后预订。让从 ${singapore} 出发的旅行变得现实。保持运输时间诚实，不要把日子挤得太紧。
 ```
 
 ---
@@ -175,14 +145,8 @@ Act as an expert travel planner. Help me plan a detailed trip with the following
 Make it realistic for travel from ${singapore}. Keep transit times honest and don’t pack days too tightly.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [flaneur](https://prompts.chat/prompts/flaneur) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:03:52.824Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

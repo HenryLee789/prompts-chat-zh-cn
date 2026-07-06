@@ -1,46 +1,27 @@
----
-id: "cmngmckys0004l4043edgh3us"
-slug: "aacli-taste"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/aacli-taste"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TASTE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3e5b36994a1d0f6bf94bf3fc0123728c508184fd653c82d11605f2177a9b086f"
-upstream_updated_at: "2026-04-01T22:30:04.609Z"
----
-# aa/cli 味道
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[aacli-taste](https://prompts.chat/prompts/aacli-taste)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TASTE`  
-> 翻译状态：`machine_translated`
+# aa/cli CLI 风格偏好
 
 ## 中文说明
 
-用于设置 CLI 项目的综合指南，包含最佳实践和工具建议。
+整理 CLI 项目的技术选型、工程约定和发布偏好，便于 AI 按一致规范搭建或维护 CLI 项目。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 CLI、coding、development、Best Practices 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 CLI、coding、development 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-# AA 的 CLI 味道
+# AA 的 CLI 风格偏好
 - 使用 pnpm 作为 CLI 项目的包管理器。置信度：1.00
 - 将 TypeScript 用于 CLI 项目。置信度：0.95
 - 使用 tsup 作为 CLI 项目的构建工具。置信度：0.95
@@ -106,14 +87,8 @@ A comprehensive guide for setting up CLI projects with best practices and tool r
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [aacli-taste](https://prompts.chat/prompts/aacli-taste) |
-| Category | Coding (`coding`) |
-| Type | `TASTE` |
-| Tags | CLI, coding, development, Best Practices |
-| Contributors | ahmadawais |
-| Updated At | 2026-04-01T22:30:04.609Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,23 @@
----
-id: "cmjwlnbp30017jl04dwm9xnb9"
-slug: "nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "963456ab3da37d09016d04b96281a26ac79f03d4fe07e2e6bf071b621b1c7d58"
-upstream_updated_at: "2026-01-02T14:04:43.934Z"
----
-# 怀旧公路旅行 - 大气的 35 毫米胶片照片提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt](https://prompts.chat/prompts/nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 怀旧公路旅行 - 大气的 35 毫米胶片照片提示词
 
 ## 中文说明
 
-此提示将引导您从驾驶员的角度创作一张怀旧且大气的 35mm 胶片照片。用温暖的镜头光晕和忧郁的电影感捕捉雨天公路旅行的精髓。用它来训练人工智能模型来复制模拟电影美学和大气照明条件。
+此提示将引导你从驾驶员的角度创作一张怀旧且大气的 35mm 胶片照片。用温暖的镜头光晕和忧郁的电影感捕捉雨天公路旅行的精髓。用它来训练AI模型来复制模拟电影美学和大气照明条件。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -111,7 +92,7 @@ upstream_updated_at: "2026-01-02T14:04:43.934Z"
     “电影”，
     “喜怒无常”
   ],
-  "use_case": "训练人工智能模型来复制模拟电影伪像和大气照明条件。",
+  "use_case": "训练AI模型来复制模拟电影伪像和大气照明条件。",
   “uuid”：“6174aa00-9033-46dc-8f74-8c54ce90a956”
 }
 ```
@@ -209,14 +190,8 @@ This prompt guides you in creating a nostalgic and atmospheric 35mm film photogr
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt](https://prompts.chat/prompts/nostalgic-road-trip-atmospheric-35mm-film-photograph-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-02T14:04:43.934Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

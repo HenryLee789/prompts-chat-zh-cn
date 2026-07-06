@@ -1,56 +1,35 @@
----
-id: "cmk447ta70001jp04mao5nhrq"
-slug: "context-migration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/context-migration"
-category: "agent-workflows"
-category_name: "Agent Workflows"
-category_zh: "智能体工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0c9d485b87d871f6d553bfbe209acc85833f7a3837da9512702e6db57d17146f"
-upstream_updated_at: "2026-01-07T14:30:04.997Z"
----
 # 上下文迁移
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[context-migration](https://prompts.chat/prompts/context-migration)  
-> 分类：智能体工作流（Agent Workflows / `agent-workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-该提示指导人工智能代理创建一个全面的上下文工件，保留所有对话上下文、进度、决策和项目结构。它支持跨 AI 会话、平台或代理的无缝延续，充当“上下文 USB”以防止重复或上下文丢失。
-
-其他工作流程路线请参见子提示
+该提示指导AI 代理创建一个全面的上下文工件，保留所有对话上下文、进度、决策和项目结构。它支持跨 AI 会话、平台或代理的无缝延续，充当“上下文 USB”以防止重复或上下文丢失。其他工作流程路线请参见子提示
 
 ## 使用场景
 
-- 用于智能体工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、Product Management、Prompt Engineering 等主题快速生成可复用结果。
+* 设计可复用的 AI Agent 工作流
+* 拆解多步骤任务并明确执行边界
+* 为工具调用、上下文迁移或任务编排提供指令
+* 围绕 Agent、Product Management、Prompt Engineering 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 自动化工程师
-- 产品经理
+* AI 智能体开发者
+* 自动化工程师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 上下文保存和迁移提示
 
 [对于 AGENT.MD，如果不适用，请传递 `## SECTION` ]
 
-生成一个全面的上下文工件，保留所有对话上下文、进度、决策和项目结构，以便跨 AI 会话、平台或代理无缝延续。该工件充当“上下文 USB”，使任何人工智能都能立即理解并继续工作，而不会重复或丢失上下文。
+生成一个全面的上下文工件，保留所有对话上下文、进度、决策和项目结构，以便跨 AI 会话、平台或代理无缝延续。该工件充当“上下文 USB”，使任何AI都能立即理解并继续工作，而不会重复或丢失上下文。
 
 ## 核心目标
 
 捕获并构建当前会话中的所有上下文元素，以实现：
-1. **会话连续性** - 跨不同人工智能平台恢复对话，无需重新解释
+1. **会话连续性** - 跨不同AI平台恢复对话，无需重新解释
 2. **座席交接** - 将未完成的任务转移给新座席并提供完整的进度文档
 3. **项目迁移** - 复制整个项目文化、工作流程和治理结构
 
@@ -174,7 +153,7 @@ upstream_updated_at: "2026-01-07T14:30:04.997Z"
 
 输入：“我们已经花了 2 个小时集思广益了一个移动应用程序。我需要切换到 Claude。生成上下文工件。”
 
-输出：
+输出要求：
 ```
 # CONTEXT ARTIFACT: FitTrack Mobile App Planning
 **Generated**: 2026-01-07 14:30
@@ -219,7 +198,7 @@ Brainstormed fitness tracking mobile app for busy professionals. Decided on mini
 
 输入：“浏览器代理在抓取竞争对手定价的同时达到了速率限制。生成移交文档。”
 
-输出：
+输出要求：
 ```
 # CONTEXT ARTIFACT: Competitor Pricing Automation (Incomplete)
 **Generated**: 2026-01-07 09:15
@@ -271,7 +250,7 @@ Automated scraping of 50 competitor websites for pricing comparison. Completed 3
 
 （输入上下文：包含 SDLC、代理、治理的整个项目存储库）
 
-输出：*（显示结构的精简示例 - 实际输出将是全面的）*
+输出要求：*（显示结构的精简示例 - 实际输出将是全面的）*
 ```
 # CONTEXT ARTIFACT: "SmartInventory" Project Culture & Architecture
 **Generated**: 2026-01-07 16:00
@@ -345,12 +324,12 @@ Enterprise inventory management system using AI-driven development culture. Need
 
 # 注释
 
-- **通用性**：结构必须可由任何人工智能平台（ChatGPT、Claude、Gemini 等）解释
+- **通用性**：结构必须可由任何AI平台（ChatGPT、Claude、Gemini 等）解释
 - **完整性与简洁性**：平衡全面的上下文和可读性 - 使用嵌套部分来获取深入的细节
 - **版本控制**：包括时间戳和源平台，用于跟踪多次切换的上下文演变
 - **行动方向**：始终以清晰的“继续查询”结束 - 下一个要使用的 AI 的确切提示
-- **项目规模适应**：对于完整的项目迁移（案例 3），显着扩展“项目结构”部分，同时保持其他部分简洁
-- **失败文档**：明确捕获哪些内容不起作用以及原因 - 这可以防止下一个人工智能重复错误
+- **项目规模适应**：对于完整的项目迁移（案例 3），显著扩展“项目结构”部分，同时保持其他部分简洁
+- **失败文档**：明确捕获哪些内容不起作用以及原因 - 这可以防止下一个AI重复bug
 - **规则保留**：在会议期间建立规则/协议时，包括为什么需要它们的背景
 - **假设验证**：为了清楚起见，将假设标记为“已验证”、“待验证”或“无效”
 
@@ -364,13 +343,12 @@ GEMINI.md
 工作流程/代理/sample.toml
 "#反重力提示模板
 
-
 内存.md
 “#双子座记忆
 
-**会议**：2026-01-07 |冲刺 01（还剩 7 天）|史诗 EPIC-001 (45%)  
-**活动**：TASK-001-03 库存 CRUD API（GET/POST 已完成，PUT/DELETE 待处理）  
-**决定**：PostgreSQL + JSONB、RESTful /api/v1/、pytest 测试  
+**会议**：2026-01-07 |冲刺 01（还剩 7 天）|史诗 EPIC-001 (45%)
+**活动**：TASK-001-03 库存 CRUD API（GET/POST 已完成，PUT/DELETE 待处理）
+**决定**：PostgreSQL + JSONB、RESTful /api/v1/、pytest 测试
 **下一步**：完成 PUT/DELETE 端点，最终确定架构”
 ````
 
@@ -726,14 +704,8 @@ MEMORY.md
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [context-migration](https://prompts.chat/prompts/context-migration) |
-| Category | Agent Workflows (`agent-workflows`) |
-| Type | `TEXT` |
-| Tags | Agent, Product Management, Prompt Engineering |
-| Contributors | joembolinas |
-| Updated At | 2026-01-07T14:30:04.997Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

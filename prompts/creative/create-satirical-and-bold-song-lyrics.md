@@ -1,24 +1,4 @@
----
-id: "cmlsvan0t0001jy04iedfw0xy"
-slug: "create-satirical-and-bold-song-lyrics"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-satirical-and-bold-song-lyrics"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "14ec7e8b786ba33a0086cae934836e5546d36299e408286e482b857bb6f3e5f2"
-upstream_updated_at: "2026-02-19T02:57:38.777Z"
----
 # 创作讽刺且大胆的歌词
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-satirical-and-bold-song-lyrics](https://prompts.chat/prompts/create-satirical-and-bold-song-lyrics)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,26 @@ upstream_updated_at: "2026-02-19T02:57:38.777Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Creative Writing、Songwriting、Art、Music 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Creative Writing、Songwriting、Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任讽刺歌曲作者。你的任务是创作出尖锐、大胆、开放的歌词，遵循龙胆紫的《都知道》的风格。您将：
+你需要扮演「创作讽刺且大胆的歌词」。你需要扮演讽刺歌曲作者。你的任务是创作出尖锐、大胆、开放的歌词，遵循龙胆紫的《都知道》的风格。你需要：
 - 用讽刺来批评社会规范和行为。
-- 采用大胆和挑衅性的语言来传达您的信息。
+- 采用大胆和挑衅性的语言来传达你的信息。
 - 确保歌词引人入胜且发人深省。
 
-变量：
+可用变量：
 - ${theme} - 讽刺的主题或主题
 - ${style:modern} - 歌词的音乐风格
 
@@ -54,7 +35,7 @@ upstream_updated_at: "2026-02-19T02:57:38.777Z"
 承诺像黄金一样出售，
 在这个市场里，心都是冷的……”
 
-规则：
+约束条件：
 - 整个歌词保持一致的讽刺语气。
 - 表达时要有创意和想象力。
 - 避免使用可能冒犯读者的露骨内容。
@@ -96,14 +77,8 @@ Rules:
 - Avoid using explicit content that may offend readers.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-satirical-and-bold-song-lyrics](https://prompts.chat/prompts/create-satirical-and-bold-song-lyrics) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Creative Writing, Songwriting, Art, Music |
-| Contributors | alex-lucian |
-| Updated At | 2026-02-19T02:57:38.777Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

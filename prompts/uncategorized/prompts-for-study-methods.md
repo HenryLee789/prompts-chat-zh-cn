@@ -1,41 +1,23 @@
----
-id: "cmmcb0juk000ajx045jshijie"
-slug: "prompts-for-study-methods"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prompts-for-study-methods"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "717f10c5c5914cf17b0c5c0655f336c3bfb8ca0c4e8524f3b3e20f24f4efdaf3"
-upstream_updated_at: "2026-03-04T17:21:58.549Z"
----
-# 研究方法提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prompts-for-study-methods](https://prompts.chat/prompts/prompts-for-study-methods)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 研究方法提示词
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「研究方法提示词」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 1) 费曼技术导师
@@ -118,6 +100,9 @@ upstream_updated_at: "2026-03-04T17:21:58.549Z"
 2) Transfer Learning Specialist
 提示：
 "Function as my Transfer Learning Specialist for ${domain}. Help me not just learn ${topic}, but develop the ability to apply this knowledge in new and varied contexts. Present me with problems that require adapting what I've learned to novel situations. Guide me to identify the deep structural features that remain constant across different applications, while recognizing surface features that might change."
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -217,14 +202,8 @@ Prompt:
 "Function as my Transfer Learning Specialist for ${domain}. Help me not just learn ${topic}, but develop the ability to apply this knowledge in new and varied contexts. Present me with problems that require adapting what I've learned to novel situations. Guide me to identify the deep structural features that remain constant across different applications, while recognizing surface features that might change."
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prompts-for-study-methods](https://prompts.chat/prompts/prompts-for-study-methods) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | rmfsantos |
-| Updated At | 2026-03-04T17:21:58.549Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

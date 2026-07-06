@@ -1,24 +1,4 @@
----
-id: "cmjodosv20005jp047utn2cvj"
-slug: "bathroom-flash-selfie-ig-candid-non-explicit"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/bathroom-flash-selfie-ig-candid-non-explicit"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0e694ee2075bc3708f1b45e26cf29a5601971ba7a3ea67edcae5f93e321d5237"
-upstream_updated_at: "2025-12-28T12:34:35.650Z"
----
 # 浴室闪光自拍（IG-偷拍，不露骨）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[bathroom-flash-selfie-ig-candid-non-explicit](https://prompts.chat/prompts/bathroom-flash-selfie-ig-candid-non-explicit)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-28T12:34:35.650Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -68,7 +50,7 @@ upstream_updated_at: "2025-12-28T12:34:35.650Z"
     }
   },
   “姿势”：{
-    "type": "镜面自拍视角（如果您愿意，手机不可见；否则仅镜面反射风格）。",
+    "type": "镜面自拍视角（如果你愿意，手机不可见；否则仅镜面反射风格）。",
     "orientation": "半身特写，角度稍高。",
     "head_position": "稍微向主体右侧倾斜。",
     "limbs": "一只手臂意味着将相机举出画面；另一只手轻轻抚摸太阳穴附近的头发。",
@@ -137,6 +119,9 @@ upstream_updated_at: "2025-12-28T12:34:35.650Z"
     “cgi”、“卡通”、“动画”
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -254,14 +239,8 @@ This prompt guides the generation of a realistic and candid bathroom selfie imag
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [bathroom-flash-selfie-ig-candid-non-explicit](https://prompts.chat/prompts/bathroom-flash-selfie-ig-candid-non-explicit) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-28T12:34:35.650Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

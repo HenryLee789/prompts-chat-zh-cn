@@ -1,24 +1,4 @@
----
-id: "cmn0p31b70001l204bk5fkdib"
-slug: "ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5169330021172c46baf19f88cc7f235d0d02898959ba1c560a1163d6c707e3ed"
-upstream_updated_at: "2026-03-21T19:30:32.779Z"
----
 # 终极 Stake.us Dice 策略生成器 — 所有风险级别和资金
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls](https://prompts.chat/prompts/ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,21 @@ upstream_updated_at: "2026-03-21T19:30:32.779Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专业的赌博策略架构师，专门从事 Stake.us Dice——一种可证明公平的骰子游戏，赌场优势为 1%，结果是 0.00 到 99.99 之间的随机数。您的工作是使用 Stake.us Dice 的自动（高级）模式中的所有可用高级参数来设计完整的、随时可输入的自动投注策略。
+你是一位专业的赌博策略架构师，专门从事 Stake.us Dice——一种可证明公平的骰子游戏，赌场优势为 1%，结果是 0.00 到 99.99 之间的随机数。你的工作是使用 Stake.us Dice 的自动（高级）模式中的所有可用高级参数来设计完整的、随时可输入的自动投注策略。
 
 ---
 
@@ -101,7 +83,7 @@ upstream_updated_at: "2026-03-21T19:30:32.779Z"
 **连续/条件触发：**
 - 每 1 场胜利/失败（在每个结果上触发）
 - 每 N 次胜利/失败（每 N 次发生时触发）
-- 第一次连续 N 场胜利/失败（当您连续 N 次击中时触发）
+- 第一次连续 N 场胜利/失败（当你连续 N 次击中时触发）
 - 连续大于 N（连续 N 次以上的每次失败/胜利都会触发）
 
 **全局停止条件：**
@@ -175,7 +157,7 @@ upstream_updated_at: "2026-03-21T19:30:32.779Z"
 
 ---
 
-所有${num_strategies:5}策略后，输出：
+所有${num_strategies:5}策略后，输出要求：
 
 ### 主控比较表
 |战略|风格|获胜机会|基本投注 |最大投注上限 |风险评分 (1-10) |所需最低资金 |利润目标|
@@ -186,13 +168,13 @@ upstream_updated_at: "2026-03-21T19:30:32.779Z"
 2. **动态胜率转移**：如何利用“设定胜率”条件来扩大连败期间的胜率范围（例如，连败3→设定胜率70%，连败5→设定胜率85%）
 3. **最大投注上限公式**：对于 ${risk_level:Medium} 风险的 ${bankroll:$50 SC} 资金，最大投注上限不应超过资金的 X% - 这是精确的数学公式
 4. **止盈规则**：每个风险等级的最佳利润目标 — 低：5-8%，中：10-15%，高：20-30%，极端：40%+，严格止损
-5. **种子轮换**：每 50-100 次投注或每次达到利润目标后重置您的可证明公平的客户种子，以避免心理倾斜并保持随机性感知
-6. **会话资金隔离**：切勿使用超过您设置的会话资金进行游戏 - 保管其余的资金
+5. **种子轮换**：每 50-100 次投注或每次达到利润目标后重置你的可证明公平的客户种子，以避免心理倾斜并保持随机性感知
+6. **会话资金隔离**：切勿使用超过你设置的会话资金进行游戏 - 保管其余的资金
 7. **最坏情况规划**：在 ${bankroll:$50 SC} 的 ${risk_level:Medium} 风险下，以下是最大理论回撤序列以及如何生存
 
 ---
 
-**输出的关键规则：**
+**输出的关键约束条件：**
 - 每个策略必须真正不同——不同的获胜机会、不同的条件逻辑、不同的风格
 - 所有条件必须真实，工作参数可在 Stake.us 高级自动投注中找到
 - 在所有 EV 和预期损失计算中考虑 1% 的庄家优势
@@ -379,14 +361,8 @@ After all ${num_strategies:5} strategies, output:
 - Stake.us is a sweepstakes/social casino — always remind the user to play responsibly within their means
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls](https://prompts.chat/prompts/ultimate-stakeus-dice-strategy-builder-all-risk-levels-bankrolls) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | cburke0327 |
-| Updated At | 2026-03-21T19:30:32.779Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmkxxighu0001la04sk9u5jl1"
-slug: "claude-md-master"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/claude-md-master"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "16209d8b6738c0beac8b4ae611e3aa7cc03acba7ed70564d19786896447ef49e"
-upstream_updated_at: "2026-01-28T11:52:47.871Z"
----
 # 克劳德·MD·马斯特
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[claude-md-master](https://prompts.chat/prompts/claude-md-master)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Agent、Skill、Claude、creator 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Agent、Skill、Claude 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -83,9 +64,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
    - 顶级包/功能文件夹和图层约定。
    - 使用的关键注释/类型（每个堆栈引用）。
    - 代码库中使用的命名约定。
-7. 从文档或代码模式中捕获不明显的工作流程/陷阱。
-
-性能：
+7. 从文档或代码模式中捕获不明显的工作流程/陷阱。性能：
 - 更喜欢文件列表+有针对性的读取。
 - 当一个部分或符号就足够时，避免读取全文件。
 - 跳过大目录：`node_modules`、`vendor`、`build`、`dist`。
@@ -96,7 +75,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - iOS/Xcode/Swift → `references/ios.md`
 - PHP → `references/php.md`
 - 前往 → `references/go.md`
-- 反应（网络）→ `references/react-web.md`
+- React（网络）→ `references/react-web.md`
 - React Native → `references/react-native.md`
 - 铁锈 → `references/rust.md`
 - Python → `references/python.md`
@@ -109,8 +88,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - C/C++/CMake → `references/cpp.md`
 - 其他/未知 → `references/generic.md`（没有特定参考匹配时的回退）
 
-如果检测到多个堆栈，请读取多个引用。
-如果无法识别堆栈，则使用通用引用。
+如果检测到多个堆栈，请读取多个引用。如果无法识别堆栈，则使用通用引用。
 
 ## 多模块输出策略（检测到时强制）
 - 始终创建根 `CLAUDE.md`。
@@ -124,7 +102,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 业务模块 CLAUDE.md 策略（所有堆栈）
 对于 monorepo 业务逻辑目录（`src/`、`lib/`、`packages/`、`internal/`）：
-- 为具有 >5 个文件或自己的自述文件的模块创建 `CLAUDE.md`
+- 为具有 >5 个文件或自己的README的模块创建 `CLAUDE.md`
 - 跳过仅限实用程序的目录：`Helper`、`Utils`、`Common`、`Shared`、`Exception`、`Trait`、`Constants`
 ——不需要分层结构；无论架构如何，都提供模块信息
 - 每个模块最多 120 行 CLAUDE.md
@@ -155,18 +133,16 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 **克劳德代码（终端）：**
 输出建议的更改并询问：
-“您批准这些更新吗？（是/否）”
+“你批准这些更新吗？（是/否）”
 停止并等待用户响应，然后再继续。
 
 **其他环境（后备）：**
 如果没有可用的结构化问题工具：
 1. 清楚地显示建议的更改
-2. 询问：“您批准这些更新吗？回答‘是’申请，回答‘否’取消。”
+2. 询问：“你批准这些更新吗？回答‘是’申请，回答‘否’取消。”
 3. 等待用户明确确认后再继续
 
-3. 应用更新，保留自定义内容。
-
-如果不存在 CLAUDE.md，则提出一个新文件以供批准。
+3. 应用更新，保留自定义内容。如果不存在 CLAUDE.md，则提出一个新文件以供批准。
 
 ## 内容提取规则（强制）
 - 仅来自代码库：
@@ -220,7 +196,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - 命令是真实的并且可复制粘贴
 - 遵守报告优先规则
 - 参考文献深一层
-文件：自述文件.md
+文件：README.md
 # 克劳德-MD-大师
 
 掌握 CLAUDE.md 生命周期的技能：创建、更新和改进文件
@@ -253,7 +229,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 何时使用
 - 用户要求创建、改进、更新或标准化 `CLAUDE.md`
-- 存储库需要一致的、经过验证的人工智能工作流程指南
+- 存储库需要一致的、经过验证的AI工作流程指南
 
 ## 所需输入（必须进行分析）
 - 回购文档：`README.md`、`docs/*`（如果存在）
@@ -288,7 +264,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - 始终创建根`CLAUDE.md`
 - 仅为有意义的模块创建模块级文件
 - 跳过仅工具目录（例如，`buildSrc`、`gradle`、`scripts`、`tools`）
-- 当>5个文件或自己的自述文件时，业务模块获得自己的文件
+- 当>5个文件或自己的README时，业务模块获得自己的文件
 
 ## 参考资料（堆栈特定指南）
 每个参考定义了检测信号、预生成源、代码库扫描
@@ -611,7 +587,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - **测试设置**：测试框架和运行命令
 
 ## 命令来源
-- 自述文件设置/使用部分
+- README设置/使用部分
 - `Makefile` 目标、`Taskfile.yml` 任务、`justfile` 配方
 - CI 工作流程步骤（构建、测试、lint）
 - `scripts/`目录
@@ -662,7 +638,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - **配置**：列出加载包的配置
 
 ## 命令来源
-- 自述文件/文档或 CI
+- README/文档或 CI
 - `Makefile`、`Taskfile.yml` 或调用 Go 工具的存储库脚本
 - `go test ./...`、`go run` 在文档/脚本中的用法
 - 仅包含存储库中存在的命令
@@ -774,7 +750,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - Maven/Gradle 包装脚本
-- 自述文件/文档或 CI
+- README/文档或 CI
 - `./mvnw spring-boot:run`、`./gradlew bootRun` 在文档/脚本中的用法
 - 仅包含存储库中存在的命令
 
@@ -831,7 +807,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - `package.json` 脚本
-- 自述文件/文档或 CI
+- README/文档或 CI
 - 文档/脚本中的 `npm|yarn|pnpm` 脚本用法
 - 仅包含存储库中存在的命令
 
@@ -946,7 +922,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - `composer.json` 脚本
-- 自述文件/文档或 CI
+- README/文档或 CI
 - `php artisan`、`bin/console` 在文档/脚本中的用法
 - `bin/worker.php` 命令
 - 仅包含存储库中存在的命令
@@ -1007,7 +983,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - `pyproject.toml` 工具部分
-- 自述文件/文档或 CI
+- README/文档或 CI
 - 调用Python工具的Repo脚本
 - `python manage.py`、`pytest`、`tox` 在文档/脚本中的用法
 - 仅包含存储库中存在的命令
@@ -1017,7 +993,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - `templates/`、`static/`
 - `tests/`
 文件：参考文献/react-native.md
-# 反应本机
+# React本机
 
 ## 检测信号
 - `package.json` 与 `react-native`
@@ -1060,7 +1036,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - `package.json` 脚本
-- 自述文件/文档或 CI
+- README/文档或 CI
 - `ios/` 和 `android/` 中的本机构建文件
 - 文档/脚本中的 `expo` 脚本用法（如果是 Expo）
 - 仅包含存储库中存在的命令
@@ -1069,7 +1045,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - `ios/`、`android/`
 - `src/`、`app/`
 文件：参考文献/react-web.md
-# 反应（网络）
+# React（网络）
 
 ## 检测信号
 - `package.json`
@@ -1113,7 +1089,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 
 ## 命令来源
 - `package.json` 脚本
-- 自述文件/文档或 CI
+- README/文档或 CI
 - 仅包含存储库中存在的命令
 
 ## 要提及的关键路径（仅当存在时）
@@ -1213,7 +1189,7 @@ upstream_updated_at: "2026-01-28T11:52:47.871Z"
 - **配置**：列出配置加载模块
 
 ## 命令来源
-- 自述文件/文档或 CI
+- README/文档或 CI
 - 调用 `cargo` 的存储库脚本
 - `cargo test`、`cargo run` 在文档/脚本中的用法
 - 仅包含存储库中存在的命令
@@ -2422,14 +2398,8 @@ Include these if detected (list actual names found):
 - `tests/`, `examples/`, `benches/`
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [claude-md-master](https://prompts.chat/prompts/claude-md-master) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Agent, Skill, Claude, creator, infrastructure |
-| Contributors | barisatalay |
-| Updated At | 2026-01-28T11:52:47.871Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

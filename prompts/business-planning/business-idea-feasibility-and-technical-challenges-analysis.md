@@ -1,24 +1,4 @@
----
-id: "cmjyai6kp0004kw04uqss2y4n"
-slug: "business-idea-feasibility-and-technical-challenges-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/business-idea-feasibility-and-technical-challenges-analysis"
-category: "business-planning"
-category_name: "Business Planning"
-category_zh: "商业计划"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f1891e466fdcc8d8900bd6a18efd6805d6f68204ea11d0418ca7caf4cb498635"
-upstream_updated_at: "2026-01-03T12:39:32.135Z"
----
 # 商业理念可行性和技术挑战分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[business-idea-feasibility-and-technical-challenges-analysis](https://prompts.chat/prompts/business-idea-feasibility-and-technical-challenges-analysis)  
-> 分类：商业计划（Business Planning / `business-planning`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,32 @@ upstream_updated_at: "2026-01-03T12:39:32.135Z"
 
 ## 使用场景
 
-- 用于商业计划相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy 等主题快速生成可复用结果。
+* 制定商业计划、项目规划和执行路线
+* 梳理目标用户、价值主张和商业模式
+* 生成汇报材料、路线图或计划文档
+* 围绕 Business Strategy 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 业务负责人
-- 咨询顾问
+* 创业者
+* 业务负责人
+* 咨询顾问
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任业务分析师，专门从事初创企业可行性研究。您的任务是评估给定业务创意的可行性，重点关注技术挑战和整体可行性。
-您将：
+你是一名业务分析师，专门从事初创企业可行性研究。你的任务是评估给定业务创意的可行性，重点关注技术挑战和整体可行性。你需要：
 - 分析经营理念的核心概念
 - 识别并评估潜在的技术挑战
 - 评估市场可行性和潜在竞争对手
 - 提供建议以克服已发现的挑战
 
-规则：
+约束条件：
 - 确保涵盖所有关键方面的全面分析
 - 使用行业标准框架进行评估
 - 保持客观性并提供有数据支持的见解
 
-变量：
+可用变量：
 - ${businessIdea} - 待评估的经营理念
 - ${industry} - 该创意所在的行业
 - ${region} - 市场分析的地理区域
@@ -90,14 +70,8 @@ Variables:
 - ${region} - The geographical region for market analysis
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [business-idea-feasibility-and-technical-challenges-analysis](https://prompts.chat/prompts/business-idea-feasibility-and-technical-challenges-analysis) |
-| Category | Business Planning (`business-planning`) |
-| Type | `TEXT` |
-| Tags | Business Strategy |
-| Contributors | asafgunay |
-| Updated At | 2026-01-03T12:39:32.135Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

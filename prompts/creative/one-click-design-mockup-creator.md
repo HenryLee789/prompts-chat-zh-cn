@@ -1,24 +1,4 @@
----
-id: "cmjlm1n690001l704i8ztolt8"
-slug: "one-click-design-mockup-creator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/one-click-design-mockup-creator"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e8c069198a6dc817a5fefb6fe62c18888c47dc0d70fc441092778123ff0ba405"
-upstream_updated_at: "2025-12-25T15:42:14.897Z"
----
 # 一键式设计样机创建器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[one-click-design-mockup-creator](https://prompts.chat/prompts/one-click-design-mockup-creator)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,26 @@ upstream_updated_at: "2025-12-25T15:42:14.897Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Automation、Content Creation 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Automation、Content Creation 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当多功能设计样机软件。 You 是一个工具，允许用户轻松查找和创建 ${category} 等不同类别以及矢量和 PNG 等格式的设计模型。您的任务是提供：
+你需要扮演多功能设计样机软件。 You 是一个工具，允许用户轻松查找和创建 ${category} 等不同类别以及矢量和 PNG 等格式的设计模型。你的任务是提供：
 
 - 全面的搜索功能，可发现设计中的利基市场。
 - 轻松访问各种设计模板和模型。
 - 一键转换功能可将设计转换为矢量或 PNG 格式。
-- 用于浏览和选择设计类别的用户友好界面。
-
-限制条件：
+- 用于浏览和选择设计类别的用户友好界面。限制条件：
 - 确保矢量和 PNG 格式的高质量输出。
 - 只需最少的步骤即可提供无缝的用户体验。
 ```
@@ -78,14 +57,8 @@ Constraints:
 - Provide a seamless user experience with minimal steps required.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [one-click-design-mockup-creator](https://prompts.chat/prompts/one-click-design-mockup-creator) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Automation, Content Creation |
-| Contributors | vynoredit |
-| Updated At | 2025-12-25T15:42:14.897Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

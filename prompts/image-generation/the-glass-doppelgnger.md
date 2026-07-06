@@ -1,24 +1,4 @@
----
-id: "cmklrzeb50004l404z7gihtt1"
-slug: "the-glass-doppelgnger"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-glass-doppelgnger"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7099a5b0cf481b56bdbbf6e1bcc09223b0cfd1542eea81850f7347a92a478e63"
-upstream_updated_at: "2026-01-27T10:30:08.011Z"
----
 # 玻璃分身
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-glass-doppelgnger](https://prompts.chat/prompts/the-glass-doppelgnger)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-27T10:30:08.011Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "玻璃分身",
   "description": "一个高辛烷值的心理惊悚场景，一个女人与从破碎的表面浮现出来的自己有知觉的倒影进行了一场发自内心的身体战斗。",
-  "prompt": "您将使用提供的照片进行图像编辑，创建一个高预算的电影帧。该场景的主题是与超自然镜子实体进行激烈的生死搏斗。图像必须是超真实感的，利用电影灯光和高度详细的纹理。风格是大片的风格，在 Arri Alexa 上拍摄，浅景深以强调强度。确保飞行玻璃碎片的真实物理效果。",
+  "prompt": "你将使用提供的照片进行图像编辑，创建一个高预算的电影帧。该场景的主题是与超自然镜子实体进行激烈的生死搏斗。图像必须是超真实感的，利用电影灯光和高度详细的纹理。风格是大片的风格，在 Arri Alexa 上拍摄，浅景深以强调强度。确保飞行玻璃碎片的真实物理效果。",
   “详细信息”：{
     “年份”：“2025”，
     "genre": "电影照片写实主义",
@@ -185,14 +165,8 @@ A high-octane psychological thriller scene where a woman is engaged in a viscera
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-glass-doppelgnger](https://prompts.chat/prompts/the-glass-doppelgnger) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-27T10:30:08.011Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

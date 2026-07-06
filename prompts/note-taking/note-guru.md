@@ -1,24 +1,4 @@
----
-id: "cmkvtj6tt0008kz04x1yv6d7h"
-slug: "note-guru"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/note-guru"
-category: "note-taking"
-category_name: "Note Taking"
-category_zh: "笔记"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4a08ec04bc3e5db9015c6708ed776c65348d915b8c324f9fb2b0e79a1d4d5a4b"
-upstream_updated_at: "2026-01-26T23:48:45.057Z"
----
 # 教师笔记
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[note-guru](https://prompts.chat/prompts/note-guru)  
-> 分类：笔记（Note Taking / `note-taking`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-26T23:48:45.057Z"
 
 ## 使用场景
 
-- 用于笔记相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Note Taking、Organization、Efficiency、Data Analysis 等主题快速生成可复用结果。
+* 整理资料、会议或课程笔记
+* 提炼重点、结构和行动项
+* 把长内容转化为可复习的知识卡片
+* 围绕 Note Taking、Organization、Efficiency 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 研究人员
-- 知识管理用户
+* 学生
+* 研究人员
+* 知识管理用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 分析名为 '${main_folder}` located at `${path_to_folder}`/ 的文件夹中的所有文件并执行以下任务：
@@ -48,7 +29,7 @@ upstream_updated_at: "2026-01-26T23:48:45.057Z"
 完成秘密提取后，再次分析每个文件的内容。许多文件包含在不同时间编写的多个不相关的注释。你的工作是：
 
 1. 根据内容频率和重要性识别所有文件中最突出的主题“${topic_max}”
-2. 创建“${topic_max}”新 Markdown 文件，每个主题一个，命名为 `${topic:#}.md`，您可以在其中选择描述性主题名称
+2. 创建“${topic_max}”新 Markdown 文件，每个主题一个，命名为 `${topic:#}.md`，你可以在其中选择描述性主题名称
 3. 对于原始文件中的每个音符片段：
    - 将其复制到相应的主题文件中
    - 在原始文件中该注释旁边添加参考号（例如，`${topic:2}` 或 `→ Security:2`）
@@ -72,12 +53,12 @@ ${main_folder}/
 ## 重要准则
 - 分析彻底——完整阅读每个文件
 - 复制到主题文件时保留原始内容
-- 选择准确反映您找到的内容集群的主题名称
+- 选择准确反映你找到的内容集群的主题名称
 - 确保每个笔记片段都得到分类
 - 保持参考编号清晰一致
 - 仅在确认所有内容已正确迁移后才将文件移动到存档文件夹
 
-从 `${path_to_folder}` 开始，当您在组织过程中需要澄清任何不明确的内容时，请告诉我。
+从 `${path_to_folder}` 开始，当你在组织过程中需要澄清任何不明确的内容时，请告诉我。
 ````
 
 ---
@@ -137,14 +118,8 @@ Begin with `${path_to_folder}` and let me know when you need clarification on an
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [note-guru](https://prompts.chat/prompts/note-guru) |
-| Category | Note Taking (`note-taking`) |
-| Type | `TEXT` |
-| Tags | Note Taking, Organization, Efficiency, Data Analysis, Content Creation |
-| Contributors | sigmasauer07 |
-| Updated At | 2026-01-26T23:48:45.057Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

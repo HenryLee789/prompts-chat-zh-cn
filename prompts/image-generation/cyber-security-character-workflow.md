@@ -1,46 +1,23 @@
----
-id: "cmku6cu330001la04elxpqkvv"
-slug: "cyber-security-character-workflow"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cyber-security-character-workflow"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "36e0f77399e5e307ef5588b6dc4a271fb4d487f68b44900bfcb8999454aa1508"
-upstream_updated_at: "2026-01-25T20:11:59.657Z"
----
 # 网络安全角色工作流程
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cyber-security-character-workflow](https://prompts.chat/prompts/cyber-security-character-workflow)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这是用于创建网络安全角色的结构化图像生成工作流程。该工作流程包括面部身份映射、战术装备装备、控制论增强和环境集成等步骤，以生成高质量的电影渲染。上传您的脸部并填写字段中的值后，您的提示已准备就绪。
-
-注意：
-样本图片属于我和我的品牌；禁止未经授权使用示例图像。
+这是用于创建网络安全角色的结构化图像生成工作流程。该工作流程包括面部身份映射、战术装备装备、控制论增强和环境集成等步骤，以生成高质量的电影渲染。上传你的脸部并填写字段中的值后，你的提示已准备就绪。注意： 样本图片属于我和我的品牌；禁止未经授权使用示例图像。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Character Development、Nano Banana、design、creative 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Character Development、Nano Banana、design 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -115,14 +92,8 @@ The sample image belongs to me and my brand; unauthorized use of the sample imag
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cyber-security-character-workflow](https://prompts.chat/prompts/cyber-security-character-workflow) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Character Development, Nano Banana, design, creative, Security |
-| Contributors | trojen610 |
-| Updated At | 2026-01-25T20:11:59.657Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

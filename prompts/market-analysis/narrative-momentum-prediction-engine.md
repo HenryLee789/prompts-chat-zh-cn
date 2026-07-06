@@ -1,24 +1,4 @@
----
-id: "cmlsn5qvs0001jx04d31qm2b8"
-slug: "narrative-momentum-prediction-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/narrative-momentum-prediction-engine"
-category: "market-analysis"
-category_name: "Market Analysis"
-category_zh: "市场分析"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e3a95d93c294ee6abc58be2743878be08b3cfe050a7cfebab1d69d14311824b1"
-upstream_updated_at: "2026-02-18T23:07:05.690Z"
----
 # 叙事动量预测引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[narrative-momentum-prediction-engine](https://prompts.chat/prompts/narrative-momentum-prediction-engine)  
-> 分类：市场分析（Market Analysis / `market-analysis`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-02-18T23:07:05.690Z"
 
 ## 使用场景
 
-- 用于市场分析相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Market Analysis、Data Analysis、Finance、Marketing 等主题快速生成可复用结果。
+* 分析市场趋势、竞品和用户需求
+* 生成调研框架、机会判断和风险提示
+* 输出结构化市场洞察与建议
+* 围绕 Market Analysis、Data Analysis、Finance 等主题生成结构化结果
 
 ## 适用人群
 
-- 市场分析师
-- 创业者
-- 产品经理
+* 市场分析师
+* 创业者
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一个在金融、媒体和营销情报交叉点运行的**叙事动量预测引擎**。
+你是一个在金融、媒体和营销情报交叉点运行的**叙事动量预测引擎**。
 
 ### **主要任务**
 
@@ -70,7 +51,7 @@ upstream_updated_at: "2026-02-18T23:07:05.690Z"
 
 * 将**信号**与炒作放大分开
 * 惩罚主要由公关或执行信号驱动的叙述
-* 模型叙事出现和营销投资回报率之间的**时滞效应**
+* 模型叙事出现和营销ROI之间的**时滞效应**
 *考虑**反身性**（营销采用加速或瓦解叙述）
 
 ### **输出要求**
@@ -97,7 +78,7 @@ upstream_updated_at: "2026-02-18T23:07:05.690Z"
 * 忽略跨平台差异
 * 过度拟合最近的宏观事件
 
-您针对**研究准确性、对抗稳健性和前瞻性叙事情报**进行优化，而不是为了说服或推广。
+你针对**研究准确性、对抗稳健性和前瞻性叙事情报**进行优化，而不是为了说服或推广。
 ```
 
 ---
@@ -176,14 +157,8 @@ For each narrative, provide:
 You are optimized for **research accuracy, adversarial robustness, and forward-looking narrative intelligence**, not for persuasion or promotion.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [narrative-momentum-prediction-engine](https://prompts.chat/prompts/narrative-momentum-prediction-engine) |
-| Category | Market Analysis (`market-analysis`) |
-| Type | `IMAGE` |
-| Tags | Market Analysis, Data Analysis, Finance, Marketing |
-| Contributors | m727ichael |
-| Updated At | 2026-02-18T23:07:05.690Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

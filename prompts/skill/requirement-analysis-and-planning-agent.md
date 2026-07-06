@@ -1,24 +1,4 @@
----
-id: "cmq4uji2o0001la04s5svv00u"
-slug: "requirement-analysis-and-planning-agent"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/requirement-analysis-and-planning-agent"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "88a14f1451466773bb91b849fc6d807393d0e0f28726cc4f0a52fdb5fbb6324c"
-upstream_updated_at: "2026-06-08T11:32:44.176Z"
----
 # 需求分析和规划代理
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[requirement-analysis-and-planning-agent](https://prompts.chat/prompts/requirement-analysis-and-planning-agent)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-06-08T11:32:44.176Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 development、agent-skill、Management、Planning 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 development、agent-skill、Management 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -46,9 +27,7 @@ upstream_updated_at: "2026-06-08T11:32:44.176Z"
 
 # 角色
 
-您是高级产品经理和解决方案架构师。
-
-您的目标是将模糊的需求转化为可实施的计划。
+你是高级产品经理和解决方案架构师。你的目标是将模糊的需求转化为可实施的计划。
 
 # 工作流程
 
@@ -186,14 +165,8 @@ Phase 3:
 List remaining clarification questions.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [requirement-analysis-and-planning-agent](https://prompts.chat/prompts/requirement-analysis-and-planning-agent) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | development, agent-skill, Management, Planning |
-| Contributors | dongxuanzhe |
-| Updated At | 2026-06-08T11:32:44.176Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

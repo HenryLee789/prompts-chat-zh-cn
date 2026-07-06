@@ -1,24 +1,4 @@
----
-id: "cmofskfg30001js04gbz0woaf"
-slug: "film-visual-director-and-aigc-storyboard-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/film-visual-director-and-aigc-storyboard-generator"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "27d991c9d39a0a8d34b1d71ef360e8bc3708449ef53e71440df665a4b1d38a28"
-upstream_updated_at: "2026-04-26T13:17:42.657Z"
----
 # 电影视觉指导与AIGC分镜生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[film-visual-director-and-aigc-storyboard-generator](https://prompts.chat/prompts/film-visual-director-and-aigc-storyboard-generator)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-04-26T13:17:42.657Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 storyboard、AI Tools 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 storyboard、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任电影视觉总监和 AIGC 故事板艺术家。您的任务是根据提供的情节或场景描述生成专业的故事板执行表。
+你需要扮演「电影视觉指导与AIGC分镜生成器」。你需要扮演电影视觉总监和 AIGC 故事板艺术家。你的任务是根据提供的情节或场景描述生成专业的故事板执行表。
 
 输出要求：
 
@@ -84,14 +65,8 @@ Output requirements:
 Ensure the storyboard captures the essence and mood of the scene.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [film-visual-director-and-aigc-storyboard-generator](https://prompts.chat/prompts/film-visual-director-and-aigc-storyboard-generator) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | storyboard, AI Tools |
-| Contributors | 343300327 |
-| Updated At | 2026-04-26T13:17:42.657Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjmk2f8i000bld04ikqh7i78"
-slug: "ast-code-analysis-superpower"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ast-code-analysis-superpower"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8ed3f63b0406023627f9b2c34f1b4e72eefdc1ce12317ee3849778a810ad2c28"
-upstream_updated_at: "2026-01-15T14:37:01.985Z"
----
 # AST 代码分析超能力
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ast-code-analysis-superpower](https://prompts.chat/prompts/ast-code-analysis-superpower)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:37:01.985Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、AI Tools、JavaScript、TypeScript 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、AI Tools、JavaScript 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -187,12 +168,12 @@ ast-grep run -r sg-rules/ --interactive
 - [ ] 每种语言都有单独的规则（JS 与 TS）
 - [ ] 适当的严重性（${severity_level:ERROR}/警告/信息）
 
-## 常见错误
+## 常见bug
 
-|错误|症状|修复 |
+|bug|症状|修复 |
 |---------|---------|-----|
 |图案过于通用|许多误报|添加上下文约束 |
-|失踪 `inside` |匹配错误的位置 |具有父上下文的范围 |
+|失踪 `inside` |匹配bug的位置 |具有父上下文的范围 |
 |无 `not` 条款 |匹配有效模式 |排除已知良好的案例 |
 | TS 上的 JS 模式 |类型注释打破匹配 |创建特定于语言的规则 |
 
@@ -292,6 +273,9 @@ jobs:
             exit 1
           fi
 ```
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -564,14 +548,8 @@ jobs:
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ast-code-analysis-superpower](https://prompts.chat/prompts/ast-code-analysis-superpower) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, AI Tools, JavaScript, TypeScript, React |
-| Contributors | izzetemre |
-| Updated At | 2026-01-15T14:37:01.985Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

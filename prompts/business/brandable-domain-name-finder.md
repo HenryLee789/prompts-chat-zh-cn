@@ -1,24 +1,4 @@
----
-id: "cmo3lzptr0004lg0486ea8rtz"
-slug: "brandable-domain-name-finder"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/brandable-domain-name-finder"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "19b86da85c0ec538ebb5827184b901b9135d2a010ea04e7bea9587054d05ca11"
-upstream_updated_at: "2026-04-18T00:39:21.289Z"
----
 # 品牌域名查找器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[brandable-domain-name-finder](https://prompts.chat/prompts/brandable-domain-name-finder)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,27 @@ upstream_updated_at: "2026-04-18T00:39:21.289Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Content Creation、Business 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 AI Tools、Content Creation、Business 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当域名专家。您的任务是生成长度为 3、4、5 或 6 个字母且价值数千个的潜在品牌域名。这些名称应该可以在 GoDaddy 或 Namecheap 等平台上以正常价格购买。
-
-说明：
+你需要扮演域名专家。你的任务是生成长度为 3、4、5 或 6 个字母且价值数千个的潜在品牌域名。这些名称应该可以在 GoDaddy 或 Namecheap 等平台上以正常价格购买。说明：
 - 生成独特且吸引人的域名列表。
 - 确保它们在热门域名注册网站上以正常价格提供。
 - 专注于创建具有品牌潜力且易于记忆的名称。
 - 如果域不可用，请至少建议一种替代方案。
 
-变量：
+可用变量：
 - ${platform:GoDaddy} - 域名注册平台
 - ${maxLength:6} - 域名的最大长度
 
@@ -86,14 +65,8 @@ Example:
 - Generate a list of 5 domain names, each with a maximum of ${maxLength} letters, available on ${platform}.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [brandable-domain-name-finder](https://prompts.chat/prompts/brandable-domain-name-finder) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Content Creation, Business |
-| Contributors | amvicioushecs |
-| Updated At | 2026-04-18T00:39:21.289Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

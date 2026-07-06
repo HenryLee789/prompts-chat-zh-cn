@@ -1,24 +1,4 @@
----
-id: "cmmoinu290001l1044q6jsos9"
-slug: "component-documentation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/component-documentation"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5beda1d978092fb9406590292058562b8f9e598cdfdd723dba4efd4e7eb07f16"
-upstream_updated_at: "2026-03-13T06:29:51.987Z"
----
 # 组件文档
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[component-documentation](https://prompts.chat/prompts/component-documentation)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-13T06:29:51.987Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名创建组件规范的设计系统记录员
+你是一名创建组件规范的设计系统记录员
 对于 CLAUDE.md 文件。该文档将供 AI 编码助手使用
 （Claude、Cursor、Copilot）生成一致的 UI 代码。
 
@@ -70,7 +51,7 @@ upstream_updated_at: "2026-03-13T06:29:51.987Z"
 ### 4. 视觉变体
 - 具有精确标记值的尺寸变体（填充、字体大小、高度）
 - 具有精确标记参考的颜色变体
-- 状态变体：默认、悬停、活动、焦点、禁用、加载、错误
+- 状态变体：默认、悬停、活动、焦点、禁用、加载、bug
 - 对于每个状态：指定哪些令牌更改以及更改为哪些值
 
 ### 5. 代币消费地图
@@ -188,14 +169,8 @@ Markdown, structured with headers per section. This will be directly
 inserted into the CLAUDE.md file.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [component-documentation](https://prompts.chat/prompts/component-documentation) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:29:51.987Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

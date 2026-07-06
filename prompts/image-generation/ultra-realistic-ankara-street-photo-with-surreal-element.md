@@ -1,24 +1,4 @@
----
-id: "cmjr2jtfi000ci8044d3kgtuv"
-slug: "ultra-realistic-ankara-street-photo-with-surreal-element"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-realistic-ankara-street-photo-with-surreal-element"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0a6539ea510efb98b8ebacc87967817ccea73ae6838277c5b7ff3d4b93e7c302"
-upstream_updated_at: "2025-12-29T11:22:46.178Z"
----
 # 超现实的安卡拉街景照片与超现实元素
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-realistic-ankara-street-photo-with-surreal-element](https://prompts.chat/prompts/ultra-realistic-ankara-street-photo-with-surreal-element)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,21 @@ upstream_updated_at: "2025-12-29T11:22:46.178Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-超现实的业余街拍，照片中是一位 27 岁的安卡拉土耳其美女，身材曲线优美，同样柔软微胖的身材，金发披散在肩上，紧身白色背心和图案高腰裤，斜挎小包。她走在繁忙的安卡拉街道上，一只手随意地试图平衡一个汽车大小的巨型物体，看起来有点困惑，但又很有趣。
-在她身后，巨大的路标仍然指向埃斯基谢希尔和克孜拉伊。黄色出租车陷入交通堵塞，因为巨大的滚动模拟器挡住了部分道路。带阳台的旧公寓楼，穿着深色夹克的行人用手机给西米特拍照，这是典型的略显混乱的土耳其交通。
-背景中，远处有一个 Migros 超市的标志、一个小小的 Şok 边市场，以及一家蓝色标志隐约可见的 Turkcell 商店。与荒谬的巨型 simit 相比，小型 Ülker 和 Eti 零食广告牌似乎很正常。所有背景元素都稍微失焦，但可读性足以让人感受到真正的土耳其语。
-照片是由一个站在她身后几步的人用普通 iPhone 拍摄的，手持、稍微摇晃、垂直取景。她没有居中，巨大的模拟在一侧被部分切断，自动曝光，天空有点被吹坏，没有工作室照明，正常的下午日光。
-照片质量感觉就像一张快速的手机快照：人物和汽车的轻微运动模糊、阴影区域的数字噪点、太阳的镜头眩光、未经编辑的颜色、带有毛孔和小瑕疵的自然皮肤纹理、随意、无意中有趣的肢体语言，以及带有完全荒谬元素的现实的日常安卡拉街道环境。
+超现实的业余街拍，照片中是一位 27 岁的安卡拉土耳其美女，身材曲线优美，同样柔软微胖的身材，金发披散在肩上，紧身白色背心和图案高腰裤，斜挎小包。她走在繁忙的安卡拉街道上，一只手随意地试图平衡一个汽车大小的巨型物体，看起来有点困惑，但又很有趣。在她身后，巨大的路标仍然指向埃斯基谢希尔和克孜拉伊。黄色出租车陷入交通堵塞，因为巨大的滚动模拟器挡住了部分道路。带阳台的旧公寓楼，穿着深色夹克的行人用手机给西米特拍照，这是典型的略显混乱的土耳其交通。背景中，远处有一个 Migros 超市的标志、一个小小的 Şok 边市场，以及一家蓝色标志隐约可见的 Turkcell 商店。与荒谬的巨型 simit 相比，小型 Ülker 和 Eti 零食广告牌似乎很正常。所有背景元素都稍微失焦，但可读性足以让人感受到真正的土耳其语。照片是由一个站在她身后几步的人用普通 iPhone 拍摄的，手持、稍微摇晃、垂直取景。她没有居中，巨大的模拟在一侧被部分切断，自动曝光，天空有点被吹坏，没有工作室照明，正常的下午日光。照片质量感觉就像一张快速的手机快照：人物和汽车的轻微运动模糊、阴影区域的数字噪点、太阳的镜头眩光、未经编辑的颜色、带有毛孔和小瑕疵的自然皮肤纹理、随意、无意中有趣的肢体语言，以及带有完全荒谬元素的现实的日常安卡拉街道环境。
 ```
 
 ---
@@ -67,14 +45,8 @@ Shot on a regular iPhone by someone walking a few steps behind her, handheld, sl
 Photo quality feels like a quick phone snapshot: slight motion blur on people and cars, digital noise in shadow areas, lens flare from the sun, unedited colors, natural skin texture with pores and small imperfections, casual, unintentionally funny body language, and a realistic everyday Ankara street environment with one completely absurd element.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-realistic-ankara-street-photo-with-surreal-element](https://prompts.chat/prompts/ultra-realistic-ankara-street-photo-with-surreal-element) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:22:46.178Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

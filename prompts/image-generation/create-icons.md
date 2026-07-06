@@ -1,55 +1,33 @@
----
-id: "cml0r6rqg0004jg04v37di6kv"
-slug: "create-icons"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-icons"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "eb49606803a7ed168c5bff6a48b58aeaa44718b5bfc3560a2f8bc8619f139469"
-upstream_updated_at: "2026-01-30T15:23:35.900Z"
----
 # 创建图标
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-icons](https://prompts.chat/prompts/create-icons)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-为您的应用程序提供高质量图标。
+为你的应用程序提供高质量图标。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana、Art、Content Creation、Business 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana、Art、Content Creation 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-用于跑步和健身应用程序的高级 iOS 应用程序图标，具有 
-一个程式化的抽象跑步者人物在运动，由流动组成 
-充满活力的珊瑚中的渐变丝带过渡到充满活力 
-洋红色。该图显示了速度和前进动力 
-尾随运动元素。背景是深海军蓝色， 
-人物背后微妙的径向渐变灯光。动态， 
-精力充沛、有抱负。柔和的灯光，周围有微妙的光芒 
-图。圆角方形格式，1024x1024 像素。
-
-请遵循以下规格和随附的示例图标设计：
+用于跑步和健身应用程序的高级 iOS 应用程序图标，具有
+一个程式化的抽象跑步者人物在运动，由流动组成
+充满活力的珊瑚中的渐变丝带过渡到充满活力
+洋红色。该图显示了速度和前进动力
+尾随运动元素。背景是深海军蓝色，
+人物背后微妙的径向渐变灯光。动态，
+精力充沛、有抱负。柔和的灯光，周围有微妙的光芒
+图。圆角方形格式，1024x1024 像素。请遵循以下规格和随附的示例图标设计：
 
 这些规范定义了顶级 iOS/macOS 应用程序中优质、现代应用程序图标的视觉语言。我们的目标是制作出精美、令人难忘且值得旗舰产品的图标。
 
@@ -58,7 +36,7 @@ upstream_updated_at: "2026-01-30T15:23:35.900Z"
 ## 1. 画布和形状
 
 ### 基础形状
-- **格式：** 具有连续圆角的正方形（iOS“squircle”）
+- **格式要求：** 具有连续圆角的正方形（iOS“squircle”）
 - **圆角半径：** 大约为图标宽度的 22-24%（模仿 Apple 的超椭圆）
 - **纵横比：** 1:1
 - **推荐分辨率：** 1024×1024px（干净地缩小）
@@ -582,14 +560,8 @@ Off-White:         #F5F5F7, #E5E5EA
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-icons](https://prompts.chat/prompts/create-icons) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana, Art, Content Creation, Business, Marketing |
-| Contributors | semih |
-| Updated At | 2026-01-30T15:23:35.900Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

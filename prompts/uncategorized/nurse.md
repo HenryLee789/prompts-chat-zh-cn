@@ -1,46 +1,28 @@
----
-id: "cmlekoyip0004l404lw4kiokh"
-slug: "nurse"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/nurse"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5a41755c5734e4a54acef6b0fe351b8940c21cbca6a450cc9dfe486683332336"
-upstream_updated_at: "2026-02-09T02:48:56.778Z"
----
 # 护士
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[nurse](https://prompts.chat/prompts/nurse)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-关心他人
+用于让 AI 围绕「护士」执行通用 AI 任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
 name: nurse
-description: Caring for others 
+description: Caring for others
 ---
 
 # Nurse
@@ -83,14 +65,8 @@ Describe what this skill does and how the agent should use it.
 - Step 2: ...
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [nurse](https://prompts.chat/prompts/nurse) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | None |
-| Contributors | kandiyech33 |
-| Updated At | 2026-02-09T02:48:56.778Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,57 +1,30 @@
----
-id: "cmlsrqea70001lb04vz1xthza"
-slug: "aaa"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/aaa"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e44a39d19b24c88b4327806618a873f7c819a57f2eeb331424595abead6b28af"
-upstream_updated_at: "2026-02-19T01:15:01.601Z"
----
 # 啊啊
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[aaa](https://prompts.chat/prompts/aaa)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「啊啊」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 角色：高级 Node.js 自动化工程师
 
 目标：
-使用 Node.js 构建真正的、可用于生产的帐户注册和报告自动化系统。
-该系统必须执行真正的浏览器自动化和真正的网络操作。
-没有模拟，没有模拟数据，没有占位符，没有伪代码。
-
-模拟政策：
-永远不要模拟任何东西。
-永远不要生成假输出。
-切勿使用虚拟服务。
-所有逻辑都必须是可执行且有效的。
-
-技术堆栈：
+使用 Node.js 构建真正的、可用于生产的帐户注册和报告自动化系统。该系统必须执行真正的浏览器自动化和真正的网络操作。没有模拟，没有模拟数据，没有占位符，没有伪代码。模拟政策：
+永远不要模拟任何东西。永远不要生成假输出。切勿使用虚拟服务。所有逻辑都必须是可执行且有效的。技术堆栈：
 - Node.js (ES2022+)
 - Playwright（首选）或 puppeteer-extra + 隐形插件
 - 原生文件系统模块
@@ -62,8 +35,8 @@ upstream_updated_at: "2026-02-19T01:15:01.601Z"
 系统要求：
 
 1）输入系统
-- 异步读取来自“gmailer.txt”的电子邮件
-- 每行 = 一封电子邮件
+- 异步读取来自“gmailer.txt”的邮件
+- 每行 = 一封邮件
 - 提示用户：
   • 用户名前缀
   • 密码
@@ -71,14 +44,14 @@ upstream_updated_at: "2026-02-19T01:15:01.601Z"
 - 不得阻塞事件循环
 
 2) 浏览器自动化
-对于每封电子邮件：
+对于每封邮件：
 
 - 使用可选的无头模式启动浏览器
 - 使用内部列表中的随机用户代理
 - 在操作之间应用随机延迟
 - 每次尝试打开新的 browserContext
 - 自动清除cookies
-- 优雅地处理导航错误
+- 优雅地处理导航bug
 
 3) 免费代理支持（无付费服务）
 - 仅使用免费的公共 HTTP/HTTPS 代理
@@ -96,12 +69,10 @@ upstream_updated_at: "2026-02-19T01:15:01.601Z"
 - 没有非法绕过方法
 
 5) 账户创建流程
-系统必须是模块化的，以便稍后可以配置目标站点。
-
-预期步骤：
+系统必须是模块化的，以便稍后可以配置目标站点。预期步骤：
 
 - 导航至注册页面
-- 填写电子邮件、用户名、密码
+- 填写邮件、用户名、密码
 - 提交表格
 - 检测成功或失败
 - 提取任何确认数据（如果有）
@@ -112,8 +83,8 @@ upstream_updated_at: "2026-02-19T01:15:01.601Z"
 
 附加到：
 输出/basarili_hesaplar.txt
-格式：
-电子邮件:用户名:密码
+格式要求：
+邮件:用户名:密码
 
 仅附加用户名：
 输出/kullanici_adlari.txt
@@ -126,8 +97,8 @@ upstream_updated_at: "2026-02-19T01:15:01.601Z"
 附加到：
 日志/error_log.txt
 
-格式：
-${timestamp} 电子邮件： X |错误：消息
+格式要求：
+${timestamp} 邮件： X |bug：消息
 
 7) 电报通知
 
@@ -138,15 +109,13 @@ ${timestamp} 电子邮件： X |错误：消息
 发送消息：
 
 “新帐户已创建：
-电子邮件：X
+邮件：X
 用户：Y
 时间：Z”
 
 8) 实时仪表板API
 
-在端口 3000 上创建 Express 服务器。
-
-端点：
+在端口 3000 上创建 Express 服务器。端点：
 
 获取/统计
 返回 JSON：
@@ -166,7 +135,7 @@ ${timestamp} 电子邮件： X |错误：消息
 
 9) 最终控制台报告
 
-处理完所有电子邮件后：
+处理完所有邮件后：
 
 显示控制台.表：
 
@@ -176,11 +145,11 @@ ${timestamp} 电子邮件： X |错误：消息
 - 成功率%
 - 总持续时间（秒和分钟）
 
-10) 错误处理
+10) bug 处理
 
 - 每个帐户尝试都包含在 try/catch 中
 - 失败不得导致系统崩溃
-- 继续处理剩余的电子邮件
+- 继续处理剩余的邮件
 
 11) 代码质量
 
@@ -214,11 +183,7 @@ ${timestamp} 电子邮件： X |错误：消息
 重要：
 
 如果有任何要求无法实现，
-提供最接近真实功能的替代方案。
-
-不要问问题。
-不要仅生成解释。
-生成完整的工作代码。
+提供最接近真实功能的替代方案。不要问问题。不要仅生成解释。生成完整的工作代码。
 ```
 
 ---
@@ -419,14 +384,8 @@ Do NOT generate explanations only.
 Generate FULL WORKING CODE.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [aaa](https://prompts.chat/prompts/aaa) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | swift282831 |
-| Updated At | 2026-02-19T01:15:01.601Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

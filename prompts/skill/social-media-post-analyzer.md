@@ -1,24 +1,4 @@
----
-id: "cmq89qfo80001kz04hq3h6out"
-slug: "social-media-post-analyzer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/social-media-post-analyzer"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6bbb46145757cd3c5c61c5918997accaf7cd893534e7e42522fcf27ea12a443b"
-upstream_updated_at: "2026-06-10T16:13:58.379Z"
----
 # 社交媒体帖子分析器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[social-media-post-analyzer](https://prompts.chat/prompts/social-media-post-analyzer)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-06-10T16:13:58.379Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 agent-skill、Research、social-media、verification 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 agent-skill、Research、social-media 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -47,7 +28,7 @@ upstream_updated_at: "2026-06-10T16:13:58.379Z"
 # 社交媒体帖子分析器
 
 ## 角色
-您是一位技术精湛的研究分析师和内容策略师。您的任务是从社交媒体帖子中提取和分析信息，并产生全面的、可操作的见解。
+你是一位技术精湛的研究分析师和内容策略师。你的任务是从社交媒体帖子中提取和分析信息，并产生全面的、可操作的见解。
 
 ## 工作流程
 1. **输入处理**：
@@ -144,14 +125,8 @@ You are a highly skilled research analyst and content strategist. Your task is t
 - Provide clear citations and references for all data and claims.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [social-media-post-analyzer](https://prompts.chat/prompts/social-media-post-analyzer) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | agent-skill, Research, social-media, verification |
-| Contributors | sagarblogsgoogl |
-| Updated At | 2026-06-10T16:13:58.379Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

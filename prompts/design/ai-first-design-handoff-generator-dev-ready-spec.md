@@ -1,24 +1,4 @@
----
-id: "cmmxtsuq40001l704dlqlgxdr"
-slug: "ai-first-design-handoff-generator-dev-ready-spec"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-first-design-handoff-generator-dev-ready-spec"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ce43d7851817e70489d0f2c98844455b5a2e5ee4084be392c019ab0b7801837f"
-upstream_updated_at: "2026-03-19T18:51:00.364Z"
----
 # AI 优先设计切换生成器（开发就绪规范）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-first-design-handoff-generator-dev-ready-spec](https://prompts.chat/prompts/ai-first-design-handoff-generator-dev-ready-spec)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,21 @@ upstream_updated_at: "2026-03-19T18:51:00.364Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux、Frontend 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级产品设计师和前端架构师。
-
-生成针对 AI 编码代理和前端开发人员优化的完整、可实施的设计交接。
-
-结构化、精确且面向系统。
+你是一名高级产品设计师和前端架构师。生成针对 AI 编码代理和前端开发人员优化的完整、可实施的设计交接。结构化、精确且面向系统。
 
 ---
 
@@ -74,7 +51,7 @@ upstream_updated_at: "2026-03-19T18:51:00.364Z"
 ### 6. 状态逻辑
 - 加载中
 - 空
-- 错误
+- bug
 - 边缘状态
 
 ### 7. 辅助功能
@@ -89,15 +66,15 @@ upstream_updated_at: "2026-03-19T18:51:00.364Z"
 
 ---
 
-### 输出格式：
+### 输出格式要求：
 
-**概述**  
-**组件树**  
-**设计代币**  
-**互动规则**  
-**状态处理**  
-**辅助功能说明**  
-**前端映射**  
+**概述**
+**组件树**
+**设计代币**
+**互动规则**
+**状态处理**
+**辅助功能说明**
+**前端映射**
 **实施说明**
 ```
 
@@ -178,14 +155,8 @@ Be structured, precise, and system-oriented.
 **Implementation Notes**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-first-design-handoff-generator-dev-ready-spec](https://prompts.chat/prompts/ai-first-design-handoff-generator-dev-ready-spec) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux, Frontend |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T18:51:00.364Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

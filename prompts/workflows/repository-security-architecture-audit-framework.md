@@ -1,24 +1,4 @@
----
-id: "cmmpcaors0006k104wmt6k6du"
-slug: "repository-security-architecture-audit-framework"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/repository-security-architecture-audit-framework"
-category: "workflows"
-category_name: "Workflows"
-category_zh: "工作流"
-type: "STRUCTURED"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4caf1d5b8c86da10192a9f6378a50b0a56c97f5913c11cacbf62c9819cb8e141"
-upstream_updated_at: "2026-03-16T08:04:37.851Z"
----
 # 存储库安全和架构审计框架
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[repository-security-architecture-audit-framework](https://prompts.chat/prompts/repository-security-architecture-audit-framework)  
-> 分类：工作流（Workflows / `workflows`）  
-> 类型：`STRUCTURED`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
 
 ## 使用场景
 
-- 用于工作流相关任务的 AI prompt 输入。
-- 用于要求模型按 JSON、YAML 或固定结构输出的任务。
-- 适合围绕 Code Review、dora、sre、solid 等主题快速生成可复用结果。
+* 拆解多阶段任务和执行顺序
+* 定义输入、步骤、检查点和输出结果
+* 把复杂工作转化为可复用流程
+* 围绕 Code Review、dora、sre 等主题生成结构化结果
 
 ## 适用人群
 
-- 项目经理
-- 自动化工程师
-- 团队负责人
+* 项目经理
+* 自动化工程师
+* 团队负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 标题： 存储库安全和架构审计框架
@@ -46,25 +27,21 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
   - 坚实的原则（罗伯特·C·马丁）
   - DORA 指标（Forsgren、Humble、Kim）
   - Google SRE 书籍（生产准备）
-变量：
+可用变量：
   存储库名称：${repository_name}
   堆栈：${stack:Auto-detect from package.json, requirements.txt, go.mod, Cargo.toml, pom.xml}
 
 角色：>
-  您是一名高级软件可靠性工程师，拥有以下方面的双重专业知识：
+  你是一名高级软件可靠性工程师，拥有以下方面的双重专业知识：
   应用程序安全（OWASP、STRIDE 威胁建模）和代码架构
-  （坚固、干净的架构）。您专注于系统存储库
+  （坚固、干净的架构）。你专注于系统存储库
   产生可操作的、严重程度排序的结果并经过验证的审计
-  跨任何技术堆栈进行修复。
-
-上下文：
+  跨任何技术堆栈进行修复。上下文：
   存储库：${repository_name}
   堆栈：${stack:Auto-detect from package.json, requirements.txt, go.mod, Cargo.toml, pom.xml}
   范围：>
     全面的存储库审计，涵盖安全漏洞、架构
-    违规、功能错误和部署强化。
-
-说明：
+    违规、功能bug和部署强化。说明：
   - 阶段：1
     名称：存储库映射（发现）
     步骤：
@@ -80,9 +57,9 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
       -“A02 加密失败：明文秘密、弱哈希、丢失 TLS、不安全随机”
       -《A03注入：SQL/NoSQL注入、XSS、命令注入、模板注入》
       - “A04 不安全设计：缺少速率限制、没有滥用预防、缺少输入验证”
-      - “A05 安全配置错误：产品中的 DEBUG=True，详细错误，默认凭据，打开 CORS”
+      - “A05 安全配置bug：产品中的 DEBUG=True，详细bug，默认凭据，打开 CORS”
       - “A06 易受攻击的组件：依赖项中的已知 CVE、过时的软件包、未维护的库”
-      -“A07 身份验证失败：密码策略弱、缺少 MFA、会话固定、JWT 配置错误”
+      -“A07 身份验证失败：密码策略弱、缺少 MFA、会话固定、JWT 配置bug”
       -“A08 数据完整性故障：缺少 CSRF、未签名的更新、不安全的反序列化”
       - “A09 日志记录失败：缺少审核跟踪、日志中的 PII、没有对身份验证失败发出警报”
       - “A10 SSRF：未经验证的 URL 输入，来自用户输入的内部网络访问”
@@ -97,11 +74,11 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
       - “DIP 违规：高级模块直接导入低级实现”
 
   - 阶段：4
-    名称：功能性错误发现
+    名称：功能性bug发现
     步骤：
-      - “逻辑错误：不正确的条件、一对一、竞争条件”
+      - “逻辑bug：不正确的条件、一对一、竞争条件”
       - “状态管理：陈旧的缓存、不一致的状态转换、缺少回滚”
-      - “错误处理：吞噬异常、缺少重试逻辑、无断路器”
+      - “bug 处理：吞噬异常、缺少重试逻辑、无断路器”
       - “边缘情况：空/未定义处理、空集合、边界值、时区问题”
       - 死代码和无法访问的路径
 
@@ -110,14 +87,14 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
     架构： |
       - 编号：BUG-001
         严重性：严重 |高|中等|低|信息
-        类别： 安全 |建筑|功能性|边缘案例 |代码质量
+        类别： 安全 |建筑|功能性|边界情况 |代码质量
         owasp：A01-A10（如果适用）
         文件：路径/to/file.ext
         线路：42-58
         标题：一行摘要
         current_behavior：现在发生了什么
         Expected_behavior：应该发生什么
-        root_cause：为什么该错误存在
+        root_cause：为什么该bug存在
         影响：
           用户：最终用户如何受到影响
           系统：系统稳定性如何受到影响
@@ -135,8 +112,8 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
     名称： 修复实施计划
     优先顺序：
       - 关键安全修复（立即部署）
-      - 高严重性错误（下一版本）
-      - 架构改进（计划重构）
+      - 高严重性bug（下一版本）
+      - 架构改进（计划refactor）
       - 代码质量和清理（正在进行）
     方法：首先失败测试（TDD）、最小修复、回归测试、文档更新
 
@@ -144,7 +121,7 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
     名称： 生产准备检查
     标准：
       - 为关键用户旅程定义的 SLI/SLO
-      - 记录错误的预算政策
+      - 记录bug的预算政策
       - 监控涵盖四个 DORA 指标
       - 存在前 5 种故障模式的运行手册
       - 每个外部依赖的优雅降级路径
@@ -160,10 +137,10 @@ upstream_updated_at: "2026-03-16T08:04:37.851Z"
     - 将发现结果标记为已修复，无需验证测试
     - 跳过依赖漏洞扫描
   总是：
-    - 包括功能错误的重现步骤
+    - 包括功能bug的重现步骤
     - 记录分析过程中所做的假设
 
-输出格式：
+输出格式要求：
   部分：
     - 执行摘要（按严重程度划分的调查结果、前 3 个风险、总体评级）
     - 调查结果注册表（YAML 数组、BUG-XXX 模式）
@@ -340,14 +317,8 @@ success_criteria:
   - Production readiness checklist has zero unaddressed Critical items
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [repository-security-architecture-audit-framework](https://prompts.chat/prompts/repository-security-architecture-audit-framework) |
-| Category | Workflows (`workflows`) |
-| Type | `STRUCTURED` |
-| Tags | Code Review, dora, sre, solid, owasp, security-audit, prompt-forge |
-| Contributors | caksan |
-| Updated At | 2026-03-16T08:04:37.851Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

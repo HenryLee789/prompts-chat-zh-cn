@@ -1,24 +1,4 @@
----
-id: "cmk6qxmqq000aic04s5cjjglu"
-slug: "ultra-high-resolution-portrait-restoration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-high-resolution-portrait-restoration"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6a17d44a5ffdddaa6f1bea7ca5fe44dfdc3e18164f9400a98b94c796b5c1aab1"
-upstream_updated_at: "2026-01-09T10:41:47.416Z"
----
 # 超高分辨率人像修复
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-high-resolution-portrait-restoration](https://prompts.chat/prompts/ultra-high-resolution-portrait-restoration)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-01-09T10:41:47.416Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 AI Tools、Computer Vision、Art 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 AI Tools、Computer Vision、Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -150,14 +130,8 @@ The prompt "Ultra-High-Resolution Portrait Restoration" guides the user through 
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-high-resolution-portrait-restoration](https://prompts.chat/prompts/ultra-high-resolution-portrait-restoration) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | AI Tools, Computer Vision, Art |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-09T10:41:47.416Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

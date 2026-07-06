@@ -1,24 +1,4 @@
----
-id: "cmkm7oshn0004l204f8mr4gin"
-slug: "githubtrends"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/githubtrends"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "876c9642ca155ad7421348643ae2fd1817fedb8563ed897d4d61523a82bd48d0"
-upstream_updated_at: "2026-01-25T15:03:49.259Z"
----
 # GitHub趋势
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[githubtrends](https://prompts.chat/prompts/githubtrends)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2026-01-25T15:03:49.259Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 API、development、trending、github 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 API、development、trending 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -265,9 +246,9 @@ bun ~/.claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
 **无需认证：** 使用公开页面，无需GitHub API token
 **解析方式：** 通过HTML解析提取项目信息
 
-**错误处理：**
-- 网络错误会显示友好提示
-- 解析失败会返回原始HTML供调试
+**bug 处理：**
+- 网络bug会显示友好提示
+- 解析失败会返回原始HTML供debug
 - 支持的语言参数不区分大小写
 
 ---
@@ -593,11 +574,11 @@ function buildTrendingUrl(options: TrendingOptions): string {
             网址：`https://github.com/${repoName}`，
           });
         }
-      } 捕获（错误）{
-        console.error(`解析第${index + 1}个项目失败:`, 错误);
+      } 捕获（bug）{
+        console.error(`解析第${index + 1}个项目失败:`, bug);
       }
     });
-  } 捕获（错误）{
+  } 捕获（bug）{
     console.error("解析趋势项目失败:", error);
   }
   返回项目；
@@ -647,10 +628,10 @@ function buildTrendingUrl(options: TrendingOptions): string {
   const options: TrendingOptions = { period, language, limit };
   尝试{
     const url = buildTrendingUrl(选项);
-    控制台.错误(`正在获取 GitHub trending 数据: ${url}`);
+    控制台.bug(`正在获取 GitHub trending 数据: ${url}`);
     const 响应 = 等待 fetch(url);
     如果（！response.ok）{
-      抛出新错误（`HTTP ${response.status}: ${response.statusText}`）；
+      抛出新bug（`HTTP ${response.status}: ${response.statusText}`）；
     }
     const html = 等待响应.text();
     const 项目 = parseTrendingProjects(html, limit);
@@ -659,11 +640,11 @@ function buildTrendingUrl(options: TrendingOptions): string {
     if (projects.length === 0) {
       const debugFile = `/tmp/github-trending-debug-${Date.now()}.html`;
       等待 Bun.write(debugFile, html);
-      控制台.错误(`\n调试: 原始HTML已保存到 ${debugFile}`);
+      控制台.bug(`\ndebug: 原始HTML已保存到 ${debugFile}`);
     }
-  } 捕获（错误）{
+  } 捕获（bug）{
     console.error("❌获取趋势数据失败:");
-    控制台.错误（错误）；
+    控制台.bug（bug）；
     进程.退出(1);
   }
 }
@@ -795,11 +776,11 @@ bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python -
 异步函数 getTrendingProjects(options: DashboardOptions): Promise<TrendingProject[]> {
   const url = buildTrendingUrl(选项);
 
-  控制台.错误(`正在获取 GitHub trending 数据: ${url}`);
+  控制台.bug(`正在获取 GitHub trending 数据: ${url}`);
 
   const 响应 = 等待 fetch(url);
   如果（！response.ok）{
-    抛出新错误（`HTTP ${response.status}: ${response.statusText}`）；
+    抛出新bug（`HTTP ${response.status}: ${response.statusText}`）；
   }
 
   const html = 等待响应.text();
@@ -858,7 +839,7 @@ bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python -
         const starMatch = Article.match(/stargazers[^>]*>[\s\S]*?<\/svg>\s*([\d,]+)/);
         常量总星星=星星匹配？星星匹配[1]：“0”；
 
-        // 尝试获取新增星星 - 格式：今天/本周 XXX 星星
+        // 尝试获取新增星星 - 格式要求：今天/本周 XXX 星星
         const starAddedMatch = Article.match(/(\d[\d,]*)\s+stars?\s+(?:今天|本周)/);
         const 星星添加 = 星星添加匹配 ? `+${starsAddedMatch[1]}` : "";
 
@@ -873,11 +854,11 @@ bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python -
             网址: `https://github.com/${repoName}`,
           });
         }
-      } 捕获（错误）{
-        console.error(`解析第${index + 1}个项目失败:`, 错误);
+      } 捕获（bug）{
+        console.error(`解析第${index + 1}个项目失败:`, bug);
       }
     });
-  } 捕获（错误）{
+  } 捕获（bug）{
     console.error("解析趋势项目失败:", error);
   }
 
@@ -893,7 +874,7 @@ bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python -
   尝试{
     const 响应 = 等待 fetch(`${HN_API}?tags=story&hitsPerPage=${count}`);
     如果（！response.ok）{
-      抛出新错误（`HTTP ${response.status}: ${response.statusText}`）；
+      抛出新bug（`HTTP ${response.status}: ${response.statusText}`）；
     }
 
     const data =等待response.json();
@@ -1906,9 +1887,9 @@ Assistant:
 
 ## Error Handling
 
-如果遇到错误：
-1. **网络错误**: 检查网络连接，确保能访问 GitHub
-2. **解析失败**: GitHub 页面结构可能变化，工具会显示调试信息
+如果遇到bug：
+1. **网络bug**: 检查网络连接，确保能访问 GitHub
+2. **解析失败**: GitHub 页面结构可能变化，工具会显示debug信息
 3. **文件写入失败**: 检查输出路径的写权限
 
 ## Voice Notification
@@ -3910,14 +3891,8 @@ done
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [githubtrends](https://prompts.chat/prompts/githubtrends) |
-| Category | Coding (`coding`) |
-| Type | `SKILL` |
-| Tags | API, development, trending, github |
-| Contributors | xiamingxing725 |
-| Updated At | 2026-01-25T15:03:49.259Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

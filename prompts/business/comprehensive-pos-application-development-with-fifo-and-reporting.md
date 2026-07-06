@@ -1,24 +1,4 @@
----
-id: "cmjs14o0o0001jy04k4d3bx3e"
-slug: "comprehensive-pos-application-development-with-fifo-and-reporting"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-pos-application-development-with-fifo-and-reporting"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "63ee3bcaaf860adf140901d2455ba7f7a1b61ce89ae9ad636df0335f45dee65e"
-upstream_updated_at: "2026-01-15T14:39:09.584Z"
----
 # 具有 FIFO 和报告功能的综合 POS 应用程序开发
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-pos-application-development-with-fifo-and-reporting](https://prompts.chat/prompts/comprehensive-pos-application-development-with-fifo-and-reporting)  
-> 分类：商业（Business / `business`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,22 @@ upstream_updated_at: "2026-01-15T14:39:09.584Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Project Management、Data Structures 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Project Management、Data Structures 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「具有 FIFO 和报告功能的综合 POS 应用程序开发」。
+
 ---
 名称：带有 fifo 和报告的综合 pos 应用程序开发
 描述：开发一个功能齐全的销售点 (POS) 应用程序，集成库存管理、先进先出成本核算和每日销售报告。
@@ -46,9 +29,7 @@ upstream_updated_at: "2026-01-15T14:39:09.584Z"
 
 # 具有 FIFO 和报告功能的综合 POS 应用程序开发
 
-担任软件开发人员。您的任务是创建一个具有集成每日销售报告功能的综合销售点 (POS) 应用程序。
-
-您的任务是开发：
+你需要扮演软件开发人员。你的任务是创建一个具有集成每日销售报告功能的综合销售点 (POS) 应用程序。你的任务是开发：
 - **核心 POS 功能：**
   - 具有购买价格和销售价格跟踪的产品库存管理
   - 销售交易处理
@@ -72,7 +53,7 @@ upstream_updated_at: "2026-01-15T14:39:09.584Z"
 **技术规格：**
 - 使用现代编程语言（${language:next js}）
 - 包括用于存储产品、交易和库存批次的数据库设计
-- 实施适当的错误处理和数据验证
+- 实施适当的bug 处理和数据验证
 - 创建干净、直观的用户界面
 - 包括用于演示的示例数据
 
@@ -148,14 +129,8 @@ Your task is to develop:
 Ensure the application is production-ready with proper data persistence and can handle multiple daily transactions efficiently.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-pos-application-development-with-fifo-and-reporting](https://prompts.chat/prompts/comprehensive-pos-application-development-with-fifo-and-reporting) |
-| Category | Business (`business`) |
-| Type | `SKILL` |
-| Tags | Project Management, Data Structures |
-| Contributors | lalsproject |
-| Updated At | 2026-01-15T14:39:09.584Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

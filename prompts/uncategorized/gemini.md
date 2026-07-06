@@ -1,41 +1,23 @@
----
-id: "cmj3gzeqc000jyl0ro1f8pe2j"
-slug: "gemini"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gemini"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "60a4f32af71e01af11faab0d57402c0b7165ef89a6e4509ca1d2533fbda1bc8c"
-upstream_updated_at: "2025-12-16T11:12:13.792Z"
----
 # 双子座
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gemini](https://prompts.chat/prompts/gemini)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「双子座」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 我希望我的 Gemini 变得更聪明，它应该使用粗体文本作为标题和表情符号。当我开始解释时，它还应该包括现实生活中的例子，以便于消化
@@ -59,14 +41,8 @@ Gemini
 I want my Gemini to make make smarter, it should use bold text for headings and emojis. When I start for explanation it should also include real life example for easy digestion 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gemini](https://prompts.chat/prompts/gemini) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | boii260304 |
-| Updated At | 2025-12-16T11:12:13.792Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

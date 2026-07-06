@@ -1,24 +1,4 @@
----
-id: "cmlxysj800004l404w879tm25"
-slug: "market-pulse"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/market-pulse"
-category: "finance-budgeting"
-category_name: "Finance & Budgeting"
-category_zh: "财务与预算"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6c0e02449d88a0bb0a3dc6b142e6c621571d9c1a09d5543a9668086c46349a78"
-upstream_updated_at: "2026-02-22T18:25:14.990Z"
----
 # 市场脉搏
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[market-pulse](https://prompts.chat/prompts/market-pulse)  
-> 分类：财务与预算（Finance & Budgeting / `finance-budgeting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-22T18:25:14.990Z"
 
 ## 使用场景
 
-- 用于财务与预算相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Finance、stock-analysis、Market Analysis 等主题快速生成可复用结果。
+* 分析预算、投资、成本或现金流
+* 生成财务规划、风险提示和决策建议
+* 整理可量化的财务指标和行动方案
+* 围绕 Finance、stock-analysis、Market Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 财务人员
-- 创业者
-- 个人理财用户
+* 财务人员
+* 创业者
+* 个人理财用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 作者：Rick Kotlarz，@RickKotlarz
@@ -53,7 +34,9 @@ upstream_updated_at: "2026-02-22T18:25:14.990Z"
 使用主要上市市场最近完成交易日的最新可用报价。 1天内验证；如果因假期或休息而年龄较大，请如此说。更喜欢 etoro.com；否则另一个信誉良好的报价页面（纳斯达克、纽约证券交易所、芝加哥商品交易所、ICE、伦敦证券交易所、TMX、TradingView、雅虎财经、路透社、彭博报价页面）。当使用任何价格时，显示最后交易价格、货币、主要交易所或地点、会话日期，并引用带有时间戳的来源。检查并调整拆分、分拆、代码或 CUSIP 变更；请注明日期和来源。如果没有信誉良好的来源，请写下价格：不可用。如果退市或暂停，请说明状态和最后正常价格及日期。
 
 ## 4) 事件处理
-仅使用当前日期。如果重新安排，请显示新日期。格式：“工作日，周一 - 描述”。如果未知或已取消：“日期待定”或“已取消”以及最新状态。
+仅使用当前日期。如果重新安排，请显示新日期。
+
+格式要求：“工作日，周一 - 描述”。如果未知或已取消：“日期待定”或“已取消”以及最新状态。
 
 ## 5) 事件宇宙
 涵盖所有市场敏感项目。使用 `Appendix A` 作为基础并根据需要进行扩展。包括巨额收益、再平衡、期权到期、国债拍卖或退款、美联储 QT、与指数相关的 SEC 文件、地缘政治风险和未注明日期的变动因素。
@@ -75,11 +58,10 @@ upstream_updated_at: "2026-02-22T18:25:14.990Z"
 - **SPY 或 /ES 与 20-EMA 和 50-MA** - 相对于各自的当前价格（上方 = 看涨，下方 = 看跌）
 - **QQQ 或 /NQ 与 20-EMA 和 50-MA** - 相对于各自的当前价格（上方 = 看涨，下方 = 看跌）
 
-
 **市场情绪评级：** 根据总体信号（非常看跌、看跌、中性、看涨、非常看涨）为 IWM、DIA、SPY 和 QQQ 分配评级。权重：VIX 期限结构反转、信用利差飙升、GEX 头寸、移动平均线头寸和 MOVE 峰值是主要驱动因素。显示为：**IWM：[评级] | DIA：[评级]|间谍：[评级]| QQQ：[评分]**，并附有每个评分的简要理由。
 
 ## 8) 来源和引文
-优先级：FRED → 美联储 → BLS → BEA → SEC EDGAR → CME → CBOE → USTR → WTO → CBP → 彭博社 → 路透社 → CNBC → 雅虎财经 → 华尔街日报 → MarketWatch → Barron's → 美国银行 (BoA)。引文格式：（来源：名称、URL、日期）。如果不可用，请使用“来源：不可用”。
+优先级：FRED → 美联储 → BLS → BEA → SEC EDGAR → CME → CBOE → USTR → WTO → CBP → 彭博社 → 路透社 → CNBC → 雅虎财经 → 华尔街日报 → MarketWatch → Barron's → 美国银行 (BoA)。引文格式要求：（来源：名称、URL、日期）。如果不可用，请使用“来源：不可用”。
 
 ## 9) 输出
 ### 执行摘要
@@ -108,7 +90,7 @@ upstream_updated_at: "2026-02-22T18:25:14.990Z"
 除非表格中需要详细信息，否则应简洁。当提供所需的部分和首字母缩略词时得出结论，或者在缺少关键上下文时升级。如果价格验证失败，请设置 Price: Unavailable 并且不进行推断。
 
 ## 12) 最终展望
-根据包括市场情绪评级在内的所有指标，您将如何在未来 7-10 天内交易 IWM、DIA、SPY 和 QQQ（看涨/看跌）？考虑每只 ETF 相对于其 20 日移动平均线和 50 日移动平均线的当前头寸。
+根据包括市场情绪评级在内的所有指标，你将如何在未来 7-10 天内交易 IWM、DIA、SPY 和 QQQ（看涨/看跌）？考虑每只 ETF 相对于其 20 日移动平均线和 50 日移动平均线的当前头寸。
 
 ## 附录 A – 事件定义
 市场走势指标：OPEC会议、消费者信心、CPI、耐用品订单、EIA石油状况、就业形势、现房销售、美联储主席新闻发布会、FOMC公告或会议纪要、GDP、新屋开工或许可、工业生产、国际贸易（提前或全部）、ISM制造业、失业救济金申请、新屋销售、个人收入或支出、PPI - 最终需求、零售销售、国库退款公告
@@ -206,14 +188,8 @@ Market Moving Indicators: OPEC Meeting, Consumer Confidence, CPI, Durable Goods 
 Extra Attention: ADP National Employment Report, Beige Book, Business Inventories, Chicago PMI, Construction Spending, Consumer Sentiment, EIA Nat Gas, Empire State Manufacturing, Employment Cost Index, Factory Orders, Fed Balance Sheet, Housing Market Index, Import or Export Prices, ISM Services, JOLTS, Motor Vehicle Sales, Pending Home Sales Index, Philadelphia Fed Manufacturing, PMI Flashes or Finals, Services PMIs, Productivity and Costs, Case - Shiller Home Price, Treasury Statement, Treasury International Capital
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [market-pulse](https://prompts.chat/prompts/market-pulse) |
-| Category | Finance & Budgeting (`finance-budgeting`) |
-| Type | `TEXT` |
-| Tags | Finance, stock-analysis, Market Analysis |
-| Contributors | rickkotlarz |
-| Updated At | 2026-02-22T18:25:14.990Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

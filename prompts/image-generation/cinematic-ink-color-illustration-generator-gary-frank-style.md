@@ -1,24 +1,4 @@
----
-id: "cml2eizmu0001ks04wda154zs"
-slug: "cinematic-ink-color-illustration-generator-gary-frank-style"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-ink-color-illustration-generator-gary-frank-style"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f520f4ddb0c5ecae9955dea0a3cc8ea8db7f298989715709e18f4a5e1056eb0b"
-upstream_updated_at: "2026-01-31T19:35:39.407Z"
----
 # 电影墨水和彩色插图生成器 — 加里·弗兰克风格
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-ink-color-illustration-generator-gary-frank-style](https://prompts.chat/prompts/cinematic-ink-color-illustration-generator-gary-frank-style)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-31T19:35:39.407Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、creative、design 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、creative、design 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -70,13 +51,13 @@ upstream_updated_at: "2026-01-31T19:35:39.407Z"
 
     “不要”：[
       “不要使用平面颜色填充 - 每个表面都需要色调渐变”，
-      “请勿使用卡通渲染或硬边色块”，
-      “请勿使用卡通比例或夸张”，
-      “请勿使用动漫或漫画渲染约定”，
-      “请勿使用软喷枪混合来擦除墨线”，
-      “请勿使用水彩透明或出血边缘”，
-      “请勿使用真实感渲染 - 墨水线条必须保持可见且居中”，
-      “请勿使用粗略、粗糙或未完成的线条质量”，
+      “不要使用卡通渲染或硬边色块”，
+      “不要使用卡通比例或夸张”，
+      “不要使用动漫或漫画渲染约定”，
+      “不要使用软喷枪混合来擦除墨线”，
+      “不要使用水彩透明或出血边缘”，
+      “不要使用真实感渲染 - 墨水线条必须保持可见且居中”，
+      “不要使用粗略、粗糙或未完成的线条质量”，
       “不要使用柔和的或不饱和的褪色颜色——调色板丰富而深沉”
     ]
   },
@@ -126,7 +107,7 @@ upstream_updated_at: "2026-01-31T19:35:39.407Z"
 “填充光”：{
       "source": "来自上方黄昏天空的环境天空光",
       "color": "#6B7B9B 冷蓝紫色",
-      “effect”：“用冷色调填充阴影区域。防止纯黑色 - 您可以看到阴影中的细节，但它都是蓝紫色的。关键和填充之间的这种暖/冷对比创造了丰富度。”
+      “effect”：“用冷色调填充阴影区域。防止纯黑色 - 你可以看到阴影中的细节，但它都是蓝紫色的。关键和填充之间的这种暖/冷对比创造了丰富度。”
     },
 
     “口音灯”：{
@@ -358,14 +339,8 @@ Generates hyper-detailed cinematic illustrations with bold black ink linework ov
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-ink-color-illustration-generator-gary-frank-style](https://prompts.chat/prompts/cinematic-ink-color-illustration-generator-gary-frank-style) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, creative, design |
-| Contributors | eyupyusufa |
-| Updated At | 2026-01-31T19:35:39.407Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

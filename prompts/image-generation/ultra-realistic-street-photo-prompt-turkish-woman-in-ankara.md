@@ -1,24 +1,4 @@
----
-id: "cmjr294cj0001l504hov09zaw"
-slug: "ultra-realistic-street-photo-prompt-turkish-woman-in-ankara"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-realistic-street-photo-prompt-turkish-woman-in-ankara"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "395bc2fef19d0ac13cd4fb6199027c59cb3bb89d12e27c84132afae3281d4f48"
-upstream_updated_at: "2025-12-29T11:14:08.230Z"
----
 # 超现实街拍提示：安卡拉的土耳其女人
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-realistic-street-photo-prompt-turkish-woman-in-ankara](https://prompts.chat/prompts/ultra-realistic-street-photo-prompt-turkish-woman-in-ankara)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,29 +6,21 @@ upstream_updated_at: "2025-12-29T11:14:08.230Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-超写实的素人街拍，一位27岁的土耳其身材曲线美女子走在繁忙的安卡拉街道中央，柔软略显胖乎乎的身材，金色的头发披散在肩上，穿着白色紧身背心，有图案的高腰裤强调了她的曲线，背着一个小斜挎包。她向前走去，表情专注、中立，目光越过镜头。
-
-荒谬的转折：整条街上都充满了同一个女人的多个克隆人，穿着不同的服装和角色。一些克隆人穿着花卉连衣裙，一些克隆人穿着运动服，一个克隆人穿着睡衣和拖鞋，一个克隆人穿着商务西装外套和牛仔裤，另一个穿着长外套和围巾。她们显然都拥有相同的脸、相同的金发、相同的体型，只是服装和姿势不同，就好像有人以略有不同的版本将她复制粘贴到安卡拉各地。
-
-这些克隆人正在做一些平常的事情：一个克隆人透过车窗与一名黄色出租车司机争论，一个克隆人拎着一个超大的橙色 Migros 购物袋，另一个在“Kızılay”路标下自拍，一个克隆人边走边吃西米特，另一个靠在阳台栏杆上俯视街道。穿着白色背心的“主要”女人距离镜头最近，径直向前走，忽略了她所有的克隆人。
-
-背景是安卡拉常见的细节：指向“Eskişehir”和“Kızılay”的大型路标、交通中的黄色出租车、带阳台的旧灰色公寓楼、行人和几个穿着深色夹克的克隆人。远处的一座建筑上挂着一个 Migros 超市的标志，一个明亮的 Şok 标志悬挂在一个小市场门口，一家带有蓝色标志的 Turkcell 商店在其他店面中隐约可见，而 Ülker 和 Eti 小吃的小广告则贴在公交车站和墙壁上。这些品牌元素因景深而略微模糊，但仍具有足够的可读性，让人感觉是正宗的土耳其风格。
-
-使用普通 iPhone 从主要女性身后几步处拍摄，手持，稍微晃动，垂直取景。她的构图不完美，稍微偏离中心，出租车的一部分和克隆人的一部分沿着边缘被切断。自动曝光，天空稍微曝光过度，没有工作室照明，只有正常的苍白午后日光。
-
-图像质量与偷拍的手机快照相同：行走的克隆人和移动的出租车上有轻微的运动模糊，建筑物之间的阴影区域有数字噪音，画面顶部附近的微妙镜头眩光，未经编辑的颜色，所有版本的女人的自然皮肤纹理与毛孔和轻微瑕疵。这个场景感觉就像一条现实的日常安卡拉街道，但出现了故障，同一个女人的几十种变体散布在其中。
+超写实的素人街拍，一位27岁的土耳其身材曲线美女子走在繁忙的安卡拉街道中央，柔软略显胖乎乎的身材，金色的头发披散在肩上，穿着白色紧身背心，有图案的高腰裤强调了她的曲线，背着一个小斜挎包。她向前走去，表情专注、中立，目光越过镜头。荒谬的转折：整条街上都充满了同一个女人的多个克隆人，穿着不同的服装和角色。一些克隆人穿着花卉连衣裙，一些克隆人穿着运动服，一个克隆人穿着睡衣和拖鞋，一个克隆人穿着商务西装外套和牛仔裤，另一个穿着长外套和围巾。她们显然都拥有相同的脸、相同的金发、相同的体型，只是服装和姿势不同，就好像有人以略有不同的版本将她复制粘贴到安卡拉各地。这些克隆人正在做一些平常的事情：一个克隆人透过车窗与一名黄色出租车司机争论，一个克隆人拎着一个超大的橙色 Migros 购物袋，另一个在“Kızılay”路标下自拍，一个克隆人边走边吃西米特，另一个靠在阳台栏杆上俯视街道。穿着白色背心的“主要”女人距离镜头最近，径直向前走，忽略了她所有的克隆人。背景是安卡拉常见的细节：指向“Eskişehir”和“Kızılay”的大型路标、交通中的黄色出租车、带阳台的旧灰色公寓楼、行人和几个穿着深色夹克的克隆人。远处的一座建筑上挂着一个 Migros 超市的标志，一个明亮的 Şok 标志悬挂在一个小市场门口，一家带有蓝色标志的 Turkcell 商店在其他店面中隐约可见，而 Ülker 和 Eti 小吃的小广告则贴在公交车站和墙壁上。这些品牌元素因景深而略微模糊，但仍具有足够的可读性，让人感觉是正宗的土耳其风格。使用普通 iPhone 从主要女性身后几步处拍摄，手持，稍微晃动，垂直取景。她的构图不完美，稍微偏离中心，出租车的一部分和克隆人的一部分沿着边缘被切断。自动曝光，天空稍微曝光过度，没有工作室照明，只有正常的苍白午后日光。图像质量与偷拍的手机快照相同：行走的克隆人和移动的出租车上有轻微的运动模糊，建筑物之间的阴影区域有数字噪音，画面顶部附近的微妙镜头眩光，未经编辑的颜色，所有版本的女人的自然皮肤纹理与毛孔和轻微瑕疵。这个场景感觉就像一条现实的日常安卡拉街道，但出现了故障，同一个女人的几十种变体散布在其中。
 ```
 
 ---
@@ -79,14 +51,8 @@ Shot on a regular iPhone from a few steps behind the main woman, handheld, sligh
 The image quality is that of a candid phone snapshot: slight motion blur on walking clones and moving taxis, digital noise in the shadowy areas between buildings, subtle lens flare near the top of the frame, unedited colors, natural skin texture with pores and minor imperfections on all versions of the woman. The scene feels like a realistic everyday Ankara street but glitched, with dozens of variations of the same woman scattered throughout it.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-realistic-street-photo-prompt-turkish-woman-in-ankara](https://prompts.chat/prompts/ultra-realistic-street-photo-prompt-turkish-woman-in-ankara) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:14:08.230Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

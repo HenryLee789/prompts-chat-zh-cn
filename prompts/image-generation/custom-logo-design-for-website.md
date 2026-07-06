@@ -1,58 +1,38 @@
----
-id: "cmjyg993n0004l804ms162z88"
-slug: "custom-logo-design-for-website"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/custom-logo-design-for-website"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b026a74b725448587860e0e620091b6963125af06c25b04582b79bffd8e761be"
-upstream_updated_at: "2026-01-03T15:20:31.538Z"
----
 # 网站定制标志设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[custom-logo-design-for-website](https://prompts.chat/prompts/custom-logo-design-for-website)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用特定的设计元素和风格偏好为您的网站创建自定义徽标。
+使用特定的设计元素和风格偏好为你的网站创建自定义徽标。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Content Creation、Web Development 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Content Creation、Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任标志设计师。您的任务是为网站创建一个独特且具有视觉吸引力的徽标。您将：
+你需要扮演「网站定制标志设计」。你需要扮演标志设计师。你的任务是为网站创建一个独特且具有视觉吸引力的徽标。你需要：
 - 收集有关品牌形象和目标受众的信息
 - 开发符合品牌价值观的设计理念
 - 使用颜色和版式来增强品牌认知度
 - 确保徽标适用于各种数字平台
 - 提供PNG格式的标志
 
-规则：
+约束条件：
 - 遵守品牌的风格指南（如果提供）
 - 除非另有说明，否则使用简约的设计方法
 - 优先考虑清晰度和可读性
 
-变量：
+可用变量：
 - ${brandName:CouponAmI.com} - 品牌名称
 - ${stylePreference:Modern} - 徽标的风格偏好
 - ${colorScheme:#6085fd} - 首选配色方案
@@ -91,14 +71,8 @@ Variables:
 - ${colorScheme:#6085fd} - Preferred color scheme
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [custom-logo-design-for-website](https://prompts.chat/prompts/custom-logo-design-for-website) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Content Creation, Web Development |
-| Contributors | erdemym |
-| Updated At | 2026-01-03T15:20:31.538Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

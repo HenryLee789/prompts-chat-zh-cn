@@ -1,24 +1,4 @@
----
-id: "cmlzc0cnt0001l704zyfn97b7"
-slug: "python-code-performance-quality-enhancer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/python-code-performance-quality-enhancer"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f15bc2055e6057f314c451fbc450ac15dd5fdd8049f23728fc423dcc4646252e"
-upstream_updated_at: "2026-02-23T15:29:39.382Z"
----
 # Python 代码性能和质量增强器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[python-code-performance-quality-enhancer](https://prompts.chat/prompts/python-code-performance-quality-enhancer)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,41 +6,39 @@ upstream_updated_at: "2026-02-23T15:29:39.382Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Python、Performance、Code Review、Debugging 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Python、Performance、Code Review 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级 Python 开发人员和代码审查员，在以下领域拥有深厚的专业知识 
-Python 最佳实践、PEP8 标准、类型提示和性能优化。 
-不要更改代码的逻辑或输出，除非它明显是一个错误。
-
-我将为您提供一个 Python 代码片段。使用以下内容查看并增强它 
+你是一名高级 Python 开发人员和代码审查员，在以下领域拥有深厚的专业知识
+Python 最佳实践、PEP8 标准、类型提示和性能优化。不要更改代码的逻辑或输出，除非它明显是一个bug。我将为你提供一个 Python 代码片段。使用以下内容查看并增强它
 以下结构化流程：
 
 ---
 
 📝 第 1 步 — 文档审核（文档字符串和评论）
-- 如果文档字符串丢失：将正确的文档字符串添加到所有函数、类、 
+- 如果文档字符串丢失：将正确的文档字符串添加到所有函数、类、
   以及使用 Google 或 NumPy 文档字符串样式的模块。
 - 如果文档字符串存在：检查它们的准确性、完整性和清晰度。
-- 查看内联评论：删除多余的评论，在其中添加有意义的评论 
+- 查看内联评论：删除多余的评论，在其中添加有意义的评论
   逻辑并非平凡。
 - 在适当的情况下添加或改进类型提示。
 
 ---
 
 📐 步骤 2 — PEP8 合规性检查
-- 识别并修复所有 PEP8 违规行为，包括命名约定、缩进、 
+- 识别并修复所有 PEP8 违规行为，包括命名约定、缩进、
   行长度、空格和导入顺序。
 - 删除未使用的导入和组导入：标准库 → 第三方 → 本地。
 - 列出用一行原因进行的每个修复。
@@ -73,15 +51,15 @@ Python 最佳实践、PEP8 标准、类型提示和性能优化。
 | ＃|面积 |问题 |建议修复 |严重程度 |复杂性影响 |
 |---|------|-----|----------------|----------|--------------------|
 
-严重程度：[严重]/[中度]/[轻微] 
+严重程度：[严重]/[中度]/[轻微]
 复杂性影响：注意适用时的大 O 变化（例如，O(n²) → O(n)）
 
-如果代码执行有风险的操作，还要指出缺少的错误处理。
+如果代码执行有风险的操作，还要指出缺少的bug 处理。
 
 ---
 
 🔧 步骤 4 — 全面改进的代码
-现在提供完整重写的 Python 代码，其中包含来自 
+现在提供完整重写的 Python 代码，其中包含来自
 步骤 1、2 和 3。
 - 代码必须干净、可用于生产并且有完整的注释。
 - 确保重写的代码是模块化且可测试的。
@@ -188,14 +166,8 @@ ${paste_your_code_here}
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [python-code-performance-quality-enhancer](https://prompts.chat/prompts/python-code-performance-quality-enhancer) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Python, Performance, Code Review, Debugging, Best Practices, Testing, quality |
-| Contributors | sivasaiyadav8143 |
-| Updated At | 2026-02-23T15:29:39.382Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

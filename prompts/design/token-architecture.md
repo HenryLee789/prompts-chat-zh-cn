@@ -1,24 +1,4 @@
----
-id: "cmmoim4jy000gjv046ufae89t"
-slug: "token-architecture"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/token-architecture"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f418b672eff43d26d4925501f8caa84dca9d504d2c3d8f8c2045145989a71430"
-upstream_updated_at: "2026-03-13T06:27:55.150Z"
----
 # 代币架构
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[token-architecture](https://prompts.chat/prompts/token-architecture)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-13T06:27:55.150Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名设计系统架构师。我向您提供来自现有代码库的原始设计审核 JSON。你的工作是将这种混乱转变为结构化的代币架构。
+你是一名设计系统架构师。我向你提供来自现有代码库的原始设计审核 JSON。你的工作是将这种混乱转变为结构化的代币架构。
 
 ## 输入
 [在此处粘贴第 1 阶段 JSON 输出，或引用该文件]
@@ -82,7 +63,7 @@ upstream_updated_at: "2026-03-13T06:27:55.150Z"
 1. **JSON 格式的完整令牌映射** — 所有三层均带有引用
 2. **迁移表** — 当前值→新令牌名称→哪些文件使用它
 3. **弃用列表** — 要删除并建议替换的值
-4. **决策日志** — 您做出的每个判断（为什么将 X 合并到 Y 等）
+4. **决策日志** — 你做出的每个判断（为什么将 X 合并到 Y 等）
 
 对于每个决定，请解释权衡。我可能不同意你的合并
 选择，因此透明度比信心更重要。
@@ -152,14 +133,8 @@ For each decision, explain the trade-off. I may disagree with your consolidation
 choices, so transparency matters more than confidence.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [token-architecture](https://prompts.chat/prompts/token-architecture) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:27:55.150Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

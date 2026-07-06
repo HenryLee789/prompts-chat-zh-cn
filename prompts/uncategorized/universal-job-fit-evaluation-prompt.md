@@ -1,24 +1,4 @@
----
-id: "cml8drntw0001js0461p6nghc"
-slug: "universal-job-fit-evaluation-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/universal-job-fit-evaluation-prompt"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0d31aa0981e80d6b10410886924533bb03bf19de45ec0978f348d715555ed30c"
-upstream_updated_at: "2026-03-06T23:01:22.975Z"
----
-# 通用工作适合度评估提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[universal-job-fit-evaluation-prompt](https://prompts.chat/prompts/universal-job-fit-evaluation-prompt)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 通用工作适合度评估提示词
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-06T23:01:22.975Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Career、Prompt Engineering、Resume 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Career、Prompt Engineering、Resume 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 通用工作适合度评估提示 – 完全通用且可共享
@@ -135,6 +116,9 @@ upstream_updated_at: "2026-03-06T23:01:22.975Z"
 ---
 
 ## 职位发布来源
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -250,14 +234,8 @@ For each section, assign a percentage match. Use semantic alignment, not just ke
 ## Job Posting Source
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [universal-job-fit-evaluation-prompt](https://prompts.chat/prompts/universal-job-fit-evaluation-prompt) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Career, Prompt Engineering, Resume |
-| Contributors | thanos0000 |
-| Updated At | 2026-03-06T23:01:22.975Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

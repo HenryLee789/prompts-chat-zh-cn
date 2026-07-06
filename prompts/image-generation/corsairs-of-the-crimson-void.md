@@ -1,24 +1,4 @@
----
-id: "cmjx2yn2b0001lb041gf8slq8"
-slug: "corsairs-of-the-crimson-void"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/corsairs-of-the-crimson-void"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d9de37a1070dc52cd6b72070dd63b047d3c96d2121a0be055380e5c61c60e30d"
-upstream_updated_at: "2026-01-02T16:21:44.359Z"
----
 # 猩红虚空的海盗
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[corsairs-of-the-crimson-void](https://prompts.chat/prompts/corsairs-of-the-crimson-void)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-02T16:21:44.359Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "猩红虚空的海盗",
   "description": "一个激动人心的电影时刻，捕捉到了一位传奇太空海盗和他的军需官在一次大胆的逃跑过程中指挥一艘星际飞船穿过碎片场。",
-  "prompt": "您将使用所提供的照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）转变为粗犷的传奇太空海盗船长，将拍摄对象 2（女性）转变为星舰舰桥上的战术导航员。图像必须具有超真实感、电影品质，具有电影灯光、高度详细的皮肤纹理和逼真的物理特性。使用 Arri Alexa 拍摄，景深较浅，场景描绘太空战斗的混乱后果，红色星云的光芒和闪闪发光的控制台照亮了拍摄对象。”,
+  "prompt": "你将使用所提供的照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）转变为粗犷的传奇太空海盗船长，将拍摄对象 2（女性）转变为星舰舰桥上的战术导航员。图像必须具有超真实感、电影品质，具有电影灯光、高度详细的皮肤纹理和逼真的物理特性。使用 Arri Alexa 拍摄，景深较浅，场景描绘太空战斗的混乱后果，红色星云的光芒和闪闪发光的控制台照亮了拍摄对象。”,
   “详细信息”：{
     "year": "2492，后人类时代",
     "genre": "电影照片写实主义",
@@ -199,14 +179,8 @@ A high-octane cinematic moment capturing a legendary space pirate and his quarte
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [corsairs-of-the-crimson-void](https://prompts.chat/prompts/corsairs-of-the-crimson-void) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-02T16:21:44.359Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

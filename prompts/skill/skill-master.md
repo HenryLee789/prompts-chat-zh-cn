@@ -1,24 +1,4 @@
----
-id: "cmkxytnpy0001l704bglckgoz"
-slug: "skill-master"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/skill-master"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7c0b2248151e443f1d795f9f64b182bf5644876828ef138617d82136cdb28ad1"
-upstream_updated_at: "2026-01-28T17:05:57.262Z"
----
 # 技能大师
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[skill-master](https://prompts.chat/prompts/skill-master)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,23 @@ upstream_updated_at: "2026-01-28T17:05:57.262Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Agent、Skill、Claude、creator 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Agent、Skill、Claude 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 姓名：技能大师
-描述：发现代码库模式并自动生成 .claude/skills/ 的 SKILL 文件。在分析项目是否缺少技能、从代码库模式创建新技能或将技能与项目结构同步时使用。
-版本：1.0.0
+描述：发现代码库模式并自动生成 .claude/skills/ 的 SKILL 文件。在分析项目是否缺少技能、从代码库模式创建新技能或将技能与项目结构同步时使用。版本：1.0.0
 ---
 
 #技能大师
@@ -82,7 +62,7 @@ upstream_updated_at: "2026-01-28T17:05:57.262Z"
 3. 将检测到的模式与现有的 `.claude/skills/` 进行比较
 4.产出缺口分析报告
 
-**输出格式：**
+**输出格式要求：**
 ```
 Detected Patterns: {count}
 | Pattern | Files Found | Example Location |
@@ -183,8 +163,8 @@ Last updated: {YYYY-MM-DD}
 |----------|-----------------|------------|
 |安卓/Gradle | `build.gradle`、`settings.gradle` | `references/android.md` |
 | iOS/Xcode | `*.xcodeproj`、`Package.swift` | `references/ios.md` |
-|反应（网络）| `package.json` + 反应 | `references/react-web.md` |
-|反应本机 | `package.json` + 反应本机 | `references/react-native.md` |
+|React（网络）| `package.json` + React | `references/react-web.md` |
+|React本机 | `package.json` + React本机 | `references/react-native.md` |
 |颤振/飞镖 | `pubspec.yaml` | `references/flutter.md` |
 | Node.js | `package.json` | `references/node.md` |
 |蟒蛇 | `pyproject.toml`、`requirements.txt` | `references/python.md` |
@@ -329,7 +309,7 @@ Validation:
 - **Proguard**：`proguard-rules.pro`（如果存在）
 
 ## 命令来源
-- 调用 `./gradlew` 的自述文件/文档
+- 调用 `./gradlew` 的README/文档
 - 使用 Gradle 命令的 CI 工作流程
 - 常见：`./gradlew assemble`、`./gradlew test`、`./gradlew lint`
 - 仅包含存储库中存在的命令
@@ -339,7 +319,7 @@ Validation:
 - `app/src/main/java/`、`app/src/main/kotlin/`
 - `app/src/test/`、`app/src/androidTest/`
 - `library/database/migration/`（房间迁移）
-文件：自述文件.md
+文件：README.md
 
 文件：参考文献/cpp.md
 # C/C++
@@ -401,7 +381,7 @@ Validation:
 ## 命令来源
 - `CMakeLists.txt` 自定义目标
 - `Makefile` 目标
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`cmake`、`make`、`ctest`
 - 仅包含存储库中存在的命令
 
@@ -471,7 +451,7 @@ Validation:
 
 ## 命令来源
 - `*.csproj` 目标
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`dotnet build`、`dotnet test`、`dotnet run`
 - 仅包含存储库中存在的命令
 
@@ -536,7 +516,7 @@ Validation:
 
 ## 命令来源
 - `mix.exs` 别名
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`mix deps.get`、`mix test`、`mix phx.server`
 - 仅包含存储库中存在的命令
 
@@ -606,7 +586,7 @@ Validation:
 
 ## 命令来源
 - `pubspec.yaml` 脚本（如果使用 melos）
-- 自述文件/文档
+- README/文档
 - 常见：`flutter run`、`flutter test`、`flutter build`
 - 仅包含存储库中存在的命令
 
@@ -666,7 +646,7 @@ Validation:
 - **入口点**：主文件
 - **配置**：配置文件
 - **依赖项**：任何包管理器
-- **构建/运行命令**：来自自述文件/脚本
+- **构建/运行命令**：来自README/脚本
 
 ## 命令来源
 - `README.md`（寻找代码块）
@@ -748,7 +728,7 @@ Validation:
 
 ## 命令来源
 - `Makefile` 目标
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`go build`、`go test`、`go run`
 - 仅包含存储库中存在的命令
 
@@ -822,7 +802,7 @@ Validation:
 - **DI 设置**：Swinject，手动注射
 
 ## 命令来源
-- 带有 xcodebuild 命令的自述文件/文档
+- 带有 xcodebuild 命令的README/文档
 - `fastlane/Fastfile` 车道
 - CI 工作流程（`.github/workflows/`、`.gitlab-ci.yml`）
 - 常见：`xcodebuild test`、`fastlane test`
@@ -896,7 +876,7 @@ Validation:
 
 ## 命令来源
 - `pom.xml` 插件、`build.gradle` 任务
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`./mvnw`、`./gradlew`、`mvn test`、`gradle test`
 - 仅包含存储库中存在的命令
 
@@ -906,10 +886,10 @@ Validation:
 - `src/test/`
 - `db/migration/`（飞行路线）
 文件：参考文献/node.md
-# 节点.js
+# Node.js
 
 ## 检测信号
-- `package.json`（无反应/反应本机）
+- `package.json`（无React/React本机）
 - `tsconfig.json`
 - `node_modules/`
 - `*.js`、`*.ts`、`*.mjs`、`*.cjs` 入口文件
@@ -961,13 +941,13 @@ Validation:
 - **路由/控制器**：API端点
 - **服务层**：业务逻辑
 - **数据库**：ORM/ODM 使用（TypeORM、Prisma、Mongoose）
-- **中间件**：身份验证、验证、错误处理
+- **中间件**：身份验证、验证、bug 处理
 - **后台作业**：队列、cron 作业
 - **WebSocket 处理程序**：实时功能
 
 ## 命令来源
 - `package.json` 脚本部分
-- 自述文件/文档
+- README/文档
 - CI 工作流程
 - 常见：`npm run dev`、`npm run build`、`npm test`
 - 仅包含存储库中存在的命令
@@ -1075,7 +1055,7 @@ Validation:
 - `php spark`（代码点火器 4）
 - `bin/console`（交响乐）
 - `phalcon` 开发工具命令
-- 自述文件/文档，CI
+- README/文档，CI
 - 仅包含存储库中存在的命令
 
 ## 关键路径
@@ -1156,7 +1136,7 @@ Validation:
 
 ## 命令来源
 - `pyproject.toml` 工具部分
-- 自述文件/文档，CI
+- README/文档，CI
 - 常见：`python manage.py`、`pytest`、`uvicorn`、`flask run`
 - 仅包含存储库中存在的命令
 
@@ -1166,7 +1146,7 @@ Validation:
 - `alembic/`、`migrations/`
 - `templates/`、`static/`（如果是网页）
 文件：参考文献/react-native.md
-# 反应本机
+# React本机
 
 ## 检测信号
 - `package.json` 与 `react-native`
@@ -1205,7 +1185,7 @@ Validation:
 |钩| `use*`、`export function use*()` | rn 钩子 |
 |终极版 | `createSlice`、`configureStore` | redux 切片 |
 |祖斯坦| `create(`、`useStore` | zustand 商店 |
-|反应查询 | `useQuery`、`useMutation` |反应查询 |
+|React查询 | `useQuery`、`useMutation` |React查询 |
 |本机模块 | `NativeModules`、`TurboModule` |本机模块 |
 |异步存储| `AsyncStorage`、`@react-native-async-storage` |异步存储 |
 | SQLite | `expo-sqlite`、`react-native-sqlite-storage` | sqlite 存储 |
@@ -1227,7 +1207,7 @@ Validation:
 
 ## 命令来源
 - `package.json` 脚本
-- 自述文件/文档
+- README/文档
 - 常见：`npm run android`、`npm run ios`、`npx expo start`
 - 仅包含存储库中存在的命令
 
@@ -1237,7 +1217,7 @@ Validation:
 - `android/app/`、`ios/*/`
 - `assets/`
 文件：参考文献/react-web.md
-# 反应（网络）
+# React（网络）
 
 ## 检测信号
 - `package.json` 与 `react`、`react-dom`
@@ -1270,14 +1250,14 @@ Validation:
 
 |图案|检测标准|技能名称|
 |--------|--------------------|------------|
-|组件| `export function *()`、`export const * =` 与 JSX |反应组件 |
+|组件| `export function *()`、`export const * =` 与 JSX |React组件 |
 |钩| `use*`、`export function use*()` |定制挂钩|
-|背景 | `createContext`、`useContext`、`*Provider` |反应上下文 |
+|背景 | `createContext`、`useContext`、`*Provider` |React上下文 |
 |终极版 | `createSlice`、`configureStore`、`useSelector` | redux 切片 |
 |祖斯坦| `create(`、`useStore` | zustand 商店 |
-|反应查询 | `useQuery`、`useMutation`、`QueryClient` |反应查询 |
+|React查询 | `useQuery`、`useMutation`、`QueryClient` |React查询 |
 |表格 | `useForm`、`react-hook-form`、`Formik` |表单处理 |
-|路由器| `createBrowserRouter`、`Route`、`useNavigate` |反应路由器 |
+|路由器| `createBrowserRouter`、`Route`、`useNavigate` |React路由器 |
 | API 客户端 | `axios`、`fetch`、`ky` | api 客户端 |
 |测试| `@testing-library/react`、`render`、`screen` | RTL 测试 |
 |故事书| `*.stories.tsx`、`Meta`、`StoryObj` |故事书|
@@ -1299,7 +1279,7 @@ Validation:
 
 ## 命令来源
 - `package.json` 脚本部分
-- 自述文件/文档
+- README/文档
 - CI 工作流程
 - 常见：`npm run dev`、`npm run build`、`npm test`
 - 仅包含存储库中存在的命令
@@ -1370,7 +1350,7 @@ Validation:
 - `Gemfile` 脚本
 - `Rakefile`任务
 - `bin/rails`、`bin/rake`
-- 自述文件/文档，CI
+- README/文档，CI
 - 仅包含存储库中存在的命令
 
 ## 关键路径
@@ -1418,7 +1398,7 @@ Validation:
 |柴油机型号| `diesel::`、`Queryable`、`Insertable` |柴油模型|
 | SQLx | `sqlx::`、`FromRow`、`query_as!` | sqlx-模型 |
 | SeaORM | `sea_orm::`、`Entity`、`ActiveModel` | Seaorm 实体 |
-|错误类型 | `thiserror`、`anyhow`、`#[derive(Error)]` |错误类型 |
+|bug类型 | `thiserror`、`anyhow`、`#[derive(Error)]` |bug类型 |
 |命令行| `clap`、`#[derive(Parser)]` | cli 应用程序 |
 |异步任务 | `tokio::spawn`、`async fn` |异步任务 |
 |特质 | `pub trait *`、`impl * for` |铁锈特征 |
@@ -1431,12 +1411,12 @@ Validation:
 - **处理程序/路由**：API 端点
 - **服务**：业务逻辑
 - **模型/实体**：数据结构
-- **错误类型**：自定义错误
+- **bug类型**：自定义bug
 - **迁移**：diesel/sqlx 迁移
 
 ## 命令来源
 - `Cargo.toml` 脚本/别名
-- `Makefile`，自述文件/文档
+- `Makefile`，README/文档
 - 常见：`cargo build`、`cargo test`、`cargo run`
 - 仅包含存储库中存在的命令
 
@@ -2870,14 +2850,8 @@ Include if detected:
 - `examples/`
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [skill-master](https://prompts.chat/prompts/skill-master) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Agent, Skill, Claude, creator, infrastructure |
-| Contributors | barisatalay |
-| Updated At | 2026-01-28T17:05:57.262Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

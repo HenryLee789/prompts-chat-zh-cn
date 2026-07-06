@@ -1,24 +1,4 @@
----
-id: "cmjx3rvhk0007js040k6kf8f1"
-slug: "whispers-in-light-trails"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/whispers-in-light-trails"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a4ace26ab25c4b946896351b0d25f526121c482b2fd40de49d2d81eba6624e2f"
-upstream_updated_at: "2026-01-02T16:44:01.092Z"
----
 # 光迹中的低语
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[whispers-in-light-trails](https://prompts.chat/prompts/whispers-in-light-trails)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-02T16:44:01.092Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "光迹中的低语",
   "description": "以电影般的长曝光捕捉 20 世纪 50 年代的黑色场景，将侦探的宁静与爵士乐俱乐部的动能形成鲜明对比。",
-  "prompt": "您将使用提供的照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）转变为 1950 年代的侦探，将拍摄对象 2（女性）转变为迷人的爵士歌手。利用长时间曝光的艺术风格，让时间仿佛在流血。拍摄对象 1 完全静止地坐在角落的摊位上，锐利而专注，而拍摄对象 2 倾身低语什么，她的动作被捕捉为优雅、幽灵般的模糊。背景音乐家和舞者被渲染成艺术的光线和运动条纹，强调了两人秘密会面周围的混乱气氛。",
+  "prompt": "你将使用提供的照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）转变为 1950 年代的侦探，将拍摄对象 2（女性）转变为迷人的爵士歌手。利用长时间曝光的艺术风格，让时间仿佛在流血。拍摄对象 1 完全静止地坐在角落的摊位上，锐利而专注，而拍摄对象 2 倾身低语什么，她的动作被捕捉为优雅、幽灵般的模糊。背景音乐家和舞者被渲染成艺术的光线和运动条纹，强调了两人秘密会面周围的混乱气氛。",
   “详细信息”：{
     “年份”：“1952年”，
     “流派”：“长时间曝光”，
@@ -195,14 +175,8 @@ A cinematic long-exposure capture of a 1950s noir scene, contrasting the stillne
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [whispers-in-light-trails](https://prompts.chat/prompts/whispers-in-light-trails) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-02T16:44:01.092Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

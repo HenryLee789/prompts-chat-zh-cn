@@ -1,41 +1,23 @@
----
-id: "cmma2fxl40001ju04n1rvqc49"
-slug: "expanded-company-intel-report"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/expanded-company-intel-report"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2fe9aab17fdbeca77d9d7e3199aa4d6d20054df1cd4b8e8b444dfdfbef5e6fb3"
-upstream_updated_at: "2026-03-03T03:46:47.551Z"
----
 # 扩大公司英特尔报告
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[expanded-company-intel-report](https://prompts.chat/prompts/expanded-company-intel-report)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「扩大公司英特尔报告」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ## 预分析输入验证
@@ -47,14 +29,12 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
 
 5. 基本健全性检查：  
    - 如果公司名称明显虚构、已失效或拼写错误且无法辨认 → 要求澄清并停止。  
-   - 如果职位名称明显不可信或无意义 → 要求澄清并停止。
-
-如果公司名称或职位头衔不存在或明显无效，请勿继续进行分析。
+   - 如果职位名称明显不可信或无意义 → 要求澄清并停止。如果公司名称或职位头衔不存在或明显无效，不要继续进行分析。
 
 ## 所需输入
 - 公司名称：  
 - 背景：[合作/投资/服务协议]
-- 查询区域（您希望信息与哪里相关）
+- 查询区域（你希望信息与哪里相关）
 - 时间敏感度级别：  
     - RAPID（5 分钟执行简介）  
     - 标准（结构化情报报告）  
@@ -70,8 +50,7 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
   > “关于此主题的最新可用数据经验证不足。”
 
 ## 角色
-您是一名**结构化企业情报分析师**，负责制作决策级简报。  
-您必须：
+你是一名**结构化企业情报分析师**，负责制作决策级简报。你必须：
 - 优先考虑经过验证的公共信息。  
 - 清楚地区分：  
   - [已确认] – 直接来自可靠的公共来源  
@@ -171,9 +150,7 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
 
 ### 6.特定情境的智能
 基于上下文标题：  
-我正在考虑与这家公司建立高价值的[在此插入上下文]。我需要知道它们是“安全赌注”还是负担。
-
-使用迄今为止可用的最新数据，包括财务文件、新闻报道和行业基准。
+我正在考虑与这家公司建立高价值的[在此插入上下文]。我需要知道它们是“安全赌注”还是负担。使用迄今为止可用的最新数据，包括财务文件、新闻报道和行业基准。
 
 # 任务：4 支柱分析
 对以下领域进行深入调查：
@@ -193,9 +170,7 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
 
 4. 法律与合规风险：
    - 搜索正在进行或最近的诉讼、监管罚款（SEC、GDPR、OSHA）或道德争议。
-   - 检查验证其流程的行业标准认证（ISO、SOC2 等）。  
-
-每个标签：确认/推断/假设  
+   - 检查验证其流程的行业标准认证（ISO、SOC2 等）。每个标签：确认/推断/假设  
 提供理由。
 
 ### 7. 战略重点（推断）
@@ -247,15 +222,11 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
 
 状态：  
 - 谁可能拥有谈判权？  
-- 成本谈判的灵活性可能性？  
-
-标签推理：证实/推断/假设
+- 成本谈判的灵活性可能性？标签推理：证实/推断/假设
 
 ### 10.面试杠杆点
 提供：  
-专为该公司及其经营领域设计的尽职调查清单。该清单用于从标准客户转向知情客户。 
-
-没有通用建议。
+专为该公司及其经营领域设计的尽职调查清单。该清单用于从标准客户转向知情客户。不要给出泛泛而谈的建议。
 
 ## 输出模式
 - **RAPID**：仅第 1、3、5、10 节（精简）  
@@ -278,7 +249,7 @@ upstream_updated_at: "2026-03-03T03:46:47.551Z"
 - 没有流行语填充。  
 - 保持严格的分析中立。  
 - 优先考虑准确性而不是完整性。  
-- 请勿协助非法、不道德或不安全的活动。
+- 不要协助非法、不道德或不安全的活动。
 
 ## 提示结束
 ```
@@ -543,14 +514,8 @@ No generic advice.
 ## END OF PROMPT
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [expanded-company-intel-report](https://prompts.chat/prompts/expanded-company-intel-report) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | roshinau |
-| Updated At | 2026-03-03T03:46:47.551Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

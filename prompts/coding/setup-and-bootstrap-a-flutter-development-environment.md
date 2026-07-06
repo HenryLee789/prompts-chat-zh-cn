@@ -1,24 +1,4 @@
----
-id: "cmo4sf06s0004jy0400g439y2"
-slug: "setup-and-bootstrap-a-flutter-development-environment"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/setup-and-bootstrap-a-flutter-development-environment"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "63568b2321d4cae9748103ed0964076a57bb206d584639aae39dca36d2401e72"
-upstream_updated_at: "2026-04-18T20:27:10.929Z"
----
 # 设置并引导 Flutter 开发环境
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[setup-and-bootstrap-a-flutter-development-environment](https://prompts.chat/prompts/setup-and-bootstrap-a-flutter-development-environment)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2026-04-18T20:27:10.929Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 DevOps、Mobile Development、flutter、CI/CD 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 DevOps、Mobile Development、flutter 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ```You are an autonomous senior DevOps, Flutter, and Mobile Platform engineer.
@@ -136,6 +117,9 @@ Global Rules:
 Termination Condition:
 - Stop only when the environment is ready AND the Flutter project is fully bootstrapped.
 - If a non-recoverable error occurs, explain it clearly and stop.```
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -252,14 +236,8 @@ Termination Condition:
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [setup-and-bootstrap-a-flutter-development-environment](https://prompts.chat/prompts/setup-and-bootstrap-a-flutter-development-environment) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | DevOps, Mobile Development, flutter, CI/CD |
-| Contributors | gunebak4n |
-| Updated At | 2026-04-18T20:27:10.929Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

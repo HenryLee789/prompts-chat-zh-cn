@@ -1,42 +1,23 @@
----
-id: "cmm2dcnw30001jm044yj482w8"
-slug: "heart-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/heart-illustration"
-category: "video-generation"
-category_name: "Video Generation"
-category_zh: "视频生成"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "85baf8bb54fb4b6bbf4193a565c43de1170886cd69340158e134c94e04843f9a"
-upstream_updated_at: "2026-02-26T06:26:06.030Z"
----
 # 心图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[heart-illustration](https://prompts.chat/prompts/heart-illustration)  
-> 分类：视频生成（Video Generation / `video-generation`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于视频生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「心图」执行视频生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 使用场景
 
-- 用于视频生成相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
-- 适合围绕 visual、visual-sequence、Grok、image-prompt 等主题快速生成可复用结果。
+* 生成可用于视频模型的镜头和动作提示
+* 描述画面、节奏、镜头、光线和叙事
+* 把创意概念转化为可执行的视频生成指令
+* 围绕 visual、visual-sequence、Grok 等主题生成结构化结果
 
 ## 适用人群
 
-- 视频创作者
-- 导演或编导
-- AI 视频用户
+* 视频创作者
+* 导演或编导
+* AI 视频用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 [00:00 - 00:03]
@@ -68,14 +49,8 @@ Hyper-realistic 8K 3D human heart anatomy, beating slowly, detailed muscle textu
  Extreme close-up of heart anatomy, dramatic golden hour lighting, 35mm fisheye lens distortion, hyper-realistic biological textures, cinematic 8K, 9:16 vertical composition. --ar 9:16
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [heart-illustration](https://prompts.chat/prompts/heart-illustration) |
-| Category | Video Generation (`video-generation`) |
-| Type | `VIDEO` |
-| Tags | visual, visual-sequence, Grok, image-prompt, Workflow |
-| Contributors | kakekgaek65 |
-| Updated At | 2026-02-26T06:26:06.030Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

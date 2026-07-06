@@ -1,24 +1,4 @@
----
-id: "cmjodot5s0007jp04u8rooot1"
-slug: "elevator-mirror-ootd-full-body"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/elevator-mirror-ootd-full-body"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9552373dd561c92926eea20ddb4f2546dfa962ead3cc46207a4e7f8fe6b19e37"
-upstream_updated_at: "2025-12-27T18:34:56.595Z"
----
 # 电梯镜 OOTD（全身）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[elevator-mirror-ootd-full-body](https://prompts.chat/prompts/elevator-mirror-ootd-full-body)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T18:34:56.595Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -245,14 +227,8 @@ This prompt generates a detailed visual description of an adult woman taking a f
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [elevator-mirror-ootd-full-body](https://prompts.chat/prompts/elevator-mirror-ootd-full-body) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T18:34:56.595Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

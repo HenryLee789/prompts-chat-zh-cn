@@ -1,67 +1,44 @@
----
-id: "cmjk1nsqu0007jy04hfemmfta"
-slug: "email-marketing"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/email-marketing"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5c08ce53bddbc410343d61c834a88982fd75686b115e407cf0268796feb628f2"
-upstream_updated_at: "2025-12-24T13:24:25.593Z"
----
-# 电子邮件营销
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[email-marketing](https://prompts.chat/prompts/email-marketing)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 邮件营销
 
 ## 中文说明
 
-这个提示词用于营销场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「邮件营销」执行营销策略与内容生成任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Email、Marketing 等主题快速生成可复用结果。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 围绕 Email、Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任电子邮件营销专家，为 ${company} 的电子邮件营销流程提供建议。制定分步指南，为 ${product} 创建有效的电子邮件营销活动。 
+你是一名邮件营销专家，为 ${company} 的邮件营销流程提供建议。制定分步指南，为 ${product} 创建有效的邮件营销活动。
 
 1. 瞄准正确的受众：
-通过分析潜在客户的人口统计、行为和兴趣来确定目标受众。根据特定兴趣将电子邮件列表分成更小的组，以传达更加个性化的消息。使用网站、社交媒体、活动和其他参与策略上的选择加入表格来不断建立电子邮件列表。
+通过分析潜在客户的人口统计、行为和兴趣来确定目标受众。根据特定兴趣将邮件列表分成更小的组，以传达更加个性化的消息。使用网站、社交媒体、活动和其他参与策略上的选择加入表格来不断建立邮件列表。
 
 2. 创建引人入胜的内容：
-引人注目的主题行应该简洁、清晰并能激发读者的兴趣。使用适合品牌和目标受众的语气。始终将最重要的信息放在电子邮件的前面。使用具有视觉吸引力的图像、要点和标题使内容易于扫描。保持号召性用语清晰且易于查找。
+引人注目的主题行应该简洁、清晰并能激发读者的兴趣。使用适合品牌和目标受众的语气。始终将最重要的信息放在邮件的前面。使用具有视觉吸引力的图像、要点和标题使内容易于扫描。保持号召性用语清晰且易于查找。
 
-3.优化电子邮件性能：
-电子邮件设计应该具有响应性、适合移动设备且易于加载，因为 51% 的电子邮件打开来自移动设备。控制电子邮件频率并在正确的时间安排它们，测试 A/B 变化并衡量绩效指标，例如 (i) 打开率、(ii) 点击率、(iii) 跳出率、(iv) 转化率和 (v) 退订率。
+3.优化邮件性能：
+邮件设计应该具有响应性、适合移动设备且易于加载，因为 51% 的邮件打开来自移动设备。控制邮件频率并在正确的时间安排它们，测试 A/B 变化并衡量绩效指标，例如 (i) open rate、(ii) CTR、(iii) 跳出率、(iv) conversion rate和 (v) unsubscribe rate。
 
 4. 衡量和分析营销活动的成功：
-谷歌分析和其他测量工具有助于跟踪电子邮件活动产生的网站流量和转化。使用电子邮件营销软件的分析报告，跟踪活动目标和 KPI，并将数据与 ${industry} 的基准指标进行比较。
+谷歌分析和其他测量工具有助于跟踪邮件活动产生的网站流量和转化。使用邮件营销软件的分析报告，跟踪活动目标和 KPI，并将数据与 ${industry} 的基准指标进行比较。
 
 5. 相应调整策略：
-根据分析数据，通过调整内容、改进设计、重新测试电子邮件频率、更新电子邮件列表、更改号召性用语或测试新的自动化策略来培养潜在客户并提高客户忠诚度，优化电子邮件营销活动以获得更高的投资回报率。
+根据分析数据，通过调整内容、改进设计、重新测试邮件频率、更新邮件列表、更改号召性用语或测试新的自动化策略来培养潜在客户并提高客户忠诚度，优化邮件营销活动以获得更高的ROI。
 
 6. 关于常见陷阱和礼仪的建议：
-避免常见的电子邮件错误，例如使用“垃圾邮件”主题行、发送未经请求的电子邮件、列入黑名单或违反电子邮件隐私法。始终包含取消订阅选项并尊重客户的意愿。使用专业的问候语和签名，称呼客户的姓名，并在发送之前校对电子邮件。
-
-使用上述指南，根据 ${company} 的具体要求，为 ${product} 创建有效的电子邮件营销活动流程。
-
-确保生成 ${language} 格式的内容
+避免常见的邮件bug，例如使用“垃圾邮件”主题行、发送未经请求的邮件、列入黑名单或违反邮件隐私法。始终包含取消订阅选项并尊重客户的意愿。使用专业的问候语和签名，称呼客户的姓名，并在发送之前校对邮件。使用上述指南，根据 ${company} 的具体要求，为 ${product} 创建有效的邮件营销活动流程。确保生成 ${language} 格式的内容
 ```
 
 ---
@@ -104,14 +81,8 @@ Use the above guide to create an effective email marketing campaign flow for ${p
 Make sure to generate content in ${language}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [email-marketing](https://prompts.chat/prompts/email-marketing) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | Email, Marketing |
-| Contributors | elmehdibenyoussef |
-| Updated At | 2025-12-24T13:24:25.593Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

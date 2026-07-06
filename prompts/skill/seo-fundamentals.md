@@ -1,24 +1,4 @@
----
-id: "cmjwy7n0i0001ld04pil4rr37"
-slug: "seo-fundamentals"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/seo-fundamentals"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3f4e92c3bd3a7c414fde6532a9648b8d08246ead5218d072f0a42b09b3f9313a"
-upstream_updated_at: "2026-01-02T14:07:38.632Z"
----
 # SEO基础知识
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[seo-fundamentals](https://prompts.chat/prompts/seo-fundamentals)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ SEO 基础知识、E-E-A-T、Core Web Vitals 和 2025 年 Google 算法更新
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Agent、AI Tools、Skill 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Agent、AI Tools、Skill 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -188,6 +169,9 @@ Elements:
 ---
 
 **最后更新：** 2025-12-30
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -357,14 +341,8 @@ Elements:
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [seo-fundamentals](https://prompts.chat/prompts/seo-fundamentals) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Agent, AI Tools, Skill |
-| Contributors | xenitv1 |
-| Updated At | 2026-01-02T14:07:38.632Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

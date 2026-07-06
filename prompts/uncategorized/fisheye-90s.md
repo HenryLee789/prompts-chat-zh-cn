@@ -1,43 +1,23 @@
----
-id: "cmkk2srp3000bi904dfkrmhzu"
-slug: "fisheye-90s"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/fisheye-90s"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0e3bd85626d089516ebe5282dabcdefde7a10d8f320e7e6661834256fb6724cd"
-upstream_updated_at: "2026-01-18T20:48:48.491Z"
----
 # 90年代鱼眼
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[fisheye-90s](https://prompts.chat/prompts/fisheye-90s)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「90年代鱼眼」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -92,7 +72,7 @@ upstream_updated_at: "2026-01-18T20:48:48.491Z"
     "count": "与源图像相同",
     "details": "由于鱼眼视角，主体显得雄伟且接近"
   },
-  “提示”：“使用带有 Death Lens MK1 鱼眼附件的索尼 VX1000 MiniDV 摄录一体机捕获的未经编辑的原始帧。极端的球桶形畸变，具有明显弯曲的地平线和向外弯曲的垂直线。厚重的圆形机械小插图在圆角处逐渐变暗为纯黑色。可见的隔行扫描线和 CCD 传感器伪影，带有像素级噪声，尤其是在阴影中。原色中的颜色显得过饱和，但在中间色调中被洗掉明显的洋红色色差，在高对比度边缘处可见红青色边纹。 摄像机上的 LED 电池灯产生刺眼的平面照明，具有硬阴影和过亮的高光。 真实的 2000 年代早期滑板视频质量 - 零色彩分级，直接通过磁带传输。离轴构图。",
+  “提示”：“使用带有 Death Lens MK1 鱼眼附件的索尼 VX1000 MiniDV 摄录一体机捕获的未经编辑的原始帧。极端的球桶形畸变，具有明显弯曲的地平线和向外弯曲的垂直线。厚重的圆形机械小插图在圆角处逐渐变暗为纯黑色。可见的隔行扫描线和 CCD 传感器伪影，带有像素级噪声，尤其是在阴影中。原色中的颜色显得过饱和，但在中间色调中被洗掉明显的洋红色色差，在高对比度边缘处可见红青色边纹。摄像机上的 LED 电池灯产生刺眼的平面照明，具有硬阴影和过亮的高光。真实的 2000 年代早期滑板视频质量 - 零色彩分级，直接通过磁带传输。离轴构图。",
   “风格”：{
     "art_style": "MiniDV 摄像机镜头",
     “影响”：[
@@ -256,14 +236,8 @@ Fisheye 90s
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [fisheye-90s](https://prompts.chat/prompts/fisheye-90s) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ozturksirin |
-| Updated At | 2026-01-18T20:48:48.491Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

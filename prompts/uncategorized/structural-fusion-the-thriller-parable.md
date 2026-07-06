@@ -1,24 +1,4 @@
----
-id: "cmr4thjgd0001l704xc3jx8ys"
-slug: "structural-fusion-the-thriller-parable"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/structural-fusion-the-thriller-parable"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7b32ca2d5f0f258a1398a73ce985cba86baf999e7ff542ced44cadad0e52a3a9"
-upstream_updated_at: "2026-07-03T10:55:25.117Z"
----
 # 结构融合：惊悚寓言
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[structural-fusion-the-thriller-parable](https://prompts.chat/prompts/structural-fusion-the-thriller-parable)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ JSON 结构化提示，用于编写使用独特的双重叙事结构混合惊悚
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -83,14 +65,8 @@ Describe what this skill does and how the agent should use it.
 - Step 2: ...
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [structural-fusion-the-thriller-parable](https://prompts.chat/prompts/structural-fusion-the-thriller-parable) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | None |
-| Contributors | amvicioushecs |
-| Updated At | 2026-07-03T10:55:25.117Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

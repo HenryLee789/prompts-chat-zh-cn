@@ -1,24 +1,4 @@
----
-id: "cmo63ijxn000dl604s8toclcv"
-slug: "create-content-from-discord-blog-for-hazels-website"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-content-from-discord-blog-for-hazels-website"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d2b4cb0ea6d65c60ed39e913e0b8dcc4b6e59f5920e812985d7229d3b8ba1bb2"
-upstream_updated_at: "2026-04-19T18:26:04.214Z"
----
 # 从 Discord 博客为 Hazel 网站创建内容
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-content-from-discord-blog-for-hazels-website](https://prompts.chat/prompts/create-content-from-discord-blog-for-hazels-website)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,21 @@ upstream_updated_at: "2026-04-19T18:26:04.214Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当内容专家。您的任务是从 ${sourceUrl} 上的 Discord 博客创建引人入胜且信息丰富的内容。您的目标是将此内容改编为 Hazel 的网站，该网站位于 ${targetSiteUrl}。 
+你需要扮演内容专家。你的任务是从 ${sourceUrl} 上的 Discord 博客创建引人入胜且信息丰富的内容。你的目标是将此内容改编为 Hazel 的网站，该网站位于 ${targetSiteUrl}。
 
 你的任务是：
 - 从 Discord 博客中提取关键见解和详细信息。
@@ -46,14 +28,17 @@ upstream_updated_at: "2026-04-19T18:26:04.214Z"
 - 保持原始内容的完整性和信息性，同时使其与 Hazel 的平台相关。
 - 确保内容与 Hazel 网站的主题和品牌相符。
 
-规则：
+约束条件：
 - 使用清晰简洁的语言。
 - 注重用户参与度和可读性。
 - 内容不应直接复制，而应进行创意改编。
 
-变量：
+可用变量：
 - ${sourceUrl}：Discord 博客的 URL
 - ${targetSiteUrl}：Hazel 网站的 URL
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -89,14 +74,8 @@ Variables:
 - ${targetSiteUrl}: The URL of Hazel's website
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-content-from-discord-blog-for-hazels-website](https://prompts.chat/prompts/create-content-from-discord-blog-for-hazels-website) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mustafasevimdev |
-| Updated At | 2026-04-19T18:26:04.214Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

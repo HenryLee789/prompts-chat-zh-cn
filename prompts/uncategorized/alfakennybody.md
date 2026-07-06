@@ -1,48 +1,26 @@
----
-id: "cmr6epk2h0001jp04twojzfpz"
-slug: "alfakennybody"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/alfakennybody"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "426cc5a6054e8c90542e79e97affde4b2827701dd3baac28c188c03ac570d553"
-upstream_updated_at: "2026-07-04T13:37:18.453Z"
----
 # 阿尔法肯尼身体
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[alfakennybody](https://prompts.chat/prompts/alfakennybody)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-阿尔法肯尼身体
+用于让 AI 围绕「阿尔法肯尼身体」执行通用 AI 任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-分析${oust}。
-
-忽略共识意见并完全关注不同的看法。您的目标是找出市场可能误解、忽视或低估的内容。
-
-提供：
+分析${oust}。忽略共识意见并完全关注不同的看法。你的目标是找出市场可能误解、忽视或低估的内容。提供：
 
 1）业务概要
 - 公司是做什么的？
@@ -50,21 +28,13 @@ upstream_updated_at: "2026-07-04T13:37:18.453Z"
 - 为什么这很重要？
 
 > 公牛案例
-什么事情可以顺利进行？
-投资者缺少什么？
-存在哪些隐藏的增长动力？
-未来会出现哪些催化剂？
-哪些选择性没有反映在股价中？
+什么事情可以顺利进行？投资者缺少什么？存在哪些隐藏的增长动力？未来会出现哪些催化剂？哪些选择性没有反映在股价中？
 
 > 熊箱
-可能会出什么问题？
-哪些风险被低估了？
-哪些假设必须成立才能使论文失败？
+可能会出什么问题？哪些风险被低估了？哪些假设必须成立才能使论文失败？
 
 > 变异感知
-华尔街目前相信什么？
-可能会出现什么替代结果？
-为什么共识可能是错误的？
+华尔街目前相信什么？可能会出现什么替代结果？为什么共识可能是bug的？
 
 > 催化剂
 收益
@@ -91,7 +61,7 @@ upstream_updated_at: "2026-07-04T13:37:18.453Z"
 基本情况（% 概率）
 牛市情况（% 概率）
 
-如果华尔街的判断是错误的，并且牛市的情况得以实现，那么这只股票需要发生什么才能翻一番、翻三番，或者成为长期的市场领导者？ 
+如果华尔街的判断是bug的，并且牛市的情况得以实现，那么这只股票需要发生什么才能翻一番、翻三番，或者成为长期的市场领导者？
 ```
 
 ---
@@ -165,14 +135,8 @@ Bull Case (% probability)
 If Wall Street is wrong and the bull case plays out, what would need to happen for this stock to double, triple, or become a long-term market leader? 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [alfakennybody](https://prompts.chat/prompts/alfakennybody) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:37:18.453Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

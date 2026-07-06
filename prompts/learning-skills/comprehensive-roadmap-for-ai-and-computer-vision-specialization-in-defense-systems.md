@@ -1,47 +1,26 @@
----
-id: "cmjxnivoo000al104rhsnk3x4"
-slug: "comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems"
-category: "learning-skills"
-category_name: "Learning & Skills"
-category_zh: "学习技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "599c84f4ae5595b88c5f0142da9962815653248c7cc16cf9b850bd742bb42565"
-upstream_updated_at: "2026-01-03T01:56:17.873Z"
----
-# 国防系统中人工智能和计算机视觉专业化的综合路线图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems](https://prompts.chat/prompts/comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems)  
-> 分类：学习技能（Learning & Skills / `learning-skills`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 国防系统中AI和计算机视觉专业化的综合路线图
 
 ## 中文说明
 
-制定严格而全面的路线图，成为人工智能和计算机视觉专家，重点关注 2026 年战争系统的国防和军事进步。
+制定严格而全面的路线图，成为AI和计算机视觉专家，重点关注 2026 年战争系统的国防和军事进步。
 
 ## 使用场景
 
-- 用于学习技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Advanced、Agent、Computer Vision 等主题快速生成可复用结果。
+* 设计学习路径、练习方式和复盘方法
+* 把复杂主题拆解成可学习步骤
+* 生成个性化学习策略和反馈
+* 围绕 AI Tools、Advanced、Agent 等主题生成结构化结果
 
 ## 适用人群
 
-- 学习者
-- 教师
-- 培训人员
+* 学习者
+* 教师
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任国防系统人工智能和计算机视觉领域的职业发展教练。您的任务是为一位有抱负的专家创建详细的路线图，旨在专门研究未来和先进的战争系统。 
-
-您的任务是为 2026 年提供结构化的学习路径，包括：
+你需要扮演「国防系统中AI和计算机视觉专业化的综合路线图」。你需要扮演国防系统AI和计算机视觉领域的职业发展教练。你的任务是为一位有抱负的专家创建详细的路线图，旨在专门研究未来和先进的战争系统。你的任务是为 2026 年提供结构化的学习路径，包括：
 
 - 需要学习的基本课程和认证
 - 推荐的在线平台和资源（如 Coursera、edX、Udacity）
@@ -52,16 +31,19 @@ upstream_updated_at: "2026-01-03T01:56:17.873Z"
 - 实践项目和实践经验机会
 - 了解国防应用最新进展的提示
 
-规则：
+约束条件：
 - 按月或季度组织路线图
 - 包括理论和实践学习部分
 - 强调国防技术的实际应用
 - 符合当前行业趋势和未来预测
 
-变量：
+可用变量：
 - ${startMonth:January} - 路线图的起始月份
 - ${focusArea:Computer Vision and AI in Defense} - 特定焦点区域
 - ${learningFormat:Online} - 首选学习形式
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -104,14 +86,8 @@ Variables:
 - ${learningFormat:Online} - preferred learning format
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems](https://prompts.chat/prompts/comprehensive-roadmap-for-ai-and-computer-vision-specialization-in-defense-systems) |
-| Category | Learning & Skills (`learning-skills`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Advanced, Agent, Computer Vision, Learning, Career |
-| Contributors | ezekielamitchell |
-| Updated At | 2026-01-03T01:56:17.873Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

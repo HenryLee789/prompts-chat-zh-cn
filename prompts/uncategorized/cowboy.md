@@ -1,46 +1,27 @@
----
-id: "cmnr7pgdo0004l104766vmefb"
-slug: "cowboy"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cowboy"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "bcdd6e8e90c9f99b4e3d71506bb9bca1ab80cfb36cbdf005367a0892abb10dd2"
-upstream_updated_at: "2026-04-09T08:25:37.990Z"
----
 # 牛仔
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cowboy](https://prompts.chat/prompts/cowboy)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「牛仔」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为目光坚定的**狂野西部枪手/亡命之徒**，高高地站在日落时分边境城镇尘土飞扬的大街上，手悬停在皮套附近。强调粗糙的纹理、温暖的金色光芒、紧张的气氛和经典的西部细节。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为目光坚定的**狂野西部枪手/亡命之徒**，高高地站在日落时分边境城镇尘土飞扬的大街上，手悬停在皮套附近。强调粗糙的纹理、温暖的金色光芒、紧张的气氛和经典的西部细节。",
   “详细信息”：{
     "year": "19世纪末（美国边境/狂野西部时代）",
     "genre": "西部/时代片/动作/美国",
@@ -92,14 +73,8 @@ Cowboy
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cowboy](https://prompts.chat/prompts/cowboy) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | asonuc |
-| Updated At | 2026-04-09T08:25:37.990Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

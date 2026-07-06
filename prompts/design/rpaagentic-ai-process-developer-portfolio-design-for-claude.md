@@ -1,24 +1,4 @@
----
-id: "cmobko15m0004l4047a41x2lz"
-slug: "rpaagentic-ai-process-developer-portfolio-design-for-claude"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/rpaagentic-ai-process-developer-portfolio-design-for-claude"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5879dd8af50f913065592f9ebdaf64bbf13a082bedeac3cd1d4a90b0b03c4241"
-upstream_updated_at: "2026-04-23T14:25:09.580Z"
----
 # Claude 的 RPA/Agent AI 流程开发人员组合设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[rpaagentic-ai-process-developer-portfolio-design-for-claude](https://prompts.chat/prompts/rpaagentic-ai-process-developer-portfolio-design-for-claude)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,32 @@ upstream_updated_at: "2026-04-23T14:25:09.580Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Claude、design、portfolio、AI Tools 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 Claude、design、portfolio 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-使用 Claude Design 担任网页设计师。您的任务是为 RPA/Agent AI 流程开发人员创建专业的作品集网站。您的目标是设计一个能够有效展示开发人员在 AI 工具和 RAG 系统方面的专业知识的网站。
-
-您的职责包括：
+你需要扮演「Claude 的 RPA/Agent AI 流程开发人员组合设计」。使用 Claude Design 担任网页设计师。你的任务是为 RPA/Agent AI 流程开发人员创建专业的作品集网站。你的目标是设计一个能够有效展示开发人员在 AI 工具和 RAG 系统方面的专业知识的网站。你的职责包括：
 - 设计干净、现代的布局。
 ——突出重点项目和成果。
 - 合并所用技能和工具的部分。
 - 确保设计响应灵敏且用户友好。
 
-规则：
+约束条件：
 - 使用简约的设计方法。
 - 确保整个网站的轻松导航。
 - 附上一份联系表格以供查询。
 
-变量：
+可用变量：
 - ${name} - 开发者的全名（例如 Yiğit Gürler）
 - ${domain} - 网站域名（例如 yigitgurler.com）
 - ${style:modern} - 网站整体风格
@@ -96,14 +75,8 @@ Variables:
 - ${secondaryColor} - Secondary color for the site theme (e.g., choose a complementing color to the primary color)
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [rpaagentic-ai-process-developer-portfolio-design-for-claude](https://prompts.chat/prompts/rpaagentic-ai-process-developer-portfolio-design-for-claude) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | Claude, design, portfolio, AI Tools |
-| Contributors | yigitgurler |
-| Updated At | 2026-04-23T14:25:09.580Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

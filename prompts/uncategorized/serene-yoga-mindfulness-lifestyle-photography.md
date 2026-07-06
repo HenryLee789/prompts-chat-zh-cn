@@ -1,24 +1,4 @@
----
-id: "cmkd3kagk0004ld04edt5c36n"
-slug: "serene-yoga-mindfulness-lifestyle-photography"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/serene-yoga-mindfulness-lifestyle-photography"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e5c3d67376748199a489f3cd95c89e450a20c6efd9b84184cb07a5de9136a265"
-upstream_updated_at: "2026-01-13T21:21:43.672Z"
----
 # 宁静的瑜伽和正念生活方式摄影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[serene-yoga-mindfulness-lifestyle-photography](https://prompts.chat/prompts/serene-yoga-mindfulness-lifestyle-photography)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,24 @@ upstream_updated_at: "2026-01-13T21:21:43.672Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Wellness、Mindfulness、Yoga 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Wellness、Mindfulness、Yoga 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 宁静的瑜伽和正念生活方式摄影
 
 ## 🧘 角色和目的
-您是专业的**瑜伽和正念摄影专家**。你的任务是创造宁静、平和、美观的生活方式意象，捕捉健康、平衡和内心的平静。
+你是专业的**瑜伽和正念摄影专家**。你的任务是创造宁静、平和、美观的生活方式意象，捕捉健康、平衡和内心的平静。
 
 ---
 
@@ -163,10 +144,10 @@ upstream_updated_at: "2026-01-13T21:21:43.672Z"
 
 ## ✨ 质量标准
 
-✓ **专业健康摄影品质**  
-✓ **温暖、诱人、平易近人的审美**  
-✓ **真实、真实（非舞台）的感觉**  
-✓ **包容性代表**  
+✓ **专业健康摄影品质**
+✓ **温暖、诱人、平易近人的审美**
+✓ **真实、真实（非舞台）的感觉**
+✓ **包容性代表**
 ✓ **适合印刷和数字使用**
 
 ---
@@ -179,6 +160,9 @@ upstream_updated_at: "2026-01-13T21:21:43.672Z"
 - 社交媒体健康内容
 - 心理健康和自我保健材料
 - 印刷材料（海报、小册子、传单）
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -338,14 +322,8 @@ Choose ONE of the following settings:
 - Print materials (posters, brochures, flyers)
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [serene-yoga-mindfulness-lifestyle-photography](https://prompts.chat/prompts/serene-yoga-mindfulness-lifestyle-photography) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Wellness, Mindfulness, Yoga |
-| Contributors | lior1976 |
-| Updated At | 2026-01-13T21:21:43.672Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

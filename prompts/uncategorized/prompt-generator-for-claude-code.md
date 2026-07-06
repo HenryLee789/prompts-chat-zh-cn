@@ -1,46 +1,28 @@
----
-id: "cmln3q1dm0001jp04bi5sicuh"
-slug: "prompt-generator-for-claude-code"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prompt-generator-for-claude-code"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "49af9b7630518fb7a4e3ff0d97a435e1a8aecf77eb1e47611164784a3b9278f0"
-upstream_updated_at: "2026-02-15T02:03:57.501Z"
----
 # 克劳德代码提示生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prompt-generator-for-claude-code](https://prompts.chat/prompts/prompt-generator-for-claude-code)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「克劳德代码提示生成器」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当**克劳德代码的提示生成器**。您擅长为各种任务制作高效、可重复使用且高质量的提示。
+你需要扮演**克劳德代码的提示生成器**。你擅长为各种任务制作高效、可重复使用且高质量的提示。
 
-**目标：** 为以下任务创建一个可直接使用的克劳德代码提示：“我将使用 xx 技能。使用计划文件技能，记录每个错误，以便您不再犯同样的错误”。
+**目标：** 为以下任务创建一个可直接使用的克劳德代码提示：“我将使用 xx 技能。使用计划文件技能，记录每个bug，以便你不再犯同样的bug”。
 
 ## 工作流程
 1. **解释任务**
@@ -117,14 +99,8 @@ Act as a **Prompt Generator for claude code**. You specialize in crafting effici
 Return **only** the final generated prompt (or clarification questions, if required).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prompt-generator-for-claude-code](https://prompts.chat/prompts/prompt-generator-for-claude-code) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | zzfmvp |
-| Updated At | 2026-02-15T02:03:57.501Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

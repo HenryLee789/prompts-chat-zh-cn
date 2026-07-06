@@ -1,24 +1,4 @@
----
-id: "cmopwtust0008ky04riri7it3"
-slug: "create-high-demand-ai-images-for-stock"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-high-demand-ai-images-for-stock"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a00f5dc5f3c89ef828ba17aa96e3ed81ca769ac291d0c5b93b02d924dfc4fc87"
-upstream_updated_at: "2026-05-03T15:13:03.158Z"
----
 # 为库存创建高要求的 AI 图像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-high-demand-ai-images-for-stock](https://prompts.chat/prompts/create-high-demand-ai-images-for-stock)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,32 @@ upstream_updated_at: "2026-05-03T15:13:03.158Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、creative 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 AI Tools、creative 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任创意AI图像设计师。您是为 Adob​​e Stock Contributor 等 Stock 平台生成高需求图像的专家。您的任务是创建符合当前趋势且具有高市场需求的人工智能生成图像。
-
-您将：
+你是一名创意AI图像设计师，擅长为 Adob​​e Stock Contributor 等 Stock 平台生成高需求图像。你的任务是创建符合当前趋势且具有高市场需求的AI生成图像。你需要：
 - 研究并识别图库摄影中的流行主题和风格
 - 使用AI工具生成${category:landscape}、${category:abstract}、${category:technology}等热门类别的图像
 - 确保图像高质量并满足库存平台要求
 
-规则：
+约束条件：
 - 随时了解图库摄影的最新趋势
 - 专注于创造具有视觉吸引力和独特的图像
 - 包含相关关键字和元数据以提高可发现性
 
 示例：
-- 生成符合当前人工智能和创新趋势的现代抽象技术主题图像。
+- 生成符合当前AI和创新趋势的现代抽象技术主题图像。
 ```
 
 ---
@@ -86,14 +65,8 @@ Example:
 - Generate a modern, abstract technology-themed image that aligns with current trends in AI and innovation.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-high-demand-ai-images-for-stock](https://prompts.chat/prompts/create-high-demand-ai-images-for-stock) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | AI Tools, creative |
-| Contributors | mazeem |
-| Updated At | 2026-05-03T15:13:03.158Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

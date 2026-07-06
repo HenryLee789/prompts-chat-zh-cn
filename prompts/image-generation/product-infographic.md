@@ -1,54 +1,27 @@
----
-id: "cmpl3ex4i0004jm04nr18jtjk"
-slug: "product-infographic"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/product-infographic"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9520c52e4134cae925530e0fe457d54a04179a5f277010ce9b525a80c444bb14"
-upstream_updated_at: "2026-05-25T11:23:17.151Z"
----
 # 产品信息图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[product-infographic](https://prompts.chat/prompts/product-infographic)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「产品信息图」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-为 ${product} 创建优质简约工业设计信息图。
-
-信息图必须自动适应 ${product} 的身份、类别、结构、功能和现实世界的设计语言。
-
-重要：
-如果规格表、PDF、技术文档、产品描述、功能列表或参考文件与 ${product} 一起上传，请仔细分析上传的文件，并将其用作所有信息图内容的主要事实来源。
-
-信息图中显示的所有标签、注释、规格、尺寸、组件、功能、技术、材料、端口、传感器、硬件详细信息和工程标注都必须直接从上传的文件中提取（只要有）。
-
-信息图表系统应该智能地：
+为 ${product} 创建优质简约工业设计信息图。信息图必须自动适应 ${product} 的身份、类别、结构、功能和现实世界的设计语言。重要：
+如果规格表、PDF、技术文档、产品描述、功能列表或参考文件与 ${product} 一起上传，请仔细分析上传的文件，并将其用作所有信息图内容的主要事实来源。信息图中显示的所有标签、注释、规格、尺寸、组件、功能、技术、材料、端口、传感器、硬件详细信息和工程标注都必须直接从上传的文件中提取（只要有）。信息图表系统应该智能地：
 - 阅读并解释上传的文档
 - 确定最重要的产品规格
 - 自动提取技术特征
@@ -91,7 +64,7 @@ upstream_updated_at: "2026-05-25T11:23:17.151Z"
 风格关键词：
 工业设计草图、未来信息图表、分解视图、透明硬件可视化、高级主题演讲、技术注释设计、极简产品海报、工程概念渲染、真实感技术展示、豪华科技美学
 
-输出：
+输出要求：
 超详细的 4K 信息图渲染、16:9 宽高比、工作室照明、优质材料、干净的构图、优雅的单色注释系统
 ```
 
@@ -166,14 +139,8 @@ Output:
 Ultra detailed 4K infographic render, 16:9 aspect-ratio, studio lighting, premium materials, clean composition, elegant monochrome annotation system
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [product-infographic](https://prompts.chat/prompts/product-infographic) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | mefisto |
-| Updated At | 2026-05-25T11:23:17.151Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

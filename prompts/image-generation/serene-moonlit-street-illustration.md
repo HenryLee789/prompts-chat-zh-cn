@@ -1,24 +1,4 @@
----
-id: "cmltk51qi0001l804b0du4mtu"
-slug: "serene-moonlit-street-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/serene-moonlit-street-illustration"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "93d65db273f413540f61fe6f4c7005eb89e0cee88092f1f7c1a134da31dd01d7"
-upstream_updated_at: "2026-02-19T14:31:38.746Z"
----
 # 宁静的月光街道插画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[serene-moonlit-street-illustration](https://prompts.chat/prompts/serene-moonlit-street-illustration)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-19T14:31:38.746Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -115,6 +96,9 @@ upstream_updated_at: "2026-02-19T14:31:38.746Z"
   "use_case": "针对大气和情感场景的风格化插图生成或数据集进行培训。",
   “uuid”：“b55094a8-7a9b-4e1e-ba85-5e7893761150”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -213,14 +197,8 @@ Creating a serene digital illustration depicting a peaceful, moonlit street scen
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [serene-moonlit-street-illustration](https://prompts.chat/prompts/serene-moonlit-street-illustration) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | gunebak4n |
-| Updated At | 2026-02-19T14:31:38.746Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

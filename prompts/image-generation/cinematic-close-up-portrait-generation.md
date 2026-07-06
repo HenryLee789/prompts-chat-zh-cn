@@ -1,24 +1,4 @@
----
-id: "cmkfm57b70001jv04vyoumgxz"
-slug: "cinematic-close-up-portrait-generation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-close-up-portrait-generation"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a1e482aa9119063a8f8c26ff54cddb71558c962a5236617bbc3de32c6c214472"
-upstream_updated_at: "2026-01-15T15:53:21.090Z"
----
 # 电影特写肖像生成
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-close-up-portrait-generation](https://prompts.chat/prompts/cinematic-close-up-portrait-generation)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T15:53:21.090Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、AI Tools、Computer Vision 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、AI Tools、Computer Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -211,14 +192,8 @@ Create a cinematic close-up portrait of a young man, focusing on emotional expre
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-close-up-portrait-generation](https://prompts.chat/prompts/cinematic-close-up-portrait-generation) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, AI Tools, Computer Vision |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-15T15:53:21.090Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

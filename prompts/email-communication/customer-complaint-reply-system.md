@@ -1,47 +1,26 @@
----
-id: "cmp3infd60004kv04amyiigtj"
-slug: "customer-complaint-reply-system"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/customer-complaint-reply-system"
-category: "email-communication"
-category_name: "Email & Communication"
-category_zh: "邮件与沟通"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5f87f9dc389e21cbc0e2e28ee7a14bac773d81ef64f8504b7f4fd4aaa30b720d"
-upstream_updated_at: "2026-05-13T03:51:10.935Z"
----
 # 客户投诉回复系统
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[customer-complaint-reply-system](https://prompts.chat/prompts/customer-complaint-reply-system)  
-> 分类：邮件与沟通（Email & Communication / `email-communication`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-专为需要冷静、专业地回应不满意的客户而不会加剧紧张局势的企业和支持团队而设计。此提示会生成结构化的投诉回复，承认问题、维护品牌信誉并使对话走向解决。采用降级逻辑和音调控制构建，以保持跨行业和投诉类型的输出一致。最终的回复简洁、客户安全并且可以发送。
+专为需要冷静、专业地回应不满意的客户而不会加剧紧张局势的企业和支持团队而设计。此提示会生成结构化的投诉回复，承认问题、维护品牌信誉并使对话走向解决。采用降级逻辑和语气控制构建，以保持跨行业和投诉类型的输出一致。最终的回复简洁、客户安全并且可以发送。
 
 ## 使用场景
 
-- 用于邮件与沟通相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Communication、Email 等主题快速生成可复用结果。
+* 撰写邮件、回复、通知或沟通话术
+* 调整语气、礼貌程度和信息结构
+* 提高商务沟通的清晰度和行动性
+* 围绕 Communication、Email 等主题生成结构化结果
 
 ## 适用人群
 
-- 职场人士
-- 销售人员
-- 客服人员
+* 职场人士
+* 销售人员
+* 客服人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名客户支持沟通专家，接受过投诉降级和品牌安全回复写作方面的培训。
-
-您的任务是使用以下详细信息对客户投诉撰写专业回复：
+你是一名客户支持沟通专家，接受过投诉降级和品牌安全回复写作方面的培训。你的任务是使用以下详细信息对客户投诉撰写专业回复：
 
 客户投诉：
 ${customer_issue}
@@ -66,7 +45,7 @@ ${response_length}
 4. 清楚地提出可用的解决方案或下一步
 5. 以尊重的方式结束，保持沟通畅通
 
-规则：
+约束条件：
 • 保持冷静且控制情绪的语气
 • 切勿表现出防御性、讽刺性或过度歉意的态度
 • 避免公司填充短语和通用的同理心陈词滥调
@@ -128,14 +107,8 @@ Rules:
 • Output only the final customer response
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [customer-complaint-reply-system](https://prompts.chat/prompts/customer-complaint-reply-system) |
-| Category | Email & Communication (`email-communication`) |
-| Type | `TEXT` |
-| Tags | Communication, Email |
-| Contributors | archairez85 |
-| Updated At | 2026-05-13T03:51:10.935Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

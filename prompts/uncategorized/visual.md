@@ -1,48 +1,27 @@
----
-id: "cmjk5mi9j0008jx043fnsn52i"
-slug: "visual"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/visual"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "672d5fc6f981a5cd6f525a0b515c77b0294d758e1add282bbf823e85b2823315"
-upstream_updated_at: "2025-12-24T15:14:06.905Z"
----
 # 视觉的
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[visual](https://prompts.chat/prompts/visual)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「视觉的」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-超现实的 3D 等距杰作，背景是宏伟、无尽的传统水墨历史羊皮纸卷轴。
-该场景将（[锡尔特，1890年代]）的历史血统和文化遗产形象化，标志性的古代建筑和地标从画卷中动态地浮现出来。
-羊皮纸注释（位置自适应）：
-羊皮纸上包含手写的解释性注释、墨水草图和图表，它们会自动适应括号中所写的位置。
-对于每个位置，羊皮纸包括：
+超现实的 3D 等距杰作，背景是宏伟、无尽的传统水墨历史羊皮纸卷轴。该场景将（[锡尔特，1890年代]）的历史血统和文化遗产形象化，标志性的古代建筑和地标从画卷中动态地浮现出来。羊皮纸注释（位置自适应）：
+羊皮纸上包含手写的解释性注释、墨水草图和图表，它们会自动适应括号中所写的位置。对于每个位置，羊皮纸包括：
 
 所有文本均为土耳其语。
 
@@ -56,28 +35,20 @@ upstream_updated_at: "2025-12-24T15:14:06.905Z"
 • 空间和建筑注释：
 通过墨水草图、横截面图和立面图说明地理位置（高地、沿海、中部、战略）、建筑特征和定义结构元素。
 • 文化和历史意义注释：
-重要的历史事件、传说或神话，以及更广泛的文化或文明影响。
-
-所有注释均以书法手稿风格书写，并附有说明、方向箭头、指南针符号、比例标记和指向新兴 3D 结构的制图图标。
-成分：
-画卷如时间之河般在空间中流淌，形成全景式的历史叙事。
-羊皮纸上的 2D 黑色墨水笔触、手写文字和示意图无缝地转变成从纸上升起的高保真 3D 纪念碑。
-
-视觉效果：
-墨线变形为石头、砖、木头和金属表面。
-平面手稿插图演变成立体的、超详细的建筑，同时在视觉上与羊皮纸保持联系。
-详情：
-老化的羊皮纸纹理、墨水渗色、漂浮的历史书法、红色蜡或印章、大气云和雾包裹着建筑物。
-
-照明：
-史诗般的黄金时段电影灯光照亮了 3D 形式，与单色墨水和羊皮纸背景形成鲜明对比。
-规格：
+重要的历史事件、传说或神话，以及更广泛的文化或文明影响。所有注释均以书法手稿风格书写，并附有说明、方向箭头、指南针符号、比例标记和指向新兴 3D 结构的制图图标。成分：
+画卷如时间之河般在空间中流淌，形成全景式的历史叙事。羊皮纸上的 2D 黑色墨水笔触、手写文字和示意图无缝地转变成从纸上升起的高保真 3D 纪念碑。视觉效果：
+墨线变形为石头、砖、木头和金属表面。平面手稿插图演变成立体的、超详细的建筑，同时在视觉上与羊皮纸保持联系。详情：
+老化的羊皮纸纹理、墨水渗色、漂浮的历史书法、红色蜡或印章、大气云和雾包裹着建筑物。照明：
+史诗般的黄金时段电影灯光照亮了 3D 形式，与单色墨水和羊皮纸背景形成鲜明对比。规格：
 8K 分辨率、景深、虚幻引擎 5 渲染、宏大的规模、博物馆品质的真实感。
 
 --ar 16:9 --风格化 350
 --无平面、简约、卡通、边框、框架、桌子、现代建筑
 
 Bitlis-1890'lar yazıyor fotoğrafta。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -137,14 +108,8 @@ Specs:
 Bitlis-1890'lar yazıyor fotoğrafta.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [visual](https://prompts.chat/prompts/visual) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | inanusame26 |
-| Updated At | 2025-12-24T15:14:06.905Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

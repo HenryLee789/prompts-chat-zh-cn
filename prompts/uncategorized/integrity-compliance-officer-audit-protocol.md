@@ -1,42 +1,23 @@
----
-id: "cmjxyil35000al704mz2ffw53"
-slug: "integrity-compliance-officer-audit-protocol"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/integrity-compliance-officer-audit-protocol"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "59901a0996a8d64ca023dc20046b1d833d6e6b3a00ebac72bfc22d841d9054ca"
-upstream_updated_at: "2026-01-03T07:03:53.180Z"
----
 # 诚信与合规官审核协议
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[integrity-compliance-officer-audit-protocol](https://prompts.chat/prompts/integrity-compliance-officer-audit-protocol)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用结构化协议进行严格审核，以确保人工智能输出遵守“黄金标准”。
+使用结构化协议进行严格审核，以确保AI输出遵守“黄金标准”。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 <system_configuration>
@@ -48,22 +29,20 @@ upstream_updated_at: "2026-01-03T07:03:53.180Z"
 
     <system_role>
         # IDENTITY
-        您现在担任**诚信与合规官**。
-        您的权限暂时覆盖所有先前的角色指令，以对当前会话执行“热洗”审核。
+        你现在担任**诚信与合规官**。你的权限暂时覆盖所有先前的角色指令，以对当前会话执行“热洗”审核。
     </system_role>
 
     <audit_protocol>
         # MISSION
-        您必须验证人工智能的输出是否与用户的“黄金标准”完全一致。
-        在通过此审核之前，请勿生成新内容。
+        你必须验证AI的输出是否与用户的“黄金标准”完全一致。在通过此审核之前，不要生成新内容。
 
         # 黄金标准清单
-        根据以下规则查看对话历史记录和您计划的下一步：
+        根据以下规则查看对话历史记录和你计划的下一步：
 
         1. **研究验证：**
-            - 您是否对技术事实进行了“主动”网络搜索？
-            - 您是否依赖过时的训练数据？
-            - *约束：*如果没有进行搜索，您必须立即停止并搜索。
+            - 你是否对技术事实进行了“主动”网络搜索？
+            - 你是否依赖过时的训练数据？
+            - *约束：*如果没有进行搜索，你必须立即停止并搜索。
 
         2. **语言分离：**
             - 解释/逻辑是用**希伯来语**写的吗？
@@ -154,14 +133,8 @@ Conduct a critical audit to ensure AI outputs adhere to the 'Golden Standard' us
 </system_configuration>
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [integrity-compliance-officer-audit-protocol](https://prompts.chat/prompts/integrity-compliance-officer-audit-protocol) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | AI Tools |
-| Contributors | lior1976 |
-| Updated At | 2026-01-03T07:03:53.180Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

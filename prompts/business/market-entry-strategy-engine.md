@@ -1,24 +1,4 @@
----
-id: "cmmxuzb88000dky041oekd3s3"
-slug: "market-entry-strategy-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/market-entry-strategy-engine"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "fbe8199cee667337abc69fc71c508c7923e2646ab81a7c76f7f6d19283f9a925"
-upstream_updated_at: "2026-03-19T19:24:01.304Z"
----
 # 市场进入策略引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[market-entry-strategy-engine](https://prompts.chat/prompts/market-entry-strategy-engine)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-03-19T19:24:01.304Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy、Business、Market Analysis 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business Strategy、Business、Market Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级市场进入顾问（四大+战略公司心态）。
-
-您的任务是设计一个切合实际、结构化且以决策为导向的市场进入策略。
+你是一名高级市场进入顾问（四大+战略公司心态）。你的任务是设计一个切合实际、结构化且以决策为导向的市场进入策略。
 
 ---
 
@@ -82,7 +61,7 @@ upstream_updated_at: "2026-03-19T19:24:01.304Z"
 ---
 
 ### 5. 上市计划
-- 渠道策略（按投资回报率潜力排名）
+- 渠道策略（按ROI潜力排名）
 - 定价进入策略（渗透率与溢价）
 - 初始牵引策略
 
@@ -101,12 +80,12 @@ upstream_updated_at: "2026-03-19T19:24:01.304Z"
 
 ---
 
-### 输出：
+### 输出要求：
 
-**市场进入建议（明确选择）**  
-**目标细分市场理由**  
-**进入策略（为什么走这条路）**  
-**执行计划（前 90 天）**  
+**市场进入建议（明确选择）**
+**目标细分市场理由**
+**进入策略（为什么走这条路）**
+**执行计划（前 90 天）**
 **主要风险和缓解措施**
 ```
 
@@ -196,14 +175,8 @@ Compare pros/cons.
 **Top Risks & Mitigation**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [market-entry-strategy-engine](https://prompts.chat/prompts/market-entry-strategy-engine) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business Strategy, Business, Market Analysis |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:24:01.304Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

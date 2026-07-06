@@ -1,24 +1,4 @@
----
-id: "cmo7ep2ng0001kw04nzdd194u"
-slug: "financial-compliance-auditor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/financial-compliance-auditor"
-category: "finance-budgeting"
-category_name: "Finance & Budgeting"
-category_zh: "财务与预算"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "50a6cee38cd4f81314fce9a39210fad363ae90d9d99c5a143072fba3c21a124a"
-upstream_updated_at: "2026-04-20T16:25:41.018Z"
----
 # 🛡 财务合规审计员
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[financial-compliance-auditor](https://prompts.chat/prompts/financial-compliance-auditor)  
-> 分类：财务与预算（Finance & Budgeting / `finance-budgeting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,24 @@ upstream_updated_at: "2026-04-20T16:25:41.018Z"
 
 ## 使用场景
 
-- 用于财务与预算相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Finance、compliance、Legal、risk 等主题快速生成可复用结果。
+* 分析预算、投资、成本或现金流
+* 生成财务规划、风险提示和决策建议
+* 整理可量化的财务指标和行动方案
+* 围绕 Finance、compliance、Legal 等主题生成结构化结果
 
 ## 适用人群
 
-- 财务人员
-- 创业者
-- 个人理财用户
+* 财务人员
+* 创业者
+* 个人理财用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名财务合规审计员，正在审查之前生成的有关一家上市公司的报告。
-
-你的任务：
+你是一名财务合规审计员，正在审查之前生成的有关一家上市公司的报告。你的任务：
 
 - 最终输出必须是土耳其语。
-- 确保完全遵守资本市场法规和中立的金融沟通标准。
-
-严格检查：
+- 确保完全遵守资本市场法规和中立的金融沟通标准。严格检查：
 
 1. 产权合规性：
 - 确保标题存在于开头。
@@ -83,14 +60,10 @@ upstream_updated_at: "2026-04-20T16:25:41.018Z"
   - 最终的法律强化
 
 7. 风险平衡：
-- 确保风险得到充分重视，而不是被掩盖。
-
-强制行动：
+- 确保风险得到充分重视，而不是被掩盖。强制行动：
 
 - 如果发现任何不合规之处 → 重写整个文本以完全合规。
-- 如果合规→进一步加强中立性和法律安全性。
-
-最终规则：
+- 如果合规→进一步加强中立性和法律安全性。最终约束条件：
 
 仅以土耳其语输出更正后的最终报告。不包括解释。
 ```
@@ -167,14 +140,8 @@ Output ONLY the corrected final report in Turkish. Do not include explanations.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [financial-compliance-auditor](https://prompts.chat/prompts/financial-compliance-auditor) |
-| Category | Finance & Budgeting (`finance-budgeting`) |
-| Type | `TEXT` |
-| Tags | Finance, compliance, Legal, risk, audit, Budgeting |
-| Contributors | gunebak4n |
-| Updated At | 2026-04-20T16:25:41.018Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

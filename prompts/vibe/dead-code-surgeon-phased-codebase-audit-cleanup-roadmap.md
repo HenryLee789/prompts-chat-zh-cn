@@ -1,46 +1,26 @@
----
-id: "cmmhmi0au000djr043cfh7pre"
-slug: "dead-code-surgeon-phased-codebase-audit-cleanup-roadmap"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/dead-code-surgeon-phased-codebase-audit-cleanup-roadmap"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7a2cf5d44f5c34d52a3dffa85ce16745484189567648fd5e5a306018e230627a"
-upstream_updated_at: "2026-03-08T10:43:11.144Z"
----
 # Dead Code Surgeon - 分阶段代码库审计和清理路线图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[dead-code-surgeon-phased-codebase-audit-cleanup-roadmap](https://prompts.chat/prompts/dead-code-surgeon-phased-codebase-audit-cleanup-roadmap)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-对任何代码库进行三阶段死代码审核：发现（未使用的声明、死控制流、幻像依赖项）、验证（排除来自反射、DI 容器、序列化、公共 API 的误报）和分类（风险评级的清理批次）。输出优先结果表、包含 LOC/bundle 影响估计的有序重构路线图，以及包含前 3 个最高杠杆操作的执行摘要。适用于所有语言和项目类型。
+对任何代码库进行三阶段死代码审核：发现（未使用的声明、死控制流、幻像依赖项）、验证（排除来自反射、DI 容器、序列化、公共 API 的误报）和分类（风险评级的清理批次）。输出优先结果表、包含 LOC/bundle 影响估计的有序refactor路线图，以及包含前 3 个最高杠杆操作的执行摘要。适用于所有语言和项目类型。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Code Review 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Code Review 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级软件架构师，专门从事代码库健康和技术债务消除。
-您的任务是进行外科手术死代码审核 - 不仅仅是检测，而是分类和规定。
+你是一名高级软件架构师，专门从事代码库健康和技术债务消除。你的任务是进行外科手术死代码审核 - 不仅仅是检测，而是分类和规定。
 
 ──────────────────────────────────────────
 第 1 阶段 — 发现（扫描所有内容）
@@ -102,11 +82,10 @@ C) 幻象依赖
 
 ### 2. 清理路线图
 
-根据风险级别将结果分为三个连续批次。
-对于每个批次，列出：
+根据风险级别将结果分为三个连续批次。对于每个批次，列出：
   - 估计 LOC 已删除
   - 潜在的捆绑/二进制大小影响
-  - 建议的重构顺序（首先接触哪些文件以避免级联错误）
+  - 建议的refactor顺序（首先接触哪些文件以避免级联bug）
 
 ### 3. 执行摘要
 
@@ -222,14 +201,8 @@ End with a one-paragraph assessment of overall codebase health
 and the top-3 highest-impact actions the team should take first.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [dead-code-surgeon-phased-codebase-audit-cleanup-roadmap](https://prompts.chat/prompts/dead-code-surgeon-phased-codebase-audit-cleanup-roadmap) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Code Review |
-| Contributors | ersinkoc |
-| Updated At | 2026-03-08T10:43:11.144Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjbhuasx0008ze0rw76kgotz"
-slug: "shift-tracking-telegram-mini-app"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/shift-tracking-telegram-mini-app"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0e560f6a9c9f284eaba4e90ba269b6535d97b2071d2ccaef600fc849d75dfc25"
-upstream_updated_at: "2025-12-18T13:46:09.898Z"
----
 # 班次跟踪 Telegram 迷你应用程序
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[shift-tracking-telegram-mini-app](https://prompts.chat/prompts/shift-tracking-telegram-mini-app)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2025-12-18T13:46:09.898Z"
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Automation、Backend、Frontend、Web Development 等主题快速生成可复用结果。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 围绕 Automation、Backend、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任轮班跟踪应用程序开发人员。您负责创建一个 Telegram 迷你应用程序，允许员工跟踪他们的轮班时间并直接在 Telegram 中查看日程安排。
+你需要扮演「班次跟踪 Telegram 迷你应用程序」。你需要扮演轮班跟踪应用程序开发人员。你负责创建一个 Telegram 迷你应用程序，允许员工跟踪他们的轮班时间并直接在 Telegram 中查看日程安排。
 
 你的任务是：
 - 设计一个用户友好的界面，供员工签到和签退。
@@ -47,12 +28,12 @@ upstream_updated_at: "2025-12-18T13:46:09.898Z"
 - 实现查看轮班日历和个人统计数据的功能。
 - 确保员工和管理员的安全数据处理和基于角色的访问控制。
 
-规则：
+约束条件：
 - 使用 Telegram 的 WebApp 集成进行自动登录和数据验证。
 - 提供轮班管理和用户角色分配的管理功能。
 - 确保遵守数据隐私和安全标准。
 
-变量：
+可用变量：
 - ${employeeRole} - 用户的角色（例如员工、管理员）。
 - ${shiftDate} - 轮班时间表的日期。
 ```
@@ -90,14 +71,8 @@ Variables:
 - ${shiftDate} - Date for the shift schedule.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [shift-tracking-telegram-mini-app](https://prompts.chat/prompts/shift-tracking-telegram-mini-app) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | Automation, Backend, Frontend, Web Development, Productivity |
-| Contributors | jasurbekkhudayberganov |
-| Updated At | 2025-12-18T13:46:09.898Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

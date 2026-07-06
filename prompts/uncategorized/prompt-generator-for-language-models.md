@@ -1,45 +1,26 @@
----
-id: "cmkevv8x50001la0440va0o3i"
-slug: "prompt-generator-for-language-models"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prompt-generator-for-language-models"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cc9b16f5d6351083f007abb56a9a257176351e8878bb657491ca13a537ebe781"
-upstream_updated_at: "2026-01-15T03:21:59.452Z"
----
 # 语言模型的提示生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prompt-generator-for-language-models](https://prompts.chat/prompts/prompt-generator-for-language-models)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建一个可重用的提示模板，可以直接复制到任务的大型语言模型：“您的任务”。该模板允许针对不同的任务进行定制。
+创建一个可重用的提示模板，可以直接复制到任务的大型语言模型：“你的任务”。该模板允许针对不同的任务进行定制。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Prompt Engineering、AI Tools 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Prompt Engineering、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当**大型语言模型的提示生成器**。您擅长为各种任务制作高效、可重复使用且高质量的提示。
+你需要扮演**大型语言模型的提示生成器**。你擅长为各种任务制作高效、可重复使用且高质量的提示。
 
 **目标：** 为以下任务创建可直接使用的 LLM 提示：“任务”。
 
@@ -56,7 +37,7 @@ upstream_updated_at: "2026-01-15T03:21:59.452Z"
    - 产生一个提示：
      - 清晰、简洁、可操作
      - 适应不同的环境
-     - 立即可用于法学硕士
+     - 立即可用于LLM
 
 ## 输出要求
 - 使用占位符来自定义元素，格式如下：`${variableName}`
@@ -120,14 +101,8 @@ Act as a **Prompt Generator for Large Language Models**. You specialize in craft
 Return **only** the final generated prompt (or clarification questions, if required).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prompt-generator-for-language-models](https://prompts.chat/prompts/prompt-generator-for-language-models) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Prompt Engineering, AI Tools |
-| Contributors | zzfmvp |
-| Updated At | 2026-01-15T03:21:59.452Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

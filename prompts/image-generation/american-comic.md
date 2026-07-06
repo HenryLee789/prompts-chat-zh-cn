@@ -1,24 +1,4 @@
----
-id: "cml0qv0qd0004l404sxvc12oj"
-slug: "american-comic"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/american-comic"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8c8ad4be48505f6e2eae27650694e08dc2565cf7ced6311aca2d5b0d2ba3ea78"
-upstream_updated_at: "2026-01-30T15:17:44.460Z"
----
 # 美国漫画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[american-comic](https://prompts.chat/prompts/american-comic)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-30T15:17:44.460Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Comedy、Storytelling、Nano Banana 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Comedy、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 故事：儿童超人和儿童蝙蝠侠在森林里联手。这是森林里美好的一天，他们看到了一个用棍子搭建的庇护所，想要出去看看。他们看到一只狐狸，有好几秒钟，狐狸和孩子们都不知道该怎么办。他们首先思考。然后他们都决定朝相反的方向跑
@@ -44,7 +25,7 @@ upstream_updated_at: "2026-01-30T15:17:44.460Z"
 说明：{
   “风格”：{
     “名称”：“美国漫画书”，
-    “描述”：“采用经典美国超级英雄传统的大胆、动态的漫画书页面。将您的叙述作为完全实现的漫画页面，具有戏剧性的面板布局、电影动作和专业的漫画书渲染。”
+    “描述”：“采用经典美国超级英雄传统的大胆、动态的漫画书页面。将你的叙述作为完全实现的漫画页面，具有戏剧性的面板布局、电影动作和专业的漫画书渲染。”
   },
   “视觉基础”：{
     “中”：{
@@ -159,7 +140,7 @@ upstream_updated_at: "2026-01-30T15:17:44.460Z"
     “影响可视化”：{
       "collision": "可见冲击波、地面裂缝、结构变形",
       "energy_attacks": "明亮的核心随着大气散射逐渐褪色到彩色边缘",
-      "physical_force": "身体对不可能的力量做出真实的反应"
+      "physical_force": "身体对不可能的力量做出真实的React"
     },
     “相机动态”：{
       "angles": "极低角度用于功率，高角度用于缩放",
@@ -229,6 +210,9 @@ upstream_updated_at: "2026-01-30T15:17:44.460Z"
     “弱冲击时刻——每一个动作都应该有重量”
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -436,14 +420,8 @@ instructions: {
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [american-comic](https://prompts.chat/prompts/american-comic) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Comedy, Storytelling, Nano Banana, Entertainment, Fiction, Humor |
-| Contributors | semih |
-| Updated At | 2026-01-30T15:17:44.460Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

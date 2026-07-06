@@ -1,24 +1,4 @@
----
-id: "cmkfmnaro0003ld04klts1ln9"
-slug: "skill-creator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/skill-creator"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "11dc4856674bba513a1acd787b42eac10a6bc7b4dada6148154e70ee251e038b"
-upstream_updated_at: "2026-01-15T15:53:15.241Z"
----
 # 技能创造者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[skill-creator](https://prompts.chat/prompts/skill-creator)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,23 @@ upstream_updated_at: "2026-01-15T15:53:15.241Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 creator、Agent、meta、Skill 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 creator、Agent、meta 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：技能创造者
-描述：创建有效技能的指南。当用户想要创建新技能（或更新现有技能）以通过专业知识、工作流程或工具集成扩展 Claude 的功能时，应使用此技能。
-许可证：LICENSE.txt 中的完整条款
+描述：创建有效技能的指南。当用户想要创建新技能（或更新现有技能）以通过专业知识、工作流程或工具集成扩展 Claude 的功能时，应使用此技能。许可证：LICENSE.txt 中的完整条款
 ---
 
 # 技能创造者
@@ -81,9 +61,7 @@ upstream_updated_at: "2026-01-15T15:53:15.241Z"
 
 **中等自由度（伪代码或带参数的脚本）**：当存在首选模式、某些变化可接受或配置影响行为时使用。
 
-**低自由度（特定脚本，很少参数）**：当操作脆弱且容易出错、一致性至关重要或必须遵循特定顺序时使用。
-
-将克劳德视为探索一条路径：一座带有悬崖的窄桥需要特定的护栏（低自由度），而开阔的场地允许许多路线（高自由度）。
+**低自由度（特定脚本，很少参数）**：当操作脆弱且容易出错、一致性至关重要或必须遵循特定顺序时使用。将克劳德视为探索一条路径：一座带有悬崖的窄桥需要特定的护栏（低自由度），而开阔的场地允许许多路线（高自由度）。
 
 ### 技能剖析
 
@@ -170,7 +148,7 @@ scripts/init_skill.py <skill-name> --path <output-directory>
 
 ### 第 4 步：编辑技能
 
-根据您的技能需求查阅这些有用的指南：
+根据你的技能需求查阅这些有用的指南：
 
 - **多步骤流程**：有关顺序工作流程和条件逻辑，请参阅references/workflows.md
 - **特定输出格式或质量标准**：有关模板和示例模式，请参阅references/output-patterns.md
@@ -181,8 +159,7 @@ scripts/init_skill.py <skill-name> --path <output-directory>
 scripts/package_skill.py <path/to/skill-folder>
 ```
 
-打包脚本验证并创建用于分发的 .skill 文件。
-文件：参考文献/workflows.md
+打包脚本验证并创建用于分发的 .skill 文件。文件：参考文献/workflows.md
 # 工作流程模式
 
 ## 顺序工作流程
@@ -218,7 +195,7 @@ Filling a PDF form involves these steps:
 
 ## 模板模式
 
-提供输出格式的模板。将严格程度与您的需求相匹配。
+提供输出格式的模板。将严格程度与你的需求相匹配。
 
 **对于严格要求（如 API 响应或数据格式）：**
 
@@ -386,7 +363,7 @@ def validate_skill(skill_path):
     如果 len(sys.argv) != 2:
         print("用法：python Quick_validate.py <skill_directory>")
         系统退出(1)
-    
+
     有效，消息 = validate_skill(sys.argv[1])
     打印（消息）
     sys.exit(如果有效则为0，否则为1)
@@ -406,7 +383,6 @@ def validate_skill(skill_path):
 
 导入系统
 从 pathlib 导入路径
-
 
 技能模板 = """---
 名称：{技能名称}
@@ -441,8 +417,7 @@ EXAMPLE_SCRIPT = '''#!/usr/bin/env python3
 ”“”
 {skill_name} 的示例帮助程序脚本
 
-这是一个可以直接执行的占位脚本。
-替换为实际实现，如果不需要则删除。
+这是一个可以直接执行的占位脚本。替换为实际实现，如果不需要则删除。
 ”“”
 
 def main():
@@ -455,28 +430,24 @@ def main():
 
 EXAMPLE_REFERENCE = """# {skill_title} 的参考文档
 
-这是详细参考文档的占位符。
-替换为实际参考内容，如果不需要则删除。
+这是详细参考文档的占位符。替换为实际参考内容，如果不需要则删除。
 ”“”
 
 EXAMPLE_ASSET = """# 资源文件示例
 
-该占位符表示资产文件的存储位置。
-替换为实际资源文件（模板、图像、字体等），或者如果不需要则删除。
+该占位符表示资产文件的存储位置。替换为实际资源文件（模板、图像、字体等），或者如果不需要则删除。
 ”“”
-
 
 def title_case_skill_name(技能名称):
     """将连字符的技能名称转换为标题大小写以进行显示。"""
     return ' '.join(word.capitalize() for word in Skill_name.split('-'))
-
 
 def init_skill(技能名称, 路径):
     """使用模板 SKILL.md 初始化一个新的技能目录。"""
     技能目录 = 路径(路径).resolve() / 技能名称
 
     如果 Skill_dir.exists():
-        print(f"❌错误：技能目录已存在：{skill_dir}")
+        print(f"❌bug：技能目录已存在：{skill_dir}")
         返回无
 
     尝试：
@@ -523,7 +494,6 @@ def init_skill(技能名称, 路径):
     print(f"\n✅ 技能 '{skill_name}' 在 {skill_dir} 成功初始化")
     返回技能目录
 
-
 def main():
     如果 len(sys.argv) < 4 或 sys.argv[2] != '--path':
         print("用法：init_skill.py <技能名称> --path <路径>")
@@ -538,7 +508,6 @@ def main():
 
     结果 = init_skill(技能名称, 路径)
     sys.exit(如果结果为0，否则为1)
-
 
 如果 __name__ == "__main__":
     主要()
@@ -560,29 +529,28 @@ Skill Packager - 创建技能文件夹的可分发 .skill 文件
 从 pathlib 导入路径
 从快速验证导入验证技能
 
-
 def package_skill(skill_path, output_dir=None):
     """将技能文件夹打包成.skill文件。"""
     技能路径 = 路径(技能路径).resolve()
 
     如果不是 Skill_path.exists():
-        print(f"❌错误：找不到技能文件夹：{skill_path}")
+        print(f"❌bug：找不到技能文件夹：{skill_path}")
         返回无
 
     如果不是 Skill_path.is_dir():
-        print(f"❌错误：路径不是目录：{skill_path}")
+        print(f"❌bug：路径不是目录：{skill_path}")
         返回无
 
     Skill_md = Skill_path / "SKILL.md"
     如果不是 Skill_md.exists():
-        print(f"❌ 错误：在 {skill_path} 中找不到 SKILL.md")
+        print(f"❌ bug：在 {skill_path} 中找不到 SKILL.md")
         返回无
 
     print("🔍 验证技能...")
     有效，消息 = validate_skill(skill_path)
     如果无效：
         print(f"❌验证失败: {message}")
-        print("请在打包前修复验证错误。")
+        print("请在打包前修复验证bug。")
         返回无
     print(f"✅ {消息}\n")
 
@@ -625,7 +593,6 @@ def main():
 
     结果 = package_skill(skill_path, 输出目录)
     sys.exit(如果结果为0，否则为1)
-
 
 如果 __name__ == "__main__":
     主要()
@@ -1240,14 +1207,8 @@ if __name__ == "__main__":
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [skill-creator](https://prompts.chat/prompts/skill-creator) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | creator, Agent, meta, Skill |
-| Contributors | f |
-| Updated At | 2026-01-15T15:53:15.241Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

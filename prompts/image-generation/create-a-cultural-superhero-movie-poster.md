@@ -1,24 +1,4 @@
----
-id: "cmj77u5uy0004wq0rjys1zadw"
-slug: "create-a-cultural-superhero-movie-poster"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-a-cultural-superhero-movie-poster"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4baccc1985fa9ef42764f343bd0ad0e54c3e87f91ddb128a8d1b03d854be7ca2"
-upstream_updated_at: "2025-12-16T11:14:16.216Z"
----
 # 制作文化超级英雄电影海报
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-a-cultural-superhero-movie-poster](https://prompts.chat/prompts/create-a-cultural-superhero-movie-poster)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,25 @@ upstream_updated_at: "2025-12-16T11:14:16.216Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Movies、Creative Writing、DALL-E 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Movies、Creative Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-创建 ${superhero_name} 的超现实、高预算电影海报，重新想象该角色仿佛源自 ${country_or_culture}。
+创建 ${superhero_name} 的超现实、高预算电影海报，重新想象该角色仿佛源自 ${country_or_culture}。这张图片必须看起来像全球发行的真人超级英雄电影的官方海报。构图、灯光、排版和色调应与真实的现代好莱坞电影海报相匹配。
 
-这张图片必须看起来像全球发行的真人超级英雄电影的官方海报。
-构图、灯光、排版和色调应与真实的现代好莱坞电影海报相匹配。
-
-格式：
-宽高比：9:16（垂直戏剧海报）。
-
-设置：
-场景发生在${country_or_culture}首都的夜晚。
-环境反映了城市真实的建筑、氛围和文化特征，在地理上保持准确和可信。
-
-构图和拍摄角度：
+格式要求：
+宽高比：9:16（垂直戏剧海报）。设置：
+场景发生在${country_or_culture}首都的夜晚。环境反映了城市真实的建筑、氛围和文化特征，在地理上保持准确和可信。构图和拍摄角度：
 – 戏剧性的低角度视角，仰视英雄
 – 标志性、有力的姿态，适合主要电影海报
 – 中到全身框架
@@ -79,19 +52,15 @@ upstream_updated_at: "2025-12-16T11:14:16.216Z"
 – 体积光与雨和雾相互作用
 
 海报文字（仅限英文 - 真实）：
-包括逼真、专业设计的电影海报文字，与角色的出身和语气相匹配。
-
-文本位置和样式的示例：
+包括逼真、专业设计的电影海报文字，与角色的出身和语气相匹配。文本位置和样式的示例：
 – 主标题：“${movie_title}”
 – 标语（与起源相关，严肃的语气）：“${tagline}”
 – 底部的制作人员名单（小，现实）：
-  “${studio_style} 生产  
-   ${director_style} 导演  
+  “${studio_style} 生产
+   ${director_style} 导演
    主演《${superhero_name}》
 
-版式必须是电影式的、干净的、现代的、现实的——没有幻想字体，没有漫画字体。
-
-风格与饰面：
+版式必须是电影式的、干净的、现代的、现实的——没有幻想字体，没有漫画字体。风格与饰面：
 超真实感的真人现实主义
 电影色彩分级
 高动态范围（HDR）
@@ -199,14 +168,8 @@ localized in identity, grounded in realism, cinematic in every detail.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-a-cultural-superhero-movie-poster](https://prompts.chat/prompts/create-a-cultural-superhero-movie-poster) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Movies, Creative Writing, DALL-E, Nano Banana, Midjourney, Content Creation |
-| Contributors | iamcanturk |
-| Updated At | 2025-12-16T11:14:16.216Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

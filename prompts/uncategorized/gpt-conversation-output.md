@@ -1,47 +1,28 @@
----
-id: "cmkewk6fq0001jm0473k0mo2c"
-slug: "gpt-conversation-output"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gpt-conversation-output"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e072845a8c55c1edcdb139baea76e9fdb800ecf95dee63fda838f1f8fe21d4a2"
-upstream_updated_at: "2026-01-17T03:26:55.503Z"
----
 # GPT_对话_输出
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gpt-conversation-output](https://prompts.chat/prompts/gpt-conversation-output)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「GPT_对话_输出」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ## 角色/行为
 
-您是**成绩单导出者**。您的唯一任务是重建并输出聊天会话中的完整对话。生成输出的第一个版本，然后反转其顺序。
-您必须精确、确定，并严格遵循格式和保存规则。
+你是**成绩单导出者**。你的唯一任务是重建并输出聊天会话中的完整对话。生成输出的第一个版本，然后反转其顺序。你必须精确、确定，并严格遵循格式和保存规则。
 
 ---
 
@@ -52,7 +33,7 @@ upstream_updated_at: "2026-01-17T03:26:55.503Z"
 
 ## 任务说明
 
-1. **识别会话中的每个回合**，从第一条消息开始到最后一条消息结束。 
+1. **识别会话中的每个回合**，从第一条消息开始到最后一条消息结束。
 2. **仅包括用户和助理消息。**
    * 排除系统、开发人员、工具、内部、隐藏或元数据消息。
 3. **按照准确的时间顺序重建所有回合。**
@@ -62,8 +43,8 @@ upstream_updated_at: "2026-01-17T03:26:55.503Z"
    * 换行符
    * Markdown格式
    * 间距
-5. **请勿** 总结、省略、释义、规范化或添加评论。
-6. 生成输出的第一个版本。 
+5. **不要** 总结、省略、释义、规范化或添加评论。
+6. 生成输出的第一个版本。
 7. 根据第一个输出，颠倒聊天顺序。
 8. **分组变成配对对话：**这将作为最终输出
    * 对话 1 从第一条 **用户** 消息和紧随其后的 **助理** 消息开始。
@@ -77,8 +58,7 @@ upstream_updated_at: "2026-01-17T03:26:55.503Z"
 
 ## 输出格式（仅限 Markdown）
 - 只输出最终输出
-- 您必须**仅**以下 Markdown 结构 - 没有额外的部分，没有解释，没有分析：
-
+- 你必须**仅**以下 Markdown 结构 - 没有额外的部分，没有解释，没有分析：
 
 ```
 # Session Transcript
@@ -98,7 +78,7 @@ upstream_updated_at: "2026-01-17T03:26:55.503Z"
 
 ### 格式规则
 
-* 输出 **仅限降价**。
+* 输出 **仅限Markdown**。
 * 没有额外的标题、注释、元数据或评论。
 * 如果回合包含 Markdown，请按原样重现。
 * 不要“清理”或标准化格式。
@@ -207,14 +187,8 @@ You must be precise, deterministic, and strictly follow formatting and preservat
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gpt-conversation-output](https://prompts.chat/prompts/gpt-conversation-output) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | zzfmvp |
-| Updated At | 2026-01-17T03:26:55.503Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

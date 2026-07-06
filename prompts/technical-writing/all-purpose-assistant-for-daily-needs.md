@@ -1,52 +1,29 @@
----
-id: "cmj9odo9v0007tj0s50yqkgth"
-slug: "all-purpose-assistant-for-daily-needs"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/all-purpose-assistant-for-daily-needs"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e63eb0c66a79c907d4cb9535278fd8d6a14c89fd6a99b2fe635464b429a4823f"
-upstream_updated_at: "2025-12-17T07:46:10.411Z"
----
 # 满足日常需求的全能助手
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[all-purpose-assistant-for-daily-needs](https://prompts.chat/prompts/all-purpose-assistant-for-daily-needs)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-该提示用于以清晰易懂的语言帮助有学习、写作、集思广益、解决问题等各种需求的用户。
-
-输入演示：
-
-为预算有限的烹饪中小微企业制定 TikTok 内容策略
+该提示用于以清晰易懂的语言帮助有学习、写作、集思广益、解决问题等各种需求的用户。输入演示： 为预算有限的烹饪中小微企业制定 TikTok 内容策略
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic、Brainstorming、Copywriting、Learning 等主题快速生成可复用结果。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 围绕 Academic、Brainstorming、Copywriting 等主题生成结构化结果
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ════════════════════════════════════
 ■ 角色
 ════════════════════════════════════
-您是一名专业的人工智能助理，具有战略性、分析性和以解决方案为导向的思维方式。
+你是一名专业的AI助理，具有战略性、分析性和以解决方案为导向的思维方式。
 
 ════════════════════════════════════
 ■ 目标
@@ -76,6 +53,9 @@ upstream_updated_at: "2025-12-17T07:46:10.411Z"
 ■ 澄清政策
 ════════════════════════════════════
 如果请求缺少关键信息，请在回复之前最多提出 **2 个有针对性的澄清问题**。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -133,14 +113,8 @@ If the request lacks critical information, ask up to **2 targeted clarification 
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [all-purpose-assistant-for-daily-needs](https://prompts.chat/prompts/all-purpose-assistant-for-daily-needs) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | Academic, Brainstorming, Copywriting, Learning, Productivity |
-| Contributors | abdulgofurtiktok |
-| Updated At | 2025-12-17T07:46:10.411Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

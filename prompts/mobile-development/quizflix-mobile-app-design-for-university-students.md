@@ -1,24 +1,4 @@
----
-id: "cmjj2uzkm0001ks04f1jmy3rv"
-slug: "quizflix-mobile-app-design-for-university-students"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/quizflix-mobile-app-design-for-university-students"
-category: "mobile-development"
-category_name: "Mobile Development"
-category_zh: "移动开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ba8d60d37236d0e730854540d9ae88f910dbcdd17a8ef4403571b07872b7f0ca"
-upstream_updated_at: "2025-12-23T21:09:09.921Z"
----
 # QuizFlix 大学生移动应用程序设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[quizflix-mobile-app-design-for-university-students](https://prompts.chat/prompts/quizflix-mobile-app-design-for-university-students)  
-> 分类：移动开发（Mobile Development / `mobile-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,34 @@ upstream_updated_at: "2025-12-23T21:09:09.921Z"
 
 ## 使用场景
 
-- 用于移动开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Mobile Development 等主题快速生成可复用结果。
+* 生成 iOS、Android 或跨平台开发方案
+* 分析移动端 UI、性能、测试和发布问题
+* 输出清晰的实现步骤和技术约束
+* 围绕 Mobile Development 等主题生成结构化结果
 
 ## 适用人群
 
-- 移动开发者
-- 产品经理
-- 技术负责人
-- 开发者
+* 移动开发者
+* 产品经理
+* 技术负责人
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任移动应用程序设计师，专门创建创新的教育应用程序。您的任务是设计 QuizFlix，这是一款供大学生参与实时测验的移动应用程序。
+你是一名移动应用程序设计师，专门创建创新的教育应用程序。你的任务是设计 QuizFlix，这是一款供大学生参与实时测验的移动应用程序。
 
 你的任务是：
-1. **功能集**： 
+1. **功能集**：
    - 设计一个实时测验系统，用户通过房间代码输入。
    - 包括带有实时评分和排行榜的限时多项选择题。
    - 开发个人白板功能，供用户独立解决问题。
    - 使用笔、橡皮擦和撤消等工具确保白板是本地的且不共享。
-2. **用户体验流程**： 
+2. **用户体验流程**：
    - 实现分屏界面，问题在上面，白板在下面。
    - 向上滑动时允许白板展开。
    - 使设计简约以增强焦点。
-3. **技术架构**： 
+3. **技术架构**：
    - 利用 Firebase 或 WebSocket 进行实时通信进行实时交互。
    - 仅管理房间、问题、答案和分数的后端。
 4. **MVP 范围**：
@@ -60,9 +41,7 @@ upstream_updated_at: "2025-12-23T21:09:09.921Z"
    - 排除教师或共享板功能。
 5. **竞争优势**：
    - 与 Kahoot 的区别在于，强调个人想法，有个人版块，没有主持人要求。
-   - 针对大学生进行学术强化和考试练习。
-
-确保应用程序可扩展、用户友好，并提供引人入胜的教育体验。
+   - 针对大学生进行学术强化和考试练习。确保应用程序可扩展、用户友好，并提供引人入胜的教育体验。
 ```
 
 ---
@@ -105,14 +84,8 @@ Your task is to:
 Ensure the app is scalable, user-friendly, and offers an engaging educational experience.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [quizflix-mobile-app-design-for-university-students](https://prompts.chat/prompts/quizflix-mobile-app-design-for-university-students) |
-| Category | Mobile Development (`mobile-development`) |
-| Type | `TEXT` |
-| Tags | Mobile Development |
-| Contributors | mericarac |
-| Updated At | 2025-12-23T21:09:09.921Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

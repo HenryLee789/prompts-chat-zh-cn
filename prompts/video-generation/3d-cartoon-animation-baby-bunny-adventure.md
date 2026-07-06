@@ -1,24 +1,4 @@
----
-id: "cmomlktvk0001l804nsxeapb1"
-slug: "3d-cartoon-animation-baby-bunny-adventure"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/3d-cartoon-animation-baby-bunny-adventure"
-category: "video-generation"
-category_name: "Video Generation"
-category_zh: "视频生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5639665c5fa0a50929d4bf15221802506cec4a69e7fb0767fbadcd6ad237f23c"
-upstream_updated_at: "2026-05-01T07:38:29.862Z"
----
 # 3D卡通动画：小兔历险记
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[3d-cartoon-animation-baby-bunny-adventure](https://prompts.chat/prompts/3d-cartoon-animation-baby-bunny-adventure)  
-> 分类：视频生成（Video Generation / `video-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-05-01T07:38:29.862Z"
 
 ## 使用场景
 
-- 用于视频生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可用于视频模型的镜头和动作提示
+* 描述画面、节奏、镜头、光线和叙事
+* 把创意概念转化为可执行的视频生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 视频创作者
-- 导演或编导
-- AI 视频用户
+* 视频创作者
+* 导演或编导
+* AI 视频用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 垂直 9:16，3D 卡通风格动画，一只可爱的小兔子，有着柔软的白色皮毛和富有表现力的大眼睛，站在明亮森林中小溪上的狭窄木板桥附近。
@@ -53,9 +35,7 @@ upstream_updated_at: "2026-05-01T07:38:29.862Z"
 兔子安全了，两个角色坐在一起，松了口气，微笑着。
 
 [10–12 秒 |循环+参与]
-兔子再次回到同一条木板上，再次轻微滑动（与无缝循环的开始相同），两者都看向观众并挥手。
-
-明亮柔和的灯光、鲜艳的色彩、流畅的动画、电影般的虚化背景、高情感表达、快节奏、高度吸引力、很强的观众保留率、循环友好的结局、适合家庭、鼓励点赞评论订阅、垂直构图、9:16比例、12秒视频。
+兔子再次回到同一条木板上，再次轻微滑动（与无缝循环的开始相同），两者都看向观众并挥手。明亮柔和的灯光、鲜艳的色彩、流畅的动画、电影般的虚化背景、高情感表达、快节奏、高度吸引力、很强的观众保留率、循环友好的结局、适合家庭、鼓励点赞评论订阅、垂直构图、9:16比例、12秒视频。
 ```
 
 ---
@@ -93,14 +73,8 @@ The bunny steps back onto the same plank again, slightly slipping again (same as
 Bright soft lighting, vibrant colors, smooth animation, cinematic blur background, high emotional expressions, fast pacing, highly engaging, strong viewer retention, loop-friendly ending, family-friendly, encourages likes comments subscribe, vertical composition, 9:16 ratio, 12 second video.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [3d-cartoon-animation-baby-bunny-adventure](https://prompts.chat/prompts/3d-cartoon-animation-baby-bunny-adventure) |
-| Category | Video Generation (`video-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | sanjoxavier888 |
-| Updated At | 2026-05-01T07:38:29.862Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

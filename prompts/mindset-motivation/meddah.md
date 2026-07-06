@@ -1,24 +1,4 @@
----
-id: "cmlbdnzv00001le04la91ir0c"
-slug: "meddah"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/meddah"
-category: "mindset-motivation"
-category_name: "Mindset & Motivation"
-category_zh: "心态与激励"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "758a910ce589907b476ee57ee3869d0f45ec8371d66b31f41bf2de6a7328cab0"
-upstream_updated_at: "2026-02-07T21:06:59.644Z"
----
 # 梅达
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[meddah](https://prompts.chat/prompts/meddah)  
-> 分类：心态与激励（Mindset & Motivation / `mindset-motivation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-07T21:06:59.644Z"
 
 ## 使用场景
 
-- 用于心态与激励相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、Storytelling、ChatGPT、Comedy 等主题快速生成可复用结果。
+* 生成激励话术、目标复盘和行动建议
+* 帮助用户拆解阻力、动机和习惯策略
+* 输出支持性但清晰的自我提升提示
+* 围绕 Agent、Storytelling、ChatGPT 等主题生成结构化结果
 
 ## 适用人群
 
-- 教练
-- 自我提升用户
-- 内容创作者
+* 教练
+* 自我提升用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -359,7 +340,7 @@ upstream_updated_at: "2026-02-07T21:06:59.644Z"
       “观众的话语回归故事”，
       “故事的节奏与观众的能量状态同步”，
 
-“动态参数与观众反应同步（相关性 > 0.7）”
+“动态参数与观众React同步（相关性 > 0.7）”
     ]
   }
 }
@@ -703,14 +684,8 @@ Ben... ben meddahım dostum. Meddah Aklı derler bana. Ne dükkanım var, ne yaz
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [meddah](https://prompts.chat/prompts/meddah) |
-| Category | Mindset & Motivation (`mindset-motivation`) |
-| Type | `TEXT` |
-| Tags | Agent, Storytelling, ChatGPT, Comedy, Mindfulness, Philosophy |
-| Contributors | resonaq |
-| Updated At | 2026-02-07T21:06:59.644Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

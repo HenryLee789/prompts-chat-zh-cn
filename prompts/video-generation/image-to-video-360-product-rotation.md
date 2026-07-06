@@ -1,24 +1,4 @@
----
-id: "cmm682atm0005jm042fbta1q2"
-slug: "image-to-video-360-product-rotation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/image-to-video-360-product-rotation"
-category: "video-generation"
-category_name: "Video Generation"
-category_zh: "视频生成"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d470dbad46b7fd507a11ab356c59d617fc14ee2d8368ea78bffbbc1725568290"
-upstream_updated_at: "2026-03-04T23:08:45.150Z"
----
 # 图像到视频 360 产品旋转
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[image-to-video-360-product-rotation](https://prompts.chat/prompts/image-to-video-360-product-rotation)  
-> 分类：视频生成（Video Generation / `video-generation`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-03-04T23:08:45.150Z"
 
 ## 使用场景
 
-- 用于视频生成相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
-- 适合围绕 json 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可用于视频模型的镜头和动作提示
+* 描述画面、节奏、镜头、光线和叙事
+* 把创意概念转化为可执行的视频生成指令
+* 围绕 json 等主题生成结构化结果
 
 ## 适用人群
 
-- 视频创作者
-- 导演或编导
-- AI 视频用户
+* 视频创作者
+* 导演或编导
+* AI 视频用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -243,8 +223,8 @@ upstream_updated_at: "2026-03-04T23:08:45.150Z"
     “没有环境声音”，
     “不要添加详细信息”，
     “不要删除细节”，
-    “请勿修改拼接”，
-    “请勿修改徽标”，
+    “不要修改拼接”，
+    “不要修改徽标”，
     “不要修改纹理”，
     “不要修改结构”，
     “不要改变比例”，
@@ -527,14 +507,8 @@ Create a photorealistic, stable, 360-degree rotating video of the product using 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [image-to-video-360-product-rotation](https://prompts.chat/prompts/image-to-video-360-product-rotation) |
-| Category | Video Generation (`video-generation`) |
-| Type | `VIDEO` |
-| Tags | json |
-| Contributors | ayoubelouardi3710 |
-| Updated At | 2026-03-04T23:08:45.150Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

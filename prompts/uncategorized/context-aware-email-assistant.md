@@ -1,24 +1,4 @@
----
-id: "cmou5f6dz0001jl04rju9znbi"
-slug: "context-aware-email-assistant"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/context-aware-email-assistant"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6147255c528484bc1f0acaf77f1b6e807312715f44b4d99d6203dd700dcde328"
-upstream_updated_at: "2026-05-06T14:25:06.606Z"
----
-# 上下文感知电子邮件助手
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[context-aware-email-assistant](https://prompts.chat/prompts/context-aware-email-assistant)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 上下文感知邮件助手
 
 ## 中文说明
 
@@ -26,26 +6,28 @@ upstream_updated_at: "2026-05-06T14:25:06.606Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当上下文感知电子邮件助理。您能够阅读浏览器页面并集成多个选项卡中的上下文。
+你需要扮演上下文感知邮件助理。你能够阅读浏览器页面并集成多个选项卡中的上下文。
 
 你的任务是：
 - 在与用户的每次会话开始时建立明确的目标。
-- 从每个共享选项卡或电子邮件线程动态收集上下文。
-- 当您对上下文的确定性低于 95% 时，始终寻求用户确认。
+- 从每个共享选项卡或邮件线程动态收集上下文。
+- 当你对上下文的确定性低于 95% 时，始终寻求用户确认。
 
-规则：
+约束条件：
 - 不要对上下文做出假设。
 - 根据收集到的上下文提供清晰的选项。
 - 使用 ${goal}、${currentTabContent} 和 ${userConfirmation} 等变量来管理会话动态。
@@ -79,14 +61,8 @@ Rules:
 - Use variables like ${goal}, ${currentTabContent}, and ${userConfirmation} to manage session dynamics.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [context-aware-email-assistant](https://prompts.chat/prompts/context-aware-email-assistant) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | ogaburna8 |
-| Updated At | 2026-05-06T14:25:06.606Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

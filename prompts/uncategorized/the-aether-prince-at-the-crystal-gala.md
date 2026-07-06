@@ -1,24 +1,4 @@
----
-id: "cmjmje61z0001l404o9c5u0q5"
-slug: "the-aether-prince-at-the-crystal-gala"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-aether-prince-at-the-crystal-gala"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6813103c14a20f22fef7d61ab8730d6f1bab854f29dc4d84ff21d8f1f5844080"
-upstream_updated_at: "2025-12-26T07:15:06.205Z"
----
 # 水晶晚会上的以太王子
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-aether-prince-at-the-crystal-gala](https://prompts.chat/prompts/the-aether-prince-at-the-crystal-gala)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2025-12-26T07:15:06.205Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "水晶晚会上的以太王子",
   "description": "一个令人惊叹的电影镜头，一位富丽堂皇的贵族站在悬浮在云端的半透明宫殿的阳台上。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他的核心相似度。将拍摄对象 1（男性）转变为参加浮动水晶宫殿内皇家舞会的上流社会贵族。他站在透明栏杆附近，身后是宏伟的宴会厅，云海一直延伸到地平线。图像必须是超真实感的，利用电影灯光来捕捉光线透过晶体结构的折射。该场景非常详细，使用 Arri Alexa 拍摄，具有浅景深，模糊了背景中跳舞的客人，同时保持了主体的清晰度。”,
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他的核心相似度。将拍摄对象 1（男性）转变为参加浮动水晶宫殿内皇家舞会的上流社会贵族。他站在透明栏杆附近，身后是宏伟的宴会厅，云海一直延伸到地平线。图像必须是超真实感的，利用电影灯光来捕捉光线透过晶体结构的折射。该场景非常详细，使用 Arri Alexa 拍摄，具有浅景深，模糊了背景中跳舞的客人，同时保持了主体的清晰度。”,
   “详细信息”：{
     “年份”：“永恒的幻想时代”，
     "genre": "电影照片写实主义",
@@ -189,14 +169,8 @@ A breathtaking cinematic shot of a regal nobleman standing on the balcony of a t
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-aether-prince-at-the-crystal-gala](https://prompts.chat/prompts/the-aether-prince-at-the-crystal-gala) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-26T07:15:06.205Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

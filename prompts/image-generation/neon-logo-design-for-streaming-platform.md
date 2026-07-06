@@ -1,24 +1,4 @@
----
-id: "cmmvalt0x0001l504gmpg0ngy"
-slug: "neon-logo-design-for-streaming-platform"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/neon-logo-design-for-streaming-platform"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1c76169c07065449d264eb05ac04346c796800b4ab85da941c7b65f440bc80c5"
-upstream_updated_at: "2026-03-18T00:19:14.321Z"
----
 # 流媒体平台霓虹灯标志设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[neon-logo-design-for-streaming-platform](https://prompts.chat/prompts/neon-logo-design-for-streaming-platform)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-18T00:19:14.321Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 design 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 design 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 圆形霓虹灯标志，电影条框架内的简约播放按钮，电蓝色和粉红色渐变发光，深色背景，赛博朋克美学，居中几何图标，平面矢量设计，现代流媒体平台品牌，无文字，无排版，清晰的圆形边缘，应用程序图标风格，高对比度，发光霓虹灯轮廓，即时视觉冲击力，专业的TikTok个人资料图片，透明背景，1：1方形格式，大胆简单的轮廓，科技创业氛围，8k质量
@@ -61,14 +42,8 @@ Circular neon logo, minimalist play button inside film strip frame, electric blu
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [neon-logo-design-for-streaming-platform](https://prompts.chat/prompts/neon-logo-design-for-streaming-platform) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | design |
-| Contributors | hakimjiwan23 |
-| Updated At | 2026-03-18T00:19:14.321Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

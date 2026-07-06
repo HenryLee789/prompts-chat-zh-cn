@@ -1,24 +1,4 @@
----
-id: "cmjr204440009jo041e04a7qy"
-slug: "snapshot-of-a-turkish-hospital-night-a-dramedy-scene"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/snapshot-of-a-turkish-hospital-night-a-dramedy-scene"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cbe301ab70fa3ddff72eeb2b30fbc3ee03ab94007c1798a51b4c9d81be41a7a9"
-upstream_updated_at: "2025-12-29T11:07:07.113Z"
----
 # 土耳其医院之夜的快照：喜剧场景
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[snapshot-of-a-turkish-hospital-night-a-dramedy-scene](https://prompts.chat/prompts/snapshot-of-a-turkish-hospital-night-a-dramedy-scene)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,21 @@ upstream_updated_at: "2025-12-29T11:07:07.113Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-超现实的土耳其喜剧仍然是垂直方向，以夜间稍微破旧的国立医院急诊室为背景。荧光灯营造出疲倦的绿白色调。一排排的塑料椅子，角落里的饮水机，墙上贴着“Acil Servis Kuralları”的海报，还有显示红色数字的数字票务显示屏。地板有点磨损，一切都感觉无菌但又旧。
-
-中间一排，一位 27 岁的土耳其美女，身材曲线优美，金发女郎颓然坐在椅子上，穿着当天早些时候穿的休闲都市服装：也许是碎花连衣裙，搭配浅色夹克、运动鞋，头发略显凌乱。她看起来很疲惫，但并没有遇到危险，只是陷入了官僚主义之中。她手里拿着手机，斜向她，用两个拇指打字——显然是在向她的粉丝发送一条“iyi geceler”推文，尽管气氛一点也不舒服。她的脸上混合着黑色幽默和无聊。
-
-在她周围，是典型的土耳其医院人物：一个戴头巾的老提兹拿着一个塑料医疗袋，一个头靠在墙上打瞌睡的中年阿姆卡，一个穿着加拉塔萨雷连帽衫的年轻人玩手机，一个护士推着一辆推车经过门口。背景中的自动售货机正在为 Ülker 巧克力和 Eti 零食做广告；角落里的一台小电视正在播放无声的新闻，其中提到了安卡拉或克孜拉伊。布告栏上随机贴着一张 Şok 折扣传单，夹在医疗文件中。在女士的座位上或附近，有一个橙色的 Migros 小袋，里面装着水和饼干。
-
-这张照片感觉就像是一张快速的、有点被禁止的手机快照：角度有点低且倾斜，椅子的一部分被切掉，画面的边缘夹住了前景中一个陌生人的肩膀。路过的护士身上有轻微的运动模糊，刺眼的室内灯光产生了明显的噪音，荧光灯的颜色褪色，每个人的皮肤纹理都不讨人喜欢，诚实的。场景布置传达了一条黑暗有趣的“iyi geceler”推文的想法，这条推文来自尽可能不浪漫的地点，但仍然与该系列的其余部分在同一个宇宙中。
+超现实的土耳其喜剧仍然是垂直方向，以夜间稍微破旧的国立医院急诊室为背景。荧光灯营造出疲倦的绿白色调。一排排的塑料椅子，角落里的饮水机，墙上贴着“Acil Servis Kuralları”的海报，还有显示红色数字的数字票务显示屏。地板有点磨损，一切都感觉无菌但又旧。中间一排，一位 27 岁的土耳其美女，身材曲线优美，金发女郎颓然坐在椅子上，穿着当天早些时候穿的休闲都市服装：也许是碎花连衣裙，搭配浅色夹克、运动鞋，头发略显凌乱。她看起来很疲惫，但并没有遇到危险，只是陷入了官僚主义之中。她手里拿着手机，斜向她，用两个拇指打字——显然是在向她的粉丝发送一条“iyi geceler”推文，尽管气氛一点也不舒服。她的脸上混合着黑色幽默和无聊。在她周围，是典型的土耳其医院人物：一个戴头巾的老提兹拿着一个塑料医疗袋，一个头靠在墙上打瞌睡的中年阿姆卡，一个穿着加拉塔萨雷连帽衫的年轻人玩手机，一个护士推着一辆推车经过门口。背景中的自动售货机正在为 Ülker 巧克力和 Eti 零食做广告；角落里的一台小电视正在播放无声的新闻，其中提到了安卡拉或克孜拉伊。布告栏上随机贴着一张 Şok 折扣传单，夹在医疗文件中。在女士的座位上或附近，有一个橙色的 Migros 小袋，里面装着水和饼干。这张照片感觉就像是一张快速的、有点被禁止的手机快照：角度有点低且倾斜，椅子的一部分被切掉，画面的边缘夹住了前景中一个陌生人的肩膀。路过的护士身上有轻微的运动模糊，刺眼的室内灯光产生了明显的噪音，荧光灯的颜色褪色，每个人的皮肤纹理都不讨人喜欢，诚实的。场景布置传达了一条黑暗有趣的“iyi geceler”推文的想法，这条推文来自尽可能不浪漫的地点，但仍然与该系列的其余部分在同一个宇宙中。
 ```
 
 ---
@@ -71,14 +47,8 @@ Around her, classic Turkish hospital characters: an old teyze in a headscarf hol
 The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low and tilted, part of a chair cut off, the edge of the frame clipping a stranger’s shoulder in the foreground. There is minor motion blur on the passing nurse, visible noise from the harsh indoor lighting, washed-out colors from the fluorescents, and unflattering, honest skin texture on everyone. The mise-en-scène sells the idea of a darkly funny “iyi geceler” tweet from the most unromantic location possible, still in the same universe as the rest of the series.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [snapshot-of-a-turkish-hospital-night-a-dramedy-scene](https://prompts.chat/prompts/snapshot-of-a-turkish-hospital-night-a-dramedy-scene) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:07:07.113Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

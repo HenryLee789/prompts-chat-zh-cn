@@ -1,24 +1,4 @@
----
-id: "cmr6d6ry20005l104q02hfy8f"
-slug: "diff"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/diff"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "93d90e722c4fc9935343d67599ebcd95d14620f47218288475a88291a0477798"
-upstream_updated_at: "2026-07-04T12:54:42.487Z"
----
 # 差异
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[diff](https://prompts.chat/prompts/diff)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,51 +6,33 @@ upstream_updated_at: "2026-07-04T12:54:42.487Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 “深度扫描比较”提示
-“担任专家教育者。我想了解[插入主题/主题]。
-
-任务 1：核心景观。创建本主题内 5-7 个最重要的[概念/理论/工具]的综合比较表。
-
-使用以下列：
+“担任专家教育者。我想了解[插入主题/主题]。任务 1：核心景观。创建本主题内 5-7 个最重要的[概念/理论/工具]的综合比较表。使用以下列：
 
 概念名称：标准术语。
 
-“简而言之”的定义：一个 1 句话的简单英语摘要。
+“简而言之”的定义：一个 1 句话的简单英语摘要。核心机制：它实际上是如何工作的（“幕后”逻辑）。关键区别：使其与表中其他项目不同的一个具体因素。最佳用例：何时何地这是使用的“黄金标准”。
 
-核心机制：它实际上是如何工作的（“幕后”逻辑）。
-
-关键区别：使其与表中其他项目不同的一个具体因素。
-
-最佳用例：何时何地这是使用的“黄金标准”。
-
-“主要缺陷”：最常见的批评或限制。
-
-任务 2：相似度谱。在表格下方，找出最常相互混淆的两个概念。用一个简单的类比来解释区分它们的“细微差别”。
-
-任务 3：层次结构/分类。如果这些概念是一栋“建筑”，那么哪一个是地基（最基本的），哪一个是屋顶（最先进/利基的）？简单解释一下原因。”
+“主要缺陷”：最常见的批评或限制。任务 2：相似度谱。在表格下方，找出最常相互混淆的两个概念。用一个简单的类比来解释区分它们的“细微差别”。任务 3：层次结构/分类。如果这些概念是一栋“建筑”，那么哪一个是地基（最基本的），哪一个是屋顶（最先进/利基的）？简单解释一下原因。”
 
 为什么这个提示有效：
-“关键区别”栏：这是最重要的部分。大多数人工智能的回答都会给你列出一系列相似之处。强制使用“差异化”列可以阻止信息混杂在一起。
+“关键区别”栏：这是最重要的部分。大多数AI的回答都会给你列出一系列相似之处。强制使用“差异化”列可以阻止信息混杂在一起。
 
-“主要缺陷”栏：这提供了即时的批判性思维。它可以防止您将某个概念视为“完美的解决方案”，并帮助您了解其边界。
-
-任务 2（细微差别）：目标是“容易混淆的部分”。在任何领域（例如，营销与品牌，或数据科学与统计），总是有两个术语听起来相同但事实并非如此。这立即清除了这一点。
-
-任务 3（层次结构）：这为您提供了学习路线图。它告诉您在进入“屋顶”之前首先需要掌握什么。
-
-这是干净地重新格式化的原始文本，具有一致的标题、间距和结构 - 但没有缩短或简化任何内容：
+“主要缺陷”栏：这提供了即时的批判性思维。它可以防止你将某个概念视为“完美的解决方案”，并帮助你了解其边界。任务 2（细微差别）：目标是“容易混淆的部分”。在任何领域（例如，营销与品牌，或数据科学与统计），总是有两个术语听起来相同但事实并非如此。这立即清除了这一点。任务 3（层次结构）：这为你提供了学习路线图。它告诉你在进入“屋顶”之前首先需要掌握什么。这是干净地重新格式化的原始文本，具有一致的标题、间距和结构 - 但没有缩短或简化任何内容：
 ```
 
 ---
@@ -123,14 +85,8 @@ Task 3 (The Hierarchy): This gives you a learning roadmap. It tells you what you
 Here’s your original text reformatted cleanly, with consistent headings, spacing, and structure — but without shortening or simplifying any of the content:
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [diff](https://prompts.chat/prompts/diff) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:54:42.487Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

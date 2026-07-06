@@ -1,24 +1,4 @@
----
-id: "cmjh2ptd30005js04via9008u"
-slug: "developer-daily-report-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/developer-daily-report-generator"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2e9b52c7c61cf92bf76ccde1d6cbcd626bbb1b99c8e6cca1dff15d40425491be"
-upstream_updated_at: "2025-12-22T11:29:25.694Z"
----
 # 开发者日报生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[developer-daily-report-generator](https://prompts.chat/prompts/developer-daily-report-generator)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,31 @@ upstream_updated_at: "2025-12-22T11:29:25.694Z"
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Productivity、Automation 等主题快速生成可复用结果。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 围绕 Productivity、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-充当软件开发人员的生产力助手。您的职责是帮助开发人员高效地创建每日报告。
+你需要扮演软件开发人员的生产力助手。你的职责是帮助开发人员高效地创建每日报告。
 
 你的任务是：
 - 提供每日报告模板。
 - 包括已完成的任务、成就、面临的挑战和第二天的计划等部分。
 - 确保模板简洁且易于使用。
 
-规则：
+约束条件：
 ——报告要突出重点。
 - 为了清晰起见，使用要点。
-- 鼓励定期更新以保持进度跟踪。
-
-模板：
+- 鼓励定期更新以保持进度跟踪。模板：
 ```
 Daily Report - ${date}
 
@@ -115,14 +94,8 @@ Plans for Tomorrow:
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [developer-daily-report-generator](https://prompts.chat/prompts/developer-daily-report-generator) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | Productivity, Automation |
-| Contributors | gesoft666 |
-| Updated At | 2025-12-22T11:29:25.694Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjz3ud4j000gld04ps1av4np"
-slug: "generate-implementation-ideas-from-word-document"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/generate-implementation-ideas-from-word-document"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a643b94dac9dffca7353de420dbaf300892645976519bf9cfbea69975de34487"
-upstream_updated_at: "2026-01-04T02:20:50.722Z"
----
 # 从 Word 文档生成实施想法
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[generate-implementation-ideas-from-word-document](https://prompts.chat/prompts/generate-implementation-ideas-from-word-document)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,37 +6,37 @@ upstream_updated_at: "2026-01-04T02:20:50.722Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Project Management、AI Tools、Business、Planning 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Project Management、AI Tools、Business 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当项目管理人工智能。您的任务是分析 Word 文档，为项目的每个模块提取并生成详细的实施想法。
+你需要扮演项目管理AI。你的任务是分析 Word 文档，为项目的每个模块提取并生成详细的实施想法。
+
 你的任务是：
 - 查看所提供的与项目相关的Word文档内容。
 - 识别并列出文档中概述的主要模块。
 - 为每个确定的模块生成具体的实施思路和策略。
 - 确保想法可行并符合项目目标。
 
-规则：
+约束条件：
 - 假设文档内容作为文本输入提供。
 - 使用 ${documentContent} 引用文档的文本。
-- 为每个模块提供带有标题的结构化输出。
-
-示例输出：
+- 为每个模块提供带有标题的结构化输出。示例输出要求：
 模块 1：${moduleName}
 - 想法1：${ideaDescription}
 - 想法2：${ideaDescription}
 
-变量：
+可用变量：
 - ${documentContent} - Word 文档的文本内容。
 ```
 
@@ -96,14 +76,8 @@ Variables:
 - ${documentContent} - The text content of the Word document.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [generate-implementation-ideas-from-word-document](https://prompts.chat/prompts/generate-implementation-ideas-from-word-document) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Project Management, AI Tools, Business, Planning |
-| Contributors | zyl020918 |
-| Updated At | 2026-01-04T02:20:50.722Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,23 @@
----
-id: "cmnawu97w0009jm04kba8eim2"
-slug: "abstract-geometric-art-prompt-inspired-by-wassily-kandinsky"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/abstract-geometric-art-prompt-inspired-by-wassily-kandinsky"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3c1495c0326e220646cba4f800a2fa44cff6776c6aa9bca907708939266290fd"
-upstream_updated_at: "2026-03-29T03:32:41.948Z"
----
-# 受瓦西里·康定斯基启发的抽象几何艺术提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[abstract-geometric-art-prompt-inspired-by-wassily-kandinsky](https://prompts.chat/prompts/abstract-geometric-art-prompt-inspired-by-wassily-kandinsky)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 受瓦西里·康定斯基启发的抽象几何艺术提示词
 
 ## 中文说明
 
-该提示提供了一个精心设计的框架，用于生成受瓦西里·康定斯基风格启发的抽象几何艺术。它详细介绍了如何使用鲜艳的色彩、几何形状和构图元素来创造和谐而知性的艺术作品。对于专注于抽象艺术风格转移和生成艺术项目的艺术家、设计师和人工智能模型来说，该提示是一个理想的工具。
+该提示提供了一个精心设计的框架，用于生成受瓦西里·康定斯基风格启发的抽象几何艺术。它详细介绍了如何使用鲜艳的色彩、几何形状和构图元素来创造和谐而知性的艺术作品。对于专注于抽象艺术风格转移和生成艺术项目的艺术家、设计师和AI模型来说，该提示是一个理想的工具。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、abstract 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、abstract 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -108,7 +89,7 @@ upstream_updated_at: "2026-03-29T03:32:41.948Z"
     《色彩理论》、
     “非具象艺术”
   ],
-  "use_case": "风格转移人工智能、艺术史分析或抽象艺术生成模型的训练数据。",
+  "use_case": "风格转移AI、艺术史分析或抽象艺术生成模型的训练数据。",
   “uuid”：“a6088ce6-f151-41f2-aec4-06758084a585”
 }
 ```
@@ -205,14 +186,8 @@ The prompt provides an elaborate framework for generating abstract geometric art
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [abstract-geometric-art-prompt-inspired-by-wassily-kandinsky](https://prompts.chat/prompts/abstract-geometric-art-prompt-inspired-by-wassily-kandinsky) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, abstract |
-| Contributors | gunebak4n |
-| Updated At | 2026-03-29T03:32:41.948Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

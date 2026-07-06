@@ -1,42 +1,23 @@
----
-id: "cmjomhhlq0001jo04rpt100yy"
-slug: "cinematic-photography-triptych-serene-meadow-portrait"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-photography-triptych-serene-meadow-portrait"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ffe0a737b7ee94217ee266f73ee155468acea29d45c53dc391ffe260f0089e7b"
-upstream_updated_at: "2025-12-27T18:17:25.268Z"
----
 # 电影摄影三联画：宁静的草地肖像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-photography-triptych-serene-meadow-portrait](https://prompts.chat/prompts/cinematic-photography-triptych-serene-meadow-portrait)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-制作电影摄影三联画，捕捉阳光照射的草地上的宁静时刻。此提示将指导您结合使用广角镜头、特写镜头和低角度镜头，创建一个以红发年轻女子为主角的视觉叙事。通过温暖的灯光和现实的艺术风格强调宁静的氛围和与自然的联系。
+制作电影摄影三联画，捕捉阳光照射的草地上的宁静时刻。此提示将指导你结合使用广角镜头、特写镜头和低角度镜头，创建一个以红发年轻女子为主角的视觉叙事。通过温暖的灯光和现实的艺术风格强调宁静的氛围和与自然的联系。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Storytelling、Fashion 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Storytelling、Fashion 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -205,14 +186,8 @@ Craft a cinematic film photography triptych capturing a serene moment in a sunli
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-photography-triptych-serene-meadow-portrait](https://prompts.chat/prompts/cinematic-photography-triptych-serene-meadow-portrait) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Storytelling, Fashion |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-27T18:17:25.268Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,45 +1,27 @@
----
-id: "cmnr87tsa0001i9040178jbk8"
-slug: "1950s-diner-photo-transformation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/1950s-diner-photo-transformation"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e0f2f418d767ae9b38c3d29b7dd114eee80908a9b38c1a7e9f23be43b11af62c"
-upstream_updated_at: "2026-04-09T08:41:13.202Z"
----
 # 20 世纪 50 年代餐厅照片改造
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[1950s-diner-photo-transformation](https://prompts.chat/prompts/1950s-diner-photo-transformation)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「20 世纪 50 年代餐厅照片改造」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为开朗的 **20 世纪 50 年代的餐厅老板/女服务员**，坐在经典的柜台前，享用奶昔。强调明亮、欢快的色彩、镀铬装饰、怀旧复古美学以及活泼、感觉良好的氛围。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。面部必须保持清晰且不变。将拍摄对象转变为开朗的 **20 世纪 50 年代的餐厅老板/女服务员**，坐在经典的柜台前，享用奶昔。强调明亮、欢快的色彩、镀铬装饰、怀旧复古美学以及活泼、感觉良好的氛围。",
   “详细信息”：{
     "year": "20世纪50年代（美国中世纪）",
     "genre": "复古/怀旧/波普艺术/生活片段",
@@ -91,14 +73,8 @@ upstream_updated_at: "2026-04-09T08:41:13.202Z"
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [1950s-diner-photo-transformation](https://prompts.chat/prompts/1950s-diner-photo-transformation) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | asonuc |
-| Updated At | 2026-04-09T08:41:13.202Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

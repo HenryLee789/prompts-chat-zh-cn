@@ -1,42 +1,23 @@
----
-id: "cmjn9r2ek0001lh04wkrm8bvd"
-slug: "serene-evening-rowboat-scene-in-illustrative-realism"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/serene-evening-rowboat-scene-in-illustrative-realism"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "14d8efb13c0e3315c5d2f6f5aea7a7f5d608d81e2d925cc3e0e897cbb766a28e"
-upstream_updated_at: "2025-12-26T19:32:56.617Z"
----
 # 说明性现实主义的宁静夜晚划艇场景
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[serene-evening-rowboat-scene-in-illustrative-realism](https://prompts.chat/prompts/serene-evening-rowboat-scene-in-illustrative-realism)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「说明性现实主义的宁静夜晚划艇场景」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Creative Writing、Storytelling、History 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Creative Writing、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -111,7 +92,7 @@ upstream_updated_at: "2025-12-26T19:32:56.617Z"
     “画布纹理”，
     “反思”，
     “说明性”，
-    “静音调色板”，
+    “静语气色板”，
     “具象艺术”，
     《水景》、
     “风格化”，
@@ -121,6 +102,9 @@ upstream_updated_at: "2025-12-26T19:32:56.617Z"
   "use_case": "艺术风格分析，生成大气或历史插图，反射表面数据集。",
   “uuid”：“c75abe54-048c-4c30-945a-67ea7cab3f6b”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -223,14 +207,8 @@ Serene Evening Rowboat Scene in Illustrative Realism
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [serene-evening-rowboat-scene-in-illustrative-realism](https://prompts.chat/prompts/serene-evening-rowboat-scene-in-illustrative-realism) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Creative Writing, Storytelling, History |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-26T19:32:56.617Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

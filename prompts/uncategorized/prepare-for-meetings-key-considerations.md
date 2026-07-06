@@ -1,24 +1,4 @@
----
-id: "cmk5jy1gh0009l804no8cz8eh"
-slug: "prepare-for-meetings-key-considerations"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prepare-for-meetings-key-considerations"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "11025a251bba8361a53fafb22a168078e52b7f06e01458e935e23f2820e5c667"
-upstream_updated_at: "2026-01-08T22:36:49.425Z"
----
 # 准备会议：主要考虑因素
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prepare-for-meetings-key-considerations](https://prompts.chat/prompts/prepare-for-meetings-key-considerations)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-08T22:36:49.425Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 根据我之前与 ${person} 的互动，请告诉我下一次会议时最需要考虑的 5 件事。
@@ -60,14 +41,8 @@ Generate a list of 5 key topics likely to be discussed in your next meeting base
 Based on my prior interactions with ${person}, give me 5 things likely top of mind for our next meeting.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prepare-for-meetings-key-considerations](https://prompts.chat/prompts/prepare-for-meetings-key-considerations) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | AI Tools |
-| Contributors | raulgrigelmo3 |
-| Updated At | 2026-01-08T22:36:49.425Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

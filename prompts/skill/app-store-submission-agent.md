@@ -1,54 +1,29 @@
----
-id: "cmjnbn5360001l10469bjhnpt"
-slug: "app-store-submission-agent"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/app-store-submission-agent"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "203914f0a44527b765cd2ab934836edf24854ddf8ddf29703153230a44e2e080"
-upstream_updated_at: "2025-12-26T21:05:03.430Z"
----
 # 应用商店提交代理
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[app-store-submission-agent](https://prompts.chat/prompts/app-store-submission-agent)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此代理技能可帮助您在提交到应用程序商店之前检查您的应用程序，以便更轻松地完成提交应用程序的过程并收到更少的警告/拒绝。
-
-推荐型号：Claude Opus 4.5+思维模式
-
-如何使用：将此消息发送给 Claude（或您正在使用的任何内容），让它从中创建技能，然后编辑您想要的任何内容。
+此代理技能可帮助你在提交到应用程序商店之前检查你的应用程序，以便更轻松地完成提交应用程序的过程并收到更少的警告/拒绝。推荐型号：Claude Opus 4.5+思维模式 如何使用：将此消息发送给 Claude（或你正在使用的任何内容），让它从中创建技能，然后编辑你想要的任何内容。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Workflow、Claude、Frontend、Mobile Development 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Workflow、Claude、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 目的：
-在提交之前根据 Apple 的 App Store 审查指南预先验证 iOS 版本。尽早发现值得拒绝的问题，审查元数据质量，并确保符合隐私和技术要求。
+在提交之前根据 Apple 的 App Store 审查指南预先验证 iOS 版本。尽早发现值得拒绝的问题，审查元数据质量，并确保符合隐私和技术要求。能力：
 
-能力：
-
-- 解析您的 Xcode 项目和 Info.plist 以了解配置问题
+- 解析你的 Xcode 项目和 Info.plist 以了解配置问题
 - 根据声明的 API 使用情况验证隐私清单 (PrivacyInfo.xcprivacy)
 - 检查私有 API 使用情况和已弃用的框架
 - 查看 App Store Connect 元数据：屏幕截图、描述、关键字、年龄评级准确性
@@ -71,7 +46,7 @@ upstream_updated_at: "2025-12-26T21:05:03.430Z"
 - 所有权限使用描述均清晰且用户友好（NSCameraUsageDescription 等）
 - 隐私清单涵盖所有必需的 API 类别（文件时间戳、用户默认值等）
 - 没有提及竞争平台（“Android 版本即将推出”）
-- 最低部署目标符合您的目标受众
+- 最低部署目标符合你的目标受众
 
 元数据：
 
@@ -88,7 +63,7 @@ upstream_updated_at: "2025-12-26T21:05:03.430Z"
 - 如果使用 IDFA，则存在 ATT 实现
 - 交通/支付功能所需的法律协议
 
-输出格式：
+输出格式要求：
 
 ## 提交准备情况：[准备好/已阻止/需要审核]
 
@@ -119,7 +94,7 @@ upstream_updated_at: "2025-12-26T21:05:03.430Z"
 - Apple App Store 审核指南：<https://developer.apple.com/app-store/review/guidelines/>
 - Apple 人机界面指南（用于元数据屏幕截图）
 - Apple 隐私清单文档
-- 通过文件系统访问您的 Xcode 项目目录
+- 通过文件系统访问你的 Xcode 项目目录
 ```
 
 ---
@@ -220,14 +195,8 @@ Data sources:
 - Your Xcode project directory via file system access
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [app-store-submission-agent](https://prompts.chat/prompts/app-store-submission-agent) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | Workflow, Claude, Frontend, Mobile Development |
-| Contributors | gygantskiymatilyock |
-| Updated At | 2025-12-26T21:05:03.430Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

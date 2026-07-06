@@ -1,45 +1,26 @@
----
-id: "githubsponsors15"
-slug: "sponsor-hall-of-fame"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sponsor-hall-of-fame"
-category: "sponsors"
-category_name: "GitHub Sponsors Profile"
-category_zh: "GitHub Sponsors 资料"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "36f386fbc3a75570125d19dd0ac87d815d206292e27e371ce6142572b35009fb"
-upstream_updated_at: "2025-12-16T11:11:14.384Z"
----
 # 赞助名人堂
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sponsor-hall-of-fame](https://prompts.chat/prompts/sponsor-hall-of-fame)  
-> 分类：GitHub Sponsors 资料（GitHub Sponsors Profile / `sponsors`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-加强社区参与
+用于让 AI 围绕「赞助名人堂」执行开源赞助内容设计任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于GitHub Sponsors 资料相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Community、Recognition、README 等主题快速生成可复用结果。
+* 撰写开源项目赞助说明
+* 设计赞助层级、项目故事和影响展示
+* 提升 GitHub Sponsors 页面的可信度和转化率
+* 围绕 Community、Recognition、README 等主题生成结构化结果
 
 ## 适用人群
 
-- 开源维护者
-- 开发者
-- 项目运营者
+* 开源维护者
+* 开发者
+* 项目运营者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-为我的自述文件和赞助商页面设计一个“赞助商名人堂”部分，创造性地展示和感谢不同级别的所有贡献者。
+为我的README和赞助商页面设计一个“赞助商名人堂”部分，创造性地展示和感谢不同级别的所有贡献者。
 ```
 
 ---
@@ -60,14 +41,8 @@ Enhancing Community Engagement
 Design a 'Sponsor Hall of Fame' section for my README and Sponsors page that creatively showcases and thanks all contributors at different tiers.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sponsor-hall-of-fame](https://prompts.chat/prompts/sponsor-hall-of-fame) |
-| Category | GitHub Sponsors Profile (`sponsors`) |
-| Type | `TEXT` |
-| Tags | Community, Recognition, README |
-| Contributors | f |
-| Updated At | 2025-12-16T11:11:14.384Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

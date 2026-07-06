@@ -1,24 +1,4 @@
----
-id: "cmjnfkqa40001k10464qbkfnt"
-slug: "shadows-of-the-blue-note"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/shadows-of-the-blue-note"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "42eedfdfe60d3f44510c2352022d701974a976d46f6b7b1fdb5cf8e34e94f401"
-upstream_updated_at: "2025-12-26T22:15:59.874Z"
----
 # 蓝色音符的阴影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[shadows-of-the-blue-note](https://prompts.chat/prompts/shadows-of-the-blue-note)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2025-12-26T22:15:59.874Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "蓝色音符的阴影",
   "description": "一位疲惫的侦探和一位迷人的线人在烟雾弥漫的 20 世纪 50 年代爵士乐休息室里进行了一场紧张、高风险的会面。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（女性）转换为 20 世纪 50 年代经典黑色电影中的角色。拍摄对象 1 是一位粗犷的私家侦探，拍摄对象 2 是一位优雅的蛇蝎美人。他们坐在灯光昏暗、烟雾弥漫的爵士俱乐部的一个僻静的隔间里。图像必须是超真实感，利用电影灯光创建深阴影和高光，场景应该看起来像高预算大片中的帧，由 Arri Alexa 拍摄，细节丰富，浅景深专注于他们的激烈互动。”,
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（女性）转换为 20 世纪 50 年代经典黑色电影中的角色。拍摄对象 1 是一位粗犷的私家侦探，拍摄对象 2 是一位优雅的蛇蝎美人。他们坐在灯光昏暗、烟雾弥漫的爵士俱乐部的一个僻静的隔间里。图像必须是超真实感，利用电影灯光创建深阴影和高光，场景应该看起来像高预算大片中的帧，由 Arri Alexa 拍摄，细节丰富，浅景深专注于他们的激烈互动。”,
   “详细信息”：{
     “年份”：“1954年”，
     "genre": "电影照片写实主义",
@@ -110,6 +90,9 @@ upstream_updated_at: "2025-12-26T22:15:59.874Z"
     }
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -199,14 +182,8 @@ A tense, high-stakes meeting between a weary detective and a glamorous informant
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [shadows-of-the-blue-note](https://prompts.chat/prompts/shadows-of-the-blue-note) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-26T22:15:59.874Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

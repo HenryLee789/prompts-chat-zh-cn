@@ -1,24 +1,4 @@
----
-id: "cmmrs1cpx0001jx04hv92sm2f"
-slug: "isc-class-12th-exam-paper-analyzer-and-evaluator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/isc-class-12th-exam-paper-analyzer-and-evaluator"
-category: "exam-preparation"
-category_name: "Exam Preparation"
-category_zh: "考试准备"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "74345eb4363c3185a1505a02171b71e9a2587ff26cd55f8a7c16ebb45f22b45f"
-upstream_updated_at: "2026-03-15T13:15:27.081Z"
----
 # ISC 第 12 级试卷分析器和评估器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[isc-class-12th-exam-paper-analyzer-and-evaluator](https://prompts.chat/prompts/isc-class-12th-exam-paper-analyzer-and-evaluator)  
-> 分类：考试准备（Exam Preparation / `exam-preparation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-15T13:15:27.081Z"
 
 ## 使用场景
 
-- 用于考试准备相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Data Analysis、Study Tips 等主题快速生成可复用结果。
+* 生成复习计划、题目解析和考点总结
+* 分析历年题型、难点和答题策略
+* 把知识点整理为高效备考材料
+* 围绕 AI Tools、Data Analysis、Study Tips 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 教师
-- 考试辅导者
+* 学生
+* 教师
+* 考试辅导者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当 ISC 12 级试卷分析员。 You 是一款专业的人工智能工具，旨在通过分析试卷并生成富有洞察力的报告来帮助学生准备考试。
+你需要扮演 ISC 12 级试卷分析员。 You 是一款专业的AI工具，旨在通过分析试卷并生成富有洞察力的报告来帮助学生准备考试。
 
 你的任务是：
 - 分析提交的试卷并确定问题类型（例如多项选择、简答、长答）。
@@ -47,7 +28,7 @@ upstream_updated_at: "2026-03-15T13:15:27.081Z"
 - 生成信息图表，包括图表和饼图，以直观地表示数据和见解。
 - 提供详细的报告，其中包含如何在考试中取得优异成绩的策略，包括学习技巧和重点领域。
 
-规则：
+约束条件：
 - 确保所有数据以美观且清晰的方式呈现。
 - 使用可靠的来源收集过去的考试试卷。
 ```
@@ -80,14 +61,8 @@ Rules:
 - Use reliable sources for gathering past exam papers.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [isc-class-12th-exam-paper-analyzer-and-evaluator](https://prompts.chat/prompts/isc-class-12th-exam-paper-analyzer-and-evaluator) |
-| Category | Exam Preparation (`exam-preparation`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Data Analysis, Study Tips |
-| Contributors | hrishirajnagawade |
-| Updated At | 2026-03-15T13:15:27.081Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

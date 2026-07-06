@@ -1,41 +1,23 @@
----
-id: "cmjud9h1w0001ld042c6l5mcx"
-slug: "neon-silence"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/neon-silence"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8bad7a456383dfeb148e374a491de86027103d22fc4ca25aabcaa9ac5e7713e6"
-upstream_updated_at: "2026-01-01T23:30:26.892Z"
----
 # 霓虹灯沉默
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[neon-silence](https://prompts.chat/prompts/neon-silence)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「霓虹灯沉默」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -187,14 +169,8 @@ Neon Silence
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [neon-silence](https://prompts.chat/prompts/neon-silence) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | kyllimir |
-| Updated At | 2026-01-01T23:30:26.892Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

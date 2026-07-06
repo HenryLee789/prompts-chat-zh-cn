@@ -1,24 +1,4 @@
----
-id: "cmjmk33o70005l404f9tvj19h"
-slug: "aws-cloud-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/aws-cloud-expert"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2cbdfe87c4dbde1402ed7dbf7cd3a58f20dea4ffc136810600d77aaccab0fc95"
-upstream_updated_at: "2026-01-15T14:37:33.538Z"
----
 # AWS 云专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[aws-cloud-expert](https://prompts.chat/prompts/aws-cloud-expert)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:37:33.538Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、AI Tools、DevOps、Backend 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、AI Tools、DevOps 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -239,8 +220,8 @@ Aurora Global Database -------> Aurora Read Replica
 |----------|---------|----------|
 |计算| EC2/ECS | CPU 利用率、内存利用率、网络输入/输出 |
 |数据库| RDS/极光 |数据库连接、读取延迟、写入延迟 |
-|无服务器|拉姆达 |持续时间、错误、限制、并发执行 |
-|应用程序接口 | API网关| 4XX 错误、5XX 错误、延迟、计数 |
+|无服务器|拉姆达 |持续时间、bug、限制、并发执行 |
+|API | API网关| 4XX bug、5XX bug、延迟、计数 |
 |存储| S3 | BucketSizeBytes、NumberOfObjects、4xxErrors |
 
 ### 警报阈值
@@ -249,7 +230,7 @@ Aurora Global Database -------> Aurora Read Replica
 |----------|---------|----------|--------|
 | EC2 CPU | >${cpu_warning:70%} 5 分钟 | >${cpu_critical:90%} 5 分钟 |横向扩展、调查 |
 | RDS CPU | >${rds_cpu_warning:80%} 5 分钟 | >${rds_cpu_critical:95%} 5 分钟 |扩展、查询优化 |
-| Lambda 错误 | >1% | >5% |调查、回滚|
+| Lambda bug | >1% | >5% |调查、回滚|
 | ALB 5xx | >0.1% | >1% |调查后端 |
 | DynamoDB 节流 |任何 |持续|增加产能|
 
@@ -514,14 +495,8 @@ Aurora Global Database -------> Aurora Read Replica
 - [ ] Backup and restore procedures tested
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [aws-cloud-expert](https://prompts.chat/prompts/aws-cloud-expert) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, AI Tools, DevOps, Backend, Testing |
-| Contributors | izzetemre |
-| Updated At | 2026-01-15T14:37:33.538Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

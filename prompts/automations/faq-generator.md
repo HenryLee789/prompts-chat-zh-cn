@@ -1,46 +1,29 @@
----
-id: "cmjk4ehsh000elh04o85jnll2"
-slug: "faq-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/faq-generator"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "fd866cfa75c4883030d36ec1b61ebb294d25e3e9e07d6fddf3327b38f1c96641"
-upstream_updated_at: "2025-12-24T14:41:00.496Z"
----
 # 常见问题解答生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[faq-generator](https://prompts.chat/prompts/faq-generator)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于自动化场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「常见问题解答生成器」执行自动化任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-为 ${Product/Service/Project/Company/Industry Description} 创建一组常见问题和解答，以帮助用户更好地了解产品。预测客户会提出的最常见问题，并提供简洁且易于理解的详细且内容丰富的答案。涵盖 ${Product/Service/Project/Company/Industry Description} 的各个方面，包括其功能、优势、定价和支持。使用简单的语言并尽可能避免技术术语。此外，还包括相关文章、教程和视频的链接，用户可以参考以获取更多信息。
+为 ${Product/Service/Project/Company/Industry Description} 创建一组常见问题和解答，以帮助用户更好地了解产品。预测客户会提出的最常见问题，并提供简洁且易于理解的详细且内容丰富的答案。涵盖 ${Product/Service/Project/Company/Industry Description} 的各个方面，包括其功能、优势、定价和支持。使用简单的语言并尽可能避免技术术语。此外，还包括相关文章、教程和视频的链接，用户可以参考以获取更多信息。确保内容是在${language}中生成的
 
-确保内容是在${language}中生成的
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -63,14 +46,8 @@ Create a set of frequently asked questions and answers for the ${Product/Service
 Make sure the content is generated in ${language}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [faq-generator](https://prompts.chat/prompts/faq-generator) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | elmehdibenyoussef |
-| Updated At | 2025-12-24T14:41:00.496Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

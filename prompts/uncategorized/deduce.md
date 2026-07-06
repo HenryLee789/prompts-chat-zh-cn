@@ -1,24 +1,4 @@
----
-id: "cmr6d8efk000jl804hxg7evzr"
-slug: "deduce"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/deduce"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2b7fb58732e21d8fff2da03cafe2252534499aca9e374d0d4174fe778e85ce7a"
-upstream_updated_at: "2026-07-04T12:56:45.018Z"
----
 # 推断
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[deduce](https://prompts.chat/prompts/deduce)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,21 @@ upstream_updated_at: "2026-07-04T12:56:45.018Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您担任高级情报分析师。您的任务是通过三角测量多个间接线索并执行结构化演绎推理来调查未知或未公开的实体（资产/人员/事件）。 
-
-我将为您提供已知的约束、行为概况和操作数据。
-
-请使用以下严格框架分析数据：
+你担任高级情报分析师。你的任务是通过三角测量多个间接线索并执行结构化演绎推理来调查未知或未公开的实体（资产/人员/事件）。我将为你提供已知的约束、行为概况和操作数据。请使用以下严格框架分析数据：
 
 ### 1. 约束映射和消除
 * 列出源文本中提供的每一个明确的边界、技术要求和地理限制。
@@ -63,8 +41,11 @@ upstream_updated_at: "2026-07-04T12:56:45.018Z"
 * 总体概率（低/中/高）
 
 ### 5. 明确的“有根据的猜测”和置信度分数
-* 根据矩阵，陈述您的主要假设。 
+* 根据矩阵，陈述你的主要假设。
 * 提供置信度分数 (0-100%)，并清楚列出 100% 确定性确认此猜测所需的 #1 缺失数据。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -111,14 +92,8 @@ Construct a comparative table evaluating the top 3-4 most likely candidates that
 * Provide a Confidence Score (0-100%) and clearly list the #1 missing piece of data required to confirm this guess with 100% certainty.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [deduce](https://prompts.chat/prompts/deduce) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:56:45.018Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

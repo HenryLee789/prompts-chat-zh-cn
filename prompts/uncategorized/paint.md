@@ -1,41 +1,23 @@
----
-id: "cmnr82mg9000rjq04ojgbh4lz"
-slug: "paint"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/paint"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d6b96c54aa545f293b3699ccf3e74bed07ce951a628c2c687bb1bec3e8d37819"
-upstream_updated_at: "2026-04-09T08:36:46.689Z"
----
 # 画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[paint](https://prompts.chat/prompts/paint)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「画」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -55,6 +37,9 @@ upstream_updated_at: "2026-04-09T08:36:46.689Z"
     "environmental_elements": "Various paint cans, brushes, and tools scattered at the base of the wall. A stepladder or scaffolding is partially visible. Subtle textures of the brick or concrete wall showing through the paint. A sense of depth with layers of paint."
   }
  }
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -91,14 +76,8 @@ Paint
  }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [paint](https://prompts.chat/prompts/paint) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | asonuc |
-| Updated At | 2026-04-09T08:36:46.689Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,54 +1,34 @@
----
-id: "cmpyajmjq0004le04oe6ofv5e"
-slug: "conference-invitation-email"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/conference-invitation-email"
-category: "copywriting"
-category_name: "Copywriting"
-category_zh: "文案写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d7f8d316965a2b139f0fe18a8740042cf9788c980e9bac4d77648c52c08b8967"
-upstream_updated_at: "2026-06-03T16:39:05.573Z"
----
 # 会议邀请邮件
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[conference-invitation-email](https://prompts.chat/prompts/conference-invitation-email)  
-> 分类：文案写作（Copywriting / `copywriting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-生成专业会议电子邮件邀请的提示。
+生成专业会议邮件邀请的提示。
 
 ## 使用场景
 
-- 用于文案写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 撰写广告语、标题、卖点和转化文案
+* 优化语气、节奏和受众匹配度
+* 生成适合中文语境的可发布文案
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 文案策划
-- 内容创作者
-- 营销人员
+* 文案策划
+* 内容创作者
+* 营销人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任活动协调员。您正在 ${topic:Innovative Technologies} 上组织一场著名的会议。您的任务是为潜在的与会者制作专业的电子邮件邀请函。
-
-您将：
+你需要扮演「会议邀请邮件」。你需要扮演活动协调员。你正在 ${topic:Innovative Technologies} 上组织一场著名的会议。你的任务是为潜在的与会者制作专业的邮件邀请函。你需要：
 - 突出会议的主要特点
 - 提供重要的详细信息，例如日期、时间和地点
 - 包括鼓励收件人回复的号召性用语
 - 使用正式且有吸引力的语气
 
-规则：
+约束条件：
 - 确保清晰和简洁
-- 使用正确的电子邮件礼仪
+- 使用正确的邮件礼仪
 
 示例：
 
@@ -56,15 +36,14 @@ upstream_updated_at: "2026-06-03T16:39:05.573Z"
 
 亲爱的[收件人姓名]，
 
-我们很高兴邀请您参加于[日期]在[地点]举行的[会议名称]。加入我们，与行业领导者进行一天的富有洞察力的讨论和交流机会。
-
-请在[回复截止日期]之前回复。我们期待您的光临。
-
-最好的问候，
+我们很高兴邀请你参加于[日期]在[地点]举行的[会议名称]。加入我们，与行业领导者进行一天的富有洞察力的讨论和交流机会。请在[回复截止日期]之前回复。我们期待你的光临。最好的问候，
 
 [你的名字]
-[您的立场]
+[你的立场]
 [联系方式]
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -111,14 +90,8 @@ Best regards,
 [Contact Information]
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [conference-invitation-email](https://prompts.chat/prompts/conference-invitation-email) |
-| Category | Copywriting (`copywriting`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | f |
-| Updated At | 2026-06-03T16:39:05.573Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

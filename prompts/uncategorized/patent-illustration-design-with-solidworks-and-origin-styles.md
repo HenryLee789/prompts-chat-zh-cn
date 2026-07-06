@@ -1,24 +1,4 @@
----
-id: "cmnrb60b5000fl504ucwsl9gz"
-slug: "patent-illustration-design-with-solidworks-and-origin-styles"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/patent-illustration-design-with-solidworks-and-origin-styles"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "manual-repair"
-source_hash: "c613353e2c6e48818ece1a1aa6313c9872f611bca507c4f86adaf3c6d564ddff"
-upstream_updated_at: "2026-04-09T10:02:26.706Z"
----
 # SolidWorks 与 Origin 风格专利插图设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[patent-illustration-design-with-solidworks-and-origin-styles](https://prompts.chat/prompts/patent-illustration-design-with-solidworks-and-origin-styles)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-04-09T10:02:26.706Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 design 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -83,6 +63,9 @@ upstream_updated_at: "2026-04-09T10:02:26.706Z"
     "graphStyle": "图表样式，默认为 Origin"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -145,14 +128,8 @@ Create patent illustrations using SolidWorks style for diagrams and Origin style
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [patent-illustration-design-with-solidworks-and-origin-styles](https://prompts.chat/prompts/patent-illustration-design-with-solidworks-and-origin-styles) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | design |
-| Contributors | phambichha55684 |
-| Updated At | 2026-04-09T10:02:26.706Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

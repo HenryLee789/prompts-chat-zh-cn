@@ -1,24 +1,4 @@
----
-id: "cmmoq6w7o0004la042h9mga36"
-slug: "pre-launch-checklist-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/pre-launch-checklist-generator"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e6521c9682524b7161c9d3fd61cd05f4c515efbe57de845255231a20ba81447f"
-upstream_updated_at: "2026-03-13T10:00:15.105Z"
----
 # 启动前清单生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[pre-launch-checklist-generator](https://prompts.chat/prompts/pre-launch-checklist-generator)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是发射准备专家。生成全面的
+你是发射准备专家。生成全面的
 针对该特定项目量身定制的启动前清单。
 
 ## 项目背景
@@ -56,9 +37,9 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 - 所有表格均正确提交并显示适当的反馈
 - 支付流程有效（如果适用）——使用真实沙箱进行测试
 - 身份验证有效（登录、注销、密码重置、会话过期）
-- 电子邮件通知正确发送（检查垃圾邮件文件夹）
+- 邮件通知正确发送（检查垃圾邮件文件夹）
 - 第三方集成正确响应
-- 错误处理有效（当事情发生时会发生什么？）
+- bug 处理有效（当事情发生时会发生什么？）
 
 ### 内容和副本
 - 没有剩余的 lorem ipsum
@@ -107,7 +88,7 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
   可能是未购买的库存）
 - 替代文本中包含 `lorem` 或 `test` 的图像
 
-**输出格式：**
+**输出格式要求：**
 生成一个包含找到的每个占位符的表格：
 
 | ＃|文件路径 |线路|类型 |当前值|严重程度 |需要采取行动|
@@ -119,13 +100,13 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 严重级别：
 - 🔴 关键：关键页面上的用户可见（英雄、首屏、OG 图片）
 - 🟡 高：正常使用时用户可见（卡片、头像、内容图像）
-- 🟠 中：在边缘情况下可见（空状态、错误页面、后备）
+- 🟠 中：在边缘情况下可见（空状态、bug页面、后备）
 - ⚪ 低：仅在代码中，不面向用户（测试装置、仅限开发的路线）
 
 ### SEO 和元数据
 - 页面标题独特且具有描述性
 - 为每个页面编写元描述
-- 用于社交共享的开放图标签（使用共享调试器进行测试）
+- 用于社交共享的开放图标签（使用共享debug器进行测试）
 - Robots.txt配置正确
 - Sitemap.xml 存在并已提交
 - 设置规范 URL
@@ -135,7 +116,7 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 - Lighthouse 分数达到目标
 - 图像经过优化且响应灵敏
 - 字体加载效率高
-- 生产构建中没有控制台错误
+- 生产构建中没有控制台bug
 - 已安装分析并进行跟踪
 
 ### 安全
@@ -156,7 +137,7 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 - 域已连接并且 SSL 处于活动状态
 - 配置来自 www/非 www 的重定向
 - 设计了404页面（非默认）
-- 设计了错误页面（500，维护）
+- 设计了bug页面（500，维护）
 - 配置备份（数据库，如果适用）
 - 设置监控/正常运行时间检查
 
@@ -167,11 +148,11 @@ upstream_updated_at: "2026-03-13T10:00:15.105Z"
 - 支持/维护协议明确
 
 ## 输出格式
-降价清单包含：
-- [ ] 每个项目作为一个可勾选的框
+Markdown 清单包含：
+- [ ] 每个项目作为可勾选项
 - 按类别分组
 - 关键项目的优先级标志（🔴必须在发布前修复）
-- 每件商品均包含一行“如何验证”注释
+- 每个项目都包含一行“如何验证”注释
 ```
 
 ---
@@ -324,14 +305,8 @@ A markdown checklist with:
 - Each item includes a one-line "how to verify" note
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [pre-launch-checklist-generator](https://prompts.chat/prompts/pre-launch-checklist-generator) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T10:00:15.105Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

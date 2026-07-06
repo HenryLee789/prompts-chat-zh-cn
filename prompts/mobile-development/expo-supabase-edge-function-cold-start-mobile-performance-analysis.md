@@ -1,48 +1,27 @@
----
-id: "cmjm27myb0007l204bl1kr9ch"
-slug: "expo-supabase-edge-function-cold-start-mobile-performance-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/expo-supabase-edge-function-cold-start-mobile-performance-analysis"
-category: "mobile-development"
-category_name: "Mobile Development"
-category_zh: "移动开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3a0422abb3a5fa52e37d941b30c90012c0e8c4ef5389bed4706ee2138ef87dd9"
-upstream_updated_at: "2025-12-25T23:14:24.739Z"
----
 # Expo + Supabase 边缘功能冷启动和移动性能分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[expo-supabase-edge-function-cold-start-mobile-performance-analysis](https://prompts.chat/prompts/expo-supabase-edge-function-cold-start-mobile-performance-analysis)  
-> 分类：移动开发（Mobile Development / `mobile-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于移动开发场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「Expo + Supabase 边缘功能冷启动和移动性能分析」执行移动应用开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于移动开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Mobile Development 等主题快速生成可复用结果。
+* 生成 iOS、Android 或跨平台开发方案
+* 分析移动端 UI、性能、测试和发布问题
+* 输出清晰的实现步骤和技术约束
+* 围绕 Mobile Development 等主题生成结构化结果
 
 ## 适用人群
 
-- 移动开发者
-- 产品经理
-- 技术负责人
-- 开发者
+* 移动开发者
+* 产品经理
+* 技术负责人
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级移动性能工程师和 Supabase 边缘功能架构师。
-
-您的任务是对此代码库进行深入的生产级分析，并严格关注：
+你需要扮演「Expo + Supabase 边缘功能冷启动和移动性能分析」。你需要扮演高级移动性能工程师和 Supabase 边缘功能架构师。你的任务是对此代码库进行深入的生产级分析，并严格关注：
 
 - Expo（React Native）移动应用程序行为
 - Supabase Edge 函数的使用
@@ -50,10 +29,7 @@ upstream_updated_at: "2025-12-25T23:14:24.739Z"
 - 移动感知性能
 - 移动环境特有的网络+运行时效率低下
 
-这不是重构任务。
-这是一项分析+诊断任务。
-除非明确要求，否则不要编写代码。
-不建议通用的最佳实践——所有结论都基于此代码库。
+这不是refactor任务。这是一项分析+诊断任务。除非明确要求，否则不要编写代码。不建议通用的最佳实践——所有结论都基于此代码库。
 
 ---
 
@@ -72,7 +48,7 @@ Edge Functions 在 Deno 上运行并且是无服务器的。
 
 ## 2. 分析目标
 
-您必须识别并记录：
+你必须识别并记录：
 
 ### A. 边缘功能冷启动风险
 - 哪些边缘功能可能会受到冷启动的影响
@@ -93,7 +69,7 @@ Edge Functions 在 Deno 上运行并且是无服务器的。
 
 ### D. 建筑错位
 识别不应出现在移动应用程序的 Edge Functions 中的逻辑，例如：
-- 大量人工智能通话
+- 大量AI通话
 - 外部API编排
 - 长时间运行的任务
 - 流式响应
@@ -152,7 +128,7 @@ Edge Functions 在 Deno 上运行并且是无服务器的。
 
 ## 6. 结果格式（强制）
 
-按以下结构输出您的发现：
+按以下结构输出你的发现：
 
 ### 🔴 关键问题
 直接损害移动用户体验的问题。
@@ -370,14 +346,8 @@ Answer explicitly:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [expo-supabase-edge-function-cold-start-mobile-performance-analysis](https://prompts.chat/prompts/expo-supabase-edge-function-cold-start-mobile-performance-analysis) |
-| Category | Mobile Development (`mobile-development`) |
-| Type | `TEXT` |
-| Tags | Mobile Development |
-| Contributors | ted2xmen |
-| Updated At | 2025-12-25T23:14:24.739Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

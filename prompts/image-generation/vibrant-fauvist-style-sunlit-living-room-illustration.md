@@ -1,24 +1,4 @@
----
-id: "cmltk33jq000cjy04fo2b0l7d"
-slug: "vibrant-fauvist-style-sunlit-living-room-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/vibrant-fauvist-style-sunlit-living-room-illustration"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8f1a85b61b537f5d16e9c36aeaa0e5b6da68134850436831ce7a99db174f7b1b"
-upstream_updated_at: "2026-02-20T12:06:51.086Z"
----
 # 充满活力的野兽派风格阳光照射的客厅插图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[vibrant-fauvist-style-sunlit-living-room-illustration](https://prompts.chat/prompts/vibrant-fauvist-style-sunlit-living-room-illustration)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-20T12:06:51.086Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Interior Design、abstract 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Interior Design、abstract 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -119,6 +100,9 @@ upstream_updated_at: "2026-02-20T12:06:51.086Z"
   "use_case": "用于艺术风格转移或纺织和室内设计灵感的数据集。",
   “uuid”：“a17a60e8-ebeb-4ca9-9897-624cdcb73342”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -221,14 +205,8 @@ The prompt generates a vibrant and colorful illustration of a sun-drenched livin
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [vibrant-fauvist-style-sunlit-living-room-illustration](https://prompts.chat/prompts/vibrant-fauvist-style-sunlit-living-room-illustration) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Interior Design, abstract |
-| Contributors | gunebak4n |
-| Updated At | 2026-02-20T12:06:51.086Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

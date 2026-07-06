@@ -1,24 +1,4 @@
----
-id: "cmjhkjbx20001l404l00tc388"
-slug: "the-digital-frontier-pixelated-pioneers"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-digital-frontier-pixelated-pioneers"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0f897b41cb36072696300630534d134102efaf4c0b2852f8a9c42f46abdb9ace"
-upstream_updated_at: "2025-12-22T21:53:36.607Z"
----
 # 数字前沿：像素化先驱
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-digital-frontier-pixelated-pioneers](https://prompts.chat/prompts/the-digital-frontier-pixelated-pioneers)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2025-12-22T21:53:36.607Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 #版本1.0
@@ -60,7 +40,7 @@ upstream_updated_at: "2025-12-22T21:53:36.607Z"
       subject_action：“稍微向前倾，伸出手臂，兴奋地指向岛屿边缘的一群特别充满活力的体素植物群。”
       subject_expression：“一种兴奋、喜悦的表情，嘴巴因敬畏而微微张开。”
     年份：“复古未来主义，8 位美学”
-  提示：“您将使用所提供照片中的人物作为主要拍摄对象来进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（女性）想象成块状、低多边形的探险家，在广阔的数字空间中发现一个充满活力、漂浮的体素岛。拍摄对象 1 正在沉思，而拍摄对象 2 则热切地指出像素化植物群中的一个新发现。”
+  提示：“你将使用所提供照片中的人物作为主要拍摄对象来进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（女性）想象成块状、低多边形的探险家，在广阔的数字空间中发现一个充满活力、漂浮的体素岛。拍摄对象 1 正在沉思，而拍摄对象 2 则热切地指出像素化植物群中的一个新发现。”
 ```
 
 ---
@@ -101,14 +81,8 @@ root{details,prompt:str}:
   prompt: "You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Imagine Subject 1 (male) and Subject 2 (female) as blocky, low-polygon explorers discovering a vibrant, floating voxel island in a vast digital void. Subject 1 is contemplative, while Subject 2 is eagerly pointing out a new discovery amidst the pixelated flora."
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-digital-frontier-pixelated-pioneers](https://prompts.chat/prompts/the-digital-frontier-pixelated-pioneers) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-22T21:53:36.607Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

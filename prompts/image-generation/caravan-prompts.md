@@ -1,24 +1,4 @@
----
-id: "cmkw6aod40001l504xz5ks9sq"
-slug: "caravan-prompts"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/caravan-prompts"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8ef99dcc4966ccbb4f2d20c7efe61d9ce282352586f62da7c35acd59f1fe334d"
-upstream_updated_at: "2026-01-27T05:48:24.299Z"
----
-# 商队提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[caravan-prompts](https://prompts.chat/prompts/caravan-prompts)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 商队提示词
 
 ## 中文说明
 
@@ -26,24 +6,21 @@ upstream_updated_at: "2026-01-27T05:48:24.299Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana、AI Tools 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-为 ${caravan} 创建电影般的超现实冒险图像，捕捉澳大利亚人最爱的东西——广阔的风景、野生动物和自由。
-
-展示一辆 Hike RV 大篷车正确连接到皮卡车上，放置在风景优美的澳大利亚土路或瞭望台上。大篷车和皮卡车要么缓慢前行，要么自信地停下来，面朝风景，并具有完美逼真的牵引对准。
-
-环境及氛围：
+为 ${caravan} 创建电影般的超现实冒险图像，捕捉澳大利亚人最爱的东西——广阔的风景、野生动物和自由。展示一辆 Hike RV 大篷车正确连接到皮卡车上，放置在风景优美的澳大利亚土路或瞭望台上。大篷车和皮卡车要么缓慢前行，要么自信地停下来，面朝风景，并具有完美逼真的牵引对准。环境及氛围：
 
 开阔的澳大利亚景观（内陆平原、丛林或高架观景台）
 
@@ -83,7 +60,7 @@ upstream_updated_at: "2026-01-27T05:48:24.299Z"
 
 没有夸张或幻想的元素
 
-输出规则：
+输出约束条件：
 
 无文字
 
@@ -188,14 +165,8 @@ Proudly Australian
 Inspires exploration
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [caravan-prompts](https://prompts.chat/prompts/caravan-prompts) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana, AI Tools |
-| Contributors | atmetawebsumit |
-| Updated At | 2026-01-27T05:48:24.299Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

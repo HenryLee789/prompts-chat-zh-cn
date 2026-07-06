@@ -1,24 +1,4 @@
----
-id: "cmj2ijpc70010xf0rtbpwpdro"
-slug: "isometric-3d-weather-cityscapes-pbr-textures"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/isometric-3d-weather-cityscapes-pbr-textures"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9c37e513c39825afc975e692bd91dbd2833d48af32be50ae625659b37fc78318"
-upstream_updated_at: "2025-12-25T00:49:37.250Z"
----
 # 等距 3D 天气城市景观（PBR 纹理）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[isometric-3d-weather-cityscapes-pbr-textures](https://prompts.chat/prompts/isometric-3d-weather-cityscapes-pbr-textures)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,21 @@ upstream_updated_at: "2025-12-25T00:49:37.250Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Midjourney、DALL-E、Vision 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Midjourney、DALL-E、Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-呈现 ${city_name:İSTANBUL} 清晰的 45° 自上而下等距微型 3D 卡通场景，展示其最具标志性的地标和建筑元素。使用柔和、精致的纹理、逼真的 PBR 材质以及柔和、逼真的灯光和阴影。将当前的天气状况直接融入城市环境中，营造出身临其境的氛围。
-使用干净、简约的构图和柔和的纯色背景。
-
-在顶部中心，以大号粗体文本放置标题“伊斯坦布尔”，其下方有一个突出的天气图标，然后是日期（小号文本）和温度（中号文本）。
-所有文本必须以一致的间距居中，并且可以巧妙地与建筑物的顶部重叠。
-正方形 1080x1080 尺寸。
+呈现 ${city_name:İSTANBUL} 清晰的 45° 自上而下等距微型 3D 卡通场景，展示其最具标志性的地标和建筑元素。使用柔和、精致的纹理、逼真的 PBR 材质以及柔和、逼真的灯光和阴影。将当前的天气状况直接融入城市环境中，营造出身临其境的氛围。使用干净、简约的构图和柔和的纯色背景。在顶部中心，以大号粗体文本放置标题“伊斯坦布尔”，其下方有一个突出的天气图标，然后是日期（小号文本）和温度（中号文本）。所有文本必须以一致的间距居中，并且可以巧妙地与建筑物的顶部重叠。正方形 1080x1080 尺寸。
 ```
 
 ---
@@ -70,14 +46,8 @@ All text must be centered with consistent spacing, and may subtly overlap the to
 Square 1080x1080 dimension.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [isometric-3d-weather-cityscapes-pbr-textures](https://prompts.chat/prompts/isometric-3d-weather-cityscapes-pbr-textures) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Midjourney, DALL-E, Vision |
-| Contributors | serkanozcan |
-| Updated At | 2025-12-25T00:49:37.250Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

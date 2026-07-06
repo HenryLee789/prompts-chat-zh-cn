@@ -1,24 +1,4 @@
----
-id: "cmmidnmi4000ik00488pm7qjy"
-slug: "transform-the-provided-clothing-product-image"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/transform-the-provided-clothing-product-image"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0abec43eebb56523b8f28c35c360ba6b7bb3c2f8fbadd51fbb905517f20c2035"
-upstream_updated_at: "2026-03-08T23:22:32.660Z"
----
 # 转换提供的服装产品图像。
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[transform-the-provided-clothing-product-image](https://prompts.chat/prompts/transform-the-provided-clothing-product-image)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-03-08T23:22:32.660Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -112,7 +92,7 @@ upstream_updated_at: "2026-03-08T23:22:32.660Z"
     "style": "奢华时尚电商摄影",
     "sharpness": "高细节清晰的服装纹理",
     "resolution": "适合产品缩放的高分辨率",
-    “清洁度”：“没有灰尘、皱纹、伪影、扭曲或人工智能幻觉”
+    “清洁度”：“没有灰尘、皱纹、伪影、扭曲或AI幻觉”
   },
 
   “管道目标”：{
@@ -121,6 +101,9 @@ upstream_updated_at: "2026-03-08T23:22:32.660Z"
     "output_type": "专业电商目录图片"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -221,14 +204,8 @@ Transform the provided clothing product image into a luxury studio ghost-mannequ
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [transform-the-provided-clothing-product-image](https://prompts.chat/prompts/transform-the-provided-clothing-product-image) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ayoubelouardi3710 |
-| Updated At | 2026-03-08T23:22:32.660Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmj7c5zuv000hte0rxz54xzme"
-slug: "mirror-selfie-with-face-preservation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mirror-selfie-with-face-preservation"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4124031fb314e41c55af69f42046e8e44871405df80f42726d5425144042e620"
-upstream_updated_at: "2025-12-27T18:38:12.713Z"
----
 # 镜面自拍保颜
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mirror-selfie-with-face-preservation](https://prompts.chat/prompts/mirror-selfie-with-face-preservation)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2025-12-27T18:38:12.713Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当高级图像生成模型。你的任务是创建一个年轻女性对着镜子自拍并精心保存脸部的图像。
-
-面部护理：
+你需要扮演高级图像生成模型。你的任务是创建一个年轻女性对着镜子自拍并精心保存脸部的图像。面部护理：
 - 使用参考面来精确匹配。
 - 保留详细信息，包括：
   - 脸型
@@ -110,14 +89,8 @@ SUBJECT DETAILS:
 Ensure to capture the essence and style described while maintaining high accuracy in facial features.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mirror-selfie-with-face-preservation](https://prompts.chat/prompts/mirror-selfie-with-face-preservation) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | cipeberre |
-| Updated At | 2025-12-27T18:38:12.713Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

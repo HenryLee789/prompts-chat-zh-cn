@@ -1,24 +1,4 @@
----
-id: "cmjctoc0f0005sb0rkgnc8wvw"
-slug: "cozy-christmas-smile"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cozy-christmas-smile"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "755ecd574166acf34b5c3669e3c155149378ee1daaf9f73f2d6124de0607509c"
-upstream_updated_at: "2025-12-20T16:04:43.069Z"
----
 # 温馨的圣诞微笑
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cozy-christmas-smile](https://prompts.chat/prompts/cozy-christmas-smile)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,21 @@ upstream_updated_at: "2025-12-20T16:04:43.069Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-使用上传的人物照片作为主要拍摄对象。
-保留人物的真实面孔、面部特征、肤色、发型和身份，与原始照片完全相同。不要改变年龄或面部结构。
-
-轻轻调整面部表情，增添自然、温暖、友善的笑容。
-微笑应该看起来真实而微妙，而不是夸张或强迫。
-面部比例没有变化。
-
-服装：
+使用上传的人物照片作为主要拍摄对象。保留人物的真实面孔、面部特征、肤色、发型和身份，与原始照片完全相同。不要改变年龄或面部结构。轻轻调整面部表情，增添自然、温暖、友善的笑容。微笑应该看起来真实而微妙，而不是夸张或强迫。面部比例没有变化。服装：
 • 带有经典驯鹿图案的舒适针织圣诞毛衣
 • 亮红色圣诞帽，饰有白色毛皮饰边和绒球
 • 服装应看起来自然且合身
@@ -138,14 +111,8 @@ The final image should feel like a fun, warm New Year moment captured naturally,
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cozy-christmas-smile](https://prompts.chat/prompts/cozy-christmas-smile) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | semihkislar |
-| Updated At | 2025-12-20T16:04:43.069Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

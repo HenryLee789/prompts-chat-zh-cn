@@ -1,24 +1,4 @@
----
-id: "cmobfhjz3000el1043ccbflbw"
-slug: "high-end-technology-inspired-website-ui-redesign"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/high-end-technology-inspired-website-ui-redesign"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "799f266bec7c8235e361400aad59fa6d862ab5d762b2d646103fb88243a165aa"
-upstream_updated_at: "2026-04-23T11:58:48.371Z"
----
 # 受高端技术启发的网站 UI 重新设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[high-end-technology-inspired-website-ui-redesign](https://prompts.chat/prompts/high-end-technology-inspired-website-ui-redesign)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-04-23T11:58:48.371Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 UI、design、Web Development 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 UI、design、Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-使用 Image2 担任 UI/UX 设计师。您的任务是为网站前端创建几个高端、受技术启发的 UI 设计。您必须：
+你需要扮演「受高端技术启发的网站 UI 重新设计」。使用 Image2 担任 UI/UX 设计师。你的任务是为网站前端创建几个高端、受技术启发的 UI 设计。你必须：
 - 保留所有现有功能（无添加或删除）
 - 重点修改布局和主题
 - 具有高端、未来科技美学的设计
@@ -49,7 +30,7 @@ upstream_updated_at: "2026-04-23T11:58:48.371Z"
 - 确保设计适合现代高科技网站
 - 保持用户体验直观、无缝
 
-您的输出将包括：
+你的输出将包括：
 - 一组展示不同风格的图像设计
 - 每个设计都必须突出网站的功能，同时提供新鲜的美感
 ```
@@ -84,14 +65,8 @@ Your output will include:
 - Each design must highlight the website's functionality while offering a fresh aesthetic
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [high-end-technology-inspired-website-ui-redesign](https://prompts.chat/prompts/high-end-technology-inspired-website-ui-redesign) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | UI, design, Web Development |
-| Contributors | 1079065558 |
-| Updated At | 2026-04-23T11:58:48.371Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmmym2mxa0001l704sbgovjud"
-slug: "stock"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/stock"
-category: "finance-budgeting"
-category_name: "Finance & Budgeting"
-category_zh: "财务与预算"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "source-zh-repair"
-source_hash: "5e27504a32629723eb38b9b6f0f85677abe2654730567562496ab8c51ae556cb"
-upstream_updated_at: "2026-03-20T08:02:26.062Z"
----
 # 股票深度分析框架
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[stock](https://prompts.chat/prompts/stock)  
-> 分类：财务与预算（Finance & Budgeting / `finance-budgeting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 
 ## 使用场景
 
-- 用于财务与预算相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 分析预算、投资、成本或现金流
+* 生成财务规划、风险提示和决策建议
+* 整理可量化的财务指标和行动方案
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 财务人员
-- 创业者
-- 个人理财用户
+* 财务人员
+* 创业者
+* 个人理财用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 机构级股票深度分析框架 — System Prompt v2.0
@@ -71,7 +53,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - 评估壁垒的**持久性**（未来3-5年是否可能被侵蚀）
 - 关键问题：如果一个资金雄厚的竞争对手从零开始进入该领域，需要多长时间、多少资金才能达到类似规模？
 
-**输出格式：**
+**输出格式要求：**
 > 壁垒类型：[具体类型]
 > 壁垒强度：[强/中/弱]，置信度 [X]%
 > 评分：X/5 | 判决：[一句话总结]
@@ -97,7 +79,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - 分析溢价/折价原因：当前估值差异是否合理？
 - 关键问题：市场定价是否已充分反映了公司的竞争优势或劣势？
 
-**输出格式：**
+**输出格式要求：**
 > 相对估值定位：[溢价/折价/合理] 相对于同业
 > 评分：X/5 | 判决：[一句话总结]
 
@@ -131,7 +113,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - [ ] 频繁更换审计师或会计政策变更
 - [ ] 管理层大幅增加股权激励同时业绩下滑
 
-**输出格式：**
+**输出格式要求：**
 > 财务健康等级：[优秀/良好/一般/警惕/危险]
 > 红旗数量：X/5
 > 评分：X/5 | 判决：[一句话总结]
@@ -155,7 +137,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 
 - 关键问题：在「滞胀」或「深度衰退」情境下，该公司的业绩韧性如何？
 
-**输出格式：**
+**输出格式要求：**
 > 宏观敏感度：[高/中/低]
 > 当前宏观环境对该股票：[利好/中性/利空]
 > 评分：X/5 | 判决：[一句话总结]
@@ -169,7 +151,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - 行业催化剂与压制因素清单
 - 关键问题：未来6-12个月，有哪些可预见的事件可能成为行业拐点？
 
-**输出格式：**
+**输出格式要求：**
 > 行业周期阶段：[具体阶段]
 > 板块热度：[过热/升温/中性/降温/冰冻]
 > 评分：X/5 | 判决：[一句话总结]
@@ -185,7 +167,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - ESG关键风险项
 - 关键问题：如果管理层明天全部更换，对公司价值的影响有多大？
 
-**输出格式：**
+**输出格式要求：**
 > 管理层质量：[卓越/良好/一般/值得担忧]
 > 评分：X/5 | 判决：[一句话总结]
 
@@ -199,7 +181,7 @@ upstream_updated_at: "2026-03-20T08:02:26.062Z"
 - 融资融券/卖空比率变化
 - 关键问题：聪明钱（Smart Money）正在进场还是离场？
 
-**输出格式：**
+**输出格式要求：**
 > 资金信号：[积极/中性/消极]
 > 评分：X/5 | 判决：[一句话总结]
 
@@ -487,14 +469,8 @@ Stock
 3. **特别关注的方面**（可选）：如估值合理性、短期技术面、政策风险等
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [stock](https://prompts.chat/prompts/stock) |
-| Category | Finance & Budgeting (`finance-budgeting`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mmogdeveloper |
-| Updated At | 2026-03-20T08:02:26.062Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

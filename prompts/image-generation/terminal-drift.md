@@ -1,24 +1,4 @@
----
-id: "cmkdqfv3c0001l704hruam98q"
-slug: "terminal-drift"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/terminal-drift"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1d3aa2c867b7bd99f929c1ef5d8d3857bdb1505219590b484354a7a52a02a527"
-upstream_updated_at: "2026-01-14T08:02:11.759Z"
----
 # 终端漂移
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[terminal-drift](https://prompts.chat/prompts/terminal-drift)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-14T08:02:11.759Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "终端漂移",
   "description": "一个孤独旅行者被困在一个无限、空荡荡的机场航站楼中的令人难以忘怀的形象，这违背了逻辑。",
-  "prompt": "您将使用所提供的照片中的人物作为主要拍摄对象来进行图像编辑。保留她的核心相似性。将拍摄对象 1（女性）转变为一个孤独的人物，站在一望无际、无窗的机场航站楼中。周围的空间是一条由米色墙壁、低矮的天花板和带图案的地毯组成的重复走廊。没有出口，只有无尽的人工照明和空的等候椅。构图应遵循电影般的 1:1 宽高比。",
+  "prompt": "你将使用所提供的照片中的人物作为主要拍摄对象来进行图像编辑。保留她的核心相似性。将拍摄对象 1（女性）转变为一个孤独的人物，站在一望无际、无窗的机场航站楼中。周围的空间是一条由米色墙壁、低矮的天花板和带图案的地毯组成的重复走廊。没有出口，只有无尽的人工照明和空的等候椅。构图应遵循电影般的 1:1 宽高比。",
   “详细信息”：{
     "year": "不确定的 20 世纪 90 年代",
     "genre": "极限空间",
@@ -195,14 +175,8 @@ A haunting visualization of a lone traveler stuck in an infinite, empty airport 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [terminal-drift](https://prompts.chat/prompts/terminal-drift) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-14T08:02:11.759Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

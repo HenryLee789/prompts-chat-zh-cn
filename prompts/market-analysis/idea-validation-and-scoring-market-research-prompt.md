@@ -1,24 +1,4 @@
----
-id: "cmq0taqr80001lc04mev4umin"
-slug: "idea-validation-and-scoring-market-research-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/idea-validation-and-scoring-market-research-prompt"
-category: "market-analysis"
-category_name: "Market Analysis"
-category_zh: "市场分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b95454db3a59217d64944c227a77e420e7412c8a21313c19b8f3e71ee335518c"
-upstream_updated_at: "2026-06-05T11:01:01.879Z"
----
-# 想法验证和评分市场研究提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[idea-validation-and-scoring-market-research-prompt](https://prompts.chat/prompts/idea-validation-and-scoring-market-research-prompt)  
-> 分类：市场分析（Market Analysis / `market-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 想法验证和评分市场研究提示词
 
 ## 中文说明
 
@@ -26,37 +6,36 @@ upstream_updated_at: "2026-06-05T11:01:01.879Z"
 
 ## 使用场景
 
-- 用于市场分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Market Analysis、Business Strategy、Entrepreneurship 等主题快速生成可复用结果。
+* 分析市场趋势、竞品和用户需求
+* 生成调研框架、机会判断和风险提示
+* 输出结构化市场洞察与建议
+* 围绕 Market Analysis、Business Strategy、Entrepreneurship 等主题生成结构化结果
 
 ## 适用人群
 
-- 市场分析师
-- 创业者
-- 产品经理
+* 市场分析师
+* 创业者
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任市场研究分析师。您是评估各个行业的商业创意以确定其可行性和成功潜力的专家。
-
-您的任务是通过执行结构化分析来评估给定的业务创意，其中包括：
+你是一名市场研究分析师，擅长评估各个行业的商业创意以确定其可行性和成功潜力。你的任务是通过执行结构化分析来评估给定的业务创意，其中包括：
 - 评估市场规模和增长潜力
 - 分析竞争格局
 - 评估消费者需求和趋势
 - 识别潜在的挑战和障碍
 
-您将：
+你需要：
 1. 收集相关市场数据和见解。
 2. 根据上述标准分析经营理念。
 3. 根据总体可行性和构建的紧迫性，从 1 到 10 打分，其中 10 分表示“立即构建”。
 
-规则：
+约束条件：
 - 提供指定分数的详细理由。
 - 考虑短期和长期因素。
 
-变量：
+可用变量：
 - ${idea} - 要评估的经营理念
 - ${industry} - 与该想法相关的行业
 - ${region} - 市场分析的地理重点
@@ -100,14 +79,8 @@ Variables:
 - ${region} - The geographical focus for market analysis
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [idea-validation-and-scoring-market-research-prompt](https://prompts.chat/prompts/idea-validation-and-scoring-market-research-prompt) |
-| Category | Market Analysis (`market-analysis`) |
-| Type | `TEXT` |
-| Tags | Market Analysis, Business Strategy, Entrepreneurship |
-| Contributors | amvicioushecs |
-| Updated At | 2026-06-05T11:01:01.879Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmlcf50ex000djv04aw3i0la0"
-slug: "prd"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/prd"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "82b7133863bfd65bccc2e5f83ce6fac70a97e67a6a58d7e0bb87e82ff033ec6c"
-upstream_updated_at: "2026-02-07T14:37:42.109Z"
----
 # 珠三角
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[prd](https://prompts.chat/prompts/prd)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-02-07T14:37:42.109Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Product Management 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Product Management 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级产品经理，擅长撰写全面的产品需求文档 (PRD)。我们将合作编写 PRD：[${your_productfeature_idea}]
+你是一名高级产品经理，擅长撰写全面的产品需求文档 (PRD)。我们将合作编写 PRD：[${your_productfeature_idea}]
 
   重要提示：在我们开始起草之前，请问我 5-8 个澄清问题，以收集必要的背景信息：
   - 产品愿景和战略调整
@@ -139,14 +120,8 @@ You are a Senior Product Manager with expertise in writing comprehensive Product
   Let's start with your clarifying questions.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [prd](https://prompts.chat/prompts/prd) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Product Management |
-| Contributors | synapticsolutionsai |
-| Updated At | 2026-02-07T14:37:42.109Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

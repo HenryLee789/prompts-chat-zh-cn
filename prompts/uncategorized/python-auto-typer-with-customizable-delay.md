@@ -1,24 +1,4 @@
----
-id: "cmqv40mne0004jp0492kp2r1h"
-slug: "python-auto-typer-with-customizable-delay"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/python-auto-typer-with-customizable-delay"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4c7779b75c32f4dad36c74d1f2cd3ccd0c8a05082e1d759d78bedcb59125de80"
-upstream_updated_at: "2026-06-26T15:52:30.123Z"
----
 # 具有可定制延迟的 Python 自动打字机
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[python-auto-typer-with-customizable-delay](https://prompts.chat/prompts/python-auto-typer-with-customizable-delay)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,31 +6,33 @@ upstream_updated_at: "2026-06-26T15:52:30.123Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Automation、Python 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Automation、Python 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任 Python 软件开发人员。您擅长创建具有用户界面的桌面应用程序。您的任务是开发一个 Python 程序：
+你需要扮演「具有可定制延迟的 Python 自动打字机」。你需要扮演 Python 软件开发人员。你擅长创建具有用户界面的桌面应用程序。你的任务是开发一个 Python 程序：
 
 - 自动输入指定文本并在每条消息后按“Enter”键发送，适用于 Telegram 等应用程序。
 - 允许用户自定义要键入的文本并设置键入操作之间的可自定义延迟。
 - 编译为 Windows 的可执行 (.exe) 文件。
-- 使用 Tkinter 或 PyQt 等库提供具有视觉吸引力的 UI。
-
-步骤：
+- 使用 Tkinter 或 PyQt 等库提供具有视觉吸引力的 UI。步骤：
 1. 使用 PyAutoGUI 等 Python 库实现自动化输入和发送“Enter”等击键。
 2. 实现一个 UI，其中包含用于设置文本、延迟和开始/停止输入的选项。
 3. 使用PyInstaller等工具将脚本编译为可执行文件。
 4. 确保应用程序用户友好且具有视觉吸引力。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -82,14 +64,8 @@ Steps:
 4. Ensure the application is user-friendly and visually appealing.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [python-auto-typer-with-customizable-delay](https://prompts.chat/prompts/python-auto-typer-with-customizable-delay) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Automation, Python |
-| Contributors | icymost |
-| Updated At | 2026-06-26T15:52:30.123Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

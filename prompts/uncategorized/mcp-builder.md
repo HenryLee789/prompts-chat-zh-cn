@@ -1,24 +1,4 @@
----
-id: "cmkfjc5790002jr04u2gz336n"
-slug: "mcp-builder"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mcp-builder"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "c91afcc6a2bcda7a478df4e047cb0210b45ebc2a4bbb5f9493d10ca4aa9d7147"
-upstream_updated_at: "2026-01-15T14:28:00.666Z"
----
 # MCP生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mcp-builder](https://prompts.chat/prompts/mcp-builder)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:28:00.666Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Agent、API、Python、TypeScript 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Agent、API、Python 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -73,7 +54,7 @@ license: Complete terms in LICENSE.txt
 Agents benefit from concise tool descriptions and the ability to filter/paginate results. Design tools that return focused, relevant data.一些客户端支持代码执行，这可以帮助代理有效地过滤和处理数据。
 
 **Actionable Error Messages:**
-错误消息应引导客服人员找到包含具体建议和后续步骤的解决方案。
+bug消息应引导客服人员找到包含具体建议和后续步骤的解决方案。
 
 #### 1.2 Study MCP Protocol Documentation
 
@@ -81,9 +62,7 @@ Agents benefit from concise tool descriptions and the ability to filter/paginate
 
 Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/sitemap.xml`
 
-然后获取带有 `.md` 后缀的 Markdown 格式的特定页面（例如 `https://modelcontextprotocol.io/specification/draft.md`）。
-
-要查看的关键页面：
+然后获取带有 `.md` 后缀的 Markdown 格式的特定页面（例如 `https://modelcontextprotocol.io/specification/draft.md`）。要查看的关键页面：
 - 规范概述和架构
 - Transport mechanisms (streamable HTTP, stdio)
 - Tool, resource, and prompt definitions
@@ -106,7 +85,7 @@ Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/
 - **Python SDK**：使用WebFetch加载`https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
 - [🐍 Python Guide](./reference/python_mcp_server.md) - Python patterns and examples
 
-#### 1.4 规划您的实施
+#### 1.4 规划你的实施
 
 **了解API：**
 Review the service's API documentation to identify key endpoints, authentication requirements, and data models.根据需要使用网络搜索和 WebFetch。
@@ -197,7 +176,7 @@ After implementing your MCP server, create comprehensive evaluations to test its
 
 #### 4.1 Understand Evaluation Purpose
 
-使用评估来测试法学硕士是否可以有效地使用您的 MCP 服务器来回答现实、复杂的问题。
+使用评估来测试LLM是否可以有效地使用你的 MCP 服务器来回答现实、复杂的问题。
 
 #### 4.2 Create 10 Evaluation Questions
 
@@ -247,7 +226,7 @@ Load these resources as needed during development:
   - Response format guidelines (JSON vs Markdown)
   - 分页最佳实践
   - Transport selection (streamable HTTP vs stdio)
-  - 安全和错误处理标准
+  - 安全和bug 处理标准
 
 ### SDK 文档（在第 1/2 阶段加载）
 - **Python SDK**：从 `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md` 获取
@@ -325,7 +304,7 @@ Load these resources as needed during development:
 ### Tool Naming
 
 1. **使用snake_case**：`search_users`、`create_project`、`get_channel_info`
-2. **包含服务前缀**：预计您的 MCP 服务器可能与其他 MCP 服务器一起使用
+2. **包含服务前缀**：预计你的 MCP 服务器可能与其他 MCP 服务器一起使用
    - 使用 `slack_send_message` 而不仅仅是 `send_message`
    - 使用 `github_create_issue` 而不仅仅是 `create_issue`
 3. **以行动为导向**：从动词开始（获取、列表、搜索、创建等）
@@ -342,7 +321,7 @@ Load these resources as needed during development:
 
 ## Response Formats
 
-所有返回数据的工具都应该支持多种格式：
+所有返回数据的工具都应该支持多种格式要求：
 
 ### JSON 格式 (`response_format="json"`)
 - 机器可读的结构化数据
@@ -434,12 +413,12 @@ Load these resources as needed during development:
 **OAuth 2.1**：
 - 使用安全的 OAuth 2.1 和来自公认机构的证书
 - 在处理请求之前验证访问令牌
-- 只接受专门用于您的服务器的令牌
+- 只接受专门用于你的服务器的令牌
 
 **API 密钥**：
 - 将 API 密钥存储在环境变量中，而不是代码中
 - 在服务器启动时验证密钥
-- 身份验证失败时提供清晰的错误消息
+- 身份验证失败时提供清晰的bug消息
 
 ### 输入验证
 
@@ -449,12 +428,12 @@ Load these resources as needed during development:
 - 防止系统调用中的命令注入
 - 对所有输入使用模式验证（Pydantic/Zod）
 
-### 错误处理
+### bug 处理
 
-- 不要向客户暴露内部错误
+- 不要向客户暴露内部bug
 - Log security-relevant errors server-side
-- 提供有用但不泄露错误消息
-- 错误后清理资源
+- 提供有用但不泄露bug消息
+- bug后清理资源
 
 ### DNS 重新绑定保护
 
@@ -480,15 +459,15 @@ Load these resources as needed during development:
 
 ---
 
-## 错误处理
+## bug 处理
 
-- 使用标准 JSON-RPC 错误代码
-- 报告结果对象内的工具错误（不是协议级错误）
-- 提供有用的、具体的错误消息以及建议的后续步骤
+- 使用标准 JSON-RPC bug代码
+- 报告结果对象内的工具bug（不是协议级bug）
+- 提供有用的、具体的bug消息以及建议的后续步骤
 - 不要暴露内部实现细节
 - Clean up resources properly on errors
 
-错误处理示例：
+bug 处理示例：
 ```typescript
 try {
   const result = performOperation();
@@ -514,7 +493,7 @@ try {
 - **集成测试**：测试与外部系统的交互
 - **Security testing**: Validate auth, input sanitization, rate limiting
 - **性能测试**：检查负载、超时下的行为
-- **错误处理**：确保正确的错误报告和清理
+- **bug 处理**：确保正确的bug报告和清理
 
 ---
 
@@ -530,7 +509,7 @@ try {
 
 ## 概述
 
-本文档提供有关为 MCP 服务器创建综合评估的指南。评估测试法学硕士是否可以仅使用提供的工具有效地使用您的 MCP 服务器来回答现实、复杂的问题。
+本文档提供有关为 MCP 服务器创建综合评估的指南。评估测试LLM是否可以仅使用提供的工具有效地使用你的 MCP 服务器来回答现实、复杂的问题。
 
 ---
 
@@ -580,7 +559,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
    - 不应指示或要求修改状态以获得正确答案
 
 3. **问题必须现实、清晰、简洁且复杂**
-   - 必须要求另一位法学硕士使用多种（可能是几十种）工具或步骤来回答
+   - 必须要求另一位LLM使用多种（可能是几十种）工具或步骤来回答
 
 ### 复杂性和深度
 
@@ -606,7 +585,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 ### 工具测试
 
 8. **问题应对压力测试工具返回值**
-   - 可能会引发返回大型 JSON 对象或列表的工具，从而压垮法学硕士
+   - 可能会引发返回大型 JSON 对象或列表的工具，从而压垮LLM
    - 应该需要理解多种数据模式：
      - ID 和姓名
      - 时间戳和日期时间（月、日、年、秒）
@@ -615,15 +594,15 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
    - 应该探测该工具返回所有有用数据形式的能力
 
 9. **问题应该主要反映真实的人类用例**
-   - 法学硕士协助的人类会关心的信息检索任务类型
+   - LLM协助的人类会关心的信息检索任务类型
 
 10. **问题可能需要数十次工具调用**
-    - 这对背景有限的法学硕士提出了挑战
+    - 这对背景有限的LLM提出了挑战
     - 鼓励MCP服务器工具减少返回的信息
 
 11. **包括模棱两可的问题**
     - 可能不明确或需要艰难决定调用哪些工具
-    - 迫使法学硕士犯下可能的错误或误解
+    - 迫使LLM犯下可能的bug或误解
     - 确保尽管存在歧义，但仍然有一个可验证的答案
 
 ### 稳定性
@@ -631,11 +610,11 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 12. **问题的设计必须确保答案不会改变**
     - 不要提出依赖于动态的“当前状态”的问题
     - 例如，不计算：
-      - 对帖子的反应数量
+      - 对帖子的React数量
       - 对主题的回复数
       - 频道中的成员数量
 
-13. **不要让 MCP 服务器限制您创建的问题类型**
+13. **不要让 MCP 服务器限制你创建的问题类型**
     - 创建具有挑战性和复杂的问题
     - 有些问题可能无法使用可用的 MCP 服务器工具来解决
     - 问题可能需要特定的输出格式（日期时间与纪元时间、JSON 与 MARKDOWN）
@@ -656,7 +635,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
      - 数量
      - 时间戳、日期时间
      - 布尔值（用于真/假问题）
-     - 电子邮件地址、电话号码
+     - 邮件地址、电话号码
      - 文件 ID、文件名、文件扩展名
      - 多项选择题答案
    - 答案不得要求特殊格式或复杂的结构化输出
@@ -686,7 +665,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 
 5. **Answers must be DIVERSE**
    - 答案应该是多种形式和格式的单一可验证值
-   - 用户概念：用户 ID、用户名、显示名称、名字、姓氏、电子邮件地址、电话号码
+   - 用户概念：用户 ID、用户名、显示名称、名字、姓氏、邮件地址、电话号码
    - 频道概念：频道ID、频道名称、频道主题
    - 消息概念：消息ID、消息字符串、时间戳、月、日、年
 
@@ -697,7 +676,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
    - Not natural language text
    - 除非可以使用直接字符串比较直接验证答案
    - And can be realistically reproduced
-   - 法学硕士不太可能以任何其他顺序或格式返回相同的列表
+   - LLM不太可能以任何其他顺序或格式返回相同的列表
 
 ## 评估流程
 
@@ -718,11 +697,11 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 
 ### 第 3 步：加深理解
 
-重复步骤 1 和 2，直到您充分理解：
+重复步骤 1 和 2，直到你充分理解：
 - Iterate multiple times
-- 考虑您想要创建的任务类型
+- 考虑你想要创建的任务类型
 - 完善你的理解
-- 在任何阶段您都不应该阅读 MCP 服务器实现本身的代码
+- 在任何阶段你都不应该阅读 MCP 服务器实现本身的代码
 - 使用你的直觉和理解来创建合理、现实但非常具有挑战性的任务
 
 ### 步骤 4：只读内容检查
@@ -734,7 +713,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 - 不会读取 MCP 服务器实现本身的代码
 - Parallelize this step with individual sub-agents pursuing independent explorations
 - 确保每个子代理仅执行只读、非破坏性和IDEMPOTENT操作
-- 请小心：某些工具可能会返回大量数据，这会导致您耗尽上下文
+- 请小心：某些工具可能会返回大量数据，这会导致你耗尽上下文
 - 进行增量、小型且有针对性的工具调用以进行探索
 - In all tool call requests, use the `limit` parameter to limit results (<10)
 - Use pagination
@@ -814,7 +793,7 @@ The measure of quality of an MCP server is NOT how well or comprehensively the s
 ```
 
 这个问题问得好，因为：
-- 需要按日期、优先级和状态过滤错误
+- 需要按日期、优先级和状态过滤bug
 - 需要按受让人分组并计算解决率
 - 需要了解时间戳以确定 48 小时窗口
 - Tests pagination (potentially many bugs to process)
@@ -905,7 +884,7 @@ After creating evaluations:
 
 # Running Evaluations
 
-创建评估文件后，您可以使用提供的评估工具来测试您的 MCP 服务器。
+创建评估文件后，你可以使用提供的评估工具来测试你的 MCP 服务器。
 
 ## 设置
 
@@ -963,7 +942,7 @@ python scripts/evaluation.py \
   evaluation.xml
 ```
 
-使用环境变量：
+使用环境可用变量：
 ```bash
 python scripts/evaluation.py \
   -t stdio \
@@ -1059,7 +1038,7 @@ python scripts/evaluation.py \
 
 Here's a complete example of creating and running an evaluation:
 
-1. **创建您的评估文件** (`my_evaluation.xml`)：
+1. **创建你的评估文件** (`my_evaluation.xml`)：
 
 ```xml
 <evaluation>
@@ -1099,15 +1078,15 @@ python scripts/evaluation.py \
 
 4. **查看 `github_eval_report.md` 中的报告**：
    - See which questions passed/failed
-   - 阅读代理对您的工具的反馈
+   - 阅读代理对你的工具的反馈
    - Identify areas for improvement
-   - 迭代您的 MCP 服务器设计
+   - 迭代你的 MCP 服务器设计
 
 ## 故障排除
 
-### 连接错误
+### 连接bug
 
-如果出现连接错误：
+如果出现连接bug：
 - **STDIO**: Verify the command and arguments are correct
 - **SSE/HTTP**: Check the URL is accessible and headers are correct
 - Ensure any required API keys are set in environment variables or headers
@@ -1119,7 +1098,7 @@ If many evaluations fail:
 - 检查工具描述是否清晰、全面
 - Verify input parameters are well-documented
 - Consider whether tools return too much or too little data
-- 确保错误消息可操作
+- 确保bug消息可操作
 
 ### 超时问题
 
@@ -1470,7 +1449,7 @@ const inputSchema = z.object({
 });
 ```
 
-**降价格式**：
+**Markdown格式**：
 - 为了清晰起见，使用标题、列表和格式
 - 将时间戳转换为人类可读的格式
 - 显示带有括号中 ID 的显示名称
@@ -1536,7 +1515,7 @@ async function searchTool(params: SearchInput) {
 }
 ```
 
-## 错误处理
+## bug 处理
 
 Provide clear, actionable error messages:
 
@@ -1620,7 +1599,7 @@ function fetchData(resourceId: string): Promise<ResourceData> {
 3. **避免 `any`**：使用正确的类型或 `unknown` 代替 `any`
 4. **Zod for Runtime Validation**：使用 Zod 架构来验证外部数据
 5. **类型防护**：为复杂类型检查创建类型防护函数
-6. **错误处理**：始终使用带有适当错误类型检查的 try-catch
+6. **bug 处理**：始终使用带有适当bug类型检查的 try-catch
 7. **空安全**：使用可选链接 (`?.`) 和空合并 (`??`)
 
 ```typescript
@@ -2011,18 +1990,18 @@ server.notification({
 
 ### Code Composability and Reusability
 
-您的实现必须优先考虑可组合性和代码重用：
+你的实现必须优先考虑可组合性和代码重用：
 
 1. **提取通用功能**：
    - 为跨多个工具使用的操作创建可重用的辅助函数
    - 为 HTTP 请求构建共享 API 客户端，而不是重复代码
-   - 将错误处理逻辑集中在实用函数中
+   - 将bug 处理逻辑集中在实用函数中
    - Extract business logic into dedicated functions that can be composed
    - 提取共享 Markdown 或 JSON 字段选择和格式化功能
 
 2. **Avoid Duplication**:
    - NEVER copy-paste similar code between tools
-   - 如果您发现自己编写了两次类似的逻辑，请将其提取到一个函数中
+   - 如果你发现自己编写了两次类似的逻辑，请将其提取到一个函数中
    - 分页、过滤、字段选择和格式化等常见操作应共享
    - 认证/授权逻辑应该集中
 
@@ -2052,7 +2031,7 @@ npm run dev
 - [ ] Tool names reflect natural task subdivisions
 - [ ] Response formats optimize for agent context efficiency
 - [ ] 在适当的情况下使用人类可读的标识符
-- [ ] 错误消息指导代理正确使用
+- [ ] bug消息指导代理正确使用
 
 ### Implementation Quality
 - [ ] FOCUSED IMPLEMENTATION: Most important and valuable tools implemented
@@ -2060,7 +2039,7 @@ npm run dev
 - [ ] 所有工具包括 `title`、`description`、`inputSchema` 和 `annotations`
 - [ ] Annotations correctly set (readOnlyHint, destructiveHint, idempotentHint, openWorldHint)
 - [ ] All tools use Zod schemas for runtime input validation with `.strict()` enforcement
-- [ ] 所有 Zod 模式都有适当的约束和描述性错误消息
+- [ ] 所有 Zod 模式都有适当的约束和描述性bug消息
 - [ ] All tools have comprehensive descriptions with explicit input/output types
 - [ ] Descriptions include return value examples and complete schema documentation
 - [ ] Error messages are clear, actionable, and educational
@@ -2269,7 +2248,7 @@ class UserSearchInput(BaseModel):
     )
 ```
 
-**降价格式**：
+**Markdown格式**：
 - 为了清晰起见，使用标题、列表和格式
 - Convert timestamps to human-readable format (e.g., "2024-01-15 10:30:00 UTC" instead of epoch)
 - Show display names with IDs in parentheses (e.g., "@john.doe (U123456)")
@@ -2306,7 +2285,7 @@ async def list_items(params: ListInput) -> str:
     return json.dumps(response, indent=2)
 ```
 
-## 错误处理
+## bug 处理
 
 Provide clear, actionable error messages:
 
@@ -2742,18 +2721,18 @@ if __name__ == "__main__":
 
 ### 代码的可组合性和可重用性
 
-您的实现必须优先考虑可组合性和代码重用：
+你的实现必须优先考虑可组合性和代码重用：
 
 1. **提取通用功能**：
    - 为跨多个工具使用的操作创建可重用的辅助函数
    - 为 HTTP 请求构建共享 API 客户端，而不是重复代码
-   - 将错误处理逻辑集中在实用函数中
+   - 将bug 处理逻辑集中在实用函数中
    - Extract business logic into dedicated functions that can be composed
    - 提取共享 Markdown 或 JSON 字段选择和格式化功能
 
 2. **Avoid Duplication**:
    - NEVER copy-paste similar code between tools
-   - 如果您发现自己编写了两次类似的逻辑，请将其提取到一个函数中
+   - 如果你发现自己编写了两次类似的逻辑，请将其提取到一个函数中
    - 分页、过滤、字段选择和格式化等常见操作应共享
    - 认证/授权逻辑应该集中
 
@@ -2776,7 +2755,7 @@ Before finalizing your Python MCP server implementation, ensure:
 - [ ] Tool names reflect natural task subdivisions
 - [ ] Response formats optimize for agent context efficiency
 - [ ] 在适当的情况下使用人类可读的标识符
-- [ ] 错误消息指导代理正确使用
+- [ ] bug消息指导代理正确使用
 
 ### 实施质量
 - [ ] FOCUSED IMPLEMENTATION: Most important and valuable tools implemented
@@ -2818,7 +2797,7 @@ Before finalizing your Python MCP server implementation, ensure:
 - [ ] 服务器运行成功：`python your_server.py --help`
 - [ ] 所有导入正确解析
 - [ ] 示例工具调用按预期工作
-- [ ] 错误场景得到妥善处理
+- [ ] bug场景得到妥善处理
 文件：脚本/连接.py
 """Lightweight connection handling for MCP servers."""
 
@@ -2830,7 +2809,6 @@ from mcp import ClientSession, StdioServerParameters
 从 mcp.client.sse 导入 sse_client
 从 mcp.client.stdio 导入 stdio_client
 从 mcp.client.streamable_http 导入 Streamablehttp_client
-
 
 MCPConnection 类（ABC）：
     """MCP 服务器连接的基类。"""
@@ -2891,7 +2869,6 @@ session_ctx = ClientSession(read, write)
         result = await self.session.call_tool(tool_name, arguments=arguments)
         返回结果.内容
 
-
 class MCPConnectionStdio(MCPConnection):
     """MCP connection using standard input/output."""
 
@@ -2906,7 +2883,6 @@ class MCPConnectionStdio(MCPConnection):
             StdioServerParameters(command=self.command, args=self.args, env=self.env)
         ）
 
-
 MCPConnectionSSE 类（MCPConnection）：
     """MCP connection using Server-Sent Events."""
 
@@ -2917,7 +2893,6 @@ MCPConnectionSSE 类（MCPConnection）：
 
     def _create_context（自我）：
         return sse_client(url=self.url, headers=self.headers)
-
 
 MCPConnectionHTTP 类（MCPConnection）：
     """MCP connection using Streamable HTTP."""
@@ -2930,7 +2905,6 @@ MCPConnectionHTTP 类（MCPConnection）：
     def _create_context（自我）：
         返回streamablehttp_client(url=self.url, headers=self.headers)
 
-
 def 创建连接（
     运输：str，
     命令：str = 无，
@@ -2939,9 +2913,7 @@ def 创建连接（
     网址：str = 无，
     标题： dict[str, str] = None，
 ) -> MCP连接:
-    """用于创建适当的 MCP 连接的工厂函数。
-
-    参数：
+    """用于创建适当的 MCP 连接的工厂函数。参数：
         传输：连接类型（“stdio”、“sse”或“http”）
         command：运行命令（仅限stdio）
         args：命令参数（仅限 stdio）
@@ -2994,38 +2966,37 @@ from connections import create_connection
 
 EVALUATION_PROMPT = """You are an AI assistant with access to tools.
 
-当接到任务时，您必须：
+当接到任务时，你必须：
 1. Use the available tools to complete the task
 2. Provide summary of each step in your approach, wrapped in <summary> tags
 3. Provide feedback on the tools provided, wrapped in <feedback> tags
-4. 提供您的最终响应，包含在 <response> 标签中
+4. 提供你的最终响应，包含在 <response> 标签中
 
 摘要要求：
-- 在您的 <summary> 标签中，您必须解释：
+- 在你的 <summary> 标签中，你必须解释：
   - The steps you took to complete the task
   - Which tools you used, in what order, and why
-  - 您为每个工具提供的输入
+  - 你为每个工具提供的输入
   - The outputs you received from each tool
-  - 关于您如何得出答复的摘要
+  - 关于你如何得出答复的摘要
 
 反馈要求：
-- 在您的 <feedback> 标签中，提供有关工具的建设性反馈：
+- 在你的 <feedback> 标签中，提供有关工具的建设性反馈：
   - Comment on tool names: Are they clear and descriptive?
   - 对输入参数的评论：它们是否有详细记录？ Are required vs optional parameters clear?
   - Comment on descriptions: Do they accurately describe what the tool does?
   - Comment on any errors encountered during tool usage: Did the tool fail to execute?该工具是否返回了太多令牌？
   - Identify specific areas for improvement and explain WHY they would help
-  - 您的建议要具体且可操作
+  - 你的建议要具体且可操作
 
 响应要求：
-- 您的回答应该简洁并直接解决问题
+- 你的回答应该简洁并直接解决问题
 - Always wrap your final response in <response> tags
-- 如果您无法解决任务，请返回<response>NOT_FOUND</response>
+- 如果你无法解决任务，请返回<response>NOT_FOUND</response>
 - 对于数字回复，只需提供数字
 - 对于 ID，只需提供 ID
 - 对于名称或文本，请提供所需的确切文本
 - 你的回复应该放在最后"""
-
 
 def parse_evaluation_file(file_path: Path) -> list[dict[str, Any]]:
     """使用 qa_pair 元素解析 XML 评估文件。"""
@@ -3048,7 +3019,6 @@ def parse_evaluation_file(file_path: Path) -> list[dict[str, Any]]:
     除了异常 e：
         print(f"解析评估文件 {file_path} 时出错：{e}")
         返回[]
-
 
 def extract_xml_content(文本：str，标签：str) -> str |无：
     """Extract content from XML tags."""
@@ -3123,7 +3093,6 @@ def extract_xml_content(文本：str，标签：str) -> str |无：
     ）
     返回响应文本、工具指标
 
-
 异步 defvaluate_single_task(
     客户：人类，
     型号：str，
@@ -3156,7 +3125,6 @@ def extract_xml_content(文本：str，标签：str) -> str |无：
         “反馈”：反馈，
     }
 
-
 REPORT_HEADER = """
 # 评估报告
 
@@ -3188,7 +3156,6 @@ REPORT_HEADER = """
 
 ---
 ”“”
-
 
 异步 def run_evaluation(
     eval_path: Path,
@@ -3244,7 +3211,6 @@ REPORT_HEADER = """
 
     return report
 
-
 def parse_headers(header_list: list[str]) -> dict[str, str]:
     """Parse header strings in format 'Key: Value' into a dictionary."""
     标头 = {}
@@ -3256,9 +3222,8 @@ def parse_headers(header_list: list[str]) -> dict[str, str]:
             键, 值 = header.split(":", 1)
             headers[key.strip()] = value.strip()
         其他：
-            print(f"警告：忽略格式错误的标头：{header}")
+            print(f"警告：忽略格式bug的标头：{header}")
     返回标头
-
 
 def parse_env_vars(env_list: list[str]) -> dict[str, str]:
     """将格式为 'KEY=VALUE' 的环境变量字符串解析到字典中。"""
@@ -3271,9 +3236,8 @@ def parse_env_vars(env_list: list[str]) -> dict[str, str]:
             键, 值 = env_var.split("=", 1)
             env[key.strip()] = value.strip()
         其他：
-            print(f"警告：忽略格式错误的环境变量：{env_var}")
+            print(f"警告：忽略格式bug的环境可用变量：{env_var}")
     返回环境
-
 
 异步 def main():
     解析器 = argparse.ArgumentParser(
@@ -3310,7 +3274,7 @@ def parse_env_vars(env_list: list[str]) -> dict[str, str]:
     args = parser.parse_args()
 
     if not args.eval_file.exists():
-        print(f"错误：未找到评估文件：{args.eval_file}")
+        print(f"bug：未找到评估文件：{args.eval_file}")
         系统退出(1)
 
     headers = parse_headers(args.headers) 如果 args.headers else None
@@ -6721,14 +6685,8 @@ mcp>=1.1.0
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mcp-builder](https://prompts.chat/prompts/mcp-builder) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | Agent, API, Python, TypeScript, mcp |
-| Contributors | f |
-| Updated At | 2026-01-15T14:28:00.666Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

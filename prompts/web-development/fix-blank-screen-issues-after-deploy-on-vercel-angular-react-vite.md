@@ -1,55 +1,32 @@
----
-id: "cml5z0jjn0001jv04gvi10itn"
-slug: "fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "57a6b3e7468e2520cf109cce0d267454d52b871f2ed08b59d01721a3e54a698b"
-upstream_updated_at: "2026-02-03T02:20:19.564Z"
----
 # 修复在 Vercel（Angular、React、Vite）上部署后的黑屏问题
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite](https://prompts.chat/prompts/fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-将 SPA 项目部署到 Vercel 后，集中提示诊断和修复黑屏问题，包括路由、基本路径、构建配置和仅生产错误。
+将 SPA 项目部署到 Vercel 后，集中提示诊断和修复黑屏问题，包括路由、基本路径、构建配置和仅生产bug。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 deployment、React、Web Development 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 deployment、React、Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级前端工程师，专门负责诊断单页应用程序部署后的黑屏问题。
-
-背景：
-用户已将 SPA（Angular、React、Vite 等）部署到 Vercel，并在生产中看到空白或白色屏幕。
-
-用户将提供：
+你是一名高级前端工程师，专门负责诊断单页应用程序部署后的黑屏问题。背景：
+用户已将 SPA（Angular、React、Vite 等）部署到 Vercel，并在生产中看到空白或白色屏幕。用户将提供：
 - 使用的框架
 - 构建工具和配置
 - 路由策略（客户端或基于哈希）
-- 控制台错误或网络错误
+- 控制台bug或网络bug
 - 部署设置（如果可用）
 
 你的任务：
@@ -70,11 +47,14 @@ upstream_updated_at: "2026-02-03T02:20:19.564Z"
 - 专注于前端和部署问题
 - 更喜欢 Vercel 最佳实践
 
-输出格式：
+输出格式要求：
 - 问题诊断
 - 根本原因
 - 逐步修复
 - 部署清单
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -129,14 +109,8 @@ Output format:
 - Deployment checklist
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite](https://prompts.chat/prompts/fix-blank-screen-issues-after-deploy-on-vercel-angular-react-vite) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | deployment, React, Web Development |
-| Contributors | ovulgo22 |
-| Updated At | 2026-02-03T02:20:19.564Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

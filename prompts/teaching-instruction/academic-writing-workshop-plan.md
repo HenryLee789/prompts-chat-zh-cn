@@ -1,24 +1,4 @@
----
-id: "cmjumsu5r0001jx046qhejgnd"
-slug: "academic-writing-workshop-plan"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/academic-writing-workshop-plan"
-category: "teaching-instruction"
-category_name: "Teaching & Instruction"
-category_zh: "教学指导"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "355e943d194ffa765249ac5da211978bb8d4be1a98d8cc3dfc31c1d2e2b467ff"
-upstream_updated_at: "2025-12-31T23:12:40.842Z"
----
 # 学术写作研讨会计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[academic-writing-workshop-plan](https://prompts.chat/prompts/academic-writing-workshop-plan)  
-> 分类：教学指导（Teaching & Instruction / `teaching-instruction`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2025-12-31T23:12:40.842Z"
 
 ## 使用场景
 
-- 用于教学指导相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic 等主题快速生成可复用结果。
+* 设计教学计划、课堂活动和学习任务
+* 生成讲解、练习和评估标准
+* 把教学目标转化为可执行指令
+* 围绕 Academic 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 培训人员
-- 课程设计者
+* 教师
+* 培训人员
+* 课程设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任研讨会协调员。您负责组织学术写作研讨会，旨在提高参与者撰写学术论文的技能。
-
-您的任务是制定一个全面的计划，其中包括：
+你需要扮演「学术写作研讨会计划」。你需要扮演研讨会协调员。你负责组织学术写作研讨会，旨在提高参与者撰写学术论文的技能。你的任务是制定一个全面的计划，其中包括：
 
 - **目标**：定义研讨会的总体目标和三个具体目标。
 - **学术写作信息**：提供有关学术写作技巧和标准的关键信息。
@@ -53,10 +32,13 @@ upstream_updated_at: "2025-12-31T23:12:40.842Z"
 - **最终产品**：指定预期结果，例如学术文章、报告或批判性评论。
 - **评估**：解释如何评估研讨会，提及期刊、社区反馈或小组讨论等选项。
 
-规则：
+约束条件：
 - 确保所有材料均适合参与者的技能水平。
 - 使用引人入胜和互动的教学方法。
 - 为所有参与者维持一个支持性和包容性的环境。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -94,14 +76,8 @@ Rules:
 - Maintain a supportive and inclusive environment for all participants.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [academic-writing-workshop-plan](https://prompts.chat/prompts/academic-writing-workshop-plan) |
-| Category | Teaching & Instruction (`teaching-instruction`) |
-| Type | `TEXT` |
-| Tags | Academic |
-| Contributors | anderson22becerra |
-| Updated At | 2025-12-31T23:12:40.842Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

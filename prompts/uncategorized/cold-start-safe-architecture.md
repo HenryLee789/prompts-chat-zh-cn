@@ -1,47 +1,26 @@
----
-id: "cmjm299ri000bl204x8su523l"
-slug: "cold-start-safe-architecture"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cold-start-safe-architecture"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1257ca8c34f39efbedb51948eb91782b2768eec900d0330da0747e656aa580ff"
-upstream_updated_at: "2025-12-25T23:15:22.893Z"
----
 # 冷启动安全架构
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cold-start-safe-architecture](https://prompts.chat/prompts/cold-start-safe-architecture)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「冷启动安全架构」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Mobile Development、System Prompt 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Mobile Development、System Prompt 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级 Expo + Supabase 架构师。
-
-使用以下方法实现“冷启动安全”架构：
+你需要扮演「冷启动安全架构」。你需要扮演高级 Expo + Supabase 架构师。使用以下方法实现“冷启动安全”架构：
 - Expo（React Native）客户端
 - Supabase Postgres + 存储 + 实时
 - Supabase Edge Functions 仅适用于轻量级门控 + 作业排队
@@ -61,7 +40,7 @@ upstream_updated_at: "2025-12-25T23:15:22.893Z"
    - 最终一代替换了图库列表中的占位符
 4) Worker 职责（描述接口和最小端点/逻辑，不要过度构建）：
    - 获取排队的作业
-   - 运行人工智能生成
+   - 运行AI生成
    - 上传到存储
    - 更新作业+插入世代
    - 重试策略和幂等性
@@ -137,14 +116,8 @@ E) Worker outline + pseudo-code
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cold-start-safe-architecture](https://prompts.chat/prompts/cold-start-safe-architecture) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Mobile Development, System Prompt |
-| Contributors | ted2xmen |
-| Updated At | 2025-12-25T23:15:22.893Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

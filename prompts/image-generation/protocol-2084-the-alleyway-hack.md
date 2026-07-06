@@ -1,24 +1,4 @@
----
-id: "cmjlylkev0001l504eqgp3eii"
-slug: "protocol-2084-the-alleyway-hack"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/protocol-2084-the-alleyway-hack"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b26ce226d056ab1490e961f970da53ea8d7c6fb944da8b85ca148e300e278a5a"
-upstream_updated_at: "2025-12-25T21:32:59.814Z"
----
 # 协议 2084：巷道黑客
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[protocol-2084-the-alleyway-hack](https://prompts.chat/prompts/protocol-2084-the-alleyway-hack)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,22 @@ upstream_updated_at: "2025-12-25T21:32:59.814Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将进行图像编辑，将男性主体转变为在坚韧的高科技未来中的逃犯。结果必须是超真实感、电影品质的图像，类似于 IMAX 大片的帧。场景设置在主体隐藏的被雨水打湿的霓虹灯小巷中。确保图像高度细致，利用电影灯光和逼真的物理原理，在 Arri Alexa 上拍摄，并使用浅景深来隔离从混乱的背景中突出主体。",
+  "prompt": "你将进行图像编辑，将男性主体转变为在坚韧的高科技未来中的逃犯。结果必须是超真实感、电影品质的图像，类似于 IMAX 大片的帧。场景设置在主体隐藏的被雨水打湿的霓虹灯小巷中。确保图像高度细致，利用电影灯光和逼真的物理原理，在 Arri Alexa 上拍摄，并使用浅景深来隔离从混乱的背景中突出主体。",
   “详细信息”：{
     “年份”：“${year:2084}”，
     "genre": "电影照片写实主义",
@@ -201,14 +181,8 @@ A movie-quality snapshot of a dystopian future. Amidst the wet, debris-strewn st
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [protocol-2084-the-alleyway-hack](https://prompts.chat/prompts/protocol-2084-the-alleyway-hack) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-25T21:32:59.814Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,23 @@
----
-id: "cmo9x251b000ajm04u1vmh02i"
-slug: "realistic-image-json-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/realistic-image-json-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6f055084cfe9b12b9e3def92fc06b5d62f4f9c942b62f731f482b2354c4521b0"
-upstream_updated_at: "2026-04-22T10:35:09.576Z"
----
-# 逼真的图像 JSON 提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[realistic-image-json-prompt](https://prompts.chat/prompts/realistic-image-json-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 逼真的图像 JSON 提示词
 
 ## 中文说明
 
-用于生成逼真图像的基于 JSON 的提示。该提示允许用户指定各种参数和约束，以使用人工智能技术创建详细且逼真的图像。对于希望通过高质量视觉效果增强其项目的艺术家、设计师和开发人员来说，它是理想的选择。
+用于生成逼真图像的基于 JSON 的提示。该提示允许用户指定各种参数和约束，以使用AI技术创建详细且逼真的图像。对于希望通过高质量视觉效果增强其项目的艺术家、设计师和开发人员来说，它是理想的选择。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 image-generation、image-prompt 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 image-generation、image-prompt 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -110,6 +91,9 @@ upstream_updated_at: "2026-04-22T10:35:09.576Z"
     "texture_and_grain": "微妙的胶片颗粒，手、木材和金属上的高度详细的纹理。"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -199,14 +183,8 @@ A JSON-based prompt for generating realistic images. This prompt allows users to
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [realistic-image-json-prompt](https://prompts.chat/prompts/realistic-image-json-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | image-generation, image-prompt |
-| Contributors | narrivo |
-| Updated At | 2026-04-22T10:35:09.576Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

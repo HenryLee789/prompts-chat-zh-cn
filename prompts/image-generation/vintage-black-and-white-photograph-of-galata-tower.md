@@ -1,24 +1,4 @@
----
-id: "cmlz60nmp0001k204h2n5qk5p"
-slug: "vintage-black-and-white-photograph-of-galata-tower"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/vintage-black-and-white-photograph-of-galata-tower"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "eb84afff41f30873a2a3ddcd173ae03d01d081711535950aa337e781c8c5897d"
-upstream_updated_at: "2026-02-23T12:41:13.784Z"
----
 # 加拉达塔的老式黑白照片
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[vintage-black-and-white-photograph-of-galata-tower](https://prompts.chat/prompts/vintage-black-and-white-photograph-of-galata-tower)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-02-23T12:41:13.784Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -216,14 +198,8 @@ This prompt describes a vintage black and white photograph of the Galata Tower i
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [vintage-black-and-white-photograph-of-galata-tower](https://prompts.chat/prompts/vintage-black-and-white-photograph-of-galata-tower) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | gunebak4n |
-| Updated At | 2026-02-23T12:41:13.784Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

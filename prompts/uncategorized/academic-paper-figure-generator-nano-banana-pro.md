@@ -1,24 +1,4 @@
----
-id: "cmm8ynby00003ju04oynyf70v"
-slug: "academic-paper-figure-generator-nano-banana-pro"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/academic-paper-figure-generator-nano-banana-pro"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "41fd4af1f5e8b1bdd877d9ba23f43486d0006fb76fc07984be029e6e03b9c943"
-upstream_updated_at: "2026-03-02T09:12:26.425Z"
----
 # 学术论文图形生成器 - Nano Banana Pro
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[academic-paper-figure-generator-nano-banana-pro](https://prompts.chat/prompts/academic-paper-figure-generator-nano-banana-pro)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-02T09:12:26.425Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 publication-ready、scientific-figures、Nano Banana、Research 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 publication-ready、scientific-figures、Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 使用以下指导方针为科学出版创建专业学术人物：
@@ -90,14 +71,8 @@ Guidelines:
 Generate a ${aspect_ratio:16:9} aspect ratio image that effectively communicates the ${subject} concept to an academic audience.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [academic-paper-figure-generator-nano-banana-pro](https://prompts.chat/prompts/academic-paper-figure-generator-nano-banana-pro) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | publication-ready, scientific-figures, Nano Banana, Research, Academic |
-| Contributors | ananasruler |
-| Updated At | 2026-03-02T09:12:26.425Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

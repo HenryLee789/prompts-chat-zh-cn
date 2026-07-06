@@ -1,41 +1,23 @@
----
-id: "cmjhe7ozk0007le0454f4nx0d"
-slug: "detailed-mirror-selfie-room-scene"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/detailed-mirror-selfie-room-scene"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "09fd515d2f60dd79cf97f4f9694b09d6979376ceb541994b5c7c81ac9806fe3d"
-upstream_updated_at: "2025-12-22T21:54:15.869Z"
----
 # 详细的镜子自拍房间场景
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[detailed-mirror-selfie-room-scene](https://prompts.chat/prompts/detailed-mirror-selfie-room-scene)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「详细的镜子自拍房间场景」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ###场景
@@ -197,14 +179,8 @@ Mirror selfie in an computer corner, blue color tone.
 * Fake portrait-mode blur, CGI/illustration feel
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [detailed-mirror-selfie-room-scene](https://prompts.chat/prompts/detailed-mirror-selfie-room-scene) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | torturer33 |
-| Updated At | 2025-12-22T21:54:15.869Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

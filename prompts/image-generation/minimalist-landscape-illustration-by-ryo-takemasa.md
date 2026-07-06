@@ -1,42 +1,23 @@
----
-id: "cmjn9tg5j0005lh04a45f1hw7"
-slug: "minimalist-landscape-illustration-by-ryo-takemasa"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/minimalist-landscape-illustration-by-ryo-takemasa"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1b5347bec7dbd671bc9ccd654f3f4baa857c9122e7d6c0b60d27d14495426edd"
-upstream_updated_at: "2025-12-26T20:19:32.743Z"
----
 # Ryo Takemasa 的极简风景插画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[minimalist-landscape-illustration-by-ryo-takemasa](https://prompts.chat/prompts/minimalist-landscape-illustration-by-ryo-takemasa)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示将指导您创建受 Ryo Takemasa 启发的简约数字插图。插图描绘了一幅广阔的超现实景观，其中有充满活力的红色和橙色灌木丛、一条蜿蜒的白色小路和一个孤独的人物。它强调探索和孤独的主题，采用干净的图形风格、高对比度和鲜艳的色彩。
+此提示将指导你创建受 Ryo Takemasa 启发的简约数字插图。插图描绘了一幅广阔的超现实景观，其中有充满活力的红色和橙色灌木丛、一条蜿蜒的白色小路和一个孤独的人物。它强调探索和孤独的主题，采用干净的图形风格、高对比度和鲜艳的色彩。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Creative Writing、Fiction、Storytelling 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Creative Writing、Fiction 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -215,14 +196,8 @@ This prompt guides you to create a minimalist digital illustration inspired by R
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [minimalist-landscape-illustration-by-ryo-takemasa](https://prompts.chat/prompts/minimalist-landscape-illustration-by-ryo-takemasa) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Creative Writing, Fiction, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-26T20:19:32.743Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

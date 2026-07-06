@@ -1,24 +1,4 @@
----
-id: "cmjt4n3000001ky04k1pv255w"
-slug: "3d-to-2d-floor-plan-converter"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/3d-to-2d-floor-plan-converter"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8644de66c746aa2c7d4b7ab1c87e6fa18d24a4be7e2147980ebc38f8014ea41e"
-upstream_updated_at: "2026-01-01T23:31:20.545Z"
----
 # 3D 到 2D 平面图转换器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[3d-to-2d-floor-plan-converter](https://prompts.chat/prompts/3d-to-2d-floor-plan-converter)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-01-01T23:31:20.545Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Interior Design、Computer Vision 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Interior Design、Computer Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -59,6 +39,9 @@ upstream_updated_at: "2026-01-01T23:31:20.545Z"
   },
   "output_expectation": "类似于建筑平面图的平面二维平面图，适用于房地产清单或施工文件"
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -98,14 +81,8 @@ Convert a furnished 3D interior render into a detailed and precise 2D architectu
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [3d-to-2d-floor-plan-converter](https://prompts.chat/prompts/3d-to-2d-floor-plan-converter) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Interior Design, Computer Vision |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-01T23:31:20.545Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

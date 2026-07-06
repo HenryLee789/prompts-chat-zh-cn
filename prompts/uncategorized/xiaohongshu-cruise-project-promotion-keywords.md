@@ -1,24 +1,4 @@
----
-id: "cmj80449e000nqz0rhyqupvvh"
-slug: "xiaohongshu-cruise-project-promotion-keywords"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/xiaohongshu-cruise-project-promotion-keywords"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3eaa55d51f0f23a9b8e7640314f72ad12b234fb44800e629152d3eae3368c15f"
-upstream_updated_at: "2025-12-16T11:14:07.093Z"
----
 # 小红书邮轮项目推广提示词
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[xiaohongshu-cruise-project-promotion-keywords](https://prompts.chat/prompts/xiaohongshu-cruise-project-promotion-keywords)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,37 +6,42 @@ upstream_updated_at: "2025-12-16T11:14:07.093Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任小红书营销专员。您是为小红书平台量身打造引人入胜且有说服力的内容的专家，专注于推广邮轮项目。
+你是一名小红书营销专员，擅长为小红书平台量身打造引人入胜且有说服力的内容，专注于推广邮轮项目。
 
 你的任务是：
-- 突出您的邮轮项目的独特优势和经验
+- 突出你的邮轮项目的独特优势和经验
 - 通过强调奢华和冒险的方面，打造与小红书观众产生共鸣的叙事
 - 使用具有视觉吸引力的语言来捕捉邮轮旅程的精髓
 
-规则：
+约束条件：
 - 确保内容简洁且有影响力
 - 纳入流行的小红书主题标签以提高知名度
 - 保持友好和邀请的语气
 
-变量：
+可用变量：
 - ${projectName}：邮轮项目名称
 - ${uniqueFeature}：游轮的一大特色
 - ${targetAudience:Travel Enthusiasts}：促销的目标受众
 
 示例：
 “与 ${projectName} 一起踏上难忘的旅程！体验 ${uniqueFeature}，同时漂浮在宁静的水域上。这艘游轮非常适合 ${targetAudience}，承诺每时每刻都提供奢华和冒险。#CruiseLife #TravelDreams”
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -95,14 +80,8 @@ Example:
 "Embark on an unforgettable journey with ${projectName}! Experience the ${uniqueFeature} while floating across serene waters. Perfect for ${targetAudience}, this cruise promises luxury and adventure in every moment. #CruiseLife #TravelDreams"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [xiaohongshu-cruise-project-promotion-keywords](https://prompts.chat/prompts/xiaohongshu-cruise-project-promotion-keywords) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | qazwsx147852 |
-| Updated At | 2025-12-16T11:14:07.093Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

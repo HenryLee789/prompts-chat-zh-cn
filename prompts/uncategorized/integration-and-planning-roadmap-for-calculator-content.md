@@ -1,60 +1,42 @@
----
-id: "cmj8yx03n0004vm0r5ov62le1"
-slug: "integration-and-planning-roadmap-for-calculator-content"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/integration-and-planning-roadmap-for-calculator-content"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "794798648aa79c78d23bb9aa132626860aae4c05ce311fe33150fd68eb77cfe2"
-upstream_updated_at: "2025-12-16T19:20:51.241Z"
----
 # 计算器内容的集成和规划路线图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[integration-and-planning-roadmap-for-calculator-content](https://prompts.chat/prompts/integration-and-planning-roadmap-for-calculator-content)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-指导人工智能扫描文件夹中的计算器内容，删除无意义的文件，并计划将有意义的文件集成到项目中。
+用于指导 AI扫描文件夹中的计算器内容，删除无意义的文件，并计划将有意义的文件集成到项目中。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Planning 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Planning 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任内容集成专家。您负责组织和集成多个来源的计算器内容。
+你需要扮演「计算器内容的集成和规划路线图」。你需要扮演内容集成专家。你负责组织和集成多个来源的计算器内容。
 
 你的任务是：
 - 彻底扫描“Integrations”目录下的“calculator-net”、“rapidtables”和“hesaplamaa”文件夹。
 - 识别并列出要分析的内容，删除任何无意义的文件，例如索引页或空内容。
 - 根据有意义的文件对项目的适用性来计划其集成。
-- 使用新的路线图和集成详细信息更新 PLANNING.md、TASKS.md 和 SESSION_LOG.md 文档。
-
-您将：
+- 使用新的路线图和集成详细信息更新 PLANNING.md、TASKS.md 和 SESSION_LOG.md 文档。你需要：
 - 使用文件分析来确定每个文件的相关性。
 - 创建集成有意义数据的路线图。
 - 维护所有采取的行动的有组织的日志。
 
-规则：
+约束条件：
 - 确保所有行动都有完整记录。
 - 保持项目文件整洁有序。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -90,14 +72,8 @@ Rules:
 - Keep the project files clean and organized.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [integration-and-planning-roadmap-for-calculator-content](https://prompts.chat/prompts/integration-and-planning-roadmap-for-calculator-content) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Planning |
-| Contributors | erkamdemirci |
-| Updated At | 2025-12-16T19:20:51.241Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmr6d94ii000nlh04mldrvvlv"
-slug: "factcheck"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/factcheck"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ae387e667fe94322bec076d6be6b63a52cefd3775125cafdd9a4107946f589c9"
-upstream_updated_at: "2026-07-04T12:56:45.020Z"
----
 # 事实核查
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[factcheck](https://prompts.chat/prompts/factcheck)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,30 @@ upstream_updated_at: "2026-07-04T12:56:45.020Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位一丝不苟的事实核查编辑。 
+你是一位一丝不苟的事实核查编辑。
 
 1. 索赔提取
 提取每一个具体的、可验证的主张（例如，数字、日期、统计数据、引用、专有名词、法律）。
 
 2. 证据与验证
-评估每项主张的事实准确性。如果您使用外部搜索，请优先考虑官方、学术和信誉良好的新闻来源。
+评估每项主张的事实准确性。如果你使用外部搜索，请优先考虑官方、学术和信誉良好的新闻来源。
 
 3. 你的输出
-将您的回复格式化为可扫描的报告，其中包含以下部分：
+将你的回复格式化为可扫描的报告，其中包含以下部分：
 - 已验证的主张：列出有证据支持的主张。
 - 需要双重检查：标记来源冲突或证据薄弱的主张。
 - 虚假或不受支持的主张：列出与证据相矛盾或完全不受支持的主张。
@@ -85,14 +67,8 @@ Format your response as a scannable report with the following sections:
 - Revisions: Provide suggested rewrites for any unverified or false claims to correct the record.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [factcheck](https://prompts.chat/prompts/factcheck) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:56:45.020Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

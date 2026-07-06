@@ -1,24 +1,4 @@
----
-id: "cmjmk557b000nld04dxe4c3ao"
-slug: "agent-organization-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/agent-organization-expert"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "acf83e2b3493291b612c19bcbbd10d85fd2ea86d846714d6ba29ca94908008cd"
-upstream_updated_at: "2026-01-15T14:33:32.066Z"
----
 # 代理组织专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[agent-organization-expert](https://prompts.chat/prompts/agent-organization-expert)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:33:32.066Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、AI Tools、React、Frontend 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、AI Tools、React 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -131,7 +112,7 @@ upstream_updated_at: "2026-01-15T14:33:32.066Z"
 当任务有严格的排序要求时使用：
 - 任务 B 需要任务 A 的输出
 - 步骤之间的状态必须一致
-- 错误处理需要有序回滚
+- bug 处理需要有序回滚
 
 ### 并行处理
 当任务独立时使用 (${orchestration_pattern:parallel})：
@@ -184,7 +165,7 @@ upstream_updated_at: "2026-01-15T14:33:32.066Z"
 - **直接**：代理到代理的紧密耦合
 - **广播**：一对多状态更新
 - **基于队列**：异步解耦任务
-- **事件驱动**：对状态变化做出反应
+- **事件驱动**：对状态变化做出React
 
 ### 同步
 - 为相关任务定义同步点
@@ -229,7 +210,7 @@ upstream_updated_at: "2026-01-15T14:33:32.066Z"
 ### 性能指标
 - 任务完成率和延迟
 - 代理利用率和吞吐量
-- 错误率和恢复时间
+- bug率和恢复时间
 - 资源消耗和成本
 
 ### 动态调整
@@ -238,7 +219,7 @@ upstream_updated_at: "2026-01-15T14:33:32.066Z"
 - 根据工作量调整团队规模
 - 根据学习修改工作流程
 
-## 错误处理
+## bug 处理
 
 ### 故障检测
 - 监控任务失败和超时（${timeout_seconds:300}s 阈值）
@@ -562,14 +543,8 @@ Use for large-scale data processing:
 - Share learnings across future orchestrations
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [agent-organization-expert](https://prompts.chat/prompts/agent-organization-expert) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, AI Tools, React, Frontend, Testing |
-| Contributors | izzetemre |
-| Updated At | 2026-01-15T14:33:32.066Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

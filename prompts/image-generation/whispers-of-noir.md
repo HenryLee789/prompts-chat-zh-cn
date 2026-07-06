@@ -1,24 +1,4 @@
----
-id: "cmk1g61ir0001k404nna2oeun"
-slug: "whispers-of-noir"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/whispers-of-noir"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4dc6d74d920dea93ab2ec24759cfef8897cfdbe0233575cc94a148be40cd71b5"
-upstream_updated_at: "2026-01-05T17:41:26.626Z"
----
 # 黑色的低语
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[whispers-of-noir](https://prompts.chat/prompts/whispers-of-noir)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-05T17:41:26.626Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   “title”：“黑色的低语”，
   "description": "一个坚韧的、电影般的肖像，描绘了一位冷酷的侦探在一个朦胧的地下爵士乐休息室里等待线索。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留核心相似性。将拍摄对象 1（男性）转变为一位疲惫的 1950 年代私家侦探，坐在烟雾缭绕的爵士俱乐部内的豪华天鹅绒展位上。将图像渲染为超真实感电影剧照，利用电影灯光强调他的皮肤纹理和周围旋转的烟雾。图像必须非常详细，拍摄于Arri Alexa 采用浅景深来模糊背景中的乐队，并遵循 1:1 的宽高比。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象来执行图像编辑。保留核心相似性。将拍摄对象 1（男性）转变为一位疲惫的 1950 年代私家侦探，坐在烟雾缭绕的爵士俱乐部内的豪华天鹅绒展位上。将图像渲染为超真实感电影剧照，利用电影灯光强调他的皮肤纹理和周围旋转的烟雾。图像必须非常详细，拍摄于Arri Alexa 采用浅景深来模糊背景中的乐队，并遵循 1:1 的宽高比。",
   “详细信息”：{
     “年份”：“1954年”，
     "genre": "电影照片写实主义",
@@ -106,6 +86,9 @@ upstream_updated_at: "2026-01-05T17:41:26.626Z"
     }
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -191,14 +174,8 @@ A gritty, cinematic portrait of a hard-boiled detective waiting for a lead in a 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [whispers-of-noir](https://prompts.chat/prompts/whispers-of-noir) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-05T17:41:26.626Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

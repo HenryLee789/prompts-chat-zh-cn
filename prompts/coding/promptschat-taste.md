@@ -1,45 +1,27 @@
----
-id: "cmm9mm2br0001jw048ye2xldu"
-slug: "promptschat-taste"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/promptschat-taste"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TASTE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ff68c59b6f72ba827ef1173738acf589ba7e609e4133d4000a8865ca55b0ffc2"
-upstream_updated_at: "2026-03-02T20:23:26.481Z"
----
-# 提示.聊天味道
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[promptschat-taste](https://prompts.chat/prompts/promptschat-taste)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TASTE`  
-> 翻译状态：`machine_translated`
+# prompts.chat 风格偏好
 
 ## 中文说明
 
-提示的味道.chat
+记录 prompts.chat 项目的技术栈、架构约定和实现偏好，便于 AI 按项目规范生成或修改代码。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-# 味道
+# 风格偏好
 
 # github 操作
 - 在 GitHub Actions 工作流程中使用 `actions/checkout@v6` 和 `actions/setup-node@v6`（不是 v4）。置信度：0.65
@@ -55,7 +37,7 @@ upstream_updated_at: "2026-03-02T20:23:26.481Z"
 - 使用插件注册表模式进行身份验证、存储和媒体生成器集成。置信度：0.90
 - 使用 `revalidateTag()` 使缓存在突变后失效。置信度：0.90
 
-# 打字稿
+# TypeScript
 - 在整个项目中以严格模式使用 TypeScript 5。置信度：0.95
 
 # 样式
@@ -126,14 +108,8 @@ The taste of prompts.chat
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [promptschat-taste](https://prompts.chat/prompts/promptschat-taste) |
-| Category | Coding (`coding`) |
-| Type | `TASTE` |
-| Tags | None |
-| Contributors | f |
-| Updated At | 2026-03-02T20:23:26.481Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

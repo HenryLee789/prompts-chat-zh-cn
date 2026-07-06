@@ -1,24 +1,4 @@
----
-id: "cmjwt806t0004l304qizmsate"
-slug: "ultra-realistic-young-woman-portrait-generation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-realistic-young-woman-portrait-generation"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6218b6e538acc4675027c965be634b9f9dc454f62c1d1118585f1b260b62d577"
-upstream_updated_at: "2026-01-24T14:34:58.717Z"
----
 # 超写实年轻女性肖像一代
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-realistic-young-woman-portrait-generation](https://prompts.chat/prompts/ultra-realistic-young-woman-portrait-generation)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-24T14:34:58.717Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 AI Tools、Midjourney、DALL-E 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 AI Tools、Midjourney、DALL-E 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 生成一个 22 岁年轻女性的超现实图像，具有以下特征：
@@ -80,14 +61,8 @@ Generate an ultra-realistic image of a young woman aged 22 years with the follow
 Ensure the image is high in realism, capturing the essence of a candid photo with all specified details.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-realistic-young-woman-portrait-generation](https://prompts.chat/prompts/ultra-realistic-young-woman-portrait-generation) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | AI Tools, Midjourney, DALL-E |
-| Contributors | senahanim1122 |
-| Updated At | 2026-01-24T14:34:58.717Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

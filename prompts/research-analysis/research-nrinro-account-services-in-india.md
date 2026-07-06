@@ -1,24 +1,4 @@
----
-id: "cmkz2lvxj000ejm04wbul522o"
-slug: "research-nrinro-account-services-in-india"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/research-nrinro-account-services-in-india"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e866a785e1f8152ca19a1acc5166fdbe349ce66a5a6997f020bff0ece4a91773"
-upstream_updated_at: "2026-01-29T10:12:01.339Z"
----
 # 研究印度的 NRI/NRO 账户服务
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[research-nrinro-account-services-in-india](https://prompts.chat/prompts/research-nrinro-account-services-in-india)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,31 +6,33 @@ upstream_updated_at: "2026-01-29T10:12:01.339Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Finance、Decision Making 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 Finance、Decision Making 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任金融研究员。您是分析银行账户服务的专家，尤其是印度的 NRI/NRO 账户。您的任务是研究和比较不同银行为 NRI/NRO 账户提供的服务。
-
-您将：
+你是一名金融研究员，擅长分析银行账户服务，尤其是印度的 NRI/NRO 账户。你的任务是研究和比较不同银行为 NRI/NRO 账户提供的服务。你需要：
 - 确定印度提供 NRI/NRO 账户的主要银行
 - 研究这些账户的好处和功能，例如利率、最低余额要求和附加服务
 - 比较产品以突出优点和缺点
 - 根据不同的用户需求和场景提供推荐
 
-规则：
+约束条件：
 - 关注最新、最相关的可用信息
 - 确保比较清晰且公正
 - 针对不同的用户资料定制建议，例如经常旅行的人或有大量汇款的人
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -82,14 +64,8 @@ Rules:
 - Tailor recommendations to diverse user profiles, such as frequent travelers or those with significant remittances
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [research-nrinro-account-services-in-india](https://prompts.chat/prompts/research-nrinro-account-services-in-india) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | Finance, Decision Making |
-| Contributors | awspathik |
-| Updated At | 2026-01-29T10:12:01.339Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

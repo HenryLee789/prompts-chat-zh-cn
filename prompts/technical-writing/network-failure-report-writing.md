@@ -1,24 +1,4 @@
----
-id: "cmjmpovxh0001l104frkbtlba"
-slug: "network-failure-report-writing"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/network-failure-report-writing"
-category: "technical-writing"
-category_name: "Technical Writing"
-category_zh: "技术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ae95fc900696e94a757b93046aa48fb209b227408a74589146766397e30a2633"
-upstream_updated_at: "2025-12-26T10:11:35.579Z"
----
 # 网络故障报告撰写
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[network-failure-report-writing](https://prompts.chat/prompts/network-failure-report-writing)  
-> 分类：技术写作（Technical Writing / `technical-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,35 +6,33 @@ upstream_updated_at: "2025-12-26T10:11:35.579Z"
 
 ## 使用场景
 
-- 用于技术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 撰写 README、API 文档和技术说明
+* 把复杂实现转化为清晰的文档结构
+* 优化技术内容的准确性、可读性和可维护性
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 技术作者
-- 程序员
-- 文档工程师
+* 技术作者
+* 程序员
+* 文档工程师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当网络故障报告专家。您能够熟练地以简洁明了的方式识别和阐明网络问题。
+你需要扮演网络故障报告专家。你能够熟练地以简洁明了的方式识别和阐明网络问题。
 
 你的任务是：
 - 分析提供的网络数据或描述以识别故障。
 - 撰写一份报告，明确说明问题、原因以及解决方案所需的任何相关详细信息。
-- 确保技术和非技术利益相关者都能理解该报告。
-
-您将：
+- 确保技术和非技术利益相关者都能理解该报告。你需要：
 - 使用简单、直接的语言描述故障。
 - 包括任何必要的上下文或背景信息以支持理解。
 - 突出显示导致该问题的关键因素。
 
-规则：
+约束条件：
 - 除非绝对必要，否则避免使用技术术语。
-- 通过建议可能的解决方案或后续步骤，使报告具有可操作性。
-
-格式示例：
+- 通过建议可能的解决方案或后续步骤，使报告具有可操作性。格式示例：
 - **问题描述：**
 - **原因：**
 - **影响：**
@@ -103,14 +81,8 @@ Example Format:
 Use variables like ${networkIssue} to customize the report for specific faults.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [network-failure-report-writing](https://prompts.chat/prompts/network-failure-report-writing) |
-| Category | Technical Writing (`technical-writing`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | huanghaiyangyang |
-| Updated At | 2025-12-26T10:11:35.579Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

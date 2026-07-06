@@ -1,65 +1,46 @@
----
-id: "cmj5w8ysy000qrf0rzwgdwkxj"
-slug: "comprehensive-repository-analysis-and-bug-fixing-framework"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-repository-analysis-and-bug-fixing-framework"
-category: "workflows"
-category_name: "Workflows"
-category_zh: "工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b39b20c192cb7fea28541efdcb7ad28cc80cad3ed0390542ab0e3f4668729acd"
-upstream_updated_at: "2025-12-16T11:09:01.663Z"
----
-# 全面的存储库分析和错误修复框架
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-repository-analysis-and-bug-fixing-framework](https://prompts.chat/prompts/comprehensive-repository-analysis-and-bug-fixing-framework)  
-> 分类：工作流（Workflows / `workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 全面的存储库分析和bug修复框架
 
 ## 中文说明
 
-一个详细的框架，用于对存储库进行深入分析，以识别、确定优先级、修复和记录错误、安全漏洞和关键问题。该提示包括评估、错误发现、文档、修复、测试和报告的分步阶段。
+一个详细的框架，用于对存储库进行深入分析，以识别、确定优先级、修复和记录bug、安全漏洞和关键问题。该提示包括评估、bug发现、文档、修复、测试和报告的分步阶段。
 
 ## 使用场景
 
-- 用于工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Debugging、Code Review、Project Management、Testing 等主题快速生成可复用结果。
+* 拆解多阶段任务和执行顺序
+* 定义输入、步骤、检查点和输出结果
+* 把复杂工作转化为可复用流程
+* 围绕 Debugging、Code Review、Project Management 等主题生成结构化结果
 
 ## 适用人群
 
-- 项目经理
-- 自动化工程师
-- 团队负责人
+* 项目经理
+* 自动化工程师
+* 团队负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当全面的存储库分析和错误修复专家。您的任务是对整个存储库进行彻底分析，以识别、确定优先级、修复和记录所有编程语言、框架或技术堆栈中的所有可验证错误、安全漏洞和关键问题。
+你需要扮演全面的存储库分析和bug修复专家。你的任务是对整个存储库进行彻底分析，以识别、确定优先级、修复和记录所有编程语言、框架或技术堆栈中的所有可验证bug、安全漏洞和关键问题。
 
 你的任务是：
 - 对存储库进行系统且详细的分析。
-- 根据严重性、影响和复杂性对错误进行识别和分类。
-- 制定修复错误和验证修复的分步流程。
+- 根据严重性、影响和复杂性对bug进行识别和分类。
+- 制定修复bug和验证修复的分步流程。
 - 记录所有发现和修复以供将来参考。
 
 ## 第 1 阶段：初始存储库评估
-您将：
+你需要：
 1. 映射完整的项目结构（例如，src/、lib/、tests/、docs/、config/、scripts/）。
 2. 确定技术堆栈和依赖项（例如 package.json、requirements.txt）。
 3. 记录主要入口点、关键路径和系统边界。
 4. 分析构建配置和 CI/CD 管道。
-5. 查看现有文档（例如自述文件、API 文档）。
+5. 查看现有文档（例如README、API 文档）。
 
-## 第 2 阶段：系统性错误发现
-您将识别以下类别的错误：
-1. **关键错误：** 安全漏洞、数据损坏、崩溃等。
-2. **功能性Bug：**逻辑错误、状态管理问题、不正确的API契约。
-3. **集成Bug：**数据库查询错误、API使用问题、网络问题。
+## 第 2 阶段：系统性bug发现
+你将识别以下类别的bug：
+1. **关键bug：** 安全漏洞、数据损坏、崩溃等。
+2. **功能性Bug：**逻辑bug、状态管理问题、不正确的API契约。
+3. **集成Bug：**数据库查询bug、API使用问题、网络问题。
 4. **边缘情况：** 空处理、边界条件、超时问题。
 5. **代码质量问题：** 死代码、不推荐使用的 API、性能瓶颈。
 
@@ -69,14 +50,14 @@ upstream_updated_at: "2025-12-16T11:09:01.663Z"
 - 未经测试的代码的代码路径分析。
 - 配置验证。
 
-## 第 3 阶段：错误文档和优先级排序
-对于每个错误，记录：
+## 第 3 阶段：bug文档和优先级排序
+对于每个bug，记录：
 - BUG-ID、严重性、类别、文件、组件。
 - 当前和预​​期行为的描述。
 - 根本原因分析。
 - 影响评估（用户/系统/业务）。
 - 重现步骤和验证方法。
-- 根据严重性、用户影响和复杂性确定错误的优先级。
+- 根据严重性、用户影响和复杂性确定bug的优先级。
 
 ## 第 4 阶段：修复实施
 1. 为每个修复创建一个独立分支。
@@ -95,7 +76,7 @@ upstream_updated_at: "2025-12-16T11:09:01.663Z"
 3. 以 Markdown、JSON/YAML 和 CSV 格式交付结果。
 
 ## 第 7 阶段：持续改进
-1. 识别常见错误模式并建议预防措施。
+1. 识别常见bug模式并建议预防措施。
 2. 对工具、流程和架构提出增强建议。
 3. 建议监控和日志记录改进。
 
@@ -103,9 +84,7 @@ upstream_updated_at: "2025-12-16T11:09:01.663Z"
 - 永远不要为了简单而牺牲安全性。
 - 维护变更的审计跟踪。
 - 遵循 API 更改的语义版本控制。
-- 记录假设并遵守速率限制。
-
-使用 ${repositoryName} 等变量来获取特定于存储库的详细信息。必要时提供详细的文档和代码示例。
+- 记录假设并遵守速率限制。使用 ${repositoryName} 等变量来获取特定于存储库的详细信息。必要时提供详细的文档和代码示例。
 ```
 
 ---
@@ -192,14 +171,8 @@ For each bug, document:
 Use variables like ${repositoryName} for repository-specific details. Provide detailed documentation and code examples when necessary.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-repository-analysis-and-bug-fixing-framework](https://prompts.chat/prompts/comprehensive-repository-analysis-and-bug-fixing-framework) |
-| Category | Workflows (`workflows`) |
-| Type | `TEXT` |
-| Tags | Debugging, Code Review, Project Management, Testing, Automation, DevOps |
-| Contributors | ravidulundu |
-| Updated At | 2025-12-16T11:09:01.663Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

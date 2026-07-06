@@ -1,24 +1,4 @@
----
-id: "cmr6e5j64001ilh04kuq5qydv"
-slug: "speech100"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/speech100"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "03ec449fa95186027e566c6d5ec9ec25b389aedc20263273d1d6dbd6324e1092"
-upstream_updated_at: "2026-07-04T13:22:05.112Z"
----
 # 演讲100
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[speech100](https://prompts.chat/prompts/speech100)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-07-04T13:22:05.112Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 按照李绳武悼词的风格写一篇演讲稿——
@@ -89,14 +71,8 @@ a dignified voice that honors legacy while remaining grounded.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [speech100](https://prompts.chat/prompts/speech100) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:22:05.112Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

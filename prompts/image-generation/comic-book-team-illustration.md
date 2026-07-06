@@ -1,24 +1,4 @@
----
-id: "cmk5h0msk0001l704u5emfco6"
-slug: "comic-book-team-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comic-book-team-illustration"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3dc5fee2c8075b43b6bde4babf3f8b08b0e788461835635643fa4caa7fbc08ea"
-upstream_updated_at: "2026-01-08T22:03:22.493Z"
----
 # 漫画书团队插图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comic-book-team-illustration](https://prompts.chat/prompts/comic-book-team-illustration)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-08T22:03:22.493Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Character Development、Creative Writing、Storytelling 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Character Development、Creative Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -74,7 +55,7 @@ upstream_updated_at: "2026-01-08T22:03:22.493Z"
     "emotional_tone": "严肃"
   },
   “叙述元素”：{
-    "character_interactions": "这四个人作为一个有凝聚力的整体站在一起，拥有共同的目光和目标，表明他们是一个团队或同一组织的一部分。",
+    "character_interactions": "这四个人作为有凝聚力的整体站在一起，拥有共同的目光和目标，表明他们是一个团队或同一组织的一部分。",
     "environmental_storytelling": "鲜明、简约的背景强调了人物、他们的表情和他们的统一，表明他们的内部状态和群体动态是场景的中心焦点。",
     "implied_action": "角色似乎正立正或观察面板外的某些东西，表明他们要么即将开始执行任务，要么正面临重大事件。"
   },
@@ -210,14 +191,8 @@ This prompt guides the creation of a comic book style illustration of a team of 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comic-book-team-illustration](https://prompts.chat/prompts/comic-book-team-illustration) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Character Development, Creative Writing, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2026-01-08T22:03:22.493Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

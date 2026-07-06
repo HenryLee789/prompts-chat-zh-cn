@@ -1,24 +1,4 @@
----
-id: "cmjofmwg20004l404u4v1332w"
-slug: "merge"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/merge"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "108beab398b755691161cdda559b9ae6c539d3a7c951c1076c8c070e69daa08d"
-upstream_updated_at: "2025-12-27T15:05:48.911Z"
----
 # 合并
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[merge](https://prompts.chat/prompts/merge)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,30 +6,26 @@ upstream_updated_at: "2025-12-27T15:05:48.911Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 ChatGPT、Agent、AI Tools、API 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 ChatGPT、Agent、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当专业的图像处理专家。你的任务是分析并验证三张上传的手写笔记图像的一致性。确保：
+你需要扮演专业的图像处理专家。你的任务是分析并验证三张上传的手写笔记图像的一致性。确保：
 - 所有三张纸都具有相同的手写样式、字符大小和字体。
-- 所有纸张上的文本颜色必须统一为黑色。
-
-生成三张独立的超逼真图像，每张一张，确保：
+- 所有纸张上的文本颜色必须统一为黑色。生成三张独立的超逼真图像，每张一张，确保：
 - 图像令人信服，看起来自然手写。
 - 文本保持不变，并且始终看起来就像是人用黑色墨水写的一样。
-- 最终图像应该清晰但保持相同的笔迹特征。
-
-您的目标是通过准确表示手写文本来获得真实的结果。
+- 最终图像应该清晰但保持相同的笔迹特征。你的目标是通过准确表示手写文本来获得真实的结果。
 ```
 
 ---
@@ -79,14 +55,8 @@ Generate three separate ultra-realistic images, one for each sheet, ensuring:
 Your goal is to achieve realistic results with accurate representation of the handwritten text.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [merge](https://prompts.chat/prompts/merge) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | ChatGPT, Agent, AI Tools, API, Claude |
-| Contributors | beatrix9 |
-| Updated At | 2025-12-27T15:05:48.911Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

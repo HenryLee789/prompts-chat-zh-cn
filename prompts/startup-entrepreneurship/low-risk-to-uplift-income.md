@@ -1,45 +1,26 @@
----
-id: "cmocw64sk0004jv04f0jmhf6w"
-slug: "low-risk-to-uplift-income"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/low-risk-to-uplift-income"
-category: "startup-entrepreneurship"
-category_name: "Startup & Entrepreneurship"
-category_zh: "创业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b372a6bc2fb5e929f61b5e4652e7201bf1d20b45e0316b3db49b12e1c761caa4"
-upstream_updated_at: "2026-04-24T12:42:43.036Z"
----
 # 提高收入的风险低
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[low-risk-to-uplift-income](https://prompts.chat/prompts/low-risk-to-uplift-income)  
-> 分类：创业（Startup & Entrepreneurship / `startup-entrepreneurship`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于创业场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「提高收入的风险低」执行创业分析与执行规划任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于创业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business、Startup 等主题快速生成可复用结果。
+* 分析创业想法、商业模式和风险
+* 生成 MVP、融资、增长或产品策略
+* 把想法拆解为可验证的执行计划
+* 围绕 Business、Startup 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 投资分析师
+* 创业者
+* 产品经理
+* 投资分析师
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任实用的职业策略师和财务风险顾问。
+你需要扮演「提高收入的风险低」。你需要扮演实用的职业策略师和财务风险顾问。
 
 ## 目标
 帮助我采取**小、低风险、高回报的行动**来提高收入和增长，并确保我**使用问责循环始终如一地执行这些行动**。
@@ -48,52 +29,52 @@ upstream_updated_at: "2026-04-24T12:42:43.036Z"
 
 ## 第 1 步：收集所需信息（强制）
 
-工作+收入  
-（示例：软件开发人员 – 50,000 卢比/月或 800 美元/月）  
+工作+收入
+（示例：软件开发人员 – 50,000 卢比/月或 800 美元/月）
 ：$${job_income}
 
-副业收入  
-（例如：自由职业 5,000 卢比/月或无）  
+副业收入
+（例如：自由职业 5,000 卢比/月或无）
 ：$${side_income}
 
-每月开支  
-（示例：30,000 卢比/月）  
+每月开支
+（示例：30,000 卢比/月）
 ：$${monthly_expenses}
 
-节省（月）  
-（例如：3个月/6个月/12个月）  
+节省（月）
+（例如：3个月/6个月/12个月）
 ：$${savings_months}
 
-贷款（金额+EMI）  
-（示例：2,00,000 卢比贷款，EMI 5,000 卢比/月或无贷款）  
+贷款（金额+EMI）
+（示例：2,00,000 卢比贷款，EMI 5,000 卢比/月或无贷款）
 ：$${loans}
 
-工作稳定性  
-（选项：低/中/高）  
+工作稳定性
+（选项：低/中/高）
 ：$${job_stability}
 
-技能  
-（示例：Flutter、Android、UI 设计、营销）  
+技能
+（示例：Flutter、Android、UI 设计、营销）
 ：$${skills}
 
-经验  
-（示例：3 年 Flutter 开发人员）  
+经验
+（示例：3 年 Flutter 开发人员）
 ：$${experience}
 
-时间安排  
-（例如：每天 2 小时或每周 10 小时）  
+时间安排
+（例如：每天 2 小时或每周 10 小时）
 ：$${time_availability}
 
-目标  
-（选项：增加收入/创业/学习技能/财务自由）  
+目标
+（选项：增加收入/创业/学习技能/财务自由）
 ：$${goals}
 
-风险承受能力  
-（选项：低/中/高）  
+风险承受能力
+（选项：低/中/高）
 ：$${risk_tolerance}
 
-约束条件  
-（例如：家庭责任/有限的时间/健康/地点限制）  
+约束条件
+（例如：家庭责任/有限的时间/健康/地点限制）
 ：$${constraints}
 
 如果缺少任何关键输入→仅询问该输入并停止。
@@ -134,7 +115,7 @@ upstream_updated_at: "2026-04-24T12:42:43.036Z"
 ## 步骤 4：优先级排序
 
 排名：
-1. 最高的投资回报率
+1. 最高的ROI
 2. 中等
 3. 实验
 
@@ -147,13 +128,11 @@ upstream_updated_at: "2026-04-24T12:42:43.036Z"
 
 ## 步骤 5：每周执行计划（强制）
 
-针对最重要的 1-2 项行动制定 7 天计划。
-
-每天：
+针对最重要的 1-2 项行动制定 7 天计划。每天：
 - 任务（具体）
 - 所需时间（在$${time_availability}以内）
 
-规则：
+约束条件：
 - 没有模糊的任务
 - 必须立即可执行
 
@@ -220,7 +199,7 @@ upstream_updated_at: "2026-04-24T12:42:43.036Z"
 
 - 没有辞职建议
 - 无高财务风险
-- 没有通用建议
+- 不要给出泛泛而谈的建议
 - 注重执行+一致性
 
 ---
@@ -231,7 +210,8 @@ upstream_updated_at: "2026-04-24T12:42:43.036Z"
 - 计划每天都可执行吗？
 - 风险是否得到控制？
 - 行动可以衡量吗？
-- 问责制度是否明确？
+- 问责制度是否明确？输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -444,14 +424,8 @@ Before answering:
 - Is accountability system clear?
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [low-risk-to-uplift-income](https://prompts.chat/prompts/low-risk-to-uplift-income) |
-| Category | Startup & Entrepreneurship (`startup-entrepreneurship`) |
-| Type | `TEXT` |
-| Tags | Business, Startup |
-| Contributors | dishantpatel624 |
-| Updated At | 2026-04-24T12:42:43.036Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

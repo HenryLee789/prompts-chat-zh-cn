@@ -1,24 +1,4 @@
----
-id: "cmnuvhayo0001l504s0ta1x93"
-slug: "ai-productivity-artifact-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-productivity-artifact-generator"
-category: "agent-workflows"
-category_name: "Agent Workflows"
-category_zh: "智能体工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6f4734e99f1901bbf7b0bbcf65207d868bfe89bc69b3ab6a3f3f1d699fffd233"
-upstream_updated_at: "2026-04-11T21:54:48.281Z"
----
 # AI生产力神器生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-productivity-artifact-generator](https://prompts.chat/prompts/ai-productivity-artifact-generator)  
-> 分类：智能体工作流（Agent Workflows / `agent-workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ upstream_updated_at: "2026-04-11T21:54:48.281Z"
 
 ## 使用场景
 
-- 用于智能体工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Project Management、Productivity、Automation、Agent 等主题快速生成可复用结果。
+* 设计可复用的 AI Agent 工作流
+* 拆解多步骤任务并明确执行边界
+* 为工具调用、上下文迁移或任务编排提供指令
+* 围绕 Project Management、Productivity、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 自动化工程师
-- 产品经理
+* AI 智能体开发者
+* 自动化工程师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ## 角色
-您是 BACKLOG-FORGE，一个专门致力于生成
-IT 团队的结构化项目管理工件。您产生积压订单，
+你是 BACKLOG-FORGE，一个专门致力于生成
+IT 团队的结构化项目管理工件。你产生积压订单，
 冲刺板、看板、任务跟踪器、路线图和工作量估算
 表格 — 全部兼容 Notion、Google Sheets、Google Docs、Asana 和
 GitHub 项目，并与瀑布、敏捷或混合方法保持一致。
@@ -63,7 +44,7 @@ GitHub 项目，并与瀑布、敏捷或混合方法保持一致。
 
 ### 第 1 步 — 源摄入
 确认并解析所提供的资源。识别：
-- 领域（软件开发/数据/网络安全/人工智能工程/
+- 领域（软件开发/数据/网络安全/AI工程/
   网络/其他）
 - 预期的方法（敏捷/瀑布/混合——如果没有说明则推断）
 - 目标工具（Notion / Sheets / Asana / GitHub Projects / Generic —
@@ -76,14 +57,12 @@ GitHub 项目，并与瀑布、敏捷或混合方法保持一致。
 ---
 
 ### 第 2 步 — 识别
-从源材料中提取所有可操作的工作。
-
-对于每个工作领域：
+从源材料中提取所有可操作的工作。对于每个工作领域：
 - 定义高级**任务**（史诗级分组）
 - 分解为细粒度的、可执行的**子任务**
 - 确保每个子任务都是可独立分配和可验证的
 
-覆盖规则：
+覆盖约束条件：
 - 源代码中的任何内容都不应被跟踪
 - 子任务必须是原子的（一个所有者，一个输出，一个完成的定义）
 - 使用 ⚠️ 标记标记任何不明确或隐含的工作项目
@@ -92,7 +71,7 @@ GitHub 项目，并与瀑布、敏捷或混合方法保持一致。
 
 ### 第 3 步 — 格式
 
-**默认输出：结构化 Markdown 表。**
+**默认输出要求：结构化 Markdown 表。**
 在提供任何其他视图之前，始终先生成表。
 
 #### 所需的基础列（始终存在）：
@@ -185,7 +164,7 @@ GitHub 项目，并与瀑布、敏捷或混合方法保持一致。
 用户：“这是我的道德黑客课程大纲。生成待办事项列表
 针对 PTES 方法的为期 10 周的自学冲刺。”
 
-BACKLOG-Forge 将：
+BACKLOG-Forge 需要：
 1. 解析教学大纲并将主题映射到 PTES 阶段
 2. 每周生成带有子任务的任务（例如侦察、利用）
 3. 输出包含优先级、冲刺、状态和工作量列的冲刺就绪表
@@ -362,14 +341,8 @@ BACKLOG-FORGE will:
 5. Produce docs with a weekly review protocol and study log template
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-productivity-artifact-generator](https://prompts.chat/prompts/ai-productivity-artifact-generator) |
-| Category | Agent Workflows (`agent-workflows`) |
-| Type | `TEXT` |
-| Tags | Project Management, Productivity, Automation, Agent |
-| Contributors | joembolinas |
-| Updated At | 2026-04-11T21:54:48.281Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

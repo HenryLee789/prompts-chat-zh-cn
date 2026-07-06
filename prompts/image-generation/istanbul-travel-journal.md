@@ -1,42 +1,23 @@
----
-id: "cmjj5367m0001l504ha0hij1o"
-slug: "istanbul-travel-journal"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/istanbul-travel-journal"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1b61da6b82a9535e119f6ffa633c81adc8e01df7475b9513b36756f68ac182aa"
-upstream_updated_at: "2025-12-24T07:21:35.661Z"
----
 # 伊斯坦布尔旅游杂志
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[istanbul-travel-journal](https://prompts.chat/prompts/istanbul-travel-journal)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「伊斯坦布尔旅游杂志」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Travel、Art、Creative Writing、Storytelling 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Travel、Art、Creative Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -247,14 +228,8 @@ Istanbul Travel Journal
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [istanbul-travel-journal](https://prompts.chat/prompts/istanbul-travel-journal) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Travel, Art, Creative Writing, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-24T07:21:35.661Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

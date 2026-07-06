@@ -1,42 +1,24 @@
----
-id: "cmorink2q0007l504yae95sgx"
-slug: "adding-these-developments-in-a-gasifier-design-tool"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/adding-these-developments-in-a-gasifier-design-tool"
-category: "devops"
-category_name: "DevOps"
-category_zh: "DevOps"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d9d66f1d4bfce663f26b4a58dd1a9b76b01fe540e8dbc451ecd0fa7e252171cb"
-upstream_updated_at: "2026-05-04T18:11:56.895Z"
----
 # 将这些开发添加到气化器设计工具中
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[adding-these-developments-in-a-gasifier-design-tool](https://prompts.chat/prompts/adding-these-developments-in-a-gasifier-design-tool)  
-> 分类：DevOps（DevOps / `devops`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于DevOps场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「将这些开发添加到气化器设计工具中」执行DevOps 与运维自动化任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于DevOps相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成部署、CI/CD、容器化或监控方案
+* 排查环境、配置和基础设施问题
+* 规范脚本、流程和故障处理步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- DevOps 工程师
-- 后端工程师
-- 运维人员
-- 开发者
+* DevOps 工程师
+* 后端工程师
+* 运维人员
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 添加：
@@ -78,14 +60,8 @@ Add:
 9) It must ask me comparison between which gasifiers and once i ticked, it shows that in the summary sheet only not on the front page.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [adding-these-developments-in-a-gasifier-design-tool](https://prompts.chat/prompts/adding-these-developments-in-a-gasifier-design-tool) |
-| Category | DevOps (`devops`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | st897339 |
-| Updated At | 2026-05-04T18:11:56.895Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

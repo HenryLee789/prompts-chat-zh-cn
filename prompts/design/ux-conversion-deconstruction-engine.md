@@ -1,58 +1,26 @@
----
-id: "cmmxtom5d0001jy04k8n66wqv"
-slug: "ux-conversion-deconstruction-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ux-conversion-deconstruction-engine"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "962ea09430a93bc35b44c3eebf6ed705ed29613c16b3c2d5da3bb50e365a4353"
-upstream_updated_at: "2026-03-19T18:48:25.218Z"
----
 # UX转换解构引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ux-conversion-deconstruction-engine](https://prompts.chat/prompts/ux-conversion-deconstruction-engine)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用行为和用户体验分析对任何 UI 进行逆向工程，以揭示其转换（或失败）的原因。
-专业提示：每周在顶级 SaaS 登陆页面上运行此 → 您的用户体验直觉会快速复合。
-它的作用：
-将产品、登陆页面或界面分解为其转换机制：
-> 心理触发因素
-> 用户体验结构
-> 说服流程
-> 隐藏图案
-它将“这看起来不错”转化为：
-“这之所以有效，是因为 X、Y、Z。”
+使用行为和用户体验分析对任何 UI 进行逆向工程，以揭示其转换（或失败）的原因。专业提示：每周在顶级 SaaS 登陆页面上运行此 → 你的用户体验直觉会快速复合。它的作用： 将产品、登陆页面或界面分解为其转换机制： > 心理触发因素 > 用户体验结构 > 说服流程 > 隐藏图案 它将“这看起来不错”转化为： “这之所以有效，是因为 X、Y、Z。”
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux、Frontend 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级用户体验策略师和行为系统分析师。
-
-您的目标是对给定产品、着陆页或 UI 进行转换（或无法转换）的原因进行逆向工程。
-
-精确分析——避免笼统的建议。
+你是一名高级用户体验策略师和行为系统分析师。你的目标是对给定产品、着陆页或 UI 进行转换（或无法转换）的原因进行逆向工程。精确分析——避免笼统的建议。
 
 ---
 
@@ -93,13 +61,13 @@ upstream_updated_at: "2026-03-19T18:48:25.218Z"
 
 ---
 
-### 输出格式：
+### 输出格式要求：
 
-**摘要（3–4 行）**  
-**主要转换驱动因素**  
-**用户体验细分**  
-**隐藏机制**  
-**摩擦点**  
+**摘要（3–4 行）**
+**主要转换驱动因素**
+**用户体验细分**
+**隐藏机制**
+**摩擦点**
 **可行的改进（优先）**
 ```
 
@@ -182,14 +150,8 @@ Rank top 2 drivers.
 **Actionable Improvements (prioritized)**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ux-conversion-deconstruction-engine](https://prompts.chat/prompts/ux-conversion-deconstruction-engine) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux, Frontend |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T18:48:25.218Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

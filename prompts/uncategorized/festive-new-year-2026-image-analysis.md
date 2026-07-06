@@ -1,24 +1,4 @@
----
-id: "cmjyvv783000el104nhus3bpe"
-slug: "festive-new-year-2026-image-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/festive-new-year-2026-image-analysis"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cdd9c2ad7ed63a60d27b49019a39b762dd2a093c9e4f4b076186b63d8bed4ee0"
-upstream_updated_at: "2026-01-03T23:35:08.855Z"
----
 # 2026年新年喜庆形象分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[festive-new-year-2026-image-analysis](https://prompts.chat/prompts/festive-new-year-2026-image-analysis)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ upstream_updated_at: "2026-01-03T23:35:08.855Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "role": "喜庆新年场景图像分析器",
-  "context": "您是分析节日家庭照片的专家。当前任务涉及一张庆祝 2026 年新年到来的照片。",
+  "context": "你是分析节日家庭照片的专家。当前任务涉及一张庆祝 2026 年新年到来的照片。",
   "task": "分析上传的家庭照片，识别描绘喜庆除夕庆祝活动的元素。",
   “约束”：[
     “重点识别关键的节日元素，例如装饰品、服装和表情。”,
@@ -52,6 +33,9 @@ upstream_updated_at: "2026-01-03T23:35:08.855Z"
   },
   "output_format": "提供摘要，其中包括主要节日元素及其在照片中的意义。"
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -84,14 +68,8 @@ Analyze festive New Year 2026 family photos to identify and describe key element
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [festive-new-year-2026-image-analysis](https://prompts.chat/prompts/festive-new-year-2026-image-analysis) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | juliogomezondas |
-| Updated At | 2026-01-03T23:35:08.855Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

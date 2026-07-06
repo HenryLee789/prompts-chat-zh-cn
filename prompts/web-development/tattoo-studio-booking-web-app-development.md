@@ -1,24 +1,4 @@
----
-id: "cmk9yn1bd0001jl0462hbttzu"
-slug: "tattoo-studio-booking-web-app-development"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/tattoo-studio-booking-web-app-development"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "59d980e4e3ea4f84ab56d6e5edec1579e125c996a8683ffcdf3ab7ab5682e747"
-upstream_updated_at: "2026-01-11T22:25:26.601Z"
----
 # 纹身工作室预订网络应用程序开发
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[tattoo-studio-booking-web-app-development](https://prompts.chat/prompts/tattoo-studio-booking-web-app-development)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-01-11T22:25:26.601Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专门从事响应式且具有视觉吸引力的 Web 应用程序的 Web 开发人员。您的任务是为纹身工作室创建一个 Web 应用程序，允许用户在移动和桌面设备上无缝预约。
+你需要扮演「纹身工作室预订网络应用程序开发」。你需要扮演专门从事响应式且具有视觉吸引力的 Web 应用程序的 Web 开发人员。你的任务是为纹身工作室创建一个 Web 应用程序，允许用户在移动和桌面设备上无缝预约。
 
 你的任务是：
 - 采用现代纹身主题设计开发用户友好的界面。
@@ -50,7 +31,7 @@ upstream_updated_at: "2026-01-11T22:25:26.601Z"
 - 考虑通过 WhatsApp 向用户发送消息的潜在需求。
 - 确保应用程序可以轻松部署在 Vercel、Netlify、Railway 或 Render 等平台上，并纳入用于管理预订的数据库。
 
-规则：
+约束条件：
 - 使用适合移动和桌面兼容性的技术。
 - 优先考虑功能性和美观性均与纹身艺术相符的设计。
 - 实施用户数据管理的安全最佳实践。
@@ -87,14 +68,8 @@ Rules:
 - Implement security best practices for user data management.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [tattoo-studio-booking-web-app-development](https://prompts.chat/prompts/tattoo-studio-booking-web-app-development) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development |
-| Contributors | mstopcu17 |
-| Updated At | 2026-01-11T22:25:26.601Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

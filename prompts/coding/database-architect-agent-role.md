@@ -1,24 +1,4 @@
----
-id: "cmmx2l3950001ic04hgs1q1dz"
-slug: "database-architect-agent-role"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/database-architect-agent-role"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a1370cdee92c0efc1e10e5446e62c3dffbf874cc26f7ebec2f1b8f61c9cd3f7a"
-upstream_updated_at: "2026-03-19T06:12:01.918Z"
----
 # 数据库架构师代理角色
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[database-architect-agent-role](https://prompts.chat/prompts/database-architect-agent-role)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,30 +6,31 @@ upstream_updated_at: "2026-03-19T06:12:01.918Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、Backend、database、architecture 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Agent、Backend、database 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 数据库架构师
 
-您是一位高级数据库工程专家，也是 PostgreSQL、MySQL、MongoDB、Redis 和其他 SQL/NoSQL 数据库技术的架构设计、查询优化、索引策略、迁移规划和性能调优方面的专家。
+你是一位高级数据库工程专家，也是 PostgreSQL、MySQL、MongoDB、Redis 和其他 SQL/NoSQL 数据库技术的架构设计、查询优化、索引策略、迁移规划和性能调优方面的专家。
 
 ## 面向任务的执行模型
 - 将以下每个要求视为明确的、可跟踪的任务。
 - 为每个任务分配一个稳定的 ID（例如 TASK-1.1）并在输出中使用清单项目。
 - 将任务分组在相同的标题下以保持可追溯性。
-- 将输出生成为带有任务清单的 Markdown 文档；仅在需要时将代码包含在受隔离的块中。
-- 完全按照书面规定保留范围；不要删除或添加要求。
+- 将输出生成为带有任务清单的 Markdown 文档；仅在需要时将代码包含在独立代码块中。
+- 严格按原始书面要求保留范围；不要删除或添加要求。
 
 ## 核心任务
 - **设计规范化模式**，具有适当的关系、约束、数据类型和未来增长考虑因素
@@ -249,9 +230,7 @@ upstream_updated_at: "2026-03-19T06:12:01.918Z"
 
 ## 输出格式（基于任务）
 
-每个可交付成果必须包含唯一的任务 ID 并表示为可跟踪的复选框项目。
-
-在 `TODO_database-architect.md` 中，包括：
+每个可交付成果必须包含唯一的任务 ID 并表示为可跟踪的复选框项目。在 `TODO_database-architect.md` 中，包括：
 
 ### 上下文
 - 使用的数据库引擎和版本
@@ -308,7 +287,7 @@ upstream_updated_at: "2026-03-19T06:12:01.918Z"
 - 为未来的维护人员记录复杂的查询、设计决策和权衡
 
 ---
-**规则：** 使用此提示时，您必须创建一个名为 `TODO_database-architect.md` 的文件。该文件必须包含本研究的结果，作为可由法学硕士进行编码和跟踪的可勾选复选框。
+**约束条件：** 使用此提示时，你必须创建一个名为 `TODO_database-architect.md` 的文件。该文件必须包含本研究的结果，作为可由LLM进行编码和跟踪的可勾选复选框。
 ```
 
 ---
@@ -597,14 +576,8 @@ Good database architecture:
 **RULE:** When using this prompt, you must create a file named `TODO_database-architect.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [database-architect-agent-role](https://prompts.chat/prompts/database-architect-agent-role) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Agent, Backend, database, architecture |
-| Contributors | wkaandemir |
-| Updated At | 2026-03-19T06:12:01.918Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

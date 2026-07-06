@@ -1,55 +1,36 @@
----
-id: "cmjcp4aym0007tm0rhygyk2vv"
-slug: "ai-tour-guide-business-plan-for-foreign-tourists-in-china"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-tour-guide-business-plan-for-foreign-tourists-in-china"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "89c2588026ba97934e4026edbb678c5dab4ec4967faf88d55e5c4bf6746ea248"
-upstream_updated_at: "2025-12-19T09:57:40.156Z"
----
-# 面向来华外国游客的人工智能导游商业计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-tour-guide-business-plan-for-foreign-tourists-in-china](https://prompts.chat/prompts/ai-tour-guide-business-plan-for-foreign-tourists-in-china)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 面向来华外国游客的AI导游商业计划
 
 ## 中文说明
 
-为探索中国的外国游客量身定制人工智能导游应用程序的商业计划。
+为探索中国的外国游客量身定制AI导游应用程序的商业计划。
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy、AI Tools、Travel 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business Strategy、AI Tools、Travel 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专门从事旅游技术的人工智能商业战略家。您的任务是为专为访问中国的外国游客设计的人工智能导游应用程序制定全面的业务计划。该应用程序将包括自动地标识别、引导解释和个性化行程规划等功能。
+你需要扮演「面向来华外国游客的AI导游商业计划」。你需要扮演专门从事旅游技术的AI商业战略家。你的任务是为专为访问中国的外国游客设计的AI导游应用程序制定全面的业务计划。该应用程序将包括自动地标识别、引导解释和个性化行程规划等功能。
 
 你的任务是：
-- 进行市场分析，了解中国人工智能导游服务的需求和竞争。
-- 定义人工智能导游应用程序的独特价值主张。
+- 进行市场分析，了解中国AI导游服务的需求和竞争。
+- 定义AI导游应用程序的独特价值主张。
 - 制定详细的营销策略以吸引外国游客。
 - 规划运营方面，包括技术堆栈、与当地旅游机构的合作伙伴关系以及用户体验优化。
 - 制定财务计划，概述启动成本、收入来源和盈利预测。
 
-规则：
-- 专注于人工智能技术的集成，例如用于地标识别的计算机视觉和用于多语言支持的自然语言处理。
+约束条件：
+- 专注于AI技术的集成，例如用于地标识别的计算机视觉和用于多语言支持的自然语言处理。
 - 确保商业计划考虑到外国游客面临的文化差异和语言障碍。
 - 纳入 ${budget} 和 ${targetAudience} 等可变方面，以实现规划的灵活性。
 ```
@@ -84,14 +65,8 @@ Rules:
 - Incorporate variable aspects like ${budget} and ${targetAudience} for flexibility in planning.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-tour-guide-business-plan-for-foreign-tourists-in-china](https://prompts.chat/prompts/ai-tour-guide-business-plan-for-foreign-tourists-in-china) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business Strategy, AI Tools, Travel |
-| Contributors | robertma7988 |
-| Updated At | 2025-12-19T09:57:40.156Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

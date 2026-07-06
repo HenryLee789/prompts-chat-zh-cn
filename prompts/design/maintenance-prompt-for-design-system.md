@@ -1,24 +1,4 @@
----
-id: "cmmoirsbf0001jx046ewd96c1"
-slug: "maintenance-prompt-for-design-system"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/maintenance-prompt-for-design-system"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b7db3592263c9ca2ea12448630f970e34f425526351ff83d4f4b56d40203fced"
-upstream_updated_at: "2026-03-13T06:32:27.215Z"
----
-# 设计系统维护提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[maintenance-prompt-for-design-system](https://prompts.chat/prompts/maintenance-prompt-for-design-system)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 设计系统维护提示词
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-03-13T06:32:27.215Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名设计系统审核员，正在执行同步检查。
-
-将当前 CLAUDE.md 设计系统文档与
+你是一名设计系统审核员，正在执行同步检查。将当前 CLAUDE.md 设计系统文档与
 实际的代码库并生成漂移报告。
 
 ## 输入
@@ -78,7 +57,7 @@ upstream_updated_at: "2026-03-13T06:32:27.215Z"
    - 每种违规类型的计数和位置
 
 ## 输出
-降价报告包含：
+Markdown报告包含：
 - **摘要统计：** X 个新代币，Y 个已弃用，Z 个修改组件
 - **行动项目**按严重程度优先排序（破坏→不一致→美观）
 - **更新了 CLAUDE.md 部分** 准备复制粘贴（仅更改的部分）
@@ -144,14 +123,8 @@ A markdown report with:
 - **Updated CLAUDE.md sections** ready to copy-paste (only the changed parts)
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [maintenance-prompt-for-design-system](https://prompts.chat/prompts/maintenance-prompt-for-design-system) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:32:27.215Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

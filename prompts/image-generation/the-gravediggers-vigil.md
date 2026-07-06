@@ -1,24 +1,4 @@
----
-id: "cmkd6q1dl0001l204zthzorxn"
-slug: "the-gravediggers-vigil"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-gravediggers-vigil"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "661cfa9e1b701c5ec40a850b558093247691f588cb8b65c2136c4d41c1527f45"
-upstream_updated_at: "2026-01-13T22:50:11.110Z"
----
 # 掘墓人的守夜
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-gravediggers-vigil](https://prompts.chat/prompts/the-gravediggers-vigil)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-13T22:50:11.110Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "掘墓人的守夜",
   "description": "一幅令人难以忘怀的肖像，描绘了一位孤独的维多利亚时代人物在午夜守望着一座雾蒙蒙、破旧的墓地。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象来进行图像编辑。保留他的核心相似性。将拍摄对象 1（男性）转变为一位庄严的维多利亚时代掘墓人，站在一片广阔、雾气缭绕的墓地中。他拿着一盏生锈的灯笼，在他身后长满青苔的陵墓上投下长长的、不可思议的阴影。构图遵循电影般的 1:1 长宽比，将他紧紧地固定在腐烂的铁门上。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象来进行图像编辑。保留他的核心相似性。将拍摄对象 1（男性）转变为一位庄严的维多利亚时代掘墓人，站在一片广阔、雾气缭绕的墓地中。他拿着一盏生锈的灯笼，在他身后长满青苔的陵墓上投下长长的、不可思议的阴影。构图遵循电影般的 1:1 长宽比，将他紧紧地固定在腐烂的铁门上。",
   “详细信息”：{
     “年份”：“1888”，
     “类型”：“哥特式恐怖”，
@@ -201,14 +181,8 @@ A haunting portrait of a lone Victorian figure standing watch over a misty, decr
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-gravediggers-vigil](https://prompts.chat/prompts/the-gravediggers-vigil) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-13T22:50:11.110Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

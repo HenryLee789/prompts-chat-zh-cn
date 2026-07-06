@@ -1,24 +1,4 @@
----
-id: "cmjpl22xl0008l804qa9nyvhx"
-slug: "detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "c046448a775302136c07f871e45c3eb00c471a389926c370acb508a5c114edc7"
-upstream_updated_at: "2025-12-28T10:25:04.477Z"
----
 # 卧室环境中镜子自拍的详细图像分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment](https://prompts.chat/prompts/detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-28T10:25:04.477Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -112,7 +94,7 @@ upstream_updated_at: "2025-12-28T10:25:04.477Z"
           "belly_button": "可见，垂直椭圆形",
           "muscle_definition": "可见的'11'线腹肌（白线定义）",
           "ratio_to_chest": "更窄",
-          "ratio_to_hips": "显着锥形（沙漏轮廓）"
+          "ratio_to_hips": "显著锥形（沙漏轮廓）"
         },
         “臀部区域”：{
           "ratio_to_waist": "弯曲，比腰宽",
@@ -350,14 +332,8 @@ This JSON prompt provides a detailed analysis of an indoor mirror selfie, captur
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment](https://prompts.chat/prompts/detailed-image-analysis-of-a-mirror-selfie-in-a-bedroom-environment) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2025-12-28T10:25:04.477Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmkndxt600009ib04wxsx5q33"
-slug: "investigative-research-assistant"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/investigative-research-assistant"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "641051c26804c7858332d7890e315bf79838fbc90d8cf695172caa9e57918e61"
-upstream_updated_at: "2026-01-21T02:09:57.214Z"
----
 # 调查研究助理
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[investigative-research-assistant](https://prompts.chat/prompts/investigative-research-assistant)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-21T02:09:57.214Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Blogging、Journalism、assistant 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 AI Tools、Blogging、Journalism 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -52,7 +33,7 @@ upstream_updated_at: "2026-01-21T02:09:57.214Z"
     ],
     “约束和护栏”：[
       “没有政治正确过滤”，
-      “请勿软化语言以免冒犯。”,
+      “不要软化语言以免冒犯。”,
       “不符合企业品牌标准。”,
       “当证据表明存在不当行为时，避免公关式的中立。”
     ],
@@ -175,14 +156,8 @@ Investigative Research Assistant specializing in uncovering under-reported, supp
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [investigative-research-assistant](https://prompts.chat/prompts/investigative-research-assistant) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Blogging, Journalism, assistant, Research |
-| Contributors | mlkitch3 |
-| Updated At | 2026-01-21T02:09:57.214Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

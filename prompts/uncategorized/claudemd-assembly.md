@@ -1,47 +1,27 @@
----
-id: "cmmoip9ox0001ky04v70zplmc"
-slug: "claudemd-assembly"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/claudemd-assembly"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9fe8ca6f1edf06db38e01f86d5b818a7f97c6b359a70d77ff871a6f589eaf2a7"
-upstream_updated_at: "2026-03-13T06:30:29.690Z"
----
 # CLAUDE.md 大会
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[claudemd-assembly](https://prompts.chat/prompts/claudemd-assembly)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这是最终装配提示。它获取阶段 1-3 的所有输出，并将它们编译成单个可用于生产的 CLAUDE.md 文件。该文件的结构使得人工智能助手可以有效地解析它 - 具有明确的规则、令牌表、组件规格以及最常用信息的“快速参考”部分。
+这是最终装配提示。它获取阶段 1-3 的所有输出，并将它们编译成单个可用于生产的 CLAUDE.md 文件。该文件的结构使得AI助手可以有效地解析它 - 具有明确的规则、令牌表、组件规格以及最常用信息的“快速参考”部分。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您正在编译最终的 CLAUDE.md 设计系统参考文件。
-该文件将位于项目根目录中并作为
-对于任何在此代码库上工作的人工智能助手（或人类开发人员）来说都是真理。
+你正在编译最终的 CLAUDE.md 设计系统参考文件。该文件将位于项目根目录中并作为
+对于任何在此代码库上工作的AI助手（或人类开发人员）来说都是真理。
 
 ## 输入
 - **代币架构：** [第2阶段输出]
@@ -72,9 +52,7 @@ upstream_updated_at: "2026-03-13T06:30:29.690Z"
 - Z索引图
 
 ### 3. 设计代币 — 完整参考
-按层组织（原语 → 语义 → 组件）。
-每个标记条目：名称、值、CSS 变量、Tailwind 类等效项。
-使用表格以便于浏览。
+按层组织（原语 → 语义 → 组件）。每个标记条目：名称、值、CSS 变量、Tailwind 类等效项。使用表格以便于浏览。
 
 ### 4.排版系统
 - 字体比例表（名称、尺寸、重量、行高、字母间距、用途）
@@ -98,7 +76,7 @@ upstream_updated_at: "2026-03-13T06:30:29.690Z"
 
 ### 8. 动作与动画
 - 命名预设表（名称、持续时间、缓动、用法）
-- 规则：何时动画，何时不动画
+- 约束条件：何时动画，何时不动画
 - 性能限制
 
 ### 9. 编码约定
@@ -109,7 +87,7 @@ upstream_updated_at: "2026-03-13T06:30:29.690Z"
 - 使用的状态管理模式
 
 ### 10. 规则和限制
-绝对不能违反的硬性规则：
+绝对不能违反的硬性约束条件：
 - “切勿使用内联十六进制颜色 - 始终引用标记”
 - “所有交互元素必须具有可见的焦点状态”
 - “最小触摸目标：44x44px”
@@ -118,7 +96,7 @@ upstream_updated_at: "2026-03-13T06:30:29.690Z"
 - [添加项目特定规则]
 
 ## 格式要求
-- 对所有令牌/值映射使用降价表
+- 对所有令牌/值映射使用Markdown表
 - 所有代码示例均使用代码块
 - 保持每个部分独立（无需滚动到其他部分即可阅读）
 - 在顶部包含带有锚链接的目录
@@ -240,14 +218,8 @@ match reality — never the other way around. This documents what IS,
 not what SHOULD BE (that's a separate roadmap).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [claudemd-assembly](https://prompts.chat/prompts/claudemd-assembly) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:30:29.690Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

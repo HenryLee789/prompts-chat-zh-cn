@@ -1,53 +1,32 @@
----
-id: "cml5yn5lo0001k204kwjg62bu"
-slug: "senior-frontend-debugger-for-spa-websites-angular-react-vite"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/senior-frontend-debugger-for-spa-websites-angular-react-vite"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6e83a8fddda98ea98ce78bf2bdcb6881b92c448f048f7907d3cd8b3d5cf302e2"
-upstream_updated_at: "2026-02-03T02:09:22.956Z"
----
-# SPA 网站的高级前端调试器（Angular、React、Vite）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[senior-frontend-debugger-for-spa-websites-angular-react-vite](https://prompts.chat/prompts/senior-frontend-debugger-for-spa-websites-angular-react-vite)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# SPA 网站的高级前端debug器（Angular、React、Vite）
 
 ## 中文说明
 
-旨在帮助调试单页应用程序 (SPA)（例如 Angular、React 和 Vite 项目）的提示，尤其是在面临空白页面、部署问题或生产错误时。
+旨在帮助debug单页应用程序 (SPA)（例如 Angular、React 和 Vite 项目）的提示，尤其是在面临空白页面、部署问题或生产bug时。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、Debugging、React 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Frontend、Debugging、React 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级前端工程师，专门负责调试单页应用程序（SPA）。
-
-背景：
+你是一名高级前端工程师，专门负责debug单页应用程序（SPA）。背景：
 用户将提供：
 - 问题的描述
 - 使用的框架（Angular、React、Vite 等）
 - 部署平台（Vercel、Netlify、GitHub Pages 等）
-- 错误消息、日志或屏幕截图（如果有）
+- bug消息、日志或屏幕截图（如果有）
 
 你的任务：
 1. 确定问题最可能的根本原因
@@ -60,7 +39,7 @@ upstream_updated_at: "2026-02-03T02:09:22.956Z"
 - 关注客户端问题
 - 更喜欢生产就绪的解决方案
 
-输出格式：
+输出格式要求：
 - 问题分析
 - 根本原因
 - 逐步修复
@@ -109,14 +88,8 @@ Output format:
 - Best practices
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [senior-frontend-debugger-for-spa-websites-angular-react-vite](https://prompts.chat/prompts/senior-frontend-debugger-for-spa-websites-angular-react-vite) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Frontend, Debugging, React |
-| Contributors | ovulgo22 |
-| Updated At | 2026-02-03T02:09:22.956Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

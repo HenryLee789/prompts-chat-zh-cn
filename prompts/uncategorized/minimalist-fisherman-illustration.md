@@ -1,24 +1,4 @@
----
-id: "cmlz63i660009k204rc22ozsx"
-slug: "minimalist-fisherman-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/minimalist-fisherman-illustration"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ea248a872b170e22df4fc13e3858405988e43d54fe3035276ae353eb39b8707f"
-upstream_updated_at: "2026-02-24T07:42:30.171Z"
----
 # 极简渔夫图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[minimalist-fisherman-illustration](https://prompts.chat/prompts/minimalist-fisherman-illustration)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-24T07:42:30.171Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 creative、visual、abstract、design 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 creative、visual、abstract 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -53,7 +34,7 @@ upstream_updated_at: "2026-02-24T07:42:30.171Z"
     "camera_angle": "广角镜头",
     "depth_of_field": "深",
     "focus": "小渔夫与巨眼的关系",
-    “取景”：“构图使用了显着的负空间，将小渔夫放置在左上角，以强调他下方蓝色形状的广阔，营造出戏剧性的规模感。”
+    “取景”：“构图使用了显著的负空间，将小渔夫放置在左上角，以强调他下方蓝色形状的广阔，营造出戏剧性的规模感。”
   },
   "description_short": "极简主义图解，描绘了一个人在巨型蓝鲸背上钓鱼，蓝鲸从下面看着他。",
   “环境”：{
@@ -215,14 +196,8 @@ Create a minimalist vector illustration of a man fishing on the back of a giant 
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [minimalist-fisherman-illustration](https://prompts.chat/prompts/minimalist-fisherman-illustration) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | creative, visual, abstract, design |
-| Contributors | gunebak4n |
-| Updated At | 2026-02-24T07:42:30.171Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

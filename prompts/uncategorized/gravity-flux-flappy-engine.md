@@ -1,24 +1,4 @@
----
-id: "cmp9q67ay000fl204tz4encg9"
-slug: "gravity-flux-flappy-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gravity-flux-flappy-engine"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "81601c8c3aecb7c3fc4347d7428d53f4e7cb490ea54e98bd4e6994ba5362ab9c"
-upstream_updated_at: "2026-05-17T12:02:06.068Z"
----
 # 重力通量 Flappy 引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gravity-flux-flappy-engine](https://prompts.chat/prompts/gravity-flux-flappy-engine)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,38 +6,27 @@ upstream_updated_at: "2026-05-17T12:02:06.068Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Games 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Games 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-我希望你成为一名顶级的基于物理的游戏程序员。生成建筑飞行逃生游戏的单个文件 (index.html) 版本。
-
-游戏规格：
+你需要扮演「重力通量 Flappy 引擎」。我希望你成为一名顶级的基于物理的游戏程序员。生成建筑飞行逃生游戏的单个文件 (index.html) 版本。游戏规格：
 
 标题：重力通量
 
-核心机制：在关闭和扩大有机几何间隙的环境中导航自膨胀软体球体。
+核心机制：在关闭和扩大有机几何间隙的环境中导航自膨胀软体球体。目标：保持高度并在不接触的情况下通过动态结构门。技术要求：
 
-目标：保持高度并在不接触的情况下通过动态结构门。
-
-技术要求：
-
-单个文件：组合了 HTML、CSS 和普通 JavaScript，没有依赖关系。
-
-渲染：2D Canvas API。所有障碍物形状都必须按程序生成数学曲线（贝塞尔路径），这些曲线使用正弦波随时间不断变化。
-
-音频：利用网络音频 API 合成环境脉冲声和通过门时的反应声扫描。
-
-设计风格：禅意抽象艺术风格。使用带有深柔阴影（画布上的阴影模糊）的单色柔和调色板来强调空间深度和流体运动。
+单个文件：组合了 HTML、CSS 和普通 JavaScript，没有依赖关系。渲染：2D Canvas API。所有障碍物形状都必须按程序生成数学曲线（贝塞尔路径），这些曲线使用正弦波随时间不断变化。音频：利用网络音频 API 合成环境脉冲声和通过门时的React声扫描。设计风格：禅意抽象艺术风格。使用带有深柔阴影（画布上的阴影模糊）的单色柔和调色板来强调空间深度和流体运动。
 ```
 
 ---
@@ -96,14 +65,8 @@ Audio: Utilize the Web Audio API to synthesize ambient pulse sounds and reactive
 Design style: Zen-like abstract art style. Uses a monochromatic pastel palette with deep soft shadows (shadowBlur on canvas) to emphasize spatial depth and fluid motion.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gravity-flux-flappy-engine](https://prompts.chat/prompts/gravity-flux-flappy-engine) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Games |
-| Contributors | loshu2000 |
-| Updated At | 2026-05-17T12:02:06.068Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmo1nxm6a0001k004p6xsj3xz"
-slug: "notion-transcript-designer-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/notion-transcript-designer-prompt"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "633035f53f757c3232f3c799f2aada69880a69abb92f671d1188f90e09a0fd95"
-upstream_updated_at: "2026-04-16T15:57:57.915Z"
----
-# 概念转录设计器提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[notion-transcript-designer-prompt](https://prompts.chat/prompts/notion-transcript-designer-prompt)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 概念转录设计器提示词
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-04-16T15:57:57.915Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 输入
@@ -81,6 +61,9 @@ upstream_updated_at: "2026-04-16T15:57:57.915Z"
 5. 可交付成果
 
 仅提交要粘贴到 Notion 中的 Notion 就绪页面内容（仅此而已）。
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -141,14 +124,8 @@ Enhance fluidity and consistency without introducing new information
 Submit solely the Notion-ready page content to be pasted into Notion (nothing else).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [notion-transcript-designer-prompt](https://prompts.chat/prompts/notion-transcript-designer-prompt) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | AI Tools |
-| Contributors | youssefkhalafabdullatif |
-| Updated At | 2026-04-16T15:57:57.915Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

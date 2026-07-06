@@ -1,42 +1,23 @@
----
-id: "cmjomfi8i0001i704m3c0ulnm"
-slug: "cinematic-triptych-a-day-in-the-countryside"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-triptych-a-day-in-the-countryside"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "49e3257af8dc5ded73155e95ddab950560b5aa735d159d03f4161a70954aed4b"
-upstream_updated_at: "2025-12-27T18:15:49.827Z"
----
 # 电影三联画：乡村的一天
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-triptych-a-day-in-the-countryside](https://prompts.chat/prompts/cinematic-triptych-a-day-in-the-countryside)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创作一部电影三联画，捕捉一位年轻女子在乡村度过的宁静的一天。此提示将指导您使用构图、灯光和情绪等元素生成摄影叙事，讲述一个女性穿越自然之旅的宁静故事。
+创作一部电影三联画，捕捉一位年轻女子在乡村度过的宁静的一天。此提示将指导你使用构图、灯光和情绪等元素生成摄影叙事，讲述一个女性穿越自然之旅的宁静故事。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Storytelling 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -211,14 +192,8 @@ Create a cinematic triptych capturing a serene day in the countryside with a you
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-triptych-a-day-in-the-countryside](https://prompts.chat/prompts/cinematic-triptych-a-day-in-the-countryside) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-27T18:15:49.827Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

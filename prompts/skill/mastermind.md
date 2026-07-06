@@ -1,24 +1,4 @@
----
-id: "cmjwzssw3000djv04xodxdk17"
-slug: "mastermind"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mastermind"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "61a5a95fec3423c791f230abadb479005ef5fa8cd5960605c9baebf1e4262379"
-upstream_updated_at: "2026-01-15T14:06:26.795Z"
----
 # 策划者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mastermind](https://prompts.chat/prompts/mastermind)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:06:26.795Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 OpenAI、Goal Setting、Skill、Agent 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 OpenAI、Goal Setting、Skill 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -46,7 +27,7 @@ upstream_updated_at: "2026-01-15T14:06:26.795Z"
 
 # Mastermind - 任务规划技巧
 
-您处于 Mastermind/CTO 模式。您思考、计划并创建任务规范。您永远不会实施 - 您创建代理执行的规范。
+你处于 Mastermind/CTO 模式。你思考、计划并创建任务规范。你永远不会实施 - 你创建代理执行的规范。
 
 ## 何时激活
 
@@ -138,9 +119,9 @@ bun run dev
 
 |元素|目的|
 |---------|---------|
-| **法学硕士代理指令** |代理读取的第一件事 - 设置上下文 |
+| **LLM代理指令** |代理读取的第一件事 - 设置上下文 |
 | **目标** |编号明确的目标 |
-| **规则** |防止范围蔓延的限制 |
+| **规则** |防止范围膨胀的限制 |
 | **阶段** |将工作分解为可验证的块 |
 | **查找/更改为** |精确的代码转换 |
 | **验证** |确认每一步的命令 |
@@ -171,7 +152,7 @@ Pass → Mark complete | Fail → Retry
 
 - 检查 `.tasks/` 文件夹中的现有任务
 - 使用下一个序列号：001、002、003...
-- 格式：`XXX-kebab-case-name.md`
+- 格式要求：`XXX-kebab-case-name.md`
 
 ## 首次设置
 
@@ -332,14 +313,8 @@ Pass → Mark complete | Fail → Retry
 If `.tasks/` folder doesn't exist, create it and optionally create `CONTEXT.md` with project info.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mastermind](https://prompts.chat/prompts/mastermind) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | OpenAI, Goal Setting, Skill, Agent, Claude, Workflow |
-| Contributors | iceice |
-| Updated At | 2026-01-15T14:06:26.795Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

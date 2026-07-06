@@ -20,11 +20,12 @@
 - 上游 prompt：2006 条
 - 中文增强 prompt 文件：2006 个
 - 分类目录：53 个
-- 翻译状态：全部已生成中文正文，并保留英文原文对照
+- 翻译状态：全部为 `ai_prompt_localized`，并保留英文原文对照
 - 上游英文说明：[`README_EN.md`](README_EN.md)
 - 中文 prompt 索引：[`prompts/INDEX.md`](prompts/INDEX.md)
 - 机器可读索引：[`prompts/index.json`](prompts/index.json)
 - 同步状态：[`SYNC_STATUS.md`](SYNC_STATUS.md)
+- 抽样质检报告：[`TRANSLATION_QA.md`](TRANSLATION_QA.md)
 
 ## 目录结构
 
@@ -47,7 +48,8 @@
 │   ├── prompts.zh-cache.json # 中文翻译缓存
 │   └── sync-state.json       # 同步状态与内容哈希
 └── scripts/
-    └── sync.js               # 同步、差异检测、翻译与生成脚本
+    ├── sync.js               # 同步、差异检测、翻译与生成脚本
+    └── localize-prompts.js   # Prompt 专用语义本地化升级脚本
 ```
 
 上游当前版本的 prompt 数据来自官方接口 `https://prompts.chat/prompts.json?full_content=true`，其中包含真实分类、slug、正文、类型、标签和更新时间。本仓库据此生成 `prompts/<category>/<slug>.md` 形式的中文阅读目录。
@@ -68,11 +70,11 @@ prompts/coding/code-review-specialist--bxwt0mke.md
 - 中文说明
 - 使用场景说明
 - 适用人群
-- 中文 Prompt 正文
+- 中文 Prompt
 - 英文原文标题
 - 英文原文说明
 - 英文原文 Prompt 正文
-- 来源、分类、类型、标签、贡献者和上游更新时间
+- 来源声明
 
 示例结构：
 
@@ -85,11 +87,15 @@ prompts/coding/code-review-specialist--bxwt0mke.md
 
 ## 适用人群
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ---
 
 ## English Original
+
+---
+
+## Source
 ```
 
 ## 使用方法
@@ -118,7 +124,7 @@ rg "Code Review" prompts
 
 ### 复制使用
 
-打开任意 prompt 文件，优先复制 `## 中文 Prompt 正文` 下的内容。如果需要确认原始约束，查看同文件中的 `## English Original`。
+打开任意 prompt 文件，优先复制 `## 中文 Prompt` 下的内容。如果需要确认原始约束，查看同文件中的 `## English Original`。
 
 ## 分类说明
 
@@ -136,12 +142,13 @@ rg "Code Review" prompts
 
 ## 持续同步流程
 
-同步脚本位于 [`scripts/sync.js`](scripts/sync.js)。
+同步脚本位于 [`scripts/sync.js`](scripts/sync.js)，Prompt 专用语义本地化脚本位于 [`scripts/localize-prompts.js`](scripts/localize-prompts.js)。
 
 推荐流程：
 
 ```bash
 node scripts/sync.js --provider=google --concurrency=4
+npm run localize:zh
 ```
 
 脚本会执行：
@@ -151,8 +158,9 @@ node scripts/sync.js --provider=google --concurrency=4
 3. 对比 `data/sync-state.json` 中的内容哈希
 4. 复用已有 `data/prompts.zh-cache.json` 翻译缓存
 5. 只翻译新增或发生变化的 prompt
-6. 重新生成 `prompts/` 中文增强目录
-7. 更新 `prompts/index.json`、`prompts/INDEX.md` 和 `SYNC_STATUS.md`
+6. 运行 Prompt 专用语义本地化规则，将中文内容升级为可直接复制给 AI 使用的指令版
+7. 重新生成 `prompts/` 中文增强目录
+8. 更新 `prompts/index.json`、`prompts/INDEX.md`、`SYNC_STATUS.md` 和 `TRANSLATION_QA.md`
 
 ### 翻译提供方
 
@@ -166,9 +174,11 @@ node scripts/sync.js --provider=ollama
 
 # 只根据缓存重新生成文件，不触发翻译
 node scripts/sync.js --generate-only --provider=none
+npm run localize:zh
 
 # 只重试失败项
 node scripts/sync.js --retry-failed --provider=google
+npm run localize:zh
 ```
 
 ### 未来更新流程
@@ -177,16 +187,18 @@ node scripts/sync.js --retry-failed --provider=google
 2. 运行同步脚本
 3. 自动 diff 新增和修改项
 4. 自动翻译新增或变更的 prompt
-5. 生成中文版本更新
-6. 人工抽样校对关键 prompt
-7. 提交更新
+5. 运行 `npm run localize:zh`，生成 Prompt 专用语义本地化版本
+6. 生成中文版本更新和抽样质检报告
+7. 人工抽样校对关键 prompt
+8. 提交更新
 
 ## 翻译标准
 
 本仓库遵循以下翻译原则：
 
-- 不机械直译，优先保证中文自然可读
+- 不机械直译，优先保证中文 Prompt 的指令效果
 - 不改变原 prompt 的角色、约束、变量和输出结构
+- 不新增原 prompt 没有的任务目标，不删除关键限制
 - 编程类 prompt 保留技术术语、变量、代码块和格式约束
 - 营销类 prompt 适度中文化表达，但不改写原目标
 - AI 角色类 prompt 保持专业、清晰、可执行

@@ -1,53 +1,34 @@
----
-id: "cmq5b1zzi0004la04htszgti1"
-slug: "shadcn-component-adapter-for-cursor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/shadcn-component-adapter-for-cursor"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d9de37ad8c9ef5dd3cda65d6b0d7f1a7cc17dbd96100b9aef67003df927be208"
-upstream_updated_at: "2026-06-08T16:20:34.474Z"
----
 # shadcn 光标组件适配器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[shadcn-component-adapter-for-cursor](https://prompts.chat/prompts/shadcn-component-adapter-for-cursor)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于Vibe Coding场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「shadcn 光标组件适配器」执行Vibe Coding 原型开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # shadcn 组件视觉适配器
 
 ## 🎯 目标
-重构位于 `${component_file_path}` 的现有 `${component_name}` 组件，以匹配参考组件的**视觉设计、结构和行为**：
+refactor位于 `${component_file_path}` 的现有 `${component_name}` 组件，以匹配参考组件的**视觉设计、结构和行为**：
 
 > ${install_command:bunx --bun shadcn@latest add accordion}
 ${reference_url:} ← 可选；如果不存在文档页面，则留空
 
-不要替换业务逻辑、现有的 props 接口或数据获取模式。保护它们。
-仅适应**视觉层**：标记结构、类名称、动画和可访问性属性。
+不要替换业务逻辑、现有的 props 接口或数据获取模式。保护它们。仅适应**视觉层**：标记结构、类名称、动画和可访问性属性。
 
 ---
 
@@ -62,9 +43,7 @@ ${reference_url:} ← 可选；如果不存在文档页面，则留空
    - **消耗上下文提供者或自定义挂钩**。
    - **子组件**呈现及其所在位置。
    - **事件处理程序**和向父级公开的回调。
-3. 列出每个 **import** — 标记任何与 shadcn 原语冲突或可以被 shadcn 原语替换的内容。
-
-在接触任何代码之前输出一个简短的审计表：
+3. 列出每个 **import** — 标记任何与 shadcn 原语冲突或可以被 shadcn 原语替换的内容。在接触任何代码之前输出一个简短的审计表：
 
 |项目 |当前值|行动|
 |------|--------------|--------|
@@ -101,18 +80,18 @@ IF ${reference_url} 为空→读取CLI命令下载的文件
 
 ---
 
-## 🛠 步骤 4 — 重构组件
+## 🛠 步骤 4 — refactor组件
 
 将步骤 3 中的视觉结构应用到步骤 1 中的现有组件。
 
-### 规则：
+### 约束条件：
 - ✅ 保留所有**现有的 prop 名称和类型**，除非存在直接的 shadcn 等效项。
 - ✅ 保留所有**数据获取、业务逻辑和回调**。
 - ✅ 使用 **`forwardRef`** 包裹 Radix 原语并展开 `...props` 以保持灵活性。
 - ✅ 使用 `cn()` 进行所有类名合并 — 切勿使用字符串连接。
 - ✅ 如果参考组件使用命名复合子组件（例如 `Accordion`、`AccordionItem`、`AccordionTrigger`、`AccordionContent`），则导出它们。
-- ❌ 不要导入生成的 shadcn 文件并重新导出它 — 在重构文件中构建内联原语以保持逻辑位于同一位置。
-- ❌ 未经明确指示，请勿添加参考组件中不存在的 Tailwind 类。
+- ❌ 不要导入生成的 shadcn 文件并重新导出它 — 在refactor文件中构建内联原语以保持逻辑位于同一位置。
+- ❌ 未经明确指示，不要添加参考组件中不存在的 Tailwind 类。
 
 ### 响应行为 (`${responsive_breakpoints:sm md lg}`)：
 应用移动优先响应类。确认 `tailwind.config.ts` 中的当前断点符合项目的约定。如果引用使用容器查询，请安装 `@tailwindcss/container-queries`。
@@ -145,7 +124,7 @@ IF ${reference_url} 为空→读取CLI命令下载的文件
 
 提供结果为：
 
-1. **`${component_file_path}`** — 完全重构的组件文件。
+1. **`${component_file_path}`** — 完全refactor的组件文件。
 2. **`${components_dir:components/ui}/${shadcn_component_slug}.tsx`** — shadcn 原语（仅当需要且不是由 CLI 生成时）。
 3. **`lib/utils.ts`** — 仅当需要创建或更新时。
 4. **布局/提供程序差异** — 仅当需要添加提供程序时。
@@ -167,7 +146,7 @@ IF ${reference_url} 为空→读取CLI命令下载的文件
 - 框架：**${framework:Next.js 14+ App Router}**
 - 样式：仅限 **Tailwind CSS ${tailwind_version:3}** — 无内联样式、无 CSS 模块、无样式组件。
 - TypeScript：**严格模式**。所有新代码都必须完整键入。
-- 除非存在直接的对等冲突，否则请勿升级或降级任何现有依赖项版本。
+- 除非存在直接的对等冲突，否则不要升级或降级任何现有依赖项版本。
 ```
 
 ---
@@ -317,14 +296,8 @@ Confirm that `globals.css` contains the required CSS custom properties. If the r
 - Do not upgrade or downgrade any existing dependency version unless there is a direct peer conflict.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [shadcn-component-adapter-for-cursor](https://prompts.chat/prompts/shadcn-component-adapter-for-cursor) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | fariasandreluiz |
-| Updated At | 2026-06-08T16:20:34.474Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

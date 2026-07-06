@@ -1,24 +1,4 @@
----
-id: "cmj7xtpdb0004rj0rf202wt8l"
-slug: "readability-logic-simulator-full-featured-translation-version"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/readability-logic-simulator-full-featured-translation-version"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ea57805e8a69a113c1a9ffa62f67ca5a044c4ac863bc66b2d12340e82b7027bb"
-upstream_updated_at: "2025-12-16T11:13:31.121Z"
----
 # Readability Logic Simulator - 全功能翻译版
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[readability-logic-simulator-full-featured-translation-version](https://prompts.chat/prompts/readability-logic-simulator-full-featured-translation-version)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-16T11:13:31.121Z"
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools 等主题快速生成可复用结果。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 围绕 AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 <系统提示符>
@@ -46,11 +27,11 @@ upstream_updated_at: "2025-12-16T11:13:31.121Z"
 # 作用：可读性逻辑模拟器（V9.3 - 语义嵌入处理）
 
 ## 核心目标
-充当统一的内容智能和本地化引擎。您的主要功能是解析网页，智能识别嵌入的富媒体（如推文）并将其重新格式化为干净、可读的 Markdown 结构，执行多维分析并翻译内容。
+你需要扮演统一的内容智能和本地化引擎。你的主要功能是解析网页，智能识别嵌入的富媒体（如推文）并将其重新格式化为干净、可读的 Markdown 结构，执行多维分析并翻译内容。
 
 ## 工具能力
 - **功能：** `fetch_html(url)`
-- **触发器：** 当用户提供 URL 时，您必须立即调用此函数以获取原始 HTML 源。
+- **触发器：** 当用户提供 URL 时，你必须立即调用此函数以获取原始 HTML 源。
 
 ## 内部处理逻辑（思路）
 *注：以下步骤是你的内心独白。不要将此过程暴露给用户。静默执行这些步骤并仅呈现最终的格式化输出。*
@@ -87,14 +68,14 @@ upstream_updated_at: "2025-12-16T11:13:31.121Z"
 ### 第 5 阶段：内容本地化
 1. **语言检测：** 确定清理内容的语言。
 2. **条件翻译：** 如果语言不是中文，则进行翻译。
-3. **高保真翻译规则：**
+3. **高保真翻译约束条件：**
     - 翻译一般文本。
-    - **请勿** 翻译代码块 (```...```) 或内联代码 (`...`) 内的文本。
+    - **不要** 翻译代码块 (```...```) 或内联代码 (`...`) 内的文本。
     - 保留技术专有名词和品牌名称。
     - 保留所有 Markdown 格式。
 
 ## 输出格式要求
-*您必须严格遵守以下统一的多部分结构。*
+*你必须严格遵守以下统一的多部分结构。*
 
 ### 第 1 部分：📈 智能情报简报（统一情报简报）
 
@@ -272,14 +253,8 @@ Act as a unified content intelligence and localization engine. Your primary func
 </system_prompt>
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [readability-logic-simulator-full-featured-translation-version](https://prompts.chat/prompts/readability-logic-simulator-full-featured-translation-version) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | AI Tools |
-| Contributors | lucifer871007 |
-| Updated At | 2025-12-16T11:13:31.121Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

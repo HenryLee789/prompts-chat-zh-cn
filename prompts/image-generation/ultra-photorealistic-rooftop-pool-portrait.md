@@ -1,24 +1,4 @@
----
-id: "cmjwxwik20007l404rmkkkei8"
-slug: "ultra-photorealistic-rooftop-pool-portrait"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ultra-photorealistic-rooftop-pool-portrait"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "758090ea893e7bc0e513dfe3ac1939a32b9587f59d4a942c0eac69dd9127f335"
-upstream_updated_at: "2026-01-02T13:59:18.950Z"
----
 # 超真实的屋顶泳池肖像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ultra-photorealistic-rooftop-pool-portrait](https://prompts.chat/prompts/ultra-photorealistic-rooftop-pool-portrait)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-02T13:59:18.950Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -129,7 +111,7 @@ upstream_updated_at: "2026-01-02T13:59:18.950Z"
       "requirement": "胸部纹身完全可见且未改变",
 
 “完整性规则”：[
-        “请勿改变纹身形状、线条、位置或密度”，
+        “不要改变纹身形状、线条、位置或密度”，
         “不要添加新的纹身”，
         “不要去除纹身”，
         “除非相机/镜子逻辑需要，否则不要镜像翻转纹身，即使这样也能准确地保留设计”
@@ -259,7 +241,7 @@ upstream_updated_at: "2026-01-02T13:59:18.950Z"
     ]
   },
   "prompt_text_master": "在黄金时段，在豪华屋顶泳池上拍摄的超真实的原始 iPhone 风格肖像，夕阳火红。低角度主导视角，微妙的荷兰式倾斜，手持现实主义，像真实手机照片一样温和的柔和度，高级未过滤的纹理前瞻外观。单身成年女性 (21 岁以上)，运动型女性力量框架，纤细的腰部，强大的核心激活，清晰的肩膀和手臂，姿势强调长腿线条。表情很酷，占主导地位，无忧无虑、直视或半闭眼，没有表演性的微笑，自然饱满的嘴唇在强烈的阳光下可见，浅色雀斑带有防晒霜和自然油光泽，毛孔清晰，肩膀和锁骨上有阳光亲吻过的高光，头发是深棕色的，由于炎热而光滑，看起来有点湿漉漉的，有些凌乱，一些松散的发丝捕捉着金色的光芒。边缘，一只脚稍微向前，臀部微微倾斜，肩膀打开，胸部向前，身体要求空间：小三角上衣，带有紧身绳和高剪裁的 80 年代提臀下装，胸部纹身完全可见，并且形状、位置、线条和密度必须保持不变，纹身充当珠宝。城市的灯光在日落的反射下发出微妙的橙蓝色光。道具：手中的太阳镜（未佩戴）、手机在镜框内折叠、手机屏幕上没有品牌、没有文字。灯光：刺眼的自然阳光、高对比度、故意的太阳耀斑照射在镜头上，控制耀斑，不会洗掉脸或纹身。构图：天空的强烈轮廓，次要的天际线，栏杆和泳池边缘的优质几何线条。统治地位、脚踏实地的力量、对性的信心、编辑级的口渴陷阱、大胆永恒的高参与度快照感觉。”,
-  " Negative_prompt_master": "工作室灯光、柔光箱、环形光反射、时尚宣传姿势、过度姿势模型能量、夸张的解剖结构、不切实际的比例、额外的肢体、扭曲的手、塑料皮肤、过度平滑的脸、瓷娃娃外观、重型美容滤镜、CGI、插图、动漫、绘画风格、人工背景、绿屏外观、电影青橙色分级、过度煮熟的 HDR、文本、水印、标志、品牌标志、裸体、乳头、乳晕、明显的生殖器可见性、透视曝光、未成年、童趣、娃娃般的脸、怪异的眼睛、呆滞的眼睛、过度锐化的微对比度、不切实际的散景、镜像纹身错误、纹身扭曲、纹身去除、添加新纹身”，
+  " Negative_prompt_master": "工作室灯光、柔光箱、环形光反射、时尚宣传姿势、过度姿势模型能量、夸张的解剖结构、不切实际的比例、额外的肢体、扭曲的手、塑料皮肤、过度平滑的脸、瓷娃娃外观、重型美容滤镜、CGI、插图、动漫、绘画风格、人工背景、绿屏外观、电影青橙色分级、过度煮熟的 HDR、文本、水印、标志、品牌标志、裸体、乳头、乳晕、明显的生殖器可见性、透视曝光、未成年、童趣、娃娃般的脸、怪异的眼睛、呆滞的眼睛、过度锐化的微对比度、不切实际的散景、镜像纹身bug、纹身扭曲、纹身去除、添加新纹身”，
 
 “输出格式”：[
     {
@@ -338,7 +320,7 @@ upstream_updated_at: "2026-01-02T13:59:18.950Z"
     }
   ],
   “高级控制可选”：{
-    "seed_policy": "如果您的生成器支持种子，请锁定每个变体的种子以保留迭代的身份和组成。",
+    "seed_policy": "如果你的生成器支持种子，请锁定每个变体的种子以保留迭代的身份和组成。",
     “一致性规则”：[
       “如果使用引用锁或种子锁，则在重新滚动期间保持相同的主体身份。”,
 
@@ -692,14 +674,8 @@ ultra photorealistic, raw-candid iPhone-style rooftop pool portrait with dominan
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ultra-photorealistic-rooftop-pool-portrait](https://prompts.chat/prompts/ultra-photorealistic-rooftop-pool-portrait) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2026-01-02T13:59:18.950Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

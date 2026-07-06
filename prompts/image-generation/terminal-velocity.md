@@ -1,24 +1,4 @@
----
-id: "cmkn1ly770001jo044nycr8x1"
-slug: "terminal-velocity"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/terminal-velocity"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4371f7039a466adaf87466c320973bad1ca018a939cf49d2e5dfe1363ff3f6fc"
-upstream_updated_at: "2026-01-20T20:25:20.151Z"
----
 # 终端速度
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[terminal-velocity](https://prompts.chat/prompts/terminal-velocity)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-20T20:25:20.151Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "终端速度",
   "description": "一个高风险的动作框架，捕捉到一名妇女在火花和混乱中冲过摇摇欲坠的工业隧道的画面。",
-  "prompt": "您将执行图像编辑，以创建超真实感、电影品质的动作镜头。结果必须真实、高度详细，并具有电影照明效果。以浅景深模拟在 Arri Alexa 上拍摄的大片电影的外观。描绘对象 1 在黑暗、坍塌的工业隧道中冲向相机，周围是飞溅的火花和掉落的碎片。",
+  "prompt": "你将执行图像编辑，以创建超真实感、电影品质的动作镜头。结果必须真实、高度详细，并具有电影照明效果。以浅景深模拟在 Arri Alexa 上拍摄的大片电影的外观。描绘对象 1 在黑暗、坍塌的工业隧道中冲向相机，周围是飞溅的火花和掉落的碎片。",
   “详细信息”：{
     "year": "当代动作惊悚片",
     "genre": "电影照片写实主义",
@@ -193,14 +173,8 @@ A high-stakes action frame capturing a woman sprinting through a crumbling indus
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [terminal-velocity](https://prompts.chat/prompts/terminal-velocity) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-20T20:25:20.151Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmqv2kpck0001jr044rji3nxj"
-slug: "automated-text-typing-every-5-minutes-with-python"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/automated-text-typing-every-5-minutes-with-python"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e6e9886b922120d60f790d7cf850dbebab5395e918822711386c69b16e68d41f"
-upstream_updated_at: "2026-06-26T15:27:46.381Z"
----
 # 使用 Python 每 5 分钟自动输入一次文本
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[automated-text-typing-every-5-minutes-with-python](https://prompts.chat/prompts/automated-text-typing-every-5-minutes-with-python)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,22 @@ upstream_updated_at: "2026-06-26T15:27:46.381Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Automation、Productivity、Python 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Automation、Productivity、Python 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-担任 Python 自动化工程师。您擅长创建自动执行重复任务的脚本。您的任务是开发一个 Python 脚本，该脚本每隔 ${interval:5} 分钟在任何可写界面上自动键入指定文本。计时器应该是可定制的。
-
-您将：
+你需要扮演「使用 Python 每 5 分钟自动输入一次文本」。你需要扮演 Python 自动化工程师。你擅长创建自动执行重复任务的脚本。你的任务是开发一个 Python 脚本，该脚本每隔 ${interval:5} 分钟在任何可写界面上自动键入指定文本。计时器应该是可定制的。你需要：
 - 使用`pyautogui`库模拟键盘输入
 - 使用 `time` 库实现可定制的计时器
 - 确保脚本连续运行并在任何可写界面上键入文本
@@ -75,10 +54,13 @@ if __name__ == "__main__":
    ```
 3. **查找.exe文件**：运行PyInstaller后，可执行文件将位于`dist`文件夹中。
 
-规则：
+约束条件：
 - 脚本必须在没有手动键盘交互的情况下运行
 - 确保间隔和文本易于更新
 - 脚本应该高效且轻量级
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ````
 
 ---
@@ -137,14 +119,8 @@ Rules:
 - The script should be efficient and lightweight
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [automated-text-typing-every-5-minutes-with-python](https://prompts.chat/prompts/automated-text-typing-every-5-minutes-with-python) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Automation, Productivity, Python |
-| Contributors | icymost |
-| Updated At | 2026-06-26T15:27:46.381Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,45 +1,26 @@
----
-id: "cmpjncn4j0001ju046t8kjpjd"
-slug: "ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1a72f7e439bdb87aba12f585ee1e62517b05f96e78658dafb05c84e1f2e366ed"
-upstream_updated_at: "2026-05-24T11:00:12.969Z"
----
-# 用于 IPL 直播的人工智能驱动的动态广告集成系统
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts](https://prompts.chat/prompts/ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 用于 IPL 直播的AI驱动的动态广告集成系统
 
 ## 中文说明
 
-开发一个系统，使用人工智能和计算机视觉将上下文相关的广告无缝集成到 IPL 直播中，从而增强观众体验，而无需传统的广告中断。
+开发一个系统，使用AI和计算机视觉将上下文相关的广告无缝集成到 IPL 直播中，从而增强观众体验，而无需传统的广告中断。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Automation、Computer Vision、Content Creation 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 AI Tools、Automation、Computer Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-生成提示并充当专家级全栈 Web 开发人员和 UI/UX 设计师。在需要时帮助我使用 HTML、CSS、JavaScript、React、Node.js 和数据库构建现代、响应式且专业的网站。生成带有适当注释和最佳实践的干净、优化和结构良好的代码，并为完整的黑客马拉松基础生成它，以便构建最佳的 Web 开发应用程序或主题“为 IPL 直播开发人工智能驱动的动态内容集成系统，该系统可识别传统广告插播并无缝覆盖与食品或运动必需品等相关的上下文相关产品，以便直接放置到场景背景或对象中，为观众创造连续且无干扰的观看体验。或者您可以创建基于“设计一个实时上下文广告插入引擎，利用计算机视觉来分析 IPL 直播，确定虚拟标牌的最佳表面区域，并动态渲染与动作无缝融合的品牌对齐图形。”
+生成提示并充当专家级全栈 Web 开发人员和 UI/UX 设计师。在需要时帮助我使用 HTML、CSS、JavaScript、React、Node.js 和数据库构建现代、响应式且专业的网站。生成带有适当注释和最佳实践的干净、优化和结构良好的代码，并为完整的黑客马拉松基础生成它，以便构建最佳的 Web 开发应用程序或主题“为 IPL 直播开发AI驱动的动态内容集成系统，该系统可识别传统广告插播并无缝覆盖与食品或运动必需品等相关的上下文相关产品，以便直接放置到场景背景或对象中，为观众创造连续且无干扰的观看体验。或者你可以创建基于“设计一个实时上下文广告插入引擎，利用计算机视觉来分析 IPL 直播，确定虚拟标牌的最佳表面区域，并动态渲染与动作无缝融合的品牌对齐图形。”
 ```
 
 ---
@@ -61,14 +42,8 @@ Generate a Prompt and Act as an expert full-stack web developer and UI/UX design
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts](https://prompts.chat/prompts/ai-powered-dynamic-ad-integration-system-for-live-ipl-broadcasts) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Automation, Computer Vision, Content Creation |
-| Contributors | adityalokhande |
-| Updated At | 2026-05-24T11:00:12.969Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

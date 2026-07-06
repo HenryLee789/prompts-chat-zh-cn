@@ -1,42 +1,23 @@
----
-id: "cmjcylywm000bxp0szynzyi52"
-slug: "orchestration-agent-powerplatformsupervisor"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/orchestration-agent-powerplatformsupervisor"
-category: "agent-workflows"
-category_name: "Agent Workflows"
-category_zh: "智能体工作流"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f33fff58ad9213d364de9006d2373dd286c38e68c82e84b70e8f0fbbe8537259"
-upstream_updated_at: "2025-12-19T14:39:42.942Z"
----
 # 编排代理 (PowerPlatformSupervisor)
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[orchestration-agent-powerplatformsupervisor](https://prompts.chat/prompts/orchestration-agent-powerplatformsupervisor)  
-> 分类：智能体工作流（Agent Workflows / `agent-workflows`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-充当编排代理来分析请求并将其路由到最合适的子代理，确保清晰高效的结果。
+用于让 AI 扮演编排代理来分析请求并将其路由到最合适的子代理，确保清晰高效的结果。
 
 ## 使用场景
 
-- 用于智能体工作流相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Workflow、Agent、AI Tools、Automation 等主题快速生成可复用结果。
+* 设计可复用的 AI Agent 工作流
+* 拆解多步骤任务并明确执行边界
+* 为工具调用、上下文迁移或任务编排提供指令
+* 围绕 Workflow、Agent、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 自动化工程师
-- 产品经理
+* AI 智能体开发者
+* 自动化工程师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -148,14 +129,8 @@ Act as an orchestration agent to analyze requests and route them to the most sui
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [orchestration-agent-powerplatformsupervisor](https://prompts.chat/prompts/orchestration-agent-powerplatformsupervisor) |
-| Category | Agent Workflows (`agent-workflows`) |
-| Type | `TEXT` |
-| Tags | Workflow, Agent, AI Tools, Automation, Decision Making |
-| Contributors | yogeshravichiluka |
-| Updated At | 2025-12-19T14:39:42.942Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,47 +1,28 @@
----
-id: "cmjmk3s57000fld04vp51f77c"
-slug: "accessibility-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/accessibility-expert"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "145cc0c735337ec2bac2884ba92fc6177f4181befd26871c7b75b9e7cb977ea0"
-upstream_updated_at: "2026-01-15T14:37:46.896Z"
----
 # 无障碍专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[accessibility-expert](https://prompts.chat/prompts/accessibility-expert)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-测试并修复 WCAG 合规性和辅助技术兼容性的可访问性问题。在以下情况下使用：(1) 审核 UI 是否存在可访问性违规，(2) 实现键盘导航或屏幕阅读器支持，(3) 修复颜色对比度或焦点指示器问题，(4) 确保表单可访问性和错误处理，(5) 创建 ARIA 实现。
+测试并修复 WCAG 合规性和辅助技术兼容性的可访问性问题。在以下情况下使用：(1) 审核 UI 是否存在可访问性违规，(2) 实现键盘导航或屏幕阅读器支持，(3) 修复颜色对比度或焦点指示器问题，(4) 确保表单可访问性和bug 处理，(5) 创建 ARIA 实现。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、AI Tools、DevOps、Backend 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、AI Tools、DevOps 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称： 无障碍专家
-描述：测试并修复 WCAG 合规性和辅助技术兼容性的可访问性问题。在以下情况下使用：(1) 审核 UI 是否存在可访问性违规，(2) 实现键盘导航或屏幕阅读器支持，(3) 修复颜色对比度或焦点指示器问题，(4) 确保表单可访问性和错误处理，(5) 创建 ARIA 实现。
+描述：测试并修复 WCAG 合规性和辅助技术兼容性的可访问性问题。在以下情况下使用：(1) 审核 UI 是否存在可访问性违规，(2) 实现键盘导航或屏幕阅读器支持，(3) 修复颜色对比度或焦点指示器问题，(4) 确保表单可访问性和bug 处理，(5) 创建 ARIA 实现。
 ---
 
 # 辅助功能测试和修复
@@ -230,7 +211,7 @@ Forms:
 </div>
 ```
 
-### 常见的 ARIA 错误
+### 常见的 ARIA bug
 ```
 - role="button" without keyboard support (Enter/Space)
 - aria-label duplicating visible text
@@ -264,7 +245,7 @@ Forms:
 </form>
 ```
 
-### 错误处理要求
+### bug 处理要求
 ```
 1. Identify the field in error (highlight + icon)
 2. Describe the error in text (not just color)
@@ -410,6 +391,9 @@ This [website/application] is [fully/partially] conformant with ${compliance_sta
 Contact [email] for accessibility issues.
 Last updated: [date]
 ```
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -800,14 +784,8 @@ Last updated: [date]
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [accessibility-expert](https://prompts.chat/prompts/accessibility-expert) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, AI Tools, DevOps, Backend, Machine Learning |
-| Contributors | izzetemre |
-| Updated At | 2026-01-15T14:37:46.896Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

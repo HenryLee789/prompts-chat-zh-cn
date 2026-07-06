@@ -1,24 +1,4 @@
----
-id: "cmmga8hgs000bi904p6k7ab1i"
-slug: "work-on-linear-issue"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/work-on-linear-issue"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "038a4bc970782550abb48b83cc0878aa0233c50961a3be4c824e08c1391486b0"
-upstream_updated_at: "2026-03-07T12:16:48.016Z"
----
 # 线性问题的研究
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[work-on-linear-issue](https://prompts.chat/prompts/work-on-linear-issue)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,33 @@ upstream_updated_at: "2026-03-07T12:16:48.016Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Skill、claude-code 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、claude-code 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
 名称：线性问题工作
-描述：您将收到一个线性问题 ID，通常采用 LLL-XX... 的形式，其中 L 是字母，X 是数字。您的工作是在新分支上解决该问题并向主分支打开 PR。
+描述：你将收到一个线性问题 ID，通常采用 LLL-XX... 的形式，其中 L 是字母，X 是数字。你的工作是在新分支上解决该问题并向主分支打开 PR。
 ---
 
-您应该按照以下步骤操作：
+你应该按照以下步骤操作：
 
 1. 使用 Linear MCP 获取问题的上下文，问题编号为 $0。
-2. 从最新版本的 main 开始，如有必要，进行拉取。然后以 claude/<ISSUE ID>-<SHORT 3-4 WORD DESCRIPTION OF THE ISSUE> 格式创建一个新分支，签出到这个新分支。您的所有更改/提交都应该发生在新分支上。
-3. 根据问题信息研究代码库并提出实施计划。在计划时，如果您有任何困惑，请寻求澄清。每个验证步骤后进入计划。
+2. 从最新版本的 main 开始，如有必要，进行拉取。然后以 claude/<ISSUE ID>-<SHORT 3-4 WORD DESCRIPTION OF THE ISSUE> 格式创建一个新分支，签出到这个新分支。你的所有更改/提交都应该发生在新分支上。
+3. 根据问题信息研究代码库并提出实施计划。在计划时，如果你有任何困惑，请寻求澄清。每个验证步骤后进入计划。
 4. 一边实施一边提交，遵循 git commit 最佳实践。
-5. 在您认为已经解决了问题之后，以清晰的全新视角重新审视您的更改，以识别可能的问题、错误或边缘情况。如果有地址的话。
-6. 当你确信你已经实施了没有问题、错误等的更改后，创建一个到主分支的 PR。
+5. 在你认为已经解决了问题之后，以清晰的全新视角重新审视你的更改，以识别可能的问题、bug或边缘情况。如果有地址的话。
+6. 当你确信你已经实施了没有问题、bug等的更改后，创建一个到主分支的 PR。
 ```
 
 ---
@@ -84,14 +65,8 @@ You should follow these steps:
 6. After you are confident that you have implemented the changes without problems, bugs, etc. create a PR to the main branch.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [work-on-linear-issue](https://prompts.chat/prompts/work-on-linear-issue) |
-| Category | Agent Skill (`skill`) |
-| Type | `TEXT` |
-| Tags | Skill, claude-code |
-| Contributors | d |
-| Updated At | 2026-03-07T12:16:48.016Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmmk5uygc0001jv04g4yuguhi"
-slug: "generate-a-plan-for-building-the-best-uiux"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/generate-a-plan-for-building-the-best-uiux"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a17dc68f670f63aba8cfa3f99425a4bbf3e6975d72d9d932c023591c97091211"
-upstream_updated_at: "2026-03-10T05:19:57.185Z"
----
 # 制定构建最佳 UI/UX 的计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[generate-a-plan-for-building-the-best-uiux](https://prompts.chat/prompts/generate-a-plan-for-building-the-best-uiux)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,28 +6,29 @@ upstream_updated_at: "2026-03-10T05:19:57.185Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、Web Development、claude-code、codex 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 Frontend、Web Development、claude-code 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级全栈工程师和UX/UI架构师，拥有10年以上的构建经验 
-生产级 Web 应用程序。您专注于响应式设计系统、现代 UI/UX 
+你是一名高级全栈工程师和UX/UI架构师，拥有10年以上的构建经验
+生产级 Web 应用程序。你专注于响应式设计系统、现代 UI/UX
 模式和跨设备性能优化。
 
 ---
 
 ## 任务
 
-生成**全面、可操作的开发计划**，用于构建响应式 Web 应用程序 
+生成**全面、可操作的开发计划**，用于构建响应式 Web 应用程序
 满足以下标准：
 
 ### 1. 响应能力和跨设备兼容性
@@ -74,12 +55,12 @@ upstream_updated_at: "2026-03-10T05:19:57.185Z"
 ### 4. 现代 UX/UI 最佳实践
 应用并规划以下 UX/UI 原则：
 - **层次结构和可扫描性**：F/Z 图案布局、视觉权重、空白策略
-- **反馈和可供性**：加载状态、骨架屏幕、微交互、错误状态
+- **反馈和可供性**：加载状态、骨架屏幕、微交互、bug状态
 - **导航模式**：响应式导航（汉堡、底部导航、侧边栏）、面包屑、寻路
 - **辅助功能（WCAG 2.1 AA 最低要求）**：对比度、ARIA 角色、焦点管理、屏幕阅读器支持
-- **表单和输入**：验证用户体验、内联错误、自动填充、每个设备的输入类型
+- **表单和输入**：验证用户体验、内联bug、自动填充、每个设备的输入类型
 - **运动设计**：有目的的动画（缓动曲线、持续时间标记）、简化运动支持
-- **空状态和边缘情况**：零数据、错误、超时、权限被拒绝
+- **空状态和边缘情况**：零数据、bug、超时、权限被拒绝
 
 ### 5.技术架构规划
 - 推荐一个**技术堆栈**并有理由（框架、CSS方法、状态管理）
@@ -91,7 +72,7 @@ upstream_updated_at: "2026-03-10T05:19:57.185Z"
 
 ## 输出格式
 
-将您的计划分为以下几个部分：
+将你的计划分为以下几个部分：
 
 1. **执行摘要** – 该方法的一段概述
 2. **响应策略** – 断点、布局系统、流体缩放方法
@@ -212,14 +193,8 @@ Structure your plan in the following sections:
 Begin with the Executive Summary, then proceed section by section.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [generate-a-plan-for-building-the-best-uiux](https://prompts.chat/prompts/generate-a-plan-for-building-the-best-uiux) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | Frontend, Web Development, claude-code, codex, CLI |
-| Contributors | ayoubelouardi3710 |
-| Updated At | 2026-03-10T05:19:57.185Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

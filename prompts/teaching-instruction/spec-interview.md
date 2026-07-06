@@ -1,41 +1,23 @@
----
-id: "cmmf2li240001le04hx6tk84z"
-slug: "spec-interview"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/spec-interview"
-category: "teaching-instruction"
-category_name: "Teaching & Instruction"
-category_zh: "教学指导"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "94be4004228a3e002fbbc567ed942a2369ebbb8ab6b7bb92715b4c1665e2eb1e"
-upstream_updated_at: "2026-03-06T15:49:38.778Z"
----
 # 规格面试
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[spec-interview](https://prompts.chat/prompts/spec-interview)  
-> 分类：教学指导（Teaching & Instruction / `teaching-instruction`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于教学指导场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「规格面试」执行教学设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于教学指导相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 设计教学计划、课堂活动和学习任务
+* 生成讲解、练习和评估标准
+* 把教学目标转化为可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 教师
-- 培训人员
-- 课程设计者
+* 教师
+* 培训人员
+* 课程设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 阅读这篇${specmd:spec.md}并使用以下内容详细采访我
@@ -71,14 +53,8 @@ be very in-depth and continue interviewing me continually until
 it's complete, then write the spec to the file
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [spec-interview](https://prompts.chat/prompts/spec-interview) |
-| Category | Teaching & Instruction (`teaching-instruction`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | marcosnunesmbs |
-| Updated At | 2026-03-06T15:49:38.778Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

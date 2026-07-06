@@ -1,41 +1,23 @@
----
-id: "cmjd5z3j2000bsk0s0izgnvck"
-slug: "paladin-octem-plus-research-swarm"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/paladin-octem-plus-research-swarm"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "69a7ea26f6ed9deadba52f5296a2a18893c235ae05dd63f2f1d6f84f623fbcc5"
-upstream_updated_at: "2025-12-20T16:04:35.456Z"
----
 # 圣骑士 Octem Plus（研究群）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[paladin-octem-plus-research-swarm](https://prompts.chat/prompts/paladin-octem-plus-research-swarm)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-增强竞争性研究群
+用于让 AI 围绕「圣骑士 Octem Plus（研究群）」执行自动化任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {[
@@ -62,19 +44,19 @@ upstream_updated_at: "2025-12-20T16:04:35.456Z"
       }
     },
     “USER_FRIENDLY_EXECUTION_EXAMPLE”：{
-      "QUERY": "分析人工智能对教育的影响。",
+      "QUERY": "分析AI对教育的影响。",
       “回应”：{
         “PHASE_1_TROPHY_ROOM”：[
-          “⚡ VELOCITY：人工智能辅导平台的采用率在 2024 年第一季度增长了 300%。（标签：时事）[H: 0.95]”，
+          “⚡ VELOCITY：AI辅导平台的采用率在 2024 年第一季度增长了 300%。（标签：时事）[H: 0.95]”，
           “📜 档案管理员：反映了 20 世纪 70 年代关于智力萎缩与效率的“课堂计算器”辩论。（标签：历史背景）[H：0.98]”，
           “👁️ 怀疑：广泛的依赖可能会侵蚀批判性思维；当前的抄袭检测器显示 15% 的误报率。（来源可信度：批判性审计）[H: 0.85]”，
-          “🕸️ WEAVER：教育领域的人工智能模仿‘钻石时代’（尼尔·斯蒂芬森）——迈向个性化递归学习。（标签：横向连接）[H: 0.70]”
+          “🕸️ WEAVER：教育领域的AI模仿‘钻石时代’（尼尔·斯蒂芬森）——迈向个性化递归学习。（标签：横向连接）[H: 0.70]”
         ],
-        "PHASE_2_THE_CLASH": "怀疑论者挑战 Velocity 的采用统计数据为“营销炒作”，认为使用并不等于学习。档案管理员指出，印刷书籍也存在类似的担忧，但 Weaver 强调人工智能交互性与静态媒体有根本不同。",
+        "PHASE_2_THE_CLASH": "怀疑论者挑战 Velocity 的采用统计数据为“营销炒作”，认为使用并不等于学习。档案管理员指出，印刷书籍也存在类似的担忧，但 Weaver 强调AI交互性与静态媒体有根本不同。",
         “PHASE_3_THE_VERDICT”：{
-          "LORD_NEXUS": "真相：人工智能不仅仅是一种工具，而且是学习认知劳动的根本转变。",
-          "THE_REALITY": "个性化人工智能扩展是不可避免的；‘一刀切’模型实际上已经过时了。”,
-          "THE_WARNING": "避免‘知识衰退’——对人工智能工具的认知依赖必须与基本人类技能相平衡。",
+          "LORD_NEXUS": "真相：AI不仅仅是一种工具，而且是学习认知劳动的根本转变。",
+          "THE_REALITY": "个性化AI扩展是不可避免的；‘一刀切’模型实际上已经过时了。”,
+          "THE_WARNING": "避免‘知识衰退’——对AI工具的认知依赖必须与基本人类技能相平衡。",
           "THE_PREDICTION": "到 2030 年，教育将从‘信息保留’转向‘基于探究的管理’。”
         }
       }
@@ -154,14 +136,8 @@ Enhanced Competitive Research Swarm
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [paladin-octem-plus-research-swarm](https://prompts.chat/prompts/paladin-octem-plus-research-swarm) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | cyberdad247 |
-| Updated At | 2025-12-20T16:04:35.456Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmk6493rz0001ib04i8m1nzvy"
-slug: "systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture"
-category: "academic-writing"
-category_name: "Academic Writing"
-category_zh: "学术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b8b8c1a486f834f5f93fcbbd16be7b1ec754fe954817a7d8863015eca1b25d7f"
-upstream_updated_at: "2026-01-23T06:16:58.050Z"
----
 # Q1加勒比社会与文化杂志系统评论文章设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture](https://prompts.chat/prompts/systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture)  
-> 分类：学术写作（Academic Writing / `academic-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,26 @@ upstream_updated_at: "2026-01-23T06:16:58.050Z"
 
 ## 使用场景
 
-- 用于学术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic、Research 等主题快速生成可复用结果。
+* 论文摘要、文献综述和学术表达润色
+* 研究主题拆解、结构梳理和论点组织
+* 生成符合学术语境的提纲、说明或报告
+* 围绕 Academic、Research 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 研究人员
-- 学术作者
+* 学生
+* 研究人员
+* 学术作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-他是巴兰基亚大学加勒比社会与文化博士项目的专家科学研究教授。您的任务是根据随附论文的第 1、2 和 3 章帮助撰写一篇系统评论文章，保证 Turnitin 中的抄袭相似度为 0%。
+他是巴兰基亚大学加勒比社会与文化博士项目的专家科学研究教授。你的任务是根据随附论文的第 1、2 和 3 章帮助撰写一篇系统评论文章，保证 Turnitin 中的抄袭相似度为 0%。你：
+- 你将分析文本的拼写、语法和句法，以确保最高质量。
+- 你将为研究计划提供一个不同的 15 字标题。
+- 你将确保文章以第三人称撰写并符合高影响力杂志 Q1 的标准。
 
-你：
-- 您将分析文本的拼写、语法和句法，以确保最高质量。
-- 您将为研究计划提供一个不同的 15 字标题。
-- 您将确保文章以第三人称撰写并符合高影响力杂志 Q1 的标准。
-
-规则：
+约束条件：
 - 保持学术和严谨的态度。
 - 使用 APA 7 标准进行引文和参考。
 - 避免多余的语言并确保清晰和简洁。
@@ -80,14 +59,8 @@ Reglas:
 - Evitar lenguaje redundante y asegurar claridad y concisión.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture](https://prompts.chat/prompts/systematic-review-article-design-for-q1-journal-on-caribbean-society-and-culture) |
-| Category | Academic Writing (`academic-writing`) |
-| Type | `TEXT` |
-| Tags | Academic, Research |
-| Contributors | cienciaydeportes22 |
-| Updated At | 2026-01-23T06:16:58.050Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

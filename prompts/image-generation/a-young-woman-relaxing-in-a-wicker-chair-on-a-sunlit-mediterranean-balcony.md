@@ -1,24 +1,4 @@
----
-id: "cmjr161w00001l1041jwwy80v"
-slug: "a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "87a3181e1e9fee71c2bcac8d595c8f24ea69f7b6be76229edc861cbd3d6a41d4"
-upstream_updated_at: "2026-01-03T00:06:39.460Z"
----
 # 一位年轻女子在阳光明媚的地中海阳台上的藤椅上放松。
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony](https://prompts.chat/prompts/a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-01-03T00:06:39.460Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -188,7 +170,7 @@ upstream_updated_at: "2026-01-03T00:06:39.460Z"
       "contribution": "将该位置定位为度假村或住宅区。"
     }
   ],
-  " Negative_prompt": "变形、扭曲、毁容、绘制不佳、解剖结构不良、解剖结构错误、多余肢体、缺失肢体、浮动肢体、断开的肢体、突变、突变、丑陋、恶心、模糊、截肢、低质量、灯光不良、单色、水印、文本、签名、插图、绘画、3D 渲染、动漫。"
+  " Negative_prompt": "变形、扭曲、毁容、绘制不佳、解剖结构不良、解剖结构bug、多余肢体、缺失肢体、浮动肢体、断开的肢体、突变、突变、丑陋、恶心、模糊、截肢、低质量、灯光不良、单色、水印、文本、签名、插图、绘画、3D 渲染、动漫。"
 }
 ```
 
@@ -360,14 +342,8 @@ Wearing a dark green patterned slip dress, she sits with crossed legs and holds 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony](https://prompts.chat/prompts/a-young-woman-relaxing-in-a-wicker-chair-on-a-sunlit-mediterranean-balcony) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2026-01-03T00:06:39.460Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

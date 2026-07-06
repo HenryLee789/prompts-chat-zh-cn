@@ -1,24 +1,4 @@
----
-id: "cmourx9hy0004js06v0azs6pv"
-slug: "lead-generator-tracker-wordpilotpro"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/lead-generator-tracker-wordpilotpro"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4cfeb963244588650108ef9cd1e4646905083ba9dc56cdfc9188283f79917ebc"
-upstream_updated_at: "2026-05-07T00:54:33.047Z"
----
 # 潜在客户生成器和跟踪器 (WordPilot.pro)
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[lead-generator-tracker-wordpilotpro](https://prompts.chat/prompts/lead-generator-tracker-wordpilotpro)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,23 @@ WordPilot.pro 的研究优先、非销售潜在客户开发。每日节奏系统
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 wordpilot、pipeline、crm、Sales 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 wordpilot、pipeline、crm 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 潜在客户生成器和跟踪器 (WordPilot.pro)
 
-Use this playbook to research, qualify, track, and professionally convert leads for WordPilot.pro — an AI-powered writing workspace.该技能以**每日节奏**运行：您每天签到，WordPilot 都会报告进度、研究新线索、推进现有线索，并生成更新的每日看板。
+Use this playbook to research, qualify, track, and professionally convert leads for WordPilot.pro — an AI-powered writing workspace.该技能以**每日节奏**运行：你每天签到，WordPilot 都会报告进度、研究新线索、推进现有线索，并生成更新的每日看板。
 
 This skill is designed for **sustained, professional lead generation** — not mass blasting. Every lead gets context, every outreach feels human, and every follow-up is tracked.
 
@@ -74,7 +55,7 @@ This skill is designed for **sustained, professional lead generation** — not m
 ### 第 1 阶段 — 发现
 通过研究已确定了铅。 Basic info captured: name, role, company, why they might need WordPilot.还没有外展。
 
-### 第 2 阶段 — 研究  
+### 第 2 阶段 — 研究
 Deep context gathered: recent work, pain points, public content, team size, tech stack, current tools. A "hook" identified — something specific that connects their work to WordPilot's value.
 
 ### 第 3 阶段 — 资格赛
@@ -176,8 +157,8 @@ Search by segment.示例：
 
 ### Voice & Tone
 - 专业、热情、好奇——从不咄咄逼人。
-- 以您对他们的工作的注意到为主导。
-- 将 WordPilot 定位为“我认为您可能会感兴趣的东西”，而不是“您需要购买的东西”。
+- 以你对他们的工作的注意到为主导。
+- 将 WordPilot 定位为“我认为你可能会感兴趣的东西”，而不是“你需要购买的东西”。
 - Respect their time.短信。 Clear value. Easy to ignore.
 
 ### 首次联系模板（改编，不要复制粘贴）
@@ -187,14 +168,14 @@ Subject: Your [specific work / post / talk] on [topic]
 
 Hi [Name],
 
-I came across your [post/talk/repo/work] on [specific topic] — really enjoyed 
+I came across your [post/talk/repo/work] on [specific topic] — really enjoyed
 [one specific insight you genuinely appreciated].
 
-I work on WordPilot, an AI workspace for writing and documentation. Given your 
-work on [their domain], I thought you might find it interesting — especially 
+I work on WordPilot, an AI workspace for writing and documentation. Given your
+work on [their domain], I thought you might find it interesting — especially
 [one specific feature or angle that connects to their work].
 
-No pitch — just wanted to share in case it's useful. Happy to give you early 
+No pitch — just wanted to share in case it's useful. Happy to give you early
 access if you'd like to try it.
 
 Best,
@@ -335,7 +316,7 @@ Last updated: YYYY-MM-DD
 |角色| Where to Find | What to Lead With |
 |---|---|---|
 | **Technical Writer** |编写 Docs、LinkedIn、GitHub 文档存储库 | WordPilot 的 MDX 块、图表支持、版本控制 |
-| **Content Strategist** |内容营销社区、Twitter/X、Medium |人工智能辅助绘图、内容管道、团队工作空间 |
+| **Content Strategist** |内容营销社区、Twitter/X、Medium |AI辅助绘图、内容管道、团队工作空间 |
 | **Developer Advocate** | DevRel 社区、会议演讲、YouTube |文档生成、GitHub 集成、API 文档 |
 | **工程经理** |工程博客、HN、LinkedIn |文档工作流程、团队入职、知识管理 |
 | **创始人/独立黑客** |产品搜寻、独立黑客、Twitter/X |一体化写作工作区，速度更快，传送内容更快 |
@@ -357,7 +338,7 @@ Extract context, not just contact info.
 
 ### 浏览器工具（适用于复杂站点）
 ```
-BROWSER_TOOL_CREATE_TASK for LinkedIn profiles, dynamic pages, or sites 
+BROWSER_TOOL_CREATE_TASK for LinkedIn profiles, dynamic pages, or sites
 that block simple fetches. Use WatchTask to poll results.
 ```
 
@@ -376,7 +357,7 @@ Sync pipeline data when these are connected.
 
 ## 反模式（不做）
 
-- **切勿在未经用户审核的情况下自动发送电子邮件。** 起草、展示、获得批准。
+- **切勿在未经用户审核的情况下自动发送邮件。** 起草、展示、获得批准。
 - **Never scrape personal emails from unauthorized sources.** Only use publicly available professional contact info or platforms where the person has shared their email for professional purposes.
 - **切勿发送通用的爆炸消息。** 每次外展活动都必须参考具体的研究。
 - **切勿过度研究某一线索。** 每个线索最多 15-20 分钟进行深入研究。继续前行。
@@ -538,7 +519,7 @@ Sync pipeline data when these are connected.
 - 多合一写作工作区取代零散的工具
 - Speed and simplicity for small teams
 - AI features that accelerate content creation
-- “在 [平台] 上跟踪您的构建之旅 — WordPilot 可能是您堆栈的有用编写工具”
+- “在 [平台] 上跟踪你的构建之旅 — WordPilot 可能是你堆栈的有用编写工具”
 
 ### 搜索查询
 - `"founder" OR "co-founder" "content" OR "writing" OR "documentation" SaaS site:linkedin.com/in`
@@ -565,7 +546,7 @@ Sync pipeline data when these are connected.
 - Spec-to-documentation pipeline
 - Rich markdown for PRDs and technical specs
 - Collaboration between PM, engineering, and design
-- “您的 [产品实践] 方法非常敏锐 — WordPilot 可以处理 [特定工作流程需求]”
+- “你的 [产品实践] 方法非常敏锐 — WordPilot 可以处理 [特定工作流程需求]”
 
 ### 搜索查询
 - `"technical product manager" OR "product manager" "documentation" OR "specs" site:linkedin.com/in`
@@ -579,9 +560,7 @@ Sync pipeline data when these are connected.
 - **Always verify the person is active** — recent posts, talks, or job activity.
 - **Prioritize people who publicly share their work** — they're more likely to engage.
 - **Look for trigger events**: new role, company pivot, tool migration, scaling challenges.
-- **根据角色的词汇调整外展语言** - 不要对工程经理使用“内容管道”。
-
-文件：模板.md
+- **根据角色的词汇调整外展语言** - 不要对工程经理使用“内容管道”。文件：模板.md
 # Outreach Templates & Patterns
 
 Use these as starting points — always customize with specific research for each lead.切勿复制粘贴。
@@ -596,15 +575,15 @@ Subject: Your [talk/post] on [specific documentation topic]
 
 Hi [Name],
 
-I caught your [talk/post] on [topic] — the point about [specific insight] 
-really landed. Documentation teams deal with that exact tension between 
+I caught your [talk/post] on [topic] — the point about [specific insight]
+really landed. Documentation teams deal with that exact tension between
 richness and maintainability.
 
-I'm working on WordPilot, an AI writing workspace that handles that well — 
-it supports advanced MDX blocks (diagrams, equations, columns) in plain 
+I'm working on WordPilot, an AI writing workspace that handles that well —
+it supports advanced MDX blocks (diagrams, equations, columns) in plain
 markdown, so docs stay readable AND rich. No lock-in, no proprietary format.
 
-No pitch — just thought you might find the approach interesting given your 
+No pitch — just thought you might find the approach interesting given your
 work. Happy to share more if you're curious.
 
 Best,
@@ -617,14 +596,14 @@ Subject: Your piece on [content challenge]
 
 Hi [Name],
 
-Really enjoyed your piece on [specific content challenge] — the [specific 
+Really enjoyed your piece on [specific content challenge] — the [specific
 point] matches what a lot of content teams are running into right now.
 
-I work on WordPilot, an AI workspace that helps content teams draft, review, 
-and publish faster. The AI doesn't replace writers — it handles the 
+I work on WordPilot, an AI workspace that helps content teams draft, review,
+and publish faster. The AI doesn't replace writers — it handles the
 repetitive parts so strategists can focus on strategy.
 
-Would be happy to show you how it works if you're interested. No sales 
+Would be happy to show you how it works if you're interested. No sales
 pressure — just thought it aligned with your thinking.
 
 Best,
@@ -637,14 +616,14 @@ Subject: Your tutorial on [topic] — sharp work
 
 Hi [Name],
 
-Your tutorial on [topic] was excellent — particularly the [specific part]. 
+Your tutorial on [topic] was excellent — particularly the [specific part].
 Creating that kind of content at quality takes real time.
 
-I'm building WordPilot, and one thing we focused on was making technical 
-content creation faster: diagrams right in markdown (Mermaid/Kroki), 
+I'm building WordPilot, and one thing we focused on was making technical
+content creation faster: diagrams right in markdown (Mermaid/Kroki),
 GitHub-integrated docs, and AI that actually understands code.
 
-Given how much technical content you produce, I thought you might find it 
+Given how much technical content you produce, I thought you might find it
 useful. Happy to give you early access if you want to try it.
 
 Cheers,
@@ -657,15 +636,15 @@ Subject: Documentation workflows and developer experience
 
 Hi [Name],
 
-I read about [company/team]'s approach to [engineering practice] — 
+I read about [company/team]'s approach to [engineering practice] —
 impressive how you handle [specific challenge] at scale.
 
-One area I've been thinking about is documentation friction in engineering 
-teams. We built WordPilot specifically so docs don't feel like a separate 
-chore — markdown-native, GitHub-connected, with AI that helps without 
+One area I've been thinking about is documentation friction in engineering
+teams. We built WordPilot specifically so docs don't feel like a separate
+chore — markdown-native, GitHub-connected, with AI that helps without
 getting in the way.
 
-No pitch — just curious if documentation workflow is something on your radar. 
+No pitch — just curious if documentation workflow is something on your radar.
 Happy to share what we're building if relevant.
 
 Best,
@@ -678,14 +657,14 @@ Subject: Writing tool you might find useful
 
 Hi [Name],
 
-Been following your build on [platform] — really impressive progress on 
+Been following your build on [platform] — really impressive progress on
 [product]. The way you handle [specific thing] is smart.
 
-I built WordPilot as an AI writing workspace — it replaces the patchwork of 
-Google Docs, Notion, and markdown editors with one tool that actually works 
+I built WordPilot as an AI writing workspace — it replaces the patchwork of
+Google Docs, Notion, and markdown editors with one tool that actually works
 for real writing. Might be useful for your content, docs, or even product specs.
 
-No pressure — just thought it might save you some tool-switching time. Happy 
+No pressure — just thought it might save you some tool-switching time. Happy
 to share access if you want to kick the tires.
 
 Cheers,
@@ -698,15 +677,15 @@ Subject: Your approach to [product practice]
 
 Hi [Name],
 
-Enjoyed reading about how you handle [specific product workflow] at 
+Enjoyed reading about how you handle [specific product workflow] at
 [company] — the [specific insight] is something more teams should adopt.
 
-I work on WordPilot, an AI writing workspace. One thing it handles 
-particularly well is the spec-to-documentation pipeline — rich markdown 
-with diagrams and equations, collaboration built in, and no proprietary 
+I work on WordPilot, an AI writing workspace. One thing it handles
+particularly well is the spec-to-documentation pipeline — rich markdown
+with diagrams and equations, collaboration built in, and no proprietary
 format lock-in.
 
-Thought it might be relevant given your focus on [their domain]. Happy to 
+Thought it might be relevant given your focus on [their domain]. Happy to
 show you if you're interested.
 
 Best,
@@ -725,7 +704,7 @@ Hi [Name],
 
 Just following up on my previous note — I know inboxes get busy.
 
-I also wanted to mention [one new specific thing] about WordPilot since I 
+I also wanted to mention [one new specific thing] about WordPilot since I
 last wrote: [feature update, new capability, relevant case study].
 
 No rush — just wanted to keep it on your radar in case it's useful.
@@ -740,10 +719,10 @@ Subject: Quick thought on [their domain]
 
 Hi [Name],
 
-I came across [relevant article / trend / insight] and immediately thought of 
+I came across [relevant article / trend / insight] and immediately thought of
 your work on [their topic]. [One sentence connecting the insight to them].
 
-WordPilot handles this well — specifically [relevant feature]. I won't keep 
+WordPilot handles this well — specifically [relevant feature]. I won't keep
 following up after this, but wanted to share the connection.
 
 If it ever becomes relevant, my inbox is open.
@@ -760,8 +739,8 @@ Hi [Name],
 
 Last note from me — I'll leave you be after this.
 
-If you ever want to explore WordPilot, the door's open. We're building 
-something genuinely useful for [their persona], and I think you'd find it 
+If you ever want to explore WordPilot, the door's open. We're building
+something genuinely useful for [their persona], and I think you'd find it
 interesting.
 
 No reply needed — just wanted to leave that on the table.
@@ -776,15 +755,15 @@ Best,
 
 ### LinkedIn 连接注释
 ```
-Hi [Name] — I came across your [work/talk/post] on [topic] and was really 
-impressed by [specific insight]. I work on an AI writing tool that touches 
+Hi [Name] — I came across your [work/talk/post] on [topic] and was really
+impressed by [specific insight]. I work on an AI writing tool that touches
 similar ground. Would love to connect.
 ```
 
 ### Twitter DM（如果已连接）
 ```
-Hey [Name] — loved your [post/thread] on [topic]. Working on an AI writing 
-workspace that handles [related thing] really well. Thought you might find 
+Hey [Name] — loved your [post/thread] on [topic]. Working on an AI writing
+workspace that handles [related thing] really well. Thought you might find
 it interesting: [link]. No pitch — just sharing.
 ```
 
@@ -794,18 +773,18 @@ it interesting: [link]. No pitch — just sharing.
 
 ### If They Reply "Not interested"
 ```
-Thanks for letting me know, [Name]. Totally understand — appreciate you 
+Thanks for letting me know, [Name]. Totally understand — appreciate you
 taking the time to reply. All the best with [their work/company].
 ```
 
 ### 如果他们回复“告诉我更多”
-Send a concise 3–4 sentence overview of WordPilot with one specific feature 
-与他们的工作相关。以邀请尝试或安排一个结束 
+Send a concise 3–4 sentence overview of WordPilot with one specific feature
+与他们的工作相关。以邀请尝试或安排一个结束
 快速演练。
 
 ### 如果他们回答“尝试一下”
-Celebrate internally (move to Stage 5 — Nurturing).送去热烈的欢迎 
-with a getting-started tip relevant to their use case.主动提出回答 
+Celebrate internally (move to Stage 5 — Nurturing).送去热烈的欢迎
+with a getting-started tip relevant to their use case.主动提出回答
 问题。
 
 ---
@@ -814,7 +793,7 @@ with a getting-started tip relevant to their use case.主动提出回答
 
 - ❌ "Just following up!"没有新的价值
 - ❌ "We're disrupting the [X] space" jargon
-- ❌ 长电子邮件 — 保持在 150 个字以下
+- ❌ 长邮件 — 保持在 150 个字以下
 - ❌ HTML-heavy or image-heavy emails
 - ❌ 在第一条消息中请求通话
 - ❌“限时优惠”或紧急策略
@@ -1621,14 +1600,8 @@ questions.
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [lead-generator-tracker-wordpilotpro](https://prompts.chat/prompts/lead-generator-tracker-wordpilotpro) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | wordpilot, pipeline, crm, Sales, outreach, lead-generation |
-| Contributors | kyakhloufi |
-| Updated At | 2026-05-07T00:54:33.047Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

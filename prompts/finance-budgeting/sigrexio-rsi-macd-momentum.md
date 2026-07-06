@@ -1,24 +1,4 @@
----
-id: "cmp1hf04k000fjs04gd82p7bj"
-slug: "sigrexio-rsi-macd-momentum"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sigrexio-rsi-macd-momentum"
-category: "finance-budgeting"
-category_name: "Finance & Budgeting"
-category_zh: "财务与预算"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "75d36cabab27ed830f100f42926ed50e9511a94ae6887923ecd422dbe2c9a553"
-upstream_updated_at: "2026-05-11T22:28:02.583Z"
----
 # [sigrex.io] RSI + MACD 动量
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sigrexio-rsi-macd-momentum](https://prompts.chat/prompts/sigrexio-rsi-macd-momentum)  
-> 分类：财务与预算（Finance & Budgeting / `finance-budgeting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,31 +6,28 @@ upstream_updated_at: "2026-05-11T22:28:02.583Z"
 
 ## 使用场景
 
-- 用于财务与预算相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 trading、Strategy 等主题快速生成可复用结果。
+* 分析预算、投资、成本或现金流
+* 生成财务规划、风险提示和决策建议
+* 整理可量化的财务指标和行动方案
+* 围绕 trading、Strategy 等主题生成结构化结果
 
 ## 适用人群
 
-- 财务人员
-- 创业者
-- 个人理财用户
+* 财务人员
+* 创业者
+* 个人理财用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {{val:symbol=BTCUSDT}}
 {{val:rsi_ob=70}}
 {{val:rsi_os=30}}
 
-您正在 {{current_time}} 分析 {{symbol}}。
-
-最后信号：{{last_trigger_action}}，价格为 {{last_trigger_price}}（执行：{{last_trigger_at}}）。
-
-最近的信号历史记录：
+你正在 {{current_time}} 分析 {{symbol}}。最后信号：{{last_trigger_action}}，价格为 {{last_trigger_price}}（执行：{{last_trigger_at}}）。最近的信号历史记录：
 {{trigger_history}}
 
-策略规则：
+策略约束条件：
 - 查看图表上的 RSI 指标。
 - 查看图表上的 MACD 指标（柱状图、信号线交叉）。
 
@@ -126,14 +103,8 @@ HOLD if:
 Use {{trigger_history}} to avoid repeating the same signal twice in a row without an EXIT in between.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sigrexio-rsi-macd-momentum](https://prompts.chat/prompts/sigrexio-rsi-macd-momentum) |
-| Category | Finance & Budgeting (`finance-budgeting`) |
-| Type | `TEXT` |
-| Tags | trading, Strategy |
-| Contributors | sigrex |
-| Updated At | 2026-05-11T22:28:02.583Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

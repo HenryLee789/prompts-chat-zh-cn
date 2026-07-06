@@ -1,24 +1,4 @@
----
-id: "cmjok4yeg001die04a7tutue8"
-slug: "grocery-aisle-relatable-comedic-candid"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/grocery-aisle-relatable-comedic-candid"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5294d2e90924b97ff7fd8bb0c33e46b00349e83a3c060a5b4d1ffd9ce1c0effd"
-upstream_updated_at: "2025-12-27T18:41:39.465Z"
----
 # 杂货店过道（相关、喜剧坦率）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[grocery-aisle-relatable-comedic-candid](https://prompts.chat/prompts/grocery-aisle-relatable-comedic-candid)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T18:41:39.465Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -134,6 +116,9 @@ upstream_updated_at: "2025-12-27T18:41:39.465Z"
     “过度平滑”
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -249,14 +234,8 @@ Create a relatable and comedic image prompt featuring an adult woman in a grocer
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [grocery-aisle-relatable-comedic-candid](https://prompts.chat/prompts/grocery-aisle-relatable-comedic-candid) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T18:41:39.465Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

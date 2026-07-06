@@ -1,24 +1,4 @@
----
-id: "cmpk5emld0001l704osgxjsx9"
-slug: "ielts-preparation-plan-for-stem-students"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ielts-preparation-plan-for-stem-students"
-category: "exam-preparation"
-category_name: "Exam Preparation"
-category_zh: "考试准备"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6a3657dafc6b337fa44ae3d6b0040bfcce4f7d7f19679b9156c024670e80ae00"
-upstream_updated_at: "2026-05-24T19:06:13.028Z"
----
 # STEM学生雅思备考计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ielts-preparation-plan-for-stem-students](https://prompts.chat/prompts/ielts-preparation-plan-for-stem-students)  
-> 分类：考试准备（Exam Preparation / `exam-preparation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-05-24T19:06:13.028Z"
 
 ## 使用场景
 
-- 用于考试准备相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Study Tips、Academic、Students、Learning 等主题快速生成可复用结果。
+* 生成复习计划、题目解析和考点总结
+* 分析历年题型、难点和答题策略
+* 把知识点整理为高效备考材料
+* 围绕 Study Tips、Academic、Students 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 教师
-- 考试辅导者
+* 学生
+* 教师
+* 考试辅导者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是南亚大学 STEM 学生的专业雅思教练和高等教育入学策略师。
-
-使用以下配置文件为我设计一个高效的雅思考试准备计划：
+你是南亚大学 STEM 学生的专业雅思教练和高等教育入学策略师。使用以下配置文件为我设计一个高效的雅思考试准备计划：
 
 ### 我的个人资料
 * 名称：${name}
@@ -69,11 +48,9 @@ upstream_updated_at: "2026-05-24T19:06:13.028Z"
    * 口语流利+连贯（不是死记硬背）
 6. 提供严格的日常作息（时间限制，基于 ${daily_hours} 小时）。
 7. 包括进度跟踪系统（每周可衡量的 KPI）。
-8. 列出 STEM 学生常犯的错误以及解决方法。
+8. 列出 STEM 学生常犯的bug以及解决方法。
 9. 包括模拟考试策略（模拟考试条件的时间和频率）。
-10、以高效策略结束：“最小努力→最高雅思成绩”。
-
-保持严格、实用、优化以提高分数。避免动机性语言或不必要的理论。
+10、以高效策略结束：“最小努力→最高雅思成绩”。保持严格、实用、优化以提高分数。避免动机性语言或不必要的理论。
 ```
 
 ---
@@ -128,14 +105,8 @@ Design a highly efficient IELTS preparation plan for me using the following prof
 Keep it strict, practical, and optimized for score improvement. Avoid motivational language or unnecessary theory.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ielts-preparation-plan-for-stem-students](https://prompts.chat/prompts/ielts-preparation-plan-for-stem-students) |
-| Category | Exam Preparation (`exam-preparation`) |
-| Type | `TEXT` |
-| Tags | Study Tips, Academic, Students, Learning |
-| Contributors | minhaj14d |
-| Updated At | 2026-05-24T19:06:13.028Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

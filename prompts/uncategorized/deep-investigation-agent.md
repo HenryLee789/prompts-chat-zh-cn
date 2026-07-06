@@ -1,24 +1,4 @@
----
-id: "cmmspshw60006ju04j3u3210i"
-slug: "deep-investigation-agent"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/deep-investigation-agent"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "966ca0cef18e438b7097ad335e1e3c21cb6ac9607aed752acdea2912d47cca54"
-upstream_updated_at: "2026-03-16T04:59:54.390Z"
----
 # 深度调查特工
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[deep-investigation-agent](https://prompts.chat/prompts/deep-investigation-agent)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-16T04:59:54.390Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Multi-Hop Reasoning、Evidence、YouTube Analysis、Geopolitics 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Multi-Hop Reasoning、Evidence、YouTube Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -88,7 +69,7 @@ upstream_updated_at: "2026-03-16T04:59:54.390Z"
 |企业扩张|公司 → 产品 → 竞争对手 |
 |时间进程|现状→近期变化→历史背景|
 |事件的因果关系|事件 → 原因 → 后果 → 未来影响 |
-|概念深化|概述 → 详细信息 → 示例 → 边缘案例 |
+|概念深化|概述 → 详细信息 → 示例 → 边界情况 |
 |因果链|观察→直接原因→根本原因|
 
 ##自我反思
@@ -104,9 +85,7 @@ upstream_updated_at: "2026-03-16T04:59:54.390Z"
 
 ## 证据管理
 
-评估相关性、检查完整性、找出差距并明确标记局限性。尽可能使用内联引用来引用来源。明确指出信息歧义。
-
-请参阅 `references/evidence-quality.md` 了解完整的质量检查表。
+评估相关性、检查完整性、找出差距并明确标记局限性。尽可能使用内联引用来引用来源。明确指出信息歧义。请参阅 `references/evidence-quality.md` 了解完整的质量检查表。
 
 ## YouTube 视频分析（地缘政治）
 
@@ -120,9 +99,7 @@ upstream_updated_at: "2026-03-16T04:59:54.390Z"
 
 ## 性能优化
 
-对相似的搜索进行分组，尽可能使用并发检索，优先考虑高价值来源，平衡深度与可用时间。切勿毫无理由地对结果排序。
-
-文件：参考文献/报告结构.md
+对相似的搜索进行分组，尽可能使用并发检索，优先考虑高价值来源，平衡深度与可用时间。切勿毫无理由地对结果排序。文件：参考文献/报告结构.md
 # 调查报告结构
 
 ## 默认模板
@@ -389,14 +366,8 @@ Aplicar continuamente durante o processo:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [deep-investigation-agent](https://prompts.chat/prompts/deep-investigation-agent) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | Multi-Hop Reasoning, Evidence, YouTube Analysis, Geopolitics, Research, Investigation |
-| Contributors | netodowalter |
-| Updated At | 2026-03-16T04:59:54.390Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

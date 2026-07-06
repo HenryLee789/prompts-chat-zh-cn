@@ -1,12 +1,10 @@
 # 同步状态
 
-生成时间：2026-07-06T05:26:42.808Z
+生成时间：2026-07-06T05:46:36.431Z
 
 来源仓库：https://github.com/f/prompts.chat
 
-来源接口：https://prompts.chat/prompts.json?full_content=true
-
-翻译提供方：`none`
+翻译状态：`ai_prompt_localized`
 
 总数：2006
 
@@ -68,12 +66,6 @@
 | 工作流 / Workflows | `workflows` | 13 |
 | 写作 / Writing | `writing` | 27 |
 
-## 本次新增
+## 本次升级
 
-- 无
-
-## 本次变更
-
-- 无
-
-> 新增/变更列表最多显示 100 条。完整状态见 `data/sync-state.json` 与 `prompts/index.json`。
+已将中文增强内容从普通机器翻译升级为 Prompt 专用语义本地化版本。英文原文保持不变。

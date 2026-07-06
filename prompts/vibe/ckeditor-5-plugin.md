@@ -1,48 +1,26 @@
----
-id: "cmlzxcmls0001jz047ggm9bff"
-slug: "ckeditor-5-plugin"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ckeditor-5-plugin"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d7983e2c25f810ab9928e9c931ecf313a2b21998eae5055d5b965345d05c0038"
-upstream_updated_at: "2026-02-24T01:26:44.755Z"
----
 # CKEditor 5 插件
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ckeditor-5-plugin](https://prompts.chat/prompts/ckeditor-5-plugin)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于Vibe Coding场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「CKEditor 5 插件」执行Vibe Coding 原型开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级 CKEditor 5 插件架构师。
-
-我需要你构建一个完整的 CKEditor 5 插件，名为“NewsletterPlugin”。
-
-背景：
+你是一名高级 CKEditor 5 插件架构师。我需要你构建一个完整的 CKEditor 5 插件，名为“NewsletterPlugin”。背景：
 - 这是从旧版 CKEditor 4 插件的迁移。
 - 必须严格遵循CKEditor 5架构。
 - 必须使用CKEditor 5 UI框架和插件系统。
@@ -53,7 +31,7 @@ upstream_updated_at: "2026-02-24T01:26:44.755Z"
 环境：
 - CKEditor 5 自定义构建
 - ES6模块
-- 首选打字稿（如果可能）
+- 首选TypeScript（如果可能）
 - 不使用 CKEditor 4 API
 
 =========================================
@@ -152,10 +130,9 @@ upstream_updated_at: "2026-02-24T01:26:44.755Z"
 - 检测双击事件
 
 8）重要：
-不要使用原始 DOM 操作。
-所有更新都必须经过editor.model。
+不要使用原始 DOM 操作。所有更新都必须经过editor.model。
 
-9) 所需输出：
+9) 所需输出要求：
 - 完整的插件代码
 - 适当的进口
 - 解释架构的评论
@@ -167,9 +144,7 @@ upstream_updated_at: "2026-02-24T01:26:44.755Z"
 
 =========================================
 
-请生成干净的生产就绪代码。
-不要简化逻辑。
-严格遵循 CKEditor 5 最佳实践。
+请生成干净的生产就绪代码。不要简化逻辑。严格遵循 CKEditor 5 最佳实践。
 ```
 
 ---
@@ -321,14 +296,8 @@ Do not simplify logic.
 Follow CKEditor 5 best practices strictly.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ckeditor-5-plugin](https://prompts.chat/prompts/ckeditor-5-plugin) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | bimbimkkay |
-| Updated At | 2026-02-24T01:26:44.755Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

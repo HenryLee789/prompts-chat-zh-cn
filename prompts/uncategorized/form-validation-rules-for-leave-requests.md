@@ -1,24 +1,4 @@
----
-id: "cmjlatc3j0001ju04a0esydt1"
-slug: "form-validation-rules-for-leave-requests"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/form-validation-rules-for-leave-requests"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3aba526e975771c93ad949045673ee07ccd80c75a66f88d47f99ceb378fa8c10"
-upstream_updated_at: "2025-12-25T10:27:10.333Z"
----
 # 休假申请的表单验证规则
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[form-validation-rules-for-leave-requests](https://prompts.chat/prompts/form-validation-rules-for-leave-requests)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-25T10:27:10.333Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 HR、Workflow、Automation 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 HR、Workflow、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -170,14 +151,8 @@ This prompt defines validation rules for different types of leave requests in a 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [form-validation-rules-for-leave-requests](https://prompts.chat/prompts/form-validation-rules-for-leave-requests) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | HR, Workflow, Automation |
-| Contributors | muhtesemozgur9 |
-| Updated At | 2025-12-25T10:27:10.333Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

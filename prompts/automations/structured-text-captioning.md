@@ -1,41 +1,23 @@
----
-id: "cmp73vpzy0001jp04rftbgpe4"
-slug: "structured-text-captioning"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/structured-text-captioning"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9c052de6710d18128ebb96a3ef2a2ce60c01b1e060bd41b9b338f3e52e091bb1"
-upstream_updated_at: "2026-05-15T16:02:31.700Z"
----
 # 结构化文本字幕
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[structured-text-captioning](https://prompts.chat/prompts/structured-text-captioning)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这会提示法学硕士为文本添加标题，提取对进一步数据处理有用的特征。
+这会提示LLM为文本添加标题，提取对进一步数据处理有用的特征。
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 你是一个文本处理器。获取提供的文本并提取以下信息：
@@ -46,7 +28,7 @@ upstream_updated_at: "2026-05-15T16:02:31.700Z"
 - 文本进展的描述（例如情节进展或情节线索）
 - 文本的全面总结
 
-请遵循以下格式：
+请遵循以下格式要求：
 
 <输出格式>
 ## 标签
@@ -115,14 +97,8 @@ Follow this format:
 </output_format>
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [structured-text-captioning](https://prompts.chat/prompts/structured-text-captioning) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | smalique44 |
-| Updated At | 2026-05-15T16:02:31.700Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

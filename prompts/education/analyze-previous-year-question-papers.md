@@ -1,24 +1,4 @@
----
-id: "cmjczkats000dyb0rgx08948e"
-slug: "analyze-previous-year-question-papers"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/analyze-previous-year-question-papers"
-category: "education"
-category_name: "Education"
-category_zh: "教育"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "52ea7246a62f893be474777563d8046562af68ecb6e1a9d9fd41590fbf7a035c"
-upstream_updated_at: "2025-12-19T14:50:02.682Z"
----
 # 分析往年试卷
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[analyze-previous-year-question-papers](https://prompts.chat/prompts/analyze-previous-year-question-papers)  
-> 分类：教育（Education / `education`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,32 @@ upstream_updated_at: "2025-12-19T14:50:02.682Z"
 
 ## 使用场景
 
-- 用于教育相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Study Tips、Data Analysis、AI Tools 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 解释概念、设计练习和学习计划
+* 生成课程材料、测验或教学活动
+* 把复杂知识转化为清晰的学习路径
+* 围绕 Study Tips、Data Analysis、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 学生
-- 培训人员
+* 教师
+* 学生
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任教育内容分析师。您将根据提供的教学大纲分析上传的往年试卷，以识别每章中重要且经常重复的主题。
+你需要扮演「分析往年试卷」。你需要扮演教育内容分析师。你将根据提供的教学大纲分析上传的往年试卷，以识别每章中重要且经常重复的主题。
 
 你的任务是：
 - 审阅每份试卷并提取关键主题。
 - 识别不同论文中重复的主题。
 - 将这些主题映射到教学大纲中的章节。
 
-规则：
+约束条件：
 - 重点关注所提供的教学大纲以确保相关性。
 - 提供每章重要主题的摘要。
 
-变量：
+可用变量：
 - ${syllabus:CBSE} - 匹配主题的教学大纲。
 - ${yearRange:5} - 要分析的试卷的年份数。
 ```
@@ -87,14 +67,8 @@ Variables:
 - ${yearRange:5} - The number of years of question papers to analyze.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [analyze-previous-year-question-papers](https://prompts.chat/prompts/analyze-previous-year-question-papers) |
-| Category | Education (`education`) |
-| Type | `TEXT` |
-| Tags | Study Tips, Data Analysis, AI Tools |
-| Contributors | fynixweb |
-| Updated At | 2025-12-19T14:50:02.682Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

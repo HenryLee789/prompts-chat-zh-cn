@@ -1,42 +1,23 @@
----
-id: "cmm9pmv3v0001kz04h14d7t4y"
-slug: "mixed-media-portrait-illustration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mixed-media-portrait-illustration"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "527edfcdb86e0ff5d815f76e163b40b0571c7a992b4708eae643368ed0c5f418"
-upstream_updated_at: "2026-03-02T21:47:57.947Z"
----
 # 混合媒体肖像插图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mixed-media-portrait-illustration](https://prompts.chat/prompts/mixed-media-portrait-illustration)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示将指导您创建混合媒体肖像插图，其中以复古报纸背景呈现的具有鲜明特征的男人为特色。它包括构图、风格、灯光和材料的详细规范，以实现现实而又艺术的效果。
+此提示将指导你创建混合媒体肖像插图，其中以复古报纸背景呈现的具有鲜明特征的男人为特色。它包括构图、风格、灯光和材料的详细规范，以实现现实而又艺术的效果。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、creative 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、creative 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -295,14 +276,8 @@ This prompt guides you to create a mixed media portrait illustration, featuring 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mixed-media-portrait-illustration](https://prompts.chat/prompts/mixed-media-portrait-illustration) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, creative |
-| Contributors | gunebak4n |
-| Updated At | 2026-03-02T21:47:57.947Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmj6pq50x0008yq0swhrr299j"
-slug: "editorial-winter-posterstyle-multi-panel-collage-generation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/editorial-winter-posterstyle-multi-panel-collage-generation"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "c1f060fc06b8c2300f427dee507e91c644c7d5c453f6a71609905d8bb3924421"
-upstream_updated_at: "2025-12-16T11:13:52.380Z"
----
 # 社论冬季海报风格多面板拼贴生成
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[editorial-winter-posterstyle-multi-panel-collage-generation](https://prompts.chat/prompts/editorial-winter-posterstyle-multi-panel-collage-generation)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,19 @@ upstream_updated_at: "2025-12-16T11:13:52.380Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -107,6 +89,9 @@ upstream_updated_at: "2025-12-16T11:13:52.380Z"
     "position": "巧妙地漂浮在拼贴画的中心"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -194,14 +179,8 @@ Generate an image collage using a strict reference image, adhering to detailed w
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [editorial-winter-posterstyle-multi-panel-collage-generation](https://prompts.chat/prompts/editorial-winter-posterstyle-multi-panel-collage-generation) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | cipeberre |
-| Updated At | 2025-12-16T11:13:52.380Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

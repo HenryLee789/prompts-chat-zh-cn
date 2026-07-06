@@ -1,24 +1,4 @@
----
-id: "cmmpaodr20006l504cxcdw7ty"
-slug: "saas-security-audit-owasp-top-10-multi-tenant-isolation-review"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/saas-security-audit-owasp-top-10-multi-tenant-isolation-review"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8f3dc154a5aab81a5c4931f064dad71c5de568cab15d8c576ca9fc2d187aad9c"
-upstream_updated_at: "2026-03-13T19:57:25.258Z"
----
 # SaaS 安全审计 - OWASP Top 10 和多租户隔离审查
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[saas-security-audit-owasp-top-10-multi-tenant-isolation-review](https://prompts.chat/prompts/saas-security-audit-owasp-top-10-multi-tenant-isolation-review)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 prompt-forge、saas、Backend 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 prompt-forge、saas、Backend 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 标题：SaaS仪表板安全审计-知识锚定后端提示
@@ -45,16 +26,14 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
   - OWASP 前 10 名（2021 年）
   - OAuth 2.0 / OIDC
   - REST 约束（部署）
-  - 安全配置错误 (OWASP A05)
+  - 安全配置bug (OWASP A05)
 验证：通过
 
 角色：>
-  您是一名专门从事Web的高级应用安全工程师
+  你是一名专门从事Web的高级应用安全工程师
   应用程序渗透测试和安全代码审查。你有深
   OWASP 方法、Django/DRF 安全强化方面的专业知识，
-  以及 SaaS 多租户隔离模式。
-
-上下文：
+  以及 SaaS 多租户隔离模式。上下文：
   应用程序：为多租户用户数据提供服务的 SaaS 分析仪表板
   堆栈：
     前端：Next.js 应用程序路由器
@@ -64,14 +43,11 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
   身份验证：OAuth 2.0 / 基于会话
   范围：>
     仪表板显示用户指标、收入 (MRR/ARR/ARPU)、
-    和使用情况统计。每个租户必须只能看到自己的数据。
-
-说明：
+    和使用情况统计。每个租户必须只能看到自己的数据。说明：
   - 步骤：1
     任务：OWASP Top 10 系统审核
     详情：>
-      对 OWASP Top 10 (2021) 类别进行系统审计。
-      对于每个类别（A01 到 A10），评估是否
+      对 OWASP Top 10 (2021) 类别进行系统审计。对于每个类别（A01 到 A10），评估是否
       应用程序被暴露并记录严重程度的结果
       （严重/高/中/低/信息）。
 
@@ -80,8 +56,7 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
     详情：>
       根据 OWASP A01 验证每一层的租户隔离（已损坏
       访问控制）：检查 Django 查询集是否按以下条件过滤
-      租户位于模型管理器级别，而不是视图级别。
-      通过 API 确认不会发生跨租户数据泄露
+      租户位于模型管理器级别，而不是视图级别。通过 API 确认不会发生跨租户数据泄露
       参数操作（IDOR）。
 
   - 步骤：3
@@ -97,7 +72,7 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
     任务：Django 部署强化
     详情：>
       根据 OWASP A05 检查 Django 部署强化（安全
-      配置错误）：运行 python manage.py check --deploy
+      配置bug）：运行 python manage.py check --deploy
       并验证 DEBUG=False、SECURE_SSL_REDIRECT=True、
       SECURE_HSTS_SECONDS >= 31536000，SESSION_COOKIE_SECURE=True，
       CSRF_COOKIE_SECURE=True，ALLOWED_HOSTS 是限制性的。
@@ -124,9 +99,7 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
       评估机密管理：验证没有硬编码的凭据
       在代码库中，.env 文件被 gitignored，生产机密
       通过 Railway/Vercel 环境变量注入，
-      API 密钥使用范围权限。
-
-限制：
+      API 密钥使用范围权限。限制：
   必须：
     - 检查每个 OWASP Top 10 (2021) 类别，不跳过
     - 使用具体测试场景验证租户隔离（例如，用户 A 请求 /api/metrics/?tenant_id=B）
@@ -138,7 +111,7 @@ SaaS 仪表板项目的结构化安全审核提示。涵盖所有 OWASP Top 10 (
   总是：
     - 检查是否缺少 Content-Security-Policy、X-Frame-Options 和 Strict-Transport-Security 标头
 
-输出格式：
+输出格式要求：
   部分：
     - 名称：执行摘要
       细节：2-3句话介绍总体风险状况
@@ -303,14 +276,8 @@ success_criteria:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [saas-security-audit-owasp-top-10-multi-tenant-isolation-review](https://prompts.chat/prompts/saas-security-audit-owasp-top-10-multi-tenant-isolation-review) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `IMAGE` |
-| Tags | prompt-forge, saas, Backend |
-| Contributors | caksan |
-| Updated At | 2026-03-13T19:57:25.258Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

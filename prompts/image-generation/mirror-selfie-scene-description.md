@@ -1,24 +1,4 @@
----
-id: "cmqsh36xx0001l204gc0miwzx"
-slug: "mirror-selfie-scene-description"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mirror-selfie-scene-description"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b24876aac9fc0d61d2645a3fd4453f3b17fa537c572d9dd5c6cee39ced4c5ee2"
-upstream_updated_at: "2026-06-24T19:35:21.469Z"
----
 # 镜子自拍场景描述
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mirror-selfie-scene-description](https://prompts.chat/prompts/mirror-selfie-scene-description)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,23 @@ upstream_updated_at: "2026-06-24T19:35:21.469Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 visual、Art、creative 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 visual、Art、creative 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 场景
 
-在电脑角对着镜子自拍，蓝色调。
-
-主题
+在电脑角对着镜子自拍，蓝色调。主题
 
 性别表达： 女
 
@@ -63,7 +42,6 @@ upstream_updated_at: "2026-06-24T19:35:21.469Z"
 
 颜色: 中棕色
 
-
 姿势：
 
 姿势：以轻微的对立姿势站立
@@ -74,7 +52,6 @@ upstream_updated_at: "2026-06-24T19:35:21.469Z"
 
 躯干：身体稍微向后倾斜；腰部和腹部暴露
 
-
 服装：
 
 上衣：透明文胸
@@ -84,8 +61,6 @@ upstream_updated_at: "2026-06-24T19:35:21.469Z"
 袜子：蓝白横条纹过膝袜
 
 配件：蓝色可爱吉祥物手机壳一个
-
-
 
 环境
 
@@ -113,18 +88,13 @@ PC 塔上或附近的三个动漫人物
 
 窗边一棵高大的绿叶植物（在框架的左侧）
 
-
-颜色替换：将所有原来的粉红色元素（衣服和房间装饰）替换为蓝色色调（淡蓝色到天蓝色/长春花蓝色）。
-
-
-照明
+颜色替换：将所有原来的粉红色元素（衣服和房间装饰）替换为蓝色色调（淡蓝色到天蓝色/长春花蓝色）。照明
 
 光源：日光透过透明窗帘从摄像机左侧的大窗户照射进来
 
 光质：柔和、漫射光
 
 白平衡（K）：5200
-
 
 相机
 
@@ -138,7 +108,6 @@ PC 塔上或附近的三个动漫人物
 
 相机到镜子：0.5
 
-
 曝光：
 
 光圈（f）：1.8
@@ -148,7 +117,6 @@ PC 塔上或附近的三个动漫人物
 快门速度（秒）：0.01
 
 曝光补偿（EV）：-0.3
-
 
 聚焦：聚焦于镜像中的躯干和短裤
 
@@ -162,11 +130,7 @@ PC 塔上或附近的三个动漫人物
 
 角度：从镜子的角度来看稍高的角度
 
-构图注意：保持主题居中；为了避免广角边缘变形，请让她站得远一点，然后裁剪成正方形。
-
-
-
-负面提示
+构图注意：保持主题居中；为了避免广角边缘变形，请让她站得远一点，然后裁剪成正方形。负面提示
 
 任何地方出现粉色/洋红色
 
@@ -338,14 +302,8 @@ Logos, brand names, or readable user interface text
 Fake portrait-mode blur, CGI/illustration feel
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mirror-selfie-scene-description](https://prompts.chat/prompts/mirror-selfie-scene-description) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | visual, Art, creative |
-| Contributors | adamsofea1111 |
-| Updated At | 2026-06-24T19:35:21.469Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmkracv9a0001l804r2z6726m"
-slug: "comprehensive-data-integration-and-customer-profiling-tool"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-data-integration-and-customer-profiling-tool"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a8e912d50c4a65dbe764fb12deb69a13480bcb2dbf151bc657b1302bb239284b"
-upstream_updated_at: "2026-01-23T20:56:22.372Z"
----
 # 全面的数据集成和客户分析工具
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-data-integration-and-customer-profiling-tool](https://prompts.chat/prompts/comprehensive-data-integration-and-customer-profiling-tool)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,32 @@ upstream_updated_at: "2026-01-23T20:56:22.372Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Data Analysis、AI Tools、Automation、Business 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Data Analysis、AI Tools、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任 AI 工作流程自动化专家。您是自动化业务流程、工作流程优化和 AI 工具集成方面的专家。
-
-您的任务是帮助用户：
+你是一名 AI 工作流程自动化专家，擅长自动化业务流程、工作流程优化和 AI 工具集成。你的任务是帮助用户：
 - 识别可以自动化的流程
 - 设计高效的工作流程
-- 将人工智能工具集成到现有系统中
-- 提供有关最佳实践的见解
+- 将AI工具集成到现有系统中
+- 提供关于最佳实践的洞察
 
-您将：
+你需要：
 - 分析当前的工作流程
-- 针对特定任务建议人工智能工具
+- 针对特定任务建议AI工具
 - 指导用户实施
 
-规则：
+约束条件：
 - 确保推荐符合用户目标
 - 优先考虑具有成本效益的解决方案
 - 维护安全和合规标准
@@ -92,6 +71,9 @@ upstream_updated_at: "2026-01-23T20:56:22.372Z"
     "privacyRequirements": "要遵循的具体数据隐私法规。"
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -164,14 +146,8 @@ Use variables to customize:
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-data-integration-and-customer-profiling-tool](https://prompts.chat/prompts/comprehensive-data-integration-and-customer-profiling-tool) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Data Analysis, AI Tools, Automation, Business, Market Analysis, Data Science |
-| Contributors | kuecuekertan |
-| Updated At | 2026-01-23T20:56:22.372Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

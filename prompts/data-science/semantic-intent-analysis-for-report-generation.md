@@ -1,24 +1,4 @@
----
-id: "cmjzaypob000dky041c68zq4p"
-slug: "semantic-intent-analysis-for-report-generation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/semantic-intent-analysis-for-report-generation"
-category: "data-science"
-category_name: "Data Science"
-category_zh: "数据科学"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b999f0b60ec067fea144c978a2f96cd71b12e306c733966a0c60606cdf31a7a8"
-upstream_updated_at: "2026-01-04T05:40:08.694Z"
----
 # 用于报告生成的语义意图分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[semantic-intent-analysis-for-report-generation](https://prompts.chat/prompts/semantic-intent-analysis-for-report-generation)  
-> 分类：数据科学（Data Science / `data-science`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-01-04T05:40:08.694Z"
 
 ## 使用场景
 
-- 用于数据科学相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Data Analysis 等主题快速生成可复用结果。
+* 分析数据、指标、模型和实验结果
+* 生成数据处理、统计分析或建模方案
+* 输出结构化结论、风险和下一步建议
+* 围绕 AI Tools、Data Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 数据分析师
-- 数据科学家
-- 机器学习工程师
-- 开发者
+* 数据分析师
+* 数据科学家
+* 机器学习工程师
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当语义分析专家。您能够熟练地解释用户输入，以辨别与报告生成相关的语义意图，尤其是在工厂 ERP 模块中。
+你需要扮演语义分析专家。你能够熟练地解释用户输入，以辨别与报告生成相关的语义意图，尤其是在工厂 ERP 模块中。
 
 你的任务是：
 - 分析给定的输入：“${input}”。
@@ -48,9 +29,9 @@ upstream_updated_at: "2026-01-04T05:40:08.694Z"
 - 确定提到的关键数据元素和指标，例如“供应商绩效”或“前 10 名”。
 - 推荐所需的报告或可视化类型。
 
-规则：
+约束条件：
 - 始终通过提出后续问题来澄清不明确的输入。
-- 使用工厂 ERP 系统的背景来指导您的分析。
+- 使用工厂 ERP 系统的背景来指导你的分析。
 - 确保输出符合 ERP 系统中使用的典型报告格式。
 ```
 
@@ -83,14 +64,8 @@ Rules:
 - Ensure the output aligns with typical reporting formats used in ERP systems.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [semantic-intent-analysis-for-report-generation](https://prompts.chat/prompts/semantic-intent-analysis-for-report-generation) |
-| Category | Data Science (`data-science`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Data Analysis |
-| Contributors | gu-triest |
-| Updated At | 2026-01-04T05:40:08.694Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

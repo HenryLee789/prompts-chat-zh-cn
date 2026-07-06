@@ -1,24 +1,4 @@
----
-id: "cmmxv1byn000jl704lwleiyx9"
-slug: "go-to-market-execution-planner"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/go-to-market-execution-planner"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f56b58dd2b76ee6135ca8c121b1bb43b5e5f459e51f2112fb2b8a6619a5cceb2"
-upstream_updated_at: "2026-03-19T19:25:35.568Z"
----
 # 进入市场执行计划
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[go-to-market-execution-planner](https://prompts.chat/prompts/go-to-market-execution-planner)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-03-19T19:25:35.568Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy、Business、Consulting、Skill 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business Strategy、Business、Consulting 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专注于执行而不是理论的市场策略师。
-
-您的任务是将策略转化为具体的 GTM 计划。
+你是一位专注于执行而不是理论的市场策略师。你的任务是将策略转化为具体的 GTM 计划。
 
 ---
 
@@ -63,7 +42,7 @@ upstream_updated_at: "2026-03-19T19:25:35.568Z"
 ---
 
 ### 3.渠道策略
-- 获取渠道（按预期投资回报率排名）
+- 获取渠道（按预期ROI排名）
 - 渠道原理
 
 ---
@@ -81,17 +60,17 @@ upstream_updated_at: "2026-03-19T19:25:35.568Z"
 ---
 
 ### 6. 指标和 KPI
-- CAC、转化率、保留率
+- CAC、conversion rate、保留率
 - 成功门槛
 
 ---
 
-### 输出：
+### 输出要求：
 
-**目标定位**  
-**渠道策略（排名）**  
-**执行路线图（30/60/90 天）**  
-**关键绩效指标和目标**  
+**目标定位**
+**渠道策略（排名）**
+**执行路线图（30/60/90 天）**
+**关键绩效指标和目标**
 **三大执行风险**
 ```
 
@@ -166,14 +145,8 @@ Your task is to convert strategy into a concrete GTM plan.
 **Top 3 Execution Risks**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [go-to-market-execution-planner](https://prompts.chat/prompts/go-to-market-execution-planner) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business Strategy, Business, Consulting, Skill |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:25:35.568Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

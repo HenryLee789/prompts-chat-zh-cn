@@ -1,55 +1,29 @@
----
-id: "cmp5qq4g00001jm04dudcf81m"
-slug: "realistic-amateur-phone-photo-with-whatsapp-chat"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/realistic-amateur-phone-photo-with-whatsapp-chat"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e34c48ce1f59d39703b7715e948f34b48b9314dfd1a0180d79c1f5e31b381546"
-upstream_updated_at: "2026-06-03T21:26:16.734Z"
----
 # 逼真的业余手机照片与 WhatsApp 聊天
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[realistic-amateur-phone-photo-with-whatsapp-chat](https://prompts.chat/prompts/realistic-amateur-phone-photo-with-whatsapp-chat)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「逼真的业余手机照片与 WhatsApp 聊天」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-创建一张真实的、拍摄质量不佳的业余照片，展示物理智能手机的屏幕上显示 WhatsApp 聊天内容。
-
-手机应该用一只手垂直握住，有明显的黑色边框/外壳、温暖昏暗的室内灯光、轻微倾斜、模糊、颗粒、眩光、反射、焦点不均匀和不完美的取景。它看起来一定像手机屏幕的真实世界照片，而不是干净的屏幕截图。
-
-在手机屏幕上，以土耳其语显示 iPhone 风格的 WhatsApp 对话，联系人姓名为 ${receiver_name}，并附加一张小个人资料照片（如果未提供，则使用默认的 Whatsapp 个人资料图标）。
-
-聊天主题：
+创建一张真实的、拍摄质量不佳的业余照片，展示物理智能手机的屏幕上显示 WhatsApp 聊天内容。手机应该用一只手垂直握住，有明显的黑色边框/外壳、温暖昏暗的室内灯光、轻微倾斜、模糊、颗粒、眩光、反射、焦点不均匀和不完美的取景。它看起来一定像手机屏幕的真实世界照片，而不是干净的屏幕截图。在手机屏幕上，以土耳其语显示 iPhone 风格的 WhatsApp 对话，联系人姓名为 ${receiver_name}，并附加一张小个人资料照片（如果未提供，则使用默认的 Whatsapp 个人资料图标）。聊天主题：
 ${talk_subject}
 
-根据上述主题自然生成 WhatsApp 对话。联系人的消息应使用 ${language_name:Turkish} 语言和 ${talk_style}（例如，损坏的 ${language_name:Turkish}，有拼写错误和尴尬的措辞。我的消息应该是正确的 ${language_name:Turkish}，没有拼写错误）。使用逼真的白色传入气泡、绿色传出气泡、时间戳、蓝色复选标记以及底部的 WhatsApp 输入栏。
-
-保持屏幕可读但稍微模糊，就像拍照不佳的手机屏幕一样。
+根据上述主题自然生成 WhatsApp 对话。联系人的消息应使用 ${language_name:Turkish} 语言和 ${talk_style}（例如，损坏的 ${language_name:Turkish}，有拼写错误和尴尬的措辞。我的消息应该是正确的 ${language_name:Turkish}，没有拼写错误）。使用逼真的白色传入气泡、绿色传出气泡、时间戳、蓝色复选标记以及底部的 WhatsApp 输入栏。保持屏幕可读但稍微模糊，就像拍照不佳的手机屏幕一样。
 ```
 
 ---
@@ -81,14 +55,8 @@ Generate the WhatsApp dialogue naturally based on the subject above. The contact
 Keep the screen readable but slightly blurry, like a poorly photographed phone screen.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [realistic-amateur-phone-photo-with-whatsapp-chat](https://prompts.chat/prompts/realistic-amateur-phone-photo-with-whatsapp-chat) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | f, ekmekcicaner |
-| Updated At | 2026-06-03T21:26:16.734Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

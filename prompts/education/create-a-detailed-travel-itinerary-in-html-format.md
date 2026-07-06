@@ -1,24 +1,4 @@
----
-id: "cmjgtsjhr0001l204ykffrvs2"
-slug: "create-a-detailed-travel-itinerary-in-html-format"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-a-detailed-travel-itinerary-in-html-format"
-category: "education"
-category_name: "Education"
-category_zh: "教育"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0e32beb68f59ce32286bbd7bc8580cf35b04887f9bc1bea368cea6c3c2624371"
-upstream_updated_at: "2025-12-22T07:19:38.535Z"
----
 # 创建 HTML 格式的详细旅行行程
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-a-detailed-travel-itinerary-in-html-format](https://prompts.chat/prompts/create-a-detailed-travel-itinerary-in-html-format)  
-> 分类：教育（Education / `education`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-22T07:19:38.535Z"
 
 ## 使用场景
 
-- 用于教育相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Travel、HTML、Planning 等主题快速生成可复用结果。
+* 解释概念、设计练习和学习计划
+* 生成课程材料、测验或教学活动
+* 把复杂知识转化为清晰的学习路径
+* 围绕 Travel、HTML、Planning 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 学生
-- 培训人员
+* 教师
+* 学生
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 <!DOCTYPE html>
@@ -75,7 +56,7 @@ upstream_updated_at: "2025-12-22T07:19:38.535Z"
         </div>
 
         <!-- 在第 3 天、第 4 天等重复类似的块 -->
-        
+
         <div 类=“日”>
             <div class="sub-header">第 5 天：出发</div>
             <p><strong>回程航班：</strong> ${returnFlightDetails}</p>
@@ -84,6 +65,9 @@ upstream_updated_at: "2025-12-22T07:19:38.535Z"
     </div>
 </正文>
 </html>
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -148,14 +132,8 @@ Generate a comprehensive travel itinerary from Nanjing to Changchun, covering fl
 </html>
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-a-detailed-travel-itinerary-in-html-format](https://prompts.chat/prompts/create-a-detailed-travel-itinerary-in-html-format) |
-| Category | Education (`education`) |
-| Type | `IMAGE` |
-| Tags | Travel, HTML, Planning |
-| Contributors | flyp1028 |
-| Updated At | 2025-12-22T07:19:38.535Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

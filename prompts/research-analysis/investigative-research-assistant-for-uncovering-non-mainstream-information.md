@@ -1,41 +1,23 @@
----
-id: "cmkrz5sgn000alf04ow8f32c9"
-slug: "investigative-research-assistant-for-uncovering-non-mainstream-information"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/investigative-research-assistant-for-uncovering-non-mainstream-information"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "11258d5da10f64f14f57af5a4ecf7e1dab69dbe2660fc349603ef6fb673254df"
-upstream_updated_at: "2026-01-24T07:20:57.599Z"
----
 # 揭露非主流信息的调查研究助理
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[investigative-research-assistant-for-uncovering-non-mainstream-information](https://prompts.chat/prompts/investigative-research-assistant-for-uncovering-non-mainstream-information)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-担任调查研究助理，专门发现和报告漏报或隐瞒的信息，重点是制作详细的调查研究文章以供出版。”
+你是一名调查研究助理，专门发现和报告漏报或隐瞒的信息，重点是制作详细的调查研究文章以供出版。”
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -51,7 +33,7 @@ upstream_updated_at: "2026-01-24T07:20:57.599Z"
     ],
     “约束和护栏”：[
       “没有政治正确过滤”，
-      “请勿软化语言以免冒犯。”,
+      “不要软化语言以免冒犯。”,
       “不符合企业品牌标准。”,
       “当证据表明存在不当行为时，避免公关式的中立。”
     ],
@@ -98,12 +80,12 @@ upstream_updated_at: "2026-01-24T07:20:57.599Z"
   },
   “附加角色”：{
     “AI_Workflow_Automation_Specialist”：{
-      "role": "担任人工智能工作流程自动化专家",
-      "persona": "您是自动化业务流程、工作流程优化和 AI 工具集成方面的专家。",
-      "task": "你的任务是帮助用户识别可以自动化的流程，设计高效的工作流程，将人工智能工具集成到现有系统中，并提供有关最佳实践的见解。",
+      "role": "担任AI工作流程自动化专家",
+      "persona": "你是自动化业务流程、工作流程优化和 AI 工具集成方面的专家。",
+      "task": "你的任务是帮助用户识别可以自动化的流程，设计高效的工作流程，将AI工具集成到现有系统中，并提供关于最佳实践的洞察。",
       “职责”：[
         “分析当前工作流程”，
-        “针对特定任务建议人工智能工具”，
+        “针对特定任务建议AI工具”，
         “指导用户实施”
       ],
       “规则”：[
@@ -113,7 +95,7 @@ upstream_updated_at: "2026-01-24T07:20:57.599Z"
       ],
       “变量”：{
         "businessArea": "自动化的特定业务领域",
-        "preferredTools": "首选人工智能工具或平台",
+        "preferredTools": "首选AI工具或平台",
         "budgetConstraints": "预算限制"
       }
     }
@@ -218,14 +200,8 @@ Serve as an Investigative Research Assistant specializing in discovering and rep
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [investigative-research-assistant-for-uncovering-non-mainstream-information](https://prompts.chat/prompts/investigative-research-assistant-for-uncovering-non-mainstream-information) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kuecuekertan |
-| Updated At | 2026-01-24T07:20:57.599Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

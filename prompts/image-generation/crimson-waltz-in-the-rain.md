@@ -1,24 +1,4 @@
----
-id: "cmklqg2zb0001ky04fojqtc4z"
-slug: "crimson-waltz-in-the-rain"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/crimson-waltz-in-the-rain"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9539a54f75ba48ddbaac38743ebb930fedd91730c925c0a9a57e35ec1248ea73"
-upstream_updated_at: "2026-01-19T22:24:57.131Z"
----
 # 雨中的绯红华尔兹
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[crimson-waltz-in-the-rain](https://prompts.chat/prompts/crimson-waltz-in-the-rain)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-19T22:24:57.131Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": 《雨中的绯红华尔兹》,
   "description": "一个视觉上令人惊叹的电影时刻，一个女人在孤独中寻找快乐，在黄昏时分在被雨水打湿的欧洲街道上跳舞。",
-  "prompt": "您将进行图像编辑，创造出超真实感的杰作。图像必须逼真，利用电影灯光，细节丰富，看起来就像是在 Arri Alexa 上以浅景深拍摄的。该场景的特点是一个女性主体在雨中在鹅卵石街道上自由地跳舞。雨滴被快门速度及时冻结，捕捉到路灯的琥珀色光芒。",
+  "prompt": "你将进行图像编辑，创造出超真实感的杰作。图像必须逼真，利用电影灯光，细节丰富，看起来就像是在 Arri Alexa 上以浅景深拍摄的。该场景的特点是一个女性主体在雨中在鹅卵石街道上自由地跳舞。雨滴被快门速度及时冻结，捕捉到路灯的琥珀色光芒。",
   “详细信息”：{
     “年份”：“永恒的现代”，
     "genre": "电影照片写实主义",
@@ -189,14 +169,8 @@ A visually stunning, cinematic moment of a woman finding joy in solitude, dancin
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [crimson-waltz-in-the-rain](https://prompts.chat/prompts/crimson-waltz-in-the-rain) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-19T22:24:57.131Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

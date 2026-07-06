@@ -1,24 +1,4 @@
----
-id: "cmklq4f4g0001i90403ll803s"
-slug: "wings-of-the-dust-bowl"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/wings-of-the-dust-bowl"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "22ddc0a793a4c503a905916f669754d4f3cf3575297fb372e835bf8a309090a0"
-upstream_updated_at: "2026-01-20T19:19:30.547Z"
----
 # 尘暴之翼
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[wings-of-the-dust-bowl](https://prompts.chat/prompts/wings-of-the-dust-bowl)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-20T19:19:30.547Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   “title”：“尘暴之翼”，
   "description": "一位大胆的 20 世纪 30 年代女飞行员自信地站在日落时分的风吹过的机场上，准备穿越大西洋。",
-  "prompt": "您将使用所提供的照片进行图像编辑，创建一个值得历史史诗般的框架。将女性主体转变为 1930 年代的先锋飞行员。图像必须逼真，利用电影照明来突出饱经风霜的皮革和皮肤毛孔的纹理。场景非常详细，使用 Arri Alexa 拍摄，采用浅景深，模糊了背景中的老式双翼飞机。构图侧重于现实物理，从风吹动她的围巾到她脸颊上沾满了油污。",
+  "prompt": "你将使用所提供的照片进行图像编辑，创建一个值得历史史诗般的框架。将女性主体转变为 1930 年代的先锋飞行员。图像必须逼真，利用电影照明来突出饱经风霜的皮革和皮肤毛孔的纹理。场景非常详细，使用 Arri Alexa 拍摄，采用浅景深，模糊了背景中的老式双翼飞机。构图侧重于现实物理，从风吹动她的围巾到她脸颊上沾满了油污。",
   “详细信息”：{
     “年份”：“1933年”，
     "genre": "电影照片写实主义",
@@ -195,14 +175,8 @@ Wings of the Dust Bowl
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [wings-of-the-dust-bowl](https://prompts.chat/prompts/wings-of-the-dust-bowl) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-20T19:19:30.547Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

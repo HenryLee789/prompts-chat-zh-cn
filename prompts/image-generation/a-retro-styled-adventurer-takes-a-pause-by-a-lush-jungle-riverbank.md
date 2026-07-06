@@ -1,24 +1,4 @@
----
-id: "cmjootor30001l5042qfcmmbb"
-slug: "a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "74ddf03d52052e2af289ac1b6facc4f0aceb5edfb7d62c635b4eccfe6d25fba6"
-upstream_updated_at: "2025-12-27T19:22:48.055Z"
----
 # 一位复古风格的冒险家在郁郁葱葱的丛林河岸边停下来。
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank](https://prompts.chat/prompts/a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T19:22:48.055Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -180,6 +162,9 @@ upstream_updated_at: "2025-12-27T19:22:48.055Z"
     "negative_prompt": "卡通、3D 渲染、插图、绘画、低质量、像素化、模糊的脸、扭曲的手、多余的肢体、不良的解剖结构、工作室背景、灰色背景、城市环境、全衣、牛仔布、浓妆、小胡子、胡须、男性。"
   }
 }
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -340,14 +325,8 @@ Bathed in strong backlighting that highlights her short hair, a woman in a black
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank](https://prompts.chat/prompts/a-retro-styled-adventurer-takes-a-pause-by-a-lush-jungle-riverbank) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2025-12-27T19:22:48.055Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

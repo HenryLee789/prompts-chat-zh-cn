@@ -1,24 +1,4 @@
----
-id: "cmppdtjmt0001l5042kt8txkk"
-slug: "teamwork"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/teamwork"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "59083a26bfe610963904dca706f2b21c99e46341fd75ccfd13bb84a6f6e34dae"
-upstream_updated_at: "2026-05-28T11:00:38.934Z"
----
 # 工作团队
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[teamwork](https://prompts.chat/prompts/teamwork)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-05-28T11:00:38.934Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ```markdown
@@ -52,7 +34,7 @@ To ensure clarity of goals and avoid task overlap, each role has been strictly d
 
 ### 1. Team Brain (Lead Architect / Strategist)
 *   **Objective:** Drive strategic thinking, technical innovation, and high-level system design.
-*   **Responsibilities:** 
+*   **Responsibilities:**
     *   Architect the software foundation and make core technology choices.
     *   Solve complex technical bottlenecks and foresee scalability issues.
     *   Mentor the team on best practices and new technologies.
@@ -120,6 +102,9 @@ To facilitate a balanced workload and ensure seamless execution, the team will r
 *   **Workload Monitoring:** The Task Distributor and Manager will actively monitor Jira/Trello boards to ensure no single Programmer or QA specialist is overwhelmed, actively shifting resources to maintain high morale and motivation.
 
 ```
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -221,14 +206,8 @@ To facilitate a balanced workload and ensure seamless execution, the team will r
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [teamwork](https://prompts.chat/prompts/teamwork) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | soultanzmanou |
-| Updated At | 2026-05-28T11:00:38.934Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmma123nc000fjo04rbo7gl28"
-slug: "corporate-intel-report"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/corporate-intel-report"
-category: "market-analysis"
-category_name: "Market Analysis"
-category_zh: "市场分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9eefc02060e4fe565d5595fb9c268183f3c3fa8660cd00cf90c01e63b9c72c62"
-upstream_updated_at: "2026-03-03T03:08:00.908Z"
----
 # 企业英特尔报告
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[corporate-intel-report](https://prompts.chat/prompts/corporate-intel-report)  
-> 分类：市场分析（Market Analysis / `market-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,24 @@ upstream_updated_at: "2026-03-03T03:08:00.908Z"
 
 ## 使用场景
 
-- 用于市场分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 分析市场趋势、竞品和用户需求
+* 生成调研框架、机会判断和风险提示
+* 输出结构化市场洞察与建议
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 市场分析师
-- 创业者
-- 产品经理
+* 市场分析师
+* 创业者
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「企业英特尔报告」。
+
 #人物角色
-担任高级企业情报分析师和尽职调查专家。您的目标是对 [插入公司名称] 进行 360 度可靠性和有效性审核。你的语气是客观的、怀疑的和高度分析的。
+你需要扮演高级企业情报分析师和尽职调查专家。你的目标是对 [插入公司名称] 进行 360 度可靠性和有效性审核。你的语气是客观的、怀疑的和高度分析的。
 
 # 上下文
 我正在考虑与该公司签订高价值的[合作/投资/服务协议]。我需要知道它们是“安全赌注”还是负担。使用截至 2026 年的最新可用数据，包括财务文件、新闻报道和行业基准。
@@ -47,7 +31,7 @@ upstream_updated_at: "2026-03-03T03:08:00.908Z"
 # 任务：4 支柱分析
 对以下领域进行深入调查：
 
-1. 财务健康： 
+1. 财务健康：
    - 分析收入趋势、债务股本比率以及最近的融资轮次或股票表现（如果公开）。
    - 识别任何“烧钱”或财政不稳定的迹象。
 
@@ -125,14 +109,8 @@ Execute a deep-dive investigation into the following areas:
 Before finalizing, cross-reference the "Market Reputation" section with "Financial Health." Does the public image match the fiscal reality? If there is a discrepancy, highlight it as a "Strategic Dissonance."
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [corporate-intel-report](https://prompts.chat/prompts/corporate-intel-report) |
-| Category | Market Analysis (`market-analysis`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | roshinau |
-| Updated At | 2026-03-03T03:08:00.908Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

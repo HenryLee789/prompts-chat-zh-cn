@@ -1,42 +1,23 @@
----
-id: "cmjem343u0009vf0rhldtvt6p"
-slug: "web-application-testing-skill"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/web-application-testing-skill"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f74a06fe09991a8c1d8a5314cc6102988227de1a46e1ef2394fd601285e873ad"
-upstream_updated_at: "2026-01-15T14:35:33.233Z"
----
 # Web应用测试技巧
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[web-application-testing-skill](https://prompts.chat/prompts/web-application-testing-skill)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用 Playwright 与本地 Web 应用程序交互并测试本地 Web 应用程序的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器屏幕截图以及查看浏览器日志。
+使用 Playwright 与本地 Web 应用程序交互并测试本地 Web 应用程序的工具包。支持验证前端功能、debug UI 行为、捕获浏览器屏幕截图以及查看浏览器日志。
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、Web Development、Testing、Automation 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、Web Development、Testing 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -46,15 +27,15 @@ upstream_updated_at: "2026-01-15T14:35:33.233Z"
 
 # Web 应用程序测试
 
-此技能可以使用 Playwright 自动化对本地 Web 应用程序进行全面测试和调试。
+此技能可以使用 Playwright 自动化对本地 Web 应用程序进行全面测试和debug。
 
 ## 何时使用此技能
 
-当您需要执行以下操作时，请使用此技能：
+当你需要执行以下操作时，请使用此技能：
 - 在真实浏览器中测试前端功能
 - 验证 UI 行为和交互
-- 调试网络应用程序问题
-- 捕获屏幕截图以用于文档或调试
+- debug网络应用程序问题
+- 捕获屏幕截图以用于文档或debug
 - 检查浏览器控制台日志
 - 验证表单提交和用户流程
 - 检查跨视口的响应式设计
@@ -81,11 +62,11 @@ upstream_updated_at: "2026-01-15T14:35:33.233Z"
 - 验证 URL
 - 测试响应行为
 
-### 3.调试
+### 3.debug
 - 捕获屏幕截图
 - 查看控制台日志
 - 检查网络请求
-- 调试失败的测试
+- debug失败的测试
 
 ## 用法示例
 
@@ -116,7 +97,7 @@ await page.screenshot({ path: 'debug.png', fullPage: true });
 
 1. **始终验证应用程序是否正在运行** - 在运行测试之前检查本地服务器是否可访问
 2. **使用显式等待** - 在交互之前等待元素或导航完成
-3. **Capture Screenshots on failure** - 截取屏幕截图以帮助调试问题
+3. **Capture Screenshots on failure** - 截取屏幕截图以帮助debug问题
 4. **清理资源** - 完成后始终关闭浏览器
 5. **优雅地处理超时** - 为缓慢的操作设置合理的超时
 6. **增量测试** - 在复杂的流程之前从简单的交互开始
@@ -139,7 +120,7 @@ const exists = await page.locator('#element-id').count() > 0;
 page.on('console', msg => console.log('Browser log:', msg.text()));
 ```
 
-### 模式：处理错误
+### 模式：处理bug
 ```javascript
 try {
   await page.click('#button');
@@ -290,14 +271,8 @@ try {
 - Some modern frameworks may require specific configuration
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [web-application-testing-skill](https://prompts.chat/prompts/web-application-testing-skill) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, Web Development, Testing, Automation |
-| Contributors | f |
-| Updated At | 2026-01-15T14:35:33.233Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

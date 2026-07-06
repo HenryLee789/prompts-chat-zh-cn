@@ -1,42 +1,23 @@
----
-id: "cmmtxmmew0001kz0458493x28"
-slug: "resume-customization-prompt-strategic-integrity"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/resume-customization-prompt-strategic-integrity"
-category: "writing"
-category_name: "Writing"
-category_zh: "写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "379571c3320eb6c03974e8d3d73bf4f58f3986d55ff8701ff0d4f2fc1ecbe548"
-upstream_updated_at: "2026-03-17T01:27:48.840Z"
----
 # 简历定制提示——战略诚信
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[resume-customization-prompt-strategic-integrity](https://prompts.chat/prompts/resume-customization-prompt-strategic-integrity)  
-> 分类：写作（Writing / `writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用许多先进的人工智能逻辑元素为每项工作定制您的简历。
+使用许多先进的AI逻辑元素为每项工作定制你的简历。
 
 ## 使用场景
 
-- 用于写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Resume、Communication 等主题快速生成可复用结果。
+* 撰写、改写、润色或总结文本内容
+* 控制语气、文体、结构和目标读者
+* 生成可直接用于发布或沟通的中文内容
+* 围绕 Resume、Communication 等主题生成结构化结果
 
 ## 适用人群
 
-- 写作者
-- 内容创作者
-- 编辑
+* 写作者
+* 内容创作者
+* 编辑
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ## 恢复自定义提示 – STRATEGIC INTEGRITY v3.26 (GENERIC)
@@ -49,8 +30,8 @@ upstream_updated_at: "2026-03-17T01:27:48.840Z"
 ---
 
 ## 快速入门指南
-1. **填充变量：** 替换“用户变量”部分中的括号。
-2. **附加文件：** 上传您的大师技能摘要或简历。
+1. **填充可用变量：** 替换“用户变量”部分中的括号。
+2. **附加文件：** 上传你的大师技能摘要或简历。
 3. **粘贴职位发布：** 将目标职位描述 (JD) 放入带有此提示的聊天中。
 4. **执行：** AI首先执行战略审计，然后生成定制文档。
 
@@ -59,7 +40,7 @@ upstream_updated_at: "2026-03-17T01:27:48.840Z"
 ## 用户变量（必需）
 - **姓名和凭据：** [插入姓名，例如 Jane Doe、CISSP]
 - **目标角色：** [插入职位名称]
-- **源文件：** [您上传的文件的名称]
+- **源文件：** [你上传的文件的名称]
 - **来源 URL：** [链接到作品集/GitHub（如果适用）]
 
 ### 第 1 阶段：去风险审计
@@ -73,10 +54,10 @@ upstream_updated_at: "2026-03-17T01:27:48.840Z"
 ### 第 2 阶段：强制输出订单
 按此顺序处理每个部分。如果不需要更改，请注明“无需更改”。
 
-1. **标头：** [姓名和凭据]。使用 ( • ) 表示电话 • 电子邮件 • LinkedIn。
+1. **标头：** [姓名和凭据]。使用 ( • ) 表示电话 • 邮件 • LinkedIn。
 2. **专业总结：**人性化的“我”声。使用公司的“金字招牌”让自己看起来像一名内部员工。
 3. **专业领域：** 单段块；项目由粗体中间点 ( **·** ) 分隔。
-4. **主要成就：** 正好 3 个子弹。 **1:1 公制规则：** 每个项目符号必须有一个数字（$ 或 %）。 
+4. **主要成就：** 正好 3 个子弹。 **1:1 公制约束条件：** 每个项目符号必须有一个数字（$ 或 %）。
 5. **专业经验：** 工作/公司/日期作为文本；单个代码块中的项目符号。
 6. **早期职业生涯/附加历史。**
 7. **教育。**
@@ -84,11 +65,11 @@ upstream_updated_at: "2026-03-17T01:27:48.840Z"
 9. **认证/许可证。**
 
 ### 第三阶段：上帝模式写作规则
-- **“之前”测试：** 每一颗子弹都必须证明您已经解决了问题。没有“学习”的氛围。
+- **“之前”测试：** 每一颗子弹都必须证明你已经解决了问题。没有“学习”的氛围。
 - **主动终止开关：** 禁止被动词（管理、负责）。使用：精心策划、大修、捕获。
 - **眼动追踪：** **大胆获胜**，而不是任务。眼睛应该直接跳到结果。
 - **之前和修订：** 显示 **之前：** （纯文本），然后为每个更新的部分显示 ```Revised``` （代码块）。
-- **格式：** 严格使用中间点 (·) 项目符号。列表项之间没有空行。
+- **格式要求：** 严格使用中间点 (·) 项目符号。列表项之间没有空行。
 
 ### 第 4 阶段：内部求职信
 - **直接领导：** 否“我正在写信申请。”首先：“我在[公司]完成了这项工作”或直接声明。
@@ -178,14 +159,8 @@ Process every section in this order. If no changes are needed, state "No Changes
 - **Revision Changelog:** List sections processed and summarize adjustments.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [resume-customization-prompt-strategic-integrity](https://prompts.chat/prompts/resume-customization-prompt-strategic-integrity) |
-| Category | Writing (`writing`) |
-| Type | `TEXT` |
-| Tags | Resume, Communication |
-| Contributors | thanos0000 |
-| Updated At | 2026-03-17T01:27:48.840Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

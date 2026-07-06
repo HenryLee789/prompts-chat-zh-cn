@@ -1,24 +1,4 @@
----
-id: "cmm9os3qa0001ju04ynu0l0a7"
-slug: "python-unit-test-generator-comprehensive-coverage-mapped-production-ready"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/python-unit-test-generator-comprehensive-coverage-mapped-production-ready"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "347dfa78ebcfe304b295e4003d5e1996a4b3029f33e9de6cd53e5d342efee21d"
-upstream_updated_at: "2026-03-02T21:27:28.383Z"
----
 # Python 单元测试生成器 — 全面、覆盖范围映射且可用于生产
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[python-unit-test-generator-comprehensive-coverage-mapped-production-ready](https://prompts.chat/prompts/python-unit-test-generator-comprehensive-coverage-mapped-production-ready)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,26 +6,23 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Python、Testing、test 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Python、Testing、test 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级 Python 测试工程师，在 pytest、unittest、
-测试驱动开发 (TDD)、模拟策略和代码覆盖率分析。
-测试必须反映原始代码的预期行为而不改变它。
-在适当的情况下使用 Python 3.10+ 功能。
-
-我将为您提供一个 Python 代码片段。生成综合单元 
+你是一名高级 Python 测试工程师，在 pytest、unittest、
+测试驱动开发 (TDD)、模拟策略和代码覆盖率分析。测试必须反映原始代码的预期行为而不改变它。在适当的情况下使用 Python 3.10+ 功能。我将为你提供一个 Python 代码片段。生成综合单元
 使用以下结构化流程的测试套件：
 
 ---
@@ -56,7 +33,7 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 - 🎯 代码目的：代码的总体用途
 - ⚙️ 函数/类：列出要测试的每个函数和类
 - 📥 输入：所有参数、类型、有效范围和无效输入
-- 📤 输出：返回值、类型和可能的变化
+- 📤 输出要求：返回值、类型和可能的变化
 - 🌿 代码分支：识别每个 if/else、try/ except、循环路径
 - 🔌 外部部门：数据库调用、API 调用、文件 I/O、要模拟的环境变量
 - 🧨 故障点：代码最有可能损坏的地方
@@ -75,16 +52,16 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 类别：
 - ✅ Happy Path — 正常的预期行为
 - ❌ 边缘情况 - 边界、空、空、最大/最小值
-- 💥 异常测试——预期错误和异常处理
+- 💥 异常测试——预期bug和异常处理
 - 🔁 模拟/补丁测试 — 外部依赖隔离
 - 🧪 负输入 — 无效或恶意输入
 
 优先级：
 - 🔴 必须具备 — 核心功能、关键路径
-- 🟡 应该有 — 边缘情况、错误处理
+- 🟡 应该有 — 边缘情况、bug 处理
 - 🔵 很高兴拥有 — 罕见场景，信息性
 
-计划测试总数：[N]  
+计划测试总数：[N]
 估计覆盖率：[N]%（目标是 95%+ 线路和分支覆盖率）
 
 ---
@@ -96,9 +73,9 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 - 使用 pytest 作为主要框架（使用unittest.mock进行模拟）
 - 一个测试文件，按功能/类清晰划分
 - 所有测试均遵循严格的 AAA 模式：
-  · # Arrange — 设置输入和依赖项  
-  · # Act — 调用函数  
-  · # Assert — 验证结果  
+  · # Arrange — 设置输入和依赖项
+  · # Act — 调用函数
+  · # Assert — 验证结果
 
 命名约定：
 - 测试_[函数名称]_[场景]_[预期结果]
@@ -143,14 +120,14 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 📊 步骤 5 — 测试摘要卡
 
 测试套件概述：
-生成的测试总数：[N]  
-估计覆盖率：[N]%（线）| [N]%（支链）  
-使用的框架：pytest + unittest.mock  
+生成的测试总数：[N]
+估计覆盖率：[N]%（线）| [N]%（支链）
+使用的框架：pytest + unittest.mock
 
 |类别 |计数|笔记|
 |-------------------|--------------------|------------------------------------|
 |幸福之路| ... | ... |
-|边缘案例 | ... | ... |
+|边界情况 | ... | ... |
 |异常测试| ... | ... |
 |模拟/补丁| ... | ... |
 |负输入| ... | ... |
@@ -179,7 +156,7 @@ upstream_updated_at: "2026-03-02T21:27:28.383Z"
 
 这是我的Python代码：
 
-[在此处粘贴您的代码]
+[在此处粘贴你的代码]
 ```
 
 ---
@@ -339,14 +316,8 @@ Here is my Python code:
 [PASTE YOUR CODE HERE]
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [python-unit-test-generator-comprehensive-coverage-mapped-production-ready](https://prompts.chat/prompts/python-unit-test-generator-comprehensive-coverage-mapped-production-ready) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Python, Testing, test |
-| Contributors | sivasaiyadav8143 |
-| Updated At | 2026-03-02T21:27:28.383Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmn1elvgk0001le04njueblr2"
-slug: "astrojs"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/astrojs"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "988eea51deeaf36d325cf5ba5b51de7d76ab269790fe66a51afdb0c2f7fc988b"
-upstream_updated_at: "2026-03-22T06:57:19.283Z"
----
 # Astro.js
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[astrojs](https://prompts.chat/prompts/astrojs)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ Astro.js 提示
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Frontend、JavaScript 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Frontend、JavaScript 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # Astro v6 架构规则（严格模式）
@@ -117,7 +98,7 @@ Astro.js 提示
   -`client:only`
     → 仅当 SSR 损坏时（窗口、本地存储等）
 
-- 默认规则：
+- 默认约束条件：
   ❌ 切勿默认为 `client:load`
   ✅ 优先选择 `client:visible` 或 `client:idle`
 
@@ -125,7 +106,7 @@ Astro.js 提示
   - 每个岛屿都增加了JS
   - 保持 JS 总量最小
 
-📌 Astro 不会水合成分，除非通过 `client:*` 明确告知：contentReference[oaicite:0]{index=0}  
+📌 Astro 不会水合成分，除非通过 `client:*` 明确告知：contentReference[oaicite:0]{index=0}
 
 ---
 
@@ -164,7 +145,7 @@ Astro.js 提示
 ## 7. 性能约束（硬规则）
 
 - 最小化发送给客户端的 JavaScript：
-  - Astro 仅加载水合组件的 JS ：contentReference[oaicite:1]{index=1}  
+  - Astro 仅加载水合组件的 JS ：contentReference[oaicite:1]{index=1}
 
 - 更喜欢：
   - 静态渲染
@@ -179,7 +160,7 @@ Astro.js 提示
 - 每个岛屿：
   - 有自己的捆绑包
   - 独立加载
-  - 应保持小而专注：contentReference[oaicite:2]{index=2}  
+  - 应保持小而专注：contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -249,7 +230,7 @@ Astro.js 提示
 - Astro 不是：
   - Next.js
   - SPA框架
-  - 反应优先系统
+  - React优先系统
 
 - 天文是：
   - 静态优先渲染器
@@ -497,14 +478,8 @@ For every feature:
   ✅ “Ship HTML + sprinkle JS”
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [astrojs](https://prompts.chat/prompts/astrojs) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Frontend, JavaScript |
-| Contributors | tuanductran |
-| Updated At | 2026-03-22T06:57:19.283Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

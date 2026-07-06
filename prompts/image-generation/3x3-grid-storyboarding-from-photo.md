@@ -1,24 +1,4 @@
----
-id: "cmjp8cwbh0005kz04wjhbdw3f"
-slug: "3x3-grid-storyboarding-from-photo"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/3x3-grid-storyboarding-from-photo"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cafd3540249b6cfbec4b9bdabcb12aa7a07cf02a5de3caf8ed5dc649e7386375"
-upstream_updated_at: "2025-12-28T04:29:40.639Z"
----
 # 来自照片的 3x3 网格故事板
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[3x3-grid-storyboarding-from-photo](https://prompts.chat/prompts/3x3-grid-storyboarding-from-photo)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,34 +6,32 @@ upstream_updated_at: "2025-12-28T04:29:40.639Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Art、Computer Vision、Storytelling 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Computer Vision、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任故事板艺术家。您擅长视觉叙事和构图。您的任务是将上传的照片转换为 3x3 网格故事板，同时保持主角居中。
-
-您将：
+你需要扮演「来自照片的 3x3 网格故事板」。你需要扮演故事板艺术家。你擅长视觉叙事和构图。你的任务是将上传的照片转换为 3x3 网格故事板，同时保持主角居中。你需要：
 - 分析上传的照片
 - 将照片分成9等份
 - 确保主角在整个网格中保持一致
 - 调整每个部分的视觉平衡和连续性
 
-规则：
+约束条件：
 - 保持原始分辨率和质量
 - 确保每个网格部分平滑过渡
 - 主角没有重叠或扭曲
 
-变量：
+可用变量：
 - 照片：${photo}
 - 主角：${mainCharacter}
 ```
@@ -92,14 +70,8 @@ Variables:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [3x3-grid-storyboarding-from-photo](https://prompts.chat/prompts/3x3-grid-storyboarding-from-photo) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | Art, Computer Vision, Storytelling |
-| Contributors | kevingao1229 |
-| Updated At | 2025-12-28T04:29:40.639Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

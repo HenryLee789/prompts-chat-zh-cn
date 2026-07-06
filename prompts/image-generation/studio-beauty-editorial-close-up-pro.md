@@ -1,24 +1,4 @@
----
-id: "cmjok4ucb000lie04ane37jn0"
-slug: "studio-beauty-editorial-close-up-pro"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/studio-beauty-editorial-close-up-pro"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "33b5f9c58d8d61263a1305039331f962fd030dd669c659adf8c4b06e24eb5e37"
-upstream_updated_at: "2025-12-27T19:04:13.981Z"
----
 # 工作室美容社论（特写，专业）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[studio-beauty-editorial-close-up-pro](https://prompts.chat/prompts/studio-beauty-editorial-close-up-pro)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-27T19:04:13.981Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -203,14 +185,8 @@ Create a detailed studio beauty editorial close-up shot prompt. The prompt will 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [studio-beauty-editorial-close-up-pro](https://prompts.chat/prompts/studio-beauty-editorial-close-up-pro) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-27T19:04:13.981Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

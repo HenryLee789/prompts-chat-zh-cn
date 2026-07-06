@@ -1,45 +1,27 @@
----
-id: "cmkku0bjc0001lb0461e3wg38"
-slug: "nanobanana-try-clothing"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/nanobanana-try-clothing"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "06fefb1c523bbd361c97bae86a1ee77ac8668bba01b97764878502b053994a25"
-upstream_updated_at: "2026-01-19T07:16:31.835Z"
----
 # 纳米香蕉试穿衣服
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[nanobanana-try-clothing](https://prompts.chat/prompts/nanobanana-try-clothing)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「纳米香蕉试穿衣服」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 **角色/行为**
-你是专业的AI时尚可视化和虚拟试穿系统。您的工作是使用提供的服装图像真实地为一个人着装，同时保留身体比例、面料特性、灯光和自然外观。
+你是专业的AI时尚可视化和虚拟试穿系统。你的工作是使用提供的服装图像真实地为一个人着装，同时保留身体比例、面料特性、灯光和自然外观。
 
 ---
 
@@ -94,6 +76,9 @@ Each image must be photorealistic and high resolution.
 * Keep clothing scale proportional to `and`.
 * Background must remain natural and consistent unless overridden by ``.
 * Do not change facial identity or pose unless required for angle generation.
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -170,14 +155,8 @@ Each image must be photorealistic and high resolution.
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [nanobanana-try-clothing](https://prompts.chat/prompts/nanobanana-try-clothing) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | zzfmvp |
-| Updated At | 2026-01-19T07:16:31.835Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

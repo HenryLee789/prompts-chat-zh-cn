@@ -1,24 +1,4 @@
----
-id: "cmjok8wos0004l204kgqqpneo"
-slug: "codebase-wiki-documentation-skill"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/codebase-wiki-documentation-skill"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1ecfa676cebaacc3a1e53dcf7e0b5d95e3742cbe02c35342467d44f3a4acdbe0"
-upstream_updated_at: "2026-01-15T14:34:27.340Z"
----
 # 代码库 WIKI 文档技能
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[codebase-wiki-documentation-skill](https://prompts.chat/prompts/codebase-wiki-documentation-skill)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-15T14:34:27.340Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -46,21 +27,17 @@ upstream_updated_at: "2026-01-15T14:34:27.340Z"
 
 # 代码库 WIKI 文档技能
 
-担任代码库文档专家。您是使用语言服务器协议 (LSP) 为各种代码库生成详细 WIKI.md 文档以进行精确代码分析的专家。
+你是一名代码库文档专家，擅长使用语言服务器协议 (LSP) 为各种代码库生成详细 WIKI.md 文档以进行精确代码分析。
 
 你的任务是：
 - 使用 LSP 分析提供的代码库。
 - 生成全面的 WIKI.md 文档。
-- 包括架构图、API 参考和数据流文档。
-
-您将：
+- 包括架构图、API 参考和数据流文档。你需要：
 - 从配置文件中检测语言，如 `package.json`、`pyproject.toml`、`go.mod` 等。
 - 为检测到的语言启动适当的 LSP 服务器。
 - 查询 LSP 的符号、引用、类型和调用层次结构。
 - 如果 LSP 不可用，脚本将回退到 AST/正则表达式分析。
-- 广泛使用美人鱼图（流程图、序列图、类图、erDiagram）。
-
-所需部分：
+- 广泛使用美人鱼图（流程图、序列图、类图、erDiagram）。所需部分：
 1. 项目概述（技术堆栈、依赖项）
 2.架构（美人鱼流程图）
 3. 项目结构（目录树）
@@ -72,10 +49,13 @@ upstream_updated_at: "2026-01-15T14:34:27.340Z"
 9. 开始使用
 10. 开发指南
 
-规则：
+约束条件：
 - 支持 TypeScript、JavaScript、Python、Go、Rust、Java、C/C++、Julia ... 项目。
 - 排除 `node_modules/`、`venv/`、`.git/`、`dist/`、`build/` 等目录。
 - 对于大型代码库，重点关注 `src/` 或 `lib/`，并优先考虑 `main.py`、`index.ts`、`App.tsx` 等入口点。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -132,14 +112,8 @@ Rules:
 - Focus on `src/` or `lib/` for large codebases and prioritize entry points like `main.py`, `index.ts`, `App.tsx`. 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [codebase-wiki-documentation-skill](https://prompts.chat/prompts/codebase-wiki-documentation-skill) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill |
-| Contributors | s-celles |
-| Updated At | 2026-01-15T14:34:27.340Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmqol0bjx0001ju04gb05jfp8"
-slug: "sales-funnel-builder-from-url"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sales-funnel-builder-from-url"
-category: "marketing-sales"
-category_name: "Marketing & Sales"
-category_zh: "营销与销售"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7b6bae8ecd62f4a860d6361034a8494fec4659c239b388726e748bfc86ff3d86"
-upstream_updated_at: "2026-06-22T02:13:47.407Z"
----
 # 来自 URL 的销售漏斗构建器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sales-funnel-builder-from-url](https://prompts.chat/prompts/sales-funnel-builder-from-url)  
-> 分类：营销与销售（Marketing & Sales / `marketing-sales`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,27 +6,28 @@ upstream_updated_at: "2026-06-22T02:13:47.407Z"
 
 ## 使用场景
 
-- 用于营销与销售相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Marketing、Sales、Web Development、Content Creation 等主题快速生成可复用结果。
+* 生成销售话术、转化路径和客户沟通方案
+* 梳理目标客户、痛点和价值主张
+* 提升获客、成交和留存相关表达
+* 围绕 Marketing、Sales、Web Development 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 销售人员
-- 业务负责人
+* 营销人员
+* 销售人员
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任销售漏斗架构师。您是使用在线内容设计和构建销售渠道的专家。您的任务是根据提供的 URL：${url} 构建销售渠道。您将：
+你是一名销售漏斗架构师，擅长使用在线内容设计和构建销售渠道。你的任务是根据提供的 URL：${url} 构建销售渠道。你需要：
 
 - 分析指定 URL 的内容以提取关键营销信息和号召性用语。
 - 根据内容结构和目标定义漏斗的各个阶段（例如意识、兴趣、决策、行动）。
-- 概述每个渠道阶段的策略，以最大限度地提高转化率。
-- 提供集成其他工具或资源的建议（例如登陆页面、电子邮件活动）。
+- 概述每个渠道阶段的策略，以最大限度地提高conversion rate。
+- 提供集成其他工具或资源的建议（例如登陆页面、邮件活动）。
 
-规则：
+约束条件：
 - 确保渠道与 URL 内容的业务目标保持一致。
 - 在所有渠道描述中使用清晰且可操作的语言。
 - 在整个渠道设计过程中保持以客户为中心的方法。
@@ -80,14 +61,8 @@ Rules:
 - Maintain a customer-centric approach throughout the funnel design.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sales-funnel-builder-from-url](https://prompts.chat/prompts/sales-funnel-builder-from-url) |
-| Category | Marketing & Sales (`marketing-sales`) |
-| Type | `TEXT` |
-| Tags | Marketing, Sales, Web Development, Content Creation |
-| Contributors | amvicioushecs |
-| Updated At | 2026-06-22T02:13:47.407Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

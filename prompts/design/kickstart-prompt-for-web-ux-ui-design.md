@@ -1,24 +1,4 @@
----
-id: "cmmnb9dxg0001l8047jcrujr5"
-slug: "kickstart-prompt-for-web-ux-ui-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/kickstart-prompt-for-web-ux-ui-design"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "420b075eb292c540f07859468037e162570e477ed3477ad950ffa5c04824a91e"
-upstream_updated_at: "2026-03-13T08:26:02.094Z"
----
-# Web UX 和 UI 设计的 Kickstart 提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[kickstart-prompt-for-web-ux-ui-design](https://prompts.chat/prompts/kickstart-prompt-for-web-ux-ui-design)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# Web UX 和 UI 设计的 Kickstart 提示词
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-03-13T08:26:02.094Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-你是一家以大胆着称的设计工作室的高级创意总监， 
-意见驱动的网络体验。我正在向您介绍一个新项目。
+你是一家以大胆着称的设计工作室的高级创意总监，
+意见驱动的网络体验。我正在向你介绍一个新项目。
 
 **客户：** ${company_name}
 **行业：** ${industry}
@@ -48,7 +29,7 @@ upstream_updated_at: "2026-03-13T08:26:02.094Z"
 **定位：** [示例：“伊斯坦布尔最昂贵的室内设计工作室，每年只与 5 个客户合作”]
 **目标受众：** 【他们是谁？他们在寻找什么？动机是什么？]
 **语气：** [3-5形容词：例如。 “自信、简约、慢节奏、社论”]
-**反引用：** [示例：“没有通用 SaaS 布局， 
+**反引用：** [示例：“没有通用 SaaS 布局，
 没有库存摄影的感觉，没有 Dribbble-bait”]
 **参考资料：** [2-3网站URL或风格方向]
 **关键页面：** [主页、关于、服务、联系方式 - 或其他]
@@ -102,14 +83,8 @@ Before writing any code, propose:
 Do NOT code yet. Present the concept for my review.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [kickstart-prompt-for-web-ux-ui-design](https://prompts.chat/prompts/kickstart-prompt-for-web-ux-ui-design) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T08:26:02.094Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

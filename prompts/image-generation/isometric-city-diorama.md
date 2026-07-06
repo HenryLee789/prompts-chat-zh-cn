@@ -1,24 +1,4 @@
----
-id: "cmj211exv0005wa0stbf15gvm"
-slug: "isometric-city-diorama"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/isometric-city-diorama"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2af4d8d341de398a2278889a023d34d7cc1b8b3dcf5f7f1365a15f033b1fcb75"
-upstream_updated_at: "2025-12-16T11:13:44.198Z"
----
 # 等距城市立体模型
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[isometric-city-diorama](https://prompts.chat/prompts/isometric-city-diorama)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2025-12-16T11:13:44.198Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Midjourney、Vision 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Midjourney、Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -130,14 +111,8 @@ Structured prompt for generating an isometric city diorama in a miniature 3D sty
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [isometric-city-diorama](https://prompts.chat/prompts/isometric-city-diorama) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | Midjourney, Vision |
-| Contributors | f |
-| Updated At | 2025-12-16T11:13:44.198Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

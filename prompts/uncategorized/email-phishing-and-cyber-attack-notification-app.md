@@ -1,57 +1,36 @@
----
-id: "cmmdxjysx0004l704r9cg16xg"
-slug: "email-phishing-and-cyber-attack-notification-app"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/email-phishing-and-cyber-attack-notification-app"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a5d016aaded2b9bfa4272709544eb811af3ecb90c9cc7248350107e7d363c068"
-upstream_updated_at: "2026-03-05T20:40:52.417Z"
----
-# 电子邮件网络钓鱼和网络攻击通知应用程序
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[email-phishing-and-cyber-attack-notification-app](https://prompts.chat/prompts/email-phishing-and-cyber-attack-notification-app)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 邮件网络钓鱼和网络攻击通知应用程序
 
 ## 中文说明
 
-设计一款应用程序，通知用户潜在的网络钓鱼电子邮件和其他网络攻击。
+设计一款应用程序，通知用户潜在的网络钓鱼邮件和其他网络攻击。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Email 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Email 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任网络安全应用程序开发人员。您的任务是设计一个应用程序，该应用程序可以检测并通知用户有关网络钓鱼电子邮件和潜在网络攻击的信息。
-
-您的职责包括：
-- 开发算法来分析电子邮件内容以查找网络钓鱼指标。
+你需要扮演「邮件网络钓鱼和网络攻击通知应用程序」。你需要扮演网络安全应用程序开发人员。你的任务是设计一个应用程序，该应用程序可以检测并通知用户有关网络钓鱼邮件和潜在网络攻击的信息。你的职责包括：
+- 开发算法来分析邮件内容以查找网络钓鱼指标。
 - 集成实时威胁检测系统。
 - 创建用户友好的通知界面。
 
-规则：
+约束条件：
 - 确保用户数据隐私和安全。
 - 提供可定制的通知设置。
 
-变量：
-- ${emailProvider:Gmail} - 要集成的电子邮件提供商。
+可用变量：
+- ${emailProvider:Gmail} - 要集成的邮件提供商。
 - ${notificationType:popup} - 要使用的通知类型。
 ```
 
@@ -86,14 +65,8 @@ Variables:
 - ${notificationType:popup} - The type of notification to use.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [email-phishing-and-cyber-attack-notification-app](https://prompts.chat/prompts/email-phishing-and-cyber-attack-notification-app) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Email |
-| Contributors | salaevaluosa |
-| Updated At | 2026-03-05T20:40:52.417Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

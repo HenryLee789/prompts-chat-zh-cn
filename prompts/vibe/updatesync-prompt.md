@@ -1,24 +1,4 @@
----
-id: "cmmoj3amu000eky04ueu55quc"
-slug: "updatesync-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/updatesync-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a386a10e33f9abad290e1afa9038d5eb83b98279524cc54ac8f888a54035878c"
-upstream_updated_at: "2026-03-13T06:42:48.217Z"
----
-# 更新/同步提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[updatesync-prompt](https://prompts.chat/prompts/updatesync-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 更新/同步提示词
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-13T06:42:48.217Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux、Frontend、Backend 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 design、ui-ux、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您正在更新现有的 FORME.md 文档文件以反映
+你正在更新现有的 FORME.md 文档文件以反映
 自上次编写以来代码库发生了变化。
 
 ## 输入
@@ -49,8 +30,7 @@ upstream_updated_at: "2026-03-13T06:42:48.217Z"
 
 ## 你的任务
 
-1. **差异分析：** 将文档与当前代码进行比较。
-   确定新增内容、更改内容以及删除内容。
+1. **差异分析：** 将文档与当前代码进行比较。确定新增内容、更改内容以及删除内容。
 
 2. **影响评估：** 对于每项变更，确定：
    - 哪些 FORME.md 部分受到影响
@@ -75,7 +55,7 @@ upstream_updated_at: "2026-03-13T06:42:48.217Z"
 - 除非底层系统发生变化，否则不要打破现有的类比
 - 如果技术被替换，请更新“船员”类比（或同等内容）
 - 保持相同的声音 - 如果原版是休闲的，那就保持休闲
-- 标记任何您不确定的内容：“我注意到 [X]，但无法确定是否 [Y]”
+- 标记任何你不确定的内容：“我注意到 [X]，但无法确定是否 [Y]”
 ```
 
 ---
@@ -132,14 +112,8 @@ changes in the codebase since it was last written.
 - Flag anything you're uncertain about: "I noticed [X] but couldn't determine if [Y]"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [updatesync-prompt](https://prompts.chat/prompts/updatesync-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux, Frontend, Backend, next.js, claude-code |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:42:48.217Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

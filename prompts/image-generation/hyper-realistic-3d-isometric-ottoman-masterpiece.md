@@ -1,24 +1,4 @@
----
-id: "cmjgs6lgl0004la04o7j9fujs"
-slug: "hyper-realistic-3d-isometric-ottoman-masterpiece"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/hyper-realistic-3d-isometric-ottoman-masterpiece"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "bc40b766346153b29cfbeb57fe835ea1672c339c3093321fdebc0a9c616c7920"
-upstream_updated_at: "2025-12-22T08:41:01.318Z"
----
 # 超现实 3D 等距奥斯曼杰作
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[hyper-realistic-3d-isometric-ottoman-masterpiece](https://prompts.chat/prompts/hyper-realistic-3d-isometric-ottoman-masterpiece)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,25 +6,21 @@ upstream_updated_at: "2025-12-22T08:41:01.318Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、History、Vision、Midjourney 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、History、Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-生成超现实的 3D 等距杰作，背景是宏伟、无尽的传统水墨奥斯曼历史羊皮纸卷轴在背景上展开。
-
-该场景捕捉了 ${name:Fatih Sultan Mehmet} 在 ${event:the Conquest of Constantinople (1453)} 期间的遗产、战略天才和改变世界的影响，通过直接从羊皮纸本身显现出来的象征性意象、军事行动和精神决心进行可视化。
-
-羊皮纸注释（内容自适应 - 奥斯曼历史）
+生成超现实的 3D 等距杰作，背景是宏伟、无尽的传统水墨奥斯曼历史羊皮纸卷轴在背景上展开。该场景捕捉了 ${name:Fatih Sultan Mehmet} 在 ${event:the Conquest of Constantinople (1453)} 期间的遗产、战略天才和改变世界的影响，通过直接从羊皮纸本身显现出来的象征性意象、军事行动和精神决心进行可视化。羊皮纸注释（内容自适应 - 奥斯曼历史）
 
 羊皮纸上充满了奥斯曼风格的手写书法、墨水草图、微型风格插图、战略图表以及动态适应 ${name:Fatih Sultan Mehmet} 和 ${event:the Conquest of Constantinople (1453)} 的建筑图案。
 
@@ -96,23 +72,15 @@ upstream_updated_at: "2025-12-22T08:41:01.318Z"
 
 成分
 
-羊皮纸卷轴如同历史的河流一样在空间中流动，形成连续的叙事。
-
-中心的${name:Fatih Sultan Mehmet}在${event:the Conquest of Constantinople}的高潮时刻从羊皮纸上挣脱出来，象征着成就、权威和历史命运。
+羊皮纸卷轴如同历史的河流一样在空间中流动，形成连续的叙事。中心的${name:Fatih Sultan Mehmet}在${event:the Conquest of Constantinople}的高潮时刻从羊皮纸上挣脱出来，象征着成就、权威和历史命运。
 
 2D → 3D 转换
 
-平面黑色墨水画——书法、图表、符号和图形——无缝地转变成超现实的 3D 石头、金属、织物、皮肤、烟雾和光线，同时在视觉上保持与羊皮纸表面的联系。
+平面黑色墨水画——书法、图表、符号和图形——无缝地转变成超现实的 3D 石头、金属、织物、皮肤、烟雾和光线，同时在视觉上保持与羊皮纸表面的联系。视觉效果和细节
 
-视觉效果和细节
+老化的羊皮纸纹理、可见的墨水渗色、褪色的边缘、漂浮的奥斯曼书法碎片、帝国蜡印、几何图案、漂浮的灰尘颗粒、薄雾和深邃的大气透视。照明
 
-老化的羊皮纸纹理、可见的墨水渗色、褪色的边缘、漂浮的奥斯曼书法碎片、帝国蜡印、几何图案、漂浮的灰尘颗粒、薄雾和深邃的大气透视。
-
-照明
-
-史诗般的黄金时段电影灯光照亮了 ${event} 的中心人物和关键元素，与单色羊皮纸背景形成鲜明对比，强调历史分量和遗产。
-
-技术规格
+史诗般的黄金时段电影灯光照亮了 ${event} 的中心人物和关键元素，与单色羊皮纸背景形成鲜明对比，强调历史分量和遗产。技术规格
 
 8K分辨率
 电影景深
@@ -124,6 +92,9 @@ upstream_updated_at: "2025-12-22T08:41:01.318Z"
 --ar 16:9
 --风格化350
 --无平面、简约、卡通、边框、框架、现代建筑
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -227,14 +198,8 @@ Ultra-detailed textures
 --no flat, simple, cartoon, borders, frame, modern buildings
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [hyper-realistic-3d-isometric-ottoman-masterpiece](https://prompts.chat/prompts/hyper-realistic-3d-isometric-ottoman-masterpiece) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, History, Vision, Midjourney, DALL-E, Nano Banana |
-| Contributors | serkan-uslu |
-| Updated At | 2025-12-22T08:41:01.318Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

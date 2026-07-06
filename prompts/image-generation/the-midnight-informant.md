@@ -1,24 +1,4 @@
----
-id: "cmk1gau0a0009k404f5bld7u6"
-slug: "the-midnight-informant"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-midnight-informant"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2869513da1b94fb5fb41fd5bc21be1390cc1493c2eda59aeda699244e76ce0f5"
-upstream_updated_at: "2026-01-05T19:13:17.440Z"
----
 # 午夜线人
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-midnight-informant](https://prompts.chat/prompts/the-midnight-informant)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-05T19:13:17.440Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "title": "午夜线人",
   "description": "紧张的黑色电影时刻，一名女私家侦探在一个朦胧的地下爵士俱乐部里等待线索。",
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留她的核心相似度。将拍摄对象（女性）转变为一位机智的 20 世纪 50 年代私家侦探，坐在灯光昏暗、烟雾缭绕的爵士俱乐部的展位上。图像必须具有超真实感和电影品质，让人想起黑色电影的黄金时代。使用戏剧性的灯光来突出皮肤纹理和织物细节。关键词：真实感、电影灯光，高度详细，使用 Arri Alexa 拍摄，景深，体积雾，逼真的物理效果。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留她的核心相似度。将拍摄对象（女性）转变为一位机智的 20 世纪 50 年代私家侦探，坐在灯光昏暗、烟雾缭绕的爵士俱乐部的展位上。图像必须具有超真实感和电影品质，让人想起黑色电影的黄金时代。使用戏剧性的灯光来突出皮肤纹理和织物细节。关键词：真实感、电影灯光，高度详细，使用 Arri Alexa 拍摄，景深，体积雾，逼真的物理效果。",
   “详细信息”：{
     “年份”：“1954年”，
     "genre": "电影照片写实主义",
@@ -108,6 +88,9 @@ upstream_updated_at: "2026-01-05T19:13:17.440Z"
     }
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -195,14 +178,8 @@ A tense, film noir moment featuring a female private investigator waiting for a 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-midnight-informant](https://prompts.chat/prompts/the-midnight-informant) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-05T19:13:17.440Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

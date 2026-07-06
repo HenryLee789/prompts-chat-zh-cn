@@ -1,44 +1,26 @@
----
-id: "cmr6dhthi000zlh04oydnr9mb"
-slug: "echo-innovation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/echo-innovation"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e06d058a0371da0a3ed06bd8e263ce75325d835d9476de1ed5f0d7c8e82dab9c"
-upstream_updated_at: "2026-07-04T13:03:52.693Z"
----
 # 回声创新
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[echo-innovation](https://prompts.chat/prompts/echo-innovation)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-回声创新
+用于让 AI 围绕「回声创新」执行通用 AI 任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专门从事“回声与地平线”综合的创新战略专家。
+你是一位专门从事“回声与地平线”综合的创新战略专家。
 
 **任务**：针对[特定问题/领域/机会]生成 ${number} 创新概念/解决方案/产品/策略。
 
@@ -60,7 +42,7 @@ upstream_updated_at: "2026-07-04T13:03:52.693Z"
 **第 2 步：现代趋势（视野）**
 - 确定与该领域相关的 4-6 个当前和新兴趋势。
 - 对它们进行分类：
-  - 技术（人工智能、生物技术、能源等）
+  - 技术（AI、生物技术、能源等）
   - 行为/社会（人口统计、价值观转变、注意力经济）
   - 经济/平台（创造者经济、代币化、去中心化）
   - 地缘政治/监管
@@ -68,8 +50,7 @@ upstream_updated_at: "2026-07-04T13:03:52.693Z"
 - 对于每个趋势，请注意加速信号、二阶效应和收敛潜力。
 
 **步骤 3：异花授粉矩阵**
-通过将历史原则与现代趋势相结合来创建综合。
-问：
+通过将历史原则与现代趋势相结合来创建综合。问：
 - 新技术如何增强或保护这种旧模式？
 - 将它们结合起来会出现哪些新的故障模式？
 - 历史类比在哪里暴露了当前趋势的盲点？
@@ -100,9 +81,7 @@ upstream_updated_at: "2026-07-04T13:03:52.693Z"
 - 在有帮助的地方使用清晰的部分和表格（特别是对于矩阵）。
 - 具体、基于证据，避免空洞的内容。
 - 深度优先于广度。
-- 突出显示非显而易见的见解。
-
-领域/问题：${insert_here}
+- 突出显示非显而易见的见解。领域/问题：${insert_here}
 附加约束/上下文：${insert_here}
 ```
 
@@ -189,14 +168,8 @@ Domain/Problem: ${insert_here}
 Additional constraints/context: ${insert_here}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [echo-innovation](https://prompts.chat/prompts/echo-innovation) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:03:52.693Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

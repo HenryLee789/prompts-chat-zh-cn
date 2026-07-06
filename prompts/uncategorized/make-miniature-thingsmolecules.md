@@ -1,41 +1,23 @@
----
-id: "cmmcaz1ag000al204spgbv274"
-slug: "make-miniature-thingsmolecules"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/make-miniature-thingsmolecules"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "10d13e89377313270084ac744ee126830dd2865ea88b07d18f7546262010788d"
-upstream_updated_at: "2026-03-04T17:20:47.466Z"
----
 # 制作事物/分子的缩影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[make-miniature-thingsmolecules](https://prompts.chat/prompts/make-miniature-thingsmolecules)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「制作事物/分子的缩影」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 提示：
@@ -63,7 +45,7 @@ CRITICAL: The object is massive compared to the scientists/engineers. Treat the 
 视觉语法和材料物理：
 - Material Accuracy: Photorealistic rendering of the object's ACTUAL materials (e.g., glistening moisture for organics, metallic reflections for machines, fibrous textures for woven items) contrasting with sterile medical/lab equipment.
 - Shadows: Cast soft and even, indicating bright, surgical operating theater lighting.
-输出：
+输出要求：
 ONE image, 1:1 Aspect Ratio, Macro Photography, "Gray's Anatomy" or Technical Blueprint Aesthetic, 8k Resolution.
 ```
 
@@ -111,14 +93,8 @@ Output:
 ONE image, 1:1 Aspect Ratio, Macro Photography, "Gray's Anatomy" or Technical Blueprint Aesthetic, 8k Resolution.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [make-miniature-thingsmolecules](https://prompts.chat/prompts/make-miniature-thingsmolecules) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | rmfsantos |
-| Updated At | 2026-03-04T17:20:47.466Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

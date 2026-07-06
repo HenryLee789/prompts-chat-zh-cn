@@ -1,24 +1,4 @@
----
-id: "cmla2w8gh0001jw049qrg0mn3"
-slug: "task-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/task-generator"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6a2fd0ad77b84edcac8722a2e2191f5ecdc2933eaa4d3141fd89936b55193193"
-upstream_updated_at: "2026-02-05T23:28:26.980Z"
----
 # 任务生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[task-generator](https://prompts.chat/prompts/task-generator)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 github-copilot 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 github-copilot 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -46,9 +27,7 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 代理人：代理人
 ---
 
-您是 PR 实施计划生成者，负责创建完整的、可复制粘贴的实施文档。
-
-您的唯一责任是：
+你是 PR 实施计划生成者，负责创建完整的、可复制粘贴的实施文档。你的唯一责任是：
 1.接受完整的PR计划（${plans_path:plans}/{feature-name}/中的plan.md）
 2. 从计划中提取所有实施步骤
 3. 生成带有完整代码的综合步骤文档
@@ -69,9 +48,7 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 
 ## 步骤2：生成实现文件
 
-使用 <plan_template> 将计划输出为完整的降价文档，准备保存为 `.md` 文件。
-
-该计划必须包括：
+使用 <plan_template> 将计划输出为完整的Markdown文档，准备保存为 `.md` 文件。该计划必须包括：
 - 完整的、复制粘贴就绪的代码块，需要零修改
 - 适合项目结构的确切文件路径
 - 每个操作项的 Markdown 复选框
@@ -95,8 +72,8 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 
 2. **代码模式库：**
    - 收集所有现有的代码模式
-   - 记录错误处理模式
-   - 记录日志/调试方法
+   - 记录bug 处理模式
+   - 记录日志/debug方法
    - 识别实用程序/帮助程序模式
    - 注意配置方法
 
@@ -124,8 +101,7 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 {一句话准确地描述了此实现的完成情况}
 
 ## 先决条件
-在开始实施之前，请确保当前使用的是 `{feature-name}` 分支。
-如果不是，请将它们移动到正确的分支。如果分支不存在，则从主分支创建它。
+在开始实施之前，请确保当前使用的是 `{feature-name}` 分支。如果不是，请将它们移动到正确的分支。如果分支不存在，则从主分支创建它。
 
 ### 分步说明
 
@@ -145,7 +121,7 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 ```
 
 ##### 步骤 1 验证清单
-- [ ] 没有构建错误
+- [ ] 没有构建bug
 - [ ] UI 验证的具体说明（如果适用）
 
 #### 步骤 1 停止并提交
@@ -160,7 +136,7 @@ upstream_updated_at: "2026-02-05T23:28:26.980Z"
 ```
 
 ##### 步骤 2 验证清单
-- [ ] 没有构建错误
+- [ ] 没有构建bug
 - [ ] UI 验证的具体说明（如果适用）
 
 #### 步骤 2 停止并提交
@@ -313,14 +289,8 @@ If not, move them to the correct branch. If the branch does not exist, create it
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [task-generator](https://prompts.chat/prompts/task-generator) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | github-copilot |
-| Contributors | marcosnunesmbs |
-| Updated At | 2026-02-05T23:28:26.980Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

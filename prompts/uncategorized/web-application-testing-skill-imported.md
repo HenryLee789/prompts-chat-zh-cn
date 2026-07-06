@@ -1,24 +1,4 @@
----
-id: "cmmoo8dz80002lc04ys17mj0u"
-slug: "web-application-testing-skill-imported"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/web-application-testing-skill-imported"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3ff703413714e00af02748af29a609d25a121baa9deaff21a0761b7042def0af"
-upstream_updated_at: "2026-03-13T09:06:17.758Z"
----
 # Web应用测试技能（引进）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[web-application-testing-skill-imported](https://prompts.chat/prompts/web-application-testing-skill-imported)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-13T09:06:17.758Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 UI、Playwright、Automation、Testing 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 UI、Playwright、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -46,15 +27,15 @@ upstream_updated_at: "2026-03-13T09:06:17.758Z"
 
 # Web 应用程序测试
 
-此技能可以使用 Playwright 自动化对本地 Web 应用程序进行全面测试和调试。
+此技能可以使用 Playwright 自动化对本地 Web 应用程序进行全面测试和debug。
 
 ## 何时使用此技能
 
-当您需要执行以下操作时，请使用此技能：
+当你需要执行以下操作时，请使用此技能：
 - 在真实浏览器中测试前端功能
 - 验证 UI 行为和交互
-- 调试网络应用程序问题
-- 捕获屏幕截图以用于文档或调试
+- debug网络应用程序问题
+- 捕获屏幕截图以用于文档或debug
 - 检查浏览器控制台日志
 - 验证表单提交和用户流程
 - 检查跨视口的响应式设计
@@ -81,11 +62,11 @@ upstream_updated_at: "2026-03-13T09:06:17.758Z"
 - 验证 URL
 - 测试响应行为
 
-### 3.调试
+### 3.debug
 - 捕获屏幕截图
 - 查看控制台日志
 - 检查网络请求
-- 调试失败的测试
+- debug失败的测试
 
 ## 用法示例
 
@@ -116,7 +97,7 @@ await page.screenshot({ path: 'debug.png', fullPage: true });
 
 1. **始终验证应用程序是否正在运行** - 在运行测试之前检查本地服务器是否可访问
 2. **使用显式等待** - 在交互之前等待元素或导航完成
-3. **Capture Screenshots on failure** - 截取屏幕截图以帮助调试问题
+3. **Capture Screenshots on failure** - 截取屏幕截图以帮助debug问题
 4. **清理资源** - 完成后始终关闭浏览器
 5. **优雅地处理超时** - 为缓慢的操作设置合理的超时
 6. **增量测试** - 在复杂的流程之前从简单的交互开始
@@ -139,7 +120,7 @@ const exists = await page.locator('#element-id').count() > 0;
 page.on('console', msg => console.log('Browser log:', msg.text()));
 ```
 
-### 模式：处理错误
+### 模式：处理bug
 ```javascript
 try {
   await page.click('#button');
@@ -288,14 +269,8 @@ try {
 - Some modern frameworks may require specific configuration
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [web-application-testing-skill-imported](https://prompts.chat/prompts/web-application-testing-skill-imported) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | UI, Playwright, Automation, Testing |
-| Contributors | daiyigr |
-| Updated At | 2026-03-13T09:06:17.758Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

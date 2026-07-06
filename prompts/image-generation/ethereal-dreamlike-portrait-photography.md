@@ -1,42 +1,23 @@
----
-id: "cmjpofv7t0005kz049tl9rzjd"
-slug: "ethereal-dreamlike-portrait-photography"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ethereal-dreamlike-portrait-photography"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b595394909abb14ef7a156c634d293ef6410d79722612920d93770cf663b480d"
-upstream_updated_at: "2025-12-28T11:59:40.427Z"
----
 # 空灵梦幻的人像摄影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ethereal-dreamlike-portrait-photography](https://prompts.chat/prompts/ethereal-dreamlike-portrait-photography)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-使用先进的摄影技术为年轻女性创作一幅电影般的空灵肖像。此提示将引导您通过创意双重曝光、温暖的黄金时刻灯光和高对比度调色板捕捉梦幻般的图像。非常适合寻求探索肖像画中的美术和超现实主义的摄影师。
+使用先进的摄影技术为年轻女性创作一幅电影般的空灵肖像。此提示将引导你通过创意双重曝光、温暖的黄金时刻灯光和高对比度调色板捕捉梦幻般的图像。非常适合寻求探索肖像画中的美术和超现实主义的摄影师。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -187,14 +168,8 @@ Create a cinematic and ethereal portrait of a young woman using advanced photogr
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ethereal-dreamlike-portrait-photography](https://prompts.chat/prompts/ethereal-dreamlike-portrait-photography) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-28T11:59:40.427Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

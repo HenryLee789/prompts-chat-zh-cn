@@ -1,47 +1,28 @@
----
-id: "cmnf0waq70001la04d3tdmd73"
-slug: "version-review"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/version-review"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7f43804ca73aab8e2bcc6149c387ae96083c05d930fccc8c6637b1b5a7be3d83"
-upstream_updated_at: "2026-03-31T19:41:46.454Z"
----
 # 版本审核
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[version-review](https://prompts.chat/prompts/version-review)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「版本审核」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-自上一个版本标签 1.0.3 以来，已有多项更改、改进和新功能。
-  我希望你进行一次全面的审查。查看 git 日志时检查每个已更改的文件以了解其意图。
+自上一个版本标签 1.0.3 以来，已有多项更改、改进和新功能。我希望你进行一次全面的审查。查看 git 日志时检查每个已更改的文件以了解其意图。
   - 我希望你做的是在应用程序端查看是否有任何新的硬编码字符串或仅添加到英语而在土耳其语中缺失的字符串，如果你发现任何修复它。
-  - 再次在应用程序方面检查所有新更改，看看是否有任何可以简化的地方，例如，是否有相同的样式定义，请按照最佳实践合并它们。一般来说，如果有任何最佳实践促使您
+  - 再次在应用程序方面检查所有新更改，看看是否有任何可以简化的地方，例如，是否有相同的样式定义，请按照最佳实践合并它们。一般来说，如果有任何最佳实践促使你
   简化一个部分，这样做。
   - 在应用程序端执行全面的安全审查。
 ```
@@ -69,14 +50,8 @@ There has been mulitple changes, improvements and new features since the last ve
   - Perform a full security review on the app side.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [version-review](https://prompts.chat/prompts/version-review) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | d |
-| Updated At | 2026-03-31T19:41:46.454Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

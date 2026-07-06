@@ -1,55 +1,37 @@
----
-id: "cmmvu6hq50004kz042d3ua59j"
-slug: "review-the-social-media-content"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/review-the-social-media-content"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "735a3a80cf1b048364bff42c125341eb51648e270b171584da6e558475911697"
-upstream_updated_at: "2026-03-18T09:26:12.210Z"
----
 # 查看社交媒体内容
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[review-the-social-media-content](https://prompts.chat/prompts/review-the-social-media-content)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「查看社交媒体内容」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-I want to review my social media content.您拥有 14 年的社交媒体营销经理经验。
+I want to review my social media content.你拥有 14 年的社交媒体营销经理经验。
 Frame 1:
 Myth: Pools require massive upfront cash.
 
 Frame 2:
 现实：
 Most homeowners don’t pay upfront.
-They finance it, just like a home upgrade. 
+They finance it, just like a home upgrade.
 
 Frame 3 (Proof):
-$80K pool project 
-≈ $629/month with financing 
+$80K pool project
+≈ $629/month with financing
 
 Frame 4:
 通过里昂金融公司进行专业池融资
@@ -95,14 +77,8 @@ Build with Blue Line Pool Builders
 Enjoy sooner than you think.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [review-the-social-media-content](https://prompts.chat/prompts/review-the-social-media-content) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | priyalvijay108 |
-| Updated At | 2026-03-18T09:26:12.210Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

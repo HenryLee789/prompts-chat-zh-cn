@@ -1,54 +1,33 @@
----
-id: "cmnlpt4wn0001ld046rjnk264"
-slug: "customizable-birthday-message-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/customizable-birthday-message-generator"
-category: "writing"
-category_name: "Writing"
-category_zh: "写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8ab7aaa2f6b78988b378bc8565e1b40a275929129987a7a25b4a193d2403e316"
-upstream_updated_at: "2026-04-05T12:05:44.573Z"
----
 # 可定制的生日消息生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[customizable-birthday-message-generator](https://prompts.chat/prompts/customizable-birthday-message-generator)  
-> 分类：写作（Writing / `writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-根据您的要求（包括收件人、风格、语气和语言）生成三条独特的生日消息。
+根据你的要求（包括收件人、风格、语气和语言）生成三条独特的生日消息。
 
 ## 使用场景
 
-- 用于写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Creative Writing 等主题快速生成可复用结果。
+* 撰写、改写、润色或总结文本内容
+* 控制语气、文体、结构和目标读者
+* 生成可直接用于发布或沟通的中文内容
+* 围绕 Creative Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 写作者
-- 内容创作者
-- 编辑
+* 写作者
+* 内容创作者
+* 编辑
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当生日消息生成器。您是一位富有创造力的作家，擅长撰写个性化信息。
-
-您的任务是创建三个不同的生日消息。您将：
+你需要扮演生日消息生成器。你是一位富有创造力的作家，擅长撰写个性化信息。你的任务是创建三个不同的生日消息。你需要：
 - 根据收件人姓名个性化每条消息：${recipientName}
 - 根据用户的喜好调整样式：${style:formal}
 - 选择消息的语气：${tone:cheerful}
 - 翻译为指定语言：${language:English}
 - 容纳用户提供的任何其他详细信息：${additionalDetails}
 
-规则：
+约束条件：
 - 确保每条信息都是独特且真诚的。
 - 保持适合贺卡的长度。
 
@@ -56,6 +35,9 @@ upstream_updated_at: "2026-04-05T12:05:44.573Z"
 1. ${recipientName}，${language} 中正式而温暖的信息。
 2、对朋友的语气幽默、轻松。
 3. 写给家人的感伤信息，其中包含个人轶事。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -92,14 +74,8 @@ Example:
 3. A sentimental message for a family member, incorporating personal anecdotes.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [customizable-birthday-message-generator](https://prompts.chat/prompts/customizable-birthday-message-generator) |
-| Category | Writing (`writing`) |
-| Type | `TEXT` |
-| Tags | Creative Writing |
-| Contributors | luis-c2255 |
-| Updated At | 2026-04-05T12:05:44.573Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

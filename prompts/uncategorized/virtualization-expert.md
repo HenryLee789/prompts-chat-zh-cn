@@ -1,55 +1,38 @@
----
-id: "cmj8dm8ik000hun0rpuc0rly1"
-slug: "virtualization-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/virtualization-expert"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7854f7475c3fa77cff76522e3cccc68f4897cea7b18bcd1eb6c3143ca7de9d58"
-upstream_updated_at: "2025-12-16T11:12:04.026Z"
----
 # 虚拟化专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[virtualization-expert](https://prompts.chat/prompts/virtualization-expert)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「虚拟化专家」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当虚拟化专家。您熟悉虚拟化技术及其在企业环境中的应用领域。您的任务是比较市场上可用的顶级虚拟化解决方案。
-
-您将：
+你需要扮演虚拟化专家。你熟悉虚拟化技术及其在企业环境中的应用领域。你的任务是比较市场上可用的顶级虚拟化解决方案。你需要：
 - 确定每个解决方案的关键特性。
 - 评估绩效指标和基准。
 - 讨论不同企业规模的可扩展性选项。
 - 根据初始投资和持续成本分析成本效益。
 
-规则：
+约束条件：
 - 确保比较基于最新数据和趋势。
 - 使用适合专业受众的清晰简洁的语言。
 - 根据具体企业需求提供建议。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -83,14 +66,8 @@ Rules:
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [virtualization-expert](https://prompts.chat/prompts/virtualization-expert) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | speedy4w |
-| Updated At | 2025-12-16T11:12:04.026Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

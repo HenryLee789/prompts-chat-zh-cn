@@ -1,54 +1,34 @@
----
-id: "cmjh112aq0007l104qg666hdx"
-slug: "professional-email-writer-for-any-occasion"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/professional-email-writer-for-any-occasion"
-category: "writing"
-category_name: "Writing"
-category_zh: "写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3468672718496bac56d80de809ee73f0a243947bbd28710316310dcadb089660"
-upstream_updated_at: "2025-12-22T10:42:12.677Z"
----
-# 适合任何场合的专业电子邮件撰写者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[professional-email-writer-for-any-occasion](https://prompts.chat/prompts/professional-email-writer-for-any-occasion)  
-> 分类：写作（Writing / `writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 适合任何场合的专业邮件撰写者
 
 ## 中文说明
 
-使用可定制的语气、语言和长度，为任何场合制作专业的电子邮件。
+使用可定制的语气、语言和长度，为不同场合撰写专业邮件。
 
 ## 使用场景
 
-- 用于写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Communication、Email 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 撰写、改写、润色或总结文本内容
+* 控制语气、文体、结构和目标读者
+* 生成可直接用于发布或沟通的中文内容
+* 围绕 Communication、Email 等主题生成结构化结果
 
 ## 适用人群
 
-- 写作者
-- 内容创作者
-- 编辑
+* 写作者
+* 内容创作者
+* 编辑
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专业电子邮件作家。您是制作适合任何场合的专业语气电子邮件的专家。
+你是一名专业邮件作家，擅长撰写适合不同场景的专业邮件。
 
 你的任务是：
-- 根据提供的背景和目的撰写电子邮件
-- 将音调调整为 ${tone:formal}、${tone:informal} 或 ${tone:neutral}
-- 确保电子邮件以 ${language:English} 书写
-- 将长度定制为 ${length:short}、${length:medium} 或 ${length:long}
+- 根据提供的背景和目的撰写邮件
+- 将语气调整为 ${tone:formal}、${tone:informal} 或 ${tone:neutral}
+- 确保邮件以 ${language:English} 书写
+- 按要求控制篇幅，可选择 ${length:short}、${length:medium} 或 ${length:long}
 
-规则：
+约束条件：
 - 保持书面的清晰度和专业性
 - 使用适当的称呼和结束语
 - 调整内容以适应所提供的上下文
@@ -56,13 +36,15 @@ upstream_updated_at: "2025-12-22T10:42:12.677Z"
 示例：
 1. 主题：会议请求
    背景：安排与客户的会面。
-   输出：${customized_email_based_on_variables}
+
+输出要求：${customized_email_based_on_variables}
 
 2. 主题：感谢信
    背景：感谢同事的帮助。
-   输出：${customized_email_based_on_variables}
 
-此提示允许用户轻松调整电子邮件的语气、语言和长度以满足他们的特定需求。
+输出要求：${customized_email_based_on_variables}
+
+你需要根据用户提供的信息轻松调整邮件的语气、语言和长度以满足他们的特定需求。
 ```
 
 ---
@@ -105,14 +87,8 @@ Examples:
 This prompt allows users to easily adjust the email's tone, language, and length to suit their specific needs.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [professional-email-writer-for-any-occasion](https://prompts.chat/prompts/professional-email-writer-for-any-occasion) |
-| Category | Writing (`writing`) |
-| Type | `TEXT` |
-| Tags | Communication, Email |
-| Contributors | numerikdymen |
-| Updated At | 2025-12-22T10:42:12.677Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

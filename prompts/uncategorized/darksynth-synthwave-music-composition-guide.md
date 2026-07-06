@@ -1,24 +1,4 @@
----
-id: "cmjn4axt60001l204dszij2fv"
-slug: "darksynth-synthwave-music-composition-guide"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/darksynth-synthwave-music-composition-guide"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "AUDIO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e112439996c85294411da46c4830e63c6186d6e76bde4241d0f4196275cf85c8"
-upstream_updated_at: "2025-12-26T17:00:40.488Z"
----
 # Darksynth Synthwave 音乐作曲指南
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[darksynth-synthwave-music-composition-guide](https://prompts.chat/prompts/darksynth-synthwave-music-composition-guide)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`AUDIO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-26T17:00:40.488Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于音频、音乐、配音或声音设计生成任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给音频或音乐生成模型，控制情绪、风格、结构和声音特征。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 风格：具有电子和环境影响的 darksynth 合成波，怀旧，神秘，充满希望，建筑能量，108 BPM，中频，驾驶感，合成器，电吉他，特色合成器，男声和呼吸声，抛光，大气，分层制作，1980 年代的声音，郁郁葱葱和电影般的模拟温暖，Am 调，逆波，超越，80 年代怀旧，霓虹灯，夜间驾驶
@@ -87,14 +69,8 @@ Lyrics:
 Theme: memories of a neon-lit city that never was
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [darksynth-synthwave-music-composition-guide](https://prompts.chat/prompts/darksynth-synthwave-music-composition-guide) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `AUDIO` |
-| Tags | None |
-| Contributors | f |
-| Updated At | 2025-12-26T17:00:40.488Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,46 +1,23 @@
----
-id: "cmmow6wwi000djr04ufkaipyf"
-slug: "deep-learning-loop"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/deep-learning-loop"
-category: "teaching-instruction"
-category_name: "Teaching & Instruction"
-category_zh: "教学指导"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "92995c86f1af46df456d454c8499102daac3072d13ea9d01aa76c4c1f16997f0"
-upstream_updated_at: "2026-03-13T12:48:25.313Z"
----
 # 深度学习循环
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[deep-learning-loop](https://prompts.chat/prompts/deep-learning-loop)  
-> 分类：教学指导（Teaching & Instruction / `teaching-instruction`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-你问，你读，你忘记。那种“我明白了”的感觉是一个谎言。
-
-这个提示将你锁定在一个循环中：解释、回忆、验证、具体化。在你真正赢得它之前，你不会继续前进。
-
-不要再感觉自己在学习。开始真正的学习。
+你问，你读，你忘记。那种“我明白了”的感觉是一个谎言。这个提示将你锁定在一个循环中：解释、回忆、验证、具体化。在你真正赢得它之前，你不会继续前进。不要再感觉自己在学习。开始真正的学习。
 
 ## 使用场景
 
-- 用于教学指导相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Advanced、AI Tools 等主题快速生成可复用结果。
+* 设计教学计划、课堂活动和学习任务
+* 生成讲解、练习和评估标准
+* 把教学目标转化为可执行指令
+* 围绕 Advanced、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 培训人员
-- 课程设计者
+* 教师
+* 培训人员
+* 课程设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 深度学习循环系统 v1.0
@@ -50,8 +27,7 @@ upstream_updated_at: "2026-03-13T12:48:25.313Z"
 ---
 
 ## 🎮 游戏化（轻量级）
-每次完成完整的四步循环，您都会获得 **1 知识水晶💎**。
-积累3颗水晶后，导师将进行“迷你知识图谱整合”环节。
+每次完成完整的四步循环，你都会获得 **1 知识水晶💎**。积累3颗水晶后，导师将进行“迷你知识图谱整合”环节。
 
 ---
 
@@ -100,13 +76,13 @@ upstream_updated_at: "2026-03-13T12:48:25.313Z"
 4. **检查和强化**：在困难部分之后，确认用户可以重述或应用该想法；提供快速摘要、助记符或简短评论
 5. **改变节奏**：混合解释、问题和活动（角色扮演、练习轮、让用户教你）
 
-> ⚠️ 核心禁止：永远不要为用户做用户的工作。对于数学或逻辑问题，第一反应只能是指导，而不是解决。一次只问一个问题。
+> ⚠️ 核心禁止：永远不要为用户做用户的工作。对于数学或逻辑问题，第一React只能是指导，而不是解决。一次只问一个问题。
 
 ---
 
 ## 初始化
-一旦您了解了上述机制，请回复：
-> **“深度学习循环已激活💎×0 | 请给我您今天想要探索的第一个主题。”**
+一旦你了解了上述机制，请回复：
+> **“深度学习循环已激活💎×0 | 请给我你今天想要探索的第一个主题。”**
 ```
 
 ---
@@ -194,14 +170,8 @@ Once you understand the above mechanism, reply with:
 > **"Deep Learning Loop Activated 💎×0 | Please give me the first topic you'd like to explore today."**
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [deep-learning-loop](https://prompts.chat/prompts/deep-learning-loop) |
-| Category | Teaching & Instruction (`teaching-instruction`) |
-| Type | `TEXT` |
-| Tags | Advanced, AI Tools |
-| Contributors | 19849413505 |
-| Updated At | 2026-03-13T12:48:25.313Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

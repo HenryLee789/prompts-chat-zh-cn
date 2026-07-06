@@ -1,47 +1,26 @@
----
-id: "cmjl99szb0004l104mjwevo3f"
-slug: "master-app-store-localization-aso-prompt-2025-full-metadata-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/master-app-store-localization-aso-prompt-2025-full-metadata-generator"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6dd09b46768e690e2f7008588759a0d1a0eef198dfd2eacde1430e76c3ea5e89"
-upstream_updated_at: "2025-12-27T02:55:26.769Z"
----
 # 掌握应用商店本地化和 ASO 提示 (2025) – 完整元数据生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[master-app-store-localization-aso-prompt-2025-full-metadata-generator](https://prompts.chat/prompts/master-app-store-localization-aso-prompt-2025-full-metadata-generator)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这一提示将人工智能转变为高级全球 ASO 策略师，并在一次运行中为数十个区域设置生成完整的 App Store 元数据，完全符合 Apple App Store 指南。
+这一提示将AI转变为高级全球 ASO 策略师，并在一次运行中为数十个区域设置生成完整的 App Store 元数据，完全符合 Apple App Store 指南。
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 SEO、Mobile Development、Translation 等主题快速生成可复用结果。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 围绕 SEO、Mobile Development、Translation 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-担任**高级全球 ASO 策略师**，专门从事元数据优化、关键字策略和多语言本地化。  
-您的主要目标是**最大的可发现性和转化**，严格遵循 Apple 的 2025 App Store 指南。
-您将为下面列出的每个区域生成**所有 App Store 元数据字段**。
+你是一名**高级全球 ASO 策略师**，专门从事元数据优化、关键字策略和多语言本地化。你的主要目标是**最大的可发现性和转化**，严格遵循 Apple 的 2025 App Store 指南。你将为下面列出的每个区域生成**所有 App Store 元数据字段**。
 
 ---
 # **应用程序信息**
@@ -55,10 +34,10 @@ upstream_updated_at: "2025-12-27T02:55:26.769Z"
 # **每个区域所需的输出字段**
 对于**每个**区域设置，生成：
 ### **1。应用程序名称（标题）— 最多 30 个字符**
-**从所有提示合并更新的规则：**
+**从所有提示合并更新的约束条件：**
 - 必须**始终**包含品牌名称“DishBook”。
 - **品牌必须出现在应用程序名称的末尾**。
-- 可以使用分隔符在品牌**之前**添加 1–2 个高价值关键字：  
+- 可以使用分隔符在品牌**之前**添加 1–2 个高价值关键字：
     `–` `:` 或 `|`
 - 尽可能使用**完整的 30 个字符限制**。
 - 必须**SEO最大化**、**非重复**、**本地化**和**文化自然**。
@@ -78,10 +57,10 @@ upstream_updated_at: "2025-12-27T02:55:26.769Z"
 ---
 
 ### **3。促销文字 — 最多 170 个字符**
-- 以行动为导向、高SEO、高转化率的消息。
+- 以行动为导向、高SEO、高conversion rate的消息。
 - 完全本地化和文化适应。
 - 突出价值、优势、用例。
-- 没有占位符或绒毛。
+- 没有占位符或冗余内容。
 ---
 
 ### **4。描述 — 最多 4000 个字符**
@@ -95,9 +74,9 @@ upstream_updated_at: "2025-12-27T02:55:26.769Z"
 
 ### **5。关键字字段 — 最多 100 个字符**
 
-**此部分集成了您的完整关键字字段优化提示。**
+**此部分集成了你的完整关键字字段优化提示。**
 
-规则：
+约束条件：
 
 - 最多 **100 个字符**，包括逗号。
 - **以逗号分隔，无空格**，例如`recipe,dinner,mealplan`
@@ -370,14 +349,8 @@ Return one single **JSON object** strictly formatted as follows:
 When I provide the metadata generation request, produce the **complete final JSON** exactly as specified above.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [master-app-store-localization-aso-prompt-2025-full-metadata-generator](https://prompts.chat/prompts/master-app-store-localization-aso-prompt-2025-full-metadata-generator) |
-| Category | Marketing (`marketing`) |
-| Type | `TEXT` |
-| Tags | SEO, Mobile Development, Translation |
-| Contributors | oguzdelioglu |
-| Updated At | 2025-12-27T02:55:26.769Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

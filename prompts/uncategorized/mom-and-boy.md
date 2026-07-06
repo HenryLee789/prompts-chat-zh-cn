@@ -1,55 +1,30 @@
----
-id: "cmjwtsk800001jx04z5eqpd4s"
-slug: "mom-and-boy"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/mom-and-boy"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1a35b0ee8e939a9af1a6ae9f8ad142308f0351c07cd4ba5a21881030c56c4767"
-upstream_updated_at: "2026-01-02T12:04:00.970Z"
----
 # 妈妈和男孩
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[mom-and-boy](https://prompts.chat/prompts/mom-and-boy)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-情侣照；
-常规摄影
-现实；
-与参考照片相同的角度；
-男孩的脸100%一模一样。
-拍照姿势；参考照片中年轻的成年女性和孩子并排坐在沙发上；
-女装：红花刺绣白衬衫
+情侣照； 常规摄影 现实； 与参考照片相同的角度； 男孩的脸100%一模一样。拍照姿势；参考照片中年轻的成年女性和孩子并排坐在沙发上； 女装：红花刺绣白衬衫
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 情侣照；
 常规摄影
 现实；
 与参考照片相同的角度；
-男孩的脸100%一模一样。
-拍照姿势；参考照片中年轻的成年女性和孩子并排坐在沙发上；
+男孩的脸100%一模一样。拍照姿势；参考照片中年轻的成年女性和孩子并排坐在沙发上；
 Woman's outfit: White shirt with red flower embroidery, long red flared skirt, red scarf;
 儿童服装：白色连衣裙和牛仔裤
 3岁小孩身高1米
@@ -99,14 +74,8 @@ The proportions of the mother and child should be maintained: mother's height is
 Choose a beautiful mother and son photo pose for them
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [mom-and-boy](https://prompts.chat/prompts/mom-and-boy) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | sonalikashop |
-| Updated At | 2026-01-02T12:04:00.970Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmp1s3fhy0004js04p0er6i4y"
-slug: "sigrexio-full-kitchen-sink"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/sigrexio-full-kitchen-sink"
-category: "finance-budgeting"
-category_name: "Finance & Budgeting"
-category_zh: "财务与预算"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "82042eba258acf89f108869b5d5a7db9acfce18694dfdbab9a6fc44db916f74f"
-upstream_updated_at: "2026-05-11T22:33:44.701Z"
----
 # [sigrex.io] 全套厨房水槽
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[sigrexio-full-kitchen-sink](https://prompts.chat/prompts/sigrexio-full-kitchen-sink)  
-> 分类：财务与预算（Finance & Budgeting / `finance-budgeting`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-05-11T22:33:44.701Z"
 
 ## 使用场景
 
-- 用于财务与预算相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Strategy、trading 等主题快速生成可复用结果。
+* 分析预算、投资、成本或现金流
+* 生成财务规划、风险提示和决策建议
+* 整理可量化的财务指标和行动方案
+* 围绕 Strategy、trading 等主题生成结构化结果
 
 ## 适用人群
 
-- 财务人员
-- 创业者
-- 个人理财用户
+* 财务人员
+* 创业者
+* 个人理财用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {{val:symbol=SOLUSDT}}
@@ -144,14 +125,8 @@ Step 4 — Decision:
 {{comment: max_repeat val used above as a safety cap on consecutive non-exit signals}}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [sigrexio-full-kitchen-sink](https://prompts.chat/prompts/sigrexio-full-kitchen-sink) |
-| Category | Finance & Budgeting (`finance-budgeting`) |
-| Type | `TEXT` |
-| Tags | Strategy, trading |
-| Contributors | sigrex |
-| Updated At | 2026-05-11T22:33:44.701Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

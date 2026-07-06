@@ -1,42 +1,23 @@
----
-id: "cmm55hzfp0001l504s6rrl4hb"
-slug: "information-gathering-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/information-gathering-prompt"
-category: "writing"
-category_name: "Writing"
-category_zh: "写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "676e71ce296d75c27d389572ed1e961c3d2c5c73958de06ebf09f330d27e037f"
-upstream_updated_at: "2026-02-27T17:13:10.212Z"
----
-# 信息收集提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[information-gathering-prompt](https://prompts.chat/prompts/information-gathering-prompt)  
-> 分类：写作（Writing / `writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 信息收集提示词
 
 ## 中文说明
 
-针对您想要撰写的任何主题的有效信息收集提示 - 提供有关该主题的基本信息（分为子类别）或专业信息（也分为子类别）。
+针对你想要撰写的任何主题的有效信息收集提示 - 提供有关该主题的基本信息（分为子类别）或专业信息（也分为子类别）。
 
 ## 使用场景
 
-- 用于写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Research、Creative Writing、Essay Writing、Blogging 等主题快速生成可复用结果。
+* 撰写、改写、润色或总结文本内容
+* 控制语气、文体、结构和目标读者
+* 生成可直接用于发布或沟通的中文内容
+* 围绕 Research、Creative Writing、Essay Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 写作者
-- 内容创作者
-- 编辑
+* 写作者
+* 内容创作者
+* 编辑
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ## *信息收集提示*
@@ -59,10 +40,10 @@ upstream_updated_at: "2026-02-27T17:13:10.212Z"
 	- **输出如何工作：**
 		1. **首先，提交此提示后，询问我需要哪个输出。**
 		2. 我将输入所需输出的编号，例如“1”或“2”等。
-		3. 您只需提供具有该特定数字的输出。
+		3. 你只需提供具有该特定数字的输出。
 		4. 提交所需的输出后，如果我输入**“more”**，则会展开相同类型的编号输出。
-	- 您提供哪个输出或我是否输入“更多”并不重要；无论如何，您的回复应该**非常详细**，并使用**最大字符和标记**进行输出。 （极其重要）
-- 感谢您的合作，尊敬的聊天机器人！
+	- 你提供哪个输出或我是否输入“更多”并不重要；无论如何，你的回复应该**非常详细**，并使用**最大字符和标记**进行输出。 （极其重要）
+- 感谢你的合作，尊敬的聊天机器人！
 
 ---
 
@@ -88,15 +69,15 @@ upstream_updated_at: "2026-02-27T17:13:10.212Z"
 	- 如果提示主题是角色发展：
 		- 对于奇幻角色发展，更详细的信息，例如铁杆粉丝意见、详细的角色故事以及角色的衍生作品。
 		- 对于现实生活中的角色，更多的个人故事、习惯、行为以及获得的关于角色的详细信息。
-- 如何交付输出：
+- 如何交付输出要求：
 	1.以“目录”的形式将“M”的专业信息所涵盖的各个主题以列表的形式展示出来；这些是最初的主题。
 	2. 在其下方键入：
 		- “你对哪个话题感兴趣？”
 			- 如果键入所需主题的名称，请提供有关该主题的完整专业信息。
-		- “如果您需要更多有关‘M’的主题，请输入‘更多’”
+		- “如果你需要更多有关‘M’的主题，请输入‘更多’”
 			- 如果键入“更多”，请提供初始列表之外的其他主题。如果在第二轮之后再次输入“更多”，则在前两组之外添加更多初始主题。
-				- 给您的提示：最初编译主题时，请尝试包含尽可能多的相关主题，以尽量减少使用此选项的需要。
-		- “如果您需要访问任何主题的子主题，请输入‘主题...（所需主题）’。”
+				- 给你的提示：最初编译主题时，请尝试包含尽可能多的相关主题，以尽量减少使用此选项的需要。
+		- “如果你需要访问任何主题的子主题，请输入‘主题...（所需主题）’。”
 			- 如果输入了指定的文本，请提供初始主题的子主题（次要主题）。
 			- 即使我输入“主题...（次要主题）”，仍然提供这些次要主题的子主题，可以称为“第三级主题”，并且这可以延续到任何级别。
 			- 在主题的任何阶段（初始、第二、第三级等），输入“更多”将始终扩展同一级别的主题。
@@ -194,14 +175,8 @@ An effective information gathering prompt for any subject you'd like to write ab
 		- When providing a list of topics at any level, remind me that if I just type "1", we will return to "Basic Information"; if I type "option 1", we will go to the first item in that list.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [information-gathering-prompt](https://prompts.chat/prompts/information-gathering-prompt) |
-| Category | Writing (`writing`) |
-| Type | `TEXT` |
-| Tags | Research, Creative Writing, Essay Writing, Blogging, AI Tools, Brainstorming |
-| Contributors | themikimano |
-| Updated At | 2026-02-27T17:13:10.212Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

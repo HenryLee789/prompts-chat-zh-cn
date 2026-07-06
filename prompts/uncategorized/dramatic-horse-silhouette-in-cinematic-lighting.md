@@ -1,24 +1,4 @@
----
-id: "cmnzs1u260001jv04rs7ba7e7"
-slug: "dramatic-horse-silhouette-in-cinematic-lighting"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/dramatic-horse-silhouette-in-cinematic-lighting"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "840b8f20874a4e8a91726dc5d75bda4824a8097abf63b96b416db22aecc67546"
-upstream_updated_at: "2026-04-16T14:51:14.925Z"
----
 # 电影灯光下的戏剧性马剪影
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[dramatic-horse-silhouette-in-cinematic-lighting](https://prompts.chat/prompts/dramatic-horse-silhouette-in-cinematic-lighting)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-04-16T14:51:14.925Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -196,14 +177,8 @@ A structured prompt for creating a cinematic and dramatic photograph of a horse 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [dramatic-horse-silhouette-in-cinematic-lighting](https://prompts.chat/prompts/dramatic-horse-silhouette-in-cinematic-lighting) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | gunebak4n |
-| Updated At | 2026-04-16T14:51:14.925Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

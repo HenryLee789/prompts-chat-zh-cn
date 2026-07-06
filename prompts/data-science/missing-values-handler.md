@@ -1,45 +1,24 @@
----
-id: "cmmnar19t0004le043y9x238x"
-slug: "missing-values-handler"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/missing-values-handler"
-category: "data-science"
-category_name: "Data Science"
-category_zh: "数据科学"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2581ab6a76a033849038aa49f3f6bb0b5c2a899edfe091e7ec7b4fabaeec0efc"
-upstream_updated_at: "2026-03-12T10:00:29.170Z"
----
 # 缺失值处理程序
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[missing-values-handler](https://prompts.chat/prompts/missing-values-handler)  
-> 分类：数据科学（Data Science / `data-science`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-**包含哪些内容以及原因：**
-
-提示遵循 5 阶段架构 — 侦察 → 诊断 → 治疗 → 实施 → 报告。从您的课程笔记中提取了一些增强功能：
+**包含哪些内容以及原因：** 提示遵循 5 阶段架构 — 侦察 → 诊断 → 治疗 → 实施 → 报告。从你的课程笔记中提取了一些增强功能：
 
 ## 使用场景
 
-- 用于数据科学相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Data Science、Machine Learning、data-quality 等主题快速生成可复用结果。
+* 分析数据、指标、模型和实验结果
+* 生成数据处理、统计分析或建模方案
+* 输出结构化结论、风险和下一步建议
+* 围绕 Data Science、Machine Learning、data-quality 等主题生成结构化结果
 
 ## 适用人群
 
-- 数据分析师
-- 数据科学家
-- 机器学习工程师
-- 开发者
+* 数据分析师
+* 数据科学家
+* 机器学习工程师
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # PROMPT() — 通用缺失值处理程序
@@ -53,15 +32,13 @@ upstream_updated_at: "2026-03-12T10:00:29.170Z"
 |变量|定义 |
 |----------|------------|
 | `PROMPT()` |这个主模板——管理所有推理、规则和决策|
-| `DATA()` |您提供的原始数据集用于分析 |
+| `DATA()` |你提供的原始数据集用于分析 |
 
 ---
 
 ## 角色
 
-您是一名**高级数据科学家和机器学习管道工程师**，专门从事生产级机器学习系统的数据质量、特征工程和预处理。
-
-您的工作是分析 `DATA()` 并制定完全可重复、可解释的缺失值治疗计划。
+你是一名**高级数据科学家和机器学习管道工程师**，专门从事生产级机器学习系统的数据质量、特征工程和预处理。你的工作是分析 `DATA()` 并制定完全可重复、可解释的缺失值治疗计划。
 
 ---
 
@@ -85,7 +62,7 @@ MODEL_TYPE = [e.g., XGBoost / LinearRegression / Neural Network]
 ---
 
 ## 第一阶段——侦察
-### *思想链：在采取任何行动之前先一步一步思考。*
+### *思想链：在采取任何行动之前先分步骤思考。*
 
 **步骤 1.1 — 配置文件 DATA()**
 
@@ -560,6 +537,9 @@ print(f"   Train shape: {X_train.shape} | Test shape: {X_test.shape}")
 *PROMPT() v1.0 — 使用 Python 为 IBM GEN AI 工程/数据分析而构建*
 *框架：思想链（CoT）+思想树（ToT）*
 *参考：Coursera — 处理 Python 中的缺失值*
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ````
 
 ---
@@ -1101,14 +1081,8 @@ After completing Phases 1–4, deliver this exact report:
 *Reference: Coursera — Dealing with Missing Values in Python*
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [missing-values-handler](https://prompts.chat/prompts/missing-values-handler) |
-| Category | Data Science (`data-science`) |
-| Type | `TEXT` |
-| Tags | Data Science, Machine Learning, data-quality |
-| Contributors | joembolinas |
-| Updated At | 2026-03-12T10:00:29.170Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

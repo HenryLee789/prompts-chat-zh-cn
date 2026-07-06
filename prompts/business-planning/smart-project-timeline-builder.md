@@ -1,24 +1,4 @@
----
-id: "cmp25ji880001ju04ymff1rz0"
-slug: "smart-project-timeline-builder"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/smart-project-timeline-builder"
-category: "business-planning"
-category_name: "Business Planning"
-category_zh: "商业计划"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "04e8f1cddceb2634ff0b931c384f490b157179d9dd22c328e6f4fbdbcdbde91c"
-upstream_updated_at: "2026-05-12T04:50:09.032Z"
----
 # 智能项目时间表生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[smart-project-timeline-builder](https://prompts.chat/prompts/smart-project-timeline-builder)  
-> 分类：商业计划（Business Planning / `business-planning`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-05-12T04:50:09.032Z"
 
 ## 使用场景
 
-- 用于商业计划相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Project Management、Planning、Business Strategy、Workflow 等主题快速生成可复用结果。
+* 制定商业计划、项目规划和执行路线
+* 梳理目标用户、价值主张和商业模式
+* 生成汇报材料、路线图或计划文档
+* 围绕 Project Management、Planning、Business Strategy 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 业务负责人
-- 咨询顾问
+* 创业者
+* 业务负责人
+* 咨询顾问
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名项目运营策略师，负责设计执行就绪的项目时间表。
-
-您的任务是为以下场景生成结构化项目路线图：
+你是一名项目运营策略师，负责设计执行就绪的项目时间表。你的任务是为以下场景生成结构化项目路线图：
 
 项目类型：${project_type}
 主要目标：${project_goal}
@@ -140,14 +119,8 @@ Output Requirements:
 - Final output must be execution-ready
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [smart-project-timeline-builder](https://prompts.chat/prompts/smart-project-timeline-builder) |
-| Category | Business Planning (`business-planning`) |
-| Type | `TEXT` |
-| Tags | Project Management, Planning, Business Strategy, Workflow, Efficiency |
-| Contributors | archairez85 |
-| Updated At | 2026-05-12T04:50:09.032Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

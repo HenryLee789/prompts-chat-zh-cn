@@ -1,24 +1,4 @@
----
-id: "cmjt4w7v70005ky04tdhq0ls5"
-slug: "3d-mechanical-part-image-to-technical-drawing-conversion"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/3d-mechanical-part-image-to-technical-drawing-conversion"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2784c75653ab76c943e1c14f42e259795c06a207e11a8e124209bcb74c38cdc2"
-upstream_updated_at: "2025-12-30T22:03:37.721Z"
----
 # 3D 机械零件图像到技术绘图的转换
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[3d-mechanical-part-image-to-technical-drawing-conversion](https://prompts.chat/prompts/3d-mechanical-part-image-to-technical-drawing-conversion)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2025-12-30T22:03:37.721Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Computer Vision、Data Analysis 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Computer Vision、Data Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -58,6 +38,9 @@ upstream_updated_at: "2025-12-30T22:03:37.721Z"
   },
   “output_expectation”：“一张技术图纸，包含三张清晰分开的图纸：标注尺寸的正交视图、居中剖面图和未标注尺寸的等轴测参考，适合制造参考”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -96,14 +79,8 @@ Convert a 3D rendered image of a mechanical part into a detailed technical drawi
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [3d-mechanical-part-image-to-technical-drawing-conversion](https://prompts.chat/prompts/3d-mechanical-part-image-to-technical-drawing-conversion) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Computer Vision, Data Analysis |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-30T22:03:37.721Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

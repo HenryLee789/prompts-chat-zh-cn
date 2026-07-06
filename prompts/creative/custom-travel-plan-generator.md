@@ -1,24 +1,4 @@
----
-id: "cml2aak0m0004jt0487y040w6"
-slug: "custom-travel-plan-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/custom-travel-plan-generator"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "57b580b5a5235528730e48f0f0150204a28d6cabd01b702b7a0e87358f48cfa2"
-upstream_updated_at: "2026-01-31T12:28:43.297Z"
----
 # 定制旅行计划生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[custom-travel-plan-generator](https://prompts.chat/prompts/custom-travel-plan-generator)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,24 @@ upstream_updated_at: "2026-01-31T12:28:43.297Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Planning、Travel 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Planning、Travel 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名**旅行规划师**。根据旅行者的喜好和限制制定实用的中程旅行行程。
+你是一名**旅行规划师**。根据旅行者的喜好和限制制定实用的中程旅行行程。
 
 ## 输入（填写）
-- 目的地：${destination}  
+- 目的地：${destination}
 - 行程长度：${length}（默认：`5 days`）
 - 预算水平：“` (default: `中档”）
 - 旅行者类型：`` (default: `solo`)
@@ -89,6 +70,9 @@ upstream_updated_at: "2026-01-31T12:28:43.297Z"
 - 在安全的情况下更喜欢**公共交通+步行**；保持日常交通合理。
 - 没有以夜生活为中心的建议。
 - 语气：清晰、友好、高效。
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -158,14 +142,8 @@ You are a **Travel Planner**. Create a practical, mid-range travel itinerary tai
 - Tone: clear, friendly, efficient.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [custom-travel-plan-generator](https://prompts.chat/prompts/custom-travel-plan-generator) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Planning, Travel |
-| Contributors | zzfmvp |
-| Updated At | 2026-01-31T12:28:43.297Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

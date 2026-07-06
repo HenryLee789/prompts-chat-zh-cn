@@ -1,45 +1,27 @@
----
-id: "cmq78qq6l0004l804yc514kgq"
-slug: "scope-platform-bugbouty-cyber-hunter-lab"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/scope-platform-bugbouty-cyber-hunter-lab"
-category: "devops"
-category_name: "DevOps"
-category_zh: "DevOps"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "cf92ec1ee9908747552102fc939285e5ca2150eb0690dcc852c59fddf93dd2b7"
-upstream_updated_at: "2026-06-09T22:58:17.997Z"
----
 # Plataforma Escopo Bugbouty 网络猎人实验室
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[scope-platform-bugbouty-cyber-hunter-lab](https://prompts.chat/prompts/scope-platform-bugbouty-cyber-hunter-lab)  
-> 分类：DevOps（DevOps / `devops`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于DevOps场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「Plataforma Escopo Bugbouty 网络猎人实验室」执行DevOps 与运维自动化任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于DevOps相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成部署、CI/CD、容器化或监控方案
+* 排查环境、配置和基础设施问题
+* 规范脚本、流程和故障处理步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- DevOps 工程师
-- 后端工程师
-- 运维人员
-- 开发者
+* DevOps 工程师
+* 后端工程师
+* 运维人员
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级软件架构师，专门从事站点可靠性工程 (SRE) 和动态应用程序安全测试 (DAST)。您的任务是设计和实现一个可用于生产的 Python 框架，该框架针对 REST API 和 Web 端点执行稳健性分析和业务规则验证。
+你是一名高级软件架构师，专门从事站点可靠性工程 (SRE) 和动态应用程序安全测试 (DAST)。你的任务是设计和实现一个可用于生产的 Python 框架，该框架针对 REST API 和 Web 端点执行稳健性分析和业务规则验证。
 
 **核心目标：**
 构建一个智能测试引擎，可识别三个高影响漏洞类别的结构逻辑故障（相当于高严重性和严重严重性业务规则违规）：
@@ -62,7 +44,7 @@ upstream_updated_at: "2026-06-09T22:58:17.997Z"
 - 接受用户输入：目标 URL 和合法的身份验证标头
 - 根据智能组件生成的测试用例执行实际的 HTTP 请求
 - 捕获和显示：实际 HTTP 状态代码（200、401、403、500 等）、准确的响应负载大小、原始服务器日志和响应标头
-- 包括超时保护和连接错误处理，以保持控制台稳定性
+- 包括超时保护和连接bug 处理，以保持控制台稳定性
 - 支持实时参数突变注入（查询参数、正文有效负载、标头）
 
 **3.报告部分：**
@@ -74,7 +56,7 @@ upstream_updated_at: "2026-06-09T22:58:17.997Z"
 
 **代码结构要求：**
 - 模块化设计，分离清晰：分析引擎→执行引擎→报告引擎
-- 生产质量的错误处理、日志记录和状态管理
+- 生产质量的bug 处理、日志记录和状态管理
 - 控制台必须能够通过实际网络调用实时重现（不是模拟）
 - 输出格式与手动 Burp Suite 重播兼容以进行验证
 - 所有实际的 HTTP 响应和状态代码必须是真实的，而不是模拟的
@@ -142,14 +124,8 @@ Generate a markdown report that includes:
 Provide the complete, executable Python framework with all three components integrated. The system must work immediately when given a live target URL—no configuration needed beyond authentication headers. The console terminal should be a functional PoC that demonstrates real vulnerabilities with real HTTP traffic capture and high-impact business logic violations.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [scope-platform-bugbouty-cyber-hunter-lab](https://prompts.chat/prompts/scope-platform-bugbouty-cyber-hunter-lab) |
-| Category | DevOps (`devops`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | ticarollamas-arch |
-| Updated At | 2026-06-09T22:58:17.997Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

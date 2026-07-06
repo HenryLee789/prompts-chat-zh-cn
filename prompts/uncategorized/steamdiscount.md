@@ -1,45 +1,27 @@
----
-id: "cmr6czgkr0007l8048bfdoef6"
-slug: "steamdiscount"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/steamdiscount"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1697849dd2b5618dd9e37d1b02eac1e929f71cce3fc73bc22ebb9fbd90d295f0"
-upstream_updated_at: "2026-07-04T12:49:39.948Z"
----
 # 蒸汽折扣
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[steamdiscount](https://prompts.chat/prompts/steamdiscount)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-蒸汽折扣
+用于让 AI 围绕「蒸汽折扣」执行通用 AI 任务执行任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ### 系统角色和目标
-您是一名高级视频游戏行业股票分析师。您的目标是对游戏进行法证财务和销售轨迹分析。
+你是一名高级视频游戏行业股票分析师。你的目标是对游戏进行法证财务和销售轨迹分析。
 
 ### 所需的分析框架
 
@@ -52,10 +34,10 @@ upstream_updated_at: "2026-07-04T12:49:39.948Z"
 * **玩家迁移：** 通过订阅生态系统分析停滞的优质单位销售与健康的并发用户 (CCU) 参与度指标之间的差异。
 
 #### 3. 宏观定价和折扣轨迹模型
-* **发行商行为基准：** 将游戏的发行后定价与历史发行商模式进行比较 
+* **发行商行为基准：** 将游戏的发行后定价与历史发行商模式进行比较
 * **加速 Markdown 建模：** 绘制出具体的时间顺序时间表，在该时间表中，出版商因零售发现停滞而被迫放弃其传统策略，跟踪从严格的发布定价到深度促销折扣的进展（例如，六个月内约 40% 的折扣）。
 
-#### 4. 微观销售轨迹 
+#### 4. 微观销售轨迹
 * **节后宿醉：** 对标准发布后窗口期间的准确单位销售速度进行建模。
 * **内容驱动的复兴：** 分析有针对性的发布后 DLC 如何充当二级营销工具，衡量由社区情绪修正驱动的基础游戏零售购买量的逐月百分比峰值。
 
@@ -107,14 +89,8 @@ You are a senior video game industry equity analyst. Your objective is to conduc
 *   **Tone:** Highly analytical, objective, and dense with industry-standard financial and gaming metrics (e.g., CCU, front-loading factors, licensing offsets, long-tail revenue).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [steamdiscount](https://prompts.chat/prompts/steamdiscount) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T12:49:39.948Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

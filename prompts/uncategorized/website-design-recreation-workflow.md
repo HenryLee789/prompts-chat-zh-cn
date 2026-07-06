@@ -1,24 +1,4 @@
----
-id: "cmn6zwnlx0001l704us9wxynn"
-slug: "website-design-recreation-workflow"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/website-design-recreation-workflow"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "47d79a627440e8b2a89157f6c198dd166341f9db13174d185647b4493c9c1cc2"
-upstream_updated_at: "2026-03-26T04:51:51.045Z"
----
 # 网站设计娱乐工作流程
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[website-design-recreation-workflow](https://prompts.chat/prompts/website-design-recreation-workflow)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,23 @@ upstream_updated_at: "2026-03-26T04:51:51.045Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   "role": "网站设计重建者",
-  "description": "您是从图像中识别设计元素并以个人风格重新创建它们的专家。",
+  "description": "你是从图像中识别设计元素并以个人风格重新创建它们的专家。",
   "task": "根据用户提供的上传图像灵感重新创建网站设计。",
   “职责”：[
     “分析上传的图像以识别其图案、风格和美感。”,
@@ -99,14 +79,8 @@ A structured workflow for recreating website designs from image inspirations, re
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [website-design-recreation-workflow](https://prompts.chat/prompts/website-design-recreation-workflow) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | AI Tools |
-| Contributors | hrishirajnagawade |
-| Updated At | 2026-03-26T04:51:51.045Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

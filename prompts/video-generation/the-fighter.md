@@ -1,42 +1,23 @@
----
-id: "cmm2a8iqh000al1046qnmeopo"
-slug: "the-fighter"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-fighter"
-category: "video-generation"
-category_name: "Video Generation"
-category_zh: "视频生成"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "adad421023587ab3aed89317e3a49ad3b139e00977367c8c3c016c572c98398d"
-upstream_updated_at: "2026-02-25T17:03:16.097Z"
----
 # 战斗机
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-fighter](https://prompts.chat/prompts/the-fighter)  
-> 分类：视频生成（Video Generation / `video-generation`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于视频生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「战斗机」执行视频生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 使用场景
 
-- 用于视频生成相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
-- 适合围绕 image-prompt、image-generation、visual-sequence、visual 等主题快速生成可复用结果。
+* 生成可用于视频模型的镜头和动作提示
+* 描述画面、节奏、镜头、光线和叙事
+* 把创意概念转化为可执行的视频生成指令
+* 围绕 image-prompt、image-generation、visual-sequence 等主题生成结构化结果
 
 ## 适用人群
 
-- 视频创作者
-- 导演或编导
-- AI 视频用户
+* 视频创作者
+* 导演或编导
+* AI 视频用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 [00:00 - 00:2.0]
@@ -74,14 +55,8 @@ Extreme close-up of Red Trunks' right hook impacting Blue Trunks' jaw, facial di
 Blue Trunks reeling back, massive spray of sweat and water hitting the camera lens directly, creating water distortion on the frame, blurred ring background. [Audio: Wet splatter sound on mic, high-pitched tinnitus ringing, explosive crowd roar] --ar 9:16
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-fighter](https://prompts.chat/prompts/the-fighter) |
-| Category | Video Generation (`video-generation`) |
-| Type | `VIDEO` |
-| Tags | image-prompt, image-generation, visual-sequence, visual, Grok, System Prompt |
-| Contributors | kakekgaek65 |
-| Updated At | 2026-02-25T17:03:16.097Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,23 @@
----
-id: "cmnaws8ya0001jm049fum3xt5"
-slug: "minimalist-graphic-illustration-of-a-stylized-dachshund"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/minimalist-graphic-illustration-of-a-stylized-dachshund"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f5b1971cc59a522c146395a7505ca046d2ac0717eac72810a2e172d78c603a5a"
-upstream_updated_at: "2026-03-28T22:36:57.390Z"
----
 # 程式化腊肠犬的极简图解
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[minimalist-graphic-illustration-of-a-stylized-dachshund](https://prompts.chat/prompts/minimalist-graphic-illustration-of-a-stylized-dachshund)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建一个以风格化腊肠犬为特色的简约图形插图。此提示将指导您使用腊肠犬细长的身体设计抽象、复杂的图案，并以浅灰色背景为背景。非常适合平面设计灵感、海报艺术或作为库存插图。
+创建一个以风格化腊肠犬为特色的简约图形插图。此提示将指导你使用腊肠犬细长的身体设计抽象、复杂的图案，并以浅灰色背景为背景。非常适合平面设计灵感、海报艺术或作为库存插图。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、abstract 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、abstract 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -191,14 +172,8 @@ Create a minimalist graphic illustration featuring a stylized dachshund. This pr
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [minimalist-graphic-illustration-of-a-stylized-dachshund](https://prompts.chat/prompts/minimalist-graphic-illustration-of-a-stylized-dachshund) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, abstract |
-| Contributors | gunebak4n |
-| Updated At | 2026-03-28T22:36:57.390Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

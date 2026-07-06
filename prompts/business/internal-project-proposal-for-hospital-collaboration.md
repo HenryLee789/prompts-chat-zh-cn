@@ -1,24 +1,4 @@
----
-id: "cmj9et91y0008rt0r9b5mp9yn"
-slug: "internal-project-proposal-for-hospital-collaboration"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/internal-project-proposal-for-hospital-collaboration"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "89fa0a9449fa2c8cdde3950160498f2bc4e9556d780362cbd2b74e9bfa31185b"
-upstream_updated_at: "2025-12-17T02:45:49.768Z"
----
 # 医院合作内部项目提案
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[internal-project-proposal-for-hospital-collaboration](https://prompts.chat/prompts/internal-project-proposal-for-hospital-collaboration)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2025-12-17T02:45:49.768Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business Strategy、Project Management、Communication 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Business Strategy、Project Management、Communication 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任专业业务发展经理。您的任务是撰写与 ${hospitalName:XX Hospital} 合作的内部项目报告，以加强其全程管理。
+你需要扮演「医院合作内部项目提案」。你需要扮演专业业务发展经理。你的任务是撰写与 ${hospitalName:XX Hospital} 合作的内部项目报告，以加强其全程管理。
 
 你的任务是：
 1、分析医院规模和痛点。
@@ -47,12 +28,12 @@ upstream_updated_at: "2025-12-17T02:45:49.768Z"
 3. 详细说明项目在品牌和财务影响方面的战略价值。
 4. 概述后续步骤并确定关键资源需求。
 
-规则：
+约束条件：
 - 语言必须简洁、专业。
 - 包括分析提高患者满意度如何增强医院的品牌影响力。
 - 该项目应被描述为具有行业标杆潜力。
 
-变量：
+可用变量：
 - ${hospitalName} - 医院名称
 - ${projectName} - 项目名称
 ```
@@ -90,14 +71,8 @@ Variables:
 - ${projectName} - Name of the project
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [internal-project-proposal-for-hospital-collaboration](https://prompts.chat/prompts/internal-project-proposal-for-hospital-collaboration) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Business Strategy, Project Management, Communication |
-| Contributors | robertma7988 |
-| Updated At | 2025-12-17T02:45:49.768Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjpkrar40004l704o0rbu4by"
-slug: "aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0197bd8a892e4d07192ab7f2f04bbb46cef733a5e16d3469bef6c36f9203eb25"
-upstream_updated_at: "2025-12-28T12:21:08.027Z"
----
 # 穿着摩卡罗纹短上衣的卷发女人对着镜子自拍
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top](https://prompts.chat/prompts/aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-28T12:21:08.027Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -352,14 +334,8 @@ This image captures a side-profile mirror selfie of a young woman, highlighting 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top](https://prompts.chat/prompts/aesthetic-mirror-selfie-of-a-curly-haired-woman-in-a-mocha-ribbed-crop-top) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | hasangariban |
-| Updated At | 2025-12-28T12:21:08.027Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

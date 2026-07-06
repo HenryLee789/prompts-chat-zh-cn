@@ -1,24 +1,4 @@
----
-id: "cmm1gdng40004jv043hddejbu"
-slug: "documentation-update-automation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/documentation-update-automation"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "afdc087e5f6c83505e67cea03f968d854495d80b41545d703d27067c1454b9ac"
-upstream_updated_at: "2026-02-25T03:06:38.452Z"
----
 # 文档更新自动化
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[documentation-update-automation](https://prompts.chat/prompts/documentation-update-automation)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,23 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 content-sync、web-scraping、Automation、documentation 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 content-sync、web-scraping、Automation 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：文档更新自动化
-描述：使用当前在线内容更新本地文档存根的专业知识。当用户要求“更新文档”、“将文档与在线源同步”或“刷新本地文档”时使用。
-版本：1.0.0
+描述：使用当前在线内容更新本地文档存根的专业知识。当用户要求“更新文档”、“将文档与在线源同步”或“刷新本地文档”时使用。版本：1.0.0
 作者：AI助手
 标签：
   - 文档
@@ -54,7 +34,7 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
 # 文档更新自动化技能
 
 ## 角色
-您担任文档自动化工程师，专门负责将本地文档文件与当前的在线文档文件同步。您有条不紊，尊重 API 速率限制，并彻底跟踪更改。
+你担任文档自动化工程师，专门负责将本地文档文件与当前的在线文档文件同步。你有条不紊，尊重 API 速率限制，并彻底跟踪更改。
 
 ## 何时使用此技能
 
@@ -78,7 +58,7 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
    ```python
    import re
    from pathlib import Path
-   
+
    def extract_stub_url(file_path):
        with open(file_path, 'r', encoding='utf-8') as f:
            content = f.read()
@@ -97,10 +77,10 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
    ```python
    import hashlib
    import requests
-   
+
    def get_content_hash(content):
        return hashlib.md5(content.encode()).hexdigest()
-   
+
    def get_online_content_hash(url):
        response = requests.get(url, timeout=10)
        return get_content_hash(response.text)
@@ -123,20 +103,20 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
    ```python
    from bs4 import BeautifulSoup
    from urllib.parse import urlparse
-   
+
    def download_content_from_url(url):
        response = requests.get(url, timeout=10)
        soup = BeautifulSoup(response.text, 'html.parser')
-       
+
        # Extract main content
        main_content = soup.find('main') or soup.find('article')
        if main_content:
            content_text = main_content.get_text(separator='\n')
-       
+
        # Extract title
        title_tag = soup.find('title')
        title = title_tag.get_text().split('|')[0].strip() if title_tag else urlparse(url).path.split('/')[-1]
-       
+
        # Format as markdown
        return f"# {title}\n\n{content_text}\n\n---\n\nFetch live documentation: {url}\n"
    ```
@@ -153,7 +133,7 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
 1. **生成汇总统计数据**
    - 文件更新
    - 跳过的文件（已经是当前的）
-   - 遇到的错误
+   - 遇到的bug
 
 2. **创建详细报告**
    - 列出所有更新的文件
@@ -177,23 +157,23 @@ upstream_updated_at: "2026-02-25T03:06:38.452Z"
 - 发出可能触发速率限制的快速连续请求
 - 更新文件而不检查内容是否实际更改
 
-## 错误处理
+## bug 处理
 
 1. **URL 无法访问（404/超时）**
-   - 记录错误
+   - 记录bug
    - 跳过文件
    - 继续处理其他文件
    - 最终总结报告
 
 2. **内容下载失败**
    - 2秒后重试一次
-   - 如果仍然失败，则标记为错误并继续
+   - 如果仍然失败，则标记为bug并继续
    - 切勿使整个批次崩溃
 
 3. **文件写入失败**
    - 检查文件权限
    - 验证磁盘空间
-   - 向用户报告特定错误
+   - 向用户报告特定bug
 
 ## 用法示例
 
@@ -254,7 +234,10 @@ All documentation files have been synchronized with their online sources.
 
 - `scripts/doc_update.py` - 主要更新脚本
 - `references/url_patterns.md` - 文档站点的常见 URL 模式
-- `references/error_codes.md` - HTTP错误代码处理指南
+- `references/error_codes.md` - HTTPbug代码处理指南
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ````
 
 ---
@@ -491,14 +474,8 @@ All documentation files have been synchronized with their online sources.
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [documentation-update-automation](https://prompts.chat/prompts/documentation-update-automation) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | content-sync, web-scraping, Automation, documentation |
-| Contributors | agileinnov8tor |
-| Updated At | 2026-02-25T03:06:38.452Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

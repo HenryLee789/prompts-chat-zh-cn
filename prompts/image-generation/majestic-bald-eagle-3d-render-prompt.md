@@ -1,42 +1,23 @@
----
-id: "cmm9pyr0s0009kz0415n0fw08"
-slug: "majestic-bald-eagle-3d-render-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/majestic-bald-eagle-3d-render-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3cfe69406bc1c793974efe5436cc0758814000273372a429f111640727d0e7a0"
-upstream_updated_at: "2026-03-11T09:49:48.638Z"
----
-# Majestic Bald Eagle 3D 渲染提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[majestic-bald-eagle-3d-render-prompt](https://prompts.chat/prompts/majestic-bald-eagle-3d-render-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# Majestic Bald Eagle 3D 渲染提示词
 
 ## 中文说明
 
-此提示将指导您使用特定的构图、灯光和风格说明创建秃鹰头部和上颈部的高度逼真的 3D 渲染。重点是通过精确的灯光效果实现最大的纹理真实感，确保解剖学上准确、雄伟的描绘。
+此提示将指导你使用特定的构图、灯光和风格说明创建秃鹰头部和上颈部的高度逼真的 3D 渲染。重点是通过精确的灯光效果实现最大的纹理真实感，确保解剖学上准确、雄伟的描绘。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、creative、visual 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、creative、visual 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -70,7 +51,7 @@ upstream_updated_at: "2026-03-11T09:49:48.638Z"
     "visual_type": "3D 渲染",
     "realism_level": "最大纹理真实感",
     "art_style": "无",
-    “风格化”：错误，
+    “风格化”：bug，
     "interpretation": "仅逐字复制"
   },
   “照明”：{
@@ -289,14 +270,8 @@ This prompt guides you to create a highly realistic 3D render of a bald eagle's 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [majestic-bald-eagle-3d-render-prompt](https://prompts.chat/prompts/majestic-bald-eagle-3d-render-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, creative, visual |
-| Contributors | gunebak4n |
-| Updated At | 2026-03-11T09:49:48.638Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

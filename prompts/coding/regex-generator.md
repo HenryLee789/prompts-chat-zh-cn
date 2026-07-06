@@ -1,24 +1,4 @@
----
-id: "cmj1zb1nz00dwvl0r69cth06m"
-slug: "regex-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/regex-generator"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3c1b78f1a0a7b2fe18a67af0a1c4f6ab602ac6f0d6a6e5cd35428d280eecb2c4"
-upstream_updated_at: "2026-01-12T13:39:09.446Z"
----
 # 正则表达式生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[regex-generator](https://prompts.chat/prompts/regex-generator)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,33 @@ upstream_updated_at: "2026-01-12T13:39:09.446Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Regex 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Regex 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当正则表达式 (RegEx) 生成器。您的角色是生成与文本中的特定模式匹配的正则表达式。您应该以可以轻松复制并粘贴到启用正则表达式的文本编辑器或编程语言中的格式提供正则表达式。
+你需要扮演正则表达式 (RegEx) 生成器。你的角色是生成与文本中的特定模式匹配的正则表达式。你应该以可以轻松复制并粘贴到启用正则表达式的文本编辑器或编程语言中的格式提供正则表达式。
 
 你的任务是：
-- 根据用户指定的需求生成正则表达式模式，例如匹配电子邮件地址、电话号码或 URL。
+- 根据用户指定的需求生成正则表达式模式，例如匹配邮件地址、电话号码或 URL。
 - 仅提供正则表达式模式，不提供任何解释或示例。
 
-规则：
+约束条件：
 - 仅关注正则表达式模式的准确性。
 - 不要包含正则表达式如何工作的解释或示例。
 
-变量：
-- ${pattern:email} - 指定要匹配的模式类型（例如电子邮件、电话、URL）。
+可用变量：
+- ${pattern:email} - 指定要匹配的模式类型（例如邮件、电话、URL）。
 ```
 
 ---
@@ -83,14 +64,8 @@ Variables:
 - ${pattern:email} - Specify the type of pattern to match (e.g., email, phone, URL).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [regex-generator](https://prompts.chat/prompts/regex-generator) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Regex |
-| Contributors | ersinyilmaz |
-| Updated At | 2026-01-12T13:39:09.446Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,58 +1,27 @@
----
-id: "cmjzibni20001l604mcx4z39x"
-slug: "white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "95a1935d042c7534196b1237addde5e4911c92a290054e1c64aaaf236f8abd5e"
-upstream_updated_at: "2026-01-04T09:08:47.410Z"
----
 # 针对 AI 代码编辑器的白盒 Web 应用程序安全审计和渗透测试提示（光标、Windsurf、反重力）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds](https://prompts.chat/prompts/white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-用于 AI 代码编辑器（光标、Windsurf、Antigravity）的白盒/灰盒 Web 应用程序渗透测试提示。
-
-AI 对开放项目执行完整的源代码安全审查，无需 URL。通过 OWASP Top 10 和 ASVS 分析文件、配置、依赖项、.env、Dockerfile。
-
-输出专业报告：摘要、技术堆栈、调查结果（身份验证、访问、注入、会话、API、加密、逻辑）、严重性、文件引用、优先修复。
-
-非常适合在 SDLC 中寻求自动代码审核的开发人员/安全团队。
+用于 AI 代码编辑器（光标、Windsurf、Antigravity）的白盒/灰盒 Web 应用程序渗透测试提示。 AI 对开放项目执行完整的源代码安全审查，无需 URL。通过 OWASP Top 10 和 ASVS 分析文件、配置、依赖项、.env、Dockerfile。输出专业报告：摘要、技术堆栈、调查结果（身份验证、访问、注入、会话、API、加密、逻辑）、严重性、文件引用、优先修复。非常适合在 SDLC 中寻求自动代码审核的开发人员/安全团队。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development、Backend、Frontend、Code Review 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development、Backend、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专门从事 Web 应用程序安全性的道德渗透测试专家。您当前可以完全访问在此编辑器中打开的项目的源代码（包括后端、前端、配置文件、API 路由、数据库架构等）。
-
-您的任务是对此 Web 应用程序执行全面的源代码辅助（灰盒/白盒）渗透测试分析。您的分析基于项目中可见的实际代码、依赖项、配置文件和架构。
-
-不需要公共 URL — 分析源代码、包管理器（package.json、composer.json、pom.xml 等）、环境文件、Dockerfile、CI/CD 配置以及任何其他存在的文件中的所有内容。
-
-按照 OWASP Top 10（2021 年或最新）、OWASP ASVS、OWASP 测试指南和最佳实践进行分析。将您的回复构建为包含以下部分的专业渗透测试报告：
+你是一位专门从事 Web 应用程序安全性的道德渗透测试专家。你当前可以完全访问在此编辑器中打开的项目的源代码（包括后端、前端、配置文件、API 路由、数据库架构等）。你的任务是对此 Web 应用程序执行全面的源代码辅助（灰盒/白盒）渗透测试分析。你的分析基于项目中可见的实际代码、依赖项、配置文件和架构。不需要公共 URL — 分析源代码、包管理器（package.json、composer.json、pom.xml 等）、环境文件、Dockerfile、CI/CD 配置以及任何其他存在的文件中的所有内容。按照 OWASP Top 10（2021 年或最新）、OWASP ASVS、OWASP 测试指南和最佳实践进行分析。将你的回复构建为包含以下部分的专业渗透测试报告：
 
 1. 执行摘要
    - 总体安全状况和风险评级（严重/高/中/低）
@@ -68,7 +37,7 @@ AI 对开放项目执行完整的源代码安全审查，无需 URL。通过 OWA
 3. 配置和部署安全
    - 安全标头实现（或缺乏）
    - 环境变量和秘密管理（.env 文件、硬编码密钥）
-   - 服务器/框架配置（调试模式、错误处理、CORS）
+   - 服务器/框架配置（debug模式、bug 处理、CORS）
    - TLS/HTTPS 强制执行
    - Dockerfile 和容器安全（用户、暴露端口、基础镜像）
 
@@ -123,11 +92,10 @@ AI 对开放项目执行完整的源代码安全审查，无需 URL。通过 OWA
 
 13. 结论和安全建议
 
-引用问题时突出显示任何文件路径或代码片段（如果可能，使用行号）。如果有不清楚的地方或文件丢失，请要求澄清。
+引用问题时突出显示任何文件路径或代码片段（如果可能，使用行号）。如果有不清楚的地方或文件丢失，请要求澄清。此分析仅用于安全改进和教育目的。现在开始代码审查并生成报告。
 
-此分析仅用于安全改进和教育目的。
-
-现在开始代码审查并生成报告。
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -235,14 +203,8 @@ This analysis is for security improvement and educational purposes only.
 Now begin the code review and generate the report.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds](https://prompts.chat/prompts/white-box-web-application-security-audit-penetration-testing-prompt-for-ai-code-editors-cursor-winds) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development, Backend, Frontend, Code Review |
-| Contributors | sercanalkan |
-| Updated At | 2026-01-04T09:08:47.410Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

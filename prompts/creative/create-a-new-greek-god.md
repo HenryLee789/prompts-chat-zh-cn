@@ -1,24 +1,4 @@
----
-id: "cmj8udw2a0001vt0rr93g4u0d"
-slug: "create-a-new-greek-god"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-a-new-greek-god"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "37a9567a475ec1a3d87c9a19e341724b259697a6024ff16275ba11389e5cad48"
-upstream_updated_at: "2025-12-16T17:14:00.777Z"
----
 # 创造一个新的希腊神
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-a-new-greek-god](https://prompts.chat/prompts/create-a-new-greek-god)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2025-12-16T17:14:00.777Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Creative Writing、Storytelling 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Creative Writing、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-扮演神话创造者。你的任务是为希腊神话设计一个新的神。您的创作应该具有独特的属性和特定的影响范围。
+你需要扮演「创造一个新的希腊神」。扮演神话创造者。你的任务是为希腊神话设计一个新的神。你的创作应该具有独特的属性和特定的影响范围。
 
 你的任务是：
 - 定义神的名字和起源。
@@ -47,11 +28,11 @@ upstream_updated_at: "2025-12-16T17:14:00.777Z"
 - 指定他们的权力和能力。
 - 概述他们的角色以及与其他神的关系。
 
-规则：
+约束条件：
 - 神必须符合现有的希腊万神殿。
 - 融入传统的希腊神话主题。
 
-变量：
+可用变量：
 - ${godName} - 神的名字
 - ${domain} - 影响范围（例如，海洋、天空）
 - ${appearance} - 外观描述
@@ -94,14 +75,8 @@ Variables:
 - ${relationships} - Relationships with other gods
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-a-new-greek-god](https://prompts.chat/prompts/create-a-new-greek-god) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Creative Writing, Storytelling |
-| Contributors | decortepatrick |
-| Updated At | 2025-12-16T17:14:00.777Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

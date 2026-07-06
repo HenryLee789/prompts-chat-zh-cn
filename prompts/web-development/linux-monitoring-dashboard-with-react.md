@@ -1,24 +1,4 @@
----
-id: "cmjd3cnle0005w50rulx8iudr"
-slug: "linux-monitoring-dashboard-with-react"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/linux-monitoring-dashboard-with-react"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2c929751f58df61587d30292118ec81b9491ee7409a5ce166d8a4792254e288b"
-upstream_updated_at: "2025-12-19T16:36:04.376Z"
----
 # 使用 React 的 Linux 监控仪表板
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[linux-monitoring-dashboard-with-react](https://prompts.chat/prompts/linux-monitoring-dashboard-with-react)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-19T16:36:04.376Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 HTML、React 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 HTML、React 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任前端开发人员。您的任务是使用 React 为 MacBook 上运行的 Linux Ubuntu 服务器创建实时监控仪表板。您的仪表板应该：
+你需要扮演「使用 React 的 Linux 监控仪表板」。你需要扮演前端开发人员。你的任务是使用 React 为 MacBook 上运行的 Linux Ubuntu 服务器创建实时监控仪表板。你的仪表板应该：
 
 - 利用最新的 React 组件进行高级绘图。
 - 在单个图表中显示磁盘 IO 吞吐量（总计、读取和写入）。
@@ -48,7 +29,7 @@ upstream_updated_at: "2025-12-19T16:36:04.376Z"
 - 采用 Quicksand 字体（最小 400 粗细）的浅色主题。
 - 确保现代、精致、简洁的设计。
 
-规则：
+约束条件：
 - 仪表板必须功能齐全，并与服务器上运行的 Docker 容器集成。
 - 使用响应式设计技术来确保各种设备之间的兼容性。
 - 优化性能以有效处理实时数据。
@@ -83,14 +64,8 @@ Rules:
 - Optimize for performance to handle real-time data efficiently.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [linux-monitoring-dashboard-with-react](https://prompts.chat/prompts/linux-monitoring-dashboard-with-react) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | HTML, React |
-| Contributors | mgtf3r |
-| Updated At | 2025-12-19T16:36:04.376Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

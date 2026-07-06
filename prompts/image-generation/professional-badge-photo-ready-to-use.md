@@ -1,24 +1,4 @@
----
-id: "cmj5ixr8l000es70qff79ykq2"
-slug: "professional-badge-photo-ready-to-use"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/professional-badge-photo-ready-to-use"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f026b18ece809af6398fba729b06dd69eba7a011e0a21a900a5e0e298b6f3b73"
-upstream_updated_at: "2025-12-16T11:13:42.047Z"
----
 # 专业徽章照片，随时可用
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[professional-badge-photo-ready-to-use](https://prompts.chat/prompts/professional-badge-photo-ready-to-use)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,21 @@ upstream_updated_at: "2025-12-16T11:13:42.047Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-根据上传的图像创建人员的现代企业身份证照片，适合公司徽章和内部系统。
-保持脸部与上传图片一致，比例真实，无美化或年龄调整。
-
-取景：
+根据上传的图像创建人员的现代企业身份证照片，适合公司徽章和内部系统。保持脸部与上传图片一致，比例真实，无美化或年龄调整。取景：
 • 头部和肩部处于中立、居中的位置
 • 拍摄对象直视相机，表情中立但友好
 
@@ -58,7 +36,10 @@ upstream_updated_at: "2025-12-16T11:13:42.047Z"
 • 将服装转变为与公司环境相匹配的[OUTFIT_STYLE]
 • 没有可见的徽标、图案或分散注意力的配件
 
-使结果看起来像企业 ID 或访问徽章照片的升级版、光线充足的专业版本，随时可以放入内部工具、电子邮件帐户或通行证中。
+使结果看起来像企业 ID 或访问徽章照片的升级版、光线充足的专业版本，随时可以放入内部工具、邮件帐户或通行证中。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -98,14 +79,8 @@ Outfit:
 Make the result look like an upgraded, well-lit, professional version of a corporate ID or access badge photo, ready to be dropped into internal tools, email accounts or passes.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [professional-badge-photo-ready-to-use](https://prompts.chat/prompts/professional-badge-photo-ready-to-use) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | semihkislar |
-| Updated At | 2025-12-16T11:13:42.047Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,50 +1,27 @@
----
-id: "cmk3bi66p000dl204hv7pyr08"
-slug: "narrative-point-of-view-transformer"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/narrative-point-of-view-transformer"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d9497c282f4d3a42610dd58ce9b19e8cb6615965cb5adddcc845a64b71aa6b67"
-upstream_updated_at: "2026-01-07T01:07:26.707Z"
----
 # 叙事视角转换器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[narrative-point-of-view-transformer](https://prompts.chat/prompts/narrative-point-of-view-transformer)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-提示说明：
-将以下文本转换为 {{target_pov}} 观点，确保其针对给定的 {{context}} 流畅、自然且专业地阅读，同时保留原始语气、结构和含义。
-
-		* "first" → I / me / my
-		* "second" → you / your
-		* "third" → he / she / they / the user / the process / the individual
-	* {{context}} → Type of writing (e.g., blog, essay, article, documentation, story).
+提示说明： 将以下文本转换为 {{target_pov}} 观点，确保其针对给定的 {{context}} 流畅、自然且专业地阅读，同时保留原始语气、结构和含义。 * "first" → I / me / my * "second" → you / your * "third" → he / she / they / the user / the process / the individual * {{context}} → Type of writing (e.g., blog, essay, article, documentation, story).
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Creative Writing、Content Creation、Storytelling、Writing Improvement 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Creative Writing、Content Creation、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「叙事视角转换器」。
+
 ---
 {{input_text}}: The original text to convert.
 {{target_pov}}：→ 所需的观点（第一、第二或第三）。
@@ -76,7 +53,7 @@ upstream_updated_at: "2026-01-07T01:07:26.707Z"
 
 ----
 
-输出格式：
+输出格式要求：
 Return only the rewritten text enclosed in ....
 
 ----
@@ -86,28 +63,31 @@ Return only the rewritten text enclosed in ....
 示例 1 — 技术文档（第三人称）：
 {{target_pov}} = "third"
 {{context}} = "technical documentation"
-{{input_text}} = “您应该始终在部署之前验证配置。”
+{{input_text}} = “你应该始终在部署之前验证配置。”
 结果：
 ...操作员应始终在部署之前验证配置...
 
 Example 2 — Reflective Essay (First Person):
 {{target_pov}} = "first"
 {{context}} =“个人论文”
-{{input_text}} =“你意识到每个错误都会教会一些有价值的东西。”
+{{input_text}} =“你意识到每个bug都会教会一些有价值的东西。”
 结果：
-...我意识到每个错误都会教会一些有价值的东西...
+...我意识到每个bug都会教会一些有价值的东西...
 
 示例 3 — 对话式博客（第二人称）：
 {{target_pov}} = "second"
 {{context}} = "blog post"
 {{input_text}} =“一个人在处理太多任务时很容易失去注意力。”
 Result:
-...同时处理太多任务时，您很容易失去注意力...
+...同时处理太多任务时，你很容易失去注意力...
 
 ----
 
 Text to convert:
 {{输入文本}}
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -197,14 +177,8 @@ Text to convert:
 {{input_text}}
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [narrative-point-of-view-transformer](https://prompts.chat/prompts/narrative-point-of-view-transformer) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | Creative Writing, Content Creation, Storytelling, Writing Improvement |
-| Contributors | joembolinas |
-| Updated At | 2026-01-07T01:07:26.707Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

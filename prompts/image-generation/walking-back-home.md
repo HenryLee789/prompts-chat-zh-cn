@@ -1,41 +1,23 @@
----
-id: "cmmhxyuqh000ajv04ad7m1myb"
-slug: "walking-back-home"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/walking-back-home"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4f0d0b23ba877bd76d978dd01c21f04f58a50cfbd4164ec75020ac73aaede662"
-upstream_updated_at: "2026-03-10T19:13:19.774Z"
----
 # 步行回家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[walking-back-home](https://prompts.chat/prompts/walking-back-home)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「步行回家」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -69,14 +51,8 @@ Walking back home
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [walking-back-home](https://prompts.chat/prompts/walking-back-home) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | mellowdrastic |
-| Updated At | 2026-03-10T19:13:19.774Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

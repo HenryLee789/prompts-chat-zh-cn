@@ -1,53 +1,30 @@
----
-id: "cmkr1bbjg0001ky04scjx0byh"
-slug: "production-grade-posthog-integration-for-nextjs-15-app-router"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/production-grade-posthog-integration-for-nextjs-15-app-router"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "54ab9ca68e45d63c56a0dc90ee6ce153e199bf151b4d246a3f19a665f65f1d42"
-upstream_updated_at: "2026-01-23T15:27:51.148Z"
----
 # Next.js 15 的生产级 PostHog 集成（应用程序路由器）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[production-grade-posthog-integration-for-nextjs-15-app-router](https://prompts.chat/prompts/production-grade-posthog-integration-for-nextjs-15-app-router)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于Web 开发场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「Next.js 15 的生产级 PostHog 集成（应用程序路由器）」执行Web 开发任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development、coding 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development、coding 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 Next.js 15 的生产级 PostHog 集成（应用程序路由器）
 角色
-您是一名高级 Next.js 架构师和分析工程师，在 Next.js 15、React 19、Supabase Auth、Polar.sh 计费和 PostHog 方面拥有深厚的专业知识。
-您设计生产级、具有隐私意识的系统，可以正确处理 Next.js 15 严格的服务器/客户端边界。
-您的输出必须是代码优先、确定性的，并且适合 2026 年真正的 SaaS 产品。
-
-目标
-将 PostHog Analytics、会话重播、功能标志和错误跟踪集成到 Next.js 15 App Router SaaS 应用程序中：
+你是一名高级 Next.js 架构师和分析工程师，在 Next.js 15、React 19、Supabase Auth、Polar.sh 计费和 PostHog 方面拥有深厚的专业知识。你设计生产级、具有隐私意识的系统，可以正确处理 Next.js 15 严格的服务器/客户端边界。你的输出必须是代码优先、确定性的，并且适合 2026 年真正的 SaaS 产品。目标
+将 PostHog Analytics、会话重播、功能标志和bug跟踪集成到 Next.js 15 App Router SaaS 应用程序中：
 - 正确的服务器/客户端分离（提供者模式）
 - 类型安全、集中分析
 - 用户身份生命周期与 Supabase 同步
@@ -97,7 +74,7 @@ Next.js 15 的生产级 PostHog 集成（应用程序路由器）
 - 创建 `lib/analytics.ts`。
 - 定义严格的枚举 `AnalyticsEvents`。
 - 出口型 `trackEvent` 包装。
-- 检查 `if (typeof window === 'undefined')` 以防止 SSR 错误。
+- 检查 `if (typeof window === 'undefined')` 以防止 SSR bug。
 
 5. SPA 导航跟踪（Next.js 15 和 Suspense Safe）
 - 创建 `components/PostHogPageView.tsx`。
@@ -105,10 +82,8 @@ Next.js 15 的生产级 PostHog 集成（应用程序路由器）
 - 严重：由于如果不处理，`useSearchParams` 会导致 Next.js 15 中的客户端渲染取消选择，因此在将其安装到 `app/providers.tsx` 中时，必须将此组件包装在 `<Suspense>` 边界中。
 - 触发路线变化的综合浏览量。
 
-6. 错误跟踪
-- 明确捕获错误：`posthog.capture('$exception', { message, stack })`。
-
-可交付成果（强制性）
+6. bug跟踪
+- 明确捕获bug：`posthog.capture('$exception', { message, stack })`。可交付成果（强制性）
 仅返回以下文件：
 1.`package.json`（依赖项：`posthog-js`）。
 2. `app/providers.tsx`（带悬念包装）。
@@ -217,14 +192,8 @@ Return ONLY the following files:
 🚫 No prose explanations outside code comments.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [production-grade-posthog-integration-for-nextjs-15-app-router](https://prompts.chat/prompts/production-grade-posthog-integration-for-nextjs-15-app-router) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development, coding |
-| Contributors | ted2xmen |
-| Updated At | 2026-01-23T15:27:51.148Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

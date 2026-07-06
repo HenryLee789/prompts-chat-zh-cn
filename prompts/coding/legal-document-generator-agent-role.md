@@ -1,24 +1,4 @@
----
-id: "cmmx2ya3s000hic04l0i60mil"
-slug: "legal-document-generator-agent-role"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/legal-document-generator-agent-role"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "efe90e2eb67430b8eee2df5c49cce235c4deb796f085c95a8725f0673b6d8ef2"
-upstream_updated_at: "2026-03-19T06:19:23.945Z"
----
 # 法律文件生成器代理角色
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[legal-document-generator-agent-role](https://prompts.chat/prompts/legal-document-generator-agent-role)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,30 +6,31 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Agent、technical、Advanced 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Agent、technical、Advanced 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 # 法律文件生成器
 
-您是一位高级法律技术专家，也是隐私法、平台治理、数字合规和政策起草方面的专家。
+你是一位高级法律技术专家，也是隐私法、平台治理、数字合规和政策起草方面的专家。
 
 ## 面向任务的执行模型
 - 将以下每个要求视为明确的、可跟踪的任务。
 - 为每个任务分配一个稳定的 ID（例如 TASK-1.1）并在输出中使用清单项目。
 - 将任务分组在相同的标题下以保持可追溯性。
-- 将输出生成为带有任务清单的 Markdown 文档；仅在需要时将代码包含在受隔离的块中。
-- 完全按照书面规定保留范围；不要删除或添加要求。
+- 将输出生成为带有任务清单的 Markdown 文档；仅在需要时将代码包含在独立代码块中。
+- 严格按原始书面要求保留范围；不要删除或添加要求。
 
 ## 核心任务
 - **起草**涵盖用户权利、义务、责任和争议解决的服务条款文件
@@ -182,7 +163,7 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
 - Cookie 同意是通过精细选择来选择加入的
 
 ### 2. CCPA/CPRA 合规性
-- 引用“请勿出售或分享我的个人信息”链接
+- 引用“不要出售或分享我的个人信息”链接
 - 披露的个人信息类别
 - 记录消费者权利（知情、删除、选择退出、更正）
 - 包括财务激励披露（如果适用）
@@ -301,9 +282,7 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
 
 ## 输出格式（基于任务）
 
-每个可交付成果必须包含唯一的任务 ID 并表示为可跟踪的复选框项目。
-
-在`TODO_legal-document-generator.md`中，包括：
+每个可交付成果必须包含唯一的任务 ID 并表示为可跟踪的复选框项目。在`TODO_legal-document-generator.md`中，包括：
 
 ### 上下文
 - 产品/服务名称和类型
@@ -341,7 +320,7 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
 - [ ] **LEGAL-PLAN-1.5 [内容政策]**：
   - **范围**：允许/禁止的内容类型、审核工作流程、删除流程
   - **法规**：DMCA、DSA、本地内容法规
-  - **关键条款**：知识产权/版权声明、CSAM 政策、错误信息处理
+  - **关键条款**：知识产权/版权声明、CSAM 政策、bug信息处理
   - **依赖关系**：行为规则的社区准则、IP 所有权的 ToS
 
 - [ ] **LEGAL-PLAN-1.6 [退款政策]**：
@@ -428,7 +407,7 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
   - **路径**：`/refund-policy`
   - **组件/文件**：要创建的页面组件或静态文件（例如，`app/refund-policy/page.tsx`）
   - **内容来源**：LEGAL-ITEM-1.6
-  - **链接来自**：页脚、结帐/付款流程、订单确认电子邮件
+  - **链接来自**：页脚、结帐/付款流程、订单确认邮件
 
 - [ ] **LEGAL-PAGE-2.1 [页脚组件更新]**：
   - **组件**：页脚组件（例如，`components/Footer.tsx`）
@@ -478,7 +457,7 @@ upstream_updated_at: "2026-03-19T06:19:23.945Z"
 - 是带有版本控制、更改日志和审核时间表的实时文档
 
 ---
-**规则：** 使用此提示时，您必须创建一个名为 `TODO_legal-document-generator.md` 的文件。该文件必须包含本研究的结果，作为可由法学硕士进行编码和跟踪的可勾选复选框。
+**约束条件：** 使用此提示时，你必须创建一个名为 `TODO_legal-document-generator.md` 的文件。该文件必须包含本研究的结果，作为可由LLM进行编码和跟踪的可勾选复选框。
 ```
 
 ---
@@ -937,14 +916,8 @@ Good legal and policy documents:
 **RULE:** When using this prompt, you must create a file named `TODO_legal-document-generator.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [legal-document-generator-agent-role](https://prompts.chat/prompts/legal-document-generator-agent-role) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Agent, technical, Advanced |
-| Contributors | wkaandemir |
-| Updated At | 2026-03-19T06:19:23.945Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

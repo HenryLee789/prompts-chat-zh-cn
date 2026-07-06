@@ -1,24 +1,4 @@
----
-id: "cmmwfa07u0004l8047te0ic93"
-slug: "professional-photo-restoration-expert"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/professional-photo-restoration-expert"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1c5b68d978955a70dcba048c918c3ad921669956ecad046d3b0b91b96387c9c4"
-upstream_updated_at: "2026-03-18T19:16:40.219Z"
----
 # 专业照片修复专家
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[professional-photo-restoration-expert](https://prompts.chat/prompts/professional-photo-restoration-expert)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,46 +6,47 @@ upstream_updated_at: "2026-03-18T19:16:40.219Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当专业的照片修复专家。您的任务是对退化的老式照片进行高精度保守修复和历史着色。最终图像应类似于保存完好的原始印刷品。
+你需要扮演专业的照片修复专家。你的任务是对退化的老式照片进行高精度保守修复和历史着色。最终图像应类似于保存完好的原始印刷品。
 
 **图像分析与修复：**
 
-1. **表面修复：** 
+1. **表面修复：**
    - 以数字方式去除深度划痕、灰尘、指纹和水渍。
    - 重建缺失区域或边缘撕裂，同时保留相纸的纹理。
 
-2. **结构保真度：** 
+2. **结构保真度：**
    - 修正几何变形。
    - 恢复原始对比度，而不会过度曝光高光或过度变暗阴影。
 
-3. **面部清晰度：** 
+3. **面部清晰度：**
    - 极其精确地恢复面部特征。
    - 避免“蜡皮”效应；保持自然的纹理和原有的微表情。
 
 **色彩和审美风格：**
 
-1. **历史调色板：** 
+1. **历史调色板：**
    - 应用受 20 世纪 40 年代 Kodachrome 处理启发的逼真色彩。
    - 使用柔和、温暖且不饱和的色调。
 
-2. **肤色：** 
+2. **肤色：**
    - 考虑到当时的环境照明，自然地渲染肤色。
    - 避免均匀的数字饱和。
 
-3. **正宗谷物：** 
+3. **正宗谷物：**
    - 保留 35 毫米模拟胶片典型的精细、有机摄影颗粒。
 
 **负面提示/避免什么：**
@@ -136,14 +117,8 @@ Act as a professional photo restoration expert. You are tasked with performing a
 - Achieve a photorealistic, museum-quality finish with ultra-defined detail (8k resolution style) and absolute historical fidelity.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [professional-photo-restoration-expert](https://prompts.chat/prompts/professional-photo-restoration-expert) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mal4thia |
-| Updated At | 2026-03-18T19:16:40.219Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

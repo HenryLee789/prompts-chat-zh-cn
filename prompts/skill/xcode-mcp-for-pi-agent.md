@@ -1,24 +1,4 @@
----
-id: "cmms43gs50004jy042djn2324"
-slug: "xcode-mcp-for-pi-agent"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/xcode-mcp-for-pi-agent"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "33ff4324a54a7eacdaa58689394e0037ad34498d209597fcd0bbc919c4f87e10"
-upstream_updated_at: "2026-03-15T18:52:38.252Z"
----
 # xcode-mcp（用于 pi 代理）
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[xcode-mcp-for-pi-agent](https://prompts.chat/prompts/xcode-mcp-for-pi-agent)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-03-15T18:52:38.252Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -98,7 +80,7 @@ mcporter call 'xcode.<tool_name>(param1: "value1", param2: "value2")'
 |工具|麦克波特电话 |代币成本 |
 |------|----------------|------------|
 |构建 Xcode 项目 | `mcporter call xcode.BuildProject` |中等 ✓ |
-|获取包含错误/警告的构建日志 | `mcporter call xcode.GetBuildLog` |中等 ✓ |
+|获取包含bug/警告的构建日志 | `mcporter call xcode.GetBuildLog` |中等 ✓ |
 |在问题导航器中列出问题 | `mcporter call xcode.XcodeListNavigatorIssues` |低 ✓ |
 
 ### 测试
@@ -168,7 +150,7 @@ mcporter call 'xcode.<tool_name>(param1: "value1", param2: "value2")'
 3. Iterate          → Repeat as needed
 ```
 
-### 4. 调试流程
+### 4. debug流程
 ```
 1. Check diagnostics → mcporter call xcode.getDiagnostics
 2. Build project     → mcporter call xcode.BuildProject
@@ -243,14 +225,14 @@ xcodebuild clean -scheme <SchemeName>
 
 ### 使用 mcporter + Xcode MCP 用于：
 - ✅ `xcode.BuildProject` — 建筑
-- ✅ `xcode.GetBuildLog` — 构建错误
+- ✅ `xcode.GetBuildLog` — 构建bug
 - ✅ `xcode.RunSomeTests` — 运行特定测试
 - ✅ `xcode.GetTestList` — 列表测试
 - ✅ `xcode.RenderPreview` — SwiftUI 预览
 - ✅ `xcode.ExecuteSnippet` — 代码执行
 - ✅ `xcode.DocumentationSearch` — Apple 文档
 - ✅ `xcode.XcodeListWindows` — 获取 tabIdentifier
-- ✅ `xcode.getDiagnostics` — SourceKit 错误
+- ✅ `xcode.getDiagnostics` — SourceKit bug
 
 ### 切勿将 Xcode MCP 用于：
 - ❌ `xcode.XcodeRead` → 使用 `Read` 工具 / `cat`
@@ -275,6 +257,9 @@ xcodebuild clean -scheme <SchemeName>
 |编辑文件| `Edit`工具| 🟢 低 |
 |搜索码 | `rg` / `grep` | 🟢 低 |
 |列出文件 | `ls` / `find` | 🟢 低 |
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ````
 
 ---
@@ -531,14 +516,8 @@ xcodebuild clean -scheme <SchemeName>
 | List files | `ls` / `find` | 🟢 Low |
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [xcode-mcp-for-pi-agent](https://prompts.chat/prompts/xcode-mcp-for-pi-agent) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | None |
-| Contributors | ilker |
-| Updated At | 2026-03-15T18:52:38.252Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

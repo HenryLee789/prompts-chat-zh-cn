@@ -1,24 +1,4 @@
----
-id: "cmmpcr3mp0005jp04ift4defk"
-slug: "lunch-atop-a-skyscraper-robotic-power-armor-recreation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/lunch-atop-a-skyscraper-robotic-power-armor-recreation"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "51bf526d588fa2235f32c848063f5c0ab5317ce75521268b1dc3a1e5d1c76146"
-upstream_updated_at: "2026-03-16T08:04:23.349Z"
----
 # 摩天大楼顶上午餐 - 机器人动力装甲娱乐
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[lunch-atop-a-skyscraper-robotic-power-armor-recreation](https://prompts.chat/prompts/lunch-atop-a-skyscraper-robotic-power-armor-recreation)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-16T08:04:23.349Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 image-generation、prompt-forge、recreation、robots 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 image-generation、prompt-forge、recreation 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 11 套独特的人形机器人动力装甲套装并排坐在高耸于 1930 年代城市天际线上方的钢梁上。 Black and white vintage photograph style with film grain.右侧可见垂直钢缆。城市建筑远在下面。每个机器人的姿势从左到右：
@@ -88,14 +69,8 @@ Image generation prompt recreating the iconic 1932 "Lunch atop a Skyscraper" pho
 All robots sitting in a row with legs dangling over the beam edge, hundreds of meters above the city. Weathered industrial look on all armors. Vintage 1930s black and white photography aesthetic. Wide horizontal composition.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [lunch-atop-a-skyscraper-robotic-power-armor-recreation](https://prompts.chat/prompts/lunch-atop-a-skyscraper-robotic-power-armor-recreation) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | image-generation, prompt-forge, recreation, robots, vintage, iconic-photo |
-| Contributors | caksan |
-| Updated At | 2026-03-16T08:04:23.349Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

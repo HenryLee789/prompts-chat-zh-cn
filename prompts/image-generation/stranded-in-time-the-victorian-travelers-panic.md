@@ -1,24 +1,4 @@
----
-id: "cmjh7hbqs0001js0487db2hhe"
-slug: "stranded-in-time-the-victorian-travelers-panic"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/stranded-in-time-the-victorian-travelers-panic"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "8567c59cebcda7330dae95bc5c82f8324e0ff83144b9fcc663445a2c6b3ca421"
-upstream_updated_at: "2025-12-22T14:14:02.021Z"
----
 # 时光搁浅：维多利亚时代旅行者的恐慌
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[stranded-in-time-the-victorian-travelers-panic](https://prompts.chat/prompts/stranded-in-time-the-victorian-travelers-panic)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2025-12-22T14:14:02.021Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他的核心相似性。该场景将拍摄对象 1 描绘为一位陷入困境的维多利亚时代旅行者，在浓密、迷雾的史前丛林中检查复杂的黄铜天文钟。图像必须超真实且高度细致，捕捉磨损的天鹅绒、出汗的皮肤和潮湿的热带树叶的纹理。使用电影照明，斑驳的阳光穿透其风格类似于一部高预算电影，在 Arri Alexa 上以浅景深拍摄。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他的核心相似性。该场景将拍摄对象 1 描绘为一位陷入困境的维多利亚时代旅行者，在浓密、迷雾的史前丛林中检查复杂的黄铜天文钟。图像必须超真实且高度细致，捕捉磨损的天鹅绒、出汗的皮肤和潮湿的热带树叶的纹理。使用电影照明，斑驳的阳光穿透其风格类似于一部高预算电影，在 Arri Alexa 上以浅景深拍摄。",
   “详细信息”：{
     "year": "白垩纪晚期（自 1890 年起）",
     "genre": "电影照片写实主义",
@@ -180,14 +161,8 @@ An ultra-photorealistic, cinematic shot of a Victorian time traveler stuck in a 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [stranded-in-time-the-victorian-travelers-panic](https://prompts.chat/prompts/stranded-in-time-the-victorian-travelers-panic) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-22T14:14:02.021Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

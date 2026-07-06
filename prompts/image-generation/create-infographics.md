@@ -1,24 +1,4 @@
----
-id: "cml0rq01u0001jh04xjjqhqci"
-slug: "create-infographics"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/create-infographics"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3343eb8f828e2999bebb8381fcc7e0ac6526fdd6d4ee7144c7b201f6523fde8e"
-upstream_updated_at: "2026-01-30T16:09:18.410Z"
----
 # 创建信息图表
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[create-infographics](https://prompts.chat/prompts/create-infographics)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-30T16:09:18.410Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Business、Academic、Accessibility 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Business、Academic 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 解释思考快与慢的书
@@ -44,7 +25,7 @@ upstream_updated_at: "2026-01-30T16:09:18.410Z"
 {
   “风格”：{
     "name": "白板信息图",
-    “description”：“手绘教育信息图，具有温暖、平易近人的素描美感。上传您的内容大纲，即可收到一份视觉上井井有条、素描本风格的指南，感觉是手工制作的，但结构却很专业。”
+    “description”：“手绘教育信息图，具有温暖、平易近人的素描美感。上传你的内容大纲，即可收到一份视觉上井井有条、素描本风格的指南，感觉是手工制作的，但结构却很专业。”
   },
   “视觉基础”：{
     “表面”：{
@@ -162,7 +143,7 @@ upstream_updated_at: "2026-01-30T16:09:18.410Z"
     },
     “强调技术”：{
       "color_highlights": "关键词后面的黄色标记式突出显示",
-      "size_contrast": "层次结构级别之间的显着比例差异",
+      "size_contrast": "层次结构级别之间的显著比例差异",
       "boxing": "重要项目以圆角矩形或徽章形状显示",
       "icons": "复选标记、星星、感叹号表示强调"
     }
@@ -468,14 +449,8 @@ explain the thinking fast and slow book
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [create-infographics](https://prompts.chat/prompts/create-infographics) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Business, Academic, Accessibility, Entertainment, Teaching |
-| Contributors | semih |
-| Updated At | 2026-01-30T16:09:18.410Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

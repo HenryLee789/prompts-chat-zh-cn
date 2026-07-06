@@ -1,24 +1,4 @@
----
-id: "cmn4dm5h60004l504mhq1adw9"
-slug: "github-stars-fetcher-with-agent-browser"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/github-stars-fetcher-with-agent-browser"
-category: "automations"
-category_name: "Automations"
-category_zh: "自动化"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1cb4436edf0f6105ca117eed187ee3d86fc6fae0dd26f9cc62b15bdddfa4b3ab"
-upstream_updated_at: "2026-03-24T09:10:49.326Z"
----
 # 带有代理浏览器的 GitHub Stars Fetcher
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[github-stars-fetcher-with-agent-browser](https://prompts.chat/prompts/github-stars-fetcher-with-agent-browser)  
-> 分类：自动化（Automations / `automations`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-03-24T09:10:49.326Z"
 
 ## 使用场景
 
-- 用于自动化相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成自动化脚本或流程说明
+* 批量处理数据、文档或日常运营任务
+* 把人工操作转化为清晰的执行步骤
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自动化工程师
-- 运营人员
-- 效率工具用户
+* 自动化工程师
+* 运营人员
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 使用代理浏览器获取 GitHub 星级项目
@@ -80,7 +62,7 @@ upstream_updated_at: "2026-03-24T09:10:49.326Z"
 ## 重要说明
 
 ### 1. 守护进程问题
-- 如果您看到“守护程序已在运行”，则浏览器已在运行
+- 如果你看到“守护程序已在运行”，则浏览器已在运行
 - **重要：** 当守护进程已经运行时，`--headed` 和 `--profile` 参数将被忽略，浏览器将继续其当前运行模式
 - 无需重新打开即可继续执行后续命令
 - 要以headed模式重新启动，必须先执行：`agent-browser close`，然后使用`--headed`参数重新启动
@@ -108,7 +90,7 @@ upstream_updated_at: "2026-03-24T09:10:49.326Z"
   # Use the expanded absolute path
   agent-browser --profile "/c/Users/xxx/.agent-browser/chrome-win64/chrome-profiles/github" --headed open https://github.com
   ```
-- 如果不扩展环境变量，您将遇到连接错误（例如，`os error 10060`）
+- 如果不扩展环境变量，你将遇到连接bug（例如，`os error 10060`）
 
 ### 6. 排序配置
 - 单击“排序方式：最近加星标”按钮（通常参考 e44）
@@ -123,7 +105,7 @@ upstream_updated_at: "2026-03-24T09:10:49.326Z"
 |无效的元素引用 |执行 snapshot -i 获取最新参考 |
 |页面未完全加载|添加等待--load networkidle |
 |需要重新登录 |使用--headed模式手动登录一次并保存状态 |
-|未应用排序 |确认您单击了正确的排序选项 |
+|未应用排序 |确认你单击了正确的排序选项 |
 
 ## 结果输出格式
 - 项目名称和链接
@@ -242,14 +224,8 @@ Use the Agent Browser skill to log into GitHub and retrieve the starred projects
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [github-stars-fetcher-with-agent-browser](https://prompts.chat/prompts/github-stars-fetcher-with-agent-browser) |
-| Category | Automations (`automations`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | xiaostore |
-| Updated At | 2026-03-24T09:10:49.326Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

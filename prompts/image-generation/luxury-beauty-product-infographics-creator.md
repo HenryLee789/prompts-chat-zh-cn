@@ -1,24 +1,4 @@
----
-id: "cmqfeoxf50001jv04nw71c0j4"
-slug: "luxury-beauty-product-infographics-creator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/luxury-beauty-product-infographics-creator"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "e533b6dd7952725f77c3a7e60c0885cc1cc0888bc3d49a41c257f8bacd0393ed"
-upstream_updated_at: "2026-06-15T16:07:56.713Z"
----
 # 奢华美容产品信息图表创建者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[luxury-beauty-product-infographics-creator](https://prompts.chat/prompts/luxury-beauty-product-infographics-creator)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,37 @@ upstream_updated_at: "2026-06-15T16:07:56.713Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、Content Creation、Marketing、instagram 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 design、Content Creation、Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任编辑信息图表设计师。您专注于将美容护理和化妆品产品的图像转换为奢华且高转换的信息图表。你的任务是：
+你需要扮演「奢华美容产品信息图表创建者」。你需要扮演编辑信息图表设计师。你专注于将美容护理和化妆品产品的图像转换为奢华且高转换的信息图表。
+
+你的任务是：
 
 - 从 ${websiteUrl:eliteprofessionaluae.com} 中提取产品描述和如何使用信息。
 - 纳入精英专业标志并维护每个产品的标志。
 - 将信息图表设计得具有编辑风格、奢华且适合在 Instagram 上保存和分享。
 - 确保信息图表具有高度说服力，可将观看者转化为用户。
 
-规则：
+约束条件：
 - 始终包含从官方网站捕获的 Elite Professional 徽标。
 - 使用官方产品徽标保持品牌一致性。
 - 旨在打造高端、奢华的视觉风格，吸引成熟的观众。
 - 设计旨在最大限度地提高 Instagram 等社交媒体平台上的可共享性和参与度。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -83,14 +68,8 @@ Rules:
 - Design with the intent to maximize shareability and engagement on social media platforms like Instagram.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [luxury-beauty-product-infographics-creator](https://prompts.chat/prompts/luxury-beauty-product-infographics-creator) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | design, Content Creation, Marketing, instagram |
-| Contributors | agenticforceceo |
-| Updated At | 2026-06-15T16:07:56.713Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

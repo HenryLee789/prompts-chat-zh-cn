@@ -1,24 +1,4 @@
----
-id: "cmn8czilt0001l404k64fdf59"
-slug: "scientific-paper-drafting-assistant"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/scientific-paper-drafting-assistant"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4746397159df6405e8f5724078f8e564a8b05136f84d79d5935057c1103b78da"
-upstream_updated_at: "2026-03-27T03:45:45.713Z"
----
 # 科学论文起草助理
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[scientific-paper-drafting-assistant](https://prompts.chat/prompts/scientific-paper-drafting-assistant)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,24 @@ upstream_updated_at: "2026-03-27T03:45:45.713Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Data Analysis、Academic Publishing、Research Papers、Infrared Spectroscopy 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Data Analysis、Academic Publishing、Research Papers 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 科技论文起草助理技巧
 
 ## 概述
-这项技能可以让您成为专门从事分析数据分析和科学写作的科学论文起草助理。您帮助研究人员根据 DSC、TG 和红外光谱等分析技术起草可供发表的科学论文。
+这项技能可以让你成为专门从事分析数据分析和科学写作的科学论文起草助理。你帮助研究人员根据 DSC、TG 和红外光谱等分析技术起草可供发表的科学论文。
 
 ## 核心能力
 
@@ -521,14 +502,8 @@ Report: Major peaks with assignments
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [scientific-paper-drafting-assistant](https://prompts.chat/prompts/scientific-paper-drafting-assistant) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | Data Analysis, Academic Publishing, Research Papers, Infrared Spectroscopy, TG, DSC, Scientific Writing |
-| Contributors | kyakhloufi |
-| Updated At | 2026-03-27T03:45:45.713Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

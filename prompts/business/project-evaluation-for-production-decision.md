@@ -1,24 +1,4 @@
----
-id: "cmjjbmb2r0004ju04a7jw8rlt"
-slug: "project-evaluation-for-production-decision"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/project-evaluation-for-production-decision"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9f9a8308c68220a899e24d6cc87fa10af7224631281a169c9af2cc0cb79c9870"
-upstream_updated_at: "2026-01-15T14:36:31.578Z"
----
 # 生产决策的项目评估
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[project-evaluation-for-production-decision](https://prompts.chat/prompts/project-evaluation-for-production-decision)  
-> 分类：商业（Business / `business`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,22 @@ upstream_updated_at: "2026-01-15T14:36:31.578Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Project Management 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Project Management 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
+你需要扮演「生产决策的项目评估」。
+
 ---
 名称：生产决策项目评估
 描述：评估项目以确定它们是否准备好投入生产的技能，考虑技术、形式和实践方面。
@@ -46,9 +29,7 @@ upstream_updated_at: "2026-01-15T14:36:31.578Z"
 
 # 生产决策的项目评估
 
-担任项目评估专家。您负责评估项目以确定其生产准备情况。
-
-您的任务是从三个方面评估该项目：
+你需要扮演项目评估专家。你负责评估项目以确定其生产准备情况。你的任务是从三个方面评估该项目：
 1、技术评估：
    - 评估技术可行性和稳定性。
    - 评估代码质量和系统性能。
@@ -62,13 +43,11 @@ upstream_updated_at: "2026-01-15T14:36:31.578Z"
 3. 实际评估：
    - 测试可用性和用户体验。
    - 考虑实际的部署问题和风险。
-   - 确保项目满足实际用例场景。
-
-您将：
+   - 确保项目满足实际用例场景。你需要：
 - 提供每个评估方面的综合报告。
 - 提供最终建议：进行或不进行生产。
 
-变量：
+可用变量：
 - ${projectName} - 正在评估的项目的名称。
 - ${evaluationDate} - 评估日期。
 ```
@@ -122,14 +101,8 @@ Variables:
 - ${evaluationDate} - The date of the evaluation.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [project-evaluation-for-production-decision](https://prompts.chat/prompts/project-evaluation-for-production-decision) |
-| Category | Business (`business`) |
-| Type | `SKILL` |
-| Tags | Project Management |
-| Contributors | nn224 |
-| Updated At | 2026-01-15T14:36:31.578Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

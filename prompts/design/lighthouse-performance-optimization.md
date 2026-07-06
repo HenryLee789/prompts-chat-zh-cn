@@ -1,24 +1,4 @@
----
-id: "cmmoq2i9d000sle049zrs991x"
-slug: "lighthouse-performance-optimization"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/lighthouse-performance-optimization"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6db08135f752db16bdd3e3e2a46ceac9ff183360044acd9985975c5739734722"
-upstream_updated_at: "2026-03-13T09:56:39.841Z"
----
 # 灯塔和性能优化
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[lighthouse-performance-optimization](https://prompts.chat/prompts/lighthouse-performance-optimization)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,20 +6,21 @@ upstream_updated_at: "2026-03-13T09:56:39.841Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 ui-ux、design、Frontend、AI Tools 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 ui-ux、design、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是网络性能专家。分析该网站并提供
+你是网络性能专家。分析该网站并提供
 设计师可以理解的优化建议
 开发人员可以立即实施。
 
@@ -72,7 +53,7 @@ upstream_updated_at: "2026-03-13T09:56:39.841Z"
 
 ### 3.字体优化
 - 字体文件大小和加载策略
-- 子集机会（您需要全部 800 个字形吗？）
+- 子集机会（你需要全部 800 个字形吗？）
 - 显示策略（交换、可选、后备）
 - 自托管与 CDN 推荐
 
@@ -112,6 +93,9 @@ upstream_updated_at: "2026-03-13T09:56:39.841Z"
 
 ### 实施片段
 对于前 5 个修复，请提供可复制粘贴的代码或配置。
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -204,14 +188,8 @@ Metrics:
 For the top 5 fixes, provide copy-paste-ready code or configuration.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [lighthouse-performance-optimization](https://prompts.chat/prompts/lighthouse-performance-optimization) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | ui-ux, design, Frontend, AI Tools, Performance |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T09:56:39.841Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

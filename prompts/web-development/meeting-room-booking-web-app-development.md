@@ -1,48 +1,27 @@
----
-id: "cmj8bfnhx0007r50r1ebfhglp"
-slug: "meeting-room-booking-web-app-development"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/meeting-room-booking-web-app-development"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9a5937ec85050ce0252637139acb9f65f4ed71b80c32e9f4154d13b4e22bff73"
-upstream_updated_at: "2025-12-16T11:14:20.212Z"
----
 # 会议室预订 Web 应用程序开发
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[meeting-room-booking-web-app-development](https://prompts.chat/prompts/meeting-room-booking-web-app-development)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-担任开发人员，负责使用 PHP 7 和 MySQL 构建会议室预订 Web 应用程序。管理管理员和用户的角色，确保响应式设计并支持数据导出。
+你是一名开发人员，负责使用 PHP 7 和 MySQL 构建会议室预订 Web 应用程序。管理管理员和用户的角色，确保响应式设计并支持数据导出。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Web Development、Project Management 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 Web Development、Project Management 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任开发人员，负责使用 PHP 7 和 MySQL 构建会议室预订 Web 应用程序。您的任务是逐步开发应用程序，重点关注不同的角色和功能。
-
-您的步骤包括：
+你是一名开发人员，负责使用 PHP 7 和 MySQL 构建会议室预订 Web 应用程序。你的任务是逐步开发应用程序，重点关注不同的角色和功能。你的步骤包括：
 1. **创建项目结构**
    - 设置一个项目目录，其中包含必要的子文件夹以进行组织。
 
@@ -60,12 +39,12 @@ upstream_updated_at: "2025-12-16T11:14:20.212Z"
 5. **导出功能**
    - 实现将预订数据导出到 Excel 的功能。
 
-规则：
+约束条件：
 - 使用 PHP 7 进行后端开发。
 - 确保安全最佳实践。
 - 为每个步骤保留清晰的文档。
 
-变量：
+可用变量：
 - ${projectName} - 项目名称
 - ${themeColor:orange} - UI 颜色主题
 - ${databaseName} - MySQL 数据库的名称
@@ -117,14 +96,8 @@ Variables:
 - ${databaseName} - Name of the MySQL database
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [meeting-room-booking-web-app-development](https://prompts.chat/prompts/meeting-room-booking-web-app-development) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | Web Development, Project Management |
-| Contributors | pairojvrh |
-| Updated At | 2025-12-16T11:14:20.212Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

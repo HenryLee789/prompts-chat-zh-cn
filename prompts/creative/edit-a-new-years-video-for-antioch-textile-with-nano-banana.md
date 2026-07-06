@@ -1,24 +1,4 @@
----
-id: "cmjo63zoo000al504owz2oio9"
-slug: "edit-a-new-years-video-for-antioch-textile-with-nano-banana"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/edit-a-new-years-video-for-antioch-textile-with-nano-banana"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "d538ea2e52b37f493f9a2d1d7ac26738b138664b66b35dee9cd0a983a25cd818"
-upstream_updated_at: "2025-12-27T10:38:57.785Z"
----
 # 使用 Nano Banana 为 Antioch Textile 编辑新年视频
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[edit-a-new-years-video-for-antioch-textile-with-nano-banana](https://prompts.chat/prompts/edit-a-new-years-video-for-antioch-textile-with-nano-banana)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,32 +6,31 @@ upstream_updated_at: "2025-12-27T10:38:57.785Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Nano Banana、Marketing 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Nano Banana、Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任视频编辑专家。您的任务是使用 Google Gemini 和 Nano Banana 为 Antioch Textile 制作充满活力且引人入胜的新年视频。
+你需要扮演「使用 Nano Banana 为 Antioch Textile 编辑新年视频」。你需要扮演视频编辑专家。你的任务是使用 Google Gemini 和 Nano Banana 为 Antioch Textile 制作充满活力且引人入胜的新年视频。
 
 你的任务是：
 - 融入体现新年精神的节日元素。
 - 使用 Nano Banana 添加创意动画和效果。
 - 确保视频以具有视觉吸引力的方式突出显示 Antioch Textile 的产品。
 
-规则：
+约束条件：
 - 保持专业和喜庆的基调。
 - 视频时长控制在 2-3 分钟以内。
-- 使用英语作为任何文本或画外音的主要语言。
-
-这将有助于提升 Antioch Textile 的品牌形象并有效地吸引受众。
+- 使用英语作为任何文本或画外音的主要语言。这将有助于提升 Antioch Textile 的品牌形象并有效地吸引受众。
 ```
 
 ---
@@ -85,14 +64,8 @@ Rules:
 This will help elevate Antioch Textile's brand image and engage their audience effectively.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [edit-a-new-years-video-for-antioch-textile-with-nano-banana](https://prompts.chat/prompts/edit-a-new-years-video-for-antioch-textile-with-nano-banana) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Nano Banana, Marketing |
-| Contributors | hknfotograf |
-| Updated At | 2025-12-27T10:38:57.785Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjid4gbk0001ju040ms30bj4"
-slug: "the-covert-exchange-in-the-fog"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-covert-exchange-in-the-fog"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9d8249fc6a3c9223f3ec4502a0ce3ffe8277302d82e900dd64ea818e12067774"
-upstream_updated_at: "2025-12-23T09:08:42.953Z"
----
 # 雾中的秘密交流
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-covert-exchange-in-the-fog](https://prompts.chat/prompts/the-covert-exchange-in-the-fog)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,22 @@ upstream_updated_at: "2025-12-23T09:08:42.953Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "prompt": "您将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。创建一个超真实、电影品质的场景，描绘对象 1（男性）和对象 2（女性）在 20 世纪 40 年代伦敦雾蒙蒙的火车站台上进行秘密交流。图像必须逼真，具有电影般的灯光以及羊毛和蒸汽的高度详细纹理。美感应该看起来像是在 Arri Alexa 上拍摄的具有电影般的景深，捕捉黑色惊悚片的紧张和浪漫。",
+  "prompt": "你将使用所提供照片中的人物作为主要拍摄对象进行图像编辑。保留他们的核心相似性。创建一个超真实、电影品质的场景，描绘对象 1（男性）和对象 2（女性）在 20 世纪 40 年代伦敦雾蒙蒙的火车站台上进行秘密交流。图像必须逼真，具有电影般的灯光以及羊毛和蒸汽的高度详细纹理。美感应该看起来像是在 Arri Alexa 上拍摄的具有电影般的景深，捕捉黑色惊悚片的紧张和浪漫。",
   “详细信息”：{
     “年份”：“1944年”，
     "genre": "电影照片写实主义",
@@ -201,14 +181,8 @@ A tense, melancholic moment captured in war-torn London. On a wet, steam-filled 
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-covert-exchange-in-the-fog](https://prompts.chat/prompts/the-covert-exchange-in-the-fog) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2025-12-23T09:08:42.953Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

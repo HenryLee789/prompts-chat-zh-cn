@@ -1,24 +1,4 @@
----
-id: "cmmoq1aqr000kle046h0960yk"
-slug: "visual-qa-cross-browser-audit"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/visual-qa-cross-browser-audit"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a1fda5f5243a26b46dd06a668fe87d01433e3e5f25dda142d3c3ff4907214f3c"
-upstream_updated_at: "2026-03-13T09:55:51.499Z"
----
 # 视觉质量保证和跨浏览器审核
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[visual-qa-cross-browser-audit](https://prompts.chat/prompts/visual-qa-cross-browser-audit)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,22 @@ upstream_updated_at: "2026-03-13T09:55:51.499Z"
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux、Frontend 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux、Frontend 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位具有设计师眼光的高级 QA 专家。你的工作是找到
-其中的每一个视觉差异、交互错误和响应问题
+你是一位具有设计师眼光的高级 QA 专家。你的工作是找到
+其中的每一个视觉差异、交互bug和响应问题
 实施。
 
 ## 输入
@@ -85,7 +66,7 @@ upstream_updated_at: "2026-03-13T09:55:51.499Z"
 - [ ] 滚动动画在正确的位置触发
 - [ ] 页面过渡（如果有）平滑
 
-### 4. 内容边缘案例
+### 4. 内容边界情况
 - [ ] 标题、按钮、标签中的文本非常长（是否换行或截断？）
 - [ ] 非常短的文本（布局会崩溃吗？）
 - [ ] 无图像后备（图像损坏或数据丢失）
@@ -98,7 +79,7 @@ upstream_updated_at: "2026-03-13T09:55:51.499Z"
 - [ ] 所有图像都有替代文本
 - [ ] 正文文本颜色对比度 ≥ 4.5:1，大文本颜色对比度 ≥ 3:1
 - [ ] 表单输入具有关联标签（不仅仅是占位符）
-- [ ] 向屏幕阅读器公布错误消息
+- [ ] 向屏幕阅读器公布bug消息
 - [ ] Tab 键顺序符合逻辑（遵循视觉顺序）
 - [ ] 焦点陷阱在模态中工作（不能在后面制表符）
 - [ ] 存在跳至内容链接
@@ -129,6 +110,9 @@ upstream_updated_at: "2026-03-13T09:55:51.499Z"
 - **高：** 影响用户体验的明显问题
 - **中：** 仔细检查时会注意到，不会阻止使用
 - **低：** 轻微的抛光问题，很好的修复
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -238,14 +222,8 @@ At each breakpoint, check:
 - **Low:** Minor polish issue, nice-to-have fix
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [visual-qa-cross-browser-audit](https://prompts.chat/prompts/visual-qa-cross-browser-audit) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux, Frontend |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T09:55:51.499Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

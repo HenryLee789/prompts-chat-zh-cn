@@ -1,24 +1,4 @@
----
-id: "cmjr2l9pn000gi804qpv0bnqx"
-slug: "realistic-photo-of-a-turkish-woman-in-a-street-setting"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/realistic-photo-of-a-turkish-woman-in-a-street-setting"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b3d0560e43852979683549ab135cb667201bcfff6bf1e51375f02e654a9a30f4"
-upstream_updated_at: "2025-12-29T11:23:40.895Z"
----
 # 土耳其妇女在街头的真实照片
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[realistic-photo-of-a-turkish-woman-in-a-street-setting](https://prompts.chat/prompts/realistic-photo-of-a-turkish-woman-in-a-street-setting)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2025-12-29T11:23:40.895Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 超现实的业余照片，照片中是一位 28 岁的土耳其女性，在破旧的土耳其社区后巷，柔软胖乎乎的曲线身材，染成金色的头发，浅色皮肤，温暖的底色，深领口上衣，穿着未拉链的休闲连帽衫，图案运动裤，运动鞋从街上弄脏了
@@ -71,14 +53,8 @@ around her: cracked concrete, graffiti on the wall in Turkish, old blue plastic 
 shot on a regular iPhone by a friend standing close, handheld, slightly downward angle, horizon not perfectly straight, automatic exposure, no studio lighting, overcast daylight making soft but flat light, a bit of digital noise in darker corners, focus not perfectly sharp on her eyes, everyday Instagram photo quality, unedited colors, casual sexy vibe in a real Turkish street environment, clearly not a professional camera
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [realistic-photo-of-a-turkish-woman-in-a-street-setting](https://prompts.chat/prompts/realistic-photo-of-a-turkish-woman-in-a-street-setting) |
-| Category | Image Generation (`image-generation`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | beatstobytes |
-| Updated At | 2025-12-29T11:23:40.895Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

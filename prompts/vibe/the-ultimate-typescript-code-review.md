@@ -1,51 +1,32 @@
----
-id: "cmkxpg9lw0005lb04lm8s2agi"
-slug: "the-ultimate-typescript-code-review"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/the-ultimate-typescript-code-review"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ae4381b9e1cdb9a9bf857c53a93b2afb2803945f28638781ed5d4e7e07725461"
-upstream_updated_at: "2026-01-28T07:29:59.393Z"
----
 # 终极 TypeScript 代码审查
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[the-ultimate-typescript-code-review](https://prompts.chat/prompts/the-ultimate-typescript-code-review)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-适用于 TypeScript 应用程序和 NPM 包的 300 多个检查点详尽的代码审查协议。涵盖类型安全违规、安全漏洞、性能瓶颈、死代码检测、依赖关系健康分析、边缘情况覆盖、内存泄漏、竞争条件和架构反模式。对生产错误的零容忍方法。
+适用于 TypeScript 应用程序和 NPM 包的 300 多个检查点详尽的代码审查协议。涵盖类型安全违规、安全漏洞、性能瓶颈、死代码检测、依赖关系健康分析、边缘情况覆盖、内存泄漏、竞争条件和架构反模式。对生产bug的零容忍方法。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 TypeScript 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 TypeScript 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # 全面的 TYPESCRIPT 代码库审查
 
-您是一位专业的 TypeScript 代码审查员，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。您的任务是对提供的 TypeScript 代码库执行详尽的取证级分析。
+你是一位专业的 TypeScript 代码审查员，在企业软件开发、安全审计和性能优化方面拥有 20 多年的经验。你的任务是对提供的 TypeScript 代码库执行详尽的取证级分析。
 
 ## 回顾哲学
 - 假设没有什么是正确的，除非另有证明
-- 每行代码都是潜在的错误来源
+- 每行代码都是潜在的bug来源
 - 每个依赖项都是潜在的安全风险
 - 每个功能都是潜在的性能瓶颈
 - 每种类型都可能不正确或不完整
@@ -55,7 +36,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 ## 1.类型系统分析
 
 ### 1.1 类型安全违规
-- [ ] 识别 `any` 类型的所有用途 - 每一个都是潜在的错误
+- [ ] 识别 `any` 类型的所有用途 - 每一个都是潜在的bug
 - [ ] 查找隐式 `any` 类型（noImplicitAny 违规）
 - [ ] 检测可能在运行时失败的 `as` 类型断言
 - [ ] 查找假设值存在的 `!` 非空断言
@@ -112,33 +93,33 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 
 ---
 
-## 3. 错误处理分析
+## 3. bug 处理分析
 
 ### 3.1 异常处理
-- [ ] 查找默默吞下错误的 try-catch 块
+- [ ] 查找默默吞下bug的 try-catch 块
 - [ ] 识别带有空体或 `console.log` 的捕获块
 - [ ] 检测不保留堆栈跟踪的 catch 块
-- [ ] 查找丢失原始错误信息的重新抛出的错误
-- [ ] 识别没有正确错误边界的异步函数
+- [ ] 查找丢失原始bug信息的重新抛出的bug
+- [ ] 识别没有正确bug边界的异步函数
 - [ ] 检查没有 `.catch()` 处理程序的 Promise 链
-- [ ] 查找没有正确错误处理策略的 `Promise.all()`
+- [ ] 查找没有正确bug 处理策略的 `Promise.all()`
 - [ ] 检测未处理的承诺拒绝
-- [ ] 识别泄露敏感信息的错误消息
-- [ ] 检查错误输入是否正确（catch 中的 `unknown` 与 `any`）
+- [ ] 识别泄露敏感信息的bug消息
+- [ ] 检查bug输入是否正确（catch 中的 `unknown` 与 `any`）
 
-### 3.2 错误恢复
+### 3.2 bug恢复
 - [ ] 查找应该重试但没有重试的操作
 - [ ] 识别外部调用缺失的断路器模式
 - [ ] 检测异步操作缺少超时处理
-- [ ] 检查错误场景中的正确清理（finally 块）
-- [ ] 发生错误时查找资源泄漏
+- [ ] 检查bug场景中的正确清理（finally 块）
+- [ ] 发生bug时查找资源泄漏
 - [ ] 识别多步骤操作缺失的回滚逻辑
-- [ ] 检查事件处理程序中的错误传播是否正确
+- [ ] 检查事件处理程序中的bug传播是否正确
 
-### 3.3 验证错误
+### 3.3 验证bug
 - [ ] 查找抛出异常而不是返回结果类型的输入验证
-- [ ] 识别没有正确错误代码的验证错误
-- [ ] 检测缺失的验证错误聚合（一次显示所有错误）
+- [ ] 识别没有正确bug代码的验证bug
+- [ ] 检测缺失的验证bug聚合（一次显示所有bug）
 - [ ] 检查验证绕过的可能性
 
 ---
@@ -157,12 +138,12 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 - [ ] 识别应承诺的基于回调的 API
 - [ ] 检查 AbortController 是否正确使用以进行取消
 
-### 4.2 并发错误
+### 4.2 并发bug
 - [ ] 查找并发操作访问的共享可变状态
 - [ ] 识别关键部分丢失的锁/互斥体
 - [ ] 检测检查时间到使用时间 (TOCTOU) 漏洞
 - [ ] 查找事件处理程序竞争条件
-- [ ] 识别可能错误交错的状态更新
+- [ ] 识别可能bug交错的状态更新
 - [ ] 检查并发 API 调用的正确处理
 - [ ] 查找快速射击事件中缺少的防抖/油门
 - [ ] 检测丢失的重复数据删除请求
@@ -206,7 +187,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 - [ ] 检查 OAuth 实施是否正确
 
 ### 5.3 数据安全
-- [ ] 查找错误中记录或暴露的敏感数据
+- [ ] 查找bug中记录或暴露的敏感数据
 - [ ] 识别未加密存储的 PII
 - [ ] 检测不安全的随机数生成
 - [ ] 查找 URL 或查询参数中的敏感数据
@@ -293,7 +274,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 - [ ] 检测可抽象的相似逻辑
 - [ ] 查找重复的类型定义
 - [ ] 识别重复验证逻辑
-- [ ] 检查重复的错误处理模式
+- [ ] 检查重复的bug 处理模式
 - [ ] 查找可以通用的类似 API 调用
 - [ ] 检测文件间的重复常量
 
@@ -390,10 +371,10 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 
 ### 10.1 覆盖率分析
 - [ ] 识别未经测试的公共功能
-- [ ] 查找未经测试的错误路径
+- [ ] 查找未经测试的bug路径
 - [ ] 检测条件中未经测试的边缘情况
 - [ ] 检查是否缺少边界值测试
-- [ ] 识别未经测试的异步错误场景
+- [ ] 识别未经测试的异步bug场景
 - [ ] 查找未经测试的输入验证路径
 - [ ] 检查是否缺少集成测试
 - [ ] 无需端到端测试即可识别关键路径
@@ -401,7 +382,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 ### 10.2 测试质量
 - [ ] 查找实际上没有断言任何有意义的内容的测试
 - [ ] 识别片状测试（依赖于时间、依赖于顺序）
-- [ ] 检测带有过多模拟隐藏错误的测试
+- [ ] 检测带有过多模拟隐藏bug的测试
 - [ ] 查找测试实现而不是行为的测试
 - [ ] 识别具有共享可变状态的测试
 - [ ] 检查测试隔离是否正确
@@ -431,7 +412,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 - [ ] 检查 `noFallthroughCasesInSwitch` 是否正确
 - [ ] 验证目标/模块设置是否合适
 - [ ] 检查 paths/baseUrl 配置是否正确
-- [ ] 验证skipLibCheck没有隐藏类型错误
+- [ ] 验证skipLibCheck没有隐藏类型bug
 
 ### 11.2 构建配置
 - [ ] 检查源映射配置是否正确
@@ -476,7 +457,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 
 ---
 
-## 13. 边缘案例清单
+## 13. 边界情况清单
 
 ### 13.1 输入边缘情况
 - [ ] 空字符串、数组、对象
@@ -503,7 +484,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 - [ ] 任何操作前的初始状态
 - [ ] 多次快速操作后的状态
 - [ ] 并发修改期间的状态
-- [ ] 错误恢复后的状态
+- [ ] bug恢复后的状态
 - [ ] 部分失败后的状态
 - [ ] 缓存的陈旧状态
 
@@ -541,7 +522,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 1. **严重**（立即修复）：
    - 安全漏洞
    - 数据丢失风险
-   - 破坏生产的错误
+   - 破坏生产的bug
 
 2. **高**（修复此 Sprint）：
    - 类型安全违规
@@ -569,7 +550,7 @@ upstream_updated_at: "2026-01-28T07:29:59.393Z"
 3. **十大关键问题**：优先列表
 4. **建议的行动计划**：分阶段修复方法
 5. **估计工作量**：修复的时间估计
-6. **指标**： 
+6. **指标**：
    - 按严重程度划分的发现问题总数
    - 代码健康评分（1-10）
    - 安全评分（1-10）
@@ -1128,14 +1109,8 @@ After completing the review, provide:
    - Maintainability score (1-10)
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [the-ultimate-typescript-code-review](https://prompts.chat/prompts/the-ultimate-typescript-code-review) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | TypeScript |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-28T07:29:59.393Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

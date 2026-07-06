@@ -1,42 +1,23 @@
----
-id: "cmjpo4d2c0007jl04urt3cvhj"
-slug: "cinematic-street-photography-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/cinematic-street-photography-prompt"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a9e008b7ac2258d63b8e58855369f0f933165574601e9d16c6498c71e763e5b9"
-upstream_updated_at: "2026-02-19T14:33:54.660Z"
----
-# 电影街头摄影提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[cinematic-street-photography-prompt](https://prompts.chat/prompts/cinematic-street-photography-prompt)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# 电影街头摄影提示词
 
 ## 中文说明
 
-创建电影般的街头摄影场景，重点捕捉欢乐和情感的坦率时刻。此提示将引导您想象一张温暖、复古风格的照片，照片上是一位在繁华的城市环境中快乐的年轻女子。它强调构图、灯光和叙事元素，以产生真实而温馨的图像。
+创建电影般的街头摄影场景，重点捕捉欢乐和情感的坦率时刻。此提示将引导你想象一张温暖、复古风格的照片，照片上是一位在繁华的城市环境中快乐的年轻女子。它强调构图、灯光和叙事元素，以产生真实而温馨的图像。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Creative Writing 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Creative Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -75,7 +56,7 @@ upstream_updated_at: "2026-02-19T14:33:54.660Z"
   “叙述元素”：{
     "character_interactions": "摄影师正在捕捉 ${gender} 坦诚、快乐的时刻，表明他们之间存在积极而舒适的融洽关系。",
     "environmental_storytelling": "拥挤、失焦的背景凸显了 ${gender} 在熙熙攘攘的环境中作为幸福和平静的奇点，让这一刻感觉个性化和亲密。",
-    "implied_action": "照片拍摄正在进行中，捕捉拍摄对象的自发反应。"
+    "implied_action": "照片拍摄正在进行中，捕捉拍摄对象的自发React。"
   },
   “对象”：[
     “相机”，
@@ -114,6 +95,9 @@ upstream_updated_at: "2026-02-19T14:33:54.660Z"
   "use_case": "以幸福、城市生活、摄影和坦诚瞬间为主题的图库摄影。",
   “uuid”：“c0e1b01c-e07e-41b1-b035-f8802d8ec319”
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -209,14 +193,8 @@ Create a cinematic street photography scene with a focus on capturing candid mom
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [cinematic-street-photography-prompt](https://prompts.chat/prompts/cinematic-street-photography-prompt) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Creative Writing |
-| Contributors | gunebak4n, halil |
-| Updated At | 2026-02-19T14:33:54.660Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

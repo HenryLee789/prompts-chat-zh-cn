@@ -1,41 +1,23 @@
----
-id: "cmk9fc5gf0004l204g31waiyj"
-slug: "seaside-walker"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/seaside-walker"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2bf730f7484088149eca067103b9847ee5a11169807322d2892b83713bd6830e"
-upstream_updated_at: "2026-02-05T08:19:04.872Z"
----
 # 海边漫步者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[seaside-walker](https://prompts.chat/prompts/seaside-walker)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-海边的美女
+用于让 AI 围绕「海边漫步者」执行图像生成提示词设计任务，并保留原 prompt 的角色、约束、执行步骤和输出格式。适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -125,14 +107,8 @@ A beautiful woman by the seaside
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [seaside-walker](https://prompts.chat/prompts/seaside-walker) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | None |
-| Contributors | mellowdrastic |
-| Updated At | 2026-02-05T08:19:04.872Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

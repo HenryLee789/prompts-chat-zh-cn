@@ -1,24 +1,4 @@
----
-id: "cmm1hzh340007jo04bip9zr7x"
-slug: "app-store-screenshots-gallery-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/app-store-screenshots-gallery-generator"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "faf8563d094cf3c8274c9280e0cc7d3508356f68a8d261a9c16ce9a2a31bc23a"
-upstream_updated_at: "2026-02-25T03:51:36.256Z"
----
 # App Store 截图库生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[app-store-screenshots-gallery-generator](https://prompts.chat/prompts/app-store-screenshots-gallery-generator)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,19 @@ upstream_updated_at: "2026-02-25T03:51:36.256Z"
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 swiftui、CSS、HTML、app-store 等主题快速生成可复用结果。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 围绕 swiftui、CSS、HTML 等主题生成结构化结果
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # App Store 截图库生成器
@@ -46,7 +27,7 @@ upstream_updated_at: "2026-02-25T03:51:36.256Z"
 
 ## 上下文
 
-您正在为应用程序构建屏幕截图库页面。该项目的屏幕截图位于文件夹中（通常为 `screenshots/`、`fastlane/screenshots/` 或类似文件夹）。图库应该是一个可以部署到 Netlify、Vercel 或任何静态主机的 HTML 文件。
+你正在为应用程序构建屏幕截图库页面。该项目的屏幕截图位于文件夹中（通常为 `screenshots/`、`fastlane/screenshots/` 或类似文件夹）。图库应该是一个可以部署到 Netlify、Vercel 或任何静态主机的 HTML 文件。
 
 ## 要求
 
@@ -176,7 +157,7 @@ upstream_updated_at: "2026-02-25T03:51:36.256Z"
 </div>
 ```
 
-## 与“人工智能”画廊的主要区别
+## 与“AI”画廊的主要区别
 
 ❌ **避免**：
 - 过多的渐变和颜色
@@ -207,11 +188,11 @@ upstream_updated_at: "2026-02-25T03:51:36.256Z"
 
 **用法**：复制此提示并将其与以下内容一起提供给 AI 助手：
 1. 项目中的截图文件列表
-2.您的应用程序名称和一行描述
+2.你的应用程序名称和一行描述
 3. 平台（iOS、macOS、Android、Web）
 4.使用的关键技术（SwiftUI、React Native、Flutter等）
 
-人工智能将生成一个看起来经过专业设计的可投入生产的画廊。
+AI将生成一个看起来经过专业设计的可投入生产的画廊。
 ````
 
 ---
@@ -403,14 +384,8 @@ Generate a single `index.html` file with:
 The AI will generate a production-ready gallery that looks professionally designed.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [app-store-screenshots-gallery-generator](https://prompts.chat/prompts/app-store-screenshots-gallery-generator) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | swiftui, CSS, HTML, app-store, gallery, screenshots, android, ios |
-| Contributors | agileinnov8tor |
-| Updated At | 2026-02-25T03:51:36.256Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

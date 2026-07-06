@@ -1,24 +1,4 @@
----
-id: "cmn8v2lx10001ik04toej4wkx"
-slug: "base-r"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/base-r"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "779ff98e63e847d39a425fdd79e0187a3ecfba48b9dac0c23b689cbb6712322e"
-upstream_updated_at: "2026-03-27T12:12:03.062Z"
----
 # 碱基R
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[base-r](https://prompts.chat/prompts/base-r)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,18 +6,18 @@ upstream_updated_at: "2026-03-27T12:12:03.062Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 claude-code、coding、skills、Data Analysis 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 claude-code、coding、skills 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
@@ -329,7 +309,7 @@ df$category <- cut(df$value, breaks = c(0, 10, 20, Inf),
                    labels = c("low", "med", "high"))
 ```
 
-### 环境与调试
+### 环境与debug
 
 ```r
 ls()                  # list objects
@@ -353,12 +333,12 @@ Sys.time()            # current time
 
 ### 函数陷阱和快速参考（摘自 R 4.5.3 参考手册）
 不明显的行为、令人惊讶的默认设置和棘手的交互——只有克劳德还不知道：
-- **data-wrangling.md** — 在以下情况下阅读：子集返回错误的类型，应用于数据帧会产生意外的强制，合并/拆分/cbind 行为奇怪，过滤后因子水平仍然存在，表/重复的边缘情况。
-- **modeling.md** — 当以下情况阅读：公式语法令人困惑（`I()`、`*` 与 `:`、`/`）、aov 给出错误的 SS 类型、glm 默默地适合 OLS、nls 不会收敛、预测返回错误的比例、优化/优化需要调整。
-- **statistics.md** — 阅读时间：假设检验给出令人惊讶的结果，需要选择正确的 p.adjust 方法，聚类参数似乎错误，分布函数命名令人困惑（`d`/`p`/`q`/`r` 前缀）。
+- **data-wrangling.md** — 在以下情况下阅读：子集返回bug的类型，应用于数据帧会产生意外的强制，合并/拆分/cbind 行为奇怪，过滤后因子水平仍然存在，表/重复的边缘情况。
+- **modeling.md** — 当以下情况阅读：公式语法令人困惑（`I()`、`*` 与 `:`、`/`）、aov 给出bug的 SS 类型、glm 默默地适合 OLS、nls 不会收敛、预测返回bug的比例、优化/优化需要调整。
+- **statistics.md** — 阅读时间：假设检验给出令人惊讶的结果，需要选择正确的 p.adjust 方法，聚类参数似乎bug，分布函数命名令人困惑（`d`/`p`/`q`/`r` 前缀）。
 - **visualization.md** — 阅读时间：标准设置意外重置、布局/mfrow 交互混乱、轴标签被剪裁、颜色看起来不正确、需要特殊绘图（等高线、透视、马赛克、成对）。
-- **io-and-text.md** — 读取时间：read.table 默默地删除数据或错误解析列，正则表达式的行为与预期不同，sprintf 格式很棘手，write.table 输出具有不需要的行名称。
-- **dates-and-system.md** — 阅读时间：日期/POSIXct 转换给出错误的日期，时区导致相差一，difftime 单位意外，需要以编程方式查找/列出/测试文件。
+- **io-and-text.md** — 读取时间：read.table 默默地删除数据或bug解析列，正则表达式的行为与预期不同，sprintf 格式很棘手，write.table 输出具有不需要的行名称。
+- **dates-and-system.md** — 阅读时间：日期/POSIXct 转换给出bug的日期，时区导致相差一，difftime 单位意外，需要以编程方式查找/列出/测试文件。
 - **misc-utilities.md** — 阅读时间：do.call 的行为与直接调用不同，需要Reduce/Filter/Map，tryCatch 处理程序不触发，all.equal 返回不符合逻辑的字符串，时间序列函数需要设置。
 
 ## 编写优秀 R 代码的技巧
@@ -367,7 +347,7 @@ Sys.time()            # current time
 - 优先选择 `seq_along(x)` 而不是 `1:length(x)` — 当 `x` 为空时后者会中断
 - 在 `read.csv()` / `data.frame()` 中使用 `stringsAsFactors = FALSE` （默认值在 R 4.0 中更改）
 - 尽可能向量化操作而不是编写循环
-- 使用 `stop()`、`warning()`、`message()` 进行错误处理 — 而不是 `print()`
+- 使用 `stop()`、`warning()`、`message()` 进行bug 处理 — 而不是 `print()`
 - `<<-` 分配给父环境 - 谨慎且有意地使用
 - `with(df, expr)` 避免到处重复 `df$`
 - `Sys.setenv()` 和 `.Renviron` 用于环境变量
@@ -412,9 +392,9 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 ## 条件（tryCatch / withCallingHandlers）
 
-- `tryCatch` **展开**调用堆栈 - 处理程序在调用环境中运行，而不是在发生错误的位置中运行。无法恢复执行。
+- `tryCatch` **展开**调用堆栈 - 处理程序在调用环境中运行，而不是在发生bug的位置中运行。无法恢复执行。
 - `withCallingHandlers` 不会展开 - 处理程序在发出条件信号的地方运行。可以检查/记录然后让情况传播。
-- `tryCatch(expr, error = function(e) e)` 返回错误条件对象。
+- `tryCatch(expr, error = function(e) e)` 返回bug条件对象。
 - `tryCatch(expr, warning = function(w) {...})` 捕获**第一个**警告并退出。使用 `withCallingHandlers` + `invokeRestart("muffleWarning")` 抑制警告但继续。
 - `tryCatch` `finally` 子句始终运行（如 Java try/finally）。
 - `globalCallingHandlers()` 注册在会话中持续存在的处理程序（对于日志记录很有用）。
@@ -496,8 +476,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `arima` 处理时间序列中的 `NA` 值（通过卡尔曼滤波器）。
 - `stl` 需要 `s.window`（季节性窗口）— 必须指定，无默认值。 `s.window = "periodic"` 假设固定季节性。
 - `decompose`：比`stl`简单，使用移动平均线。 `type = "additive"` 或 `"multiplicative"`。
-- `stl` 结果分量：具有 `seasonal`、`trend`、`remainder` 列的 `$time.series` 矩阵。
-文件：参考文献/data-wrangling.md
+- `stl` 结果分量：具有 `seasonal`、`trend`、`remainder` 列的 `$time.series` 矩阵。文件：参考文献/data-wrangling.md
 # 数据整理 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -511,7 +490,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 - `m[j = 2, i = 1]` 是 `m[2, 1]` 而不是 `m[1, 2]` — `[` 中的参数名称被 **忽略**，仅进行位置匹配。切勿命名索引参数。
 - 因子索引：`x[f]` 使用因子 `f` 的整数代码，而不是其字符标签。使用 `x[as.character(f)]` 进行基于标签的索引。
-- 没有索引的 `x[[]]` 始终是错误。 `x$name`默认进行部分匹配； `x[["name"]]` 没有（默认情况下）。
+- 没有索引的 `x[[]]` 始终是bug。 `x$name`默认进行部分匹配； `x[["name"]]` 没有（默认情况下）。
 - 通过 `x[[i]] <- NULL` 或 `x$name <- NULL` 分配 `NULL` **删除**该列表元素。
 - 具有单列的数据框 `[`：`df[, 1]` 返回一个 **向量**（对于列，drop=TRUE 默认值），但 `df[1, ]` 返回一个 **数据框**（对于行，drop=FALSE）。明确使用 `drop = FALSE`。
 - 矩阵索引数据帧 (`df[cbind(i,j)]`) 首先强制转换为矩阵 — 避免。
@@ -522,7 +501,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 仅交互使用；编程不安全。
 
-- `subset` 参数使用**非标准评估** - 列名在数据框中解析，这可以在编程使用中默默地拾取错误的变量。在函数中使用具有显式逻辑的 `[`。
+- `subset` 参数使用**非标准评估** - 列名在数据框中解析，这可以在编程使用中默默地拾取bug的变量。在函数中使用具有显式逻辑的 `[`。
 - 逻辑条件中的 `NA` 被视为 `FALSE`（静默删除行）。
 - 子集化后因子可能保留未使用的级别；请致电 `droplevels()`。
 
@@ -653,8 +632,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - 返回索引的**排列向量**，而不是排序值。使用 `x[order(x)]` 进行排序。
 - 默认为升序；使用 `-x` 表示降序数字，或使用 `decreasing = TRUE`。
 - 对于字符排序，取决于区域设置。使用 `method = "radix"` 进行与区域设置无关的快速排序。
-- 对于大型整数/字符向量，`sort.int()` 与 `method = "radix"` 的速度要快得多。
-文件：引用/日期和系统.md
+- 对于大型整数/字符向量，`sort.int()` 与 `method = "radix"` 的速度要快得多。文件：引用/日期和系统.md
 # 日期和系统 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -717,8 +695,8 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `options(scipen = n)`：对固定符号的积极偏见，对科学的消极偏见。默认 0。适用于 `print`/`format`/`cat`，但不适用于 `sprintf`。
 - `options(digits = n)`：打印有效数字（1-22，默认7）。仅建议。
 - `options(digits.secs = n)`：时间格式中秒的最大小数位数（0-6，默认 0）。
-- `options(warn = n)`：-1 = 忽略警告，0 = 收集（默认），1 = 立即，2 = 转换为错误。
-- `options(error = recover)`：出现错误时进入调试器。 `options(error = NULL)` 重置为默认值。
+- `options(warn = n)`：-1 = 忽略警告，0 = 收集（默认），1 = 立即，2 = 转换为bug。
+- `options(error = recover)`：出现bug时进入debug器。 `options(error = NULL)` 重置为默认值。
 - `options(OutDec = ",")`：更改输出中的小数点分隔符（影响 `format`、`print`，而不是 `sprintf`）。
 - `options(stringsAsFactors = FALSE)`：`data.frame` 的全局默认值（从 R 4.0.0 开始就没有实际意义了，它已经是 FALSE）。
 - `options(expressions = 5000)`：最大嵌套评估。增加深度递归。
@@ -758,8 +736,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `file_test("-f", path)`：如果常规文件存在，则为 TRUE。
 - `file_test("-d", path)`：如果目录存在，则为 TRUE。
 - `file_test("-nt", f1, f2)`：如果 f1 比 f2 新，则为 TRUE。
-- 比 `file.exists()` 更可靠地区分文件和目录。
-文件：references/io-and-text.md
+- 比 `file.exists()` 更可靠地区分文件和目录。文件：references/io-and-text.md
 # I/O 和文本处理 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -774,7 +751,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `header` 自动检测：如果第一行比后续行少一个字段（假设缺少的字段是行名称），则设置为 TRUE。
 - `colClasses = "NULL"` **完全跳过**该列 - 对于速度非常有用。
 - `read.csv` 默认值与 `read.table` 不同：`header = TRUE`、`sep = ","`、`fill = TRUE`、`comment.char = ""`。
-- 对于大文件：指定 `colClasses` 和 `nrows` 会显着减少内存使用量。 `read.table` 对于宽数据帧（数百列）来说很慢；使用 `scan` 或 `data.table::fread` 作为矩阵。
+- 对于大文件：指定 `colClasses` 和 `nrows` 会显著减少内存使用量。 `read.table` 对于宽数据帧（数百列）来说很慢；使用 `scan` 或 `data.table::fread` 作为矩阵。
 - 自 R 4.0.0 起 `stringsAsFactors = FALSE` （之前为 TRUE）。
 
 ---
@@ -800,7 +777,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 ## 计数字段
 
-- 计算文件中每行的字段数 - 对于诊断读取错误很有用。
+- 计算文件中每行的字段数 - 对于诊断读取bug很有用。
 - `sep` 和 `quote` 参数与 `read.table` 的参数匹配。
 
 ---
@@ -808,7 +785,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 ## grep / grepl / sub / gsub （陷阱）
 
 - 三种正则表达式模式：POSIX 扩展（默认）、`perl = TRUE`、`fixed = TRUE`。它们对于边缘情况的行为有所不同。
-- **明确命名参数** — `x`/`pattern` 之后的未命名参数在位置上与 `ignore.case`、`perl` 等匹配。无声错误的常见来源。
+- **明确命名参数** — `x`/`pattern` 之后的未命名参数在位置上与 `ignore.case`、`perl` 等匹配。无声bug的常见来源。
 - `sub` 仅替换 **第一个** 匹配； `gsub` 替换**所有**匹配。
 - 反向引用：替换中的 `"\\1"`（R 字符串中的双反斜杠）。对于 `perl = TRUE`：`"\\U\\1"` 进行大写转换。
 - `grep(value = TRUE)` 返回匹配的**元素**； `grep(value = FALSE)`（默认）返​​回**索引**。
@@ -825,7 +802,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `split = ""` 或 `split = character(0)` 拆分为单个字符。
 - 在字符串开头匹配：结果的第一个元素是 `""`。结束时匹配：无尾随 `""`。
 - `fixed = TRUE` 更快并且避免了正则表达式解释。
-- 常见错误：未命名参数默默地匹配 `fixed`、`perl` 等。
+- 常见bug：未命名参数默默地匹配 `fixed`、`perl` 等。
 
 ---
 
@@ -873,7 +850,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `commandArgs(trailingOnly = TRUE)` 获取脚本参数（不包括 R/Rscript 标志）。
 - Unix 上的 `#!` 行：`/usr/bin/env Rscript` 或完整路径。
 - `--vanilla` 或 `--no-init-file` 跳过 `.Rprofile` 加载。
-- 退出代码：`quit(status = 1)` 表示错误退出。
+- 退出代码：`quit(status = 1)` 表示bug退出。
 
 ---
 
@@ -895,8 +872,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 ## 全局2rx
 
 - 将 shell glob 模式转换为正则表达式：`glob2rx("*.csv")` → `"^.*\\.csv$"`。
-- 适用于 `list.files(pattern = glob2rx("data_*.RDS"))`。
-文件：参考文献/建模.md
+- 适用于 `list.files(pattern = glob2rx("data_*.RDS"))`。文件：参考文献/建模.md
 # 建模 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -943,7 +919,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 - `aov` 是 `lm` 的包装，用于存储平衡方差分析的额外信息。对于不平衡设计，计算 I 型 SS（顺序）——项的顺序很重要。
 - 对于 Type III SS，使用 `car::Anova()` 或设置与 `contr.sum`/`contr.helmert` 的对比度。
-- 重复测量的错误层：`aov(y ~ A*B + Error(Subject/B))`。
+- 重复测量的bug层：`aov(y ~ A*B + Error(Subject/B))`。
 - `summary.aov` 给出方差分析表； `summary.lm(aov_obj)` 给出回归式摘要。
 
 ---
@@ -973,7 +949,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `predict.lm` 与 `interval = "confidence"` 给出 **平均** 响应的 CI； `interval = "prediction"` 给出 **新观察**（更广泛）的 PI​​。
 - `newdata` 必须具有与原始公式变量匹配的列 - 因子必须具有相同的水平。
 - `predict.glm` 和 `type = "response"` 给出响应尺度的预测（例如逻辑概率）； `type = "link"`（默认）给出了链接比例。
-- `se.fit = TRUE` 返回标准错误；对于 `predict.glm`，无论 `type` 为何，这些都处于**链接**范围内。
+- `se.fit = TRUE` 返回标准bug；对于 `predict.glm`，无论 `type` 为何，这些都处于**链接**范围内。
 - `predict.lm` 与 `type = "terms"` 返回每项的贡献。
 
 ---
@@ -1039,8 +1015,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 - `anova(model)`：顺序（I 型）SS — **术语顺序很重要**。
 - `anova(model1, model2)`：比较嵌套模型的 F 测试。
-- 对于 II 型或 III 型 SS，请使用 `car::Anova()`。
-文件：参考文献/statistics.md
+- 对于 II 型或 III 型 SS，请使用 `car::Anova()`。文件：参考文献/statistics.md
 # 统计数据 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -1069,7 +1044,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 ## 渔夫.测试
 
 - 对于大于 2x2 的表，使用模拟 (`simulate.p.value = TRUE`) 或网络算法。
-- `workspace` 控制网络算法的内存；如果在大表上出现错误，请增加。
+- `workspace` 控制网络算法的内存；如果在大表上出现bug，请增加。
 - `or` 参数测试特定的优势比（默认 1）——仅适用于 2x2 表格。
 
 ---
@@ -1166,7 +1141,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - **`r*()` 函数中的 `n` 参数**：如果 `length(n) > 1`，则使用 `length(n)` 作为计数，而不是 `n` 本身。所以 `rnorm(c(1,2,3))` 生成 3 个值，而不是 1+2+3。
 - `log = TRUE` / `log.p = TRUE`：在对数尺度上计算尾部的数值稳定性。
 - `lower.tail = FALSE` 直接给出生存函数 P(X > x)（比尾部的 1 - pnorm() 更准确）。
-- **Gamma**：由 `shape` 和 `rate` 参数化（= 1/刻度）。默认`rate = 1`。同时指定 `rate` 和 `scale` 是错误的。
+- **Gamma**：由 `shape` 和 `rate` 参数化（= 1/刻度）。默认`rate = 1`。同时指定 `rate` 和 `scale` 是bug的。
 - **Beta**：`shape1` (alpha)、`shape2` (beta) — 无 `mean`/`sd` 参数化。
 - **泊松 `dpois`**：`x` 可以是非整数（如果 `log = FALSE`，则返回 0，并警告非整数值）。
 - **威布尔**：`shape` 和 `scale`（无 `rate`）。 R的参数化：`f(x) = (shape/scale)(x/scale)^(shape-1) exp(-(x/scale)^shape)`。
@@ -1193,8 +1168,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 ## 加权平均值
 
 - 处理 `NA` 的权重：如果权重为 `NA`，则观察会被丢弃。
-- 权重之和不需要为 1；它们在内部被标准化。
-文件：参考文献/可视化.md
+- 权重之和不需要为 1；它们在内部被标准化。文件：参考文献/可视化.md
 # 可视化 — 快速参考
 
 > R 函数的不明显行为、陷阱和棘手的默认值。
@@ -1222,7 +1196,7 @@ R 的函数式编程助手来自于基础——真正不明显。
 - `layout(mat)`，其中 `mat` 是指定图形排列的整数矩阵。
 - `widths`/`heights` 接受 `lcm()` 的绝对尺寸与相对尺寸的混合。
 - More flexible than `mfrow`/`mfcol` but cannot be queried once set (unlike `par("mfrow")`).
-- `layout.show(n)` 可视化布局以进行调试。
+- `layout.show(n)` 可视化布局以进行debug。
 
 ---
 
@@ -1340,18 +1314,16 @@ R 的函数式编程助手来自于基础——真正不明显。
 
 - `palette()` 返回当前调色板（默认 8 种颜色）。 `palette("Set1")` 设置内置调色板。
 - 图中的整数颜色索引到调色板中（带换行）。索引 0 = 背景颜色。
-- `recordPlot()` / `replayPlot()`：保存和恢复完整的绘图 - 依赖于设备并且跨会话脆弱。
-文件：资产/analysis_template.R
+- `recordPlot()` / `replayPlot()`：保存和恢复完整的绘图 - 依赖于设备并且跨会话脆弱。文件：资产/analysis_template.R
 #================================================================
 # 分析模板 — Base R
-# 复制此文件，重命名，然后填写您的详细信息。
+# 复制此文件，重命名，然后填写你的详细信息。
 #================================================================
-# 作者： 
-# 日期： 
-# 数据： 
-# 目的： 
+# 作者：
+# 日期：
+# 数据：
+# 目的：
 #================================================================
-
 
 # ── 0. 设置 ──────────────────────────────────────────────────
 # 清除环境（可选 - 如果加载到现有会话中则注释掉）
@@ -1363,14 +1335,14 @@ rm(列表=ls())
 # 再现性
 设置.种子(42)
 
-# 库 — 取消注释您需要的内容
+# 库 — 取消注释你需要的内容
 # 库(haven) # 读取.dta / .sav / .sas
 #library(readxl)#读取Excel文件
 #library(openxlsx)#写入Excel文件
 # 库(国外) # 较旧的 Stata / SPSS 格式
 # 库(调查) # 调查加权分析
 # 库(lmtest) # Breusch-Pagan、Durbin-Watson 等。
-# 库（三明治）# 强大的标准错误
+# 库（三明治）# 强大的标准bug
 # 图书馆(汽车) # II/III 型方差分析、VIF
 
 # ── 1. 加载数据 ──────────────────────────────────────────────
@@ -1383,7 +1355,6 @@ df <- read.csv("your_data.csv", stringsAsFactors = FALSE)
 str(df)
 头(df, 10)
 摘要(df)
-
 
 # ── 2. 数据质量检查 ────────────────────────────────────
 # 缺失值
@@ -1405,7 +1376,6 @@ for (cat_cols 中的 col) {
   cat(sprintf("\n%s (%d 唯一):\n", col, length(unique(df[[col]]))))
   打印（表（df[[col]]，useNA =“ifany”））
 }
-
 
 # ── 3. 清洁与改造 ──────────────────────────────────────
 # 重命名列（示例）
@@ -1431,7 +1401,6 @@ for (cat_cols 中的 col) {
 # 删除未使用的因子级别
 # df <- 下降级别(df)
 
-
 # ── 4. 描述性统计 ──────────────────────────────
 # 数值摘要
 num_cols <- 名称(df)[sapply(df, is.numeric)]
@@ -1447,7 +1416,6 @@ num_cols <- 名称(df)[sapply(df, is.numeric)]
 # 交叉列表
 # 表(df$group, df$category, useNA = "ifany")
 # prop.table(table(df$group, df$category), margin = 1) # 行比例
-
 
 # ── 5.可视化（EDA）────────────────────────────────────
 par(mfrow = c(2, 2))
@@ -1486,7 +1454,6 @@ cor_mat <- cor(df[num_cols], use = "complete.obs")
 
 par(mfrow = c(1, 1))
 
-
 # ── 6.分析────────────────────────────────────────────────
 
 #··6a。均值比较··
@@ -1501,7 +1468,7 @@ t.test(outcome_var ~ group_var, 数据 = df)
 # 检查 VIF 的多重共线性（需要汽车）
 # 汽车::vif(适合)
 
-# 稳健的标准错误（需要 lmtest + 三明治）
+# 稳健的标准bug（需要 lmtest + 三明治）
 # lmtest::coeftest(fit, vcov =三明治::vcovHC(fit, type = "HC3"))
 
 #··6c。方差分析··
@@ -1517,7 +1484,6 @@ t.test(outcome_var ~ group_var, 数据 = df)
 # exp(coef(fit_logit)) # 优势比
 # exp(confint(fit_logit)) # 或置信区间
 
-
 # ── 7. 模型诊断 ──────────────────────────────────────
 par(mfrow = c(2, 2))
 情节（适合）
@@ -1528,7 +1494,6 @@ par(mfrow = c(1, 1))
 
 # 同方差（需要 lmtest）
 # lmtest::bptest(适合)
-
 
 # ── 8. 保存输出────────────────────────────────────────────
 # 清理后的数据
@@ -1559,39 +1524,39 @@ par(mfrow = c(1, 1))
 # 或者：source("check_data.R"); check_data(read.csv("yourfile.csv"))
 
 check_data <- 函数(df, top_n_levels = 8) {
-  
+
   if (!is.data.frame(df)) stop("输入必须是数据框。")
-  
+
   n_row <- nrow(df)
   n_col <- ncol(df)
-  
+
   猫(“════════════════════ ══════════════════════\n")
   cat(" 数据质量报告\n")
   猫(“════════════════════ ══════════════════════\n")
   cat(sprintf("行：%d 列：%d\n"，n_row，n_col))
   猫（“═════════════════════ ═════════════════════\n\n")
-  
+
   # ── 1. 栏目概述 ──────────────────────
   cat("── 列概述 ────────────────────────\n")
-  
+
   for (名称中的列(df)) {
     x <- df[[列]]
     cls <- 类(x)[1]
     n_na <- sum(is.na(x))
     pct <- 轮(n_na / n_row * 100, 1)
     n_uniq <- 长度(unique(x[!is.na(x)]))
-    
+
     na_flag <- if (n_na == 0) "" else sprintf(" *** %d NA (%.1f%%)", n_na, pct)
     cat(sprintf(" %-20s %-12s %d 唯一%s\n",
                 col、cls、n_uniq、na_flag））
   }
-  
+
   # ── 2. NA 总结 ────────────────────────────
   cat("\n── 不适用摘要──────────────────────────────\n")
-  
+
   na_counts <- sapply(df, function(x) sum(is.na(x)))
   cols_with_na <- na_counts[na_counts > 0]
-  
+
   如果（长度（cols_with_na）== 0）{
     cat("没有缺失值。\n")
   } 否则{
@@ -1604,17 +1569,17 @@ check_data <- 函数(df, top_n_levels = 8) {
                   col, bar, cols_with_na[col], pct_na))
     }
   }
-  
+
   # ── 3. 数字列 ────────────────────────
   num_cols <- 名称(df)[sapply(df, is.numeric)]
-  
+
   if (长度(num_cols) > 0) {
     cat("\n── 数字列 ────────────────────────\n")
     猫（sprintf（“％-20s％8s％8s％8s％8s％8s\n”，
                 “列”、“最小值”、“平均值”、“中值”、“最大值”、“SD”））
     猫（sprintf（“％-20s％8s％8s％8s％8s％8s\n”，
                 “──────”、“────”、“────”、“──────”、“────”、“──”））
-    
+
     for (col in num_cols) {
       x <- df[[col]][!is.na(df[[col]])]
       如果（长度（x）== 0）下一个
@@ -1623,19 +1588,19 @@ check_data <- 函数(df, top_n_levels = 8) {
                   最小值(x)、平均值(x)、中位数(x)、最大值(x)、sd(x)))
     }
   }
-  
+
   # ── 4.因子/字符列────────────
   cat_cols <- 名称(df)[sapply(df, 函数(x) is.factor(x) | is.character(x))]
-  
+
   如果（长度（cat_cols）> 0）{
     cat("\n── 分类列 ────────────────────\n")
-    
+
     for (cat_cols 中的 col) {
       x <- df[[列]]
       tbl <- 排序（表（x，useNA =“否”），递减= TRUE）
       n_lv <- 长度(tbl)
       cat(sprintf("\n %s (%d 个唯一值)\n", col, n_lv))
-      
+
       显示 <- min(top_n_levels, n_lv)
       for (i in seq_len(show)) {
         lbl <- 名称(tbl)[i]
@@ -1648,7 +1613,7 @@ check_data <- 函数(df, top_n_levels = 8) {
       }
     }
   }
-  
+
   # ── 5.重复行────────────────────────
   cat("\n── 重复 ──────────────────────────────\n")
   n_dup <- sum(重复(df))
@@ -1658,7 +1623,7 @@ check_data <- 函数(df, top_n_levels = 8) {
     cat(sprintf(" 找到 %d 个重复行（数据的 %.1f%%)\n",
                 n_dup, n_dup / n_行 * 100))
   }
-  
+
   猫（“\n═══════════════════ ═══════════════════════\n")
   cat(" 报告结束\n")
   猫(“════════════════════ ══════════════════════\n")
@@ -1682,16 +1647,16 @@ check_data <- 函数(df, top_n_levels = 8) {
 # 源（“scaffold_analysis.R”）
 #scaffold_analysis(“myproject”，结果=“分数”，组=“治疗”)
 #
-# 输出：myproject_analysis.R（准备编辑）
+# 输出要求：myproject_analysis.R（准备编辑）
 
 脚手架_分析 <- 函数（项目名称，
                                结果=“结果”，
                                组=“组”，
                                数据文件 = NULL) {
-  
+
   if (is.null(data_file)) data_file <- Paste0(project_name, ".csv")
   out_file <- Paste0（项目名称，“_analysis.R”）
-  
+
   模板 <- sprintf(
 '#================================================================
 # 项目：%s
@@ -1704,7 +1669,6 @@ check_data <- 函数(df, top_n_levels = 8) {
 # .dta 文件的库(haven)
 # 库(openxlsx) # 用于 Excel 输出
 
-
 # ── 1. 加载数据 ──────────────────────────────────────────────
 df <- read.csv("%s", stringsAsFactors = FALSE)
 
@@ -1712,7 +1676,6 @@ df <- read.csv("%s", stringsAsFactors = FALSE)
 cat("尺寸：", dim(df), "\\n")
 str(df)
 头(df)
-
 
 # ── 2.探索/EDA ──────────────────────────────────────────
 摘要(df)
@@ -1732,11 +1695,9 @@ if ("%s" %%in%% 名称(df)) {
           拉斯 = 2)
 }
 
-
 # ── 3. 清洁/改造 ──────────────────────────────────────
 # df <- df[complete.cases(df), ] # 删除任何 NA 的行
 # df$%s <- as.factor(df$%s) # 转换为因子
-
 
 # ── 4.分析────────────────────────────────────────────────
 
@@ -1757,7 +1718,6 @@ Tapply(df$%s, df$%s, sd, na.rm = TRUE)
 # 摘要(fit_aov)
 # TukeyHSD(fit_aov)
 
-
 # ── 5. 可视化结果 ──────────────────────────────────────
 par(mfrow = c(1, 2))
 
@@ -1773,7 +1733,6 @@ par(mfrow = c(1, 2))
 plot(fit,which = 1)#残差与拟合
 
 par(mfrow = c(1, 1))
-
 
 # ── 6. 保存输出────────────────────────────────────────────
 # 保存清理后的数据
@@ -1812,31 +1771,30 @@ par(mfrow = c(1, 1))
     项目名称，项目名称，项目名称，
     结果，组
   ）
-  
+
   writeLines（模板，out_file）
   cat(sprintf("已创建：%s\n", out_file))
   不可见（out_file）
 }
 
-
 # ── 从命令行运行──────────────────────────────────────
 如果（！互动（））{
   args <- commandArgs(trailingOnly = TRUE)
-  
+
   如果（长度（参数）== 0）{
     cat("用法：Rscriptscaffold_analysis.R <project_name> [outcome_var] [group_var]\n")
     cat("示例：Rscriptscaffold_analysis.Rmyproject评分处理\n")
     退出（状态 = 1）
   }
-  
+
   项目 <- 参数[1]
   结果 <- if (length(args) >= 2) args[2] else "结果"
   组 <- if (length(args) >= 3) args[3] else "组"
-  
+
   脚手架_分析（项目，结果=结果，组=组）
 }
-文件：自述文件.md
-# 基础 R 技能 
+文件：README.md
+# 基础 R 技能
 
 GitHub: https://github.com/iremaydas/base-r-skill
 
@@ -1846,11 +1804,7 @@ GitHub: https://github.com/iremaydas/base-r-skill
 
 ## 故事
 
-我是一名政治学博士候选人，经常使用 R，但绝不会称自己为“R 人”。我需要一种用于基础 R 的 Claude Code 技能——没有 tidyverse，没有 ggplot2，只是普通的 R——但我在任何地方都找不到。
-
-所以我自己做了一个。晚上11点。请克劳德帮助我为克劳德培养一项技能。 
-
-如果您也是每次都用 Google 搜索 `how to drop NA rows in R` 的人，那么这个就适合您。 🫶
+我是一名政治学博士候选人，经常使用 R，但绝不会称自己为“R 人”。我需要一种用于基础 R 的 Claude Code 技能——没有 tidyverse，没有 ggplot2，只是普通的 R——但我在任何地方都找不到。所以我自己做了一个。晚上11点。请克劳德帮助我为克劳德培养一项技能。如果你也是每次都用 Google 搜索 `how to drop NA rows in R` 的人，那么这个就适合你。 🫶
 
 ---
 
@@ -1880,9 +1834,7 @@ base-r/
 
 ## 如何使用
 
-通过指向此存储库，将此技能添加到您的 Claude Code 设置中。然后，当您处理 R 任务时，Claude 会自动加载相关参考文件。
-
-最适合：
+通过指向此存储库，将此技能添加到你的 Claude Code 设置中。然后，当你处理 R 任务时，Claude 会自动加载相关参考文件。最适合：
 - 基础 R 数据操作（无 tidyverse）
 - 使用 `lm`、`glm`、`aov` 进行统计建模
 - 基础显卡为 `plot`、`par`、`barplot`
@@ -1913,7 +1865,7 @@ check_data(your_df)
 
 ## 贡献
 
-如果您发现遗漏的陷阱、错误的默认值或应该在参考文献中出现的内容，那么 PR 非常受欢迎。我也在学习。
+如果你发现遗漏的陷阱、bug的默认值或应该在参考文献中出现的内容，那么 PR 非常受欢迎。我也在学习。
 
 ---
 
@@ -3816,14 +3768,8 @@ If you spot a missing gotcha, a wrong default, or something that should be in th
 *Made by [@iremaydas](https://github.com/iremaydas) — PhD candidate, occasional R user, full-time Googler of things I should probably know by now.*
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [base-r](https://prompts.chat/prompts/base-r) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `SKILL` |
-| Tags | claude-code, coding, skills, Data Analysis |
-| Contributors | iremaydas |
-| Updated At | 2026-03-27T12:12:03.062Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

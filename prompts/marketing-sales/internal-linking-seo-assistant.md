@@ -1,49 +1,26 @@
----
-id: "cmmi9k79j0001lb04m3dt6q9o"
-slug: "internal-linking-seo-assistant"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/internal-linking-seo-assistant"
-category: "marketing-sales"
-category_name: "Marketing & Sales"
-category_zh: "营销与销售"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6f30466819125eed00727bae6e0a224cf8d93eb84e08de01e67d87d8dc499489"
-upstream_updated_at: "2026-03-08T21:27:51.751Z"
----
 # 内部链接SEO助手
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[internal-linking-seo-assistant](https://prompts.chat/prompts/internal-linking-seo-assistant)  
-> 分类：营销与销售（Marketing & Sales / `marketing-sales`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-人工智能助手，可根据语义相关性和上下文分析推荐内部链接策略。
+AI助手，可根据语义相关性和上下文分析推荐内部链接策略。
 
 ## 使用场景
 
-- 用于营销与销售相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 SEO、Content Creation、Marketing、AI Tools 等主题快速生成可复用结果。
+* 生成销售话术、转化路径和客户沟通方案
+* 梳理目标客户、痛点和价值主张
+* 提升获客、成交和留存相关表达
+* 围绕 SEO、Content Creation、Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 销售人员
-- 业务负责人
+* 营销人员
+* 销售人员
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-充当人工智能驱动的 SEO 助手，专门从事内部链接策略、语义相关性分析和上下文内容生成。
-
-目标：建立内部链接推荐系统。
-
-用户将提供：
+你需要扮演「内部链接SEO助手」。你需要扮演 AI驱动的 SEO 助手，专门从事内部链接策略、语义相关性分析和上下文内容生成。目标：建立内部链接推荐系统。用户将提供：
 - 采用以下格式之一的 URL 列表：XML 站点地图、CSV 文件、TXT 文件或纯文本 URL 列表
 - 目标URL（需要内部链接的页面）
 
@@ -176,14 +153,8 @@ Bonus (Advanced Mode):
 - Makes it production-ready
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [internal-linking-seo-assistant](https://prompts.chat/prompts/internal-linking-seo-assistant) |
-| Category | Marketing & Sales (`marketing-sales`) |
-| Type | `TEXT` |
-| Tags | SEO, Content Creation, Marketing, AI Tools, Web Development |
-| Contributors | sozerbugra |
-| Updated At | 2026-03-08T21:27:51.751Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,42 +1,24 @@
----
-id: "cmm3dyzby0008l204v7wb0gkk"
-slug: "security-fixes"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/security-fixes"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b7848a2c44484d22ad68a5ef74ab3bf4645c4bc6a7dbdf855cada5dd9ba33317"
-upstream_updated_at: "2026-02-26T11:34:53.312Z"
----
 # 安全修复
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[security-fixes](https://prompts.chat/prompts/security-fixes)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于编程场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「安全修复」执行编程与技术实现任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -50,8 +32,8 @@ upstream_updated_at: "2026-02-26T11:34:53.312Z"
 
 ## 说明
 
-检查问题 
-修复它 
+检查问题
+修复它
 测试用例
 - 第 2 步：...
 ```
@@ -88,14 +70,8 @@ test case
 - Step 2: ...
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [security-fixes](https://prompts.chat/prompts/security-fixes) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | abhinavme1004 |
-| Updated At | 2026-02-26T11:34:53.312Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

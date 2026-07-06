@@ -1,24 +1,4 @@
----
-id: "cmlpgu1c80001l504gb6j4f5p"
-slug: "ats-resume-scanner-simulator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/ats-resume-scanner-simulator"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "be080c240f928279497ab644b30ddaa06a9eedd35adb54fb5cdf970499a03077"
-upstream_updated_at: "2026-03-16T20:22:20.416Z"
----
 # ATS 简历扫描仪模拟器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[ats-resume-scanner-simulator](https://prompts.chat/prompts/ats-resume-scanner-simulator)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-03-16T20:22:20.416Z"
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Resume、Career、Proofreading 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Resume、Career、Proofreading 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ## ATS 简历扫描仪模拟器（Hardened v2.0 - “合理逻辑”版）
@@ -45,7 +26,7 @@ upstream_updated_at: "2026-03-16T20:22:20.416Z"
 
 ## 变更日志
 - v2.0：添加了思维链推理块。添加了负面约束（零同义词规则）。添加了多角色审核（机器人与招聘人员）。
-- v1.9：添加了精确匹配标题规则。添加了同义词陷阱检查。 
+- v1.9：添加了精确匹配标题规则。添加了同义词陷阱检查。
 - v1.8：添加了AI隐形检查。添加了 PDF 字体完整性。
 
 ## 目标
@@ -59,7 +40,7 @@ upstream_updated_at: "2026-03-16T20:22:20.416Z"
 *在编写输出之前*，请通过以下几点进行推理：
 1. **摘录：** 京东三大“必备品”是什么？
 2. **比较：** 简历中是否有那些*准确*的短语？ （应用负约束：同义词 = 0 分）。
-3. **格式：** 是否有一个表格或标题可能会“扰乱”2010 时代解析器的文本？
+3. **格式要求：** 是否有一个表格或标题可能会“扰乱”2010 时代解析器的文本？
 
 ### 第 2 步：战略提取
 - 确定 15–25 个高重要性关键词。
@@ -87,7 +68,7 @@ upstream_updated_at: "2026-03-16T20:22:20.416Z"
 ## 强制输出格式
 
 ### 1. 推理逻辑
-* 简要解释一下您为何根据“机器人与招聘人员”审核给出以下分数。*
+* 简要解释一下你为何根据“机器人与招聘人员”审核给出以下分数。*
 
 ### 2. 核心指标
 * **ATS 匹配分数：** XX%
@@ -100,8 +81,8 @@ upstream_updated_at: "2026-03-16T20:22:20.416Z"
 * **缺少必备条件：**（学位、年数、证书）
 
 ### 4. 技术审核
-* **可解析性危险信号：**（列出格式错误）
-* **找到的人工智能“拐杖”单词：**（列出找到的任何“机器人语言”）
+* **可解析性危险信号：**（列出格式bug）
+* **找到的AI“拐杖”单词：**（列出找到的任何“机器人语言”）
 
 ### 5. 优化计划
 *（4–6 个直接的、非无用的步骤可达到 85%+）
@@ -202,14 +183,8 @@ Simulate a high-accuracy legacy ATS. **Constraint:** Do NOT be "nice." If it isn
 - **RESUME:** [Paste text/File]
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [ats-resume-scanner-simulator](https://prompts.chat/prompts/ats-resume-scanner-simulator) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Resume, Career, Proofreading |
-| Contributors | thanos0000 |
-| Updated At | 2026-03-16T20:22:20.416Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

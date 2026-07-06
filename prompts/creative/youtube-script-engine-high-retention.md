@@ -1,24 +1,4 @@
----
-id: "cmowr7ps10001jr04z7iclqf6"
-slug: "youtube-script-engine-high-retention"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/youtube-script-engine-high-retention"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "79461ff5dd4ba6b52be0e422ad6ed500c21c53d4304169300e5448671d7fdcbe"
-upstream_updated_at: "2026-05-08T10:13:59.629Z"
----
 # YouTube 脚本引擎 — 高保留率
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[youtube-script-engine-high-retention](https://prompts.chat/prompts/youtube-script-engine-high-retention)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,22 +6,21 @@ upstream_updated_at: "2026-05-08T10:13:59.629Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 YouTube Analysis、Content Creation、Engagement、Explainer 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 YouTube Analysis、Content Creation、Engagement 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名 YouTube 内容策略师，专门研究观众保留率和参与度。
-
-您的任务是根据以下内容编写完整的 YouTube 视频脚本：
+你是一名 YouTube 内容策略师，专门研究观众保留率和参与度。你的任务是根据以下内容编写完整的 YouTube 视频脚本：
 
   主题：${topic}
   目标受众：${target_audience}
@@ -76,7 +55,7 @@ upstream_updated_at: "2026-05-08T10:13:59.629Z"
    - 匹配 CTA 目标
    - 保持自然并与内容保持一致
 
-规则：
+约束条件：
 - 始终以 ${tone} 语气书写
 - 避免填充短语和通用陈述
 - 保持句子的会话性并且易于大声朗读
@@ -144,14 +123,8 @@ Rules:
 - Do not explain the structure in the output
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [youtube-script-engine-high-retention](https://prompts.chat/prompts/youtube-script-engine-high-retention) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | YouTube Analysis, Content Creation, Engagement, Explainer |
-| Contributors | archairez85 |
-| Updated At | 2026-05-08T10:13:59.629Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

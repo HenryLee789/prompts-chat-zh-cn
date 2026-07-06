@@ -1,24 +1,4 @@
----
-id: "cmohtbatn0001l504y0vknri9"
-slug: "oracle-payroll-unsupported-localization-guide"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/oracle-payroll-unsupported-localization-guide"
-category: "business-strategy"
-category_name: "Business Strategy"
-category_zh: "商业战略"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a2d8cfba53501c5f6464416f4ff5929a0a2d74ae403d9801d4b948ff4d81fef7"
-upstream_updated_at: "2026-04-27T23:12:27.521Z"
----
 # Oracle Payroll 不支持的本地化指南
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[oracle-payroll-unsupported-localization-guide](https://prompts.chat/prompts/oracle-payroll-unsupported-localization-guide)  
-> 分类：商业战略（Business Strategy / `business-strategy`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-04-27T23:12:27.521Z"
 
 ## 使用场景
 
-- 用于商业战略相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Business、Best Practices、compliance 等主题快速生成可复用结果。
+* 拆解战略目标、竞争环境和关键假设
+* 制定增长、定位或组织策略
+* 输出结构化战略分析和行动建议
+* 围绕 Business、Best Practices、compliance 等主题生成结构化结果
 
 ## 适用人群
 
-- 业务负责人
-- 战略分析师
-- 创业者
+* 业务负责人
+* 战略分析师
+* 创业者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 提供全面的分步指南，用于在平台不支持某个国家/地区本地化的情况下实施 Oracle Fusion Cloud Global Payroll。指南应涵盖以下几个方面：
@@ -47,9 +28,7 @@ upstream_updated_at: "2026-04-27T23:12:27.521Z"
 - 处理不受支持的国家/地区特定的法律和监管要求的方法。
 - 将 Oracle Fusion Cloud Payroll 与第三方系统或本地解决方案相结合的集成注意事项。
 - 测试和验证方法以确保合规性和准确性。
-- 整个实施过程中的风险管理和文件记录实践。
-
-包括详细的解释和建议，强调实际步骤和潜在的挑战。
+- 整个实施过程中的风险管理和文件记录实践。包括详细的解释和建议，强调实际步骤和潜在的挑战。
 
 # 步骤
 
@@ -116,14 +95,8 @@ Deliver the guide in a structured format using numbered or bulleted lists, with 
 Focus on practical guidance with an emphasis on compliance, customization, and integration challenges unique to unsupported country localizations.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [oracle-payroll-unsupported-localization-guide](https://prompts.chat/prompts/oracle-payroll-unsupported-localization-guide) |
-| Category | Business Strategy (`business-strategy`) |
-| Type | `TEXT` |
-| Tags | Business, Best Practices, compliance |
-| Contributors | ah0sman |
-| Updated At | 2026-04-27T23:12:27.521Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmjmk4gsv000jld04pplcmo1e"
-slug: "accessibility-testing-superpower"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/accessibility-testing-superpower"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6f0ca23df5185bef09fbe90d2ab955a6dd9feae1e38a524159d5ff8b1743af8a"
-upstream_updated_at: "2026-01-15T13:58:26.836Z"
----
 # 无障碍测试超能力
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[accessibility-testing-superpower](https://prompts.chat/prompts/accessibility-testing-superpower)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-15T13:58:26.836Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
-- 适合围绕 Skill、AI Tools、JavaScript、Go 等主题快速生成可复用结果。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 围绕 Skill、AI Tools、JavaScript 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 ---
 名称：可访问性测试超级大国
 描述：|
-  对 Web 应用程序执行 WCAG 合规性审核和可访问性修复。
-  在以下情况下使用： 1) 审核 UI 是否符合 WCAG 2.1/2.2 2) 修复屏幕阅读器或键盘导航问题 3) 正确实施 ARIA 模式 4) 检查颜色对比度和视觉可访问性 5) 创建可访问的表单或交互式组件
+  对 Web 应用程序执行 WCAG 合规性审核和可访问性修复。在以下情况下使用： 1) 审核 UI 是否符合 WCAG 2.1/2.2 2) 修复屏幕阅读器或键盘导航问题 3) 正确实施 ARIA 模式 4) 检查颜色对比度和视觉可访问性 5) 创建可访问的表单或交互式组件
 ---
 
 # 辅助功能测试工作流程
@@ -89,7 +69,7 @@ Accessibility request received
 |----------|--------|----------|--------------|
 |关键|完全阻止访问 |没有键盘焦点、空按钮、功能图像上缺少 alt |立即 |
 |认真的|主要障碍|对比度差、缺少表单标签、没有跳过链接 |冲刺内 |
-|中等|困难但可用|导航不一致，错误消息不明确 |下一个版本 |
+|中等|困难但可用|导航不一致，bug消息不明确 |下一个版本 |
 |次要|不便 |多余的替代文本、较小的标题顺序问题 |积压|
 
 ### 常见违规行为和修复
@@ -243,7 +223,7 @@ Need to convey information to assistive technology?
 |图片|替代文本或“装饰”（跳过）|
 |标题 |级别 + 文本（“标题级别 2，关于我们”）|
 |表单字段 |标签+类型+状态+说明|
-|错误|错误信息+字段关联 |
+|bug|bug信息+字段关联 |
 
 ### 测试命令（快速参考）
 
@@ -328,6 +308,9 @@ Visual Testing:
 [ ] No information conveyed by color alone
 [ ] Respects prefers-reduced-motion
 ```
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ````
 
 ---
@@ -636,14 +619,8 @@ Visual Testing:
 ```
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [accessibility-testing-superpower](https://prompts.chat/prompts/accessibility-testing-superpower) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | Skill, AI Tools, JavaScript, Go, Backend |
-| Contributors | izzetemre |
-| Updated At | 2026-01-15T13:58:26.836Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

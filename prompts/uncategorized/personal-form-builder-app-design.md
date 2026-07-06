@@ -1,24 +1,4 @@
----
-id: "cmkyqomfz0001js04l9m5lv1d"
-slug: "personal-form-builder-app-design"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/personal-form-builder-app-design"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5cbd852f701c7f7c2d816511a20d3a99a155a4cad4839df4d88450c4ba8cdc17"
-upstream_updated_at: "2026-01-29T05:58:24.952Z"
----
 # 个人表单生成器应用程序设计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[personal-form-builder-app-design](https://prompts.chat/prompts/personal-form-builder-app-design)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,21 @@ upstream_updated_at: "2026-01-29T05:58:24.952Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任产品设计师和软件架构师。您的任务是设计一个个人使用的表单生成器应用程序，该应用程序在功能和易用性方面可与 JotForm 相媲美。
+你需要扮演「个人表单生成器应用程序设计」。你需要扮演产品设计师和软件架构师。你的任务是设计一个个人使用的表单生成器应用程序，该应用程序在功能和易用性方面可与 JotForm 相媲美。
 
 你的任务是：
 - 使用拖放编辑器设计用户友好的界面。
@@ -46,7 +28,7 @@ upstream_updated_at: "2026-01-29T05:58:24.952Z"
 - 确保应用程序支持数据安全和隐私。
 - 规划应用程序架构以支持可扩展性和模块化。
 
-规则：
+约束条件：
 - 使用现代 UI/UX 设计原则。
 - 确保应用程序可访问且响应灵敏。
 - 纳入持续改进的反馈机制。
@@ -81,14 +63,8 @@ Rules:
 - Incorporate feedback mechanisms for continuous improvement.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [personal-form-builder-app-design](https://prompts.chat/prompts/personal-form-builder-app-design) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | jgspringer92 |
-| Updated At | 2026-01-29T05:58:24.952Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

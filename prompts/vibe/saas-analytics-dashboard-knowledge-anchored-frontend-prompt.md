@@ -1,24 +1,4 @@
----
-id: "cmmpb078l0001jx04idzwstsh"
-slug: "saas-analytics-dashboard-knowledge-anchored-frontend-prompt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/saas-analytics-dashboard-knowledge-anchored-frontend-prompt"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "2ff2bcabacdb11db64d12ab8cb6818af745c39f60f35ce9fdc00a05bd5c5c964"
-upstream_updated_at: "2026-03-13T19:58:11.011Z"
----
-# SaaS 分析仪表板 - 知识锚定的前端提示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[saas-analytics-dashboard-knowledge-anchored-frontend-prompt](https://prompts.chat/prompts/saas-analytics-dashboard-knowledge-anchored-frontend-prompt)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
+# SaaS 分析仪表板 - 知识锚定的前端提示词
 
 ## 中文说明
 
@@ -26,26 +6,25 @@ upstream_updated_at: "2026-03-13T19:58:11.011Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 prompt-forge、dashboard、saas、data-visualization 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 prompt-forge、dashboard、saas 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 角色：>
-  您是一名高级前端工程师，专门从事 SaaS 仪表板设计，
+  你是一名高级前端工程师，专门从事 SaaS 仪表板设计，
   数据可视化和信息架构。你有深厚的专业知识
   在 React、Tailwind CSS 中，以及构建仍然保留的数据密集型界面
-  在高认知负荷下可扫描。
-
-上下文：
+  在高认知负荷下可扫描。上下文：
   产品：多租户 SaaS 应用程序
   堆栈：${stack:React 19, Next.js App Router, Tailwind CSS, TypeScript strict mode}
   范围：
@@ -60,8 +39,7 @@ upstream_updated_at: "2026-03-13T19:58:11.011Z"
     分成具有一致内部间距的独立空间区域，
     增加组间间距。
   - >
-    遵循米勒定律：将每个指标组最多限制为 5-7 个项目。
-    如果一个类别超过 7 个指标，则应用渐进式披露
+    遵循米勒定律：将每个指标组最多限制为 5-7 个项目。如果一个类别超过 7 个指标，则应用渐进式披露
     使用可扩展的“查看全部”控件显示前 5 名。
   - >
     将希克定律应用于仪表板的信息层次结构：存在
@@ -79,9 +57,7 @@ upstream_updated_at: "2026-03-13T19:58:11.011Z"
   - >
     将每个仪表板部分构建为 React Server 组件
     零客户端捆绑数据获取。用悬念包裹每个部分
-    具有与最终布局尺寸相匹配的骨架占位符。
-
-限制：
+    具有与最终布局尺寸相匹配的骨架占位符。限制：
   必须：
     - 满足 WCAG 2.2 AA 对比度（4.5:1 普通文本，3:1 大文本）
     - 尊重所有图表动画的首选减少运动
@@ -93,7 +69,7 @@ upstream_updated_at: "2026-03-13T19:58:11.011Z"
     - 提供与最终布局尺寸匹配的骨架加载状态，以防止 CLS
     - 包括带有 aria-live 区域的键盘可导航图表工具提示
 
-输出格式：
+输出格式要求：
   - 组件树图（有哪些组件，父子关系）
   - 用于仪表板数据形状的 TypeScript 接口（DashboardProps、MetricGroup、KPICard）
   - 主仪表板页面组件（RSC，异步数据获取）
@@ -210,14 +186,8 @@ knowledge_anchors:
   - Core Web Vitals (LCP, INP, CLS)
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [saas-analytics-dashboard-knowledge-anchored-frontend-prompt](https://prompts.chat/prompts/saas-analytics-dashboard-knowledge-anchored-frontend-prompt) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `IMAGE` |
-| Tags | prompt-forge, dashboard, saas, data-visualization, knowledge-anchors, Frontend, React |
-| Contributors | caksan |
-| Updated At | 2026-03-13T19:58:11.011Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

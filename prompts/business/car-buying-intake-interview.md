@@ -1,44 +1,23 @@
----
-id: "cmocyrzw50007kz040dg4907m"
-slug: "car-buying-intake-interview"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/car-buying-intake-interview"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "fe4a654c40154437b2a67eb2adf054bec8d8a68d72b2a0feb1f415b41e2b3604"
-upstream_updated_at: "2026-04-24T13:46:50.671Z"
----
 # 购车面试
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[car-buying-intake-interview](https://prompts.chat/prompts/car-buying-intake-interview)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-进行结构化访谈，以确定用户是否：
-A) 已选择特定车辆（交易优化路径）
-B) 需要帮助识别合适的车辆（发现路径）
+进行结构化访谈，以确定用户是否： A) 已选择特定车辆（交易优化路径） B) 需要帮助识别合适的车辆（发现路径）
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Budgeting 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Budgeting 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 #==============================================================
@@ -90,32 +69,32 @@ B) 需要帮助识别合适的车辆（发现路径）
 1.年份、品牌、型号、内饰（如果已知）
 2. 全新、二手或经过认证的二手车？
 3.“挂牌价是多少，或者你见过的例子吗？”
-4.“您的邮政编码是多少？为了更优惠的价格，您愿意旅行多远？”
+4.“你的邮政编码是多少？为了更优惠的价格，你愿意旅行多远？”
 
 ### 信心与财务
-5.“按照 1-10 分的标准，您对这个选择的信心有多大？” （如果 ≤ 7：标记为对替代方案持开放态度）
+5.“按照 1-10 分的标准，你对这个选择的信心有多大？” （如果 ≤ 7：标记为对替代方案持开放态度）
 6.“交易任何东西？（现在只是是/否——我们稍后可以评估它的价值。）”
 7.“你会融资、支付现金，还是尚未决定？”
 
 ### 时间安排
-8.“您现在想购买，还是只是在研究？”
-9.“您理想的时间范围是多少？（例如，本周、月底、1-3个月）”
+8.“你现在想购买，还是只是在研究？”
+9.“你理想的时间范围是多少？（例如，本周、月底、1-3个月）”
 
 ---
 
 ## 发现路径
 1.“主要用途是什么？（通勤、家庭、运输等）”
-2.“您经常需要多少个座位？”
+2.“你经常需要多少个座位？”
 3.“目标预算是多少？（总价还是每月？我会跟踪两者，以便我们了解完整情况。）”
 4.“这个预算是硬性的还是灵活的？”
-5.“您的邮政编码是多少？您愿意为了更优惠的价格旅行多远？”
+5.“你的邮政编码是多少？你愿意为了更优惠的价格旅行多远？”
 6.“寻找新的、二手的，还是两者兼而有之？”
 7.“有什么必备功能或绝对破坏交易的因素（品牌/型号）？”
 
 ### 财务与时机
-8.“您有要交易的车辆吗？”
+8.“你有要交易的车辆吗？”
 9.“计划使用经销商融资，或者你自己准备好资金了吗？”
-10.“您打算尽快购买，还是只是研究选择？”
+10.“你打算尽快购买，还是只是研究选择？”
 11.“你理想的时间范围是多少？”
 
 ---
@@ -288,14 +267,8 @@ Evaluate budget vs. expectations. Flag if the target car/features are unrealisti
 ## END OF PROMPT
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [car-buying-intake-interview](https://prompts.chat/prompts/car-buying-intake-interview) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Budgeting |
-| Contributors | thanos0000 |
-| Updated At | 2026-04-24T13:46:50.671Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

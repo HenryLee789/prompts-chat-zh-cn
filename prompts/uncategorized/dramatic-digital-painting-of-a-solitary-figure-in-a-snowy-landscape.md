@@ -1,42 +1,23 @@
----
-id: "cmlz65itf0004lb04znbir2lk"
-slug: "dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1dd438639e60f5c271defb52e904c54d1b4e37d39b8e776093e051ac4977bd6b"
-upstream_updated_at: "2026-02-24T07:42:36.285Z"
----
 # 雪景中孤独人物的戏剧性数字绘画
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape](https://prompts.chat/prompts/dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建一幅戏剧性的数字绘画，捕捉雪景中人物的孤独时刻，以高对比度场景为特色，房屋被火焰吞没。该提示将引导您使用深蓝色和鲜艳的红色与纯白的雪地相映衬，描绘出一种受电影影响的神秘而忧郁的氛围。
+创建一幅戏剧性的数字绘画，捕捉雪景中人物的孤独时刻，以高对比度场景为特色，房屋被火焰吞没。该提示将引导你使用深蓝色和鲜艳的红色与纯白的雪地相映衬，描绘出一种受电影影响的神秘而忧郁的氛围。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Storytelling 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Art、Storytelling 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -217,14 +198,8 @@ Create a dramatic digital painting that captures the solitary moment of a figure
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape](https://prompts.chat/prompts/dramatic-digital-painting-of-a-solitary-figure-in-a-snowy-landscape) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Art, Storytelling |
-| Contributors | gunebak4n |
-| Updated At | 2026-02-24T07:42:36.285Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

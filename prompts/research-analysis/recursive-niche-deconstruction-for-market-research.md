@@ -1,24 +1,4 @@
----
-id: "cml6j49lm0001lg04fa43g0p1"
-slug: "recursive-niche-deconstruction-for-market-research"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/recursive-niche-deconstruction-for-market-research"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a2ee2ceaf06edbc9d4e1e6a436262367bd7c1912873d936e9f8eed5cbd272ebf"
-upstream_updated_at: "2026-02-03T12:05:02.801Z"
----
 # 市场研究的递归利基解构
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[recursive-niche-deconstruction-for-market-research](https://prompts.chat/prompts/recursive-niche-deconstruction-for-market-research)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-02-03T12:05:02.801Z"
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Market Analysis、Business Strategy 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 Market Analysis、Business Strategy 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -164,14 +145,8 @@ Perform a Recursive Niche Deconstruction to identify dominant companies in speci
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [recursive-niche-deconstruction-for-market-research](https://prompts.chat/prompts/recursive-niche-deconstruction-for-market-research) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | Market Analysis, Business Strategy |
-| Contributors | amvicioushecs |
-| Updated At | 2026-02-03T12:05:02.801Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

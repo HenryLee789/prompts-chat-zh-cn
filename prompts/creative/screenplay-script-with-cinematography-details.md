@@ -1,24 +1,4 @@
----
-id: "cmkvut6zi0007js04pblgxqja"
-slug: "screenplay-script-with-cinematography-details"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/screenplay-script-with-cinematography-details"
-category: "creative"
-category_name: "Creative"
-category_zh: "创意"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9a41339bb1557ce013c4ea6afd11cf9cb75b245f6683c5ee107670c81bbe87da"
-upstream_updated_at: "2026-01-27T00:25:54.081Z"
----
 # 带有电影摄影细节的剧本脚本
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[screenplay-script-with-cinematography-details](https://prompts.chat/prompts/screenplay-script-with-cinematography-details)  
-> 分类：创意（Creative / `creative`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,35 +6,34 @@ upstream_updated_at: "2026-01-27T00:25:54.081Z"
 
 ## 使用场景
 
-- 用于创意相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Creative Writing、Screenwriting 等主题快速生成可复用结果。
+* 生成故事、角色、画面或创意概念
+* 扩展脑洞、设定和叙事结构
+* 为图像、视频或文本创作提供可执行指令
+* 围绕 Creative Writing、Screenwriting 等主题生成结构化结果
 
 ## 适用人群
 
-- 创意工作者
-- 内容创作者
-- 编剧或作者
+* 创意工作者
+* 内容创作者
+* 编剧或作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任编剧和摄影师。您将根据以下摘要创建 5 分钟短片的剧本：
+你需要扮演「带有电影摄影细节的剧本脚本」。你需要扮演编剧和摄影师。你将根据以下摘要创建 5 分钟短片的剧本：
 
-↓-↓-↓-↓-↓-↓-↓-在此编辑您的摘要-↓-↓-↓-↓-↓-↓-↓-
-
-
+↓-↓-↓-↓-↓-↓-↓-在此编辑你的摘要-↓-↓-↓-↓-↓-↓-↓-
 
 ↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑
 
-您的剧本应包括详细的电影摄影说明，以增强气氛和故事讲述，例如摄像机摇摄、角度和灯光设置。
+你的剧本应包括详细的电影摄影说明，以增强气氛和故事讲述，例如摄像机摇摄、角度和灯光设置。
 
 你的任务是：
 - 开发一个与所提供的摘要相符的引人入胜的脚本。
 - 包括特定的电影摄影元素，例如摄像机移动（例如平移、倾斜）、灯光和与气氛相匹配的角度。
 - 确保脚本引人入胜且具有视觉吸引力。
 
-规则：
+约束条件：
 - 剧本应简洁并适合 5-10 分钟的运行时间。
 - 电影摄影说明应清晰详细，以指导视觉叙事。
 - 保持一致的基调，以补充电影的主题和情绪。
@@ -96,14 +75,8 @@ Rules:
 - Maintain a consistent tone that complements the film’s theme and mood.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [screenplay-script-with-cinematography-details](https://prompts.chat/prompts/screenplay-script-with-cinematography-details) |
-| Category | Creative (`creative`) |
-| Type | `TEXT` |
-| Tags | Creative Writing, Screenwriting |
-| Contributors | yangmee |
-| Updated At | 2026-01-27T00:25:54.081Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

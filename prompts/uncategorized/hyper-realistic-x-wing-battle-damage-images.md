@@ -1,24 +1,4 @@
----
-id: "cmjmn3z7c0001ib0490197164"
-slug: "hyper-realistic-x-wing-battle-damage-images"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/hyper-realistic-x-wing-battle-damage-images"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4f4aadfa9b11101087dcc4aa05462c87769962cbccd24cdee86a0f591b5b4b18"
-upstream_updated_at: "2026-01-03T00:14:51.328Z"
----
 # 超真实 X 翼战损图像
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[hyper-realistic-x-wing-battle-damage-images](https://prompts.chat/prompts/hyper-realistic-x-wing-battle-damage-images)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-03T00:14:51.328Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Midjourney、DALL-E、AI Tools、Art 等主题快速生成可复用结果。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 围绕 Midjourney、DALL-E、AI Tools 等主题生成结构化结果
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 创建刚刚从与帝国军队的冲突中返回的中度受损 X 翼的超现实细节照片，最多 4 张
@@ -60,14 +41,8 @@ Generate four hyper-realistic images of a battle-damaged X-Wing fighter, showcas
 İmparatorluk güçleri ile bir çatışmadan yeni dönmüş ve orta seviyede hasarlanmış bir X-Wing'in hiper-realistik detay fotoğraflarını oluştur, 4 adet olsun
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [hyper-realistic-x-wing-battle-damage-images](https://prompts.chat/prompts/hyper-realistic-x-wing-battle-damage-images) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `IMAGE` |
-| Tags | Midjourney, DALL-E, AI Tools, Art |
-| Contributors | mehmetozturk |
-| Updated At | 2026-01-03T00:14:51.328Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

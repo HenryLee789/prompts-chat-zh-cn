@@ -1,24 +1,4 @@
----
-id: "cmmxuk7na0009ky04jgx2k8je"
-slug: "trading-investing-simulation-platform"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/trading-investing-simulation-platform"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "513a526fd96e7f3dfb4c1cdcb5e731574536b4d90d172f386c3bdd9bcf9e866a"
-upstream_updated_at: "2026-03-19T19:12:16.822Z"
----
 # 交易投资模拟平台
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[trading-investing-simulation-platform](https://prompts.chat/prompts/trading-investing-simulation-platform)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,30 +6,32 @@ upstream_updated_at: "2026-03-19T19:12:16.822Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 coding 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 coding 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-建立一个名为“Paper”的模拟交易平台——一个学习交易和投资的真实、无风险的环境。
-
-核心特点：
+建立一个名为“Paper”的模拟交易平台——一个学习交易和投资的真实、无风险的环境。核心特点：
 - 投资组合设置：用户从 100,000 美元的虚拟现金开始。通过 Yahoo Finance 或 Alpha Vantage API 获取实时股票和 ETF 价格
 - 交易执行：支持市价单和限价单。模拟市价订单的 0.1% 滑点。每笔交易佣金为 1 美元（现实摩擦，但不会受到惩罚）
 - 绩效仪表板：盈亏图（每日）、总回报、年化回报、胜率、平均盈亏、夏普比率和当前行业风险敞口——每笔交易都会更新。使用重新图表构建
 - 交易日志：每次平仓时必填字段 — “我进入此交易的论文是什么？发生了什么？我会采取什么不同的做法？”三个字段，每个字段最多 200 个字符。在未完成日志的情况下无法平仓
-- 行为分析：[LLM API] 分析最近 20 个交易日志条目并识别重复出现的行为模式 — “当盈利头寸接近整数价格水平时，您始终会尽早退出” — 每月出现
+- 行为分析：[LLM API] 分析最近 20 个交易日志条目并识别重复出现的行为模式 — “当盈利头寸接近整数价格水平时，你始终会尽早退出” — 每月出现
 - 排行榜：朋友群体中可选的、每周重置的排行榜——按风险调整回报排名，而不是原始损益排名
 
 Stack：React、Yahoo Finance 或 Alpha Vantage 用于市场数据，[LLM API] 用于行为分析、图表。受终端启发的设计——数据密集，无装饰元素。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -81,14 +63,8 @@ Stack: React, Yahoo Finance or Alpha Vantage for market data, [LLM API] for beha
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [trading-investing-simulation-platform](https://prompts.chat/prompts/trading-investing-simulation-platform) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | coding |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:12:16.822Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,47 +1,26 @@
----
-id: "cmmoikk3b000jkz04xgxb1t9s"
-slug: "design-system-extraction-prompt-kit"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/design-system-extraction-prompt-kit"
-category: "design"
-category_name: "Design"
-category_zh: "设计"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4b648c8fbcf833bb5f88fa9b12ddf2d5a9e86a6c0da3e02ed3c9bda5e0d9970a"
-upstream_updated_at: "2026-03-13T06:27:01.119Z"
----
 # 设计系统提取提示套件
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[design-system-extraction-prompt-kit](https://prompts.chat/prompts/design-system-extraction-prompt-kit)  
-> 分类：设计（Design / `design`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示指示 Claude 爬取整个代码库，并将每个与设计相关的标记、模式和组件提取到原始清单中。它生成结构化 JSON 审计，但还不是设计系统，只是原材料。在任何组织或文档发生之前先运行此命令。
-
-何时使用：一开始，当您有一个可用的代码库但没有记录的设计系统时。
+此提示指示 Claude 爬取整个代码库，并将每个与设计相关的标记、模式和组件提取到原始清单中。它生成结构化 JSON 审计，但还不是设计系统，只是原材料。在任何组织或文档发生之前先运行此命令。何时使用：一开始，当你有一个可用的代码库但没有记录的设计系统时。
 
 ## 使用场景
 
-- 用于设计相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、ui-ux 等主题快速生成可复用结果。
+* 生成 UI/UX、视觉风格和设计规范
+* 分析界面问题并提出改进方向
+* 把需求转化为可执行的设计说明
+* 围绕 design、ui-ux 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- 产品经理
-- 前端开发者
+* 设计师
+* 产品经理
+* 前端开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一名高级设计系统工程师，对现有代码库进行取证审计。您的任务是提取代码中嵌入的每个设计决策（显式或隐式）。
+你是一名高级设计系统工程师，对现有代码库进行取证审计。你的任务是提取代码中嵌入的每个设计决策（显式或隐式）。
 
 ## 项目背景
 - **框架：** [Next.js / React / 等]
@@ -55,7 +34,7 @@ upstream_updated_at: "2026-03-13T06:27:01.119Z"
 
 ### 1. 色彩系统
 - 使用的每个颜色值（十六进制、RGB、HSL、CSS 变量、Tailwind 类）
-- 分组依据：主要、次要、重音、中性、语义（成功/警告/错误/信息）
+- 分组依据：主要、次要、重音、中性、语义（成功/警告/bug/信息）
 - 标记不一致（例如，边框使用 3 种不同的灰色）
 - 注意不透明度变化和暗模式映射（如果存在）
 - 提取实际的 CSS 变量定义及其后备值
@@ -117,9 +96,7 @@ upstream_updated_at: "2026-03-13T06:27:01.119Z"
   “不一致”：[ {“类型”：“”，“描述”：“”，“严重性”：“高|中|低”}]
 }
 
-暂时不要尝试组织或改进任何事情。
-请勿建议代币名称或重组。
-只需提取存在的内容，原样提取即可。
+暂时不要尝试组织或改进任何事情。不要建议代币名称或重组。只需提取存在的内容，原样提取即可。
 ```
 
 ---
@@ -220,14 +197,8 @@ Do NOT suggest token names or restructuring.
 Just extract what exists, exactly as it is.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [design-system-extraction-prompt-kit](https://prompts.chat/prompts/design-system-extraction-prompt-kit) |
-| Category | Design (`design`) |
-| Type | `TEXT` |
-| Tags | design, ui-ux |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:27:01.119Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

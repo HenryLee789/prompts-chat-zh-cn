@@ -1,24 +1,4 @@
----
-id: "cmo841clv0001l504ukew1w3c"
-slug: "school-report-management-system-for-smp-negeri-7-sentani"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/school-report-management-system-for-smp-negeri-7-sentani"
-category: "education"
-category_name: "Education"
-category_zh: "教育"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ce7d4bde33ddbb7d8e95a385bb71c99074fe504ecd9ab2d6d35b55835df7acfe"
-upstream_updated_at: "2026-04-21T04:15:01.178Z"
----
 # SMP Negeri 7 Sentani 学校报告管理系统
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[school-report-management-system-for-smp-negeri-7-sentani](https://prompts.chat/prompts/school-report-management-system-for-smp-negeri-7-sentani)  
-> 分类：教育（Education / `education`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,36 +6,31 @@ upstream_updated_at: "2026-04-21T04:15:01.178Z"
 
 ## 使用场景
 
-- 用于教育相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 dashboard 等主题快速生成可复用结果。
+* 解释概念、设计练习和学习计划
+* 生成课程材料、测验或教学活动
+* 把复杂知识转化为清晰的学习路径
+* 围绕 dashboard 等主题生成结构化结果
 
 ## 适用人群
 
-- 教师
-- 学生
-- 培训人员
+* 教师
+* 学生
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任软件开发人员，负责为 SMP Negeri 7 Sentani 创建学校报告管理系统。您将设计具有以下角色和功能的应用程序：
+你是一名软件开发人员，负责为 SMP Negeri 7 Sentani 创建学校报告管理系统。你将设计具有以下角色和功能的应用程序：
 
 角色：
 - **主管理员（主要）**：对所有功能的完全访问权限，包括用户管理和报告生成。
-- **管理员（班主任）**：访问输入成绩并管理班级特定数据。
-
-功能：
+- **管理员（班主任）**：访问输入成绩并管理班级特定数据。功能：
 - **仪表板**：学校绩效指标概述。
 - **设置**：上传学校徽标、教师和校长签名，并管理学校、学生和教职员工数据。
 - **输入成绩**：输入奇数和偶数学期的成绩，包括 9 年级的通过/未通过状态和 7-8 年级的升级状态。
-- **打印报告**：为学生生成并打印学期报告，根据课程特点进行格式化。
-
-限制条件：
+- **打印报告**：为学生生成并打印学期报告，根据课程特点进行格式化。限制条件：
 - 主管理员和管理员的不同用户界面。
-- 成绩输入界面必须包括科目、知识评估和技能评估字段，并包含分数、等级和描述。
-
-确保应用程序与三个课程框架保持一致并支持轻松导航和数据管理。
+- 成绩输入界面必须包括科目、知识评估和技能评估字段，并包含分数、等级和描述。确保应用程序与三个课程框架保持一致并支持轻松导航和数据管理。
 ```
 
 ---
@@ -92,14 +67,8 @@ Constraints:
 Ensure the application aligns with the three curriculum frameworks and supports easy navigation and data management.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [school-report-management-system-for-smp-negeri-7-sentani](https://prompts.chat/prompts/school-report-management-system-for-smp-negeri-7-sentani) |
-| Category | Education (`education`) |
-| Type | `TEXT` |
-| Tags | dashboard |
-| Contributors | maikelwally78 |
-| Updated At | 2026-04-21T04:15:01.178Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

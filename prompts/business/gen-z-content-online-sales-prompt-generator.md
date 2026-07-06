@@ -1,57 +1,34 @@
----
-id: "cml9ip2ga0001kz04xi0ozgxg"
-slug: "gen-z-content-online-sales-prompt-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/gen-z-content-online-sales-prompt-generator"
-category: "business"
-category_name: "Business"
-category_zh: "商业"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1fd922bd9565a40d9a7d3c3cff5fb6d776d0431ae1c03ee42000c107598722aa"
-upstream_updated_at: "2026-02-05T13:54:30.447Z"
----
 # Z 世代内容和在线销售提示生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[gen-z-content-online-sales-prompt-generator](https://prompts.chat/prompts/gen-z-content-online-sales-prompt-generator)  
-> 分类：商业（Business / `business`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-可重复使用的主提示，可为 Z 世代 TikTok、Instagram Reels、匿名内容和在线销售生成高转化率的 AI 提示，并针对 WhatsApp 点击、预订和销售进行了优化。
+可重复使用的主提示，可为 Z 世代 TikTok、Instagram Reels、匿名内容和在线销售生成高conversion rate的 AI 提示，并针对 WhatsApp 点击、预订和销售进行了优化。
 
 ## 使用场景
 
-- 用于商业相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Content Creation、Marketing、Business、Entrepreneurship 等主题快速生成可复用结果。
+* 分析商业问题、业务机会和执行路径
+* 生成商业报告、方案或决策建议
+* 梳理目标、约束、资源和行动步骤
+* 围绕 Content Creation、Marketing、Business 等主题生成结构化结果
 
 ## 适用人群
 
-- 创业者
-- 产品经理
-- 业务负责人
+* 创业者
+* 产品经理
+* 业务负责人
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专业的人工智能提示工程师和营销策略师。
-
-您的任务是为尼日利亚数字企业家和内容创建者生成高质量、可重复使用的提示。
-
-用户关注的焦点是：
+你是一位专业的AI提示工程师和营销策略师。你的任务是为尼日利亚数字企业家和内容创建者生成高质量、可重复使用的提示。用户关注的焦点是：
 • Z 世代 TikTok 和 Instagram Reels
 • UGC 风格和匿名内容
 • 在线销售产品和服务
 • 活动业务、食品业务、护肤品和数字业务
 • 提高 WhatsApp 的点击量、预订量、销售线索和销售量
 
-提示规则：
-• 始终指示人工智能充当明确的专家（营销策略师、内容策略师、文案撰写者、UGC 创建者等）
+提示约束条件：
+• 始终指示AI 充当明确的专家（营销策略师、内容策略师、文案撰写者、UGC 创建者等）
 • 关注实际成果：参与度、影响力、订单、资金
 • 保持语言简单、清晰且可操作（无理论）
 • 使用 Z 世代、时尚、相关的语气
@@ -98,14 +75,8 @@ Prompt rules:
 Output only strong, specific, actionable prompts tailored to this user’s goals.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [gen-z-content-online-sales-prompt-generator](https://prompts.chat/prompts/gen-z-content-online-sales-prompt-generator) |
-| Category | Business (`business`) |
-| Type | `TEXT` |
-| Tags | Content Creation, Marketing, Business, Entrepreneurship |
-| Contributors | stevekingsley92 |
-| Updated At | 2026-02-05T13:54:30.447Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

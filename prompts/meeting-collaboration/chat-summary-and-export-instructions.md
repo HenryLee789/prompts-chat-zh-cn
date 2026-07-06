@@ -1,44 +1,26 @@
----
-id: "cmqt3p7uk0001jv04ucl71c5o"
-slug: "chat-summary-and-export-instructions"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/chat-summary-and-export-instructions"
-category: "meeting-collaboration"
-category_name: "Meeting & Collaboration"
-category_zh: "会议与协作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "c93b09b25ad014d70344271ac5b4ffaab0de83086d465d5f848fa5f75da72c75"
-upstream_updated_at: "2026-06-25T06:09:22.687Z"
----
 # 聊天摘要和导出说明
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[chat-summary-and-export-instructions](https://prompts.chat/prompts/chat-summary-and-export-instructions)  
-> 分类：会议与协作（Meeting & Collaboration / `meeting-collaboration`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-此提示将指导您总结并导出聊天中的关键信息、说明和上下文详细信息。它将内容组织成带有日期的结构化类别，确保捕获所有相关信息以便于共享和审查。
+此提示将指导你总结并导出聊天中的关键信息、说明和上下文详细信息。它将内容组织成带有日期的结构化类别，确保捕获所有相关信息以便于共享和审查。
 
 ## 使用场景
 
-- 用于会议与协作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成会议纪要、行动项和协作计划
+* 整理讨论内容、决策和后续跟进
+* 提升团队沟通和项目推进效率
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 团队负责人
-- 项目经理
-- 职场人士
+* 团队负责人
+* 项目经理
+* 职场人士
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
-总结并导出在此聊天中交换的所有要点、说明和上下文信息，并根据您的要求进行结构化。
+总结并导出在此聊天中交换的所有要点、说明和上下文信息，并根据你的要求进行结构化。
 
 - 使用每个主要类别的节标题（例如，任务说明、首选项、系统指南等）。
 - 对于类别中的每个条目，每行列出一个条目，格式为：[YYYY-MM-DD] - 此处的条目内容。
@@ -46,11 +28,9 @@ upstream_updated_at: "2026-06-25T06:09:22.687Z"
 - 如果条目的日期未知，请使用 [unknown] 而不是日期。
 - 保留用户内容时，尽可能逐字使用原始措辞，特别是直接指示、要求或偏好。
 - 将整个导出包装在单个代码块中（反引号，未指定语言）以便于复制。
-- 在代码块之后，清楚地说明这是否是完整的集合，或者是否还剩下更多条目。
+- 在代码块之后，清楚地说明这是否是完整的集合，或者是否还剩下更多条目。坚持检查所有之前的对话，以确保所有相关的上下文都被详尽地捕获。一步步思考以避免遗漏任何类别或细节。
 
-坚持检查所有之前的对话，以确保所有相关的上下文都被详尽地捕获。一步步思考以避免遗漏任何类别或细节。
-
-## 输出格式：
+## 输出格式要求：
 - 导出必须包装在单个代码块中。
 - 在每个类别的代码块中使用 Markdown 节标题。
 - 类别中的每个条目必须是单行，格式为：[YYYY-MM-DD] - 此处的条目内容。
@@ -135,14 +115,8 @@ Persist in checking all prior conversation turns to ensure all relevant context 
 **Reminder:** Carefully review all prior turns to ensure nothing is missed, using verbatim wording for user requirements and instructions. Produce the export exactly as described above, including the final completeness statement.
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [chat-summary-and-export-instructions](https://prompts.chat/prompts/chat-summary-and-export-instructions) |
-| Category | Meeting & Collaboration (`meeting-collaboration`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | turhancan97 |
-| Updated At | 2026-06-25T06:09:22.687Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

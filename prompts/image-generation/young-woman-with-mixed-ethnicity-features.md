@@ -1,42 +1,23 @@
----
-id: "cmjj55er00005l504c3q0pe1v"
-slug: "young-woman-with-mixed-ethnicity-features"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/young-woman-with-mixed-ethnicity-features"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ba2f956742cc0fe88a7a059f46aa1ba84f70fd17babed4a1fe11a468b383055f"
-upstream_updated_at: "2025-12-23T22:13:31.752Z"
----
 # 具有混合种族特征的年轻女性
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[young-woman-with-mixed-ethnicity-features](https://prompts.chat/prompts/young-woman-with-mixed-ethnicity-features)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「具有混合种族特征的年轻女性」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art、Content Creation 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art、Content Creation 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -119,14 +100,8 @@ Young woman with mixed ethnicity features
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [young-woman-with-mixed-ethnicity-features](https://prompts.chat/prompts/young-woman-with-mixed-ethnicity-features) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art, Content Creation |
-| Contributors | gunebak4n |
-| Updated At | 2025-12-23T22:13:31.752Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

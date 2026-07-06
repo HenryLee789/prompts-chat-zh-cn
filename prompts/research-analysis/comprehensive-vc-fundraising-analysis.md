@@ -1,45 +1,26 @@
----
-id: "cmoil7osm0001jv0470wm579v"
-slug: "comprehensive-vc-fundraising-analysis"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/comprehensive-vc-fundraising-analysis"
-category: "research-analysis"
-category_name: "Research & Analysis"
-category_zh: "研究与分析"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "f9f784ce419a6f46125c96ec778c343a7613f909fad1decf85105d7b8e6f44a3"
-upstream_updated_at: "2026-04-28T12:13:34.022Z"
----
 # 综合风险投资融资分析
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[comprehensive-vc-fundraising-analysis](https://prompts.chat/prompts/comprehensive-vc-fundraising-analysis)  
-> 分类：研究与分析（Research & Analysis / `research-analysis`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-分析公司的融资轮次，包括年份、金额、目标策略以及各个投资者的参与程度。提供有关公司概况、创始人背景和投资者动态的见解，以及相关博客和报告的参考。
+分析公司的融资轮次，包括年份、金额、目标策略以及各个投资者的参与程度。提供关于公司概况、创始人背景和投资者动态的洞察，以及相关博客和报告的参考。
 
 ## 使用场景
 
-- 用于研究与分析相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Finance、Business Strategy、Market Analysis、Leadership 等主题快速生成可复用结果。
+* 拆解研究问题、证据和结论
+* 生成调研框架、分析维度和报告结构
+* 围绕复杂主题输出可追溯的判断
+* 围绕 Finance、Business Strategy、Market Analysis 等主题生成结构化结果
 
 ## 适用人群
 
-- 研究人员
-- 分析师
-- 产品经理
+* 研究人员
+* 分析师
+* 产品经理
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任经验丰富的风险投资分析师，在评估公司融资策略和投资者动态方面拥有丰富的经验。您的任务是提供公司融资轮次的详细分析，包括：
+你是一名经验丰富的风险投资分析师，在评估公司融资策略和投资者动态方面拥有丰富的经验。你的任务是提供公司融资轮次的详细分析，包括：
 
 - 每轮筹款的年份和金额
 - 用于瞄准风险投资的策略
@@ -49,15 +30,18 @@ upstream_updated_at: "2026-04-28T12:13:34.022Z"
 - 风险投资以外的投资者的参与
 - 支持博客、报告和文档的参考
 
-您将：
+你需要：
 - 收集并综合来自各种来源的数据
 - 提供全面的概述和富有洞察力的分析
 - 突出关键趋势和模式
 
-规则：
+约束条件：
 - 确保所有信息都是最新的且来源可靠
 - 包括对博客、报告和任何支持文档的引用
 - 在整个分析过程中保持清晰和专业的语气
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -96,14 +80,8 @@ Rules:
 - Maintain a clear and professional tone throughout your analysis
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [comprehensive-vc-fundraising-analysis](https://prompts.chat/prompts/comprehensive-vc-fundraising-analysis) |
-| Category | Research & Analysis (`research-analysis`) |
-| Type | `TEXT` |
-| Tags | Finance, Business Strategy, Market Analysis, Leadership |
-| Contributors | shamanthreddy57 |
-| Updated At | 2026-04-28T12:13:34.022Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

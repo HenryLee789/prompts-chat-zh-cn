@@ -1,43 +1,24 @@
----
-id: "cmjllplbk000cl7046mnllh80"
-slug: "personalized-technical-intelligence-briefing-for-edge-ai-in-defense"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/personalized-technical-intelligence-briefing-for-edge-ai-in-defense"
-category: "data-science"
-category_name: "Data Science"
-category_zh: "数据科学"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "7eeb2cdfa746af2414b3292854e4bb6b85ac33a39abd5028628e8329f405ab20"
-upstream_updated_at: "2025-12-25T15:32:15.632Z"
----
-# 国防边缘人工智能的个性化技术情报简报
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[personalized-technical-intelligence-briefing-for-edge-ai-in-defense](https://prompts.chat/prompts/personalized-technical-intelligence-briefing-for-edge-ai-in-defense)  
-> 分类：数据科学（Data Science / `data-science`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 国防边缘AI的个性化技术情报简报
 
 ## 中文说明
 
-为专注于国防的计算机视觉研究人员生成量身定制的情报简报，强调边缘人工智能和威胁检测创新。
+为专注于国防的计算机视觉研究人员生成量身定制的情报简报，强调边缘AI和威胁检测创新。
 
 ## 使用场景
 
-- 用于数据科学相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Data Science、Machine Learning、NLP 等主题快速生成可复用结果。
+* 分析数据、指标、模型和实验结果
+* 生成数据处理、统计分析或建模方案
+* 输出结构化结论、风险和下一步建议
+* 围绕 AI Tools、Data Science、Machine Learning 等主题生成结构化结果
 
 ## 适用人群
 
-- 数据分析师
-- 数据科学家
-- 机器学习工程师
-- 开发者
+* 数据分析师
+* 数据科学家
+* 机器学习工程师
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -73,7 +54,7 @@ upstream_updated_at: "2025-12-25T15:32:15.632Z"
   “优先智能目标”：{
     “主要”：[
       “假阳性减少方法”，
-      “资源受限硬件的边缘人工智能优化”，
+      “资源受限硬件的边缘AI优化”，
       “实时推理基准”
     ],
     “次要”：[
@@ -97,7 +78,7 @@ upstream_updated_at: "2025-12-25T15:32:15.632Z"
     “消费技术，除非直接适用”，
     “没有实施路径的理论论文”，
     “重述新闻”，
-    “没有实质内容的一般人工智能炒作”
+    “没有实质内容的一般AI炒作”
   ],
   “增强功能”：{
     “基准比较表”：true，
@@ -107,6 +88,9 @@ upstream_updated_at: "2025-12-25T15:32:15.632Z"
     “每周趋势图”：true
   }
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -193,14 +177,8 @@ Generate a tailored intelligence briefing for defense-focused computer vision re
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [personalized-technical-intelligence-briefing-for-edge-ai-in-defense](https://prompts.chat/prompts/personalized-technical-intelligence-briefing-for-edge-ai-in-defense) |
-| Category | Data Science (`data-science`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Data Science, Machine Learning, NLP, Computer Vision |
-| Contributors | ezekielamitchell |
-| Updated At | 2025-12-25T15:32:15.632Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

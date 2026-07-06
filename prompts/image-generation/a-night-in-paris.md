@@ -1,42 +1,23 @@
----
-id: "cmjzm4h7n0001ie0414ybt4q9"
-slug: "a-night-in-paris"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/a-night-in-paris"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "4d8835d63273b72c48f9abde54ec72e46d73ca76d5fa1c9a97bc00944f9d62bd"
-upstream_updated_at: "2026-01-04T10:54:19.250Z"
----
 # 在巴黎的一晚
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[a-night-in-paris](https://prompts.chat/prompts/a-night-in-paris)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于图像生成场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「在巴黎的一晚」执行图像生成提示词设计任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给图像生成模型，控制主体、构图、风格和画面细节。
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -138,14 +119,8 @@ A night in paris
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [a-night-in-paris](https://prompts.chat/prompts/a-night-in-paris) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | akykaan |
-| Updated At | 2026-01-04T10:54:19.250Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

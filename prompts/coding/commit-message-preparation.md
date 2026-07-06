@@ -1,43 +1,24 @@
----
-id: "cmk9x7onr0004jx045dn3t1lh"
-slug: "commit-message-preparation"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/commit-message-preparation"
-category: "coding"
-category_name: "Coding"
-category_zh: "编程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "1eb78beffa7b632ed371b00e9896a17b68551118f7df6b53bd490a36d0e388d3"
-upstream_updated_at: "2026-01-15T09:16:17.723Z"
----
-# 提交消息准备
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[commit-message-preparation](https://prompts.chat/prompts/commit-message-preparation)  
-> 分类：编程（Coding / `coding`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# commit message准备
 
 ## 中文说明
 
-这个提示词用于编程场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「commit message准备」执行编程与技术实现任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于编程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Git 等主题快速生成可复用结果。
+* 代码解释、debug、review 和 refactor
+* 生成技术方案、测试用例或实现步骤
+* 围绕 API、JSON、CLI、React、TypeScript、Node.js 等技术任务给出可执行指令
+* 围绕 Git 等主题生成结构化结果
 
 ## 适用人群
 
-- 程序员
-- 技术负责人
-- 代码学习者
-- 开发者
+* 程序员
+* 技术负责人
+* 代码学习者
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ````md
 # AI 语言模型的 Git 提交指南
@@ -51,7 +32,7 @@ upstream_updated_at: "2026-01-15T09:16:17.723Z"
 5. **以祈使语气写作** - “添加功能”而不是“添加功能”或“添加功能”
 6. **始终包含正文** - 切勿使用仅主题提交
 
-## 提交消息结构
+## commit message结构
 
 ```
 <type>(<scope>): <subject>
@@ -64,8 +45,8 @@ upstream_updated_at: "2026-01-15T09:16:17.723Z"
 ### 类型（必填）
 
 - `feat`：新功能
-- `fix`：错误修复
-- `refactor`：代码更改既不修复错误也不添加功能
+- `fix`：bug修复
+- `refactor`：代码更改既不修复bug也不添加功能
 - `perf`：性能改进
 - `style`：代码样式更改（格式、缺少分号等）
 - `test`：添加或更新测试
@@ -85,7 +66,7 @@ upstream_updated_at: "2026-01-15T09:16:17.723Z"
 - **第一个字母小写**（除非它是专有名词）
 - **末尾没有句号**
 - **祈使语气**：“添加”而不是“添加”或“添加”
-- **具体**：“添加电子邮件验证”而不是“添加验证”
+- **具体**：“添加邮件验证”而不是“添加验证”
 
 ### 正文（必填）
 
@@ -110,8 +91,8 @@ upstream_updated_at: "2026-01-15T09:16:17.723Z"
 ❌ 全面
 ❌ 坚固耐用
 ❌增强型
-❌ 改进（除非您指定改进了哪些指标）
-❌ 优化（除非您指定改进了哪些指标）
+❌ 改进（除非你指定改进了哪些指标）
+❌ 优化（除非你指定改进了哪些指标）
 ❌更好
 ❌ 太棒了
 ❌ 太棒了
@@ -160,7 +141,7 @@ handling for network failures and invalid credentials.
 - 提到的具体技术（Firebase）
 - 明确范围（授权）
 - 正文描述了添加的功能
-- 解释错误处理涵盖的内容
+- 解释bug 处理涵盖的内容
 
 ---
 
@@ -265,7 +246,7 @@ strings in LoginView, LoginViewController, and AuthService.
    - ✅ 在同一组件中添加函数及其用法
 
 2. **原子变化**
-   - ✅ 跨多个文件重构函数名称
+   - ✅ 跨多个文件refactor函数名称
 
 3. **彼此决裂**
    - ✅ 将接口及其实现添加在一起
@@ -276,7 +257,7 @@ strings in LoginView, LoginViewController, and AuthService.
 
 如果LoginView有2个独立的变化：
 
-**更改1：**重构堆栈视图结构
+**更改1：**refactor堆栈视图结构
 **变更2：** 添加加载指示器
 
 **分为 2 次提交：**
@@ -426,7 +407,7 @@ docs: update README with installation steps
 Add SPM dependency installation instructions and Firebase setup guide.
 ```
 
-### 重构
+### refactor
 
 ```
 refactor(auth): convert helper functions to static struct methods
@@ -490,7 +471,7 @@ Turkish translations.
 ❌`Add feature.`（太模糊了）
 ❌`Updated files.`（不解释什么）
 ❌`Bug fix.`（没有解释是哪个bug）
-❌ `Refactoring.`（不解释重构了什么）
+❌ `Refactoring.`（不解释refactor了什么）
 
 ## AI 模型模板
 
@@ -531,7 +512,7 @@ Turkish translations.
 
 在建议提交之前，请验证：
 
-- [ ] 类型正确（功能/修复/重构/等）
+- [ ] 类型正确（功能/修复/refactor/等）
 - [ ] 范围具体且有意义
 - [ ] 主语是祈使语气
 - [ ] 主题≤50 个字符
@@ -547,7 +528,7 @@ Turkish translations.
 
 ---
 
-## 提交消息示例（完整）
+## commit message示例（完整）
 
 ```
 feat(auth): add email validation to login form
@@ -569,7 +550,7 @@ unnecessary Firebase API calls for malformed emails.
 
 ---
 
-**记住：** 良好的提交消息应该允许人们在不查看差异的情况下理解更改。具体、简洁、客观，并始终包含有意义的正文。
+**记住：** 良好的commit message应该允许人们在不查看差异的情况下理解更改。具体、简洁、客观，并始终包含有意义的正文。
 ````
 
 ---
@@ -1120,14 +1101,8 @@ unnecessary Firebase API calls for malformed emails.
 
 ````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [commit-message-preparation](https://prompts.chat/prompts/commit-message-preparation) |
-| Category | Coding (`coding`) |
-| Type | `TEXT` |
-| Tags | Git |
-| Contributors | aliosmanozturk |
-| Updated At | 2026-01-15T09:16:17.723Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

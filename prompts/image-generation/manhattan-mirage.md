@@ -1,24 +1,4 @@
----
-id: "cmklrur8x0004ji04lngwxstl"
-slug: "manhattan-mirage"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/manhattan-mirage"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "3419887c18957d5a03e620474b62f10f1773ca77da81058e3e11ed9bc4b53323"
-upstream_updated_at: "2026-01-20T19:18:47.010Z"
----
 # 曼哈顿海市蜃楼
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[manhattan-mirage](https://prompts.chat/prompts/manhattan-mirage)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,24 +6,24 @@ upstream_updated_at: "2026-01-20T19:18:47.010Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Nano Banana 等主题快速生成可复用结果。
-- 适合需要用户上传媒体素材后再让模型处理的多模态任务。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Nano Banana 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
   “标题”：“曼哈顿幻影”，
   "description": "一个高辛烷值的电影时刻，捕捉到一位女士在黄金时段自信地大步穿过充满蒸汽的纽约十字路口。",
-  "prompt": "您将使用提供的照片进行图像编辑。创建女性主体的超真实感图像。风格非常详细，类似于 Arri Alexa 上以电影 1:1 的长宽比拍摄的帧。应用大景深模糊繁忙的背景，同时保持主体清晰。使用强背光的电影照明。主体穿着红色迷你裙，正在街上行走。",
+  "prompt": "你将使用提供的照片进行图像编辑。创建女性主体的超真实感图像。风格非常详细，类似于 Arri Alexa 上以电影 1:1 的长宽比拍摄的帧。应用大景深模糊繁忙的背景，同时保持主体清晰。使用强背光的电影照明。主体穿着红色迷你裙，正在街上行走。",
   “详细信息”：{
     “年份”：“1999”，
     "genre": "电影照片写实主义",
@@ -185,14 +165,8 @@ A high-octane, cinematic moment capturing a woman's confident stride through a s
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [manhattan-mirage](https://prompts.chat/prompts/manhattan-mirage) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Nano Banana |
-| Contributors | ersinkoc |
-| Updated At | 2026-01-20T19:18:47.010Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

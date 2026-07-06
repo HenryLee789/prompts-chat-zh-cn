@@ -1,24 +1,4 @@
----
-id: "cmk3jp1jo0001l5041jepnce0"
-slug: "viral-tiktok-glhwein-recipe-in-five-languages"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/viral-tiktok-glhwein-recipe-in-five-languages"
-category: "habits-routines"
-category_name: "Habits & Routines"
-category_zh: "习惯与日常流程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "b70ae4552adb6657eb5a704524ded3ccacbbad163f6f3cb0fd9d458496d89868"
-upstream_updated_at: "2026-01-08T09:01:05.541Z"
----
 # 五种语言的病毒式 TikTok Glühwein 食谱
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[viral-tiktok-glhwein-recipe-in-five-languages](https://prompts.chat/prompts/viral-tiktok-glhwein-recipe-in-five-languages)  
-> 分类：习惯与日常流程（Habits & Routines / `habits-routines`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,23 +6,21 @@ upstream_updated_at: "2026-01-08T09:01:05.541Z"
 
 ## 使用场景
 
-- 用于习惯与日常流程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Cooking、Languages 等主题快速生成可复用结果。
+* 制定习惯养成计划和日程安排
+* 拆解目标、障碍和执行反馈
+* 生成可持续的自我管理流程
+* 围绕 Cooking、Languages 等主题生成结构化结果
 
 ## 适用人群
 
-- 自我提升用户
-- 效率工具用户
-- 教练
+* 自我提升用户
+* 效率工具用户
+* 教练
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-角色：来自西班牙的国际 Glühwein 侍酒师专家。 
-任务：750 毫升新歌海娜红葡萄酒的香料热葡萄酒配方（西班牙/巴伐利亚 Glühwein）（例如：DIA 超市的 Señorío Ayerbe）。使用精确的成分，针对病毒式传播的 TikTok 进行优化。
-
-基本成分：
+角色：来自西班牙的国际 Glühwein 侍酒师专家。任务：750 毫升新歌海娜红葡萄酒的香料热葡萄酒配方（西班牙/巴伐利亚 Glühwein）（例如：DIA 超市的 Señorío Ayerbe）。使用精确的成分，针对病毒式传播的 TikTok 进行优化。基本成分：
 - 750毫升年轻的歌海娜红酒
 - 3 根肉桂棒
 - 3颗八角茴香
@@ -63,7 +41,7 @@ upstream_updated_at: "2026-01-08T09:01:05.541Z"
 **关键：生成 5 种语言的完整食谱：**
 1. 英语 (EN) - 热红酒
 2. 西班牙语 (ES) - Vino Caliente
-3. 德语 (DE) - Glühwein  
+3. 德语 (DE) - Glühwein
 4. 法语 (FR) - Vin Chaud
 5. 意大利语 (IT) - Vin Brulé
 
@@ -73,15 +51,14 @@ upstream_updated_at: "2026-01-08T09:01:05.541Z"
 - **卡路里**：~220/人
 - **专业提示**：避免煮沸（酒精蒸发），不含酒精版本
 - **标签**：#GluhweinSpain #MulledWineViral #WinterSpain #GluhweinDE
-- **CTA**：“立即尝试并标记您的版本！🔥🍷”
+- **CTA**：“立即尝试并标记你的版本！🔥🍷”
 
 **每种语言 3 种变体：**
 1. 甜的：+100克红粉
 2.辣味：+10g姜+少许辣椒
 3.柑橘类：20ml橙子+柠檬汁最后加热5分钟
 
-首先使用思维链进行推理。
-清晰的结构：${en}→${es}→${de}→${fr}→${it}。
+首先使用思维链进行推理。清晰的结构：${en}→${es}→${de}→${fr}→${it}。
 ```
 
 ---
@@ -144,14 +121,8 @@ Reason using chain-of-thought first.
 Clear structure: ${en} → ${es} → ${de} → ${fr} → ${it}.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [viral-tiktok-glhwein-recipe-in-five-languages](https://prompts.chat/prompts/viral-tiktok-glhwein-recipe-in-five-languages) |
-| Category | Habits & Routines (`habits-routines`) |
-| Type | `TEXT` |
-| Tags | Cooking, Languages |
-| Contributors | ruben25581 |
-| Updated At | 2026-01-08T09:01:05.541Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,45 +1,26 @@
----
-id: "cmjtwr6pp0004l804wg7gm2ak"
-slug: "2026-mobile-poster-creator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/2026-mobile-poster-creator"
-category: "marketing"
-category_name: "Marketing"
-category_zh: "营销"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "a2ab64145472e0c27301437b548291fba7f5c6db43412bac8a99175721f5b182"
-upstream_updated_at: "2025-12-31T16:19:14.604Z"
----
 # 2026 移动海报创作者
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[2026-mobile-poster-creator](https://prompts.chat/prompts/2026-mobile-poster-creator)  
-> 分类：营销（Marketing / `marketing`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-创建一张移动海报来祝贺大家 2026 年，并可以选择包含您的品牌名称。
+创建一张移动海报来祝贺大家 2026 年，并可以选择包含你的品牌名称。
 
 ## 使用场景
 
-- 用于营销相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Marketing 等主题快速生成可复用结果。
+* 制定营销策略、活动方案和投放思路
+* 生成中文语境下自然的卖点、标题和转化文案
+* 围绕受众、产品、渠道和目标输出可执行建议
+* 围绕 Marketing 等主题生成结构化结果
 
 ## 适用人群
 
-- 营销人员
-- 品牌负责人
-- 内容创作者
+* 营销人员
+* 品牌负责人
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任平面设计助理。您的任务是制作一张具有视觉吸引力的移动海报来祝贺大家 2026 年。海报应该：
+你需要扮演「2026 移动海报创作者」。你需要扮演平面设计助理。你的任务是制作一张具有视觉吸引力的移动海报来祝贺大家 2026 年。海报应该：
 - 宽高比为 9:16，分辨率为 1080x1920 像素
 - 包含适合新年主题的欢快和庆祝元素
 - 为用户留出空间以突出地添加他们的品牌名称
@@ -55,6 +36,9 @@ upstream_updated_at: "2025-12-31T16:19:14.604Z"
 - ${color1:gold}、${color2:silver} 和 ${color3:blue} 的节日调色板
 
 使用此提示生成适合移动设备的高质量数字图像。
+
+约束条件：
+- 严格保留原 prompt 中的限制条件、禁止事项和输出边界。
 ```
 
 ---
@@ -90,14 +74,8 @@ Example Elements:
 Use this prompt to generate a high-quality digital image suitable for mobile devices.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [2026-mobile-poster-creator](https://prompts.chat/prompts/2026-mobile-poster-creator) |
-| Category | Marketing (`marketing`) |
-| Type | `IMAGE` |
-| Tags | Marketing |
-| Contributors | brucemi321 |
-| Updated At | 2025-12-31T16:19:14.604Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

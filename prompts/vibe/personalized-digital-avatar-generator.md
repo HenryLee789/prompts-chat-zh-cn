@@ -1,24 +1,4 @@
----
-id: "cmmxugkdt0005ky04yvfmou20"
-slug: "personalized-digital-avatar-generator"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/personalized-digital-avatar-generator"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "957fbe88a9040c72f726f5d0618a643dabc64f0f2a80823744a796fd1dc78aed"
-upstream_updated_at: "2026-03-19T19:09:26.703Z"
----
 # 个性化数字头像生成器
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[personalized-digital-avatar-generator](https://prompts.chat/prompts/personalized-digital-avatar-generator)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,21 +6,21 @@ upstream_updated_at: "2026-03-19T19:09:26.703Z"
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-构建一个名为“Alter”的网络应用程序 - 一个个性化数字化身创建工具。
-
-核心特点：
+构建一个名为“Alter”的网络应用程序 - 一个个性化数字化身创建工具。核心特点：
 - 风格选择器：以视觉卡形式呈现的 8 种头像风格（专业爆头、动漫、像素艺术、油画、赛博朋克、极简线条艺术、插画人物、水彩）
 - 输入面板：所需外观和氛围的文字描述（心情、颜色、个性）——MVP 中无需上传照片
 - 生成：使用根据样式选择和描述构建的结构化提示调用 fal.ai FLUX API — 每个请求生成 4 个变体
@@ -84,14 +64,8 @@ Stack: React, fal.ai API for image generation, HTML Canvas for text overlays, lo
 
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [personalized-digital-avatar-generator](https://prompts.chat/prompts/personalized-digital-avatar-generator) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | mmanisaligil |
-| Updated At | 2026-03-19T19:09:26.703Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

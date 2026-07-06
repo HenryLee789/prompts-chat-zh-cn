@@ -1,46 +1,26 @@
----
-id: "cmq66bz2u0001jr04j0xss9kt"
-slug: "dialogue"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/dialogue"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "VIDEO"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "ada6ba64aabfbc0147fe5fbdf226bb1c40df87dc0d9d0e6dbcd43b33cf03b2d6"
-upstream_updated_at: "2026-06-09T05:03:29.578Z"
----
 # 嗥
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[dialogue](https://prompts.chat/prompts/dialogue)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`VIDEO`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于未分类场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「嗥」执行通用 AI 任务执行任务。它会保留原始角色、任务目标、约束条件和输出要求，适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于视频生成模型的镜头、动作、场景和叙事控制。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合复制给视频生成模型，控制镜头、动作、节奏和场景。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-现代新鲜电器陈列室内的有趣 3D 卡通场景。新鲜风扇、新鲜空气冷却器和新鲜微波炉正像人形一样进行着热闹的争论。
-
-新鲜范儿自豪地旋转着说：“我是夏日巨星！天气一热，大家都跑来买我！”
+现代新鲜电器陈列室内的有趣 3D 卡通场景。新鲜风扇、新鲜空气冷却器和新鲜微波炉正像人形一样进行着热闹的争论。新鲜范儿自豪地旋转着说：“我是夏日巨星！天气一热，大家都跑来买我！”
 
 新鲜空气冷却器自信地微笑着回答：“别介意！我不只是移动空气……我实际上是在冷却它！”
 
@@ -87,14 +67,8 @@ The Air Cooler raises its hands and says: "Guys, guys... we're all Fresh product
 Highly detailed 3D cartoon style, expressive funny faces, colorful showroom, comic speech bubbles, playful atmosphere, professional lighting, ultra-realistic rendering, humorous family-friendly advertisement, high quality.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [dialogue](https://prompts.chat/prompts/dialogue) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `VIDEO` |
-| Tags | None |
-| Contributors | saiedabdelrazzaq |
-| Updated At | 2026-06-09T05:03:29.578Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

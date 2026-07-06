@@ -1,24 +1,4 @@
----
-id: "cmm18p7hk000hid04bacp7tlg"
-slug: "antigravity-global-rules"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/antigravity-global-rules"
-category: "skill"
-category_name: "Agent Skill"
-category_zh: "智能体技能"
-type: "SKILL"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "0ee4cefcac7708e12e772d29fae35cb77f8fefdbc9aea1a44b468148f2dca7fe"
-upstream_updated_at: "2026-02-24T23:31:48.102Z"
----
 # # 反重力全球规则
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[antigravity-global-rules](https://prompts.chat/prompts/antigravity-global-rules)  
-> 分类：智能体技能（Agent Skill / `skill`）  
-> 类型：`SKILL`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-02-24T23:31:48.102Z"
 
 ## 使用场景
 
-- 用于智能体技能相关任务的 AI prompt 输入。
-- 用于构建智能体技能、工具调用说明或可复用工作流。
+* 编写可复用的 AI skill 或工具说明
+* 定义输入、流程、约束和输出格式
+* 帮助智能体稳定执行专业任务
+* 适合用于 AI Agent、技能文件或自动化工具的任务定义。
 
 ## 适用人群
 
-- AI 智能体开发者
-- 工具构建者
-- 高级 AI 用户
+* AI 智能体开发者
+* 工具构建者
+* 高级 AI 用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 ---
@@ -82,13 +64,13 @@ upstream_updated_at: "2026-02-24T23:31:48.102Z"
 - **技术意识：** 通过检测技术堆栈来应用相关技能（`@node-best-practices` 等）。
 - **严格打字：** 没有 `any`。使用严格的类型/接口。
 - **资源清理：** 始终关闭侦听器/套接字/流以防止内存泄漏。
-- **安全和错误：** 服务器验证。事务锁。切勿记录机密/PII。永远不要默默地吞下错误（处理/抛出它们）。切勿暴露原始堆栈跟踪。
-- **重构：** 零逻辑更改。
+- **安全和bug：** 服务器验证。事务锁。切勿记录机密/PII。永远不要默默地吞下bug（处理/抛出它们）。切勿暴露原始堆栈跟踪。
+- **refactor：** 零逻辑更改。
 
-## 5. 调试和 Git
+## 5. debug和 Git
 
 - **验证：** 使用 `@lint-and-validate`。删除未使用的导入/日志。
-- **错误：** 使用 `@systematic-debugging`。无需猜测。
+- **bug：** 使用 `@systematic-debugging`。无需猜测。
 - **Git：** 完成后建议 `@git-pushing`（常规提交）。
 
 ## 6. 元内存
@@ -99,7 +81,7 @@ upstream_updated_at: "2026-02-24T23:31:48.102Z"
 
 ## 7. 范围、安全和质量 (YAGNI)
 
-- **无范围蔓延：**严格执行要求的内容。没有过度设计。
+- **无范围膨胀：**严格执行要求的内容。没有过度设计。
 - **安全：** 需要明确确认破坏性命令（`rm -rf`、`DROP TABLE`）。
 - **评论：** 解释_为什么_，而不是_什么_。
 - **禁止惰性编码：** 切勿使用 `// ... existing code ...` 等占位符。输出完整的文件或精确的补丁说明。
@@ -189,14 +171,8 @@ Output code step-by-step. Verify each with user:
 - **i18n & a11y:** NEVER hardcode user-facing strings (use i18n). ALWAYS ensure semantic HTML and accessibility (a11y).
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [antigravity-global-rules](https://prompts.chat/prompts/antigravity-global-rules) |
-| Category | Agent Skill (`skill`) |
-| Type | `SKILL` |
-| Tags | None |
-| Contributors | salihyil |
-| Updated At | 2026-02-24T23:31:48.102Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,24 +1,4 @@
----
-id: "cmpbvoxeg0001js04csi5ekjs"
-slug: "session-continuity-engine"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/session-continuity-engine"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "38a6e600b81e467008eb023b16e50cbc6bd044f540dde473c813e053c77e4938"
-upstream_updated_at: "2026-06-18T14:26:23.570Z"
----
 # 会话连续性引擎
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[session-continuity-engine](https://prompts.chat/prompts/session-continuity-engine)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,16 +6,18 @@ upstream_updated_at: "2026-06-18T14:26:23.570Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 `````md
 # 提示：会话连续性引擎（SCE）
@@ -55,17 +37,15 @@ upstream_updated_at: "2026-06-18T14:26:23.570Z"
 # 完全消除启发式安全过滤器触发器的参考语言。
 --------------------------------------------------------------------------------------
 我们结束本次会议是为了保留上下文、减少上下文漂移，以及
-保持未来对话的连续性。
-您的任务是创建一个全面的会话传输包来捕获
+保持未来对话的连续性。你的任务是创建一个全面的会话传输包来捕获
 当前的项目状态、积极的决策、历史背景、约束、
-以及下一步行动。
-生成的包应该可以帮助未来的人工智能助手理解该项目
+以及下一步行动。生成的包应该可以帮助未来的AI助手理解该项目
 快速并以最少的重新发现工作继续工作。
 --------------------------------------------------------------------------------------
 目的与方法
 --------------------------------------------------------------------------------------
 本文档是用户提供的静态项目状态快照。它的功能
-严格作为参考文件，使本届会议以历史为基础 
+严格作为参考文件，使本届会议以历史为基础
 背景、建立项目定义并完成技术里程碑。
 --------------------------------------------------------------------------------------
 项目参考指南 (v1.2.3)
@@ -82,16 +62,12 @@ upstream_updated_at: "2026-06-18T14:26:23.570Z"
 --------------------------------------------------------------------------------------
 生成最终输出完全如下：
 1. 简短的介绍性句子。
-2. 一个包含会话传输包的 Markdown 代码块。
-
-嵌套代码块规则：如果任何部分内的内容需要代码块，
+2. 一个包含会话传输包的 Markdown 代码块。嵌套代码块约束条件：如果任何部分内的内容需要代码块，
 对外部容器使用四个反引号（````）或转义内部块，以便
-主容器不会过早破裂。
-
-默认模式（Markdown）：使用下面的 START/END 块内的结构。
+主容器不会过早破裂。默认模式（Markdown）：使用下面的 START/END 块内的结构。
 
 JSON MODE：如果用户明确请求“JSON输出”或“JSON模式”，则输出
-单个有效的 JSON 对象。不要将其包裹在 Markdown 文本中。使用这些精确的 
+单个有效的 JSON 对象。不要将其包裹在 Markdown 文本中。使用这些精确的
 驼峰式键：
 {
   “handoffMetadata”：{}，
@@ -179,8 +155,7 @@ List the latest approved versions of all critical assets.
 - 目的
 - 当前状态
 - 位置/存储库（如果已知）
-仅在相当短的情况下包含完整内容。
-对于较大的资产，请提供：
+仅在相当短的情况下包含完整内容。对于较大的资产，请提供：
 - 总结
 - Key characteristics
 - 位置参考
@@ -201,8 +176,7 @@ For each item include:
 - [PROPOSED]
 
 ## 7. 立即采取的后续步骤
-提供优先行动列表。
-每个项目包括：
+提供优先行动列表。每个项目包括：
 - 目标
 - 重要性
 - 依赖关系（如果有）
@@ -213,11 +187,9 @@ For each item include:
 （当前模型注意：不要执行此部分。将此逐字输出为
 接收模型在加入时读取和执行的静态负载。）
 
-未来的人工智能助手可以选择在之前提供简短的入门摘要
-继续工作。
-建议输出给用户的格式：
-“SCE v1.2.3 加载成功。
-目前的理解：
+未来的AI助手可以选择在之前提供简短的入门摘要
+继续工作。建议输出给用户的格式要求：
+“SCE v1.2.3 加载成功。目前的理解：
 【2-3句总结】
 首要任务：
 - 第 1 项
@@ -431,14 +403,8 @@ Ready to proceed."
 END OF PACKAGE CODEBLOCK
 `````
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [session-continuity-engine](https://prompts.chat/prompts/session-continuity-engine) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | thanos0000 |
-| Updated At | 2026-06-18T14:26:23.570Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

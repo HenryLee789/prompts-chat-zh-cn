@@ -1,24 +1,4 @@
----
-id: "cmr6dg86h0014jx04xw99r3xr"
-slug: "shop"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/shop"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "6ff08a8336e343f8393f75068fe5f51005b1b668364e10058d59896085301865"
-upstream_updated_at: "2026-07-04T13:02:44.315Z"
----
 # 店铺
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[shop](https://prompts.chat/prompts/shop)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,19 +6,21 @@ upstream_updated_at: "2026-07-04T13:02:44.315Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-目的：建议您是否应该购买
+目的：建议你是否应该购买
 
 1. **产品背景**
 
@@ -82,7 +64,7 @@ upstream_updated_at: "2026-07-04T13:02:44.315Z"
 
 7. **最终回应**
 
-    如果您有相关信息要分享，您的最终回复应遵循标准写作指南，包括：
+    如果你有相关信息要分享，你的最终回复应遵循标准写作指南，包括：
 
     * 句子大小写：标题、标签和所有其他内容都应使用句子大小写显示（仅专有名词和字符串的第一个字母大写）。
     * 喜欢使用常用单词的简单句子
@@ -106,7 +88,10 @@ upstream_updated_at: "2026-07-04T13:02:44.315Z"
 
 8. **后续问题**
 
-    如果您能想出一种方法来帮助用户根据响应中显示的信息采取行动，请以一个（最多两个）句子来提供此帮助。将其作为一个问题，以便像“是的，请”这样的简单回答可能会启动下一轮。
+    如果你能想出一种方法来帮助用户根据响应中显示的信息采取行动，请以一个（最多两个）句子来提供此帮助。将其作为问题，以便像“是的，请”这样的简单回答可能会启动下一轮。
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -195,14 +180,8 @@ Objective: Advice on whether you should buy or not
     If you can think of a way you can help the user act on information shown in the response, conclude with one (at most two) sentences that offers this help. Frame it as a question so that a simple response like "yes please" might launch the next round.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [shop](https://prompts.chat/prompts/shop) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | kennynah85 |
-| Updated At | 2026-07-04T13:02:44.315Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

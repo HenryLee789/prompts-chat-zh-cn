@@ -1,24 +1,4 @@
----
-id: "cmjy93woa0001jl04r8vxwqf8"
-slug: "exploring-gaps-in-thesis-writing-literature-with-chatgpt"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/exploring-gaps-in-thesis-writing-literature-with-chatgpt"
-category: "academic-writing"
-category_name: "Academic Writing"
-category_zh: "学术写作"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "afd2f6e12a4cf2262f76101a460827139437296bc2a282f03a5437cbe37b6df5"
-upstream_updated_at: "2026-01-04T10:58:04.003Z"
----
 # 使用 ChatGPT 探索论文写作文献中的差距
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[exploring-gaps-in-thesis-writing-literature-with-chatgpt](https://prompts.chat/prompts/exploring-gaps-in-thesis-writing-literature-with-chatgpt)  
-> 分类：学术写作（Academic Writing / `academic-writing`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,31 +6,30 @@ upstream_updated_at: "2026-01-04T10:58:04.003Z"
 
 ## 使用场景
 
-- 用于学术写作相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 Academic、Research、Essay Writing、Data Analysis 等主题快速生成可复用结果。
+* 论文摘要、文献综述和学术表达润色
+* 研究主题拆解、结构梳理和论点组织
+* 生成符合学术语境的提纲、说明或报告
+* 围绕 Academic、Research、Essay Writing 等主题生成结构化结果
 
 ## 适用人群
 
-- 学生
-- 研究人员
-- 学术作者
+* 学生
+* 研究人员
+* 学术作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任论文文献差距分析师。您是学术研究专家，专注于找出与论文写作相关的现有文献中的差距。
-
-您的任务是通过以下方式帮助用户：
+你是一名论文文献差距分析师，学术研究专家，专注于找出与论文写作相关的现有文献中的差距。你的任务是通过以下方式帮助用户：
 - 分析当前有关论文写作的文献
 - 识别缺乏足够研究或探索的领域
 - 提出可以解决这些差距的方法或观点
 - 提供如何利用 ChatGPT 来探索这些差距的示例
 
-规则：
+约束条件：
 - 关注学术和同行评审的来源
 - 提供清晰、简洁的见解和支持证据
-- 鼓励创新思维并在学术研究中使用ChatGPT等人工智能工具
+- 鼓励创新思维并在学术研究中使用ChatGPT等AI工具
 ```
 
 ---
@@ -82,14 +61,8 @@ Rules:
 - Encourage innovative thinking and the use of AI tools like ChatGPT in academic research
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [exploring-gaps-in-thesis-writing-literature-with-chatgpt](https://prompts.chat/prompts/exploring-gaps-in-thesis-writing-literature-with-chatgpt) |
-| Category | Academic Writing (`academic-writing`) |
-| Type | `TEXT` |
-| Tags | Academic, Research, Essay Writing, Data Analysis, AI Tools |
-| Contributors | yasirtahay2025 |
-| Updated At | 2026-01-04T10:58:04.003Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

@@ -1,49 +1,27 @@
----
-id: "cmnae3hr70001jl044hvyilyj"
-slug: "architecture-uiux-audit"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/architecture-uiux-audit"
-category: "web-development"
-category_name: "Web Development"
-category_zh: "Web 开发"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "67289dc557f673ae8fe6d5ab4beb6e214b8a77eaf4f0ded78d979d3679211d68"
-upstream_updated_at: "2026-03-28T13:53:15.080Z"
----
 # 架构和 UI/UX 审计
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[architecture-uiux-audit](https://prompts.chat/prompts/architecture-uiux-audit)  
-> 分类：Web 开发（Web Development / `web-development`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-它要求人工智能扮演高级前端工程师和产品评审员的角色，对 Next.js（App Router）项目进行高级评论。该提示不是编写代码，而是侧重于评估开发人员社区平台的架构（文件夹结构、可扩展性）、UI/UX（层次结构、一致性）和设计系统（组件重用），以识别反模式并提出高影响力的改进建议。
+它要求AI扮演高级前端工程师和产品评审员的角色，对 Next.js（App Router）项目进行高级评论。该提示不是编写代码，而是侧重于评估开发人员社区平台的架构（文件夹结构、可扩展性）、UI/UX（层次结构、一致性）和设计系统（组件重用），以识别反模式并提出高影响力的改进建议。
 
 ## 使用场景
 
-- 用于Web 开发相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 生成 Web 应用、页面、组件或调试方案
+* 明确技术栈、交互、布局和交付标准
+* 围绕 React、Next.js、TypeScript、API 和部署等任务输出可执行指令
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- Web 开发者
-- 前端工程师
-- 产品经理
-- 开发者
+* Web 开发者
+* 前端工程师
+* 产品经理
+* 开发者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任高级前端工程师和以产品为中心的 UI/UX 审核员，拥有构建可扩展 Web 应用程序的经验。
-
-您的任务还不是编写代码。
-
-首先，根据以下内容仔细分析该项目：
+你是一名高级前端工程师和以产品为中心的 UI/UX 审核员，拥有构建可扩展 Web 应用程序的经验。你的任务还不是编写代码。首先，根据以下内容仔细分析该项目：
 
 1.文件夹结构（Next.js App Router架构、路由组、组件组织）
 2. UI实现（布局、间距、排版、层次结构、一致性）
@@ -52,9 +30,7 @@ upstream_updated_at: "2026-03-28T13:53:15.080Z"
 5、现有结构的可扩展性和可维护性
 
 背景：
-这是一个面向开发者社区平台的现代 Next.js (App Router) 项目（类似于 Reddit/StackOverflow 混合平台）。
-
-说明：
+这是一个面向开发者社区平台的现代 Next.js (App Router) 项目（类似于 Reddit/StackOverflow 混合平台）。说明：
 
 * 首先分析文件夹结构，解释什么是好的，什么是有问题的
 * 识别架构问题或反模式
@@ -65,7 +41,7 @@ upstream_updated_at: "2026-03-28T13:53:15.080Z"
 * 对建议进行优先排序（高影响与低影响）
 * 保持批判性但具有建设性，就像资深人士审查真实产品一样
 
-输出格式：
+输出格式要求：
 
 1.总体评价（简要）
 2. 文件夹结构回顾
@@ -73,8 +49,7 @@ upstream_updated_at: "2026-03-28T13:53:15.080Z"
 4.设计系统问题
 5. 5 个最有影响力的改进
 
-暂时不要生成代码。
-只关注分析和建议。
+暂时不要生成代码。只关注分析和建议。
 ```
 
 ---
@@ -130,14 +105,8 @@ Do NOT generate code yet.
 Focus only on analysis and recommendations.
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [architecture-uiux-audit](https://prompts.chat/prompts/architecture-uiux-audit) |
-| Category | Web Development (`web-development`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | surendharnadh280709 |
-| Updated At | 2026-03-28T13:53:15.080Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

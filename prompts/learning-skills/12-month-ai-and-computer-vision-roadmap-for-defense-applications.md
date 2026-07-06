@@ -1,46 +1,27 @@
----
-id: "cmkag89dn0001l704mdz8xdov"
-slug: "12-month-ai-and-computer-vision-roadmap-for-defense-applications"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/12-month-ai-and-computer-vision-roadmap-for-defense-applications"
-category: "learning-skills"
-category_name: "Learning & Skills"
-category_zh: "学习技能"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "18207b7e4b153e8e321e31f8c2babcfc7bea5f358214b5b25c1cda0aef9a4d80"
-upstream_updated_at: "2026-01-12T00:54:39.489Z"
----
-# 国防应用的 12 个月人工智能和计算机视觉路线图
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[12-month-ai-and-computer-vision-roadmap-for-defense-applications](https://prompts.chat/prompts/12-month-ai-and-computer-vision-roadmap-for-defense-applications)  
-> 分类：学习技能（Learning & Skills / `learning-skills`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
+# 国防应用的 12 个月AI和计算机视觉路线图
 
 ## 中文说明
 
-利用教育背景和顶点项目，为海军陆战队退伍军人制定详细的 12 个月路线图，专门研究人工智能驱动的计算机视觉系统用于国防。
+利用教育背景和顶点项目，为海军陆战队退伍军人制定详细的 12 个月路线图，专门研究AI驱动的计算机视觉系统用于国防。
 
 ## 使用场景
 
-- 用于学习技能相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 AI Tools、Advanced、Computer Vision、Career 等主题快速生成可复用结果。
+* 设计学习路径、练习方式和复盘方法
+* 把复杂主题拆解成可学习步骤
+* 生成个性化学习策略和反馈
+* 围绕 AI Tools、Advanced、Computer Vision 等主题生成结构化结果
 
 ## 适用人群
 
-- 学习者
-- 教师
-- 培训人员
+* 学习者
+* 教师
+* 培训人员
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
-  "role": "人工智能和计算机视觉专家教练",
+  "role": "AI和计算机视觉专家教练",
   “上下文”：{
     "educational_background": "2026 年 12 月毕业，获得计算机工程学士学位，辅修机器人技术和普通话。",
     "programming_skills": "基础 Python、C++ 和 Rust。",
@@ -61,21 +42,21 @@ upstream_updated_at: "2026-01-12T00:54:39.489Z"
     "languages": "Python（中级）、Rust（基础）、C++（基础）",
     “硬件”：“ESP32、RP2040、树莓派”，
     "current_skills": "OpenCV（学习）、PyTorch（熟悉）、基本物体跟踪",
-    "target_skills": "边缘人工智能优化、ROS2、AR 开发、变压器架构"
+    "target_skills": "边缘AI优化、ROS2、AR 开发、变压器架构"
   },
   “职业目标”：{
     “target_companies”：[“Anduril”，“Palantir”，“SpaceX”，“诺斯罗普·格鲁曼”]，
-    "specialization": "计算机视觉用于威胁检测并最小化 1 类错误。",
-    “focus_areas”：“用于军事机器人、上下文感知视觉系统、实时自主侦察的边缘人工智能。”
+    "specialization": "计算机视觉用于威胁检测并最小化 1 类bug。",
+    “focus_areas”：“用于军事机器人、上下文感知视觉系统、实时自主侦察的边缘AI。”
   },
   “路线图要求”：{
     "milestones": "2026 年 1 月至 2026 年 12 月的每月里程碑细分。",
     “研究论文”：[
       “注视估计和眼球追踪”，
       “用于视觉和序列预测的 Transformer 架构”，
-      “边缘人工智能和模型优化技术”，
+      “边缘AI和模型优化技术”，
       “军事环境中的物体检测和威胁分类”，
-      “情境感知人工智能系统”，
+      “情境感知AI系统”，
       “ROS2与计算机视觉的集成”，
       “AR叠加和人机协作”
     ],
@@ -105,7 +86,7 @@ upstream_updated_at: "2026-01-12T00:54:39.489Z"
       “上下文感知模型架构”，
       《运营商-AI组队与人为因素》，
       “多传感器融合”，
-      “保护隐私的设备上人工智能”
+      “保护隐私的设备上AI”
     ],
     “工业_准备”：{
       "GitHub": "国防承包商审查的投资组合优化",
@@ -120,7 +101,7 @@ upstream_updated_at: "2026-01-12T00:54:39.489Z"
       “实践优先于理论”，
       “注重战场应用技巧”，
       “强调边缘部署”，
-      “在战争中纳入人工智能的道德考虑”，
+      “在战争中纳入AI的道德考虑”，
       “在项目中利用美国海军陆战队的背景”
     ]
   },
@@ -245,14 +226,8 @@ Create a detailed 12-month roadmap for a Marine Corps veteran to specialize in A
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [12-month-ai-and-computer-vision-roadmap-for-defense-applications](https://prompts.chat/prompts/12-month-ai-and-computer-vision-roadmap-for-defense-applications) |
-| Category | Learning & Skills (`learning-skills`) |
-| Type | `TEXT` |
-| Tags | AI Tools, Advanced, Computer Vision, Career, Learning, Roadmap |
-| Contributors | ezekielamitchell |
-| Updated At | 2026-01-12T00:54:39.489Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

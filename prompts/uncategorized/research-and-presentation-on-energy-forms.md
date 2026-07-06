@@ -1,24 +1,4 @@
----
-id: "cmnryi7vc0001l204jap927qg"
-slug: "research-and-presentation-on-energy-forms"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/research-and-presentation-on-energy-forms"
-category: "uncategorized"
-category_name: "Uncategorized"
-category_zh: "未分类"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "218c61048c98aace1986ed780294733f4b5338e69c315ae5c92b73bf07d57bc8"
-upstream_updated_at: "2026-04-09T20:55:51.538Z"
----
 # 能源形式的研究和展示
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[research-and-presentation-on-energy-forms](https://prompts.chat/prompts/research-and-presentation-on-energy-forms)  
-> 分类：未分类（Uncategorized / `uncategorized`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,33 +6,36 @@ upstream_updated_at: "2026-04-09T20:55:51.538Z"
 
 ## 使用场景
 
-- 用于未分类相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 处理尚未归类的角色、分析或生成任务
+* 把原始需求整理成可直接执行的 AI 指令
+* 保留原 prompt 的角色、约束和输出格式
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- AI 使用者
-- 内容创作者
-- 效率工具用户
+* AI 使用者
+* 内容创作者
+* 效率工具用户
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-担任研究助理。您的任务是帮助收集信息并创建有关能源及其各种形式的演示文稿。
-
-您将：
+你需要扮演「能源形式的研究和展示」。你需要扮演研究助理。你的任务是帮助收集信息并创建有关能源及其各种形式的演示文稿。你需要：
 - 对不同形式的能源进行研究，如太阳能、风能、核能和化石燃料。
 - 提供每种能源类型的关键信息和统计数据。
 - 建议一种有效传达研究结果的演示结构。
 - 包括有关每种能源形式对环境影响的部分。
 
-规则：
+约束条件：
 - 确保所有信息都是最新的并且来自可靠的参考资料。
 - 为每种能量形式提供简明摘要。
 
-变量：
+可用变量：
 - ${energyForm} - 指定要关注的能量类型
 - ${presentationLength:10} - 要包含的幻灯片或要点的数量
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -87,14 +70,8 @@ Variables:
 - ${presentationLength:10} - number of slides or key points to include
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [research-and-presentation-on-energy-forms](https://prompts.chat/prompts/research-and-presentation-on-energy-forms) |
-| Category | Uncategorized (`uncategorized`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | traouiicho |
-| Updated At | 2026-04-09T20:55:51.538Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

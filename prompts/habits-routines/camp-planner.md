@@ -1,41 +1,23 @@
----
-id: "cmm0mdq3s0007kw042x6evlwq"
-slug: "camp-planner"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/camp-planner"
-category: "habits-routines"
-category_name: "Habits & Routines"
-category_zh: "习惯与日常流程"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "9052755ddf3bda62a1b21070e2af15672913fa4d4b06bb090ee9a225a625f4e8"
-upstream_updated_at: "2026-02-26T06:26:40.472Z"
----
 # 营地规划师
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[camp-planner](https://prompts.chat/prompts/camp-planner)  
-> 分类：习惯与日常流程（Habits & Routines / `habits-routines`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-这个提示词用于习惯与日常流程场景，可帮助用户把任务目标、角色设定和输出要求一次性说明清楚。
+用于让 AI 围绕「营地规划师」执行习惯管理与日程规划任务。它会保留原始角色、任务目标、约束条件和输出要求，适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 使用场景
 
-- 用于习惯与日常流程相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
+* 制定习惯养成计划和日程安排
+* 拆解目标、障碍和执行反馈
+* 生成可持续的自我管理流程
+* 适合直接复制给 ChatGPT、Claude、Gemini 等对话式 AI 使用。
 
 ## 适用人群
 
-- 自我提升用户
-- 效率工具用户
-- 教练
+* 自我提升用户
+* 效率工具用户
+* 教练
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -165,14 +147,8 @@ Camp Planner
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [camp-planner](https://prompts.chat/prompts/camp-planner) |
-| Category | Habits & Routines (`habits-routines`) |
-| Type | `TEXT` |
-| Tags | None |
-| Contributors | yigitdemiralp06 |
-| Updated At | 2026-02-26T06:26:40.472Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

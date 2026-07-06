@@ -1,24 +1,4 @@
----
-id: "cmja8kak5000ptr0sihtoh9iq"
-slug: "high-end-beauty-editorial-photo-shoot-specification"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/high-end-beauty-editorial-photo-shoot-specification"
-category: "image-generation"
-category_name: "Image Generation"
-category_zh: "图像生成"
-type: "IMAGE"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "29bcb46c0d24bcb9134b3bb625f7013b00bcbc910f2e2791922ed7e3c8536646"
-upstream_updated_at: "2026-01-24T14:36:20.619Z"
----
 # 高端美容编辑照片拍摄规范
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[high-end-beauty-editorial-photo-shoot-specification](https://prompts.chat/prompts/high-end-beauty-editorial-photo-shoot-specification)  
-> 分类：图像生成（Image Generation / `image-generation`）  
-> 类型：`IMAGE`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
@@ -26,17 +6,18 @@ upstream_updated_at: "2026-01-24T14:36:20.619Z"
 
 ## 使用场景
 
-- 用于图像生成相关任务的 AI prompt 输入。
-- 用于图像生成模型的画面描述、风格控制和视觉创意生成。
-- 适合围绕 Art 等主题快速生成可复用结果。
+* 生成可直接用于图像模型的中文画面提示词
+* 描述主体、构图、光线、风格和画质要求
+* 把创意概念转化为稳定的视觉生成指令
+* 围绕 Art 等主题生成结构化结果
 
 ## 适用人群
 
-- 设计师
-- AI 绘图用户
-- 内容创作者
+* 设计师
+* AI 绘图用户
+* 内容创作者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
 {
@@ -164,6 +145,9 @@ upstream_updated_at: "2026-01-24T14:36:20.619Z"
     }
   ]
 }
+
+输出要求：
+- 按原 prompt 要求的格式输出。
 ```
 
 ---
@@ -307,14 +291,8 @@ This JSON contains a detailed specification for a high-end beauty editorial phot
 }
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [high-end-beauty-editorial-photo-shoot-specification](https://prompts.chat/prompts/high-end-beauty-editorial-photo-shoot-specification) |
-| Category | Image Generation (`image-generation`) |
-| Type | `IMAGE` |
-| Tags | Art |
-| Contributors | cipeberre |
-| Updated At | 2026-01-24T14:36:20.619Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)

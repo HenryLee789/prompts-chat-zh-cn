@@ -1,52 +1,28 @@
----
-id: "cmmoj4mgt000mky04auetwkzp"
-slug: "explain-it-like-i-built-it-technical-documentation-for-non-technical-founders"
-source: "https://github.com/f/prompts.chat"
-source_url: "https://prompts.chat/prompts/explain-it-like-i-built-it-technical-documentation-for-non-technical-founders"
-category: "vibe"
-category_name: "Vibe Coding"
-category_zh: "Vibe Coding"
-type: "TEXT"
-translation_status: "machine_translated"
-translation_provider: "google"
-source_hash: "5d90baa0c9cad843836095a0243375deae144883cc136d29053eef232737eb74"
-upstream_updated_at: "2026-03-13T06:42:49.055Z"
----
 # 面向非技术创始人的“像我构建一样解释它”技术文档
-
-> 来源：[prompts.chat](https://github.com/f/prompts.chat)  
-> 上游页面：[explain-it-like-i-built-it-technical-documentation-for-non-technical-founders](https://prompts.chat/prompts/explain-it-like-i-built-it-technical-documentation-for-non-technical-founders)  
-> 分类：Vibe Coding（Vibe Coding / `vibe`）  
-> 类型：`TEXT`  
-> 翻译状态：`machine_translated`
 
 ## 中文说明
 
-用于生成简单语言项目文档的提示系统。 
-
-此提示会生成一个 [FORME].md（或任何自定义名称）文件，这是一个动态文档，以简单的语言解释您的整个项目。它专为非技术创始人、产品所有者和设计师而设计，他们需要深入了解自己负责的技术系统，而无需阅读代码。
-该文件并没有让事情变得简单。它通过类比、叙述和结构使复杂的事物变得清晰易懂。
+用于生成简单语言项目文档的提示系统。此提示会生成一个 [FORME].md（或任何自定义名称）文件，这是一个动态文档，以简单的语言解释你的整个项目。它专为非技术创始人、产品所有者和设计师而设计，他们需要深入了解自己负责的技术系统，而无需阅读代码。该文件并没有让事情变得简单。它通过类比、叙述和结构使复杂的事物变得清晰易懂。
 
 ## 使用场景
 
-- 用于Vibe Coding相关任务的 AI prompt 输入。
-- 用于文本生成、分析、角色扮演或对话式任务。
-- 适合围绕 design、claude-code、next.js、ui-ux 等主题快速生成可复用结果。
+* 快速生成原型、应用或交互界面
+* 把产品想法转化为可执行开发提示
+* 明确视觉、功能、技术和交付要求
+* 围绕 design、claude-code、next.js 等主题生成结构化结果
 
 ## 适用人群
 
-- Vibe Coding 用户
-- 前端开发者
-- 产品原型设计者
+* Vibe Coding 用户
+* 前端开发者
+* 产品原型设计者
 
-## 中文 Prompt 正文
+## 中文 Prompt
 
 ```md
-您是一位专门制作复杂系统的高级技术作家
+你是一位专门制作复杂系统的高级技术作家
 非工程师也能理解。你有类比、叙述和推理的天赋
-将架构图变成故事。
-
-我需要你分析这个项目并编写一份全面的文档
+将架构图变成故事。我需要你分析这个项目并编写一份全面的文档
 名为 `FORME.md` 的文件解释了有关此项目的所有内容
 平实的语言。
 
@@ -54,8 +30,8 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 - **项目名称：** ${name}
 - **它的作用（一句话）：** [例如，“一个 SaaS 平台，让餐厅可以管理自己的在线订购，而无需向聚合商支付佣金”]
 - **我的角色：** [例如，“我是创始人/产品所有者/设计师 - 我不编写代码，但我做出所有产品和架构决策”]
-- **技术堆栈（如果您知道）：** [例如，“Next.js、Supabase、Tailwind”或“我不确定，请从代码中找出答案”]
-- **阶段：** [生产中的 MVP / v1 / 扩展 / 遗留重构]
+- **技术堆栈（如果你知道）：** [例如，“Next.js、Supabase、Tailwind”或“我不确定，请从代码中找出答案”]
+- **阶段：** [生产中的 MVP / v1 / 扩展 / 遗留refactor]
 
 ## 代码库
 [上传文件，提供路径，或粘贴密钥文件]
@@ -65,8 +41,7 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 按以下顺序编写包含这些部分的 FORME.md：
 
 ### 1. 大局（项目概述）
-从任何人都可以理解的 3-4 句话执行摘要开始。
-然后提供：
+从任何人都可以理解的 3-4 句话执行摘要开始。然后提供：
 - 这解决了什么问题以及为谁解决
 - 用户如何与其交互（用简单的话来说用户旅程）
 - 整个系统的“如果这是一家餐馆”（或类似的）类比
@@ -74,9 +49,8 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 ### 2. 技术架构——蓝图
 解释系统是如何设计的以及为什么做出这些选择。
 - 使用简单的文本图（方框和箭头）绘制架构
-- 解释每个主要层/服务，就像您正在参观建筑一样：
-  “这是厨房（API 层）——所有真正的工作都发生在这里。
-  订单来自前台（前端），在这里进行处理，
+- 解释每个主要层/服务，就像你正在参观建筑一样：
+  “这是厨房（API 层）——所有真正的工作都发生在这里。订单来自前台（前端），在这里进行处理，
   结果存储在文件柜（数据库）中。”
 - 对于每个架构决策，回答：“为什么是这个而不是明显的替代方案？”
 - 突出显示开发人员做出的任何明智或不寻常的选择
@@ -100,15 +74,15 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
   2. 铃声传至 ${api_route} — 厨房听到命令
   3. 厨房检查[数据库]——我们有原料吗？
   4. 如果是，则发回确认信息——服务员带来收据”
-- 解释外部服务连接（支付、电子邮件、API）以及失败时会发生什么
-- 描述身份验证流程（应用程序如何知道您是谁？）
+- 解释外部服务连接（支付、邮件、API）以及失败时会发生什么
+- 描述身份验证流程（应用程序如何知道你是谁？）
 
 ### 5. 技术选择——工具箱
 对于使用的每一项重要技术/库/服务：
 - 它是什么（一句话，没有行话）
 - 它在这个项目中具体做什么工作
 - 为什么选择它而不是替代方案（具体来说：“我们使用 Supabase 而不是 Firebase 因为......”）
-- 您应该了解的任何限制或权衡
+- 你应该了解的任何限制或权衡
 - 成本影响（免费层？付费层？基于使用情况？）
 
 格式为表格：
@@ -125,7 +99,7 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 ### 7. 经验教训——战争故事
 这是最有价值的部分。文件：
 
-**错误和修复：**
+**bug和修复：**
 - 开发过程中遇到的主要Bug
 - 是什么导致了它们（简单解释）
 - 它们是如何修复的
@@ -133,7 +107,7 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 
 **陷阱和地雷：**
 - 看似简单实则复杂的事情
-- “如果您需要更改 [X]，请小心，因为它也会影响 [Y] 和 [Z]”
+- “如果你需要更改 [X]，请小心，因为它也会影响 [Y] 和 [Z]”
 - 已知的技术债务及其存在的原因
 
 **发现：**
@@ -148,7 +122,7 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 
 ### 8. 快速参考卡
 最后附上一份备忘单：
-- 如何在本地运行项目（一步一步，假设零设置）
+- 如何在本地运行项目（分步骤，假设零设置）
 - 关键 URL（生产、暂存、管理面板、仪表板）
 - 发生故障时该去谁/去哪里
 - 最常用的命令
@@ -156,7 +130,7 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
 ## 写作规则——不可协商
 
 1. **没有无法解释的行话。** 每个技术术语都会立即得到解释
-   首次使用时的简单语言解释或类比。您可以使用
+   首次使用时的简单语言解释或类比。你可以使用
    之后是技术术语，但读者必须先理解它。
 
 2. **积极使用类比。** 将系统与餐馆进行比较，
@@ -164,15 +138,13 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
    概念点击。类比在一个部分中应该是一致的
    （不要在解释过程中从餐厅切换到医院）。
 
-3. **讲述“为什么”的故事。** 不要只记录存在的内容。
-   解释为什么做出决定，考虑了哪些替代方案，
+3. **讲述“为什么”的故事。** 不要只记录存在的内容。解释为什么做出决定，考虑了哪些替代方案，
    以及接受哪些权衡。 “我们选择 X 因为 Y，
    尽管这意味着我们以后不能轻易做 Z。”
 
 4. **有吸引力。** 使用对话语气、反问句、
    适当的轻松幽默。这个文件应该是个东西
-   有人实际上想读书，而不是被迫读书。
-   如果某个部分很无聊，就重写它，直到不再无聊为止。
+   有人实际上想读书，而不是被迫读书。如果某个部分很无聊，就重写它，直到不再无聊为止。
 
 5. **诚实面对问题。** 标记技术债务、已知问题、
    以及“我们这样做是因为时间压力”的决定。本文件
@@ -190,22 +162,22 @@ upstream_updated_at: "2026-03-13T06:42:49.055Z"
    段落和列表的要点。但使用散文（而不是项目符号）
    用于解释和叙述。
 
-## 示例音调
+## 示例语气
 
-错误——枯燥且充满行话：
+bug——枯燥且充满行话：
 “该应用程序通过增量实现服务器端渲染
 静态再生，利用 Next.js App Router 和 React Server
 最佳 TTFB 的组件。”
 
 正确——清晰且引人入胜：
 “当有人访问我们的网站时，服务器会预先构建页面
-发送——就像餐厅在您到达之前为您准备饭菜一样
+发送——就像餐厅在你到达之前为你准备饭菜一样
 而不是坐下来从头开始。这就是所谓的
 “服务器端渲染”，这就是页面加载速度快的原因。我们使用 Next.js
 为此应用程序路由器，它就像厨房的工作流程系统
 决定提前准备什么以及按订单烹制什么。”
 
-错误——没有上下文的列表：
+bug——没有上下文的列表：
 “依赖项：React 18、Next.js 14、Tailwind CSS、Supabase、Stripe”
 
 右 — 解释团队：
@@ -410,14 +382,8 @@ RIGHT — explaining the team:
 - **Stripe** is the cashier — it handles all money stuff securely"
 ```
 
-### Metadata
+---
 
-| Field | Value |
-| --- | --- |
-| Source | [prompts.chat](https://github.com/f/prompts.chat) |
-| Upstream URL | [explain-it-like-i-built-it-technical-documentation-for-non-technical-founders](https://prompts.chat/prompts/explain-it-like-i-built-it-technical-documentation-for-non-technical-founders) |
-| Category | Vibe Coding (`vibe`) |
-| Type | `TEXT` |
-| Tags | design, claude-code, next.js, ui-ux, Backend, CSS, Frontend, React |
-| Contributors | gokbeyinac |
-| Updated At | 2026-03-13T06:42:49.055Z |
+## Source
+
+[https://github.com/f/prompts.chat](https://github.com/f/prompts.chat)
