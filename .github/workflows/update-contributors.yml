@@ -5,6 +5,9 @@ on:
     - cron: '0 3 * * *'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-contributors:
     runs-on: ubuntu-latest
@@ -35,12 +38,17 @@ jobs:
 
       - name: Push changes
         run: |
-          git push origin main --force-with-lease
+          git push origin HEAD:main
 
       - name: Sync to Hugging Face
         env:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
         run: |
+          if [ -z "$HF_API_TOKEN" ]; then
+            echo "HF_API_TOKEN is not configured; skipping Hugging Face sync."
+            exit 0
+          fi
+
           pip install huggingface_hub
           python3 << 'EOF'
           import os
