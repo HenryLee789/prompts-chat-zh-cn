@@ -1,11 +1,6 @@
 name: Update Contributors
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/update-contributors.yml'
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch: # Allow manual trigger
