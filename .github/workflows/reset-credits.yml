@@ -11,10 +11,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Reset daily generation credits
+        shell: bash
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          RESET_CREDITS_URL: ${{ vars.RESET_CREDITS_URL }}
+          APP_URL: ${{ vars.APP_URL }}
+          NEXT_PUBLIC_APP_URL: ${{ vars.NEXT_PUBLIC_APP_URL }}
         run: |
-          response=$(curl -s -w "\n%{http_code}" -X POST \
-            "https://prompts.chat/api/cron/reset-credits" \
-            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}")
+          if [ -z "$CRON_SECRET" ]; then
+            echo "CRON_SECRET is not configured; skipping credit reset."
+            exit 0
+          fi
+
+          if [ -n "$RESET_CREDITS_URL" ]; then
+            url="$RESET_CREDITS_URL"
+          elif [ -n "$APP_URL" ]; then
+            url="${APP_URL%/}/api/cron/reset-credits"
+          elif [ -n "$NEXT_PUBLIC_APP_URL" ]; then
+            url="${NEXT_PUBLIC_APP_URL%/}/api/cron/reset-credits"
+          else
+            echo "RESET_CREDITS_URL, APP_URL, or NEXT_PUBLIC_APP_URL is not configured; skipping credit reset."
+            exit 0
+          fi
+
+          response=$(curl --silent --show-error --max-time 30 -w "\n%{http_code}" -X POST \
+            "$url" \
+            -H "Authorization: Bearer $CRON_SECRET")
           
           http_code=$(echo "$response" | tail -n1)
           body=$(echo "$response" | sed '$d')
@@ -22,8 +44,8 @@ jobs:
           echo "Response: $body"
           echo "HTTP Code: $http_code"
           
-          if [ "$http_code" != "200" ]; then
-            echo "Failed to reset credits"
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+            echo "Failed to reset credits at $url"
             exit 1
           fi
           
