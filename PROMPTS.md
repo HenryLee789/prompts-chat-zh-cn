@@ -147796,3 +147796,16 @@ Do not label every wrong answer a hallucination when the true issue is poor retr
 
 </details>
 
+<details>
+<summary><strong>Claude setup test - safe to delete</strong></summary>
+
+## Claude setup test - safe to delete
+
+Contributed by @anonymous
+
+```md
+This is a test prompt created to verify API authentication.
+```
+
+</details>
+

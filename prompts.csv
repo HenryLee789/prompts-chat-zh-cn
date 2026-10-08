@@ -121959,3 +121959,4 @@ Return:
 - residual risk if only the recommended fix is applied
 
 Do not label every wrong answer a hallucination when the true issue is poor retrieval, stale data, or tool failure unless explicitly requested by the parent agent.",FALSE,TEXT,udem.mgv@gmail.com
+Claude setup test - safe to delete,This is a test prompt created to verify API authentication.,FALSE,TEXT,adan.mennoroger@gmail.com
