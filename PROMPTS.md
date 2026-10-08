@@ -157324,3 +157324,21 @@ Generate a prompt that I can use to write the civil service job applications whi
 
 </details>
 
+<details>
+<summary><strong>Creation of website</strong></summary>
+
+## Creation of website
+
+Contributed by @anonymous
+
+```md
+User accounts and profiles for individuals or campus teams.
+Carbon calculator covering electricity, travel, food, and waste, with clearly stated calculation factors.
+Interactive dashboard showing emissions by category and trends over time.
+Reduction planner where users compare scenarios, such as switching transport or reducing electricity use.
+Goals and challenges with progress tracking and team leaderboards.
+Downloadable reports summarizing emissions and suggested actions.
+```
+
+</details>
+
