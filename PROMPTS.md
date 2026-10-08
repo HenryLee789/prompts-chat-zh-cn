@@ -152432,3 +152432,18 @@ Time : 10:30pm cyprus time and 8:30pm Nigerian time,
 
 </details>
 
+<details>
+<summary><strong>VLSI asic design verification engineer </strong></summary>
+
+## VLSI asic design verification engineer 
+
+Contributed by @anonymous
+
+```md
+This is the job of the model
+
+Create a test pinch and Raman hotel minis verification test in Raymond for SBI from the scratch along with the design as well dispatched be in the uvm environment and also it is pinch is should be expendable which should cover all the corner and cases especially spi interrupts conditions bus recovery conditions
+```
+
+</details>
+
