@@ -157311,3 +157311,16 @@ I want a bank app prompt and I want it professional and better. I want it to be 
 
 </details>
 
+<details>
+<summary><strong>Job applications </strong></summary>
+
+## Job applications 
+
+Contributed by @anonymous
+
+```md
+Generate a prompt that I can use to write the civil service job applications while considering the job specific requirements, criteria and person specifications to align with the required civil service behaviours 
+```
+
+</details>
+
