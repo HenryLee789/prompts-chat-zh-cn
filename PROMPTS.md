@@ -127930,7 +127930,7 @@ Contributed by [@elpicoso](https://github.com/elpicoso)
 ```md
 # Photography Trip Planning Prompt
 ## Reusable Template for Travel Photographers
-### v3.0
+### v4.0
 
 ---
 
@@ -128194,7 +128194,7 @@ Follow this order:
 
 ### Schedule splits (PowerPoint):
 - Do not split a city's daily schedule across slides by default. Combine all days for one city onto a single slide.
-- Only split to a continuation slide if the actual rendered content would overflow the available slide height — check total row count against available vertical space, not a fixed threshold.
+- Only split to a continuation slide if the actual rendered content would overflow the available slide height. Check total row count against available vertical space, not a fixed threshold.
 
 ---
 
@@ -128229,6 +128229,7 @@ Remember: the large majority of photography locations should already be shared e
 ---
 
 *Template built from a real multi-city Italy trip planning workflow, refined across multiple full deliverable rebuild cycles. Works with Claude, ChatGPT, Gemini, or any modern LLM.*
+
 ```
 
 </details>
