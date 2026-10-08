@@ -156881,3 +156881,16 @@ Contributed by @anonymous
 
 </details>
 
+<details>
+<summary><strong>Recreate an Image as an HTML and CSS Project</strong></summary>
+
+## Recreate an Image as an HTML and CSS Project
+
+Contributed by @anonymous
+
+```md
+create full project html css as well as this image 100%
+```
+
+</details>
+
