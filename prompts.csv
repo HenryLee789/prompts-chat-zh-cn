@@ -125097,3 +125097,17 @@ Before writing implementation code:
 Build the MVP first.
 
 Do not overengineer the system.",FALSE,TEXT,yakoobhaitham370@gmail.com
+Agent ,"---
+name: my-skill-name
+description: A clear description of what this skill does and when to use it
+---
+
+# My Skill
+
+Describe what this skill does and how the agent should use it.
+
+## Instructions
+
+- Step 1: ...
+- Step 2: ...
+",FALSE,TEXT,melemaliki1963@gmail.com

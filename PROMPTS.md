@@ -151126,3 +151126,29 @@ Do not overengineer the system.
 
 </details>
 
+<details>
+<summary><strong>Agent </strong></summary>
+
+## Agent 
+
+Contributed by @anonymous
+
+```md
+---
+name: my-skill-name
+description: A clear description of what this skill does and when to use it
+---
+
+# My Skill
+
+Describe what this skill does and how the agent should use it.
+
+## Instructions
+
+- Step 1: ...
+- Step 2: ...
+
+```
+
+</details>
+
