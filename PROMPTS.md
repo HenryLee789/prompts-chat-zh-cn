@@ -147691,3 +147691,16 @@ Do not declare V1 complete until the Final Gate is green.
 
 </details>
 
+<details>
+<summary><strong>shipping stamp</strong></summary>
+
+## shipping stamp
+
+Contributed by [@jmartsdesign](https://github.com/jmartsdesign)
+
+```md
+create a PNG image like a stamp saying sent to $(country). Image in red, retro style, horizontal stamp
+```
+
+</details>
+

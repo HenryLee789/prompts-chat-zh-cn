@@ -121890,3 +121890,4 @@ Do not skip failed gates.
 
 Do not declare V1 complete until the Final Gate is green.
 ",FALSE,TEXT,zxpnaruto@gmail.com
+shipping stamp,"create a PNG image like a stamp saying sent to $(country). Image in red, retro style, horizontal stamp",FALSE,TEXT,jmartsdesign
