@@ -154726,3 +154726,16 @@ My TMA should also have few references (in harvard style) but End reference and 
 
 </details>
 
+<details>
+<summary><strong>Başlık</strong></summary>
+
+## Başlık
+
+Contributed by @anonymous
+
+```md
+ti ve kahiredeki otel kaldı aşkım benim aşkım benim haklısın ama bu paylaş Facebook Tweet ve fotoğrafları${aşkım}
+```
+
+</details>
+
