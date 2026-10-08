@@ -151644,3 +151644,16 @@ Design and creation of a marketing plan on Social Media platforms to market Haye
 
 </details>
 
+<details>
+<summary><strong>Teach me module 2</strong></summary>
+
+## Teach me module 2
+
+Contributed by @anonymous
+
+```md
+Teach me module 2 properly and sequentially in proper flow, compare both document and include every numerical and theory sequentially from both documents
+```
+
+</details>
+
