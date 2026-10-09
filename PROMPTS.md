@@ -163743,3 +163743,16 @@ Contributed by @anonymous
 
 </details>
 
+<details>
+<summary><strong>Ancient Roman Coin Identifier and Auction Listing Writer</strong></summary>
+
+## Ancient Roman Coin Identifier and Auction Listing Writer
+
+Contributed by @anonymous
+
+```md
+Identify and catalog ancient Roman coins from submitted images and text. Write a complete auction listing with descriptions and references used.
+```
+
+</details>
+
