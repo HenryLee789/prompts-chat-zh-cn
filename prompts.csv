@@ -163478,3 +163478,9 @@ Issue Reproducer,"- When a new issue labeled bug arrives, read it and identify v
 - Write a minimal reproduction (script or test) and the observed output.
 - Propose labels (confirmed, needs-info, cannot-reproduce); comment or label only after approval.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
+SDK Change Explainer,"- Track a list of upstream repos the user depends on; read new releases, changelogs and merged PRs.
+- Search the user's repo for usages of changed or deprecated APIs.
+- For each release write: what changed, files in our code that are affected, suggested diff, risk level.
+- Ignore releases that touch nothing we use, but list them in one line.
+- Offer to open a draft PR with the migration; never merge.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
