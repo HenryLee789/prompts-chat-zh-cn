@@ -198402,3 +198402,16 @@ A calm river runs through a historic Vietnamese old town at blue hour, its dark 
 
 </details>
 
+<details>
+<summary><strong>Kneipe </strong></summary>
+
+## Kneipe 
+
+Contributed by @anonymous
+
+```md
+​Bei allem, was du über mich weißt: Erstelle eine Kneipe, die meinen Humor in seiner eigenen Form verkörpert. Gib ihr einen kreativen Namen und zeige sie in einem detaillierten Bild. Erkläre direkt im Bild, welche Elemente, Stimmung und besonderen Details meinen Humor widerspiegeln und warum sie zu mir passen.
+```
+
+</details>
+
