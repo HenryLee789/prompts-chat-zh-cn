@@ -196407,3 +196407,21 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>API Deprecation Countdown</strong></summary>
+
+## API Deprecation Countdown
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Inventory dependencies, runtimes (Node, Python), cloud APIs and SaaS APIs from the repo and config.
+- Check official docs and changelogs for deprecation and EOL dates.
+- Maintain a countdown list sorted by date, with where in the code each is used.
+- Remind at 90, 30, 14 and 7 days before each date, with migration notes.
+- Remove items once the code no longer references them.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
