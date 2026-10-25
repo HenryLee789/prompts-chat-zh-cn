@@ -163946,3 +163946,8 @@ Photo Story Gallery,"- For each photo the user sends, read EXIF date and place, 
 - Add the entry to the gallery source in a Spacefast workspace and show a preview before publishing.
 - Strip precise GPS from the published copy unless the user explicitly wants it public.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Site Feedback Triage,"- Read open and unread comment threads on the user's Spaces, including attached screenshots, page path and version.
+- Classify each: bug, copy/typo, design, feature idea, spam or question; merge duplicates.
+- For simple fixes, draft the exact source change in a workspace and link it to the thread.
+- Draft replies, but only post or resolve threads after the user says yes.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
