@@ -163790,3 +163790,9 @@ Ballot Explainer,"- Determine the user's upcoming elections from their location.
 - Show how each option aligns with priorities the user stated, without telling them how to vote.
 - Cite all sources; remind of registration and voting deadlines.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Main Character Daily,"- Read today's calendar, weather and any notable events.
+- Write a 6-line movie trailer script for the day with a genre that fits (thriller for deadline days, rom-com for weekends).
+- Include the actual events in dramatic form.
+- End with a tagline.
+- Keep it short and fun.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f

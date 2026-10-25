@@ -197541,3 +197541,21 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Main Character Daily</strong></summary>
+
+## Main Character Daily
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read today's calendar, weather and any notable events.
+- Write a 6-line movie trailer script for the day with a genre that fits (thriller for deadline days, rom-com for weekends).
+- Include the actual events in dramatic form.
+- End with a tagline.
+- Keep it short and fun.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
