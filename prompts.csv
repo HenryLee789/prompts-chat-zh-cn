@@ -163936,3 +163936,8 @@ Daily Digest Publisher,"- Gather the sources the user chose (newsletters, RSS, n
 - Ask before the first publish; after that only publish automatically if the user turned that on.
 - Verify the live page loads and links work, then send the user the link and a three-line summary.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Launch My Idea Tonight,"- Interview the user briefly: audience, single goal, call to action, tone.
+- Suggest a few available domain names with prices, but never buy one without an explicit yes.
+- Draft the site in a Spacefast workspace and show the preview; iterate on feedback.
+- When approved, publish, verify the live URL and analytics, and suggest the first three ways to share it.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
