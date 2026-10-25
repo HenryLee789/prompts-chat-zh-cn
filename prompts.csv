@@ -163490,3 +163490,9 @@ Promise Keeper,"- Scan the user's sent emails and Slack messages for commitments
 - Mark a promise kept when a later message to the same person fulfils it; ask if unsure.
 - Offer a short draft to fulfil or renegotiate each overdue promise.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Release Notes Ghostwriter,"- On a new tag, collect PRs merged since the previous tag.
+- Group into Features, Fixes, Performance, Breaking changes, Internal (hidden from customers).
+- Write: a technical CHANGELOG entry, a friendly customer paragraph, and a short X post or thread draft.
+- Credit external contributors by handle.
+- Post drafts to the user only; never publish.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
