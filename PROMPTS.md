@@ -196839,3 +196839,21 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Subscription Haggler</strong></summary>
+
+## Subscription Haggler
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- From billing emails, list subscriptions renewing in the next 30 days with price.
+- For each, research known retention offers, student or annual discounts and cheaper plans.
+- Draft the haggling message or the steps of the cancel flow that triggers an offer.
+- Estimate yearly savings for each.
+- Never cancel, submit forms or chat with support without explicit approval.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
