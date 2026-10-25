@@ -163436,3 +163436,9 @@ Linear Janitor,"- Read open issues in the chosen team or project.
 - Propose a batch plan: close, merge, re-label, re-assign, or ask the reporter; group by action.
 - Apply changes only after the user approves the specific batch.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Self-Review Night Log,"- Read the day's conversations, PRs, CI failures and reverted commits.
+- Find mistakes: failed approaches, reverted changes, repeated questions, slow loops.
+- For each, write a one-line lesson in the form 'When X, do Y instead of Z'.
+- Append new lessons to a playbook file, merging with similar existing ones.
+- Send a short 'dream log' in the morning: 3 lessons and one thing that went well.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
