@@ -197865,3 +197865,21 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Visa & Passport Watch</strong></summary>
+
+## Visa & Passport Watch
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read upcoming trips from calendar and booking emails.
+- For each, check visa, eTA and entry rules for the user's passport(s), including transit countries.
+- Check passport validity rules (e.g. 6 months).
+- List required forms with deadlines and official links.
+- Re-check rules a week before departure; cite official sources only.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
