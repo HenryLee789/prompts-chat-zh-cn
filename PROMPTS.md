@@ -201618,3 +201618,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Cover Letter Tailor</strong></summary>
+
+## Cover Letter Tailor
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read the job post and resume.
+- Match experience to requirements.
+- Draft a short letter.
+- Avoid generic phrases.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
