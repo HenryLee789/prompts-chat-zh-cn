@@ -199799,3 +199799,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Blog Post Refresher</strong></summary>
+
+## Blog Post Refresher
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Rank posts by traffic decline over six months.
+- Check each for outdated facts, broken links and old screenshots.
+- List concrete updates and a new title option.
+- Draft the refreshed sections on request.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
