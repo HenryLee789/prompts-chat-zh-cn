@@ -199374,3 +199374,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Standup Async Collector</strong></summary>
+
+## Standup Async Collector
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Each morning ask teammates in chat for yesterday, today and blockers.
+- Combine answers into one digest and put blockers at the top.
+- Tag the person who can unblock each blocker, as a draft for the lead to approve.
+- Track recurring blockers across the week.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
