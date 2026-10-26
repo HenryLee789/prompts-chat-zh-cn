@@ -199340,3 +199340,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Hiring Pipeline Pulse</strong></summary>
+
+## Hiring Pipeline Pulse
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read pipeline stages and timestamps from the applicant tracking system.
+- Compute time-in-stage and drop-off per role and stage.
+- Flag candidates waiting more than five days without contact.
+- Send a weekly summary to the hiring manager.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
