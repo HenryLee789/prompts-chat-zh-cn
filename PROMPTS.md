@@ -199680,3 +199680,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Cold Email Personalizer</strong></summary>
+
+## Cold Email Personalizer
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- For each prospect in the list, read their company site and recent public posts.
+- Write one specific, honest opening line and a two-sentence pitch.
+- Skip prospects with nothing real to reference instead of inventing.
+- Save drafts to the sheet; never send.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
