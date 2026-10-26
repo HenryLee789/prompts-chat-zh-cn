@@ -165635,3 +165635,8 @@ Spreadsheet to Workflow Converter,"- Ask what the user does by hand each week.
 - Propose an automation with tools the user has.
 - Estimate time saved.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Form Response Router,"- Watch new form responses.
+- Classify by topic and urgency.
+- Route a summary to the owner the user configured.
+- Flag spam.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
