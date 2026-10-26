@@ -200989,3 +200989,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Retirement Contribution Checker</strong></summary>
+
+## Retirement Contribution Checker
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read contribution and match details.
+- Check whether the full match is captured.
+- Project savings with simple assumptions.
+- Note that this is not financial advice.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
