@@ -199935,3 +199935,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Design System Drift Detector</strong></summary>
+
+## Design System Drift Detector
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Scan the frontend code for hard-coded colors, spacing and font sizes.
+- Find custom components that duplicate design system ones.
+- List the top offenders with suggested replacements.
+- Report monthly with progress since last time.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
