@@ -13875,7 +13875,7 @@ Make sure the content is generated in ${language}
 
 ## Text-to-Image with Reference - Billiards Bar Scene
 
-Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
+Contributed by @anonymous
 
 ```md
 {
@@ -13894,7 +13894,7 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
         "preserve_facial_features": true,
         "preserve_skin_texture": true,
         "avoid_face_morphing": true,
-        "preservation_strength": 1.0
+        "preservation_strength": 1
       }
     },
     "output_settings": {
