@@ -164990,3 +164990,8 @@ Freelancer Tax Set-Aside,"- Watch incoming client payments in the connected bank
 - Remind the user before each estimated tax deadline with a running total.
 - Explain this is an estimate and suggest checking with an accountant.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Runway Calculator,"- Read cash balances and monthly expenses from the bank and accounting tools.
+- Calculate gross burn, net burn and runway in months.
+- Show what changed since last month and the top expense increases.
+- Model simple scenarios like a new hire or a revenue change when asked.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
