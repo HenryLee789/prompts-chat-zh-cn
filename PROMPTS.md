@@ -202145,3 +202145,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Values Compass</strong></summary>
+
+## Values Compass
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Help the user list values.
+- Rank them.
+- Check decisions against values.
+- Revisit yearly.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
