@@ -165185,3 +165185,8 @@ Doctor Visit Prep,"- Collect symptoms, dates and changes the user logged.
 - Draft the three most important questions.
 - Remind the user to bring the summary.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Symptom Journal,"- Ask once a day about symptoms on a simple scale.
+- Log possible triggers like sleep, food and stress.
+- Show patterns monthly with honest uncertainty.
+- Never diagnose; suggest seeing a professional for concerning patterns.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
