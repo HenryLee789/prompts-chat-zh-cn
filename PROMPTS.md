@@ -202094,3 +202094,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Hard Conversation Rehearsal</strong></summary>
+
+## Hard Conversation Rehearsal
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Ask what the conversation is about.
+- Help write the key message.
+- Role-play the other person.
+- Debrief.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
