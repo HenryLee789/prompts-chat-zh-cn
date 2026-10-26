@@ -6155,19 +6155,17 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
 
 ## Luxury Ski Resort Selfie Scene Description
 
-Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
+Contributed by @anonymous
 
 ```md
 {
   "scene_type": "luxury ski resort hallway selfie, post-club drunk glow, cold-weather outfit but extremely revealing underneath",
-
   "camera_perspective": {
     "pov": "we ARE her phone screen",
     "phone_visibility": "not visible",
     "angle": "slightly high angled selfie, classic hot-girl angle",
     "framing": "face + cleavage + micro skirt + thigh-highs fully visible"
   },
-
   "subject": {
     "action": "leaning against wooden ski-lodge hallway wall after club night, taking a selfie while slightly tipsy, jacket slipping off shoulder",
     "pose": {
@@ -6176,13 +6174,11 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
       "upper_body": "jacket sliding down one arm, revealing tight top",
       "arm": "one arm extended holding phone, the other gripping jacket collar"
     },
-
     "expression": {
       "eyes": "warm, glossy bedroom eyes looking slightly up at camera",
       "mouth": "soft parted lips with bitten-lip energy",
       "overall": "club-tired but insanely hot, knows she looks good"
     },
-
     "physical": {
       "age": "early 20s",
       "body": "slim-thick, narrow waist, soft curves, thighs full",
@@ -6193,7 +6189,6 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
       },
       "skin": "cool-toned from winter air, slight pink flush on cheeks"
     },
-
     "outfit": {
       "jacket": {
         "type": "oversized white faux-fur ski jacket",
@@ -6221,14 +6216,12 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
       }
     }
   },
-
   "accessories": {
     "earrings": "large silver hoops",
     "necklace": "thin chain with tiny snowflake pendant",
     "rings": "multiple silver rings",
     "nails": "dark wine-red glossy polish"
   },
-
   "environment": {
     "location": "luxury ski resort hallway at night",
     "elements": [
@@ -6240,20 +6233,17 @@ Contributed by [@cipeberre@gmail.com](https://github.com/cipeberre@gmail.com)
     "lighting": "warm indoor lights contrasting with her cool winter skin flush",
     "vibe": "end of night, cozy-warm building but she still looks like trouble"
   },
-
   "camera": {
     "quality": "iPhone selfie quality, slight grain from low light",
     "aspect": "9:16",
     "effect": "warm tone from lights + glossy reflections from outfit"
   },
-
   "realism_details": {
     "makeup": "slightly smudged eyeliner, lips glossy but fading from drinks",
     "hair": "some strands stuck to lip gloss, snow melting into frizz at ends",
     "skin": "natural shine from dancing, slight cold flush",
     "clothes": "corset slightly shifted, mini skirt wrinkled from sitting earlier"
   },
-
   "vibe": "hot ski-resort party girl energy, drunken warmth, dangerously pretty, the girl guys fall in love with for no reason"
 }
 ```
