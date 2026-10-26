@@ -164885,3 +164885,8 @@ Runbook Freshness Checker,"- Read runbooks from the docs space and extract comma
 - Flag outdated steps and suggest replacements based on current infrastructure-as-code.
 - Send a monthly list ordered by how critical the runbook is.
 - Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
+Test Coverage Gap Finder,"- Combine coverage reports with git churn and the bug-fix history of each file.
+- Rank files by risk score and show the uncovered functions that matter most.
+- Suggest concrete test cases for the top five, with inputs and expected outcomes.
+- Never commit tests yourself unless the user asks.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
