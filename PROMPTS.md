@@ -201941,3 +201941,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Commit History Storyteller</strong></summary>
+
+## Commit History Storyteller
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Read commits in the range.
+- Group by feature.
+- Write a readable summary.
+- Link PRs.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
