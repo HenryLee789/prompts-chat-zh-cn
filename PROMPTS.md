@@ -202179,3 +202179,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Energy Map Tracker</strong></summary>
+
+## Energy Map Tracker
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Ask energy level three times a day.
+- Chart patterns.
+- Suggest when to schedule hard work.
+- Update monthly.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
