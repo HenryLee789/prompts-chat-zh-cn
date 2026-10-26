@@ -200054,3 +200054,20 @@ Contributed by [@f](https://github.com/f)
 
 </details>
 
+<details>
+<summary><strong>Board Meeting Prep Kit</strong></summary>
+
+## Board Meeting Prep Kit
+
+Contributed by [@f](https://github.com/f)
+
+```md
+- Two weeks before the board meeting build the pack outline.
+- Collect metrics and owner sections with deadlines.
+- Draft the narrative and the decisions requested.
+- Send pre-read reminders on schedule as drafts.
+- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
+```
+
+</details>
+
