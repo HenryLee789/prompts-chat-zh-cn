@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Photo Shoot Planner</strong></summary>
-
-## Photo Shoot Planner
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask the subject and location.
-- Check sunrise, sunset and weather.
-- Write a shot list.
-- Make a gear checklist.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Video Script Doctor</strong></summary>
 
 ## Video Script Doctor
