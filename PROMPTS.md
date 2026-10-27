@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Follow-Up Nudger</strong></summary>
-
-## Follow-Up Nudger
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Track sent emails that ask a question or request something.
-- After the user's chosen wait time, list threads with no reply.
-- Draft a short, friendly follow-up for each.
-- Send only after approval.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Newsletter Unsubscribe Butler</strong></summary>
 
 ## Newsletter Unsubscribe Butler
