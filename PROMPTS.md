@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Local Phrasebook Packer</strong></summary>
-
-## Local Phrasebook Packer
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask the destination and trip type.
-- List the 30 most useful phrases with pronunciation.
-- Add tipping, greeting and dress etiquette.
-- Export as a printable page.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Hotel Price Rebooker</strong></summary>
 
 ## Hotel Price Rebooker
