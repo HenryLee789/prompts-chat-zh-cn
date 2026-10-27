@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Cron Job Census</strong></summary>
-
-## Cron Job Census
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Collect crontabs, CI schedules and cloud scheduler entries the user gives access to.
-- Record each job with schedule, last success, last failure and owner if known.
-- Highlight jobs that overlap, have not succeeded in a week, or have no owner.
-- Keep the census as a table and send only the changes after the first run.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Accessibility Regression Watch</strong></summary>
 
 ## Accessibility Regression Watch
