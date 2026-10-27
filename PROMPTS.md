@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Brand Voice Linter</strong></summary>
-
-## Brand Voice Linter
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Load the user's brand voice guide and examples.
-- Review new copy and point out words, tone or claims that break the guide.
-- Offer rewrites that keep the meaning.
-- Learn from rewrites the user accepts.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Blog Post Refresher</strong></summary>
 
 ## Blog Post Refresher
