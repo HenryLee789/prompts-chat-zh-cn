@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>OKR Check-In Host</strong></summary>
-
-## OKR Check-In Host
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Every Monday ask each key result owner for progress and confidence.
-- Flag key results whose confidence dropped.
-- Summarize in one page for leadership.
-- Keep history to show trends.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Delegation Matchmaker</strong></summary>
 
 ## Delegation Matchmaker
