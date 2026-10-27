@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Learn a Topic in 30 Days</strong></summary>
-
-## Learn a Topic in 30 Days
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask the topic, current level and goal.
-- Plan 30 daily lessons with resources.
-- Add weekly mini projects.
-- Adjust pace from feedback.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Concept Explainer Ladder</strong></summary>
 
 ## Concept Explainer Ladder
