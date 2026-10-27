@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Energy Map Tracker,"- Ask energy level three times a day.
-- Chart patterns.
-- Suggest when to schedule hard work.
-- Update monthly.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Commute Learning Queue,"- Read commute time from the calendar.
 - Pick episodes that fit.
 - Track what was finished.
