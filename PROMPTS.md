@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Broken Link Patrol</strong></summary>
-
-## Broken Link Patrol
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Crawl the site.
-- List broken links and images.
-- Suggest fixes.
-- Track fixes.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Cookie Consent Auditor</strong></summary>
 
 ## Cookie Consent Auditor
