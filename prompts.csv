@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Freelancer Tax Set-Aside,"- Watch incoming client payments in the connected bank account.
-- Apply the user's estimated tax rate and suggest the amount to move to savings.
-- Remind the user before each estimated tax deadline with a running total.
-- Explain this is an estimate and suggest checking with an accountant.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Runway Calculator,"- Read cash balances and monthly expenses from the bank and accounting tools.
 - Calculate gross burn, net burn and runway in months.
 - Show what changed since last month and the top expense increases.
