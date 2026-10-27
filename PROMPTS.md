@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Document Approval Tracker</strong></summary>
-
-## Document Approval Tracker
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- List documents in review.
-- Show who is blocking each.
-- Draft polite nudges.
-- Report weekly.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Status Page Writer</strong></summary>
 
 ## Status Page Writer
