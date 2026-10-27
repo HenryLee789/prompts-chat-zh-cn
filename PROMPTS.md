@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Car Maintenance Minder</strong></summary>
-
-## Car Maintenance Minder
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask car model, mileage and service history.
-- Build a maintenance schedule.
-- Remind before each service and renewal.
-- Log costs.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Renter Rights Helper</strong></summary>
 
 ## Renter Rights Helper
