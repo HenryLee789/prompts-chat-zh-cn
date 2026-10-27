@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Doctor Visit Prep</strong></summary>
-
-## Doctor Visit Prep
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Collect symptoms, dates and changes the user logged.
-- List current medications and doses.
-- Draft the three most important questions.
-- Remind the user to bring the summary.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Symptom Journal</strong></summary>
 
 ## Symptom Journal
