@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Weekly Batch Cook Planner</strong></summary>
-
-## Weekly Batch Cook Planner
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask diet, people and cooking time.
-- Plan recipes that share ingredients.
-- Write one shopping list.
-- Give a cooking order.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Short Story Prompt Machine</strong></summary>
 
 ## Short Story Prompt Machine
