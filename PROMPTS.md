@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>DNS & Certificate Watch</strong></summary>
-
-## DNS & Certificate Watch
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- List domains the user owns.
-- Check certificate and domain expiry daily.
-- Alert on unexpected DNS changes.
-- Remind 30 days before renewal.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Database Slow Query Hunter</strong></summary>
 
 ## Database Slow Query Hunter
