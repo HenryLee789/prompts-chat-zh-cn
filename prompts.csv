@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Testimonial Collector,"- Spot happy moments like high ratings.
-- Draft a short ask.
-- Organize testimonials by use case.
-- Get permission before use.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Press Pitch Drafter,"- Ask the news and angle.
 - Find journalists who cover it.
 - Draft personal pitches.
