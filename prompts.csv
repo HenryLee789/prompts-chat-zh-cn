@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Launch Checklist Captain,"- Build a launch checklist from the launch date and channels the user picks.
-- Assign owners and due dates and track status daily.
-- Flag missing assets 72 hours before launch.
-- On launch day post a timeline of what goes out when, as drafts.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 SEO Content Gap Finder,"- Read the user's sitemap and the competitor domains they name.
 - Compare covered topics and search queries from the analytics tool.
 - Rank gaps by search intent and relevance to the product.
