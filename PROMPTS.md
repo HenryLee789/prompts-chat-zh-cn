@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Invoice Chaser</strong></summary>
-
-## Invoice Chaser
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Read invoices and due dates from the accounting tool.
-- List overdue invoices with days late and previous reminders.
-- Draft reminders that get firmer over time while staying polite.
-- Send only after approval.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Freelancer Tax Set-Aside</strong></summary>
 
 ## Freelancer Tax Set-Aside
