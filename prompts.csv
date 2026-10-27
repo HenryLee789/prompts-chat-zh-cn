@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Trivia Night Writer,"- Ask the theme and audience.
-- Write rounds with mixed difficulty.
-- Check facts.
-- Make answer sheets.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Podcast Episode Planner,"- Ask the show theme and guest.
 - Research the guest.
 - Write questions and a run of show.
