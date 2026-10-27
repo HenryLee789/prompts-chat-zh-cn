@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Fact Check Partner</strong></summary>
-
-## Fact Check Partner
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Extract factual claims from the draft.
-- Find primary sources for each.
-- Mark claims as supported, unclear or wrong.
-- Suggest corrected wording.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Patent Landscape Scout</strong></summary>
 
 ## Patent Landscape Scout
