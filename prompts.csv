@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Meeting-Free Day Guardian,"- Watch the calendar for invites landing on the protected day.
-- Propose alternative slots on other days that work for all attendees.
-- Draft a polite decline-and-reschedule reply for the user to send.
-- Report monthly how many hours the day protected.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Focus Block Autopilot,"- Every Sunday look at next week's calendar and the user's deadlines.
 - Propose two-hour focus blocks at the user's best energy times.
 - Place holds only after the user approves the plan.
