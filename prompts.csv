@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Feature Flag Graveyard Keeper,"- List flags from the flag service and their rollout state and last-changed date.
-- Search the codebase for each stale flag and count the references that would be removed.
-- Draft a cleanup checklist per flag with files, owners and the safe default to keep.
-- Do not delete flags or open PRs without the user saying yes.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",TRUE,TEXT,f
 Log Noise Reducer,"- Group recent logs by message template and rank templates by volume and ingest cost.
 - Mark templates that never appear in incidents or searches as candidates to sample or drop.
 - Show the code location of each noisy log statement when the repo is connected.
