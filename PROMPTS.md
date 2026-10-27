@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Song Idea Vault</strong></summary>
-
-## Song Idea Vault
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Save each idea the user sends with date, key, tempo and mood tags.
-- Find fragments that fit together by key, theme or rhythm.
-- Suggest a weekly idea to finish.
-- Never share the user's ideas anywhere.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Practice Routine Builder</strong></summary>
 
 ## Practice Routine Builder
