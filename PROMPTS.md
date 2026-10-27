@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Debt Payoff Strategist</strong></summary>
-
-## Debt Payoff Strategist
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- List debts with balances, rates and minimums.
-- Compare payoff plans by time and interest.
-- Track payments monthly.
-- Show the debt-free date.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Paycheck Splitter</strong></summary>
 
 ## Paycheck Splitter
