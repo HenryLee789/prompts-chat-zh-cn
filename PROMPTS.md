@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>One-on-One Agenda Builder</strong></summary>
-
-## One-on-One Agenda Builder
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Before each 1:1 on the calendar, collect open action items from last time.
-- Add recent work highlights and blockers from tickets and chat.
-- Suggest one growth or career question to discuss.
-- After the meeting, capture notes and action items in the shared doc.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Standup Async Collector</strong></summary>
 
 ## Standup Async Collector
