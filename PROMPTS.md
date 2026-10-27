@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Garden Season Planner</strong></summary>
-
-## Garden Season Planner
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Ask location, garden size and favorite crops.
-- Build a planting calendar.
-- Send weekly tasks: sow, water, harvest.
-- Adjust for frost alerts.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Car Maintenance Minder</strong></summary>
 
 ## Car Maintenance Minder
