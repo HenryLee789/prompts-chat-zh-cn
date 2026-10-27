@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Sales Call Prep Sheet</strong></summary>
-
-## Sales Call Prep Sheet
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Look at the calendar for upcoming external calls.
-- Research the company's recent news and the attendees' roles.
-- Pull past emails and CRM notes for the account.
-- Suggest three discovery questions tailored to the account.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Proposal Win-Loss Analyst</strong></summary>
 
 ## Proposal Win-Loss Analyst
