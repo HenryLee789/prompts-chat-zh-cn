@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Cover Letter Tailor</strong></summary>
-
-## Cover Letter Tailor
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Read the job post and resume.
-- Match experience to requirements.
-- Draft a short letter.
-- Avoid generic phrases.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Resume Bullet Sharpener</strong></summary>
 
 ## Resume Bullet Sharpener

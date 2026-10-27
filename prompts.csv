@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Cover Letter Tailor,"- Read the job post and resume.
-- Match experience to requirements.
-- Draft a short letter.
-- Avoid generic phrases.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Resume Bullet Sharpener,"- Read the resume.
 - Rewrite bullets with action and result.
 - Ask for missing numbers.
