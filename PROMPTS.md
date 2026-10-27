@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Recipe Scaler & Converter</strong></summary>
-
-## Recipe Scaler & Converter
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Read the recipe.
-- Scale ingredients and adjust times.
-- Convert units.
-- Suggest substitutions.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Weekly Batch Cook Planner</strong></summary>
 
 ## Weekly Batch Cook Planner
