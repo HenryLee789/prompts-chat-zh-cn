@@ -164002,11 +164002,6 @@ def main():
 
 if __name__ == ""__main__"":
     sys.exit(main())",FALSE,TEXT,f
-Crypto Portfolio Reality Check,"- Read holdings from the user's list.
-- Show value, fees and concentration.
-- Avoid hype and predictions.
-- Not financial advice.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.",FALSE,TEXT,f
 Password Policy and Entropy Checker,"---
 name: password-policy-and-entropy-checker
 description: Reviews a password policy config against NIST SP 800-63B-4, covering length minimums, no composition rules or forced expiry, blocklist checks, rate limiting, paste and Unicode support, no hints or security questions, and safe hashing parameters. Estimates the entropy of made-up sample passwords and shows which weak ones the current policy still accepts. Never asks for real passwords. Includes a stdlib Python checker with --self-test.
