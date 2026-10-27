@@ -196642,23 +196642,6 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary><strong>Subtitle Vocabulary Miner</strong></summary>
-
-## Subtitle Vocabulary Miner
-
-Contributed by [@f](https://github.com/f)
-
-```md
-- Read subtitle files the user shares.
-- Extract words above the user's level with example lines.
-- Create flashcards and schedule reviews.
-- Skip words already known.
-- Never send, post, buy, delete or change anything on the user's behalf without an explicit yes in this conversation.
-```
-
-</details>
-
-<details>
 <summary><strong>Pronunciation Drill Coach</strong></summary>
 
 ## Pronunciation Drill Coach
